@@ -26,6 +26,7 @@ def main():
     p.add_argument('--name-keyboard',action='store_true')
     p.add_argument('--skill-headers',action='store_true')
     p.add_argument('--biographies',action='store_true')
+    p.add_argument('--clothing-results',action='store_true')
     a=p.parse_args();j=a.j.read_bytes();ips=a.ips.read_bytes()
     if sha(j)!=J or sha(ips)!=IPS:raise ValueError('Unsupported input')
     legacy=bytearray(j);records,trunc=ips_records(ips)
@@ -281,6 +282,14 @@ def main():
         from biography_text import install as install_biographies
         biography_writes,biography_info=install_biographies(legacy,extension)
         writes.extend(biography_writes)
+    clothing_info=None
+    if a.clothing_results:
+        from clothing_results import install as install_clothing
+        run('as',['-mcpu=arm7tdmi','-mthumb',ROOT/'source/clothing_measure.s','-o',a.out/'clothing-measure.o'])
+        run('ld',['-Ttext=0x09000900','-e','clothing_measure',a.out/'clothing-measure.o','-o',a.out/'clothing-measure.elf'])
+        run('objcopy',['-O','binary','--only-section=.text',a.out/'clothing-measure.elf',a.out/'clothing-measure.bin'])
+        clothing_writes,clothing_info=install_clothing(legacy,extension,(a.out/'clothing-measure.bin').read_bytes())
+        writes.extend(clothing_writes)
     for o,d,_ in sorted(writes):
         if o<prior_end or o+len(d)>len(legacy):raise ValueError('Overlapping or out-of-range write')
         prior_end=o+len(d)
@@ -311,6 +320,12 @@ def main():
     report['skill_header_graphics']=header_info
     report['biography_text']=biography_info
     report['skill_description_repairs']=skill_description_repairs
+    report['clothing_results']=clothing_info
+    if a.clothing_results:
+        for name in ['source/clothing_measure.s','source/clothing_result_profile.json','translations/clothing_results.json','tools/clothing_results.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
+    if a.skills:
+        report['inputs']['source/skill_text_profile.json']=sha((ROOT/'source/skill_text_profile.json').read_bytes())
     if a.biographies:
         for name in ['source/biography_profile.json','translations/biographies.json','tools/biography_text.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())

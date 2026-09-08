@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "result_width_cells": 24,
+  "creation_suffix_cells": 12,
+  "temporary_buffer_bytes": 32,
+  "measure_entry": "080D42A8",
+  "measure_callers": [
+    "080D42DA",
+    "080D4356"
+  ],
+  "guards": [
+    {
+      "offset": "0xd42a8",
+      "hex": "00b5002205e01f2902d9de2900d00132013001780029f6d1101c02bc0847000030b588b0041c08040014002132f7cef8051cfff7e5ff0c30022161560022a256891a091a49102078091821710449201c2a1c6b462df754fd08b030bc01bc0047fc211c08"
+    },
+    {
+      "offset": "0xd430c",
+      "hex": "f0b5474680b488b0051c081c32f750f980460027074e41461231c9190023cb56002b2ad0002b09dd3268684602492ef76bfa09e0d0d5f10840221c0832685b42684613492ef760fa6846fff7a7ff041c281c2df71ffa0220285600216956401a001b4010297840182871281c09496a462df714fd5a2034f719fd04360137052fc9dd08b008bc9846f0bc02bc0847000050221c0860221c08"
+    },
+    {
+      "offset": "0xd43a4",
+      "hex": "f0b5474680b481b0041c0e1c90460e4d2868b22149004018012100910321112218232df78ff92868084a81180027cf570c200870b4420bd02868b22149004018311cfff76fff0ae0580a00026b0100002868b222520080184146fff785ff0548006805494018077001b008bc9846f0bc01bc0047580a00026b010000"
+    },
+    {
+      "offset": "0xf1d5d0",
+      "hex": "3c221c0838221c082c221c0820221c0818221c0810221c08"
+    }
+  ],
+  "records": [
+    {
+      "id": "creation",
+      "pointer_offset": "0xd4308",
+      "original_pointer": "0x81c21fc",
+      "original_sha256": "5842b058a4f2d03b2d831790b052a07f5c6457d1ff58bff6adfdd0d0f139db1a"
+    },
+    {
+      "id": "increase",
+      "pointer_offset": "0xd4344",
+      "original_pointer": "0x81c2240",
+      "original_sha256": "cfd92a59d89d8ae3c5a34950b46cf4dfba6b59d1b9ccaea2ffd30607753887e0"
+    },
+    {
+      "id": "decrease",
+      "pointer_offset": "0xd439c",
+      "original_pointer": "0x81c2250",
+      "original_sha256": "f53aa59be8ede899254332fba8244e597a900c91cbbe8d2498a7fa90ffdc8296"
+    },
+    {
+      "id": "attack",
+      "pointer_offset": "0xf1d5d8",
+      "original_pointer": "0x81c222c",
+      "original_sha256": "2f94ea3947db2a1a142f01ef960a73d7ddb459178a757ebb19a398d27758740f"
+    },
+    {
+      "id": "defense",
+      "pointer_offset": "0xf1d5dc",
+      "original_pointer": "0x81c2220",
+      "original_sha256": "2193cb60256d5f534c6c834ea578896bd079bf5a0d1a3488721903bcefc0d65c"
+    },
+    {
+      "id": "intellect",
+      "pointer_offset": "0xf1d5e0",
+      "original_pointer": "0x81c2218",
+      "original_sha256": "a4e71e11fdd08989b7d42b0e57db8c4b160b6021d5a487e37abf41d71519ef38"
+    },
+    {
+      "id": "agility",
+      "pointer_offset": "0xf1d5e4",
+      "original_pointer": "0x81c2210",
+      "original_sha256": "bc786890b032ec8325914cfd5de2d7ad8871dea215e9ba670136b49be8aa6600"
+    }
+  ]
+}

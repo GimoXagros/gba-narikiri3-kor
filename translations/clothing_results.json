@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": "creation",
+      "text": "%s 코스튬을 만들었습니다",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "id": "increase",
+      "text": "%s %d 상승",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "id": "decrease",
+      "text": "%s %d 하락",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "id": "attack",
+      "text": "공격력",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "id": "defense",
+      "text": "방어력",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "id": "intellect",
+      "text": "지력",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "id": "agility",
+      "text": "민첩",
+      "review": "source_consumer_confirmed_runtime_pending"
+    }
+  ]
+}
