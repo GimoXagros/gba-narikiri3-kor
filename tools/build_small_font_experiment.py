@@ -75,7 +75,7 @@ def main():
         # r3 is the live source pointer here; only r0 is disposable.
         writes.insert(0,(0x1ddc,bytes.fromhex('00480047')+struct.pack('<I',entry[0]),'Simple string consumer shares protected glyph cache'))
     speaker_count=0
-    skill_count=0;large_repairs=0
+    skill_count=0;large_repairs=0;skill_description_repairs=0
     actor_count=0;actor_large=0
     lexicon_counts={}
     ui_count=0
@@ -115,16 +115,27 @@ def main():
     if a.skills:
         catalog=json.loads(a.skills.read_text(encoding='utf-8'))
         if catalog['schema']!=1 or catalog['policy']!='development_only_needs_review' or len(catalog['records'])!=390:raise ValueError('Invalid skill catalog')
+        skill_profile=json.loads((ROOT/'source/skill_text_profile.json').read_text(encoding='utf-8'))
+        if sha(legacy[0x741ddc:0x741ddc+390*20])!=skill_profile['table_sha256']:raise ValueError('Skill source table changed')
+        for guard in skill_profile['guards']:
+            off=int(guard['offset'],0);raw=bytes.fromhex(guard['hex'])
+            if legacy[off:off+len(raw)]!=raw:raise ValueError('Skill text consumer changed')
         cursor=0xa000;linked={}
         for index,row in enumerate(catalog['records']):
             if row['id']!=f'skill-{index:03d}':raise ValueError('Skill identity/order differs')
-            for field,text in [(0,row['compact']),(4,row['large_repair'])]:
+            at=0x741ddc+index*20
+            if sha(legacy[at:at+20])!=row['source_record_sha256']:raise ValueError('Skill identity metadata changed')
+            for field,text in [(0,row['compact']),(4,row['large_repair']),(8,row.get('description_repair'))]:
                 if text is None:continue
                 if field==0 and any(not ('\uac00'<=c<='\ud7a3' or 0x20<=ord(c)<=0x7e or c=='･') for c in text):raise ValueError('Unsupported compact character/control')
                 if any('\uac00'<=c<='\ud7a3' and c not in glyphs for c in text):raise ValueError('Missing skill glyph')
                 # Current development selection must fit the observed longest
                 # inherited string. This is NOT a proof of every caller's box.
-                if len(text)>13:raise ValueError('Skill exceeds current draft design: 13 cells; reopen layout selection')
+                if len(text)>(18 if field==8 else 13):raise ValueError('Skill text exceeds selected window')
+                if field==8:
+                    ptr=struct.unpack_from('<I',legacy,at+8)[0]-0x08000000
+                    if sha(legacy[ptr:legacy.index(0,ptr)+1])!=row['description_original_sha256']:raise ValueError('Skill description source changed')
+                    if '%' in text or '\n' in text or any(ord(c)<32 for c in text):raise ValueError('Unmodeled skill description control')
                 encoded=encode(text)+b'\0'
                 if encoded not in linked:
                     cursor=(cursor+3)&~3;linked[encoded]=0x09000000+cursor
@@ -132,9 +143,10 @@ def main():
                 offset=0x741ddc+index*20+field
                 ptr=struct.unpack_from('<I',legacy,offset)[0]
                 if not 0x081000c4<=ptr<0x08114000:raise ValueError('Skill pointer outside established text family')
-                writes.append((offset,struct.pack('<I',linked[encoded]),f'{row["id"]} {"compact" if field==0 else "large repair"}: {text}'))
+                writes.append((offset,struct.pack('<I',linked[encoded]),f'{row["id"]} { {0:"compact",4:"large repair",8:"description repair"}[field]}: {text}'))
                 if field==0:skill_count+=1
-                else:large_repairs+=1
+                elif field==4:large_repairs+=1
+                else:skill_description_repairs+=1
         if cursor>0x20000:raise ValueError('Skill allocation outside declared extension area')
     if a.actors:
         catalog=json.loads(a.actors.read_text(encoding='utf-8'))
@@ -298,6 +310,7 @@ def main():
     report['name_keyboard']=keyboard_info
     report['skill_header_graphics']=header_info
     report['biography_text']=biography_info
+    report['skill_description_repairs']=skill_description_repairs
     if a.biographies:
         for name in ['source/biography_profile.json','translations/biographies.json','tools/biography_text.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())

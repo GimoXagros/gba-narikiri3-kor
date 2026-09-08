@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "table": "0x741ddc",
+  "stride": 20,
+  "count": 390,
+  "table_sha256": "8309cddc609635a60e635cd095072952b589a0d9dea57771dc8c6798054d071d",
+  "description_field": 8,
+  "metadata_range": [
+    12,
+    20
+  ],
+  "description_max_cells": 18,
+  "large_name_max_cells": 13,
+  "guards": [
+    {
+      "offset": "0x6e28",
+      "hex": "011c8800401880000149401870470000dc1d740800b5021c002907d00249900080188000043105e0dc1d740803499000801880004018006802bc0847dc1d7408034a8100091889000832891808687047dc1d7408"
+    },
+    {
+      "offset": "0xca550",
+      "hex": "f0b5061c0c1c35f7c9ff002c36d0201c3cf762fc051c002036f7aefd071c36f765fd201c3cf778fc37f772f8201c3cf773fc13f005fb232802d80d4837f768f8301c211c3cf77cfc011c002902dd094837f75ef8e87c002805d0074837f758f8e87c00f011f8381c36f786fd08e0000060e41b08c4e41b08d4e41b0836f736fdf0bc01bc00470000"
+    }
+  ],
+  "scope": "Selected exact skill name/description pointers; cost, attack attributes and equipment data are preserved. Whole skill reachability is separate."
+}

@@ -43,7 +43,9 @@ def main():
             ('verify_battle_captions.py','battle-caption-verification.json',['--legacy',legacy_path]),
             ('verify_name_keyboard.py','name-keyboard-verification.json',['--legacy',legacy_path]),
             ('verify_skill_headers.py','skill-header-verification.json',['--legacy',legacy_path]),
-            ('verify_biographies.py','biography-verification.json',['--legacy',legacy_path])]
+            ('verify_biographies.py','biography-verification.json',['--legacy',legacy_path]),
+            ('verify_internal_battle_menu.py','internal-battle-menu-verification.json',[]),
+            ('verify_skill_text.py','skill-text-verification.json',['--legacy',legacy_path])]
     for script,filename,extra in checks:run(script,['--rom',rom,'--out',out/filename,*extra])
     files=[*sorted((ROOT/'tools').glob('*.py')),*sorted((ROOT/'source').glob('*')),
            *sorted((ROOT/'translations').glob('*.json')),ROOT/'fonts/dalmoori-wansung.json',ROOT/'requirements-dev.txt',ROOT/'project.json']

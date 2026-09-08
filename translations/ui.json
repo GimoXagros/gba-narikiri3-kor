@@ -412,6 +412,18 @@
       "text": "정보 보기",
       "review": "source_and_call_inspected",
       "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "scroll-hint-party-enabled",
+      "text": "%16g:스크롤 %1g:뒤로 %17g%18g:팀 전환",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "scroll-hint-party-disabled",
+      "text": "%16g:스크롤 %1g:뒤로",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
     }
   ]
 }

@@ -13,7 +13,7 @@ def main():
     if sha(source)!=J or len(source)!=0x1000000 or sha(target)!=m['target_sha256']:raise ValueError('Source/target mismatch')
     if m['status']!='EXPERIMENT_NOT_RELEASE':raise ValueError('This packager is only for development evidence')
     checks={}
-    required=['consumer-verification.json','name-import-verification.json']
+    required=['consumer-verification.json','name-import-verification.json','internal-battle-menu-verification.json']
     if any(w['offset']=='0x1ddc' for w in m['writes']):required.append('simple-consumer-verification.json')
     if m.get('lexicon_entries'):required.append('integrated-name-verification.json')
     if m.get('ui_entries'):required.append('ui-verification.json')
@@ -24,6 +24,7 @@ def main():
     if m.get('name_keyboard'):required.append('name-keyboard-verification.json')
     if m.get('skill_header_graphics'):required.append('skill-header-verification.json')
     if m.get('biography_text'):required.append('biography-verification.json')
+    if m.get('skill_description_repairs'):required.append('skill-text-verification.json')
     for filename in required:
         c=json.loads((a.build/filename).read_text(encoding='utf-8'))
         if c['status']!='PASS' or c['rom_sha256']!=m['target_sha256']:raise ValueError('Verification does not cover this exact artifact')
@@ -53,7 +54,7 @@ def main():
     if m.get('version')!=identity['version']:raise ValueError('Build version does not match selected project')
     patch_name=identity['patch_file'];(a.out/patch_name).write_bytes(patch)
     manifest={'status':'LOCAL_DEVELOPMENT_REVIEW_NOT_100_PERCENT_NOT_RELEASE','source_size':len(source),'source_sha256':J,'target_size':len(target),'target_sha256':sha(target),'patch_file':patch_name,'patch_sha256':sha(patch),'bps_roundtrip':True,'rom_included':False,'counts':{k:m[k] for k in ('font_glyphs','speaker_entries','skill_entries','actor_entries','large_skill_repairs','large_actor_changes','lexicon_entries','ui_entries')},'limits':m['limits']}
-    manifest.update(version=identity['version'],small_table_entries=m.get('small_table_entries',0),dialogue_corrections=m.get('dialogue_corrections',0),recipe_string_fields=m.get('recipe_string_fields',0),battle_caption_sprites=m.get('battle_caption_sprites',0))
+    manifest.update(version=identity['version'],small_table_entries=m.get('small_table_entries',0),dialogue_corrections=m.get('dialogue_corrections',0),recipe_string_fields=m.get('recipe_string_fields',0),battle_caption_sprites=m.get('battle_caption_sprites',0),skill_description_repairs=m.get('skill_description_repairs',0))
     (a.out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
     for name,data in checks.items():(a.out/name).write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
     for src,dest in [('tools/apply_development.py','apply_development.py'),('tools/bps.py','bps.py'),('fonts/LICENSE.dalmoori','LICENSE.dalmoori'),('docs/LICENSE.nd2-tools','LICENSE.nd2-tools'),('CREDITS.md','CREDITS.md'),('docs/REVIEW_README.md','먼저_읽어주세요.md')]:shutil.copyfile(ROOT/src,a.out/dest)

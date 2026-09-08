@@ -1750,6 +1750,48 @@
           "hex": "184929f721f8"
         }
       ]
+    },
+    {
+      "id": "scroll-hint-party-enabled",
+      "pointer_offset": "0xda324",
+      "original_pointer": "0x81c3394",
+      "original_raw": "253136673abdb8dbb0d9202531673a12d3c4ded92025313767253138673a5054b7d8b6b4",
+      "call_address": "080DA31A",
+      "call_bytes": "27f745fd",
+      "consumer": "08001DA8",
+      "selected_max_cells": 23,
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xda302",
+          "hex": "081c8c300121009104210122172327f7eaf920688c30024927f745fd"
+        }
+      ],
+      "basis": "Original DA2E0 delayed help bubble; actual 16E8 initializer uses 23 cells, one row. Preserve graphic indices 16/1/17/18 and remove one source-local kana-mode byte 12 before Korean label. No state/control code change.",
+      "removed_local_kana_controls": [
+        18
+      ]
+    },
+    {
+      "id": "scroll-hint-party-disabled",
+      "pointer_offset": "0xda358",
+      "original_pointer": "0x81c33bc",
+      "original_raw": "253136673abdb8dbb0d9202531673a12d3c4ded9",
+      "call_address": "080DA340",
+      "call_bytes": "27f732fd",
+      "consumer": "08001DA8",
+      "selected_max_cells": 13,
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xda328",
+          "hex": "081c8c3001210091092101220d2327f7d7f920688c30064927f732fd"
+        }
+      ],
+      "basis": "Original DA2E0 delayed help bubble; actual 16E8 initializer uses 13 cells, one row. Preserve graphic indices 16/1/17/18 and remove one source-local kana-mode byte 12 before Korean label. No state/control code change.",
+      "removed_local_kana_controls": [
+        18
+      ]
     }
   ]
 }

@@ -2,11 +2,12 @@
 import re,struct
 from text_codec import encode,decode
 
-TOKEN=re.compile(r'%(?:[0-9]*[ds]|[01]g|[hl])')
+TOKEN=re.compile(r'%(?:[0-9]*[ds]|[0-9]+g|[hl])')
 
 def format_tokens(text):
     stripped=TOKEN.sub('',text)
     if '%' in stripped:raise ValueError('Unmodeled UI format token')
+    if any(int(t[1:-1])>18 for t in TOKEN.findall(text) if t.endswith('g')):raise ValueError('Unverified UI button graphic')
     return [t for t in TOKEN.findall(text) if t!='%h']
 
 def selected_ui(profile,catalog,legacy,glyphs):
@@ -33,7 +34,7 @@ def selected_ui(profile,catalog,legacy,glyphs):
         if any('\uac00'<=c<='\ud7a3' and c not in glyphs for c in text):raise ValueError('Missing UI Hangul glyph')
         # Independent caller constraints: name editor has five slots; this
         # heading is also checked against the selected actor-name repertoire.
-        worst=text.replace('%l','').replace('%0g','A').replace('%1g','B').replace('%s','가'*5).replace('%3d','19884').replace('%1d','9').replace('%2d','59')
+        worst=re.sub(r'%[0-9]+g','A',text).replace('%l','').replace('%s','가'*5).replace('%3d','19884').replace('%1d','9').replace('%2d','59')
         if max(map(len,worst.split('\n')))>p['selected_max_cells']:raise ValueError('UI exceeds selected caller width')
         if p['id']=='save-place-label' and len(text)!=8:raise ValueError('Location start would move')
         if 'exact_cells' in p and len(text)!=p['exact_cells']:raise ValueError('Adjacent setting position would move')

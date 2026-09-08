@@ -37,7 +37,7 @@ class Fixture:
 def main():
     p=argparse.ArgumentParser();p.add_argument('--rom',type=Path,required=True);p.add_argument('--legacy',type=Path,required=True);p.add_argument('--glyphs',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
     rom=a.rom.read_bytes();legacy=a.legacy.read_bytes();glyphs=json.loads(a.glyphs.read_text(encoding='utf-8'))
-    chars=list(hangul_map().values());checked=0;skill_cases=0
+    chars=list(hangul_map().values());checked=0;skill_cases=0;icon_cases=0
     fallback=[b'ABC 012!?', 'ｸﾚｽ ﾌﾞﾗｳﾝ ﾎﾜｲﾄ'.encode('cp932'),b'\x12'+ 'ｼｲﾅ ｽｽﾞ'.encode('cp932')+b'\x12', 'ﾊﾟﾋﾟﾌﾟﾍﾟﾎﾟ ｶﾞｷﾞｸﾞｹﾞｺﾞ'.encode('cp932')]
     for mode in (0,1):
         f=Fixture(rom,mode)
@@ -55,6 +55,18 @@ def main():
             for raw in fallback:
                 original.draw(raw,mark_mode=marks);f.draw(raw,mark_mode=marks)
                 if original.pixels()!=f.pixels():raise ValueError(f'Fallback mismatch: {raw!r}, mode {mode}, marks {marks}')
+        # Button graphics carry one raw index byte, including NUL and 10.
+        # Verify the whole established 0..18 repertoire after cache reuse,
+        # then keep it displayed while additional Hangul glyphs are drawn.
+        icons=b''.join(b'\x13'+bytes([i]) for i in range(19))
+        original.draw(icons,x=1,y=4)
+        f.draw(encode('가나다라마바사아자차'));f.draw(icons,clear=False,x=1,y=4)
+        expected_icons=[original.tile(x,4) for x in range(1,20)]
+        if [f.tile(x,4) for x in range(1,20)]!=expected_icons:raise ValueError('Button graphics changed after cache reuse')
+        icon_cases+=19
+        f.draw(encode('쾌퀘후훤쾅벙땅뻘'),clear=False,x=1,y=6)
+        if [f.tile(x,4) for x in range(1,20)]!=expected_icons:raise ValueError('Visible button graphics were overwritten by Hangul')
+        icon_cases+=19
         # Drawing another label must leave an existing Korean label intact.
         f.draw(encode('브라운'));before=[f.tile(i,1) for i in (1,2,3)]
         f.draw(encode('화이트'),clear=False,x=10,y=1)
@@ -80,6 +92,7 @@ def main():
                 f.draw(raw);skill_cases+=1
     result=dict(status='PASS',claim='Isolated original Thumb consumer execution, not whole-game runtime',
         rom_sha256=hashlib.sha256(rom).hexdigest(),glyph_mode_cases=checked,kana_ascii_control_cases=24,live_label_cases=2,cache_capacity_and_exhaustion_cases=2,skill_consumer_cases=skill_cases,
+        button_graphic_preservation_cases=icon_cases,
         limits=['Not all callers or font loaders covered','124-slot exhaustion is a verified development-only failure signal, not release behavior','No persistence or gameplay claim'])
     a.out.write_text(json.dumps(result,indent=2),encoding='utf-8');print(json.dumps(result))
 if __name__=='__main__':main()

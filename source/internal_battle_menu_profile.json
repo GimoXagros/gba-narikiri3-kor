@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "duplicate_table_start": "0x7bfd78",
+  "duplicate_table_end": "0x7c00cc",
+  "duplicate_table_sha256": "4c0a6f779acc070e6e9287b35731f17f7a2d27eead1d8c60c84f3fec3cbe5465",
+  "guards": [
+    {
+      "offset": "0x17668",
+      "hex": "70b5041c261c164d298810200840002805d06089013060814020c4f023fc298820200840002805d06089013860814020c4f018fc0a21605e002801da032060810a21605e032801dd00206081298801200840002806d04220c4f004fc02200fe0f833000302200840002804d1301c00f081fa012004e04120c4f0f4fb0120404270bc02bc0847000000b5054a0a23c15e890089180968c6f095f802bc08470000081d7c08",
+      "basis": "Input boundary, clamp and action dispatch"
+    },
+    {
+      "offset": "0x7c1cfc",
+      "hex": "4176010869760108f17601080d770108c978010891790108857a0108c17a0108",
+      "basis": "State callbacks and five action pointers"
+    },
+    {
+      "offset": "0x17ac0",
+      "hex": "10b5041c00f054f8201c00f02bf9f4f785fd201c00f03af9201c00f05ff8012010bc02bc08470000",
+      "basis": "Internal fifth action calls C5DC"
+    },
+    {
+      "offset": "0xc5dc",
+      "hex": "00b51b20f7f7d0fb0120f5f79ffdfff7b1ff0020f5f79afdf7f7cefb01bc0047",
+      "basis": "Internal menu font mode and C550 entry"
+    },
+    {
+      "offset": "0x1127a8",
+      "hex": "30271108a9c60008",
+      "basis": "Character selector callback C6A8"
+    },
+    {
+      "offset": "0xc714",
+      "hex": "c81e000404140220012110220e4bf8f7a5f900040514b54212d03a68e8321068e4000019858111680919084be800401bc000c018408ac8811068001941460182396801208876abe778fd7b08ac211008",
+      "basis": "212-list selection and real monster record/HP lookup"
+    },
+    {
+      "offset": "0x4a84",
+      "hex": "002080460026186800280bd04d46d9f07df8041ca04500daa0460435013628680028f4d1b74200dd371c",
+      "basis": "Original null-terminated menu population loop"
+    }
+  ]
+}

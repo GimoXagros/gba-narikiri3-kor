@@ -1,5 +1,5 @@
 """Run the real variadic formatter and patched renderer for adopted UI strings."""
-import argparse,hashlib,json,struct
+import argparse,hashlib,json,struct,re
 from pathlib import Path
 from unicorn.arm_const import UC_ARM_REG_R0,UC_ARM_REG_R1,UC_ARM_REG_R2,UC_ARM_REG_R3,UC_ARM_REG_R4,UC_ARM_REG_SP,UC_ARM_REG_LR,UC_ARM_REG_PC
 from text_codec import encode
@@ -60,7 +60,7 @@ def main():
                     u.emu_start(0x08001da9,0x0203fff0,count=5000000)
                 else:raise ValueError('Unmodeled format consumer')
                 if u.reg_read(UC_ARM_REG_PC)!=0x0203fff0 or u.reg_read(UC_ARM_REG_SP)!=0x03007e00:raise ValueError('Formatted consumer return/stack mismatch')
-                rendered=text.replace('%l','\x10').replace('%0g','\x13\x00').replace('%1g','\x13\x01')
+                rendered=re.sub(r'%([0-9]+)g',lambda m:'\x13'+chr(int(m[1])),text.replace('%l','\x10'))
                 # Actual formatter: 080027B2 emits clear/reset 10; 080027BE
                 # emits icon 13 then its numeric argument (including zero).
                 want=encode(rendered%params if params else rendered)
