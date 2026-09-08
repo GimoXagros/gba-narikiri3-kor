@@ -101,6 +101,24 @@
       "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
       "evidence_sha256": "2729640940aa5e01c2d713c9ce2d102bd140eb61bf7e31bffb5731c22b5598c2",
       "evidence_path": "output/v1.1a-dev24-timing-vba/timing.json"
+    },
+    {
+      "rom_sha256": "6feafc44f71982f8739dd3568b381b2747d5ccc2ccbf3755ae83b09b90a42037",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17733,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "26c3012af61f4b385d3281fbcfc282fa047f12db5811d0ceee201dce0f3d6929",
+      "evidence_path": "output/v1.1a-dev25-timing-mgba/timing.json"
+    },
+    {
+      "rom_sha256": "6feafc44f71982f8739dd3568b381b2747d5ccc2ccbf3755ae83b09b90a42037",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17728,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "e5e8f5e4aac823834877ee6b8a17e37100b1cd49aae49901189f805bba870a36",
+      "evidence_path": "output/v1.1a-dev25-timing-vba/timing.json"
     }
   ]
 }

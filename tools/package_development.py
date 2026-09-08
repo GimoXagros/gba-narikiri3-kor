@@ -27,6 +27,7 @@ def main():
     if m.get('skill_description_repairs'):required.append('skill-text-verification.json')
     if m.get('clothing_results'):required.append('clothing-result-verification.json')
     if m.get('save_places'):required.append('save-place-verification.json')
+    if m.get('notice_text'):required.append('notice-verification.json')
     for filename in required:
         c=json.loads((a.build/filename).read_text(encoding='utf-8'))
         if c['status']!='PASS' or c['rom_sha256']!=m['target_sha256']:raise ValueError('Verification does not cover this exact artifact')

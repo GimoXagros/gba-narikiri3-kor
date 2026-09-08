@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": "music-title-00",
+      "kind": "music_title",
+      "index": 0,
+      "pointer_offset": "0xd441c8",
+      "original_pointer": "0x8146700",
+      "original_sha256": "a87207a7948385d1eb1ea16aa3fa136b33129334d1f43b693400d899e2145799",
+      "original_japanese": "マッピー",
+      "text": "마피"
+    },
+    {
+      "id": "music-title-01",
+      "kind": "music_title",
+      "index": 1,
+      "pointer_offset": "0xd441d8",
+      "original_pointer": "0x81466f0",
+      "original_sha256": "b8b48defda1a54df48e477e6a7ec4fb517a370c15f58a61f5f3cd2b64a610b66",
+      "original_japanese": "リブルラブル",
+      "text": "리블 래블"
+    },
+    {
+      "id": "music-title-02",
+      "kind": "music_title",
+      "index": 2,
+      "pointer_offset": "0xd441e8",
+      "original_pointer": "0x81466dc",
+      "original_sha256": "bf350853da53ccec9db1d5bb3f1803db05204534982187f41126f80c6a77d59d",
+      "original_japanese": "ドラゴンバスター",
+      "text": "드래곤 버스터"
+    },
+    {
+      "id": "music-title-03",
+      "kind": "music_title",
+      "index": 3,
+      "pointer_offset": "0xd441f8",
+      "original_pointer": "0x81466cc",
+      "original_sha256": "137d5c09e915181b8b4b81901f5aa75106a159240f3e00bb6890f02ad3ff8999",
+      "original_japanese": "メトロクロス",
+      "text": "메트로 크로스"
+    },
+    {
+      "id": "music-title-04",
+      "kind": "music_title",
+      "index": 4,
+      "pointer_offset": "0xd44208",
+      "original_pointer": "0x81466bc",
+      "original_sha256": "aedb2fade3b5aca00a0036a2ac109045b994276636af0a9f481ffb45d176b2ae",
+      "original_japanese": "スカイキッド",
+      "text": "스카이 키드"
+    },
+    {
+      "id": "music-title-05",
+      "kind": "music_title",
+      "index": 5,
+      "pointer_offset": "0xd44218",
+      "original_pointer": "0x81466a8",
+      "original_sha256": "cbbcc8b17bfcaafefbf360175a686eaa672c6812d37172181ca15d144ad71754",
+      "original_japanese": "ドラゴンスピリット",
+      "text": "드래곤 스피릿"
+    },
+    {
+      "id": "music-title-06",
+      "kind": "music_title",
+      "index": 6,
+      "pointer_offset": "0xd44228",
+      "original_pointer": "0x814669c",
+      "original_sha256": "2fdae929e23c7b3fa31b8f2d90e5d7b4513340ce1341adc89b9cd706436ec0ae",
+      "original_japanese": "源平討魔伝",
+      "text": "겐페이 토마덴"
+    },
+    {
+      "id": "music-title-07",
+      "kind": "music_title",
+      "index": 7,
+      "pointer_offset": "0xd44238",
+      "original_pointer": "0x814668c",
+      "original_sha256": "be3e4a58d582b623bb5bdfeaee9af057c33b68a00cdb18c3c7a735276934ec29",
+      "original_japanese": "ファンタジア",
+      "text": "판타지아"
+    },
+    {
+      "id": "music-title-08",
+      "kind": "music_title",
+      "index": 8,
+      "pointer_offset": "0xd44248",
+      "original_pointer": "0x814667c",
+      "original_sha256": "a4a297f2dfab5e1104354754652174ce0631c01e32ace8d527717249e4146e8f",
+      "original_japanese": "デスティニー",
+      "text": "데스티니"
+    },
+    {
+      "id": "music-title-09",
+      "kind": "music_title",
+      "index": 9,
+      "pointer_offset": "0xd44258",
+      "original_pointer": "0x8146670",
+      "original_sha256": "63883f73dfa9b1e7aaf99a5d2fbd46e238ca6983ceb3e3cc6cbbbe5f3e6d3126",
+      "original_japanese": "エターニア",
+      "text": "이터니아"
+    },
+    {
+      "id": "music-title-10",
+      "kind": "music_title",
+      "index": 10,
+      "pointer_offset": "0xd44268",
+      "original_pointer": "0x8146660",
+      "original_sha256": "0ae79093b729b563e21fc209a17a9628e234da022bd9668dabf6bd0eafc7ce33",
+      "original_japanese": "デスティニー２",
+      "text": "데스티니 2"
+    },
+    {
+      "id": "music-title-11",
+      "kind": "music_title",
+      "index": 11,
+      "pointer_offset": "0xd44278",
+      "original_pointer": "0x8146650",
+      "original_sha256": "e1458eb113279168b2468ce808250778c65c3bac1601e50d567c4293fae121bc",
+      "original_japanese": "シンフォニア",
+      "text": "심포니아"
+    },
+    {
+      "id": "field-mel-dio",
+      "kind": "field_speaker",
+      "pointer_offset": "0xa5620",
+      "original_pointer": "0x8146b44",
+      "original_sha256": "7d74d9d6b766227083535b2909b0b5ea1d11b08c9df48a3b4359b022e141307c",
+      "original_japanese": "ﾒﾙ･ﾃﾞｨｵ",
+      "text": "멜/디오"
+    }
+  ]
+}
