@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9f895d9a13ed09386df47eb1256dc41419685e776c9ac5fa05a2f2e225d5c374",
+  "pointer_value_cases": 910,
+  "both_renderer_mode_cases": 1820,
+  "scope": "Selected static table records and isolated renderers; excludes unresolved duplicate tables, player save branches and whole-game reachability/layout"
+}

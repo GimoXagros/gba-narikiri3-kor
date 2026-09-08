@@ -1,0 +1,776 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "population": 96,
+  "terms_sha256": "73abc35fb1ca23ad9b3b90f60bcb4768628de87c530e35d99e9b48adb34bc6cf",
+  "records": [
+    {
+      "id": "actor-000",
+      "compact": "---",
+      "large": null,
+      "wording_basis": "Inherited K1.1",
+      "review": "layout_pending",
+      "source_record_sha256": "9eb513fe8ab481ecea63f813cafe9f0e4d14e64b8514ecf6d1c20cfac38ce569"
+    },
+    {
+      "id": "actor-001",
+      "compact": "크레스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "44af21c7fce61f36edad1669e296b52cff0fe51aebd5db1cdd4e0e8ab79629e5"
+    },
+    {
+      "id": "actor-002",
+      "compact": "체스터",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "c1b73c4c61135f8aac4dbfb992b52641c1fbae44b5e2f64ff9b8c17f67a74c6e"
+    },
+    {
+      "id": "actor-003",
+      "compact": "민트",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "6a60ad582d401f5953d125f7c4434e69be1e8574a1043d772e58cce608635d50"
+    },
+    {
+      "id": "actor-004",
+      "compact": "클라스",
+      "large": "클라스",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "5ae4a07195ad93b82309dfb163c76cdb1203a4b17a71186c6ab0a75780f89b3e"
+    },
+    {
+      "id": "actor-005",
+      "compact": "아체",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "0e293215b81c5893927604fb847dd8081c816e1277d310a58b3ed8f4f9c2df9e"
+    },
+    {
+      "id": "actor-006",
+      "compact": "스즈",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "1a20cca54147152979628c46e00e3283ca914e9c58c8256ecf531cd519af4fa1"
+    },
+    {
+      "id": "actor-007",
+      "compact": "스탄",
+      "large": "스탄",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "06d4c205f6f964f51568cf8ff7f859dfb3e436f7281bf4c19f12a6191d2bc2eb"
+    },
+    {
+      "id": "actor-008",
+      "compact": "루티",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "f3bb2fed37522ad5efa4e33f88fdd5e4b3df8c5e9ed5c57957f54bad4343a2ff"
+    },
+    {
+      "id": "actor-009",
+      "compact": "리온",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "bb5acef77ea9ca8fce08fea42bf20a27aba60ac620a16e436ff807710700a902"
+    },
+    {
+      "id": "actor-010",
+      "compact": "필리아",
+      "large": "필리아",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "94bd175dc599e65fdf11de2a91001adb73bbe20675cb37406cc292920037ca95"
+    },
+    {
+      "id": "actor-011",
+      "compact": "우드로우",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "c953cb4f7b53b0657e44b8e5226da779ec43d609375921a59574378807e903c8"
+    },
+    {
+      "id": "actor-012",
+      "compact": "첼시",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "6b2f4fa46651104deb2cccc404b26187dc9ff3047121577f33318907d53674d4"
+    },
+    {
+      "id": "actor-013",
+      "compact": "마리",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "07d757e6ce555485454876cc52fead8d4143e281b3e4b82ba50a70421ba7b73e"
+    },
+    {
+      "id": "actor-014",
+      "compact": "콩맨",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "d34a4c115b67411bb5566876302a06192de131b20aa52e258a1c807cb881be9a"
+    },
+    {
+      "id": "actor-015",
+      "compact": "죠니",
+      "large": "죠니",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "d42454ad7060058953676392fc2af955a6d7c2943a62160155a143b9d6b3c813"
+    },
+    {
+      "id": "actor-016",
+      "compact": "리드",
+      "large": "리드",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "63fd9f4549fc5eacf5160d8d6f127aa6786915aa7bfd37fdbf1c61484b4d38b5"
+    },
+    {
+      "id": "actor-017",
+      "compact": "파라",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "9a31d524657efaea98e496b4b7ca11b06b8d6d0a13f65fd98840266b5c35a4c1"
+    },
+    {
+      "id": "actor-018",
+      "compact": "킬",
+      "large": "킬",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "b288e0a32659e34865ee1966ca331b5773f1809b3d2fca50723db10841465057"
+    },
+    {
+      "id": "actor-019",
+      "compact": "메르디",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "2f158268dad9919c4a904bf663fb11213ce7507f432dc9cc50c84643669765e1"
+    },
+    {
+      "id": "actor-020",
+      "compact": "포그",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "3d4ae6454f389179cd13e7331927c7f68851d3c49b1af4bc81c986617a87c66c"
+    },
+    {
+      "id": "actor-021",
+      "compact": "채트",
+      "large": "채트",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "fe40f222e42f67b886633034695fbc8b576e6173e7ca9ee4995805768bedc1a5"
+    },
+    {
+      "id": "actor-022",
+      "compact": "레이스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "66ea46dd9a0af0c36b624e2a80cd4882054fa79169e3855eb8e56a2dacf1e926"
+    },
+    {
+      "id": "actor-023",
+      "compact": "카일",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "e94eba94845dc52dac532ef116ac814e233ca96d0e3bab0325c9338982dadb7d"
+    },
+    {
+      "id": "actor-024",
+      "compact": "로니",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "e04d751eb21e125c539731cf3818926715f82281f94c216091b49f83dd9f4fee"
+    },
+    {
+      "id": "actor-025",
+      "compact": "리아라",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "d6c9360de1e6793c57e1bde727eb85814ca3a86234796e2358a01a25a88ecc9b"
+    },
+    {
+      "id": "actor-026",
+      "compact": "쥬다스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "baf91573130722934ff1ba444be27e6a1cce224b0df0cf72936a5466da2d24ec"
+    },
+    {
+      "id": "actor-027",
+      "compact": "나나리",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "7f09037f10751a7aa9af176b2b8ca10f87249d27029df9dcb858d6e7c1bc6c5f"
+    },
+    {
+      "id": "actor-028",
+      "compact": "해롤드",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "6c75a41c22413cf76b5ba7a6e9fe75318a9ba1d4f0202a5ae4e4d7d257631dab"
+    },
+    {
+      "id": "actor-029",
+      "compact": "로이드",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "c809adae0dd1f12e3876808af9c21ca926c098b250630c564361251e7df0ffcd"
+    },
+    {
+      "id": "actor-030",
+      "compact": "지니어스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "b9ec91b2f2495fe6630633611d57a168ffcc0ee2e94319af9e569402c12cc40b"
+    },
+    {
+      "id": "actor-031",
+      "compact": "콜레트",
+      "large": "콜레트",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "9a85f4e7bff18a8e64c0034d3869968125da39c1fec7b937ee769d20191e9a6c"
+    },
+    {
+      "id": "actor-032",
+      "compact": "리필",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "39a484cf080901442baa4e15b04ca2c1ee12c09acc278ab1816e268a1f5662f4"
+    },
+    {
+      "id": "actor-033",
+      "compact": "시이나",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "2f7158bc16909a0f98efd9a0bc6a8e3643f819f1a62192caf2326684dd8ba638"
+    },
+    {
+      "id": "actor-034",
+      "compact": "젤로스",
+      "large": "젤로스",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "e1d7c7c80ae0e9587470599baa6b805bdd7f7a73d26f1c804c1adbfc1c8640d0"
+    },
+    {
+      "id": "actor-035",
+      "compact": "프레세아",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "b5081010c1339b7ef622208dc321754321e0362fdf297afaef5543131fd9ffab"
+    },
+    {
+      "id": "actor-036",
+      "compact": "리갈",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "30ff5ca2d3af5bdf21a86c99d7fffec1f77458d5e97d2f8005956b5c6675a797"
+    },
+    {
+      "id": "actor-037",
+      "compact": "크라토스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "6e003aeb24010af58d3642aed4a38256b773d27dff65062821b03a6eac5a3497"
+    },
+    {
+      "id": "actor-038",
+      "compact": "다오스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "86cdf3729e566596213ac5f90e3abb2b971f25a01fcc04110c4e354b16900754"
+    },
+    {
+      "id": "actor-039",
+      "compact": "리리스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "848105da86a2d5e51440080d90a914fe0a7b8fd8b52332f09af6e8c90b83ed3b"
+    },
+    {
+      "id": "actor-040",
+      "compact": "셀시우스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "2024926ca9b99968bbb117a43b53b83c8cb2ea7d9a110096305668a56f3b71b2"
+    },
+    {
+      "id": "actor-041",
+      "compact": "미랄드",
+      "large": null,
+      "wording_basis": "Inherited K1.1",
+      "review": "layout_pending",
+      "source_record_sha256": "eebeab326cc9582691f79926d90a99c444b3fcbce0d14bf9d0929986114c6537"
+    },
+    {
+      "id": "actor-042",
+      "compact": "아미",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "92608dd5d112751ea2abf4c0c50967d4ad6fd43ef0474a70038adac3574258b6"
+    },
+    {
+      "id": "actor-043",
+      "compact": "딤로스",
+      "large": null,
+      "wording_basis": "Inherited K1.1",
+      "review": "layout_pending",
+      "source_record_sha256": "4f610003e3bb30d1183f4e660a54f1607ddc4b66f01700e66d78d156da8865b5"
+    },
+    {
+      "id": "actor-044",
+      "compact": "나리키리사",
+      "large": "나리키리사",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "0ee9cfc8d12e4c7cae4662e862612485158285b9dee0977f9f303fa76873cd9a"
+    },
+    {
+      "id": "actor-045",
+      "compact": "나리키리사",
+      "large": "나리키리사",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "f55f1467b6152b763acbb751fb4ee91a19bf7fb85a91397708a188a35b901eb9"
+    },
+    {
+      "id": "actor-046",
+      "compact": "검사",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "ab2b39915cee14248af4b16982577e2dec9ac5bb02dccb44aaad3e744edae204"
+    },
+    {
+      "id": "actor-047",
+      "compact": "검사",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "3a518bd436574c37180599caba71d7d90c3077c6cd2308dc5be64de27563faad"
+    },
+    {
+      "id": "actor-048",
+      "compact": "격투가",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "b6e92dfa2d06e21d557159a64718108a2427b32e8a2532fdf421478863fdd91a"
+    },
+    {
+      "id": "actor-049",
+      "compact": "격투가",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "0d0dc937cfe2861a48b1d3c23a9c3a007eaad11d068892d131da7ff6a0d02796"
+    },
+    {
+      "id": "actor-050",
+      "compact": "아처",
+      "large": "아처",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "028545b275ab8587da08389326cd35880761a03a7f0c1f13fd374b1142d672a3"
+    },
+    {
+      "id": "actor-051",
+      "compact": "아처",
+      "large": "아처",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "2782d9ff895def8269f9f706e37077c8862fc3bf4f026c2dba569769c87a35a6"
+    },
+    {
+      "id": "actor-052",
+      "compact": "클레릭",
+      "large": "클레릭",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "3e1056a4147423da85b14a5af42a2753ae7e2f6783e38e28383707f12ff34cc0"
+    },
+    {
+      "id": "actor-053",
+      "compact": "클레릭",
+      "large": "클레릭",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "d8ceef002a90fa0cdbada4d3352a511acb38a48e4832902c4238e1aaf3a0bb23"
+    },
+    {
+      "id": "actor-054",
+      "compact": "닌자",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "56a09f9e7d315babb70f19698ef18e3fc082902daafc2fbea27ed09c13c35dd5"
+    },
+    {
+      "id": "actor-055",
+      "compact": "닌자",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "2d3af9774eb0c40669186f40bf7b51b71430c08fa69fc1942aa7ff0afd20c1b7"
+    },
+    {
+      "id": "actor-056",
+      "compact": "위저드",
+      "large": "위저드",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "53b274553b1e75248000c9389eb7adf7382a607c5cecebd529a987e2559c504b"
+    },
+    {
+      "id": "actor-057",
+      "compact": "윗치",
+      "large": "윗치",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "24af82c0a1688f4b590bf7c6f2713ebd0f1ead14f7acd52b8f8a4bcb76f9ab3e"
+    },
+    {
+      "id": "actor-058",
+      "compact": "상인",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "5c8a5ce20dcba5ac41085f3339ee7d14c96126130f44dfacf7631778a99a2e58"
+    },
+    {
+      "id": "actor-059",
+      "compact": "상인",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "df3cee992582199e963935928e2605034cba267156d1431e4d1197c6831c25c3"
+    },
+    {
+      "id": "actor-060",
+      "compact": "도박꾼",
+      "large": null,
+      "wording_basis": "Inherited K1.1",
+      "review": "layout_pending",
+      "source_record_sha256": "12764c6ea60ec9ebc7bb9efb5ed2e15b25d463ea8398f94d03701e87edf67ede"
+    },
+    {
+      "id": "actor-061",
+      "compact": "무용수",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "bb776613285c16d5ee15c3114924a5b82e24ce751fe7ee81f80e92f13ebc4619"
+    },
+    {
+      "id": "actor-062",
+      "compact": "원더셰프",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "ed5c12ca604329f7e7d66158194736ac63f34743b1cf2e6a0f6c2cd02b7cdbf7"
+    },
+    {
+      "id": "actor-063",
+      "compact": "원더셰프",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "01551f4627c30b533d5f49b8fd575410605fec57a578264784c2b99a73cbfd42"
+    },
+    {
+      "id": "actor-064",
+      "compact": "놀이꾼",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "6ce138cdff668209d10ff6cd9f50ec2fef1feb3c214f6d884e22418d02a701df"
+    },
+    {
+      "id": "actor-065",
+      "compact": "놀이꾼",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "80ca1feac7655552e803dad7fbb7f6fbefff1e33525277669fc4b02d7165146f"
+    },
+    {
+      "id": "actor-066",
+      "compact": "닥터",
+      "large": "닥터",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "4229907716d0a0919b2258cd48b5716f3b13a4a8ba41ade0fd85d29203c27b89"
+    },
+    {
+      "id": "actor-067",
+      "compact": "너스",
+      "large": "너스",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "b41e95013a9627d2adf4d681000f5522e1eaafe07f57979bd298551dd867fd18"
+    },
+    {
+      "id": "actor-068",
+      "compact": "음악가",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "ca227a1eecf33e05a0c245fd035bbc953615d5eaa9cb9394300501a9ecffc7dc"
+    },
+    {
+      "id": "actor-069",
+      "compact": "음악가",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "9ee6fe54fd92df9e1e7a2337bb42a8ed0b1b7ee6be7d65dc7e69eda0575c4108"
+    },
+    {
+      "id": "actor-070",
+      "compact": "학자",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "a7f1f5b40619e8d7be1e510392ccf26659880467801c82cb41ce9245395149b7"
+    },
+    {
+      "id": "actor-071",
+      "compact": "학자",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "7420f017216c9655e3cda7c05962ce7388e34303c489ea7bef3108a8c67c8f36"
+    },
+    {
+      "id": "actor-072",
+      "compact": "냥인",
+      "large": null,
+      "wording_basis": "Inherited K1.1",
+      "review": "layout_pending",
+      "source_record_sha256": "0f9f46363ecdf94b3d5724d81e0df4afbd4d3adf446bad7a0f1fec26949ff71d"
+    },
+    {
+      "id": "actor-073",
+      "compact": "냥인",
+      "large": null,
+      "wording_basis": "Inherited K1.1",
+      "review": "layout_pending",
+      "source_record_sha256": "2cff4cb26cb6c004f02e70b2757f9ed832595c22745cb451367f9ece95d12279"
+    },
+    {
+      "id": "actor-074",
+      "compact": "마술사",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "f2e6af237a4a2dbc21035e6af5de9d67af77cd6f216e030a5ed3b0e790c0bb59"
+    },
+    {
+      "id": "actor-075",
+      "compact": "모델",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "021ade242bb66c66b987b8c9835532dc1f6d37c1e3878fb02fe3e3bdd479c842"
+    },
+    {
+      "id": "actor-076",
+      "compact": "왈큐레",
+      "large": "왈큐레",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "4f956f148157059058cad4b98bff6e9a4255b18751949a70a7c9a1182a10faa6"
+    },
+    {
+      "id": "actor-077",
+      "compact": "드릴러",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "2b605c5a128ef0e59a48ec9654669b129c458b56d7c32e52e0965de57c0e9f7b"
+    },
+    {
+      "id": "actor-078",
+      "compact": "도적",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "f755b4cd80207be2c9ae07c44d4b57b6c1caede735594df6e99f13a743964a87"
+    },
+    {
+      "id": "actor-079",
+      "compact": "도적",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "23dd1510a57aa4aafe7267a682c359d35ef134dfa12ffeffe23378b25b65f378"
+    },
+    {
+      "id": "actor-080",
+      "compact": "시젤",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "3a2e5ec35a38d79e052c1b081e61673ed33995acd58a5ffb30c714cf41be2812"
+    },
+    {
+      "id": "actor-081",
+      "compact": "바르바토스",
+      "large": "바르바토스",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "178e36a4b676ecd9dc5249021be643def0624454e48935ebc6660cc1cff106fb"
+    },
+    {
+      "id": "actor-082",
+      "compact": "엘레인",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "8813e71d9e0ddca92283a9a1000731704c07b601778edc2f6a0efeb8dea278f6"
+    },
+    {
+      "id": "actor-083",
+      "compact": "유그드라실",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "112083429bb7fb1ec3adff59b3011b5bb1ece974f1d60b35fba8199361b85027"
+    },
+    {
+      "id": "actor-084",
+      "compact": "사나토스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "4a7ec0b919e48ed1437a09601ab167d35387b725521b193c3776ea4cdb2a9664"
+    },
+    {
+      "id": "actor-085",
+      "compact": "포니",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "d3b2ae15c87bf2804a79618df44a16b738a31499c45da94faca3bcfbb787d741"
+    },
+    {
+      "id": "actor-086",
+      "compact": "크라이트",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "c9e783a713862240229cd8c14776ac6d7069e7b76ca43f850f2b4067dbcef7e9"
+    },
+    {
+      "id": "actor-087",
+      "compact": "자바바",
+      "large": "자바바",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "45bd96d212612f3d2231acd7a1c6c30ed5709f96814aab608d764b8cf0aacfdf"
+    },
+    {
+      "id": "actor-088",
+      "compact": "와다카츠",
+      "large": "와다카츠",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "0a72757d8fb9478b22229775c3bc57df903f5cd33081837c792a72dbf3ac8c0b"
+    },
+    {
+      "id": "actor-089",
+      "compact": "와다동",
+      "large": "와다동",
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "f2152f3a96ca3147ac0dd4e274c1f4acd625c7331d456d8a6dd7b6c3ea13b8ec"
+    },
+    {
+      "id": "actor-090",
+      "compact": "길",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "b2cefc44813c1faf4859afd08f7ddaecd5eac0554544760f2e497236552bf399"
+    },
+    {
+      "id": "actor-091",
+      "compact": "카이",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "e271ed52cf240215c4f73d0340daa05ccc4a10027cfd10296ce4aa636fd3f983"
+    },
+    {
+      "id": "actor-092",
+      "compact": "코스모스",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "09f82a04df9c91e06137e246b3e09ce4b34386e4c88eff95e4eae1227d212628"
+    },
+    {
+      "id": "actor-093",
+      "compact": "드루아가",
+      "large": null,
+      "wording_basis": "User selected character/costume term",
+      "review": "layout_pending",
+      "source_record_sha256": "4b5e29486da74d70cfab5f4aa9b8d919bf2968eba8f019f0ab70bb7366a520be"
+    },
+    {
+      "id": "actor-094",
+      "compact": "훌리오",
+      "large": "적 훌리오",
+      "wording_basis": "Inherited K1.1; enemy protagonist spelling follows user term",
+      "review": "layout_pending",
+      "source_record_sha256": "453b3870bbc38a20a2b849b4184c08b4aaeb392d5b693643b30960828947955e"
+    },
+    {
+      "id": "actor-095",
+      "compact": "캐로",
+      "large": "적 캐로",
+      "wording_basis": "Inherited K1.1; enemy protagonist spelling follows user term",
+      "review": "layout_pending",
+      "source_record_sha256": "ff3b50830fcb5b4cb5808e0ca64c4129e1a577df8d9024b3f379b31201559b6d"
+    }
+  ]
+}

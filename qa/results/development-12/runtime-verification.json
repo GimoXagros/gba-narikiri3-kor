@@ -1,0 +1,43 @@
+{
+  "status": "SCOPED_NORMAL_INPUT_AND_VISUAL_OBSERVATION_COMPLETE",
+  "rom_sha256": "9f895d9a13ed09386df47eb1256dc41419685e776c9ac5fa05a2f2e225d5c374",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "separate_process_reload": true,
+  "save_sha256": "ece2cc96ebbc2323d78c4be88bb5859592fe6c33a7b0683d4654fa80a051132f",
+  "ram_interventions": 0,
+  "scope": "Normal opening inputs to first save, fresh-process reload, main menu and three starting items. No battle, branches, endings, all names, user saves or hardware claim.",
+  "visual_observation": {
+    "status": "EXPECTED_SCREENS_OBSERVED",
+    "observer": "Codex visual inspection of all four current captures",
+    "human_translation_review": "pending",
+    "rom_sha256": "9f895d9a13ed09386df47eb1256dc41419685e776c9ac5fa05a2f2e225d5c374",
+    "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+    "captures": [
+      {
+        "sha256": "d8eb5d944bed05061831e7a5ebc30e11f07c4f8da947933026f3c8481db118d3",
+        "frame": 19851,
+        "observation": "Save complete; Korean default names, job, save location and time visible without clipping in this sample."
+      },
+      {
+        "sha256": "bd871c6e966ef701b5a84cf48fc973f8131e4c593b69b0e373f02fa3ae9c9b5d",
+        "frame": 1465,
+        "observation": "Fresh-process continue; default names and Korean team suffix visible. Japanese title labels remain."
+      },
+      {
+        "sha256": "10f27982581f925fe0a9c3e566b8398335ab6c0205363f8e6ebaad25d5d9ec97",
+        "frame": 1581,
+        "observation": "Three starting item names visible: Life Bottle, Panacea Bottle, Apple Gummy; quantities 1,5,5."
+      },
+      {
+        "sha256": "90eb8d9379d1d1755403f666621aa33bf030175622201075b2d3db4b0395b646",
+        "frame": 1642,
+        "observation": "Life Bottle selected; existing Korean two-line description remains visible with the small translated name."
+      }
+    ],
+    "limits": [
+      "Only these normal opening/menu/save samples were viewed",
+      "Not all 7 UI callers have normal-play evidence",
+      "No full population, battle, ending, human review or hardware completion claim"
+    ]
+  }
+}

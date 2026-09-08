@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "names": ["훌리오", "캐로", "드림"],
+  "authority": "User supplied protagonist names and description of the time machine, 2026-09-09",
+  "scope": "New-game defaults only; retain original five logical slots and existing saves. Hangul keyboard selection is still pending.",
+  "ship_name_contract": "Stored base name is 드림. Original @D templates append 호 or 1/2호; storing 드림호 produced 드림호호 in actual play. Full vessel name remains 드림호."
+}

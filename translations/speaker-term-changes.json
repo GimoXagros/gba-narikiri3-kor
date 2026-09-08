@@ -1,0 +1,122 @@
+[
+  {
+    "id": "speaker-003",
+    "japanese": "クラース",
+    "previous_compact_selection": "크라스",
+    "previous_large": "크라스",
+    "selected": "클라스",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-012",
+    "japanese": "マリー",
+    "previous_compact_selection": "마리",
+    "previous_large": "마리ー",
+    "selected": "마리",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-015",
+    "japanese": "リッド",
+    "previous_compact_selection": "릿드",
+    "previous_large": "릿드",
+    "selected": "리드",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-017",
+    "japanese": "キール",
+    "previous_compact_selection": "키르",
+    "previous_large": "키르",
+    "selected": "킬",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-020",
+    "japanese": "チャット",
+    "previous_compact_selection": "챗",
+    "previous_large": "챗",
+    "selected": "채트",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-034",
+    "japanese": "コレット",
+    "previous_compact_selection": "코렛",
+    "previous_large": "코렛",
+    "selected": "콜레트",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-037",
+    "japanese": "ゼロス",
+    "previous_compact_selection": "제로스",
+    "previous_large": "제로스",
+    "selected": "젤로스",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-053",
+    "japanese": "ジャババ",
+    "previous_compact_selection": "쟈바바",
+    "previous_large": "쟈바바",
+    "selected": "자바바",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-061",
+    "japanese": "バルバトス",
+    "previous_compact_selection": "발바토스",
+    "previous_large": "バルバトス",
+    "selected": "바르바토스",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-064",
+    "japanese": "ワルキューレ",
+    "previous_compact_selection": "발키리",
+    "previous_large": "발키리",
+    "selected": "왈큐레",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-074",
+    "japanese": "クレア",
+    "previous_compact_selection": "크레아",
+    "previous_large": "크레아",
+    "selected": "클레어",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-079",
+    "japanese": "キール",
+    "previous_compact_selection": "키르",
+    "previous_large": "키르",
+    "selected": "킬",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-085",
+    "japanese": "ゼロス",
+    "previous_compact_selection": "제로스",
+    "previous_large": "제로스",
+    "selected": "젤로스",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-091",
+    "japanese": "マリー",
+    "previous_compact_selection": "마리",
+    "previous_large": "마리ー",
+    "selected": "마리",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  },
+  {
+    "id": "speaker-092",
+    "japanese": "マリー",
+    "previous_compact_selection": "마리",
+    "previous_large": "마리ー",
+    "selected": "마리",
+    "authority": "User-provided character list + explicit conflict resolution, 2026-09-09"
+  }
+]

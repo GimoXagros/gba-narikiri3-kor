@@ -1,0 +1,415 @@
+{
+  "schema": 1,
+  "source_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "scope": "Complete title and bonus arrays selected by the 58-record team rule resolver 0800823C; zero is the explicit no-title/no-bonus fallback",
+  "rule_base": "0x10d1d0",
+  "rule_count": 58,
+  "rule_stride": 16,
+  "rule_sha256": "dfcead2df25ef17944a90f093d20f062a2bce1c8b938649c37427ee54ba5e526",
+  "rule_loop_guard_offset": "0x82ea",
+  "rule_loop_guard_hex": "3928b0dd",
+  "rule_title_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "rule_bonus_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "reachability_note": "Title 23 and bonus 9/11 are not selected by these 58 rules; still preserve and translate the identified string slots, without asserting whole-game reachability",
+  "groups": [
+    {
+      "id": "team-title",
+      "base": "0x743cfc",
+      "count": 35,
+      "stride": 4,
+      "consumer_getter": "0x8008330",
+      "getter_bytes": "024980004018006870470000fc3c7408",
+      "max_cells": 9,
+      "records": [
+        {
+          "id": "team-title-000",
+          "pointer_offset": "0x743cfc",
+          "source_pointer": "0x810d1c4",
+          "source_raw": "12bcaeb3badeb320c5bc12"
+        },
+        {
+          "id": "team-title-001",
+          "pointer_offset": "0x743d00",
+          "source_pointer": "0x810d1b8",
+          "source_raw": "b8dedab0c4caddc0b0"
+        },
+        {
+          "id": "team-title-002",
+          "pointer_offset": "0x743d04",
+          "source_pointer": "0x810d1ac",
+          "source_raw": "12ccc0d8ca12d7b2caded9"
+        },
+        {
+          "id": "team-title-003",
+          "pointer_offset": "0x743d08",
+          "source_pointer": "0x810d1a0",
+          "source_raw": "c3b2d9bddecbb0dbb0"
+        },
+        {
+          "id": "team-title-004",
+          "pointer_offset": "0x743d0c",
+          "source_pointer": "0x810d194",
+          "source_raw": "c3b2d9bddecbdbb2dd"
+        },
+        {
+          "id": "team-title-005",
+          "pointer_offset": "0x743d10",
+          "source_pointer": "0x810d188",
+          "source_raw": "12c1b2bbc5b7aebcdedd12"
+        },
+        {
+          "id": "team-title-006",
+          "pointer_offset": "0x743d14",
+          "source_pointer": "0x810d17c",
+          "source_raw": "12b2d4bcc9c0c2bcdedd12"
+        },
+        {
+          "id": "team-title-007",
+          "pointer_offset": "0x743d18",
+          "source_pointer": "0x810d170",
+          "source_raw": "bbb2b4ddc3a8bdc4"
+        },
+        {
+          "id": "team-title-008",
+          "pointer_offset": "0x743d1c",
+          "source_pointer": "0x810d164",
+          "source_raw": "12badeb3b6b2bbdd12"
+        },
+        {
+          "id": "team-title-009",
+          "pointer_offset": "0x743d20",
+          "source_pointer": "0x810d158",
+          "source_raw": "12cbd2d7dac0b6ba12"
+        },
+        {
+          "id": "team-title-010",
+          "pointer_offset": "0x743d24",
+          "source_pointer": "0x810d14c",
+          "source_raw": "12b2b6bd12d2ddbdde"
+        },
+        {
+          "id": "team-title-011",
+          "pointer_offset": "0x743d28",
+          "source_pointer": "0x810d140",
+          "source_raw": "12b5afc4baded2ddd62112"
+        },
+        {
+          "id": "team-title-012",
+          "pointer_offset": "0x743d2c",
+          "source_pointer": "0x810d134",
+          "source_raw": "b8b0d912c5d4c2d712"
+        },
+        {
+          "id": "team-title-013",
+          "pointer_offset": "0x743d30",
+          "source_pointer": "0x810d128",
+          "source_raw": "b8ded7afccdfd7b0"
+        },
+        {
+          "id": "team-title-014",
+          "pointer_offset": "0x743d34",
+          "source_pointer": "0x810d120",
+          "source_raw": "d7ccded7ccde3f"
+        },
+        {
+          "id": "team-title-015",
+          "pointer_offset": "0x743d38",
+          "source_pointer": "0x810d114",
+          "source_raw": "12d3b3b6d8cfafb63f12"
+        },
+        {
+          "id": "team-title-016",
+          "pointer_offset": "0x743d3c",
+          "source_pointer": "0x810d108",
+          "source_raw": "12b6deddbad3c912"
+        },
+        {
+          "id": "team-title-017",
+          "pointer_offset": "0x743d40",
+          "source_pointer": "0x810d0f8",
+          "source_raw": "12d8aeb3d8bcdeaeb3bdde12"
+        },
+        {
+          "id": "team-title-018",
+          "pointer_offset": "0x743d44",
+          "source_pointer": "0x810d0e8",
+          "source_raw": "12b7aeb3c0deb2bcdeddb7de12"
+        },
+        {
+          "id": "team-title-019",
+          "pointer_offset": "0x743d48",
+          "source_pointer": "0x810d0d8",
+          "source_raw": "12c4deb3ccdec2c0deb2bdb712"
+        },
+        {
+          "id": "team-title-020",
+          "pointer_offset": "0x743d4c",
+          "source_pointer": "0x810d0cc",
+          "source_raw": "12cad4c3c9badec4b812"
+        },
+        {
+          "id": "team-title-021",
+          "pointer_offset": "0x743d50",
+          "source_pointer": "0x810d0c0",
+          "source_raw": "c5ddcadf12d3c912"
+        },
+        {
+          "id": "team-title-022",
+          "pointer_offset": "0x743d54",
+          "source_pointer": "0x810d0b4",
+          "source_raw": "12b5d4bac912b7bddec5"
+        },
+        {
+          "id": "team-title-023",
+          "pointer_offset": "0x743d58",
+          "source_pointer": "0x810d0a4",
+          "source_raw": "cbd0c2df12c9bdbcdeaeb312"
+        },
+        {
+          "id": "team-title-024",
+          "pointer_offset": "0x743d5c",
+          "source_pointer": "0x810d098",
+          "source_raw": "12bbddb6b8b6ddb9b212"
+        },
+        {
+          "id": "team-title-025",
+          "pointer_offset": "0x743d60",
+          "source_pointer": "0x810d08c",
+          "source_raw": "12b9ddbcdeadc2bcc5dd12"
+        },
+        {
+          "id": "team-title-026",
+          "pointer_offset": "0x743d64",
+          "source_pointer": "0x810d07c",
+          "source_raw": "12b6deb8bcdeadc2bcc5dd12"
+        },
+        {
+          "id": "team-title-027",
+          "pointer_offset": "0x743d68",
+          "source_pointer": "0x810d070",
+          "source_raw": "cddebdc4cadfb0c4c5b0"
+        },
+        {
+          "id": "team-title-028",
+          "pointer_offset": "0x743d6c",
+          "source_pointer": "0x810d068",
+          "source_raw": "12b6c0b5d3b212"
+        },
+        {
+          "id": "team-title-029",
+          "pointer_offset": "0x743d70",
+          "source_pointer": "0x810d05c",
+          "source_raw": "12b9ddc4baccdebcc412"
+        },
+        {
+          "id": "team-title-030",
+          "pointer_offset": "0x743d74",
+          "source_pointer": "0x810d050",
+          "source_raw": "12b6c8c9d3b3bcdeac12"
+        },
+        {
+          "id": "team-title-031",
+          "pointer_offset": "0x743d78",
+          "source_pointer": "0x810d044",
+          "source_raw": "12d5d0c9babadbb412"
+        },
+        {
+          "id": "team-title-032",
+          "pointer_offset": "0x743d7c",
+          "source_pointer": "0x810d038",
+          "source_raw": "12cfbcdeadc2bcc5dd12"
+        },
+        {
+          "id": "team-title-033",
+          "pointer_offset": "0x743d80",
+          "source_pointer": "0x810d02c",
+          "source_raw": "12c3ddbbb2c4b8ded0dd12"
+        },
+        {
+          "id": "team-title-034",
+          "pointer_offset": "0x743d84",
+          "source_pointer": "0x810d020",
+          "source_raw": "daddbddecaddc0b0"
+        }
+      ]
+    },
+    {
+      "id": "team-bonus",
+      "base": "0x743cb0",
+      "count": 19,
+      "stride": 4,
+      "consumer_getter": "0x8008340",
+      "getter_bytes": "024980004018006870470000b03c7408",
+      "max_cells": 9,
+      "records": [
+        {
+          "id": "team-bonus-000",
+          "pointer_offset": "0x743cb0",
+          "source_pointer": "0x810d014",
+          "source_raw": "cedeb0c5bd2012c5bc12"
+        },
+        {
+          "id": "team-bonus-001",
+          "pointer_offset": "0x743cb4",
+          "source_pointer": "0x810d008",
+          "source_raw": "545012b6b2ccb8125550"
+        },
+        {
+          "id": "team-bonus-002",
+          "pointer_offset": "0x743cb8",
+          "source_pointer": "0x810cffc",
+          "source_raw": "485012b6b2ccb8125550"
+        },
+        {
+          "id": "team-bonus-003",
+          "pointer_offset": "0x743cbc",
+          "source_pointer": "0x810cff0",
+          "source_raw": "b6ded9c4deb9deafc45550"
+        },
+        {
+          "id": "team-bonus-004",
+          "pointer_offset": "0x743cc0",
+          "source_pointer": "0x810cfe8",
+          "source_raw": "dab1b9deafc0b0"
+        },
+        {
+          "id": "team-bonus-005",
+          "pointer_offset": "0x743cc4",
+          "source_pointer": "0x810cfdc",
+          "source_raw": "b1b2c3d1b9deafc0b0"
+        },
+        {
+          "id": "team-bonus-006",
+          "pointer_offset": "0x743cc8",
+          "source_pointer": "0x810cfd0",
+          "source_raw": "ccb0c4deb9deafc0b0"
+        },
+        {
+          "id": "team-bonus-007",
+          "pointer_offset": "0x743ccc",
+          "source_pointer": "0x810cfc4",
+          "source_raw": "12c1d8aeb8125550"
+        },
+        {
+          "id": "team-bonus-008",
+          "pointer_offset": "0x743cd0",
+          "source_pointer": "0x810cfb8",
+          "source_raw": "5450babdc4c0deb3dd"
+        },
+        {
+          "id": "team-bonus-009",
+          "pointer_offset": "0x743cd4",
+          "source_pointer": "0x810cfb0",
+          "source_raw": "12c7bdd0125550"
+        },
+        {
+          "id": "team-bonus-010",
+          "pointer_offset": "0x743cd8",
+          "source_pointer": "0x810cfa4",
+          "source_raw": "bdcbdfb0c4de5550"
+        },
+        {
+          "id": "team-bonus-011",
+          "pointer_offset": "0x743cdc",
+          "source_pointer": "0x810cf9c",
+          "source_raw": "b1cbdfb0d9"
+        },
+        {
+          "id": "team-bonus-012",
+          "pointer_offset": "0x743ce0",
+          "source_pointer": "0x810cf8c",
+          "source_raw": "12cedeb3b7deaed8aeb8125550"
+        },
+        {
+          "id": "team-bonus-013",
+          "pointer_offset": "0x743ce4",
+          "source_pointer": "0x810cf84",
+          "source_raw": "b7acbdc45550"
+        },
+        {
+          "id": "team-bonus-014",
+          "pointer_offset": "0x743ce8",
+          "source_pointer": "0x810cf78",
+          "source_raw": "12b7bedec2125550"
+        },
+        {
+          "id": "team-bonus-015",
+          "pointer_offset": "0x743cec",
+          "source_pointer": "0x810cf6c",
+          "source_raw": "12c6b9deb1bc125550"
+        },
+        {
+          "id": "team-bonus-016",
+          "pointer_offset": "0x743cf0",
+          "source_pointer": "0x810cf60",
+          "source_raw": "12b3c0dac2ded6bb125550"
+        },
+        {
+          "id": "team-bonus-017",
+          "pointer_offset": "0x743cf4",
+          "source_pointer": "0x810cf50",
+          "source_raw": "12c0deb9deb7d8aeb8125550"
+        },
+        {
+          "id": "team-bonus-018",
+          "pointer_offset": "0x743cf8",
+          "source_pointer": "0x810cf44",
+          "source_raw": "12c0b2c8c2cedeb3b6dd12"
+        }
+      ]
+    }
+  ]
+}

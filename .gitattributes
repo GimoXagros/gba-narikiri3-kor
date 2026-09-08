@@ -1,0 +1,2 @@
+# Preserve exact input and evidence bytes across checkouts, including newlines.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,0 +1,3637 @@
+{
+  "schema": 1,
+  "scope": "Individually frozen opcode0F corrections and approved character terminology; consumer membership and original bytes validated on every build",
+  "consumer_guards": [
+    {
+      "offset": "0xc6f7e",
+      "hex": "231d20880138000400142f2867d8800002494018006887460000",
+      "role": "VM reads low-half opcode and indexes jump table"
+    },
+    {
+      "offset": "0xc6fd4",
+      "hex": "dc700c08",
+      "role": "Opcode 0F handler address"
+    },
+    {
+      "offset": "0xc70dc",
+      "hex": "281c211c00f036fa94e0",
+      "role": "Handler passes full record to 080C7550"
+    },
+    {
+      "offset": "0xc755a",
+      "hex": "061c8846496800f082f8",
+      "role": "Dialogue payload +4 passed to name expander"
+    },
+    {
+      "offset": "0xc7668",
+      "hex": "f0b557464e464546e0b483b080468a4612480068011c133100912031019153300290802040003bf76dff061c504616f07bfa8146002700254d4578da5146c8190178021c40296bd1507830381c2867d8800003494018006887460000601d0002cc760c085c770c0862770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0888770c0840770c0888770c0848770c0888770c0888770c0844770c0888770c0888770c0888770c0854770c084c770c08009c10e0019c0ee0029c0ce0004c0ae0f0891408004c06e0ec8914084046046a01e041464c6a0137201c16f011fa031c00229a420cda7019a11809780170013501329a42f7db03e0711910780870013501374f4586db711900200870301c03b038bc9846a146aa46f0bc02bc08470000",
+      "role": "Original name expansion including @D base+53"
+    },
+    {
+      "offset": "0xc702c",
+      "hex": "96710c08",
+      "role": "Opcode25 jump-table entry -> handler C7196"
+    },
+    {
+      "offset": "0xc7196",
+      "hex": "281c211c00f011fc37e0",
+      "role": "Opcode25 wrapper receives the same full dialogue record"
+    },
+    {
+      "offset": "0xc79c0",
+      "hex": "70b5041c0d1c161cfff74cff201c291c321cfff7bdfd201cfff74cff70bc01bc00470000",
+      "role": "Unknown-speaker presentation wrapper calls original C7550 dialogue consumer"
+    }
+  ],
+  "records": [
+    {
+      "id": "ship-two-launch",
+      "record_offset": "0x1566f0",
+      "source_record": "0f002f0038671508",
+      "j_raw": "404482518d8694ad90698149",
+      "legacy_raw": "4044322c92828d7e21"
+    },
+    {
+      "id": "ship-history",
+      "record_offset": "0x1ab9a0",
+      "source_record": "0f002e00f0d11a08",
+      "j_raw": "40448d8682f08e6782a2814190a28a4582e297f08e6a82f00a95cf82a682e682a482c6814082b582c482a282e982b182c682c9814082c882e982bc",
+      "legacy_raw": "40448ca481408e87908b947781408eba88e68a49814090498e878ca40a8d7889d78c608140946e88eb814090d48ad78ac081408cb990cc8b448163"
+    },
+    {
+      "id": "ship-two-location",
+      "record_offset": "0x14b7ec",
+      "source_record": "0f002d0028ba1408",
+      "j_raw": "82bb82b182c98da182e0404482518d8682aa0a82a082e982cc82a9814082c882a282cc82a98b4382c982c882c182c482c88163",
+      "legacy_raw": "9196897c8b548140404494a1889f814090d48ac091960a8962897c94778eab8163",
+      "reason": "Missing vessel number 2; original Japanese explicitly refers to second vessel"
+    },
+    {
+      "id": "device-actor-macro",
+      "record_offset": "0x1507b8",
+      "source_record": "0f005e00c8071508",
+      "j_raw": "403082cd0a96da82cc914f82cc9195927582f08dec93ae82b382b982bd",
+      "legacy_raw": "3090b8814090e3929f8ca4814090d98b5e8f6292d58ad7",
+      "reason": "Legacy dropped @, displaying literal 0 instead of selected actor",
+      "control_source": "j"
+    },
+    {
+      "id": "protagonist-macro",
+      "record_offset": "0x16ddb8",
+      "source_record": "0f002c00f8dd1608",
+      "j_raw": "82c8814182c882c982e68141954082cc89ba8141904c82ce82b582c481490a91d282bf82c882b382a282e6814140428149",
+      "legacy_raw": "8d588c402c94f5917688c38cac8ce78eab21814089828ad78c6081406221",
+      "reason": "Legacy literal b replaces the protagonist name substitution",
+      "control_source": "j"
+    },
+    {
+      "id": "suzu-ruins-floor",
+      "record_offset": "0x18fb34",
+      "source_record": "0f00050044011908",
+      "j_raw": "82b782b80a838c837e88e290d5926e89ba82518265",
+      "legacy_raw": "8f59918e0a8c588d6b90ad90f981404232",
+      "reason": "Original Japanese specifies basement floor 2. Legacy ideographic-space plus B2 accidentally invokes @B at a trail byte"
+    },
+    {
+      "id": "stan-ruins-floor",
+      "record_offset": "0x190320",
+      "source_record": "0f000600e00a1908",
+      "j_raw": "8358835e83930a838c837e88e290d5926e89ba82518265",
+      "legacy_raw": "8f5993590a8c588d6b90ad90f981404232",
+      "reason": "Original Japanese specifies basement floor 2. Legacy ideographic-space plus B2 accidentally invokes @B at a trail byte"
+    },
+    {
+      "id": "ship-custom-name",
+      "record_offset": "0x1aafe8",
+      "source_record": "0f002e00c8b61a08",
+      "j_raw": "8e9e8bf382f097b782b782e9816740448d86816882c882f182c40a82c782a482b682e181418369834582a282b682e182eb8148",
+      "legacy_raw": "8f6288f690b9814090489480946e8ac081408b858cb094a18ac00a8fec8bae8a632c8cd89196919681408fc88acd3f",
+      "reason": "Restore original custom vessel name instead of hardcoded default",
+      "control_source": "j"
+    },
+    {
+      "id": "fortress-escort-instruction",
+      "record_offset": "0x1b0a18",
+      "source_record": "0f002e00640c1b08",
+      "j_raw": "9582975697768dc782cc88ea94d4899c82c982a082e994e082cc914f82dc82c50a404782f0984182ea82c48d7382ad82cc82b682e1",
+      "legacy_raw": "8dcc90ad90848e958140889f90e381408fc6915681408d4d898e9196",
+      "reason": "Legacy omits the entire instruction to escort the second protagonist; restore original second line and fix typo",
+      "control_source": "j",
+      "newline_source": "j"
+    },
+    {
+      "id": "dialogue-terms-14d8e0",
+      "record_offset": "0x14d8e0",
+      "source_record": "0f002b0038da1408",
+      "j_raw": "82a082ea82cd81638140838d8343836882c68352838c8362836781638148",
+      "legacy_raw": "90f888c581638c6d90ca8b85906c814092d88c5e3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-14d928",
+      "record_offset": "0x14d928",
+      "source_record": "0f002c0068d91408",
+      "j_raw": "82e082b5838d8343836882c68352838c8362836782aa82a282bd82e70a88ab968282f095fa82c182c482a882a982c882a282ed82e6256b0a82be82a982e78e8482bd82bf82aa91e382ed82e882c9937c82b782cc81490a96b282f08ca982e982cc82cd82bb82cc8ce382c982b582c482e682cb",
+      "legacy_raw": "8c6d90ca8b85906c814092d88c5e90ca8bf18ce70a8fc58cb48ca4814089768a6881408b6d919681408fc890b988c38fdd256b0a89768c4e8acd8140908c8cac889f81408ae98f6481408fb08c4e93ac8caf88c38fdd210a89dc89d78ac0814088c581408d6b8c8f81408b75",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-14db24",
+      "record_offset": "0x14db24",
+      "source_record": "0f002b00a4db1408",
+      "j_raw": "82c8814182c8814182c8814981408da1937882cd8ca982bd82be82eb81480a838d8343836882c68352838c8362836782c9814082bb82c182ad82e882be82eb8148",
+      "legacy_raw": "8fc48fc421814090ca8d9890408ac081408dc191963f0a8c6d90ca8b85906c814092d88c5e81408cc091963f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-14dc28",
+      "record_offset": "0x14dc28",
+      "source_record": "0f002b0060dc1408",
+      "j_raw": "82a8816082a281498140838d8343836882c68352838c8362836782be82eb83ab0a89b482be82e68141404282be82e6",
+      "legacy_raw": "90ca8dbf2181408c6d90ca8b858bf9814092d88c5e210a8a498fdd2c404221",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-14e4d4",
+      "record_offset": "0x14e4d4",
+      "source_record": "0f002c00f8e61408",
+      "j_raw": "82a08141838d8343836882c68352838c8362836782cc0a88d38eaf82aa96df82c182bd82ed8149",
+      "legacy_raw": "8fc42c8c6d90ca8b85906c814092d88c5e90c58140899a8fec8a548fec21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-14e58c",
+      "record_offset": "0x14e58c",
+      "source_record": "0f002c0018e61408",
+      "j_raw": "82c682c982a982ad96b38e9682c582e682a982c182bd82ed0a82a88b4182e882c882b382a28140838d8343836881418352838c83628367",
+      "legacy_raw": "8fec91b48b8781408d4a8e8794778eab81408ad7948090ca8fdd210a8c6d90ca8b852c92d88c5e",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-14e5c4",
+      "record_offset": "0x14e5c4",
+      "source_record": "0f005e00f4e51408",
+      "j_raw": "838d8343836882c68352838c8362836782aa92878ad482c982c882c182bd8149",
+      "legacy_raw": "8c6d90ca8b85906c814092d88c5e90ca81408b5e8c81889f81408b658ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-14f758",
+      "record_offset": "0x14f758",
+      "source_record": "0f002c0030f81408",
+      "j_raw": "82a683628148814082a0814182e082bf82eb82f18aec82f182c581630a8abd8c7d82b582dc82b78141834e8389815b835882b382f1",
+      "legacy_raw": "90463f81408fc42c8d4f8c6f814089828e7988d281630a94ad905494748acd8ad72c93488bf18f5981408fbc",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-14f788",
+      "record_offset": "0x14f788",
+      "source_record": "0f005e00c0f71408",
+      "j_raw": "834e8389815b835882aa92878ad482c982c882c182bd8149",
+      "legacy_raw": "93488bf18f59889f81408b5e8c81889f81408b658ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-152358",
+      "record_offset": "0x152358",
+      "source_record": "0f002c0040251508",
+      "j_raw": "838a836283688149814082c782a482b582c4814082b182f182c882c682b182c981480a83748340838982b382f182c6834c815b838b82b382f182cd8148",
+      "legacy_raw": "8cac8b852181409075814090ca8c5088f590403f0a93c28bf18fbc906c8140934f8ca18fbc8ac03f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1526b4",
+      "record_offset": "0x1526b4",
+      "source_record": "0f002c0018271508",
+      "j_raw": "88ab82a2975c8ab482cd939682bd82e982e082f182cb0a834c815b838b82b382f1814182c682e882b182c9814082c882c182c482e982ed",
+      "legacy_raw": "8a498e7a8140905888a690b881408cc08ac081408d9d0a934f8ca181408fbc814090e094948d968c678fec21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1528c4",
+      "record_offset": "0x1528c4",
+      "source_record": "0f000f00ec281508",
+      "j_raw": "91d282c182c482eb82e68141834c815b838b81490a82b782ae82c98f9582af82c482e282e982a982e782c88149",
+      "legacy_raw": "89828ad78c602c934f8ca121814088ee81408b54906c917888d221",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-152970",
+      "record_offset": "0x152970",
+      "source_record": "0f002c0098291508",
+      "j_raw": "82dd82f182c881490a834c815b838b82b382f182f0924482a295d482b782cc82e6",
+      "legacy_raw": "8cee8b6d218140934f8ca18fbc8ca481408b6692428fc48fdd8140947721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1529ec",
+      "record_offset": "0x1529ec",
+      "source_record": "0f002c00602a1508",
+      "j_raw": "82ab82c182c6834c815b838b82b382f182aa95df82dc82c182c482a282e982a982e70a934782cc8cbe82a282c882e882c9814082c882c182c482e982cc82e68163",
+      "legacy_raw": "8fc48cb48140934f8ca18fbc889f814090e094948eab0a90f9904081408cb9904081408b9b8ca18ac081408b8d94778163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1529fc",
+      "record_offset": "0x1529fc",
+      "source_record": "0f000f002c2a1508",
+      "j_raw": "83748340838981638141834e835c836281490a82c682c982a982ad8da182cd834c815b838b82cc8384836382f0925482bb82a4",
+      "legacy_raw": "93c28bf181638140914790e3210a8fec91b58b8781409196897c90b88140934f8ca18ca4814092428fc48db690d8",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-152b0c",
+      "record_offset": "0x152b0c",
+      "source_record": "0f000f002c2c1508",
+      "j_raw": "83748340838982e0834c815b838b82e0814082a882a982b582ad82cb82a682a981480a82c882f182a9918082e782ea82c482e982dd82bd82a282be82c182bd82ba8148",
+      "legacy_raw": "93c28bf18b548140934f8ca18b54814090ca8e93946e919681408fc88fc43f0a8d59889f81409155915d8ae5946e8ac081408b8d9477",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-152b24",
+      "record_offset": "0x152b24",
+      "source_record": "0f000f00902b1508",
+      "j_raw": "82bb82ea82e682e8814083748340838982c6834c815b838b82cd0a82c782b182c98fc182a682bf82dc82c182bd82f182be8148",
+      "legacy_raw": "89768db68ad7814093c28bf1906c8140934f8ca18ac00a8fec8b908c6d814088a188c38fdd3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-152c98",
+      "record_offset": "0x152c98",
+      "source_record": "0f002b00482d1508",
+      "j_raw": "816382c782a482b582c48140834c815b838b82b382f182dc82c50a934782c688ea8f8f82c98d558c8282b582c482ad82e982f182be8148",
+      "legacy_raw": "816390758140934f8ca181408fbc898e9196814090f988f80a947389b0814088f688db94778140905f8ac088c38fdd3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-152cb0",
+      "record_offset": "0x152cb0",
+      "source_record": "0f000f00d82c1508",
+      "j_raw": "834c815b838b82cc8384836381630a82c682c982a982ad8da182cd83748340838982f0925482bb82a48149",
+      "legacy_raw": "934f8ca18a808eac81630a8fec91b58b8781409196897c90b8814093c28bf18ca48140924290d821",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-152da8",
+      "record_offset": "0x152da8",
+      "source_record": "0f000f004c2e1508",
+      "j_raw": "8374834083898141834c815b838b814981408349838c82be8141838a8362836882be0a978a82de8149814096da82f08a6f82dc82b582c482ad82ea82e68149",
+      "legacy_raw": "93c28bf12c934f8ca12181408a498fdd2c8cac8b85210a91458d7e2181408aa990b981408bae21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-153250",
+      "record_offset": "0x153250",
+      "source_record": "0f002b0080321508",
+      "j_raw": "82a6836283ab814083748340838982c6834c815b838b82aa81630a82d3814182d382bd82e88148",
+      "legacy_raw": "90473f814093c28bf1906c8140934f8ca1889f81630a8b6d2c8b703f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1534fc",
+      "record_offset": "0x1534fc",
+      "source_record": "0f000f00e8371508",
+      "j_raw": "83748340838981498140834c815b838b8149814091e58fe4957682a98148",
+      "legacy_raw": "93c28bf1218140934f8ca1218140894591f88fc43f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-153574",
+      "record_offset": "0x153574",
+      "source_record": "0f00100078371508",
+      "j_raw": "82b282df82f182cb8141838a836283680a82dc82bd814182dd82f182c882c99053947a82a982af82bf82e182c182bd82cb",
+      "legacy_raw": "8d6b8fc694772c8cb28b8581408bc581408cee8b6d904088d2814088c4914390b98163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1535d4",
+      "record_offset": "0x1535d4",
+      "source_record": "0f002c000c371508",
+      "j_raw": "83748340838982b382f182c6834c815b838b82b382f182aa82a282ea82ce0a82a282c282c582e0814082ce82f189f182c582ab82e982ed82e68149",
+      "legacy_raw": "93c28bf18fbc8bf98140934f8ca18fbc889f814090d48ad78ce70a8fee91458b8781408cb694b6947181408ef4814090d48fec908421",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15365c",
+      "record_offset": "0x15365c",
+      "source_record": "0f005e0094361508",
+      "j_raw": "83748340838982c6834c815b838b82aa92878ad482c982c882c182bd8149",
+      "legacy_raw": "93c28bf1906c8140934f8ca1889f81408b5e8c81889f81408b658ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15b3c8",
+      "record_offset": "0x15b3c8",
+      "source_record": "0f002c00b4b41508",
+      "j_raw": "82a082cc8348814182b782a282dc82b9816082f1256b0a835b838d835882c6814082b582a282c882c182c482a282a4926a90ab82c68f9790ab0a8ca982a982af82dc82b982f182c582b582bd82a98148",
+      "legacy_raw": "90f889828140916a8ed994708b449084256b0a91458c6d8f59906c81408f6290ca8a498bf18ac081408e878bf50a8cf681408db68eca8a4990843f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15b3f0",
+      "record_offset": "0x15b3f0",
+      "source_record": "0f00250030b41508",
+      "j_raw": "82bb82cc835b838d835882c6814082b582a282c882c182c488ab906c82cd81630a82c782a482b9814082b182f182c88ae782b582c482e982c182c482f182be82eb8148",
+      "legacy_raw": "91458c6d8f59906c81408f6290ca8a498bf18ac081408fc590cc90b881630a8fec91f59466814090ca8c5081408ff1895b90ca88d891963f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15b868",
+      "record_offset": "0x15b868",
+      "source_record": "0f005e00c0b81508",
+      "j_raw": "835b838d835882c6814082b582a282c882aa92878ad482c982c882c182bd8149",
+      "legacy_raw": "91458c6d8f592c8f6290ca8a49889f81408b5e8c81889f81408b658ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15ba7c",
+      "record_offset": "0x15ba7c",
+      "source_record": "0f00240070bf1508",
+      "j_raw": "404283aa814082be82dc82b382ea82c882a282c50a82b182c182bf82aa967b95a882cc835b838d835882c6814082b582a282c882be82e6",
+      "legacy_raw": "40422181408ed191968cb40a90ca91c890ca8140919891a3814091458c6d8f59906c81408f6290ca8a499040908421",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15c444",
+      "record_offset": "0x15c444",
+      "source_record": "0f00240040c71508",
+      "j_raw": "8353837a8353837a8163814082a882e682b582e68141835b838d835881490a96bd82cc89b6906c82c983508393834a948482e982e082f182b682e182c882a282e6",
+      "legacy_raw": "92db8c6e816389768cb69477814091458c6d8f59210a8e9d8ceb90c5814090b890cc904088d281408f6d909290ca8bf18acd21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15c484",
+      "record_offset": "0x15c484",
+      "source_record": "0f002c000cc71508",
+      "j_raw": "835b838d835881638148814082bb82ea82c983528373815b8b4082cc928682c90a82c782a482b582c4906c82aa81638148",
+      "legacy_raw": "91458c6d8f5981633f814089768cac88eb81408db78e87898281408fc690400a907581408e878bf590ca81633f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15c4cc",
+      "record_offset": "0x15c4cc",
+      "source_record": "0f002500d8c61508",
+      "j_raw": "82a8816082af816082a8816082af8160814189b4976c82cd835b838d83580a82c5814182b182c182bf82cd814082b582a282c8",
+      "legacy_raw": "905f92c790ca7e81408a498ac0814091458c6d8f590a904889828ac081408f6290ca8a498fdd",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15cbc4",
+      "record_offset": "0x15cbc4",
+      "source_record": "0f00240038cc1508",
+      "j_raw": "904d82b682c48149814082a082bd82b582bd82bf82aa0a967b95a882cc835b838d835882c6814082b582a282c882be82e68149",
+      "legacy_raw": "8d6e8fec9180218140908c8cac889f0a919891a3814091458c6d8f59906c81408f6290ca8a498fdd21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15cc9c",
+      "record_offset": "0x15cc9c",
+      "source_record": "0f00250014cd1508",
+      "j_raw": "82e682ad8ca982eb814182be82dc82b382ea82e982c881490a89b4976c82bd82bf82aa8140967b95a882cc835b838d835882c6814082b582a282c8",
+      "legacy_raw": "90dd81408dbf2c8ed191968cb4210a908c8cac8b8990ca8140919891a3814091458c6d8f592c8f6290ca8a498fdd",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15d698",
+      "record_offset": "0x15d698",
+      "source_record": "0f00000050d71508",
+      "j_raw": "82bb82ea82cd8141834e8389815b835882b382f182cc82d982a482b682e10a82c882a282c582b782a9",
+      "legacy_raw": "897688c58140897688c5814093488bf18f59814091c890ca81408fc48acf889f90843f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15d6b0",
+      "record_offset": "0x15d6b0",
+      "source_record": "0f000000d8d61508",
+      "j_raw": "834e8141834e8389815b835882b382f181498140966c82cc82b182c60a82bb82f182c8959782c98e7682c182c482bd82f182c582b782a983ab",
+      "legacy_raw": "93482c93488bf18f5981408fbc21814090f88ca42e0a89768c5788d281408e9d88a0946e88eb814088e68eca8af6814088c5889f908421",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15d800",
+      "record_offset": "0x15d800",
+      "source_record": "0f000400fcd81508",
+      "j_raw": "82a68160816083ab8140835f837d82b382ea82c482e982cc82cd0a834e8389815b835882cc82d982a482b682e182f18149",
+      "legacy_raw": "90407e210a8ed188eb814090d48ac0814088c5814093488bf18f59814091c890ca8fdd21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15d828",
+      "record_offset": "0x15d828",
+      "source_record": "0f00040080d81508",
+      "j_raw": "82c882f182c582b782c182c48149814082e081608141937b82c182bd82ed82e681490a82a082bd82b582cc96828f7082c6834e8389815b835882cc8fa28aab8f708149",
+      "legacy_raw": "8d588bf188eb218140919891a3814094ab8a548fec210a8a5a81408cb48d9d88f8814093488bf18f5990c581408ed094ad8ef821",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15dd98",
+      "record_offset": "0x15dd98",
+      "source_record": "0f00120094de1508",
+      "j_raw": "82c882f182c5834c815b838b82aa0a88ab8ed282cc82d982a482c982a282e982a98148",
+      "legacy_raw": "90758140934f8ca1889f81408fc58ae5814091c89040814090d48ac088c38fdd3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15ddd0",
+      "record_offset": "0x15ddd0",
+      "source_record": "0f001200f8dd1508",
+      "j_raw": "8381838b836683428141836f834a82b682e182c882a28388815b0a8da182cc834c815b838b81418ad488e182a282be82e782af8149",
+      "legacy_raw": "8cdc8ca18b902c8d788db681408fc48a630a9196897c90c58140934f8ca181408f668ef493958eb890ca8fdd21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15df5c",
+      "record_offset": "0x15df5c",
+      "source_record": "0f000f0084df1508",
+      "j_raw": "8e6495fb82c882a20a8d7282c182db82a282af82c78b8382ad82c882e68141834c815b838b8149",
+      "legacy_raw": "8fec91bd81408ef481408ff689590a88c392a388d891968cb62c934f8ca121",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15e0c0",
+      "record_offset": "0x15e0c0",
+      "source_record": "0f001000ace11508",
+      "j_raw": "834c815b838b814182a282c182b582e582c98b4182eb8148",
+      "legacy_raw": "934f8ca12c88ae90ca81408b588fc488a3898e3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15e0e8",
+      "record_offset": "0x15e0e8",
+      "source_record": "0f00100054e11508",
+      "j_raw": "82e082a481498140834c815b838b82cc95aa82a982e782b889ae8149",
+      "legacy_raw": "90ca8c50218140934f8ca1814088eb919d90ed90ca21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15e7a4",
+      "record_offset": "0x15e7a4",
+      "source_record": "0f00230068e81508",
+      "j_raw": "8352838c8362836783ab8140905f8e7182cc82a082c882bd82dc82c50a934782cc8df482c982cc82e982c882f182c48149",
+      "legacy_raw": "92d88c5e2c8ae58f64898e919681630a90f990c5814088e68c4a904081408a708fec889f8ad78acd21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15ec74",
+      "record_offset": "0x15ec74",
+      "source_record": "0f002100a0ed1508",
+      "j_raw": "8352838c8362836782cd838d8343836882cc82b182c68d4482ab82be82b50a82bb82c182bf82c982c282ad82cc82cd8e6495fb82c882a282e682cb",
+      "legacy_raw": "92d88c5e90b881408c6d90ca8b858ca4814091608fc4946e8acd0a8976814091c890cc88c581408fec91bd81408ef481408ff69196",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-15ecec",
+      "record_offset": "0x15ecec",
+      "source_record": "0f00210014ed1508",
+      "j_raw": "83598359835981418359838b82a282e681418352838c8362836781490a82bb814182bb82f182c896da82b582c482e0835f838182be82a982e782cb8149",
+      "legacy_raw": "8a692c8a698d4a94772c92d88c5e210a89768c5081408aa98df981408db68a5a8b5481408fc68b6421",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-16156c",
+      "record_offset": "0x16156c",
+      "source_record": "0f004000f8151608",
+      "j_raw": "95aa82f082ed82ab82dc82a682b8814090b988e682f0966082b78ed282e60a8e8482cc96bc82cd838f838b834c8385815b838c",
+      "legacy_raw": "8dce8ef48b5481408cee8ca18ac0814092a590d290d890480a8a5a814090ca8ca590b881408d7e934f8cac21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ワルキューレ",
+          "previous": "발키리",
+          "selected": "왈큐레",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1639dc",
+      "record_offset": "0x1639dc",
+      "source_record": "0f000b00103b1608",
+      "j_raw": "83578387836a815b82b382f10a82c782a482b582dc82b582e583488148",
+      "legacy_raw": "91558acd81408fbc81408fec8bb988d281409471898e90843f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1639ec",
+      "record_offset": "0x1639ec",
+      "source_record": "0f000e00e43a1608",
+      "j_raw": "906c8cc482f182c581679193935682cc88ee8dc881680a82b182cc83578387836a815b8145835683668393",
+      "legacy_raw": "94498ca38140946e8ac190c581408d9888b18bf181408dd08cac8ac00a91558acd81458f628b46",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-163a04",
+      "record_offset": "0x163a04",
+      "source_record": "0f000e00a43a1608",
+      "j_raw": "89b4976c82cc83578387836a815b83698393836f815b82cd814182a282c282c582e00a8f8094f582a882c182af815b82be82ba814182d782a282d1815b",
+      "legacy_raw": "8a49814091558acd8ac081408fee91458b870a91778def8b658ad788eb2c8da190ca8def815b",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-163a24",
+      "record_offset": "0x163a24",
+      "source_record": "0f005e007c3a1608",
+      "j_raw": "83608346838b8356815b82c683578387836a815b82aa0a92878ad482c982c882c182bd8149",
+      "legacy_raw": "925e8f62906c814091558acd889f81408b5e8c81889f81408b658ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-163d38",
+      "record_offset": "0x163d38",
+      "source_record": "0f000a00003e1608",
+      "j_raw": "82c782a482b782e9814183578387836a815b8c4e8148",
+      "legacy_raw": "8fec91bd898e2c91558acd3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-163d48",
+      "record_offset": "0x163d48",
+      "source_record": "0f000e00e43a1608",
+      "j_raw": "906c8cc482f182c581679193935682cc88ee8dc881680a82b182cc83578387836a815b8145835683668393",
+      "legacy_raw": "94498ca38140946e8ac190c581408d9888b18bf181408dd08cac8ac00a91558acd81458f628b46",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-163d60",
+      "record_offset": "0x163d60",
+      "source_record": "0f000e00a43a1608",
+      "j_raw": "89b4976c82cc83578387836a815b83698393836f815b82cd814182a282c282c582e00a8f8094f582a882c182af815b82be82ba814182d782a282d1815b",
+      "legacy_raw": "8a49814091558acd8ac081408fee91458b870a91778def8b658ad788eb2c8da190ca8def815b",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-163d80",
+      "record_offset": "0x163d80",
+      "source_record": "0f005e00d83d1608",
+      "j_raw": "834583628368838d834582c683578387836a815b82aa0a92878ad482c982c882c182bd8149",
+      "legacy_raw": "908c8b858c6d908c906c814091558acd889f81408b5e8c81889f81408b658ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-166170",
+      "record_offset": "0x166170",
+      "source_record": "0f00120048641608",
+      "j_raw": "838f8343815b838b8149814082e282c182c682b1836083838362836782aa0a8ca982c282af82bd83698149",
+      "legacy_raw": "90a82181408b858b908fec8140924990b981408cb68a5489578a49",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-166240",
+      "record_offset": "0x166240",
+      "source_record": "0f005e00c4621608",
+      "j_raw": "836083838362836782aa92878ad482c982c882c182bd8149",
+      "legacy_raw": "924990ca81408b5e8c81889f81408b658ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-166248",
+      "record_offset": "0x166248",
+      "source_record": "0f005e0098621608",
+      "j_raw": "836083838362836782cd908a8ee382b582c482a282e982cc82c50a40448d8682c591d28b4082b582dc82b7",
+      "legacy_raw": "924990b80a404494a190408eab81408ae9898294748acd8ad7",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1671f4",
+      "record_offset": "0x1671f4",
+      "source_record": "0f002000a8721608",
+      "j_raw": "8352838c8362836782c982cd8e778250967b82be82c182c40a904782ea82b382b982cb815b82bc8149",
+      "legacy_raw": "92d88c5e904088d381408ed38ae9919681408cf6947721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-169c9c",
+      "record_offset": "0x169c9c",
+      "source_record": "0f000e009c9d1608",
+      "j_raw": "82b182b182aa8141906c8cc482f182c581679193935682cc88ee8dc881680a82b182cc83578387836a815b82cc83588365815b835782c182c482ed82af82a9",
+      "legacy_raw": "90488982889f81409241925490c581408d9888b10a90ca814091558acd90c58f59937690ca91968c6d8959",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-169ca4",
+      "record_offset": "0x169ca4",
+      "source_record": "0f000e005c9d1608",
+      "j_raw": "838283938358835e815b918a8ee882c9814082b582d182ea82e90a83578387836a815b83698393836f815b82f0814092ae82a982b982c482e282e982ba",
+      "legacy_raw": "8cf18f59936c8ca481408e938ae98c6d0a91a38cb29470814091558acd81408a708d968ca481408b898c6091759196",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-16d69c",
+      "record_offset": "0x16d69c",
+      "source_record": "0f00250098d71608",
+      "j_raw": "82b382e782c982b382e782c9814182a082e982c682ab82cd8140835b838d835881490a82b582a982b582c4814182bb82cc8ec091cc82cd836283ab",
+      "legacy_raw": "8fec8bb081408ba58ac0814091458c6d8f59210a898e91968140946e88eb2c897681408f66925b8ac021",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-170f2c",
+      "record_offset": "0x170f2c",
+      "source_record": "0f000000a8121708",
+      "j_raw": "82c8814182c882c98cbe82a28f6f82b782f182c582b782a90a834e8389815b835882b382f18149",
+      "legacy_raw": "8d4a2c8d4a8f5b81408ed08cac90409084814093488bf18f5921",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1728b0",
+      "record_offset": "0x1728b0",
+      "source_record": "0f002b00442a1708",
+      "j_raw": "82a082ea8148814089709759936082b682e18141834e8389815b835882c182c40a8f9782cc906c82cc904b82c982b582a982ea82c48163",
+      "legacy_raw": "8fec3f81409054909590fa90408eaf814093488bf18f59889f0a904890d881408ff98b4190ca90408163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-172c24",
+      "record_offset": "0x172c24",
+      "source_record": "0f002b00f42c1708",
+      "j_raw": "82d682a581608149814082b682e182b3814182a282c282a989b482e00a834e8389815b835882dd82bd82a282c9814082c882ea82e982a982c88148",
+      "legacy_raw": "948c7e21814089768c5281408fee9147889f81408a498b540a93488bf18f5992528c5281408b68898e3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-173268",
+      "record_offset": "0x173268",
+      "source_record": "0f002b003c341708",
+      "j_raw": "82a682a683ab81408341815b8360834682aa838a83748342838b90e690b682c60a8a778ed282cc834e8389815b835882c995d78bad81408bb382a682c482e982cc8148",
+      "legacy_raw": "8fc4925b889f81408cac946988f8814093488bf18f598ca40a889f8ca1929f88eb814090d48ac088c38fdd3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17356c",
+      "record_offset": "0x17356c",
+      "source_record": "0f0004003c381708",
+      "j_raw": "82cb82a682cb82a68141834e8389815b83588141838a83748342838b0a82a082bd82b5814182a895d993968dec82c182c482dd82bd82f182be82af82c7",
+      "legacy_raw": "8fc68a87814093488bf18f592c8cac94690a8b548f628bf281408cb68b898fec8dc18fec",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-179ca8",
+      "record_offset": "0x179ca8",
+      "source_record": "0f000e007c9e1708",
+      "j_raw": "82e682a881414042814140470a83578387836a815b83698393836f815b82f092ae82ab82bd82a282cc82a982a28148",
+      "legacy_raw": "8fc68a87814040422c40470a91558acd8a708d968ca481408b8888eb81408f6c8fec3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-179cc0",
+      "record_offset": "0x179cc0",
+      "source_record": "0f002c00509e1708",
+      "j_raw": "83578387836a815b82cd8140837a839383678a7982b582bb82a482c90a8989917482b782e982e682cb",
+      "legacy_raw": "91558acd8ac0814091438cb98140919188ca88d28140904b9175946e8a76",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17a2c0",
+      "record_offset": "0x17a2c0",
+      "source_record": "0f0044002ca51708",
+      "j_raw": "838d8343836882cd8367837d836781418352838c8362836782cd8373815b837d83930a904882d78f4982ed82e982dc82c58b4182b382c882a282a982e782cb",
+      "legacy_raw": "8c6d90ca8b858ac0814093848cb493840a92d88c5e90b8814094668cbf81408ad781408cd290b68bf18957",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17a710",
+      "record_offset": "0x17a710",
+      "source_record": "0f0044002ca51708",
+      "j_raw": "838d8343836882cd8367837d836781418352838c8362836782cd8373815b837d83930a904882d78f4982ed82e982dc82c58b4182b382c882a282a982e782cb",
+      "legacy_raw": "8c6d90ca8b858ac0814093848cb493840a92d88c5e90b8814094668cbf81408ad781408cd290b68bf18957",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17b92c",
+      "record_offset": "0x17b92c",
+      "source_record": "0f00100010bb1708",
+      "j_raw": "957482ab8d8782c182c482ad82ea82e982c182c481408cbe82c182bd82cc0a834c815b838b82b682e182c882a2",
+      "legacy_raw": "88ae90ca814088a18ad788eb81408cb9947088c50a934f8ca190db8fc4",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17c3d4",
+      "record_offset": "0x17c3d4",
+      "source_record": "0f001200c8c51708",
+      "j_raw": "834e83428362834c815b82e08381838b8366834282cc89cc814191e58d4482ab83690a816382a08141834c815b838b8149814082c782b582bd82a98148",
+      "legacy_raw": "92f9934f8b5481408cdc8ca18b9081408a8b8c40814091608fc4946e8ac081630a8fc42c934f8ca12181408d4a8f5b90cd90ca8fdd3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17c42c",
+      "record_offset": "0x17c42c",
+      "source_record": "0f0012005cc51708",
+      "j_raw": "82d3815b82f18141834c815b838b81418381838b8366834282cc89cc0a92ae82ab82c9978882bd814188e182a482a98148",
+      "legacy_raw": "94ea2c934f8ca12c8cdc8ca18b9090c581408a8b8c400a8b8990b68c4e8140907391963f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17c45c",
+      "record_offset": "0x17c45c",
+      "source_record": "0f001200f0c41708",
+      "j_raw": "838f8343815b838b81498140834c815b838b82e082b288ea8f8f836981490a8381838b83668342814182aa82f182ce82e983888149",
+      "legacy_raw": "906c8fc421934f8ca18b548140947389b09477210a8cdc8ca18b90814094f98a5d88d221",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17cfd8",
+      "record_offset": "0x17cfd8",
+      "source_record": "0f002900b4d11708",
+      "j_raw": "8352838a839382cd8141836083838362836782cc82b182c691e58d4482ab82be82e60a834e83428362834c815b82bd82bf82e0814082bb82a482be82e682cb8148",
+      "legacy_raw": "92d88cae90b88140924990b9814091438cb9814091608fc494770a92fa934f8b898b54814089768c5791963f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17d368",
+      "record_offset": "0x17d368",
+      "source_record": "0f002b0040d41708",
+      "j_raw": "8b4382c982b782e982b182c682c882a282e6814183608383836283670a8dd782c182b182a282a982e78140834b834c82c182c48cbe82a482c882e783ac83ac",
+      "legacy_raw": "88c49143946e91968cb42c92490a8cb98bf18eab814089bd8cb48bf188eb814094708ad78ce7",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-17f0d0",
+      "record_offset": "0x17f0d0",
+      "source_record": "0f001b00a0f41708",
+      "j_raw": "816382c58141835b838d835882cc82be82f182c80a82a88d4482dd82cc8f9790ab82cd81408ca982c282a982c182bd82a982a28148",
+      "legacy_raw": "816389768c408eab814091458c6d8f590a91608fc4946e8ac0814090488eb890b8814092428fd08fec3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-180b80",
+      "record_offset": "0x180b80",
+      "source_record": "0f005e00c00b1808",
+      "j_raw": "8177836e838d838b836882cc82c282a6817882f00a8ee882c993fc82ea82bd8149",
+      "legacy_raw": "817794778c518b8590c58140919693cc90ca81788ca40a8ff08ff88ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1810b0",
+      "record_offset": "0x1810b0",
+      "source_record": "0f0020003c131808",
+      "j_raw": "82c882a081418352838c83628367814082a882dc82a682dc82c588ea8f8f82c90a957482a282c482ab82c48140837a8393836782c997c782a982c182bd82cc82a98148",
+      "legacy_raw": "92d88c5e2c8a69898e919681408b9b8bf1906c8b540a91438cb98140894591f890b8814088c38fdd3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-181130",
+      "record_offset": "0x181130",
+      "source_record": "0f002b0000121808",
+      "j_raw": "404782c981408352838c8362836782cc916692bc82b382cc0a8250824f95aa82cc825082c582e0814082a082ea82ce82c8829f8163",
+      "legacy_raw": "40472c92d88c5e90c581408ed49197947390c50a9155897c90ca8bf18b54814090d48ff890b68ce78163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18252c",
+      "record_offset": "0x18252c",
+      "source_record": "0f002000a8281808",
+      "j_raw": "82e282df82eb81418352838c8362836781490a82a882dc82a682aa919682e982c68163",
+      "legacy_raw": "89768cb62c92d88c5e0a8a76889f81408adc8cac8ce78163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1825bc",
+      "record_offset": "0x1825bc",
+      "source_record": "0f001a0074281808",
+      "j_raw": "82a482ed815b836283aa814082a9814182a982a995c782c981490a8352838c8362836782aa8149",
+      "legacy_raw": "908c906c4d81408dab2c8dac9040210a92d88c5e90ca21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18261c",
+      "record_offset": "0x18261c",
+      "source_record": "0f00200014281808",
+      "j_raw": "91e58fe4957682a981418352838c8362836781480a82a882dc82a68141837a8393836781408368835782be82c883408163",
+      "legacy_raw": "894591f88fc42c92d88c5e3f0a91438cb981408af88c5688c38cac8a768163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-182f40",
+      "record_offset": "0x182f40",
+      "source_record": "0f002b00b0301808",
+      "j_raw": "82cb82a68141838d8343836881418352838c836283670a90e690b6814182d982c182c682a282c491e58fe4957682c882cc8148",
+      "legacy_raw": "90f889822c8c6d90ca8b852c92d88c5e0a8eaf8e9d8ad22c89768a6881408b758b5481408b68898e3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-183ac0",
+      "record_offset": "0x183ac0",
+      "source_record": "0f002c00283c1808",
+      "j_raw": "837a83938367814182b582e582a482aa82c882a282ed82cb83460a835b838d835882c182bd82e7",
+      "legacy_raw": "919891a381408fec91bd81408ef481408ff68a760a91458c6d8f598ac0",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-183ad0",
+      "record_offset": "0x183ad0",
+      "source_record": "0f002500ec3b1808",
+      "j_raw": "82a882c182c68141404782bf82e182f1814089b4976c82cc0a82b182c682cd8167835b838d835882ad82f1816882c182c48cc482f182c582cb",
+      "legacy_raw": "40472c8a498ca40a91458c6d8f598140895990ca8bf181408dd08c4e9180",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-183ae0",
+      "record_offset": "0x183ae0",
+      "source_record": "0f002b00d03b1808",
+      "j_raw": "82ed82a982c182bd82e68141835b838d835882ad82f18149",
+      "legacy_raw": "8fc988d88fec2c91458c6d8f5921",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-183b10",
+      "record_offset": "0x183b10",
+      "source_record": "0f002b007c3b1808",
+      "j_raw": "82a682a6814981408cc482d782c182c48cbe82c182bd82cc0a835b838d835882ad82f182b682e182f18149",
+      "legacy_raw": "90402181408dcc8ca18bf188eb8140947e90db8fc40a91458c6d8f59895921",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-183cf8",
+      "record_offset": "0x183cf8",
+      "source_record": "0f002b007c3f1808",
+      "j_raw": "835b838d835882c182c481418cb382cc90a28a4582b682e18140895e96bd82cc0a905f8e7182c882f182be82eb8148814082a982c182b182a282a282c88340",
+      "legacy_raw": "91458c6d8f598ac0814090988c408140908e8ceb90c50a8f6490d88bf18ce53f81408cd891968ad721",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-183d70",
+      "record_offset": "0x183d70",
+      "source_record": "0f002b00403e1808",
+      "j_raw": "82b282df82f18141835b838d835881630a82bb82f182c882c282e082e882b682e1814082c882a982c182bd82f182be",
+      "legacy_raw": "8d6b8fc694772c91458c6d8f5981630a89768c50814090c58b54889f81408fc48acd8ff88fec",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-184084",
+      "record_offset": "0x184084",
+      "source_record": "0f002b0004411808",
+      "j_raw": "82a0814182a082c6834e8389815b835882c6835b838d835882c90a8375838983458393948e8e6d82e0814082a982af82c482bd82a982c88148",
+      "legacy_raw": "8fc42c89768cac88eb814093488bf18f59906c814091458c6d8f5990400a8de88bf1908e81408d798e878ad28b54814088c78ff88fec",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        },
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1842e0",
+      "record_offset": "0x1842e0",
+      "source_record": "0f00210068441808",
+      "j_raw": "82e082a4814182c782a482b582c40a8f6f82b582e182ce82c182c482ad82e982f182be82e68141835b838d83588149",
+      "legacy_raw": "9075814089768c5788d20a8a418fec8b858ac0814088c38fdd2c91458c6d8f5921",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-184300",
+      "record_offset": "0x184300",
+      "source_record": "0f002100e8431808",
+      "j_raw": "835b838d835882cc836e836a815b82c882f182c48cbe97740a82ba82f182c182ba82f18141904d977082c582ab82c882a282cb8149",
+      "legacy_raw": "91458c6d8f5990c5814094838acd81408bf18ac081408cb90a90fa94942c8d6e90b981408ef481408ff68fec21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-184328",
+      "record_offset": "0x184328",
+      "source_record": "0f00260060431808",
+      "j_raw": "835b838d835882ad82f18141835483438365815b82c582b7",
+      "legacy_raw": "91458c6d8f592c92758fc590ca8a769084",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-186b10",
+      "record_offset": "0x186b10",
+      "source_record": "0f002300e46c1808",
+      "j_raw": "40448d8682cc836883898343837582c98aaa82ab8d9e82dc82ea82bd0a838d8343836882c68352838c8362836782aa83ac83ac",
+      "legacy_raw": "404494a190c581408b858bf190ca8de89040814094d48cb98cae0a8c6d90ca8b85906c814092d88c5e90ca8163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-186b30",
+      "record_offset": "0x186b30",
+      "source_record": "0f002300446c1808",
+      "j_raw": "82e682ad82c582ab82dc82b582bd814182b382e782c98e8482cc908491aa82c582cd0a838d8343836882c68352838c8362836793af976c82c983ac83ac",
+      "legacy_raw": "8cc08fc490842c89768cac88eb814091458140927e929890b68c6f0a8c6d90ca8b85906c814092d88c5e92528c528163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-187b88",
+      "record_offset": "0x187b88",
+      "source_record": "0f002c00107c1808",
+      "j_raw": "8352838c8362836782c6838a8341838982cc90b391cc82f00a926d82c182c482e9906782c682b582c482cd83ac83ac",
+      "legacy_raw": "92d88c5e88f881408cac8fc48bf190c581409143925b8ca40a8fc988eb814090d48ac0814090d290e390408eaf",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18821c",
+      "record_offset": "0x18821c",
+      "source_record": "0f000f00ec831808",
+      "j_raw": "83748340838982c6834c815b838b82cc836a835a8ed2814182a082e882e1815b0a95cf919582c682a982a282a4838c8378838b82b682e1814082c882a982c182bd82c8",
+      "legacy_raw": "93c28bf1906c8140934f8ca190c58140889f91a38b892c897688c50a8dad90e390ca8bf18ac081408ef4917790ca81408fc48acd8ff89196",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-189cfc",
+      "record_offset": "0x189cfc",
+      "source_record": "0f002000009e1808",
+      "j_raw": "82a6815b82c182c68141834e8389815b835882c98141834c815b838b0a83748342838a8341814182a082c68140836e838d838b836882e0",
+      "legacy_raw": "90bb2c93488bf18f5990408140934f8ca10a94698cac8fc4814089768cac88eb814094778c708b85",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        },
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18a5e0",
+      "record_offset": "0x18a5e0",
+      "source_record": "0f002b0098a61808",
+      "j_raw": "82a6814182bb82a482c882cc8148814082a0814182a082e882aa82c682a481490a82b182ea82e0836e838d838b836882cc814082a882a982b082be82e6",
+      "legacy_raw": "8fec2c89768c403f81408fc42c88eb8cb49096210a90ca88cb8b54814094778c518b8581408af48dce90ca8fdd",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18a86c",
+      "record_offset": "0x18a86c",
+      "source_record": "0f002c00a4a81808",
+      "j_raw": "81634042814182dc82c682e082c88eab8f9182f00a836e838d838b836882c98376838c835b8393836782b582c482a082b082bd82e7",
+      "legacy_raw": "816340422c91458ae98c6d81408b6781408e8790fa90b90a94778c518b85904088d2814091758ce781408fec8ba5",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18cc4c",
+      "record_offset": "0x18cc4c",
+      "source_record": "0f00000060d01808",
+      "j_raw": "834e8389815b835882aa97a090d882e982c882f182c40a82c882c982a9979d975282aa82a082e982c98c8882dc82c182c482e982e68149",
+      "legacy_raw": "93488bf18f59889f81408d888f64947181408cac81408ff68fec0a8dce8ceb814090ca90ad889f814090d490b9814088c38fdd21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18e488",
+      "record_offset": "0x18e488",
+      "source_record": "0f00030084ef1808",
+      "j_raw": "834e8389815b83580a8f6f89ef82a282cc88e290d5",
+      "legacy_raw": "93488bf18f590a8cb68a5190c5814090ad90f9",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18e4c8",
+      "record_offset": "0x18e4c8",
+      "source_record": "0f00030068ef1808",
+      "j_raw": "834e8389815b83580a838c837e88e290d5926e89ba82508265",
+      "legacy_raw": "93488bf18f590a8c588d6b90ad90f99196946e82508265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18e508",
+      "record_offset": "0x18e508",
+      "source_record": "0f00030050ef1808",
+      "j_raw": "834e8389815b83580a905f82cc8ae191e5905f9361",
+      "legacy_raw": "93488bf18f590a8f6490c58aa98ae98f6490fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18e548",
+      "record_offset": "0x18e548",
+      "source_record": "0f0003003cef1808",
+      "j_raw": "834e8389815b83580a905f91f582cc90b993b0",
+      "legacy_raw": "93488bf18f590a8f64935890c581408eb88ae5",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18e588",
+      "record_offset": "0x18e588",
+      "source_record": "0f00030024ef1808",
+      "j_raw": "834e8389815b83580a89a48fe982cc926e89ba9853",
+      "legacy_raw": "93488bf18f590a90748eb881409196946e88a69060",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18e788",
+      "record_offset": "0x18e788",
+      "source_record": "0f00030074ec1808",
+      "j_raw": "834e8389815b83580a97a090d882e882cc8dd4",
+      "legacy_raw": "93488bf18f590a8d888f6490c5814090848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18e948",
+      "record_offset": "0x18e948",
+      "source_record": "0f0003007cea1808",
+      "j_raw": "834e8389815b83580a9582975697768dc7",
+      "legacy_raw": "93488bf18f590a8dcc90ad90848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-18e988",
+      "record_offset": "0x18e988",
+      "source_record": "0f00030064ea1808",
+      "j_raw": "834e8389815b83580a83478393836683428393834f",
+      "legacy_raw": "93488bf18f590a90428b99",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1919b8",
+      "record_offset": "0x1919b8",
+      "source_record": "0f000800e0191908",
+      "j_raw": "82d382f1814182a882dc82a682bd82bf82cc97cd82cd0a968289a483578383836f836f82f0937c82b782bd82df82cc82e082cc82be82eb82a4256b0a82c882c982f0814182bd82df82e782a482b182c682aa82a082e90a8ee882c993fc82ea82bd97cd82cd8e7682a492ca82e882c98e6782a482aa82a282a2",
+      "legacy_raw": "8a6994ef8b8990c5814094f990b881408cb49074814090ee8d788d788ca40a90ca89828982814090a5947390ca88d89196256b0a917590f8946e919681408cb40a8ff090b8814094f990b981408cb490bb89ad81408e87908b9477",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジャババ",
+          "previous": "쟈바바",
+          "selected": "자바바",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-194f74",
+      "record_offset": "0x194f74",
+      "source_record": "0f000e0098571908",
+      "j_raw": "83578387836a815b0a8f6f89ef82a282cc88e290d5",
+      "legacy_raw": "91558acd0a8cb68a5190c5814090ad90f9",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-194fb4",
+      "record_offset": "0x194fb4",
+      "source_record": "0f000e007c571908",
+      "j_raw": "83578387836a815b0a838c837e88e290d5926e89ba82508265",
+      "legacy_raw": "91558acd0a8c588d6b90ad90f99196946e82508265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-194ff4",
+      "record_offset": "0x194ff4",
+      "source_record": "0f000e0064571908",
+      "j_raw": "83578387836a815b0a905f82cc8ae191e5905f9361",
+      "legacy_raw": "91558acd0a8f6490c581408aa981408ae98f6490fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195034",
+      "record_offset": "0x195034",
+      "source_record": "0f000e0050571908",
+      "j_raw": "83578387836a815b0a905f91f582cc90b993b0",
+      "legacy_raw": "91558acd0a8f64935890c581408eb88ae5",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195074",
+      "record_offset": "0x195074",
+      "source_record": "0f000e0038571908",
+      "j_raw": "83578387836a815b0a89a48fe982cc926e89ba9853",
+      "legacy_raw": "91558acd0a90748eb881409196946e88a69060",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1950b4",
+      "record_offset": "0x1950b4",
+      "source_record": "0f000e001c571908",
+      "j_raw": "83578387836a815b0a838c837e88e290d5926e89ba82518265",
+      "legacy_raw": "91558acd0a8c588d6b90ad90f99196946e82518265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1950f4",
+      "record_offset": "0x1950f4",
+      "source_record": "0f000e0004571908",
+      "j_raw": "83578387836a815b0a8e9e82cc908182ab82be82dc82e8",
+      "legacy_raw": "91558acd0a8f6288a190c581408af38d6b",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195134",
+      "record_offset": "0x195134",
+      "source_record": "0f000e00f0561908",
+      "j_raw": "83578387836a815b0a90e2965d82cc8b7b9361",
+      "legacy_raw": "91558acd0a90fb8cbf90c58140896290fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195174",
+      "record_offset": "0x195174",
+      "source_record": "0f000e00dc561908",
+      "j_raw": "83578387836a815b0a935d90b682cc96e5",
+      "legacy_raw": "91558acd0a90fa8e9d90c581408d4d",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1951b4",
+      "record_offset": "0x1951b4",
+      "source_record": "0f000e00c0561908",
+      "j_raw": "83578387836a815b0a838c837e88e290d5926e89ba82528265",
+      "legacy_raw": "91558acd0a8c588d6b90ad90f99196946e82528265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1951f4",
+      "record_offset": "0x1951f4",
+      "source_record": "0f000e0090561908",
+      "j_raw": "83578387836a815b0a8347838b837482cc9058815e82cb82b182c982f182cc97a2815e918d97cc8ee582cc8ad9",
+      "legacy_raw": "91558acd0a9043946081408f42815e8a6890cc81408cb490b9815e927090549175814088fa90f8",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195234",
+      "record_offset": "0x195234",
+      "source_record": "0f000e007c561908",
+      "j_raw": "83578387836a815b0a906c8ad496718fea",
+      "legacy_raw": "91558acd0a90cc88a18cef90e3",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195274",
+      "record_offset": "0x195274",
+      "source_record": "0f000e0068561908",
+      "j_raw": "83578387836a815b0a97a090d882e882cc8dd4",
+      "legacy_raw": "91558acd0a8d888f6490c5814090848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1952b4",
+      "record_offset": "0x1952b4",
+      "source_record": "0f000e0050561908",
+      "j_raw": "83578387836a815b0a838c837e88e290d58dc589ba9177",
+      "legacy_raw": "91558acd0a8c588d6b814090ad90f981409275946e929e",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1952f4",
+      "record_offset": "0x1952f4",
+      "source_record": "0f000e0038561908",
+      "j_raw": "83578387836a815b0a968289c88a778ca48b868f8a",
+      "legacy_raw": "91558acd0a8cb488f8946f8140904b89578ed0",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195334",
+      "record_offset": "0x195334",
+      "source_record": "0f000e000c561908",
+      "j_raw": "83578387836a815b0a898a82cc96c08b7b815e955882cc93b48c4181a893ac8db08352838d835683418380",
+      "legacy_raw": "91558acd0a8dd089c78d6b8962815e8ff190bb8b5e895b81a8939594a3814092db8c6d8eba9092",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195434",
+      "record_offset": "0x195434",
+      "source_record": "0f000e0074551908",
+      "j_raw": "83578387836a815b0a9582975697768dc7",
+      "legacy_raw": "91558acd0a8dcc90ad90848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195474",
+      "record_offset": "0x195474",
+      "source_record": "0f000e005c551908",
+      "j_raw": "83578387836a815b0a83478393836683428393834f",
+      "legacy_raw": "91558acd0a90428b99",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195850",
+      "record_offset": "0x195850",
+      "source_record": "0f000f00c0611908",
+      "j_raw": "838a836283680a905f82cc8ae191e5905f9361",
+      "legacy_raw": "8cb28b850a8f6490c58aa98ae98f6490fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195910",
+      "record_offset": "0x195910",
+      "source_record": "0f000f0080611908",
+      "j_raw": "838a836283680a838c837e88e290d5926e89ba82518265",
+      "legacy_raw": "8cb28b850a8c588d6b90ad90f99196946e82518265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1959d0",
+      "record_offset": "0x1959d0",
+      "source_record": "0f000f00d4601908",
+      "j_raw": "82a082a282c282e7814183748340838982c6834c815b838b82cc8b5a82dc82c50a837d836c82b582c48e6782c182c4814082e282aa82c182bd82c8256b0a816382c182c482b182c682cd814182bd82be82cc95cf919582b682e182c882a20a82c882e882ab82e8959e82c182c48384836382cc814097cd82a982e082c8",
+      "legacy_raw": "8a808eac8b89814093c28bf1906c8140934f8ca190c5814089828ef8898e91960a94e28a5a81408a5a8eab81408fb090db8fc4256b0a8163897681408cb990b881408ada8ef6947081408dad90e390ca81408fc48acd0a8a498cac934f8cac90c5814094f990cd91968b5481408cf28bf1",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-195b10",
+      "record_offset": "0x195b10",
+      "source_record": "0f000f00a85f1908",
+      "j_raw": "834c815b838b82cc838483638141978e82bf82b182f182c582bd82ba0a82c582e08da182cd81418377835e82c990ba82a982af82c882a282c583ac83ac256b0a82bb82c182c682b582c682a282c4814082e282c182c482ad82ea82e6",
+      "legacy_raw": "934f8ca18a808eac8140908c908f94778140946e88eb0a90d491968cb681409196897c90b881408cb9814088c7919681408cb48163256b0a89768a6881408a5a8d968c6081408b752c8dcc935890ca8fdd",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196520",
+      "record_offset": "0x196520",
+      "source_record": "0f001000586a1908",
+      "j_raw": "834c815b838b82c9906c82f097a090d882e982c882f182c40a82c582ab82e982cd82b882c882a282e68149256b0a90e291ce8141835f837d82b382ea82c482e982f182be82c182c48149",
+      "legacy_raw": "934f8ca1889f81408e878bf590b981408d888f64946e8ac088c50a90fb8ae981408dd0889f8ac7947721256b0a8dce8ceb81408ed188eb814090d48ac0814088c38fdd21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196d24",
+      "record_offset": "0x196d24",
+      "source_record": "0f001100ec751908",
+      "j_raw": "834c815b838b0a8f6f89ef82a282cc88e290d5",
+      "legacy_raw": "934f8ca10a8cb68a5190c5814090ad90f9",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196d64",
+      "record_offset": "0x196d64",
+      "source_record": "0f001100d4751908",
+      "j_raw": "834c815b838b0a838c837e88e290d5926e89ba82508265",
+      "legacy_raw": "934f8ca10a8c588d6b90ad90f99196946e82508265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196da4",
+      "record_offset": "0x196da4",
+      "source_record": "0f001100c0751908",
+      "j_raw": "834c815b838b0a905f82cc8ae191e5905f9361",
+      "legacy_raw": "934f8ca10a8f6490c58aa98ae98f6490fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196de4",
+      "record_offset": "0x196de4",
+      "source_record": "0f001100ac751908",
+      "j_raw": "834c815b838b0a905f91f582cc90b993b0",
+      "legacy_raw": "934f8ca10a8f64935890c581408eb88ae5",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196e24",
+      "record_offset": "0x196e24",
+      "source_record": "0f00110098751908",
+      "j_raw": "834c815b838b0a89a48fe982cc926e89ba9853",
+      "legacy_raw": "934f8ca10a90748eb881409196946e88a69060",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196e64",
+      "record_offset": "0x196e64",
+      "source_record": "0f00110080751908",
+      "j_raw": "834c815b838b0a838c837e88e290d5926e89ba82518265",
+      "legacy_raw": "934f8ca10a8c588d6b90ad90f99196946e82518265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196ea4",
+      "record_offset": "0x196ea4",
+      "source_record": "0f00110068751908",
+      "j_raw": "834c815b838b0a8e9e82cc908182ab82be82dc82e8",
+      "legacy_raw": "934f8ca10a8f6288a190c581408af38d6b",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-196ee4",
+      "record_offset": "0x196ee4",
+      "source_record": "0f00110054751908",
+      "j_raw": "834c815b838b0a90e2965d82cc8b7b9361",
+      "legacy_raw": "934f8ca10a90fb8cbf90c58140896290fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-197024",
+      "record_offset": "0x197024",
+      "source_record": "0f001100f0731908",
+      "j_raw": "834c815b838b0a97a090d882e882cc8dd4",
+      "legacy_raw": "934f8ca10a8d888f6490c5814090848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1971e4",
+      "record_offset": "0x1971e4",
+      "source_record": "0f00110024731908",
+      "j_raw": "834c815b838b0a9582975697768dc7",
+      "legacy_raw": "934f8ca10a8dcc90ad90848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-197224",
+      "record_offset": "0x197224",
+      "source_record": "0f00110010731908",
+      "j_raw": "834c815b838b0a83478393836683428393834f",
+      "legacy_raw": "934f8ca10a90428b99",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-197b60",
+      "record_offset": "0x197b60",
+      "source_record": "0f001200887b1908",
+      "j_raw": "834c815b838b8141916692bc82b682e182c882a28388815b0a82b182c182bf978882bd82a281408cbe82c182bd82cc834c815b838b82be83888149",
+      "legacy_raw": "934f8ca12c8ed49197946e919681408cf6946e8a760a904889828140905f88eb81408f6c8ad788eb81409470814088c58140934f8ca18fdd21",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1987d4",
+      "record_offset": "0x1987d4",
+      "source_record": "0f001400c88f1908",
+      "j_raw": "83608383836283670a8f6f89ef82a282cc88e290d5",
+      "legacy_raw": "92490a8cb68a5190c5814090ad90f9",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198814",
+      "record_offset": "0x198814",
+      "source_record": "0f001400ac8f1908",
+      "j_raw": "83608383836283670a838c837e88e290d5926e89ba82508265",
+      "legacy_raw": "92490a8c588d6b90ad90f99196946e82508265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198854",
+      "record_offset": "0x198854",
+      "source_record": "0f001400948f1908",
+      "j_raw": "83608383836283670a905f82cc8ae191e5905f9361",
+      "legacy_raw": "92490a8f6490c581408aa981408ae98f6490fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198894",
+      "record_offset": "0x198894",
+      "source_record": "0f001400808f1908",
+      "j_raw": "83608383836283670a905f91f582cc90b993b0",
+      "legacy_raw": "92490a8f64935890c581408eb88ae5",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1988d4",
+      "record_offset": "0x1988d4",
+      "source_record": "0f001400688f1908",
+      "j_raw": "83608383836283670a89a48fe982cc926e89ba9853",
+      "legacy_raw": "92490a90748eb881409196946e88a69060",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198914",
+      "record_offset": "0x198914",
+      "source_record": "0f0014004c8f1908",
+      "j_raw": "83608383836283670a838c837e88e290d5926e89ba82518265",
+      "legacy_raw": "92490a8c588d6b814090ad90f981409196946e814032929e",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198954",
+      "record_offset": "0x198954",
+      "source_record": "0f001400348f1908",
+      "j_raw": "83608383836283670a8e9e82cc908182ab82be82dc82e8",
+      "legacy_raw": "92490a8f6288a190c581408af38d6b",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198994",
+      "record_offset": "0x198994",
+      "source_record": "0f001400208f1908",
+      "j_raw": "83608383836283670a90e2965d82cc8b7b9361",
+      "legacy_raw": "92490a90fb8cbf90c58140896290fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1989d4",
+      "record_offset": "0x1989d4",
+      "source_record": "0f0014000c8f1908",
+      "j_raw": "83608383836283670a935d90b682cc96e5",
+      "legacy_raw": "92490a90fa8e9d90c581408d4d",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198a14",
+      "record_offset": "0x198a14",
+      "source_record": "0f001400f08e1908",
+      "j_raw": "83608383836283670a838c837e88e290d5926e89ba82528265",
+      "legacy_raw": "92490a8c588d6b90ad90f99196946e82528265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198a54",
+      "record_offset": "0x198a54",
+      "source_record": "0f001400c08e1908",
+      "j_raw": "83608383836283670a8347838b837482cc9058815e82cb82b182c982f182cc97a2815e918d97cc8ee582cc8ad9",
+      "legacy_raw": "92490a9043946081408f42815e8a6890cc81408cb490b9815e927090549175814088fa90f8",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198a94",
+      "record_offset": "0x198a94",
+      "source_record": "0f001400ac8e1908",
+      "j_raw": "83608383836283670a906c8ad496718fea",
+      "legacy_raw": "92490a90cc88a18cef90e3",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198ad4",
+      "record_offset": "0x198ad4",
+      "source_record": "0f001400988e1908",
+      "j_raw": "83608383836283670a97a090d882e882cc8dd4",
+      "legacy_raw": "92490a8d888f6490c5814090848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198b14",
+      "record_offset": "0x198b14",
+      "source_record": "0f001400808e1908",
+      "j_raw": "83608383836283670a838c837e88e290d58dc589ba9177",
+      "legacy_raw": "92490a8c588d6b814090ad90f981409275946e929e",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198b54",
+      "record_offset": "0x198b54",
+      "source_record": "0f001400688e1908",
+      "j_raw": "83608383836283670a968289c88a778ca48b868f8a",
+      "legacy_raw": "92490a8cb488f8946f8140904b89578ed0",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198b94",
+      "record_offset": "0x198b94",
+      "source_record": "0f0014003c8e1908",
+      "j_raw": "83608383836283670a898a82cc96c08b7b815e955882cc93b48c4181a893ac8db08352838d835683418380",
+      "legacy_raw": "92490a8dd089c78d6b8962815e8ff190bb8b5e895b81a8939594a3814092db8c6d8eba9092",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198bd4",
+      "record_offset": "0x198bd4",
+      "source_record": "0f001400208e1908",
+      "j_raw": "83608383836283670a8e9e82cc908182ab82be82dc82e88251",
+      "legacy_raw": "92490a8f6288a190c581408af38d6b8251",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198c94",
+      "record_offset": "0x198c94",
+      "source_record": "0f001400908d1908",
+      "j_raw": "83608383836283670a9582975697768dc7",
+      "legacy_raw": "92490a8dcc90ad90848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-198cd4",
+      "record_offset": "0x198cd4",
+      "source_record": "0f001400788d1908",
+      "j_raw": "83608383836283670a83478393836683428393834f",
+      "legacy_raw": "92490a90428b99",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19bf8c",
+      "record_offset": "0x19bf8c",
+      "source_record": "0f001d00e0191908",
+      "j_raw": "82d382f1814182a882dc82a682bd82bf82cc97cd82cd0a968289a483578383836f836f82f0937c82b782bd82df82cc82e082cc82be82eb82a4256b0a82c882c982f0814182bd82df82e782a482b182c682aa82a082e90a8ee882c993fc82ea82bd97cd82cd8e7682a492ca82e882c98e6782a482aa82a282a2",
+      "legacy_raw": "8a6994ef8b8990c5814094f990b881408cb49074814090ee8d788d788ca40a90ca89828982814090a5947390ca88d89196256b0a917590f8946e919681408cb40a8ff090b8814094f990b981408cb490bb89ad81408e87908b9477",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ジャババ",
+          "previous": "쟈바바",
+          "selected": "자바바",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19c3e4",
+      "record_offset": "0x19c3e4",
+      "source_record": "0f001e00a8c81908",
+      "j_raw": "82c882f182c58141834e838c835882bd82bf82c688ea8f8f82c982a282bd82cc82a90a82a082bd82b582c982e0814082ed82a982e782c882a282f182be82e6256b0a834e8389815b835882cd8140936090e082cc89fc95cf82aa0a906982f182c582e982a982e782c182c481408cbe82c182c482bd82af82c782cb8346",
+      "legacy_raw": "9075814093488c588f59906c8140947389b0814090d48ff88ac091960a8a498b54814090dd81408cee8ca188d88fec256b0a93488bf18f598ac0814090fa8eb190ca81408dad946e88eb0a90d48ad788eb81408cb9947e91968cb68163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19ca38",
+      "record_offset": "0x19ca38",
+      "source_record": "0f001f0008d31908",
+      "j_raw": "836e838d838b83680a8f6f89ef82a282cc88e290d5",
+      "legacy_raw": "94778c518b850a8cb68a5190c5814090ad90f9",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19caf8",
+      "record_offset": "0x19caf8",
+      "source_record": "0f001f00c0d21908",
+      "j_raw": "836e838d838b83680a905f91f582cc90b993b0",
+      "legacy_raw": "94778c518b850a8f64935890c581408eb88ae5",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19cb38",
+      "record_offset": "0x19cb38",
+      "source_record": "0f001f00a8d21908",
+      "j_raw": "836e838d838b83680a89a48fe982cc926e89ba9853",
+      "legacy_raw": "94778c518b850a90748eb881409196946e88a69060",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19cb78",
+      "record_offset": "0x19cb78",
+      "source_record": "0f001f008cd21908",
+      "j_raw": "836e838d838b83680a838c837e88e290d5926e89ba82518265",
+      "legacy_raw": "94778c518b850a8c588d6b90ad90f99196946e82518265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19cbb8",
+      "record_offset": "0x19cbb8",
+      "source_record": "0f001f0074d21908",
+      "j_raw": "836e838d838b83680a8e9e82cc908182ab82be82dc82e8",
+      "legacy_raw": "94778c518b850a8f6288a190c581408af38d6b",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19cbf8",
+      "record_offset": "0x19cbf8",
+      "source_record": "0f001f0060d21908",
+      "j_raw": "836e838d838b83680a90e2965d82cc8b7b9361",
+      "legacy_raw": "94778c518b850a90fb8cbf90c58140896290fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19cc38",
+      "record_offset": "0x19cc38",
+      "source_record": "0f001f004cd21908",
+      "j_raw": "836e838d838b83680a935d90b682cc96e5",
+      "legacy_raw": "94778c518b850a90fa8e9d90c581408d4d",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19cd38",
+      "record_offset": "0x19cd38",
+      "source_record": "0f001f0074d11908",
+      "j_raw": "836e838d838b83680a97a090d882e882cc8dd4",
+      "legacy_raw": "94778c518b850a8d888f6490c5814090848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19cef8",
+      "record_offset": "0x19cef8",
+      "source_record": "0f001f0038d01908",
+      "j_raw": "836e838d838b83680a9582975697768dc7",
+      "legacy_raw": "94778c518b850a8dcc90ad90848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19cf38",
+      "record_offset": "0x19cf38",
+      "source_record": "0f001f0020d01908",
+      "j_raw": "836e838d838b83680a83478393836683428393834f",
+      "legacy_raw": "94778c518b850a90428b99",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19e6dc",
+      "record_offset": "0x19e6dc",
+      "source_record": "0f002200e8f01908",
+      "j_raw": "8352838c836283670a8f6f89ef82a282cc88e290d5",
+      "legacy_raw": "92d88c5e0a8cb68a5190c5814090ad90f9",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19e71c",
+      "record_offset": "0x19e71c",
+      "source_record": "0f002200ccf01908",
+      "j_raw": "8352838c836283670a838c837e88e290d5926e89ba82508265",
+      "legacy_raw": "92d88c5e0a8c588d6b90ad90f99196946e82508265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19e75c",
+      "record_offset": "0x19e75c",
+      "source_record": "0f002200b4f01908",
+      "j_raw": "8352838c836283670a905f82cc8ae191e5905f9361",
+      "legacy_raw": "92d88c5e0a8f6490c58aa98ae98f6490fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19e79c",
+      "record_offset": "0x19e79c",
+      "source_record": "0f002200a0f01908",
+      "j_raw": "8352838c836283670a905f91f582cc90b993b0",
+      "legacy_raw": "92d88c5e0a8f64935890c581408eb88ae5",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19eb9c",
+      "record_offset": "0x19eb9c",
+      "source_record": "0f00220090ec1908",
+      "j_raw": "8352838c836283670a9582975697768dc7",
+      "legacy_raw": "92d88c5e0a8dcc90ad90848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-19ebdc",
+      "record_offset": "0x19ebdc",
+      "source_record": "0f00220078ec1908",
+      "j_raw": "8352838c836283670a83478393836683428393834f",
+      "legacy_raw": "92d88c5e0a90428b99",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0548",
+      "record_offset": "0x1a0548",
+      "source_record": "0f002500b00d1a08",
+      "j_raw": "835b838d83580a8f6f89ef82a282cc88e290d5",
+      "legacy_raw": "91458c6d8f590a8cb68a5190c5814090ad90f9",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0588",
+      "record_offset": "0x1a0588",
+      "source_record": "0f002500980d1a08",
+      "j_raw": "835b838d83580a838c837e88e290d5926e89ba82508265",
+      "legacy_raw": "91458c6d8f590a8c588d6b90ad90f99196946e82508265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a05c8",
+      "record_offset": "0x1a05c8",
+      "source_record": "0f002500840d1a08",
+      "j_raw": "835b838d83580a905f82cc8ae191e5905f9361",
+      "legacy_raw": "91458c6d8f590a8f6490c58aa98ae98f6490fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0608",
+      "record_offset": "0x1a0608",
+      "source_record": "0f002500700d1a08",
+      "j_raw": "835b838d83580a905f91f582cc90b993b0",
+      "legacy_raw": "91458c6d8f590a8f64935890c58eb88ae5",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0648",
+      "record_offset": "0x1a0648",
+      "source_record": "0f0025005c0d1a08",
+      "j_raw": "835b838d83580a89a48fe982cc926e89ba9853",
+      "legacy_raw": "91458c6d8f590a90748eb89196946e88a69060",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0688",
+      "record_offset": "0x1a0688",
+      "source_record": "0f002500440d1a08",
+      "j_raw": "835b838d83580a838c837e88e290d5926e89ba82518265",
+      "legacy_raw": "91458c6d8f590a8c588d6b90ad90f99196946e82518265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a06c8",
+      "record_offset": "0x1a06c8",
+      "source_record": "0f0025002c0d1a08",
+      "j_raw": "835b838d83580a8e9e82cc908182ab82be82dc82e8",
+      "legacy_raw": "91458c6d8f590a8f6288a190c581408af38d6b",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0708",
+      "record_offset": "0x1a0708",
+      "source_record": "0f002500180d1a08",
+      "j_raw": "835b838d83580a90e2965d82cc8b7b9361",
+      "legacy_raw": "91458c6d8f590a90fb8cbf90c5896290fa",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0748",
+      "record_offset": "0x1a0748",
+      "source_record": "0f002500080d1a08",
+      "j_raw": "835b838d83580a935d90b682cc96e5",
+      "legacy_raw": "91458c6d8f590a90fa8e9d90c58d4d",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0788",
+      "record_offset": "0x1a0788",
+      "source_record": "0f002500f00c1a08",
+      "j_raw": "835b838d83580a838c837e88e290d5926e89ba82528265",
+      "legacy_raw": "91458c6d8f590a8c588d6b90ad90f99196946e82528265",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a07c8",
+      "record_offset": "0x1a07c8",
+      "source_record": "0f002500c40c1a08",
+      "j_raw": "835b838d83580a8347838b837482cc9058815e82cb82b182c982f182cc97a2815e918d97cc8ee582cc8ad9",
+      "legacy_raw": "91458c6d8f590a9043946081408f42815e8a6890cc81408cb490b9815e927090549175814088fa90f8",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0808",
+      "record_offset": "0x1a0808",
+      "source_record": "0f002500b40c1a08",
+      "j_raw": "835b838d83580a906c8ad496718fea",
+      "legacy_raw": "91458c6d8f590a90cc88a18cef90e3",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0a08",
+      "record_offset": "0x1a0a08",
+      "source_record": "0f002500340b1a08",
+      "j_raw": "835b838d83580a9582975697768dc7",
+      "legacy_raw": "91458c6d8f590a8dcc90ad90848e95",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a0a48",
+      "record_offset": "0x1a0a48",
+      "source_record": "0f002500200b1a08",
+      "j_raw": "835b838d83580a83478393836683428393834f",
+      "legacy_raw": "91458c6d8f590a90428b99",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a30c4",
+      "record_offset": "0x1a30c4",
+      "source_record": "0f00450090391a08",
+      "j_raw": "82cb82a6814182cb82a68141838d8343836882c68352838c8362836782c182c40a936090e082c582cd8c8b82ce82ea82e982cc82a982b582e782cb83468148256b0a82a88e6f82b382f1814182bf82e582c182c68bbb96a18356839383568393",
+      "legacy_raw": "90d491962c8c6d90ca8b85906c814092d88c5e90b80a90fa8eb190408eab814090ca8fec91968ac0814088c7898e3f256b0a8fee8acd2c915a814094ed8d6b91989198946e88c38b87",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a66c0",
+      "record_offset": "0x1a66c0",
+      "source_record": "0f002b0000a71a08",
+      "j_raw": "838d8343836882c68352838c8362836782aa96b38e9682be82c182bd82f182be82b50a8dd782a982a282b182c682cd814082a282a282b682e182f1",
+      "legacy_raw": "8c6d90ca8b85906c814092d88c5e90ca81408d4a8e87947e90b68acd0a90d890dd9470814088c581408b6590db8fc4",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1a8480",
+      "record_offset": "0x1a8480",
+      "source_record": "0f002b0064881a08",
+      "j_raw": "836e838d838b836882c182c4936090e082c982e682c182c40a90ab95ca82aa88e182a482f182be82ba8141926d82c182c482bd8148",
+      "legacy_raw": "94778c518b858ac0814090fa8eb1904081408b9b8bf10a8eb88dae90ca81408ad78ca18ae92c8fc988eb814090d48ff88fec3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1ad460",
+      "record_offset": "0x1ad460",
+      "source_record": "0f002e0044fb1a08",
+      "j_raw": "838d8343836882c68352838c8362836782cc91e382ed82e882c90a90b993b082a982e788ab968282f092c782a295a582a482cc82b682e1",
+      "legacy_raw": "8c6d90ca8b85906c814092d88c5e8ae98f640a8eb88ae590408eab81408fc58cb48ca481408cf28fc48a5a90d8",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1add80",
+      "record_offset": "0x1add80",
+      "source_record": "0f002e0020f21a08",
+      "j_raw": "8356839383748348836a8341936090e082cc8371815b838d815b0a835b838d835882c6814082b582a282c882aa83ac83ac",
+      "legacy_raw": "8f6893f58acd8fc4814090fa8eb190c58140905490950a91458c6d8f59906c81408f6290ca8a49889f8163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1afe80",
+      "record_offset": "0x1afe80",
+      "source_record": "0f002e00c8151b08",
+      "j_raw": "838d8343836882c68352838c8362836782cc91e396f082c682b582c40a8f6f8cfc82a282c482ad82ea82e982c88148",
+      "legacy_raw": "8c6d90ca8b85906c814092d88c5e90c581408ae9904990b68c6d0a889f917881408ef4814090d488d88acd3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b1e8c",
+      "record_offset": "0x1b1e8c",
+      "source_record": "0f002b00e87a1b08",
+      "j_raw": "8177838d8343836882c68352838c8362836782aa0a97b797a782c182bd909493fa8ce382cc82b182c682c582b781428178",
+      "legacy_raw": "0a81778c6d90ca8b85906c814092d88c5e90ca0a9048948090b981408bae8a4c81408ce592a3814094c28178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b1ec4",
+      "record_offset": "0x1b1ec4",
+      "source_record": "0f002b006c7a1b08",
+      "j_raw": "817782b582a982b58141838d8343836882c68352838c8362836782cd0a89bd93fa82bd82c182c482e096df82c182c482ab82dc82b982f181638178",
+      "legacy_raw": "817789768c4e8a4981408c6d90ca8b852c92d88c5e90b80a8f6288a190ca814091968a498b5481408b588fc4905f919681408fc88fd08ad78178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b2064",
+      "record_offset": "0x1b2064",
+      "source_record": "0f002c0064791b08",
+      "j_raw": "8177838d8343836882c68352838c8362836782cd91e590a882cc92878ad482f00a88f882ab984182ea82c496df82c182c482ab82dc82b582bd81428178",
+      "legacy_raw": "81778c6d90ca8b85906c814092d88c5e90b881408cb790b881408b5e8c818b8990b90a90ca89f688eb81408b588fc490738ad78178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b2444",
+      "record_offset": "0x1b2444",
+      "source_record": "0f002b00a8761b08",
+      "j_raw": "8177926e89ba985382a982e796b38e9682c992458f6f82b582bd0a8341815b8360834682c6834e8389815b835882cd83ac83ac8178",
+      "legacy_raw": "81779196946e814088a6906090408eab8140935a928294700a8fc4925b906c814093488bf18f598ac081638178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b24e4",
+      "record_offset": "0x1b24e4",
+      "source_record": "0f002b00f4751b08",
+      "j_raw": "81778341815b8360834682c6834e8389815b835882aa95df82dc82c182c482a282bd0a985389ae82cc834a834d82f08a4a82af82bd82cc82cd83ac83ac8178",
+      "legacy_raw": "81778fc4925b906c814093488bf18f59889f814090e0949490d48af60a88a6906090b98140904b814088cb90b881638178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b2a3c",
+      "record_offset": "0x1b2a3c",
+      "source_record": "0f002c00f0701b08",
+      "j_raw": "817783748340838982c6834c815b838b82aa814082a882c682e882c982c882e80a934782f088f882ab82c282af82dc82b582bd81428178",
+      "legacy_raw": "817793c28bf1906c8140934f8ca1889f81408d6b8a41889f81408b668fec0a90f990b9814089f68fec8b8990538f5f8acd8ad78178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b2a7c",
+      "record_offset": "0x1b2a7c",
+      "source_record": "0f002c00b4701b08",
+      "j_raw": "817782bb82cc8c8482c9838a8362836882cd8140838f836982c90a82a982a982c182c482a282bd92878ad482bd82bf82f08b7e82a283ac83ac8178",
+      "legacy_raw": "81778976814093b2904081408cb28b858ac081409473914390400a8dfa919881408b5e8c818b8990b981408957947781408a5a88eb8178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b37ec",
+      "record_offset": "0x1b37ec",
+      "source_record": "0f002b00ac641b08",
+      "j_raw": "817782bb82cc82c682ab814190e2965d82cc835a838c835883658342834182c90a926d8c6282cc8f97905f836e838d838b836882aa83ac83ac8178",
+      "legacy_raw": "817789768ba5814090fb8cbf90c581408eba8c588f5993ba8fc490400a9196949d90c5814090488f64814094778c518b85889f81638178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b39bc",
+      "record_offset": "0x1b39bc",
+      "source_record": "0f002c0020621b08",
+      "j_raw": "8177835b838d835882c6814082b582a282c8814182be82c682a282a40a8345838f835482c582b582bd8142817882a98163",
+      "legacy_raw": "817791458c6d8f592c8f6290ca8a498bf18ac081400a8ed08d4d90ca8ff88f5f8acd8ad7817890cc889f8163",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b3aa4",
+      "record_offset": "0x1b3aa4",
+      "source_record": "0f002c00b0611b08",
+      "j_raw": "835b838d835882b382f182c6814082b582a282c882b382f182cc0a8b5e82a282cd90b082ea82bd82cc82a982b582e78148",
+      "legacy_raw": "91458c6d8f59906c81408f6290ca8a4990c50a90c594a290b8814094628cae88c7898e3f",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b3b2c",
+      "record_offset": "0x1b3b2c",
+      "source_record": "0f002b0008611b08",
+      "j_raw": "8177928682c582e0814082bd82bd82a682e782ea82e982d782ab82cd0a835b838d835882c6814082b582a282c882c582b582bd81428178",
+      "legacy_raw": "817789768140917e81408ae98ada947e8af6814088cb90b881400a91458c6d8f59906c81408f6290ca8a4990538f5f8acd8ad78178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1b3b5c",
+      "record_offset": "0x1b3b5c",
+      "source_record": "0f002b0088601b08",
+      "j_raw": "8177835b838d835882c6814082b582a282c882aa8250824f824f906c82e00a82a282e982e682a482be814182c6955d82b382ea82bd82cc82c582b781428178",
+      "legacy_raw": "817791458c6d8f59906c81408f6290ca8a498ac081408250824f824f8ceb0a8cf090b98140947e8ad788eb814093f0889f8b668ff88f5f8acd8ad78178",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "meredy-ruins-floor",
+      "record_offset": "0x197660",
+      "source_record": "0f001200ac7e1908",
+      "j_raw": "8381838b836683420a838c837e88e290d5926e89ba82508265",
+      "legacy_raw": "934f8ca10a8c588d6b90ad90f99196946e82518265",
+      "reason": "Legacy duplicates Keel/B2 label in the original Meredy/B1 dialogue resource. Correct both character and floor; natural-play reachability pending."
+    },
+    {
+      "id": "dialogue-terms-1ac028",
+      "record_offset": "0x1ac028",
+      "source_record": "25000f0098ca1a08",
+      "j_raw": "8349838c82cd838a83628368814182b182c182bf82cc82d382bd82e882cd0a976382c882b682dd82cc83748340838982c6834c815b838b",
+      "legacy_raw": "8a498ac081408cb28b852c90ca814091c881408b6d81408e878bf590b80a8ed089dd92a1895790cc814093c28bf1906c8140934f8ca1",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        },
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "id": "dialogue-terms-1ac190",
+      "record_offset": "0x1ac190",
+      "source_record": "25002000dcc91a08",
+      "j_raw": "89b482cc96bc914f82cd838d8343836881458341815b839483428393834f0a82b182c182bf82aa8352838c8362836782c68357815b836a83418358",
+      "legacy_raw": "8a5a814090ca8ca590b881408c6d90ca8b8581458fec8df70a90ca814091c890ca814092d88c5e88f8814091968acd8fec8f59",
+      "kind": "approved_character_terminology",
+      "name_evidence": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    }
+  ]
+}

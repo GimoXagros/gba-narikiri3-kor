@@ -1,0 +1,33 @@
+{"purpose": "From immutable K1.1 first EEPROM: load in new build, menu save, wait for completed saving.", "reference_final_frame": 2395}
+{"request": {"op": "frames", "count": 300}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 200}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 100}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 200}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 600}}

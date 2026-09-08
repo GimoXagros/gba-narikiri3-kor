@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9f895d9a13ed09386df47eb1256dc41419685e776c9ac5fa05a2f2e225d5c374",
+  "selected_ui_entries": 7,
+  "format_and_pixel_mode_cases": 50,
+  "scope": "Real Thumb variadic formatter plus modified small renderer; representative variable boundaries in both modes; not all UI or whole-game coverage"
+}

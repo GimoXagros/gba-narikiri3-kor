@@ -1,0 +1,3025 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "groups": {
+    "item": [
+      {
+        "id": "item-000",
+        "compact": "없음",
+        "source_record_sha256": "768cd1019a2f65878e30e5242cd01d3444177af0b18e8f69b3f3235dc60eea79",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_000",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-001",
+        "compact": "애플 구미",
+        "source_record_sha256": "9e4743aff5597f72c2a9a284c488e2597e7666eefbb871442d08713e291ddbb3",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_006",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-002",
+        "compact": "오렌지 구미",
+        "source_record_sha256": "af6874840fe94e0dc916a29d97a6b73e679d07c7eb1768f2e08f0394bcf1fbaa",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_021",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-003",
+        "compact": "믹스 구미",
+        "source_record_sha256": "39da1ab8db8172a41acdcf680ff7965694269535ba89e9746a91e1de6b21765c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_139",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-004",
+        "compact": "레몬 구미",
+        "source_record_sha256": "0862330f05268ca8aaa353f9790a4cbc3e7358bb2a6c96f4f0a28ecd955c3eb7",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_153",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-005",
+        "compact": "파인 구미",
+        "source_record_sha256": "47145b5c2fecd74e80c49c46686c7bfdad18ffaa0128923b82ea9cf88b241fce",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_097",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-006",
+        "compact": "미라클 구미",
+        "source_record_sha256": "731e050c08bbc28a0c30e3c0e261383501ce772c4953133d59cd9110ccafe242",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_140",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-007",
+        "compact": "엘릭서",
+        "source_record_sha256": "f12aac96fd68642bfcc7665de78bf0d80fad05ac74b59ead0ee36b0f5923d944",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_015",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-008",
+        "compact": "파나시아 보틀",
+        "source_record_sha256": "c5d8f6a8fc843a45e319458dd11128493bd74af2fdecb51e3a57cd0d10653013",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_100",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-009",
+        "compact": "라이프 보틀",
+        "source_record_sha256": "32ec0cb7d67baa33174d08202946070b5dffb75d922cc557b77738394348e9e4",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_144",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-010",
+        "compact": "모래시계",
+        "source_record_sha256": "ec0e32476fb87a4c02664a7a6b6fc124546d64398c5c51d34fdc06e19669bc2a",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_007",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-011",
+        "compact": "스펙터클즈",
+        "source_record_sha256": "acb7cc3aab803c998f2e263e28ea819bb77c5e07fca06a152e0fb4db685a1969",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_061",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-012",
+        "compact": "자물쇠 도구",
+        "source_record_sha256": "cc7423badda3222c56907b01fc8022dffe0489cea7c9ccdc46c9c9c78c9c7b0e",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_023",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-013",
+        "compact": "탈리스만",
+        "source_record_sha256": "7da4e0577e6233ddd8691547000e0e75b174e8d22a3b4fcf8fc833cd266d97be",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_073",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-014",
+        "compact": "패럴라이 체크",
+        "source_record_sha256": "6324395a968b976cf87b8eacf9ccd41d0db7cdeb8cb7416dec8bc489945f26a5",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_103",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-015",
+        "compact": "피요한",
+        "source_record_sha256": "390007c5045ab071e1e2c7908093214c4ffe42bd97ff4898a907cc6996105c85",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_107",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-016",
+        "compact": "블루 탈리스만",
+        "source_record_sha256": "88c02aa0d57c6d4c8e2a8f2df3878751fbccaefd719537c935481e3fe94c8d61",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_118",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-017",
+        "compact": "포이즌 체크",
+        "source_record_sha256": "99efe7796d88be40d5c05595d06b83fa60bb5d5265126a3953774298781ce18c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_124",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-018",
+        "compact": "프리즈 체크",
+        "source_record_sha256": "303e8defa615a7931df777690c5e1b2651d4176240cbf3643dbded43d0fcfbb5",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_116",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-019",
+        "compact": "엘븐 부츠",
+        "source_record_sha256": "5cbd668e138aac48c642f9580d51c6515cd146aaf768638b288876650680f369",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-020",
+        "compact": "제트 부츠",
+        "source_record_sha256": "5f6ccb3184a80bdd592e32d85054f5fb199334a7dd11068d31f965c6fb94648c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_052",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-021",
+        "compact": "페르시아 부츠",
+        "source_record_sha256": "a819ec9436b9d8e0da00aaed816e018e787102dd9c8d537f8ddb8fae383ef6f8",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_122",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-022",
+        "compact": "매직 미스트",
+        "source_record_sha256": "a3af220fa218fc57cf1eb6c7ce1ab858ce3f6fed708aed7478203f1127ad8d12",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_132",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-023",
+        "compact": "크로나 심볼",
+        "source_record_sha256": "a18bcd3fa9c189f4553bb283c686e4b8dbdcfc053cd45a9d829b69204c661336",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_042",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-024",
+        "compact": "피트 심볼",
+        "source_record_sha256": "59ac7b836ef0a07728176b5e2b6d2a3721e435e80c4996c9dbbc54db74d89117",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_109",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-025",
+        "compact": "미스티 심볼",
+        "source_record_sha256": "d5b96dc3b6b484c90ae2eb738ae272f28ec119b3c8ed61c0862a4ca64678f46d",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_138",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-026",
+        "compact": "아쿠아 망토",
+        "source_record_sha256": "046136ca81051b09d24da98535892816e5b0f77dd796c88e78d2440a9dd5de81",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_004",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-027",
+        "compact": "썬더 망토",
+        "source_record_sha256": "b9bbc713b97e13c86b3e757c05fb2c418eba6b620a05d581a6366f0158384d0a",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_050",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-028",
+        "compact": "플레어 망토",
+        "source_record_sha256": "7c3e01ebeb63aa831f8afa59a8bdd2430225b53f2982ce12327af1e99f03554c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_119",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-029",
+        "compact": "망토",
+        "source_record_sha256": "833d68e04bf6a3a6a9729ce68f7f5c2c09e38f74c5e5a689be975355d319727c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_136",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-030",
+        "compact": "레더 망토",
+        "source_record_sha256": "609ba415e58dc3f702567cc02a6888a8928641c8d69ddb31c711031604a8eb8d",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_150",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-031",
+        "compact": "에메랄드 링",
+        "source_record_sha256": "d362bad026791860b8c43021ac0110411116a99f90516daf7afa7eeac2a3903f",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_014",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-032",
+        "compact": "페어리 링",
+        "source_record_sha256": "b232afd7ecb47175958813394e953a06a72d9962902487774b25c8763f8a0c3b",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_110",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-033",
+        "compact": "프로텍트 링",
+        "source_record_sha256": "8f9344eac0093110a37a4b95492b414fcca8f5c9f8e298d60bce162e8fe1e55e",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_121",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-034",
+        "compact": "멘탈 링",
+        "source_record_sha256": "569b3dd18ff3940fed9b80148e437bb120448844cffcf16ca659f0f3b718bb5f",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_142",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-035",
+        "compact": "레지스트 링",
+        "source_record_sha256": "394f8991a91d32ea32fde6d8fb78141b477d9ddf03134941c6ec753477bbe6c8",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_151",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-036",
+        "compact": "빵",
+        "source_record_sha256": "280ea50112915a46c9b06e5892ffd205f28d3b45111a0983a9886a67163e1853",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_120",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-037",
+        "compact": "파스타",
+        "source_record_sha256": "f1d03187a45bde703e3b62b3a0835e2b35fe43e9efeb041e6e1a70e412916d56",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_099",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-038",
+        "compact": "라이스",
+        "source_record_sha256": "e47d3203e32f3aa3391e25f30b10dcb4e3962b1033627ac8555ca83b5113af50",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_143",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-039",
+        "compact": "고기",
+        "source_record_sha256": "f28f3c3f63aa42453ad0335778d1bc00ddf3dc1af2f7ab196c8ad3af16d3af82",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_093",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-040",
+        "compact": "양상추",
+        "source_record_sha256": "941926f5d12ba0dc5064c0fe864315539b0dbc4a2b1557d12f15f9c999085ba6",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_152",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-041",
+        "compact": "양배추",
+        "source_record_sha256": "bc576db2604d99868d32c6609fb4f4fb266190e6348a01961fce5ddce4e30060",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-042",
+        "compact": "계란",
+        "source_record_sha256": "7a1dcb6da100364598b0fc533754594ceaf497486b9c428085b1d1110de07ff2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_071",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-043",
+        "compact": "토마토",
+        "source_record_sha256": "3b223b274b36c2588c5524cd56d94d6f75e72814d018877bce3402b58cf5b7c0",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_087",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-044",
+        "compact": "양파",
+        "source_record_sha256": "d20a0eba8c4a03b7e318b4b95d27f94278736862a364fba1ffffea171b90505e",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_072",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-045",
+        "compact": "감자",
+        "source_record_sha256": "c0ccc40858d1caf97d36e5a70a8b7c909b40a07f66ee1ea781309f31430f78c2",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-046",
+        "compact": "우유",
+        "source_record_sha256": "02cf3ddd327e0d22e7e2cb3b56d2518c42b366504ae754116cc4bfe83ef46976",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-047",
+        "compact": "치즈",
+        "source_record_sha256": "ddf9a03fb3eb163ead683563f84b1fb3b72588b05bfe1ed328361d6d67e32192",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_075",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-048",
+        "compact": "해산물",
+        "source_record_sha256": "33156927f4917e0859f7d92b359486a2f0653e2f8274610640b52ae34e044096",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-049",
+        "compact": "과일",
+        "source_record_sha256": "1216e0512dea9f471a484c6e6ed8be767faff72e1a6a9203ec90a37e5ddc3ed2",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-050",
+        "compact": "오의 개전서",
+        "source_record_sha256": "9970ea84affa2c55bb46c4762f075fa97b77fadefa61de9f8974e52eb582d8fd",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-051",
+        "compact": "엘븐 보우",
+        "source_record_sha256": "9a3e2204a5d8fcb93a98920b4764c5d1598281be3d34fc3b27eb8c9471477853",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-052",
+        "compact": "스타 메이스",
+        "source_record_sha256": "bb8c0ac3ebc32253dd68fdd605b9760abc78119a40b751799d8fe918a705ae28",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_059",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-053",
+        "compact": "계약의 반지",
+        "source_record_sha256": "a03313dc6fecb85bfefa6fe433917014baefee14e74faab8ae105d835f005352",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-054",
+        "compact": "엘븐 로어",
+        "source_record_sha256": "f631110d8586ceb673f19f0bdd6982c377eabeb8f147dfb13583105189666ce5",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-055",
+        "compact": "닌도 혈앵",
+        "source_record_sha256": "b605049fd1be1c8cc2aa23acc8f2fd3144c61830afb9adc82ff407e5349e6e3b",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-056",
+        "compact": "갑판 솔",
+        "source_record_sha256": "ad3920c07e2050a307c862cf147a2add6bd5a421ac1bb9cab1bb3006935f483a",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_081",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-057",
+        "compact": "렌즈",
+        "source_record_sha256": "b94c6763d767f3974aa0dddd2a77c085d465356ee2a56a2964af78f4c59f77a4",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_155",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-058",
+        "compact": "진홍 망토",
+        "source_record_sha256": "9b35a026a4086dbd8a274690b3b8a3054badeec5101ad5423e287f7ef7b171ba",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-059",
+        "compact": "은테 안경",
+        "source_record_sha256": "79d36b66409ed217e6e781e0c6dcf247afab3c4f7549e1b65f6aacefbc8d9de0",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-060",
+        "compact": "베르세르크 애로우",
+        "source_record_sha256": "f205af66bce03e12e2d66b2d55daa4568637dfb6735d94bc18436e055c7f1267",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-061",
+        "compact": "셀프 보우",
+        "source_record_sha256": "b6896ea0e75c2a87928d84a4f4516977f49035010215b47a724768ddfcf573c7",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-062",
+        "compact": "금 프라이팬",
+        "source_record_sha256": "cc275afa116f3c610682f5013d59fd7d196e298071580ac90c9d0e5471baf457",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-063",
+        "compact": "챔피언 벨트",
+        "source_record_sha256": "81593877ac0157882082e2e220880e9e5e231bc970e92aa434174aeaddbb0fb6",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_076",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-064",
+        "compact": "류트",
+        "source_record_sha256": "3bd9970fea27cee0a9b1bc4df3043dc74e83689ecf0e9f5bbad55b3e8271c363",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_148",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-065",
+        "compact": "사냥꾼의 도끼",
+        "source_record_sha256": "1393a591e6838d1632bb04cc69388579bb2953a73748150d8251a0469c16a585",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-066",
+        "compact": "라슈안염색",
+        "source_record_sha256": "8c70202c1c05d480e3893e3c099920e2341dc4b220712fce17a53b368d485800",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_145",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-067",
+        "compact": "레오노아 사전",
+        "source_record_sha256": "24612e743af71b833baeda14d30be454e99296e814696c24abb4e66ac8220139",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-068",
+        "compact": "오제 피어스",
+        "source_record_sha256": "bfc71d0b2faafabea9881940d8b504efdfb782cccb27ccc6f5a1f733a9cca48e",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-069",
+        "compact": "미아키스 배지",
+        "source_record_sha256": "ddbe9ad45f6ec48dd9c7f0668a0b2263f49ebb7ed1b3df77d1c2bee7b66596f2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_137",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-070",
+        "compact": "아이프리드 햇",
+        "source_record_sha256": "33ee38663968995b3dbe5335b75f980f1acbc20d31de93e6465a65e18b8aa4b0",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_003",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-071",
+        "compact": "코르레인의 항아리",
+        "source_record_sha256": "5ab7bdc355f4cab48e7d4329c163e356517cc99b1566a2743b8aed39ddf243d8",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_049",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-072",
+        "compact": "스톰브링거",
+        "source_record_sha256": "cd517fc41e20a9cd0a7e8c8cea6f1cc390faeb5fc00f858e04177b406a8432c7",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-073",
+        "compact": "묠니르",
+        "source_record_sha256": "c2b8f6ed54923f50b032788d6f5e64352b7c90aa8ee195c34131d00782f2576d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-074",
+        "compact": "희망의 펜던트",
+        "source_record_sha256": "37e8c7a9911b8bbb9524c8fc30f14e3d0cdc251e537443aa39e60410723d4860",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-075",
+        "compact": "칠흑의 페르소나",
+        "source_record_sha256": "6d8e3bfcceed9d7f790348cb1b3732fc2bc219acebc18ce61dbf1dc1fb62d6c9",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-076",
+        "compact": "에덴즈 파이어",
+        "source_record_sha256": "35f7d594af18c9f9c82d0769d39a5f3ff9dd2ca842fb141c3ccfb9946a97488d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-077",
+        "compact": "해롤드의 지팡이",
+        "source_record_sha256": "201667a927dc3497b4e6e74f9a50b59ba0fea499b172387d17b4608142e67086",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-078",
+        "compact": "요소의 문장",
+        "source_record_sha256": "3467f980502603455615c406d0073af1512727b17ce0032af21e649f03f264d7",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-079",
+        "compact": "월드 오브 원",
+        "source_record_sha256": "45b2fad527e7b1814521f6d8a861c707835ee91ff956a0fcfc7c6063c00a2069",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-080",
+        "compact": "신자의 장속",
+        "source_record_sha256": "89de87855e4927373e9879af8f37ff38ed58191a36f59ff5961c0113c5fbf79d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-081",
+        "compact": "유니콘의 뿔",
+        "source_record_sha256": "d2b63bf70f2d04b16c61b60e809213cbb9613f6877a709a115d9b3c3f27caa9e",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-082",
+        "compact": "코린의 방울",
+        "source_record_sha256": "937772f4e4471e5eeb6e732c44ce67e01194a9703bc01999731ed242ccb1c34a",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-083",
+        "compact": "신자의 예복",
+        "source_record_sha256": "f05d66a6afa38cf8d949937d12324c6aa3cc01af79e6765195566f88f588df71",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-084",
+        "compact": "가이아 그리버",
+        "source_record_sha256": "5f96ccf936542075fbb75f0d55f1ea333c73853b9d42f4ea53946d003e0d424d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-085",
+        "compact": "강철 수갑",
+        "source_record_sha256": "625940363bbac4657ff32176fcae14ea9bbdb99ad2e0ec572e0d42e7def39f9d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-086",
+        "compact": "프랑베르주",
+        "source_record_sha256": "40b6481da7c62d366aa3ed77990629d6babca870f0f8c8be7395e35dfadc6c8a",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-087",
+        "compact": "데리스 엠블렘",
+        "source_record_sha256": "64eb30681a1eb9387877101231d8021f31d59ea8e2284d247a2b31b21687c398",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-088",
+        "compact": "은 국자",
+        "source_record_sha256": "80d38e13a89cce09cc5cb1863accaf78de9c974490dc3cc1decf9325ad36e6d6",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_033",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-089",
+        "compact": "셀시우스의 눈물",
+        "source_record_sha256": "7cc447ee2f4eb329dc99f5e015202b81e4ef2634a651f3d0fcfd33c6e7f98cb2",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-090",
+        "compact": "마스코트",
+        "source_record_sha256": "a752d101c4e787f1f71d5f4a48486feb1b47f28c783b7b5bd2a4fc17cbbf9804",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_134",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-091",
+        "compact": "검술서",
+        "source_record_sha256": "de41113adab839ef34aebfe16478d55a3138c2fe77896d061923ec0af3a9f892",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-092",
+        "compact": "검은허리띠",
+        "source_record_sha256": "88a7e8f290e24a625265a2d2ec55e1cd8b4b75cfd7cab12b2425e63a412fabc6",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_044",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-093",
+        "compact": "헌터 보우",
+        "source_record_sha256": "a1defd843f47661a771610246d652fe0b49d823b18a3d3c16c484f1bc5f910d7",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-094",
+        "compact": "경전",
+        "source_record_sha256": "2b41f0b3d5360c2065c415a52eed7105548012cd0a8578a86f4420f892de9357",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_032",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-095",
+        "compact": "검은 옷",
+        "source_record_sha256": "d6d98868a47d54f9753a0d48408f56e931e5fb400cef3616870b2a6050b68e6d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-096",
+        "compact": "검은 로브",
+        "source_record_sha256": "2b90aa1c7b31585cc8a3dbff324d23d8b31761f9b4e7fbab5e5524cb6d24d337",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-097",
+        "compact": "금 주판",
+        "source_record_sha256": "35f073b688fd2a89533b07c0aee46f94768face3471a880a7159d0d8a03cccc5",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-098",
+        "compact": "댄스 슈즈",
+        "source_record_sha256": "90176ea6e2cf15bccc04a28bd25ed821760fb9a1fb36c8ca45b1cf2de3a6cc4d",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_074",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-099",
+        "compact": "프라이팬",
+        "source_record_sha256": "59bb31e3545b98205bcfeb7481dba6bf13425aa7f386bcb5ae9351375287b3d6",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_113",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-100",
+        "compact": "여우 가면",
+        "source_record_sha256": "cb0c3a7e20cbebfe1832d5e824f3e83f4e269992f74c48b2fb88869ed98fb3d7",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-101",
+        "compact": "청진기",
+        "source_record_sha256": "be41f7e4fb684627aa10630090c811cf58935f04397a823d8d3d09423d3fdf4a",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_077",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-102",
+        "compact": "기타",
+        "source_record_sha256": "efc5c0bbbc2f50e28a7b7927b90ed8b924d0de1f71e2eb8d551cdc73be0ef9e8",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_031",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-103",
+        "compact": "백과사전",
+        "source_record_sha256": "901443d39cc44d6d742b31d343147546595cd2f07cdb1e4ee987a8dff3e28b61",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-104",
+        "compact": "노코 버섯",
+        "source_record_sha256": "6bca5852431c559c2fd43dff1c24f9f051c2a055019a4b6630aad9b38e566ef9",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-105",
+        "compact": "실크 햇",
+        "source_record_sha256": "ebabcd00a4ffc1807ce805117d8b31606cca73d39e48e068d15ba1d69200f0b1",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_055",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-106",
+        "compact": "가죽 코트",
+        "source_record_sha256": "97ee549c0d04e633184ae437d75490968180e57cd7e80dc317ff99291232c280",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-107",
+        "compact": "궁니르",
+        "source_record_sha256": "d5b9a3780e6bc9ea4b67c6574bb867232a5cb34b01090048fa2b327b5d0ffaa0",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-108",
+        "compact": "드릴",
+        "source_record_sha256": "31f474a782c2526478a9154885bc0d96edd00188c1d8d2831de45dc4239ce327",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_090",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-109",
+        "compact": "도적 대거",
+        "source_record_sha256": "33399f24047a0b477b39719f4ea85a2ecf240b2560b016f68372beeea558ffa8",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-110",
+        "compact": "어둠의 구슬",
+        "source_record_sha256": "65fc974109dd76d2f0354477d94920e22ba571e3aaa52c91501620f00041e365",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-111",
+        "compact": "피로 물든 도끼",
+        "source_record_sha256": "f27b6db6ea1d66452e1416298d31faaad5d3224d3fdd2fffff8345e64a8bab9f",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-112",
+        "compact": "기적의 펜던트",
+        "source_record_sha256": "ed0301c0cc788d0724800fefbf8c9126e6d1700081b62968d73b9f0d9023891d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-113",
+        "compact": "크루시스의 휘석",
+        "source_record_sha256": "657e1fb19b5866a83179d64d34d131036584cf3f3d89fc84ab5133155cfae58b",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-114",
+        "compact": "용의 비늘",
+        "source_record_sha256": "e43025370f931bb24db159b217477bea39e2574aa64af783235813c88e92e86a",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-115",
+        "compact": "호랑이 가죽",
+        "source_record_sha256": "3690d82c61424127c537c0b0ea89e284b4c6f1eb1e3ca4897e9eb492689fd393",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-116",
+        "compact": "페이크 퍼",
+        "source_record_sha256": "979076d87c0460339d56c2b670e96372b41a05b69690e6f7fe6f0aef35ce957d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-117",
+        "compact": "북채",
+        "source_record_sha256": "c9ae586080763d0831225b5cf665e5ea5ce88e722bb07821f9328c6a530538d7",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-118",
+        "compact": "엑스칼리버",
+        "source_record_sha256": "2169823ec4fd829491f68fc645e168f843418ba0c135fd07d3c459733e183c33",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "ITEM_012",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-119",
+        "compact": "BC로드",
+        "source_record_sha256": "342a2dcf922240b5c894afc250df541f4242232c95183ebb269aa08e47f4bad9",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-120",
+        "compact": "에테르",
+        "source_record_sha256": "0d26db66743ffd8099b921bab6330a26924bb09ed45883c7a6ac747367bb6d91",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-121",
+        "compact": "RC로드",
+        "source_record_sha256": "5085b2962d6e27080f6590956c34410cffae802f0404017a31afdbeed6836232",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "item-122",
+        "compact": "고대의 열쇠",
+        "source_record_sha256": "184b48e3cbefc700e933b2e10f8bff160fb3ee1c3ae043f4ebbad6d1ba061b09",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      }
+    ],
+    "monster": [
+      {
+        "id": "monster-000",
+        "compact": "없음",
+        "source_record_sha256": "25a9604ec7aeeabfd899d0d2d0776504a66a315f0e79545d14fc471625fc7668",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_000",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-001",
+        "compact": "녹터널 플라이",
+        "source_record_sha256": "ec10c8ac69fc38bb31a1bd2d6139781bf3b7898f92b01e8f64450909371db347",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_001",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-002",
+        "compact": "칸바라 베어",
+        "source_record_sha256": "5294288fde7bf4785a115b3f18e96759506fc71b01c60f19d40173077ec5b1b6",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_002",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-003",
+        "compact": "에그 베어",
+        "source_record_sha256": "54d8ce0c3e87a6cf75188ecd6bc0f9966fcbcde3b78d5626d0bf8ad940fe15d5",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_003",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-004",
+        "compact": "그리즐리",
+        "source_record_sha256": "fea05913e2e9a7d2fb975e17f8494c000f33266c48544e31e10e5018a371c118",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_004",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-005",
+        "compact": "킬러 비",
+        "source_record_sha256": "006219974e7905a0223b0f1378361deb5bdb1ad013fadecb24c174333cbe02e7",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_005",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-006",
+        "compact": "테러 니들",
+        "source_record_sha256": "4c5f654f18ad0d5817120f66d7f82c73b86e50c68f860d5e58cc4886d0338519",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_006",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-007",
+        "compact": "호넷",
+        "source_record_sha256": "32fb3301832990a670754534047c21a479fc881b70de0455a7a5a65cb6a6e8da",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_007",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-008",
+        "compact": "사이스 캐리어",
+        "source_record_sha256": "c511740f47c453705596fe3f7405f5eb76c3d09519f46ccafcc000876b438f55",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_008",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-009",
+        "compact": "데스",
+        "source_record_sha256": "8fa7fd4c627f3240d30ff61e9dd58e8cd23ce3b921cbe5bba7dbc64d0e517c81",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_009",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-010",
+        "compact": "메가데스",
+        "source_record_sha256": "8aa6226543f54a7ce647d21c123df998da75e938fb5357e34f403d572e498333",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_010",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-011",
+        "compact": "파이어 버드",
+        "source_record_sha256": "8d85acefc2bfe808c993fc992b4260840a777096e1fdd0c1a7ff6c2db1018af3",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_011",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-012",
+        "compact": "피닉스",
+        "source_record_sha256": "6d610df0968c8a585fd042b3c992a50b39708d533249cabaabfca6af678e56da",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_012",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-013",
+        "compact": "갤로스 버드",
+        "source_record_sha256": "e89cbbed4e73b78d35d00d5efd5f3c3109dccda4fd6dc41ee28b3b5ff4545a4f",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_013",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-014",
+        "compact": "시 스핀",
+        "source_record_sha256": "e4ef332e77e2dc64fe85c81ae00238fce0ec6e1ac63b842b2b8be5e390c036de",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_014",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-015",
+        "compact": "킹피시",
+        "source_record_sha256": "747a6224cd3a5814be98481947b4656ceefb905edcf30b8c7e250f4df6c690b2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_015",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-016",
+        "compact": "나이트 플라이어",
+        "source_record_sha256": "c538db7bdbef17c7404847c0525c473604d578022997af0a9457b245c0c5621d",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_016",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-017",
+        "compact": "파이어 플라이어",
+        "source_record_sha256": "86439ba1ba1e800d466291d801801930a8828a502a07ba092c2ec90b2297a404",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_017",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-018",
+        "compact": "불프로그",
+        "source_record_sha256": "8cd2c603ca4eb4abe1212285bdb3200b858369c87b8fa47f13e2469f683362df",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_018",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-019",
+        "compact": "자이언트 스파이더",
+        "source_record_sha256": "ec4ce7b2e2fbf865f764e593ba5a67d48de5a5dfcaeb48277cd800baeecfb7d7",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_019",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-020",
+        "compact": "타란툴라",
+        "source_record_sha256": "12261401715ab35fbb3bffb4534a5fc48f8f846595b98aec3fa92ef46486df87",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_020",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-021",
+        "compact": "아라네아",
+        "source_record_sha256": "83bcdc643274bc22edc38606294a037e11631f9bb85b9143e7483b34876d7ff9",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_021",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-022",
+        "compact": "폴터가이스트",
+        "source_record_sha256": "777fda03e0ccf888cbca4f0a340955b67f61864636ae0b5d3b736386b4fa5685",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_022",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-023",
+        "compact": "버펄로",
+        "source_record_sha256": "3c30f0d596fae56d83504b8e22fcd9f3758bf374a6d54d33f6cc6825de40f143",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_023",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-024",
+        "compact": "팔시아 혼즈",
+        "source_record_sha256": "ba4535714bbda51b44f63dd8735d6c4cc3994e251cc05464fb363d821a2d4afa",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_024",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-025",
+        "compact": "아이언 골렘",
+        "source_record_sha256": "0543847f10e0c25fe52f8468f27e871081eb0fc10ae56891bf95af1aaa8f1e53",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_025",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-026",
+        "compact": "미스릴 골렘",
+        "source_record_sha256": "021b551cf89fe0e0023b8a1b454fd7d472795eac6448e4465d13ca3e748c12b6",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_026",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-027",
+        "compact": "하피",
+        "source_record_sha256": "b84f86f8a0aa5a33befd235f660c1a7b92a549e690148b60200ebacfd211ccfa",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_027",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-028",
+        "compact": "페더 매직",
+        "source_record_sha256": "c677b0fabfd0733777af517c2ab3130b8a55634978929a9831b6506a77ff3d9c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_028",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-029",
+        "compact": "브리즈 키퍼",
+        "source_record_sha256": "b8f2be931db44e82b72e9e889a16cc0ab04d3d410de21a6d14b7c8f596cea5d3",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_029",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-030",
+        "compact": "로키 호크",
+        "source_record_sha256": "d4e9450bae57173b67b859017374893c0a4a9dac93391f5740312a246412370f",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_030",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-031",
+        "compact": "포레스트 호크",
+        "source_record_sha256": "a06a853737009223921672c4eb41fc646a1d7ec970e37c00b3f9d6f81fd14445",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_031",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-032",
+        "compact": "프레리 호크",
+        "source_record_sha256": "cf12a0b43eb74d178ca237a0bc7e8f2b408acea49ea586f7d9162d9a41413297",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_032",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-033",
+        "compact": "그래스호퍼",
+        "source_record_sha256": "adcd99d638337a5bd850a0495e3918af98db9fac922e7e25414286ce053fc9e0",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_033",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-034",
+        "compact": "파이어 버그",
+        "source_record_sha256": "e9a2e3d70c35c4722d402d902ab7466b753d75432b3fb56bac94ace99a553697",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_034",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-035",
+        "compact": "데들리 인섹트",
+        "source_record_sha256": "bdac6477752e4d5cb10280a18d1fb1e0797c7b588bd42be37a949b302e2ad835",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_035",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-036",
+        "compact": "슬라임",
+        "source_record_sha256": "b057b46f9a036c04a52570f124224fe469c20fbb5f74f84573c4d805b5951cb4",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_036",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-037",
+        "compact": "오커 젤리",
+        "source_record_sha256": "4f1a54d476b93ab2addd19c152c7d1f1e1f2bb9ef044b4774172cafacd54303b",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_037",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-038",
+        "compact": "팬텀 나이트",
+        "source_record_sha256": "94209b79a5f99af764cebb0bcab8d58adeddee3eb04a7abb5d24dbde973dff97",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_038",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-039",
+        "compact": "만티코어",
+        "source_record_sha256": "d35dbb33d4ff8b06e599b15776300ac637968dddddb6df084643245e6d20e8eb",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_039",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-040",
+        "compact": "가로",
+        "source_record_sha256": "e06f2b7eb40c3cf2eb5ea1294bf6dc16e8624e2858274af6e96c9de491f48810",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_040",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-041",
+        "compact": "메두사",
+        "source_record_sha256": "5f8728f6b5084e5c91c77f204aab4c10a6983ebf04ed1a1303c87e815eed9c3d",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_041",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-042",
+        "compact": "라미아",
+        "source_record_sha256": "b2d7419b59b9b4cc834bebb53788d01b71f1e4bf7612c388d32b991e617f7e9b",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_042",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-043",
+        "compact": "트롤",
+        "source_record_sha256": "19a426b8cc0a6a412568ec941729a7f6b72f06bcc9041479d238cc8493ccdb0c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_043",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-044",
+        "compact": "오거",
+        "source_record_sha256": "ed7a636b8b8b622c4f88cb6e96eb5bab9536b96367e28399e8260dd2e812aeb2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_044",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-045",
+        "compact": "비스트 오거",
+        "source_record_sha256": "27cd7d367c19dd91b19401ed5ae224099ac52ca201c48e79989087c88acba54a",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_045",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-046",
+        "compact": "시 슬러그",
+        "source_record_sha256": "415a43553a8523f5e15f8b58dceff2c52c244d936a49a1c931080a957848a924",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_046",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-047",
+        "compact": "블러드서커",
+        "source_record_sha256": "20e5aa744f35c3ddb0813460ed2aa1a1b801b70aa91144a3ea9d164069ad778b",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_047",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-048",
+        "compact": "밴더스내치",
+        "source_record_sha256": "13f6b260cddaa971c57861601eb75fc5fc9e67ca1d965b5b70084e22371cd225",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_048",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-049",
+        "compact": "아이스 타이거",
+        "source_record_sha256": "610b407d0d266584e9a96515f2ec58bb870c08d35be98f29de3f568855c9d7dc",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_049",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-050",
+        "compact": "스콜피온",
+        "source_record_sha256": "b7f0585f5d189261884972ad913e191bec67cfc54613fca4ccd6cf78cb23181e",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_050",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-051",
+        "compact": "니들 셸",
+        "source_record_sha256": "120b897dfd6fbf8bcf7b5a74269d8b17821516e3db285e24bd991bf404ca075f",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_051",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-052",
+        "compact": "스타피시",
+        "source_record_sha256": "fe9c27828249b50619102133fa477379eff3142bff0f04d144f09a3159740073",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_052",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-053",
+        "compact": "슈퍼스타",
+        "source_record_sha256": "1cc2e5aadf12336ed5a3359958d304029d83fff5205018bee762aff98cdc5164",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_053",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-054",
+        "compact": "톨맨",
+        "source_record_sha256": "bebca742af3160ee31a9ffe0aeb783a4354505c6c11e664c988db2c530a74a3f",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_054",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-055",
+        "compact": "라우카마르",
+        "source_record_sha256": "60bf8b992a95410d182e76f003d0bd6353b376b1d2496528aef4b444e5d79ac2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_055",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-056",
+        "compact": "포아스",
+        "source_record_sha256": "7d4d27b2e432c3b6ab80bf87e0e217b903188d2ecda0fc373e3d9bd6ea578664",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_056",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-057",
+        "compact": "윌 오 위스프",
+        "source_record_sha256": "b3b94170941810adb056e7df6c88db6a49b476f3c9058c5bc029f7c8c40c3fc3",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_057",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-058",
+        "compact": "나이트 레이드",
+        "source_record_sha256": "1cd21e5146ff7f038b096a2d27f6d4968c564c00a96f532726434ed99fbd4dd0",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_058",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-059",
+        "compact": "다이어 울프",
+        "source_record_sha256": "7334cbdeb4dd2ddc0ab2a164fc15466be5233b65955a9a2ce0e5997b3647fe36",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_059",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-060",
+        "compact": "헬하운드",
+        "source_record_sha256": "aae2c6b82ec26173ee09610d538410b9caf34e1f003c16ce0b33e03ea2847da2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_060",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-061",
+        "compact": "와이번",
+        "source_record_sha256": "c4113aff27876c6b828824b9bb694efa26cf44a5483e1cc43733eb761c910ddf",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_061",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-062",
+        "compact": "드레이크",
+        "source_record_sha256": "0922e18e1d43fdfa00a6b62d126acc402fc40e28b882afa0391f50f8e8018a39",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_062",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-063",
+        "compact": "헬카이트",
+        "source_record_sha256": "537ed36ec83c6757c4e348f43b51e1bda7031e80eeea6263ba3041aea4786f2d",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_063",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-064",
+        "compact": "리퍼 시클",
+        "source_record_sha256": "ad0bbce1b47bd82f33a2ddbd0c6c37827539e1977c0b0aaad4c673d7b0dab98a",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_064",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-065",
+        "compact": "에어 슬라이서",
+        "source_record_sha256": "7bfce7af84ecc631af3090ba599df1126345555e1aa04e01ccfc335f958c0596",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_065",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-066",
+        "compact": "카바도일",
+        "source_record_sha256": "b01f48f0fbd6516dd30629b52ddedcebe54b8040da1b704f46a5def0b4a41197",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_066",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-067",
+        "compact": "스켈레톤",
+        "source_record_sha256": "272b5854439942a36f04370d85a8e67abeeaf5433b345a43ad165932d724fcd4",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_067",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-068",
+        "compact": "드래곤 투스",
+        "source_record_sha256": "ccf0c5d786f8400bad97b1441592227c513c84f27e85292b2d16513fd8cd3453",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_068",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-069",
+        "compact": "섀도 서번트",
+        "source_record_sha256": "bccafdae3e0f1f37ce10635175d148ea28a8da1aafa894c689ab9a76dec5efdf",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_069",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-070",
+        "compact": "래피드 래빗",
+        "source_record_sha256": "5bc69b0c5c02db9a4790b62ba5c3022a3ab47830074e0c97a0b4e7be0e492c60",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_070",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-071",
+        "compact": "해마",
+        "source_record_sha256": "6aa8d6503b45ef680eeaeabaa26bc30091a34afefff5e4c7257b8182f2fae6c2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_071",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-072",
+        "compact": "스노우 로브스터",
+        "source_record_sha256": "269a47bc5b8ba61f35a8a5451c0567632d6f38e58f37d80ba2712b1177ba1eee",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_072",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-073",
+        "compact": "크라켄",
+        "source_record_sha256": "a31129bdc35da43fc8daf5611f236d4e89a8539a363f92ee66e00f2635593617",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_073",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-074",
+        "compact": "구울",
+        "source_record_sha256": "eb34bd0c66cdc17d0b937c662b262b1ac1aacf53d7c82e2a3b8bd53aaf9dba1b",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_074",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-075",
+        "compact": "리빙 데드",
+        "source_record_sha256": "0dbd9d44711ddbb807201d6f5ffa94f44709fc3eab1cc50360072666e39a8a9e",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_075",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-076",
+        "compact": "와이트",
+        "source_record_sha256": "1b5317129502b64f1bcde42de78765630de503a6cd55b3a13b3e94c151c0c336",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_076",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-077",
+        "compact": "아처",
+        "source_record_sha256": "66914e1edcf29fe0d2d058573596197f3d7c4efaa214ef15ba63876f39b53709",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-078",
+        "compact": "거스트 슈터",
+        "source_record_sha256": "1632a758b02ac0200fde3df1ab223b4f2b0979a00cead422448b8534fe27b04a",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_078",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-079",
+        "compact": "아쿠아 슈터",
+        "source_record_sha256": "05238d9822b9675d47a3f3c101ef2c3857efb7b87ec8a242c9ca504b8ae18352",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_079",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-080",
+        "compact": "일렉 슈터",
+        "source_record_sha256": "f28926c8adf41e532837791967937f5db91c1976a2468fe493b38b6e9aa3c0e2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_080",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-081",
+        "compact": "요이치",
+        "source_record_sha256": "c86e00006b04c59605e3f5a2a190890f4edca0c124f4558bfcae2a376a0c8524",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_081",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-082",
+        "compact": "마초",
+        "source_record_sha256": "6373de0fed20cdb96e2de78ca84eb361c5d08ea4be1f8d0d575a13d0d86c196c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_082",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-083",
+        "compact": "일렉 펀처",
+        "source_record_sha256": "77789e6f40a9952c3c673a42c81685b29d5c214cbeaba1bf89afe5d550dca75e",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_083",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-084",
+        "compact": "갓 핸드",
+        "source_record_sha256": "c731c1141dd7ba6776c01489f2cc01f0ae6ceb70bc056e0309109f0a4c81aefb",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_084",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-085",
+        "compact": "그래플러",
+        "source_record_sha256": "7a9b8b2d3b31d49432f735d9f418c2532b89d9af55e1fb7a9b7dc57881d51b42",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_085",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-086",
+        "compact": "권왕",
+        "source_record_sha256": "5e2f2af7c395451d8f52960a9b3caa505b93c962099e4c13f0f0773859027874",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_086",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-087",
+        "compact": "배틀러",
+        "source_record_sha256": "74b1569a2723c5de5a424abf8918070d4bda9d0cbf8f3a31f85e197e136a5fc8",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_087",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-088",
+        "compact": "거스트 배틀러",
+        "source_record_sha256": "46e26a99cd0146c4b22ea18266a36eeb6c8f81f033d19b2121456c38268c102d",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_088",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-089",
+        "compact": "아쿠아 배틀러",
+        "source_record_sha256": "c5a11f883a8ae7fe998043226bb9329ba8e3403371d909a5efadf7d0ed828311",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_089",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-090",
+        "compact": "플레임 배틀러",
+        "source_record_sha256": "7327dbcd8b8ce7774c4e2057ed7b530ee08894ef1923a042d3d7f91ade0a82d9",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_090",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-091",
+        "compact": "록 배틀러",
+        "source_record_sha256": "6ced401191483562a9b79bc2fe38c341c217ec6688bc4e3ef3c3cdd683ef08ce",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_091",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-092",
+        "compact": "전사",
+        "source_record_sha256": "f1e02cf3b04cfbf16934f3091762e8408505da3a17816888d6bb93c74c1f8d78",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_092",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-093",
+        "compact": "일렉 가드",
+        "source_record_sha256": "5843a28b0309c4e9539016ab6ead9afeb96f9fa123cfe712c4cff57502b78ebe",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_093",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-094",
+        "compact": "헤비 가드",
+        "source_record_sha256": "f0794af0c33a0c2c4f13e489943ce1b41ead2bb7e2e4e8cb6ef4163c9c3070a9",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_094",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-095",
+        "compact": "다크 가드",
+        "source_record_sha256": "fc905759918caf14f9ba5e4c124c6c80a2fbd9909c611f49e5a8d00ece6a5248",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_095",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-096",
+        "compact": "라이트 가드",
+        "source_record_sha256": "536bf4d8a7f9f17e7502f30b8bd6bda9a4fd362ffcea0f9c4fe20838525e3596",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_096",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-097",
+        "compact": "윗치",
+        "source_record_sha256": "14cde3373c348915aeb42a13209aad6bbeec3248853346b972a4b889ddddd16d",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-098",
+        "compact": "록 위치",
+        "source_record_sha256": "215de05a49aa8d30b4ca87859fb4027b4a325cc52f23c07926eaad591e732045",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_098",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-099",
+        "compact": "아쿠아 위치",
+        "source_record_sha256": "d4b24e43465b959b1c6269ae55cce4a87f2d36a44ba2c5e7f8f3a1fa289e5da5",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_099",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-100",
+        "compact": "라이트 위치",
+        "source_record_sha256": "735c5545cff903f2791dd58c5c90e1497baea43c35b7b8d2989dd5d3703fd274",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_100",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-101",
+        "compact": "플레임 위치",
+        "source_record_sha256": "a1383ebcae5d98ae9386a432bab5a83eecdf7e20d159c4753711a93d65932ec3",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_101",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-102",
+        "compact": "위저드",
+        "source_record_sha256": "010d6eacccfd0d67fb902e0f2a9023f8c817bc32d144c40ee17fa67a320a9fce",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-103",
+        "compact": "윈드 메이지",
+        "source_record_sha256": "051ab675fbe510c5983d3bfb24cef7ed9363e105b3903766793435afb122fc28",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_103",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-104",
+        "compact": "네크로맨서",
+        "source_record_sha256": "e2e3ff987c35e02c9c5cd7637c240a7ad038b8e493079da92478f92801b1e0f7",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_104",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-105",
+        "compact": "플레임 메이지",
+        "source_record_sha256": "bc49a9ac345e2f6645349b10b6aad81f8efec3c95bb52366751a545506b94fa1",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_105",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-106",
+        "compact": "라이트 메이지",
+        "source_record_sha256": "11b4c82babca215be507a887f9bfa5d984a0dfd5541dd535f5d6da10cb193c13",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_106",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-107",
+        "compact": "페이크",
+        "source_record_sha256": "aa5a4cda55fb3649af08102709b8a55383f5b78445ab3ce4f6d93ab5ce54f022",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_107",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-108",
+        "compact": "판도라",
+        "source_record_sha256": "f22a6c3d8c1aac4580dc365d9ae4f63c15e79668c9b59b97af9d61cf3d3d3638",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_108",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-109",
+        "compact": "용궁 상자",
+        "source_record_sha256": "eed94b2df98c3f2c031e0fbefb95aa907367a336cf326decde0f28939996b214",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_109",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-110",
+        "compact": "플레임 소드",
+        "source_record_sha256": "f40a6aa97facd16cd4cdbb3e451cbfe9f558bbd22797137bd2e1d3f9d89324df",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_110",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-111",
+        "compact": "아쿠아 소드",
+        "source_record_sha256": "8f4a233ee433915ecdd5518c2691664aaf10197c87a3a47d38c0e1ddc4382320",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_111",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-112",
+        "compact": "록 소드",
+        "source_record_sha256": "cfbf3ad0a97235cf66c7252d56dce166f0cc09a456d4a1d2635041a4043bb7f2",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_112",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-113",
+        "compact": "윈드 소드",
+        "source_record_sha256": "128733536ab8d08d4b4c6ff801d8026dd0f467a96908237c94857dc55480b19e",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_113",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-114",
+        "compact": "썬더 소드",
+        "source_record_sha256": "2fab4b9b4be66cd38cb6b68bfe74e5c761be9c1b340719c91dab5ba70545326c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_114",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-115",
+        "compact": "다크 소드",
+        "source_record_sha256": "99f593c2540199b5204599769a309619470f4f9fd758879fdae5f1e454e07c6a",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_115",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-116",
+        "compact": "라이트 소드",
+        "source_record_sha256": "c501a8ac16ef3085164d2f6d4bc33ce3912934dacf1f8ce064306f6e4329e8fa",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_116",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-117",
+        "compact": "리빙 소드",
+        "source_record_sha256": "10c0ec599a656067f2a87f8db5d49d645a35925a284fdd407f51465ef37443e0",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_117",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-118",
+        "compact": "포이즌 토드",
+        "source_record_sha256": "505e3b6b7f1f27d55c8ef9295b9d7fc818339014e7dfd64a35d506cb0ec2dc2d",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_118",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-119",
+        "compact": "본 나이트",
+        "source_record_sha256": "4742e6218bce44f7ab0f6d11cd8598e64e744dd80b26a53be23bca34ef064d58",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_119",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-120",
+        "compact": "플러시 헤어",
+        "source_record_sha256": "e5734d17176fe381289eae4b435cdc0db7040c86444553fdd10205890916ef2c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_120",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-121",
+        "compact": "플로트 드래곤",
+        "source_record_sha256": "ae1713d66cceafff3f7d8dff3d000c7bd25db2fdd6e7b494f7eb278044661b86",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_121",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-122",
+        "compact": "트리톤",
+        "source_record_sha256": "7213d9a1af3224af706833c04e7ba53394450befcac338bea72aa9df541f508b",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_122",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-123",
+        "compact": "아쿠아 스핀",
+        "source_record_sha256": "a8e51ad4b015b22d55b43ec7d76da7cf897d5a15bab414921d67d3ae650f207f",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_123",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-124",
+        "compact": "이블 스타",
+        "source_record_sha256": "958312b12748d0afb31c9c631d10aece7bb2697ee49e6dad9ef72c719a24892c",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_124",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-125",
+        "compact": "베놈",
+        "source_record_sha256": "50430e04b66ea3a1a42efc209fa8f1061eec824b44e431a5a9be4004d9a6b9ba",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_125",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-126",
+        "compact": "킥 프로그",
+        "source_record_sha256": "f4ea7a10f3cb782c83175a17f63364ff36d521260cdca1b055c035c7323c9c4e",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_126",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-127",
+        "compact": "킹 프로그",
+        "source_record_sha256": "f281f8fd0609cd3dac696ae67db1b4f7cd001bc303b4232d9eeed111603a13c5",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_127",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-128",
+        "compact": "레드 시저스",
+        "source_record_sha256": "6b162923a85194269c4f686865bd28304940878aa6a1bdbd81f410ba0076be08",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_128",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-129",
+        "compact": "레드 푸딩",
+        "source_record_sha256": "ae16d378b7f04474cb6d4d36578afc46c77d43e2269436f9eef880ad59e1b5fa",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_129",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-130",
+        "compact": "스피릿",
+        "source_record_sha256": "7a022e79fe6af3aab365e1980ce6b8deaea377074778067283484ffb54a8e293",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_130",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-131",
+        "compact": "옥토슬라이미",
+        "source_record_sha256": "47878bcfcf098d607a91005566daf37ee804b66e74fb5151df0607e3d0fe8fe6",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_131",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-132",
+        "compact": "브론즈 골렘",
+        "source_record_sha256": "423ec7915428675c13a8f9cec03e141f26e54b1e6bd4e827bf02b6b5764e3643",
+        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "reference": "MONSTER_132",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-133",
+        "compact": "레드 로퍼",
+        "source_record_sha256": "64538fc2aacee8a81956c9329cd30c130185e440e87e36d9bbb61cd1fb2ed08d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-134",
+        "compact": "AC로퍼",
+        "source_record_sha256": "0f48485dc9d98b152c8cedbf07b75b88297577e7c8dfd6438038c4caffcc5459",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-135",
+        "compact": "블루 로퍼",
+        "source_record_sha256": "0e79ad9a17ed45fc84a91f0e0a380ef66c68d1ce038285158ecf7291681c5d89",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-136",
+        "compact": "그린 로퍼",
+        "source_record_sha256": "7eb03a24cf95eefa54a616f72ffcc4583d648e1d4873a6b77b14ed89d927866c",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-137",
+        "compact": "컬프릿",
+        "source_record_sha256": "4a5e506a4f94b9a9f471f715bf1ff244ae5dc98113143cd817824a6a907e085b",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-138",
+        "compact": "크리미널",
+        "source_record_sha256": "0a60e4896581583c4d20f11c987783fb0e8399f1835b62c05a2e87c4d8ec20f0",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-139",
+        "compact": "우즈 웜",
+        "source_record_sha256": "9e618de896000f077a28368972ca04353be824aade1a9caf6718fd49a4af8921",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-140",
+        "compact": "트로픽스 웜",
+        "source_record_sha256": "8f049e9cdd5c0ad5e888b43671a2a180e7dbac9e805da3f063c07678c3c3c8e7",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-141",
+        "compact": "마운트 웜",
+        "source_record_sha256": "53b4b3c31a90093a4a718cf85a60c5317ef1aa3bdd672bab5b281d95bc5352eb",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-142",
+        "compact": "빅풋",
+        "source_record_sha256": "07df16a7d5b2c8ceabfcccff453a7d055349dc45bb95061cde55a8e0d9a7a01a",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-143",
+        "compact": "마이코니드",
+        "source_record_sha256": "05fe5590b30a99c67e939e7c97897c6957ef31d8b3c2ab95cd776d6566ce0635",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-144",
+        "compact": "미니코이드",
+        "source_record_sha256": "3bbd3342e779332abc1f4356fa5c2a4b21a705058d7cb3fce4b49e5f35b3328d",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-145",
+        "compact": "사로리사",
+        "source_record_sha256": "2e22acd80676ed4ea8de20e660a7deedbaadde56bc0ac962615e03b17b9e32c8",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-146",
+        "compact": "스피리움",
+        "source_record_sha256": "4d9b6843bccc997f1d516a91a0ae092db4286fcf4fda0c9f0e5b2f2c0d13b0a7",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-147",
+        "compact": "소서러",
+        "source_record_sha256": "7394d745994d92a396ce66da54b27391b766ce8d89615a53414e260db09fa2ef",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-148",
+        "compact": "세이지",
+        "source_record_sha256": "75f72b162052c4d6e06af86417b7abe12f7a86290b5700b11799a8fcaf336c32",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-149",
+        "compact": "드루이드",
+        "source_record_sha256": "79e0e98b0792fb5d9ac3c30bf59fe51eeef9f30362c8a38e269a71b2b202f1b5",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-150",
+        "compact": "밴디트",
+        "source_record_sha256": "85ec60d7b5490733c15257b12efe8c4cefc1566c2761b7f2290d4fa237efb781",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-151",
+        "compact": "로그",
+        "source_record_sha256": "2a76947d2474bd5283ab2e173a11e3b579539006c996ac0effc311e2343aea00",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-152",
+        "compact": "루터",
+        "source_record_sha256": "5550f371859789d46e365f42ae6f13461061ccca4e989ac41d61d44461d14ef1",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-153",
+        "compact": "머더",
+        "source_record_sha256": "26c910d5fb662e0d9a08d6279fc379046407a837340400e03c3e65c0664862b4",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-154",
+        "compact": "자바바",
+        "source_record_sha256": "8b9ed1056f088974d3bb0c4aebd16e5d6e57ba339b86e5b27dda193583c0989f",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-155",
+        "compact": "드루아가",
+        "source_record_sha256": "05f77161046eb19b47f4c4969aed32e1739f07e37fbb6870c18a8923479fd7cc",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-156",
+        "compact": "엘레인",
+        "source_record_sha256": "cf25489de5a9bae50fe1367bf15a4a9de8acbaa4a95e4f71d921e7c50ca4b3d6",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-157",
+        "compact": "바르바토스",
+        "source_record_sha256": "5455ad2eceaacda3179510dbdea08b1420a0df0a3257027ea3c6d917590ebb4d",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-158",
+        "compact": "로이드",
+        "source_record_sha256": "b7fe0f31a37b549bcab21b0d7b63b001a1d12c7a5673af1a9ca7fdd35cb44274",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-159",
+        "compact": "콜레트",
+        "source_record_sha256": "849346d7a88648737cf673ba2b2b1d3c8eb2d316b0099ed371b669c2fef5ecad",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-160",
+        "compact": "사나토스",
+        "source_record_sha256": "0fdc232e70f245ebdab176a4e4a4bec1f42d0667a9ad094ab0bf8e568aa15906",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-161",
+        "compact": "다오스",
+        "source_record_sha256": "6be0a4387d964bda972791fc39d0cfc200ac0b80e05f1dd8e1198d1bb02a14ad",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-162",
+        "compact": "다오스",
+        "source_record_sha256": "4e5726ed8b950bd95531188a3e2d94923b932ed843f5e53fbe36f71c27fbbf3e",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-163",
+        "compact": "엘레인",
+        "source_record_sha256": "17e354869a29c7a42b7cf99aab6f858e4f2bca7505bf434f5fb1ce2c63bca3c6",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-164",
+        "compact": "루티",
+        "source_record_sha256": "8db594f11534d6708d52e17138bcb1d73495485b6e006e119e9a11bed9bc1f2c",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-165",
+        "compact": "리아라",
+        "source_record_sha256": "bb8a1d8cc92d16887c0e729d1518579f412586c1f9ed31c2afa709d0a955a351",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-166",
+        "compact": "체스터",
+        "source_record_sha256": "7a61f4b6630212b5d7ec9e23a85c4ba23a0d33f40f87f8f810f5f8ae7d257379",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-167",
+        "compact": "파라",
+        "source_record_sha256": "8016f434d268e7e905cfcc51873e860b7e2bc73799af5d27da08f00bb4ffc118",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-168",
+        "compact": "킬",
+        "source_record_sha256": "c432af03edc019fc6eee9c9dbac06796ae1bd61ceef41d0f5fee2e3f77ddbefc",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-169",
+        "compact": "포니",
+        "source_record_sha256": "393abe3509e617634f803e1893577e94c50f20976360b51c8a2fb8be6a55d9b0",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-170",
+        "compact": "크라이트",
+        "source_record_sha256": "76e52620ad92250ac3e2938a415f6eb0aae04b091d6dc6979b9c6375a6260431",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-171",
+        "compact": "젤로스",
+        "source_record_sha256": "2784a54a68c738577f2be1328bea14c2847dc7a1cbd24eac9b7918821e3d1d7a",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-172",
+        "compact": "시이나",
+        "source_record_sha256": "98fb12758eaf586f172b3360c083a4dcc63a5a45fcd705879a8ae78902262b04",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-173",
+        "compact": "시젤",
+        "source_record_sha256": "247fe90ad3ff83fee53b1316baa765ad924794cfa897d1329b96a9dd2331d34f",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-174",
+        "compact": "클라스",
+        "source_record_sha256": "3de88023a25ce468f1951a106aa5b0f79f50b70337a4c76e1ed2ee1f44206261",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-175",
+        "compact": "필리아",
+        "source_record_sha256": "925aeef06c0a76f3cf5987cf206cb962170c8855125586097089cfa708e680fb",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-176",
+        "compact": "킬",
+        "source_record_sha256": "145af78c615ecf4376dc4811a0b72bd792d290d5ed67393a8c4679eeb91fd730",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-177",
+        "compact": "해롤드",
+        "source_record_sha256": "dca57e4753cb82ce048dfafbe571d6590cb14f939f4286897e254c206cca655c",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-178",
+        "compact": "리필",
+        "source_record_sha256": "0cf42bd5c4115968c6700a058605dee5e0cd31bc91f7e78a06ba254816ac230c",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-179",
+        "compact": "크라토스",
+        "source_record_sha256": "b260a9b6319d794ff7ccc52df5fd9ffe75967ec5ef6403e60781a53d1883e906",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-180",
+        "compact": "지니어스",
+        "source_record_sha256": "3f0fe79d561923e8bb206a6ee288e3e8fb6298724fbe9c0afa8972908b25e346",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-181",
+        "compact": "나리키리 남",
+        "source_record_sha256": "b2eb772b6584cac61c9cacd334a62e3a4c17df1c6c3f29a5aa1799fa68fa5508",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-182",
+        "compact": "나리키리 여",
+        "source_record_sha256": "f33d1f88b94d47b647b8090a194d7e81e23e4c16ea8c71428563519eadb8829c",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-183",
+        "compact": "나리키리 남",
+        "source_record_sha256": "8924f7fe06fc3eb2f870cb74ce69879199e276058edaa6ae666b4a9df4d89e45",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-184",
+        "compact": "나리키리 여",
+        "source_record_sha256": "ef9c29e01f0f967624bdb4f110efc283ed3477437b0005e4ffdc54085720ee36",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-185",
+        "compact": "왈큐레",
+        "source_record_sha256": "6dde7c43156a0b92fe0979fa04984082b5e44839e5fc78e2e8039ed6a4d45f05",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-186",
+        "compact": "셀시우스",
+        "source_record_sha256": "9aa87f4e19a627524943c062832bb122c10d2f8181787e968e8bb9ffcb08cace",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-187",
+        "compact": "콩맨",
+        "source_record_sha256": "9409fdeb18879f3cd23352bdaaa1f71a2f070bbb7f5efc1d137f57030ef2b72f",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-188",
+        "compact": "첼시",
+        "source_record_sha256": "ffd58e6d7599895486238a793b7c98e75f94dc2b5eafa276e205fda20bed7237",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-189",
+        "compact": "우드로우",
+        "source_record_sha256": "0b39eaa125447baad376fc0f555316083d24aa018f76c9e2f1188fe1b8546553",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-190",
+        "compact": "프레세아",
+        "source_record_sha256": "f00ec45da6ba8174afad4e6888099e9ccb903981be143ff6842f3b6497a16e83",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-191",
+        "compact": "레이스",
+        "source_record_sha256": "d244eb14168d0b0fe131862f0db6069dc43e01cd9a8241e702e2693fce3f02ac",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-192",
+        "compact": "채트",
+        "source_record_sha256": "f495e50a9889f4d6698d9ffe5f3713932f71058f6eb9c867ee46054820705935",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-193",
+        "compact": "리갈",
+        "source_record_sha256": "d42068c751999d2a0e026a4f9106130ff7e5922ec52a5362271e257376dae171",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-194",
+        "compact": "유그드라실",
+        "source_record_sha256": "dc53ec2887b659a1c968686edc0b8de0ba2883944bd6f3981f15a30a399db826",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-195",
+        "compact": "바르바토스",
+        "source_record_sha256": "585d8b0915cffb7e9580b487cf0baa53a5caa6e12c3bf39204c43bb5c1909a0c",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-196",
+        "compact": "훌리오",
+        "source_record_sha256": "ac9e341151be3210ac826ecfbefb4600c0c2e3af70cfb7707a3467b83e3ad5b7",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-197",
+        "compact": "캐로",
+        "source_record_sha256": "e04c510c4bcb8eadaabebb48851870142282ba20fa078f1d758751f446fee2a2",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-198",
+        "compact": "HRX-2",
+        "source_record_sha256": "c240d3ae8ebede482477a86217035fd99374130c087e7d915684875b788f4d7c",
+        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
+        "reference": "User list + immutable B3TJ; review pending",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-199",
+        "compact": "크레스",
+        "source_record_sha256": "4b82609f262697b8177a4ec322d5dd74fd9f30ec2bd1a11c8160d27f981dd689",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-200",
+        "compact": "스탄",
+        "source_record_sha256": "394e30d85c6149adefda78cad7380e615c643da29160f35a41cbef73cd7bae62",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-201",
+        "compact": "리드",
+        "source_record_sha256": "fdf200a9de6a3233b434eb71397f903ee5973f7d7b36195ce82f3634a79c9092",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-202",
+        "compact": "카일",
+        "source_record_sha256": "cd1fd4c59a5548bbf168f8e1ee8d19290c175fb53ad0d05fa4d0856598d755ba",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-203",
+        "compact": "로이드",
+        "source_record_sha256": "226d6f2c8a12c21207c4c9be97f55e621ea9538ac5cac24389d7f4a1491ed210",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-204",
+        "compact": "리리스",
+        "source_record_sha256": "bb1a26aa8bae0684f4d6ec84a5694f692787afed329018a7849f5f4236ff203b",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-205",
+        "compact": "훌리오",
+        "source_record_sha256": "b5764939032261f7b5b8b9a388878bdcbc74b5e67cf461f1c332f8869ebda425",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-206",
+        "compact": "캐로",
+        "source_record_sha256": "92d5191f878dad8424f7cf2eea3a9e4e9f142829a030e53879d421c01f7a3b3e",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-207",
+        "compact": "쥬다스",
+        "source_record_sha256": "1e5a004475071e8b6d41043f260378972943a824d9d770b219a0b41c270d0815",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-208",
+        "compact": "민트",
+        "source_record_sha256": "47a8b8db176f24e008bdd97b0b28c2fc6aa4dc30f9088eca2337d7d829252407",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-209",
+        "compact": "유그드라실",
+        "source_record_sha256": "212d9b6ec3de7d68f7d44a74ea2a6401f2b0f0b959f697ed79650deeae6cbbc6",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-210",
+        "compact": "시젤",
+        "source_record_sha256": "e56b5be1361d2aae1431e8f34833d46981a266ae7e807080b28c8da34c17e8ba",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      },
+      {
+        "id": "monster-211",
+        "compact": "리온",
+        "source_record_sha256": "9966dfa442fb0d298f3d0adef18eaa58e9a9fe894f8f5e5f10775471062ecc7e",
+        "basis": "User-selected character/costume spelling",
+        "reference": "terminology.json",
+        "review": "pending",
+        "layout": "all_callers_pending"
+      }
+    ]
+  }
+}

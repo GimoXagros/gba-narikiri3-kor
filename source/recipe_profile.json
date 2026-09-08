@@ -1,0 +1,272 @@
+{
+  "schema": 1,
+  "base": "0x74c67c",
+  "count": 22,
+  "stride": 20,
+  "table_sha256": "c64fcbf005bd1883ed17379bcc77b79979a2be226dcdb8eaf2fcfa5abe72bebe",
+  "consumer_guards": [
+    {
+      "offset": "0x97c8",
+      "hex": "011c88004018800001494018704700007cc67408",
+      "role": "index * 20 record getter and table literal"
+    },
+    {
+      "offset": "0xa6bac",
+      "hex": "162000900548",
+      "role": "menu count 0x16"
+    },
+    {
+      "offset": "0x97b4",
+      "hex": "00b5fff7e9fe152801d0002000e0012002bc0847",
+      "role": "complete-recipe progress value 0x15"
+    },
+    {
+      "offset": "0xa6b38",
+      "hex": "70b5061c0c1c201c62f742fe051ccf20c0002418201c61f70dfb002808d003496a68301c5bf724f907e0",
+      "role": "getter -> record+4 -> small formatter"
+    },
+    {
+      "offset": "0xd81bc",
+      "hex": "7168201c29f7f2fd",
+      "role": "normal recipe list name load and formatter"
+    },
+    {
+      "offset": "0xd839c",
+      "hex": "2d48216829f75ef9",
+      "role": "large cooking-result name record+0 -> 1660"
+    },
+    {
+      "offset": "0x9af8",
+      "hex": "0648a1686a46f7f7affd",
+      "role": "description record+8 -> 1660"
+    },
+    {
+      "offset": "0x9a40",
+      "hex": "30b50025074a81000918890010328c182078002808d0fcf7ddfd002804dc002007e000007cc6740801340135032defdd012030bc02bc0847",
+      "role": "ingredient IDs at record+10, four-byte iteration"
+    }
+  ],
+  "records": [
+    {
+      "id": "recipe-00",
+      "index": 0,
+      "large_name_j_raw": "82a882c982ac82e8",
+      "large_name_legacy_raw": "91758cd28d84",
+      "small_name_j_raw": "12b5c6b7ded812",
+      "small_name_legacy_raw": "12b5c6b7ded812",
+      "description_j_raw": "88a48fee82aa82b182e082c182c482a282dc82b7",
+      "description_legacy_raw": "8fd4914390ca81408ae18984"
+    },
+    {
+      "id": "recipe-01",
+      "index": 1,
+      "large_name_j_raw": "82a882b382b582dd",
+      "large_name_legacy_raw": "889f90a5",
+      "small_name_j_raw": "12b5bbbcd012",
+      "small_name_legacy_raw": "12b5bbbcd012",
+      "description_j_raw": "8968977b82bd82c182d582e882cc8a4382cc8d4b82c582b7",
+      "description_legacy_raw": "90548fe581408cb6914081408d788ad790c581408e8a8d4f"
+    },
+    {
+      "id": "recipe-02",
+      "index": 2,
+      "large_name_j_raw": "8374838b815b8363837c83938360",
+      "large_name_legacy_raw": "88f890cd814093db929f",
+      "small_name_j_raw": "ccd9b0c2cedfddc1",
+      "small_name_legacy_raw": "ccd9b0c2cedfddc1",
+      "description_j_raw": "8ac382ad82c482a882a282b582a28374838b815b836382f082c782a482bc",
+      "description_legacy_raw": "8adc92dc946e88eb81408cbe90d48ac0814088f890cd81408b858eba9084"
+    },
+    {
+      "id": "recipe-03",
+      "index": 3,
+      "large_name_j_raw": "93f793e7",
+      "large_name_legacy_raw": "8a498da1",
+      "small_name_j_raw": "12c6b8c5cdde12",
+      "small_name_legacy_raw": "12c6b8c5cdde12",
+      "description_j_raw": "8ee88c7982c58ac8925082a882c882a988ea947482c582b7",
+      "description_legacy_raw": "8f5088d281408d888dcc8ca481408ef4814090d48fec9084"
+    },
+    {
+      "id": "recipe-04",
+      "index": 4,
+      "large_name_j_raw": "8b9b93e7",
+      "large_name_legacy_raw": "8a498da1",
+      "small_name_j_raw": "12bbb6c5c5cdde12",
+      "small_name_legacy_raw": "12bbb6c5c5cdde12",
+      "description_j_raw": "91cc82e089b782dc82e982a893e782cd82a282a982aa8148",
+      "description_legacy_raw": "8b9b89f4947081408a498da18ac081408fec8ba53f"
+    },
+    {
+      "id": "recipe-05",
+      "index": 5,
+      "large_name_j_raw": "96ec8dd883548389835f",
+      "large_name_legacy_raw": "8fdd92438e988c4e8b85",
+      "small_name_j_raw": "d4bbb2bbd7c0de",
+      "small_name_legacy_raw": "d4bbb2bbd7c0de",
+      "description_j_raw": "82dd82b882dd82b882b582a296ec8dd882f090b782e88d8782ed82b982dc82b582bd",
+      "description_legacy_raw": "8f648eaf947081408fdd92438ca481408ae18fd08f5f8acd8ad72e"
+    },
+    {
+      "id": "recipe-06",
+      "index": 6,
+      "large_name_j_raw": "8369837c838a835e8393",
+      "large_name_legacy_raw": "8a4993f88cac9359",
+      "small_name_j_raw": "c5cedfd8c0dd",
+      "small_name_legacy_raw": "c5cedfd8c0dd",
+      "description_j_raw": "8367837d8367835c815b835882f08e6782c182bd967b8a699468",
+      "description_legacy_raw": "93848cb493848ed08f598ca481408fb281409143938b93c2"
+    },
+    {
+      "id": "recipe-07",
+      "index": 7,
+      "large_name_j_raw": "8374838b815b8363835483938368",
+      "large_name_legacy_raw": "88f890cd81408cee8c40",
+      "small_name_j_raw": "ccd9b0c2bbddc4de",
+      "small_name_legacy_raw": "ccd9b0c2bbddc4de",
+      "description_j_raw": "8ea9915282cc8ac382b382f08a8882a982b582bd83548393836882c582b7",
+      "description_legacy_raw": "90d8904b90c581408cbe90b981408e8c8cae81408e978b8590a5929f"
+    },
+    {
+      "id": "recipe-08",
+      "index": 8,
+      "large_name_j_raw": "8374838b815b836383578385815b8358",
+      "large_name_legacy_raw": "88f890cd814091758f59",
+      "small_name_j_raw": "ccd9b0c2bcdeadb0bd",
+      "small_name_legacy_raw": "ccd9b0c2bcdeadb0bd",
+      "description_j_raw": "82a88d4482dd82cc8374838b815b836382f0837e8362834e835882b582dc82b582bd",
+      "description_legacy_raw": "91608fc4946e8ac0814088f890cd90b981408d6c8f59947e8f5f8acd8ad72e"
+    },
+    {
+      "id": "recipe-09",
+      "index": 9,
+      "large_name_j_raw": "836e8393836f815b834b815b",
+      "large_name_legacy_raw": "947b8d9688c3",
+      "small_name_j_raw": "caddcadeb0b6deb0",
+      "small_name_legacy_raw": "caddcadeb0b6deb0",
+      "description_j_raw": "8375838c8362836882c98fc482a282bd82a893f782f082cd82b382dd82dc82b582bd",
+      "description_legacy_raw": "8e46904081408957908e814088eb89828ca481408a41909c8ad72e"
+    },
+    {
+      "id": "recipe-10",
+      "index": 10,
+      "large_name_j_raw": "83498380838983438358",
+      "large_name_legacy_raw": "905f8d668bf190ca8f59",
+      "small_name_j_raw": "b5d1d7b2bd",
+      "small_name_legacy_raw": "b5d1d7b2bd",
+      "description_j_raw": "8e7182c782e082a982e791e5906c82dc82c5959d8d4c82ad906c8b4382c582b7",
+      "description_legacy_raw": "8a518a808a8b8ed0814093f68a6f88d2814090cc89828bf68acd8ad7"
+    },
+    {
+      "id": "recipe-11",
+      "index": 11,
+      "large_name_j_raw": "838a835d83628367",
+      "large_name_legacy_raw": "8cac91558bc5",
+      "small_name_j_raw": "d8bfdeafc4",
+      "small_name_legacy_raw": "d8bfdeafc4",
+      "description_j_raw": "83898343835882f08358815b837682c993fc82ea82bd8e479086959782cc97bf979d",
+      "description_legacy_raw": "8f7190b9814089588d4f904081408ae190b881408baf8d84814090848cac"
+    },
+    {
+      "id": "recipe-12",
+      "index": 12,
+      "large_name_j_raw": "835483938368834383628360",
+      "large_name_legacy_raw": "8e978b8590a5929f",
+      "small_name_j_raw": "bbddc4deb2afc1",
+      "small_name_legacy_raw": "bbddc4deb2afc1",
+      "description_j_raw": "82a895d9939682c982e08dc5934b82c582b7",
+      "description_legacy_raw": "8b548f628bf290408b548140927590f9"
+    },
+    {
+      "id": "recipe-13",
+      "index": 13,
+      "large_name_j_raw": "83708347838a8341",
+      "large_name_legacy_raw": "8dfa90408fdd",
+      "small_name_j_raw": "cadfb4d8b1",
+      "small_name_legacy_raw": "cadfb4d8b1",
+      "description_j_raw": "8a4382cc8d4b82f082d382f182be82f182c98e6782c182bd81418fee944d82cc96a1",
+      "description_legacy_raw": "8d788ad78ca481408ae190b881409143904c90c581408cbe"
+    },
+    {
+      "id": "recipe-14",
+      "index": 14,
+      "large_name_j_raw": "83798358834a8367815b838c",
+      "large_name_legacy_raw": "93e28f5992a993848c58",
+      "small_name_j_raw": "cddfbdb6c4b0da",
+      "small_name_legacy_raw": "cddfbdb6c4b0da",
+      "description_j_raw": "8b998e748ae7958982af82cc8a43914e97bf979d82c582b7",
+      "description_legacy_raw": "8fec8dcc81408e53929f8ac0814094778d4f814090848cac"
+    },
+    {
+      "id": "recipe-15",
+      "index": 15,
+      "large_name_j_raw": "8374838c839383608367815b83588367",
+      "large_name_legacy_raw": "94608c5a929f814093848f5993ac",
+      "small_name_j_raw": "ccdaddc1c4b0bdc4",
+      "small_name_legacy_raw": "ccdaddc1c4b0bdc4",
+      "description_j_raw": "8375838c8362836882f08ac382ad82c48f5f82e782a982ad8fc482ab82dc82b582bd",
+      "description_legacy_raw": "8e4690b981408adc88eb81408dcc8b858c5388d2814089579096"
+    },
+    {
+      "id": "recipe-16",
+      "index": 16,
+      "large_name_j_raw": "838d815b838b834c838383788363",
+      "large_name_legacy_raw": "8c7081408fe58d88927e",
+      "small_name_j_raw": "dbb0d9b7accddec2",
+      "small_name_legacy_raw": "dbb0d9b7accddec2",
+      "description_j_raw": "93f78f6082cc8d8182e882aa9048977e82f082bb82bb82e882dc82b7",
+      "description_legacy_raw": "90ae919390c58140948290ca81408f63908590b981408b579092"
+    },
+    {
+      "id": "recipe-17",
+      "index": 17,
+      "large_name_j_raw": "8372815b8374835683608385815b",
+      "large_name_legacy_raw": "8ee688eb898281408f5993a7",
+      "small_name_j_raw": "cbdeb0ccbcc1adb0",
+      "small_name_legacy_raw": "cbdeb0ccbcc1adb0",
+      "description_j_raw": "835283678352836782b682c182ad82e88ecf8d9e82dd82dc82b582bd",
+      "description_legacy_raw": "92d8938492d89384814091f58dce94f5814089f890cc"
+    },
+    {
+      "id": "recipe-18",
+      "index": 18,
+      "large_name_j_raw": "834e838a815b8380835683608385815b",
+      "large_name_legacy_raw": "93488cb081408f5993a7",
+      "small_name_j_raw": "b8d8b0d1bcc1adb0",
+      "small_name_legacy_raw": "b8d8b0d1bcc1adb0",
+      "description_j_raw": "837a838f83438367835c815b835882aa8c8882df8ee882c582b7",
+      "description_legacy_raw": "94ab90ca93ac81408ed08f59889f814094788f6890d28acd8ad7"
+    },
+    {
+      "id": "recipe-19",
+      "index": 19,
+      "large_name_j_raw": "834a838c815b838983438358",
+      "large_name_legacy_raw": "92a98c588bf190ca8f59",
+      "small_name_j_raw": "b6dab0d7b2bd",
+      "small_name_legacy_raw": "b6dab0d7b2bd",
+      "description_j_raw": "82d982c782e682a2906882b382aa96a18a6f82f08e688c8382b582dc82b7",
+      "description_legacy_raw": "90f98ae5947081408cc392dc947390ca81408d6b88a090b9814090d88977"
+    },
+    {
+      "id": "recipe-20",
+      "index": 20,
+      "large_name_j_raw": "834f8389835e8393",
+      "large_name_legacy_raw": "89768bf19360",
+      "small_name_j_raw": "b8ded7c0dd",
+      "small_name_legacy_raw": "b8ded7c0dd",
+      "description_j_raw": "8360815b835982c6837a838f83438367835c815b835882aa90e296ad82c582b7",
+      "description_legacy_raw": "929f918e906c814094ab90ca93ac81408ed08f59889f814090fb8d459473"
+    },
+    {
+      "id": "recipe-21",
+      "index": 21,
+      "large_name_j_raw": "83498380838c8363",
+      "large_name_legacy_raw": "905f8d688c5e",
+      "small_name_j_raw": "b5d1dac2",
+      "small_name_legacy_raw": "b5d1dac2",
+      "description_j_raw": "83748340838992bc936082cc83498380838c8363816990e29569816a",
+      "description_legacy_raw": "93c28bf18140919790fa90c58140905f8d688c5e"
+    }
+  ],
+  "scope": "22 recipe records. +0 large name, +4 small name, +8 description, +C..13 effect and ingredient bytes. Original getter/count and each typed consumer inspected."
+}

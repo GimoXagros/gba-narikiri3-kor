@@ -1,0 +1,2428 @@
+{
+  "authority": "User-provided character list and explicit conflict resolution; attached Korean particles adjusted only at reviewed alias occurrences",
+  "records": [
+    {
+      "record_offset": "0x14d8e0",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x14d928",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x14db24",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x14dc28",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x14e4d4",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x14e58c",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x14e5c4",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x14f758",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x14f788",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x152358",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1526b4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1528c4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x152970",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1529ec",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1529fc",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x152b0c",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x152b24",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x152c98",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x152cb0",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x152da8",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x153250",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1534fc",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x153574",
+      "changes": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1535d4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15365c",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15b3c8",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15b3f0",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15b868",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15ba7c",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15c444",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15c484",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15c4cc",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15cbc4",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15cc9c",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15d698",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15d6b0",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15d800",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15d828",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15dd98",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15ddd0",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15df5c",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15e0c0",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15e0e8",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15e7a4",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15ec74",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x15ecec",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x16156c",
+      "changes": [
+        {
+          "japanese": "ワルキューレ",
+          "previous": "발키리",
+          "selected": "왈큐레",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1639dc",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1639ec",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x163a04",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x163a24",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x163d38",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x163d48",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x163d60",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x163d80",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x166170",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x166240",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x166248",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1671f4",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x169c9c",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x169ca4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x16d69c",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x170f2c",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1728b0",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x172c24",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x173268",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17356c",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x179ca8",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x179cc0",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17a2c0",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17a710",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17b92c",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17c3d4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17c42c",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17c45c",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17cfd8",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17d368",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x17f0d0",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x180b80",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1810b0",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x181130",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18252c",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1825bc",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18261c",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x182f40",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x183ac0",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x183ad0",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x183ae0",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x183b10",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x183cf8",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x183d70",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x184084",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        },
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1842e0",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x184300",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x184328",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x186b10",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x186b30",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x187b88",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18821c",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x189cfc",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        },
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18a5e0",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18a86c",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18cc4c",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18e488",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18e4c8",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18e508",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18e548",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18e588",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18e788",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18e948",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x18e988",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1919b8",
+      "changes": [
+        {
+          "japanese": "ジャババ",
+          "previous": "쟈바바",
+          "selected": "자바바",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x194f74",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x194fb4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x194ff4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195034",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195074",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1950b4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1950f4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195134",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195174",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1951b4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1951f4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195234",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195274",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1952b4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1952f4",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195334",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195434",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195474",
+      "changes": [
+        {
+          "japanese": "ジョニー",
+          "previous": "조니",
+          "selected": "죠니",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195850",
+      "changes": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195910",
+      "changes": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1959d0",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x195b10",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196520",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196d24",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196d64",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196da4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196de4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196e24",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196e64",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196ea4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x196ee4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x197024",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1971e4",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x197224",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x197b60",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1987d4",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198814",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198854",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198894",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1988d4",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198914",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198954",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198994",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1989d4",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198a14",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198a54",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198a94",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198ad4",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198b14",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198b54",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198b94",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198bd4",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198c94",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x198cd4",
+      "changes": [
+        {
+          "japanese": "チャット",
+          "previous": "챗",
+          "selected": "채트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19bf8c",
+      "changes": [
+        {
+          "japanese": "ジャババ",
+          "previous": "쟈바바",
+          "selected": "자바바",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19c3e4",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19ca38",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19caf8",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19cb38",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19cb78",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19cbb8",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19cbf8",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19cc38",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19cd38",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19cef8",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19cf38",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19e6dc",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19e71c",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19e75c",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19e79c",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19eb9c",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x19ebdc",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0548",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0588",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a05c8",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0608",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0648",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0688",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a06c8",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0708",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0748",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0788",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a07c8",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0808",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0a08",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a0a48",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a30c4",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a66c0",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1a8480",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1ac028",
+      "changes": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        },
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1ac190",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1ad460",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1add80",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1afe80",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b1e8c",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b1ec4",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b2064",
+      "changes": [
+        {
+          "japanese": "コレット",
+          "previous": "코렛",
+          "selected": "콜레트",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b2444",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b24e4",
+      "changes": [
+        {
+          "japanese": "クラース",
+          "previous": "크라스",
+          "selected": "클라스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b2a3c",
+      "changes": [
+        {
+          "japanese": "キール",
+          "previous": "키르",
+          "selected": "킬",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b2a7c",
+      "changes": [
+        {
+          "japanese": "リッド",
+          "previous": "릿드",
+          "selected": "리드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b37ec",
+      "changes": [
+        {
+          "japanese": "ハロルド",
+          "previous": "해럴드",
+          "selected": "해롤드",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b39bc",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b3aa4",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b3b2c",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "record_offset": "0x1b3b5c",
+      "changes": [
+        {
+          "japanese": "ゼロス",
+          "previous": "제로스",
+          "selected": "젤로스",
+          "occurrences": 1
+        }
+      ]
+    }
+  ],
+  "unresolved_alias_records": [
+    {
+      "record_offset": "0x197660",
+      "alias": "키르",
+      "japanese_name": "キール"
+    }
+  ]
+}

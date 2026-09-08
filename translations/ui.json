@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": "menu-team",
+      "text": "%s 팀",
+      "review": "pending",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "main-team",
+      "text": " %s 팀\n",
+      "review": "pending",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "detail-team",
+      "text": "%s 팀",
+      "review": "pending",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "save-place-label",
+      "text": "저장 장소   ",
+      "review": "pending",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "save-town",
+      "text": "미나클 마을",
+      "review": "pending",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "save-time-single",
+      "text": "플레이 시간  %3d:0%1d",
+      "review": "pending",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "save-time-double",
+      "text": "플레이 시간  %3d:%2d",
+      "review": "pending",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "strategy-00",
+      "text": "자유롭게 싸워라",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "strategy-01",
+      "text": "전력을 다해 싸워라",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "strategy-02",
+      "text": "방어를 굳혀라",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "strategy-03",
+      "text": "힘을 아껴 싸워라",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "strategy-04",
+      "text": "특기를 쓰지 마라",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "control-mode-00",
+      "text": "수동    ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "control-mode-01",
+      "text": "반자동   ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "control-mode-02",
+      "text": "자동 ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "text-speed-00",
+      "text": "빠름  ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "text-speed-01",
+      "text": "보통  ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "text-speed-02",
+      "text": "느림  ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "display-mode-00",
+      "text": "모드1  ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "display-mode-01",
+      "text": "모드2  ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "display-mode-02",
+      "text": "모드3  ",
+      "review": "pending",
+      "layout": "preserves individual setting field width; contextual inspection pending"
+    },
+    {
+      "id": "strategy-heading",
+      "text": "작전",
+      "review": "pending",
+      "layout": "Exact consumer and screen reviewed; revised Korean pixel layout pending"
+    },
+    {
+      "id": "button-labels",
+      "text": "대상 선택\n방어\n공격\n특기\n기본값 복원\n결정",
+      "review": "pending",
+      "layout": "Exact consumer and screen reviewed; revised Korean pixel layout pending"
+    },
+    {
+      "id": "field-team-suffix",
+      "text": " 팀",
+      "review": "actual_field_header_observed_suffix_pending_after_build"
+    },
+    {
+      "id": "field-nekonin-label",
+      "text": "냥인",
+      "review": "existing_K1.1_nekonin_wording_used_special_unit_context_pending"
+    },
+    {
+      "id": "recipe-ingredients-heading",
+      "text": "%l필요한 식재료\n",
+      "review": "original_recipe_heading_observed_target_visual_pending"
+    },
+    {
+      "id": "field-move-hint",
+      "text": "%0g:결정/%1g:취소",
+      "review": "original_movement_caption_observed_revised_pixels_pending"
+    },
+    {
+      "id": "field-target-hint",
+      "text": "%0g:결정/%1g:취소",
+      "review": "original_movement_caption_observed_revised_pixels_pending"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": "team-title-000",
+      "text": "칭호 없음",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-001",
+      "text": "그레이트 헌터",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-002",
+      "text": "둘은 라이벌",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-003",
+      "text": "테일즈 히어로",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-004",
+      "text": "테일즈 히로인",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-005",
+      "text": "작은 거인",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-006",
+      "text": "치유의 달인",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-007",
+      "text": "사이언티스트",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-008",
+      "text": "호쾌한 사람",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-009",
+      "text": "숨겨진 과거",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-010",
+      "text": "멋진 남자들",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-011",
+      "text": "앗, 미안해!",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-012",
+      "text": "쿨한 녀석들",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-013",
+      "text": "그래플러",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-014",
+      "text": "러브러브?",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-015",
+      "text": "돈 좀 버나?",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-016",
+      "text": "고집쟁이",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-017",
+      "text": "요리 고수",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-018",
+      "text": "형제의 의리",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-019",
+      "text": "동물이 좋아",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-020",
+      "text": "질풍처럼",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-021",
+      "text": "바람둥이",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-022",
+      "text": "부모 자식의 유대",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-023",
+      "text": "비밀의 정체",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-024",
+      "text": "삼각관계",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-025",
+      "text": "검술 지도",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-026",
+      "text": "학술 지도",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-027",
+      "text": "베스트 파트너",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-028",
+      "text": "짝사랑",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-029",
+      "text": "검과 주먹과",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-030",
+      "text": "돈의 망자",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-031",
+      "text": "궁술의 기초",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-032",
+      "text": "마술 지도",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-033",
+      "text": "천재와 우민",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-title-034",
+      "text": "렌즈 헌터",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-000",
+      "text": "보너스 없음",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-001",
+      "text": "TP 회복 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-002",
+      "text": "HP 회복 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-003",
+      "text": "갈드 획득 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-004",
+      "text": "레어 게터",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-005",
+      "text": "아이템 게터",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-006",
+      "text": "푸드 게터",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-007",
+      "text": "지력 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-008",
+      "text": "TP 소모 감소",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-009",
+      "text": "훔치기 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-010",
+      "text": "스피드 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-011",
+      "text": "어필",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-012",
+      "text": "방어력 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-013",
+      "text": "캐스트 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-014",
+      "text": "기절 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-015",
+      "text": "도주 속도 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-016",
+      "text": "맷집 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-017",
+      "text": "타격력 UP",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    },
+    {
+      "id": "team-bonus-018",
+      "text": "내열 방한",
+      "review": "pending",
+      "basis": "Exact Japanese team title/bonus record; preserve UP without inventing mechanics"
+    }
+  ]
+}

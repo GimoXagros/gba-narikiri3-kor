@@ -1,0 +1,585 @@
+{
+  "schema": 1,
+  "scope": "Individually established UI literals and four complete strategy/settings loops; not all UI",
+  "records": [
+    {
+      "id": "menu-team",
+      "pointer_offset": "0xcc0dc",
+      "original_pointer": "0x81be62c",
+      "original_raw": "2573c1b0d1",
+      "call_address": "0x080CC070",
+      "call_bytes": "35f79afe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 9,
+      "basis": "Main menu team heading, 9-cell window; player name at most five slots; actor repertoire checked separately",
+      "variable_kinds": [
+        "name"
+      ]
+    },
+    {
+      "id": "main-team",
+      "pointer_offset": "0xd1cdc",
+      "original_pointer": "0x81c20f8",
+      "original_raw": "202573c1b0d10a",
+      "call_address": "0x080D1C74",
+      "call_bytes": "30f798f8",
+      "consumer": "08001DA8",
+      "selected_max_cells": 10,
+      "basis": "Main menu panel heading; preserve initial space and following newline",
+      "variable_kinds": [
+        "name"
+      ]
+    },
+    {
+      "id": "detail-team",
+      "pointer_offset": "0xd2ab0",
+      "original_pointer": "0x81c2100",
+      "original_raw": "2573c1b0d1",
+      "call_address": "0x080D2A1A",
+      "call_bytes": "2ff7c5f9",
+      "consumer": "08001DA8",
+      "selected_max_cells": 9,
+      "basis": "Separate team detail heading; same name accessor 08007894",
+      "variable_kinds": [
+        "name"
+      ]
+    },
+    {
+      "id": "save-place-label",
+      "pointer_offset": "0xd01e4",
+      "original_pointer": "0x81c1c64",
+      "original_raw": "beb0ccde2568cadebcae25682020",
+      "call_address": "0x080D01CA",
+      "call_bytes": "31f7edfd",
+      "consumer": "08001DA8",
+      "selected_max_cells": 8,
+      "basis": "Save location label; keep location start at column +8",
+      "variable_kinds": []
+    },
+    {
+      "id": "save-town",
+      "pointer_offset": "0xd01fc",
+      "original_pointer": "0x81c1c74",
+      "original_raw": "d0c5b8d9256820c920cfc1",
+      "call_address": "0x080D0206",
+      "call_bytes": "31f7cffd",
+      "consumer": "08001DA8",
+      "selected_max_cells": 13,
+      "basis": "Town branch; preserve established K1.1 prose terminology",
+      "variable_kinds": []
+    },
+    {
+      "id": "save-time-single",
+      "pointer_offset": "0xd0274",
+      "original_pointer": "0x81c1c84",
+      "original_raw": "ccdfdab2c0b2d120202533643a30253164",
+      "call_address": "0x080D0268",
+      "call_bytes": "31f79efd",
+      "consumer": "08001DA8",
+      "selected_max_cells": 22,
+      "basis": "Save time, minute 0..9 branch; original numeric specifiers retained",
+      "variable_kinds": [
+        "hours",
+        "minutes"
+      ]
+    },
+    {
+      "id": "save-time-double",
+      "pointer_offset": "0xd028c",
+      "original_pointer": "0x81c1c98",
+      "original_raw": "ccdfdab2c0b2d120202533643a253264",
+      "call_address": "0x080D0280",
+      "call_bytes": "31f792fd",
+      "consumer": "08001DA8",
+      "selected_max_cells": 22,
+      "basis": "Save time, minute 10..59 branch; original numeric specifiers retained",
+      "variable_kinds": [
+        "hours",
+        "minutes"
+      ]
+    },
+    {
+      "id": "strategy-00",
+      "pointer_offset": "0xf1d3c8",
+      "original_pointer": "0x81be6dc",
+      "original_raw": "2568bcded5b3c6c0c0b6b4",
+      "call_address": "0x80cd526",
+      "call_bytes": "34f73ffc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 12,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xcd536",
+          "hex": "042ee6dd"
+        },
+        {
+          "offset": "0xcd54c",
+          "hex": "c8d3f108"
+        }
+      ]
+    },
+    {
+      "id": "strategy-01",
+      "pointer_offset": "0xf1d3cc",
+      "original_pointer": "0x81be6cc",
+      "original_raw": "2568bededdd8aeb8c3dec0c0b6b4",
+      "call_address": "0x80cd526",
+      "call_bytes": "34f73ffc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 12,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xcd536",
+          "hex": "042ee6dd"
+        },
+        {
+          "offset": "0xcd54c",
+          "hex": "c8d3f108"
+        }
+      ]
+    },
+    {
+      "id": "strategy-02",
+      "pointer_offset": "0xf1d3d0",
+      "original_pointer": "0x81be6c0",
+      "original_raw": "2568cfd3d8a6b6c0d2db",
+      "call_address": "0x80cd526",
+      "call_bytes": "34f73ffc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 12,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xcd536",
+          "hex": "042ee6dd"
+        },
+        {
+          "offset": "0xcd54c",
+          "hex": "c8d3f108"
+        }
+      ]
+    },
+    {
+      "id": "strategy-03",
+      "pointer_offset": "0xf1d3d4",
+      "original_pointer": "0x81be6b4",
+      "original_raw": "2568b5bbb4c3c0c0b6b4",
+      "call_address": "0x80cd526",
+      "call_bytes": "34f73ffc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 12,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xcd536",
+          "hex": "042ee6dd"
+        },
+        {
+          "offset": "0xcd54c",
+          "hex": "c8d3f108"
+        }
+      ]
+    },
+    {
+      "id": "strategy-04",
+      "pointer_offset": "0xf1d3d8",
+      "original_pointer": "0x81be6a8",
+      "original_raw": "2568c4b8b7decac2b6b3c5",
+      "call_address": "0x80cd526",
+      "call_bytes": "34f73ffc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 12,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xcd536",
+          "hex": "042ee6dd"
+        },
+        {
+          "offset": "0xcd54c",
+          "hex": "c8d3f108"
+        }
+      ]
+    },
+    {
+      "id": "control-mode-00",
+      "pointer_offset": "0xf1d494",
+      "original_pointer": "0x81c1cb8",
+      "original_raw": "cfc6adb1d920",
+      "call_address": "0x80d044e",
+      "call_bytes": "31f7abfc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 6,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0454",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd0468",
+          "hex": "94d4f108"
+        }
+      ],
+      "exact_cells": 6
+    },
+    {
+      "id": "control-mode-01",
+      "pointer_offset": "0xf1d498",
+      "original_pointer": "0x81c1cb0",
+      "original_raw": "bed0b5b0c420",
+      "call_address": "0x80d044e",
+      "call_bytes": "31f7abfc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 6,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0454",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd0468",
+          "hex": "94d4f108"
+        }
+      ],
+      "exact_cells": 6
+    },
+    {
+      "id": "control-mode-02",
+      "pointer_offset": "0xf1d49c",
+      "original_pointer": "0x81c1cac",
+      "original_raw": "b5b0c4",
+      "call_address": "0x80d044e",
+      "call_bytes": "31f7abfc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 6,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0454",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd0468",
+          "hex": "94d4f108"
+        }
+      ],
+      "exact_cells": 3
+    },
+    {
+      "id": "text-speed-00",
+      "pointer_offset": "0xf1d4a0",
+      "original_pointer": "0x81c1cd0",
+      "original_raw": "2568cad4b220",
+      "call_address": "0x80d051e",
+      "call_bytes": "31f743fc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 4,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0524",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd0538",
+          "hex": "a0d4f108"
+        }
+      ],
+      "exact_cells": 4
+    },
+    {
+      "id": "text-speed-01",
+      "pointer_offset": "0xf1d4a4",
+      "original_pointer": "0x81c1cc8",
+      "original_raw": "2568ccc2b320",
+      "call_address": "0x80d051e",
+      "call_bytes": "31f743fc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 4,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0524",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd0538",
+          "hex": "a0d4f108"
+        }
+      ],
+      "exact_cells": 4
+    },
+    {
+      "id": "text-speed-02",
+      "pointer_offset": "0xf1d4a8",
+      "original_pointer": "0x81c1cc0",
+      "original_raw": "2568b5bfb220",
+      "call_address": "0x80d051e",
+      "call_bytes": "31f743fc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 4,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0524",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd0538",
+          "hex": "a0d4f108"
+        }
+      ],
+      "exact_cells": 4
+    },
+    {
+      "id": "display-mode-00",
+      "pointer_offset": "0xf1d4ac",
+      "original_pointer": "0x81c1ce8",
+      "original_raw": "d3b0c4de3120",
+      "call_address": "0x80d0632",
+      "call_bytes": "31f7b9fb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 5,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0638",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd064c",
+          "hex": "acd4f108"
+        }
+      ],
+      "exact_cells": 5
+    },
+    {
+      "id": "display-mode-01",
+      "pointer_offset": "0xf1d4b0",
+      "original_pointer": "0x81c1ce0",
+      "original_raw": "d3b0c4de3220",
+      "call_address": "0x80d0632",
+      "call_bytes": "31f7b9fb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 5,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0638",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd064c",
+          "hex": "acd4f108"
+        }
+      ],
+      "exact_cells": 5
+    },
+    {
+      "id": "display-mode-02",
+      "pointer_offset": "0xf1d4b4",
+      "original_pointer": "0x81c1cd8",
+      "original_raw": "d3b0c4de3320",
+      "call_address": "0x80d0632",
+      "call_bytes": "31f7b9fb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 5,
+      "variable_kinds": [],
+      "basis": "Complete strategy/setting loop: table base, 4-byte increment/index, inclusive count and formatter call inspected. Settings retain original cell widths because alternatives concatenate.",
+      "guards": [
+        {
+          "offset": "0xd0638",
+          "hex": "022eebdd"
+        },
+        {
+          "offset": "0xd064c",
+          "hex": "acd4f108"
+        }
+      ],
+      "exact_cells": 5
+    },
+    {
+      "id": "strategy-heading",
+      "pointer_offset": "0xcd490",
+      "original_pointer": "0x81be6a0",
+      "original_raw": "2568bbb8bedd",
+      "call_address": "0x80cd47a",
+      "call_bytes": "34f795fc",
+      "consumer": "08001DA8",
+      "selected_max_cells": 4,
+      "basis": "Observed strategy popup; literal load 080CD478, four-cell heading window.",
+      "variable_kinds": []
+    },
+    {
+      "id": "button-labels",
+      "pointer_offset": "0xd083c",
+      "original_pointer": "0x81c1e84",
+      "original_raw": "c0b0b9deafc40ab6deb0c4de0a2568bab3b9deb70ac4b8b7de0ad3c4c6d3c4debd0ab9afc3b2",
+      "call_address": "0x80d0796",
+      "call_bytes": "31f707fb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 7,
+      "basis": "Observed six-row button editor; label begins at column 10, button icons at column 17. Preserve the original five newlines and reserve icon cells.",
+      "variable_kinds": []
+    },
+    {
+      "id": "field-team-suffix",
+      "pointer_offset": "0xaf878",
+      "original_pointer": "0x81474fc",
+      "original_raw": "c1b0d1",
+      "call_address": "0x80af840",
+      "call_bytes": "52f7e6f8",
+      "consumer": "08001A10",
+      "selected_max_cells": 10,
+      "variable_kinds": [],
+      "basis": "Original field command window: unit-name prefix then direct small-render suffix. Special IDs 0x44/0x45 use the separate generic nekonin literal; not the individual speaker identity.",
+      "guards": [
+        {
+          "offset": "0xaf81c",
+          "hex": "03200090201c0f2108220a2351f75eff1c21685e00f022f9011c201c52f7eaf80e49201c52f7e6f8"
+        },
+        {
+          "offset": "0xaf878",
+          "hex": "fc741408"
+        }
+      ],
+      "prefix_samples": [
+        "훌리오",
+        "캐로",
+        "로이드",
+        "바르바토스",
+        "가나다라마",
+        "가A나B다",
+        "???"
+      ],
+      "inline_call_start": "080AF83C",
+      "inline_call_stop": "080AF844"
+    },
+    {
+      "id": "field-nekonin-label",
+      "pointer_offset": "0xafa88",
+      "original_pointer": "0x8147500",
+      "original_raw": "12c8bac6dd12",
+      "call_address": "0x80af838",
+      "call_bytes": "52f7eaf8",
+      "consumer": "08001A10",
+      "selected_max_cells": 5,
+      "variable_kinds": [],
+      "basis": "Original field command window: unit-name prefix then direct small-render suffix. Special IDs 0x44/0x45 use the separate generic nekonin literal; not the individual speaker identity.",
+      "guards": [
+        {
+          "offset": "0xafa78",
+          "hex": "00b5452806dc442804db014804e000000075140818f09ef802bc0847"
+        },
+        {
+          "offset": "0xaf82c",
+          "hex": "1c21685e00f022f9011c201c52f7eaf8"
+        }
+      ],
+      "getter": "080AFA78",
+      "getter_indices": [
+        68,
+        69
+      ]
+    },
+    {
+      "id": "recipe-ingredients-heading",
+      "pointer_offset": "0xd8244",
+      "original_pointer": "0x81c2e48",
+      "original_raw": "256c2568cbc2d6b3c520bcaeb8bbdeb20a",
+      "call_address": "0x080d821c",
+      "call_bytes": "29f7c4fd",
+      "consumer": "08001DA8",
+      "selected_max_cells": 13,
+      "variable_kinds": [],
+      "basis": "Observed recipe right-panel heading. Keep %l, which emits 0x10 to clear the old window and reset its cursor; remove only %h kana selection. Emission and clearing reproduced with original CPU routines.",
+      "guards": [
+        {
+          "offset": "0xd8210",
+          "hex": "0b4c2068c925ed0040190a4929f7c4fd"
+        },
+        {
+          "offset": "0x27b2",
+          "hex": "102218e0"
+        }
+      ]
+    },
+    {
+      "id": "field-move-hint",
+      "pointer_offset": "0xabaf0",
+      "original_pointer": "0x814738c",
+      "original_raw": "2530673a2568b9afc3b225682f2531673ab7acddbed9",
+      "call_address": "080ABAE8",
+      "call_bytes": "05f0f6f8",
+      "consumer": "080B0CD8",
+      "selected_max_cells": 14,
+      "variable_kinds": [],
+      "basis": "Original 14-cell field caption window and actual B0CD8 variadic wrapper -> 1D88 -> formatter 25CC -> renderer 1A10. Preserve %0g/%1g icon commands. First mission movement caption observed; second caller shares identical caption and established wrapper.",
+      "guards": [
+        {
+          "offset": "0xabac8",
+          "hex": "00b50123002800d00f230122002900d01222181c111c0e22012305f0d3f8024805f0f6f801bc0047"
+        },
+        {
+          "offset": "0xb0cd8",
+          "hex": "0fb400b5044800683c30019901aa51f74ff808bc04b018477c330002"
+        },
+        {
+          "offset": "0x27be",
+          "hex": "132102e0"
+        },
+        {
+          "offset": "0x27c8",
+          "hex": "044a106801700130106001990170013010600ae0"
+        }
+      ]
+    },
+    {
+      "id": "field-target-hint",
+      "pointer_offset": "0xae31c",
+      "original_pointer": "0x8147420",
+      "original_raw": "2530673a2568b9afc3b225682f2531673ab7acddbed9",
+      "call_address": "080AE314",
+      "call_bytes": "02f0e0fc",
+      "consumer": "080B0CD8",
+      "selected_max_cells": 14,
+      "variable_kinds": [],
+      "basis": "Original 14-cell field caption window and actual B0CD8 variadic wrapper -> 1D88 -> formatter 25CC -> renderer 1A10. Preserve %0g/%1g icon commands. First mission movement caption observed; second caller shares identical caption and established wrapper.",
+      "guards": [
+        {
+          "offset": "0xae2f4",
+          "hex": "00b50123002800d00f230122002900d01222181c111c0e22012302f0bdfc024802f0e0fc01bc0047"
+        },
+        {
+          "offset": "0xb0cd8",
+          "hex": "0fb400b5044800683c30019901aa51f74ff808bc04b018477c330002"
+        },
+        {
+          "offset": "0x27be",
+          "hex": "132102e0"
+        },
+        {
+          "offset": "0x27c8",
+          "hex": "044a106801700130106001990170013010600ae0"
+        }
+      ]
+    }
+  ]
+}

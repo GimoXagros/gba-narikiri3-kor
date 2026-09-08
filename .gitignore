@@ -1,0 +1,14 @@
+*.gba
+*.ips
+*.rom
+*.sav
+*.srm
+*.state
+*.sgm
+*.bin
+.venv/
+__pycache__/
+analysis/generated/
+output/
+third_party/cache/
+provenance/private/

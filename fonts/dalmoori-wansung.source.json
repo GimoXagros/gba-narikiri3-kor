@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/RanolP/dalmoori-font",
+  "commit": "897f0e71224d9964a84b888f2596b2bfd7f98def",
+  "license": "Apache-2.0",
+  "glyphs": 2350,
+  "asset_sha256": "f8d7c42048949d4f471ebc03930afc17243bd46b6666cb06595be5078df34730",
+  "transformation": "Whitespace removed from upstream generated 8x8 ASCII bitmaps; pixels unchanged.",
+  "upstream_generation": "generator build:debug -> build/ascii-font. Imported pre-existing generated corpus from clean pinned checkout; regenerate via upstream generator to independently reproduce."
+}

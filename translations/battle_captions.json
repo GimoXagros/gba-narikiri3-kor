@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": "battle-caption-0",
+      "text": "특기",
+      "review": "original menu observed; revised graphics pending"
+    },
+    {
+      "id": "battle-caption-1",
+      "text": "작전",
+      "review": "original menu observed; revised graphics pending"
+    },
+    {
+      "id": "battle-caption-2",
+      "text": "아이템",
+      "review": "original menu observed; revised graphics pending"
+    },
+    {
+      "id": "battle-caption-3",
+      "text": "대열",
+      "review": "original menu observed; revised graphics pending"
+    }
+  ]
+}

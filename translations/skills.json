@@ -1,0 +1,3517 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "population": 390,
+  "records": [
+    {
+      "id": "skill-000",
+      "compact": "---",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-001",
+      "compact": "어스퀘이크",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-002",
+      "compact": "아이시클 폴",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-003",
+      "compact": "아이스토네이드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-004",
+      "compact": "애시드 레인",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-005",
+      "compact": "아스카",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-006",
+      "compact": "이프리트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-007",
+      "compact": "이럽션",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-008",
+      "compact": "색인화",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-009",
+      "compact": "벽 윈드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-010",
+      "compact": "볼트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-011",
+      "compact": "운디네",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-012",
+      "compact": "익스로드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-013",
+      "compact": "오리진",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-014",
+      "compact": "갓 브레스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-015",
+      "compact": "사이클론",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-016",
+      "compact": "썬더 블레이드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-017",
+      "compact": "선명도",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-018",
+      "compact": "그림자",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-019",
+      "compact": "슈팅 스타",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-020",
+      "compact": "실프",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-021",
+      "compact": "폭풍",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-022",
+      "compact": "스톤월",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-023",
+      "compact": "돌 폭발",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-024",
+      "compact": "스프레드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-025",
+      "compact": "타이달 웨이브",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-026",
+      "compact": "타임 스톱",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-027",
+      "compact": "디스펠",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-028",
+      "compact": "디바인 파우어",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-029",
+      "compact": "테트라스펠",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-030",
+      "compact": "데몬스랜스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-031",
+      "compact": "템페스트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-032",
+      "compact": "트랙터 빔",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-033",
+      "compact": "간호사",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-034",
+      "compact": "놈",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-035",
+      "compact": "장벽",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-036",
+      "compact": "빅뱅",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-037",
+      "compact": "방화벽",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-038",
+      "compact": "화재 폭풍",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-039",
+      "compact": "블랙홀",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-040",
+      "compact": "프리즈랜서",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-041",
+      "compact": "블리자드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-042",
+      "compact": "플레임 월",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-043",
+      "compact": "프레스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-044",
+      "compact": "홀리랜스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-045",
+      "compact": "맥스웰",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-046",
+      "compact": "메일 스트롬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-047",
+      "compact": "메테오 솜",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-048",
+      "compact": "리커버",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-049",
+      "compact": "루나",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-050",
+      "compact": "레이",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-051",
+      "compact": "레이즈 데드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-052",
+      "compact": "록 브레이크",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-053",
+      "compact": "홀리 브레스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-054",
+      "compact": "딜레이",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-055",
+      "compact": "스트라그네이션",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-056",
+      "compact": "파이어볼",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-057",
+      "compact": "아이스 니들",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-058",
+      "compact": "번개",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-059",
+      "compact": "그레이브",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-060",
+      "compact": "퍼스트 에이드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-061",
+      "compact": "힐",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-062",
+      "compact": "큐어",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-063",
+      "compact": "안티 도트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-064",
+      "compact": "피코한",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-065",
+      "compact": "침묵",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-066",
+      "compact": "창문",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-067",
+      "compact": "스트림 애로우",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-068",
+      "compact": "아쿠아 엣지",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-069",
+      "compact": "윈드 커터",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-070",
+      "compact": "악어레이저",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-071",
+      "compact": "에어스러스트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-072",
+      "compact": "에어블레이드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-073",
+      "compact": "아쿠아스파이크",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-074",
+      "compact": "블러디 크로스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-075",
+      "compact": "번스트라이크",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-076",
+      "compact": "미친 커밋",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-077",
+      "compact": "델타 레이",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-078",
+      "compact": "디바인 세이버",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-079",
+      "compact": "인브레이스 엔드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-080",
+      "compact": "E･파이널리티",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-081",
+      "compact": "이빌 스피어",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-082",
+      "compact": "엑세큐션",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-083",
+      "compact": "피어풀 스톰",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-084",
+      "compact": "플레임 드라이브",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-085",
+      "compact": "그랜드 더셔",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-086",
+      "compact": "힐 스트림",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-087",
+      "compact": "힐 윈드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-088",
+      "compact": "홀리 송",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-089",
+      "compact": "I･저지먼트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-090",
+      "compact": "심판",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-091",
+      "compact": "강령소부･땅",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-092",
+      "compact": "강령소부･광",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-093",
+      "compact": "강령소부･고령",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-094",
+      "compact": "강령소부･물",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-095",
+      "compact": "리바비우사",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-096",
+      "compact": "네거티브 게이트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-097",
+      "compact": "광자",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-098",
+      "compact": "프리즘 플러셔",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-099",
+      "compact": "프리즘 소드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-100",
+      "compact": "리저렉션",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-101",
+      "compact": "리바이브",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-102",
+      "compact": "섀도우 엣지",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-103",
+      "compact": "샤이닝 스피어",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-104",
+      "compact": "스파크 웹",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-105",
+      "compact": "스톤 재퍼",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-106",
+      "compact": "스러스트 팡",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-107",
+      "compact": "트윙클 스타",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-108",
+      "compact": "볼카닉 레이",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-109",
+      "compact": "볼텍히트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-110",
+      "compact": "볼트 애로우",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-111",
+      "compact": "윈드 슬래시",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-112",
+      "compact": "데스 스펠",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-113",
+      "compact": "보호",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-114",
+      "compact": "에어블레이드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-115",
+      "compact": "추사우",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-116",
+      "compact": "아쿠아 나선형",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-117",
+      "compact": "타루 심포니",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-118",
+      "compact": "블러디 로즈",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-119",
+      "compact": "봄레인",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-120",
+      "compact": "버닝 포스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-121",
+      "compact": "회복주사",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-122",
+      "compact": "치유공",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-123",
+      "compact": "코치한",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-124",
+      "compact": "대소실",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-125",
+      "compact": "단공검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-126",
+      "compact": "다오스코레더",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-127",
+      "compact": "다오스 레이저",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-128",
+      "compact": "어두운 레이저",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-129",
+      "compact": "탈출",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-130",
+      "compact": "엘리멘탈 마스터",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-131",
+      "compact": "이스케이프",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-132",
+      "compact": "이터널 슬로우",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-133",
+      "compact": "풍진박봉",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-134",
+      "compact": "풍신검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-135",
+      "compact": "카드 던지기",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-136",
+      "compact": "풍뢰신검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-137",
+      "compact": "이상한 춤",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-138",
+      "compact": "해독공",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-139",
+      "compact": "환영",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-140",
+      "compact": "고고 삼바",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-141",
+      "compact": "강･마신검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-142",
+      "compact": "굉천",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-143",
+      "compact": "강뢰검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-144",
+      "compact": "호열",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-145",
+      "compact": "강초래",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-146",
+      "compact": "극광검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-147",
+      "compact": "그레이트 어퍼",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-148",
+      "compact": "홍련",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-149",
+      "compact": "홍련검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-150",
+      "compact": "시가",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-151",
+      "compact": "헤비봄버",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-152",
+      "compact": "헬스 허리케인",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-153",
+      "compact": "하이드 파티",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-154",
+      "compact": "비상",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-155",
+      "compact": "비연연각",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-156",
+      "compact": "비엽번보",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-157",
+      "compact": "파다",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-158",
+      "compact": "봉천천구",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-159",
+      "compact": "빵사우",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-160",
+      "compact": "빙습연격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-161",
+      "compact": "박우",
+      "large_repair": "박우",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_117_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-162",
+      "compact": "이카스 힙",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-163",
+      "compact": "도박",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-164",
+      "compact": "인스펙트 아이",
+      "large_repair": "인스펙트 아이",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_120_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-165",
+      "compact": "이이즈나",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-166",
+      "compact": "차원참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-167",
+      "compact": "신뢰",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-168",
+      "compact": "아뢰야",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-169",
+      "compact": "유초래",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-170",
+      "compact": "양염",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-171",
+      "compact": "회생공",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-172",
+      "compact": "숨겨진",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-173",
+      "compact": "카마이타치",
+      "large_repair": "카마이타치",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_129_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-174",
+      "compact": "카세세 마치",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-175",
+      "compact": "호아파참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-176",
+      "compact": "황왕천상익",
+      "large_repair": "황왕천상익",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_132_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-177",
+      "compact": "공파절장격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-178",
+      "compact": "공아승룡각",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-179",
+      "compact": "공습검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-180",
+      "compact": "공간전이",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-181",
+      "compact": "마신검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-182",
+      "compact": "마신검･개",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-183",
+      "compact": "마신검･쌍아",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-184",
+      "compact": "마신쌍파참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-185",
+      "compact": "마인암",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-186",
+      "compact": "만주사화",
+      "large_repair": "만주사화",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_142_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-187",
+      "compact": "마왕염격파",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-188",
+      "compact": "마보 카레",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-189",
+      "compact": "명공참상검",
+      "large_repair": "명공참상검",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_145_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-190",
+      "compact": "미라클 보이스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-191",
+      "compact": "맹호연격파",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-192",
+      "compact": "맹습검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-193",
+      "compact": "나카요시 왈츠",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-194",
+      "compact": "룰라바이",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-195",
+      "compact": "응원",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-196",
+      "compact": "패러라이볼",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-197",
+      "compact": "필리아 폭탄",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-198",
+      "compact": "포이한",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-199",
+      "compact": "레이지 레이저",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-200",
+      "compact": "뇌전",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-201",
+      "compact": "뇌신십연격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-202",
+      "compact": "뇌신검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-203",
+      "compact": "뇌신권",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-204",
+      "compact": "열공인",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-205",
+      "compact": "열렬참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-206",
+      "compact": "연아탄",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-207",
+      "compact": "열･마신검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-208",
+      "compact": "롬부 숄더",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-209",
+      "compact": "로버 아이템",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-210",
+      "compact": "오월비",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-211",
+      "compact": "산화맹습각",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-212",
+      "compact": "살극무황권",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-213",
+      "compact": "삼산화",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-214",
+      "compact": "서치가르드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-215",
+      "compact": "섬공열파",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-216",
+      "compact": "섹시한 포즈",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-217",
+      "compact": "마비 룸바",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-218",
+      "compact": "진공파참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-219",
+      "compact": "진천",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-220",
+      "compact": "질풍",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-221",
+      "compact": "불지화",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-222",
+      "compact": "사후폭쇄진",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-223",
+      "compact": "사자전후",
+      "large_repair": "사자전후",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_179_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-224",
+      "compact": "사천멸살궁",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-225",
+      "compact": "충파",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-226",
+      "compact": "장저파",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-227",
+      "compact": "상우열공격",
+      "large_repair": "상우열공격",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_183_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-228",
+      "compact": "수우",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-229",
+      "compact": "집기법",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-230",
+      "compact": "스마일",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-231",
+      "compact": "스나이프에어",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-232",
+      "compact": "뇌물",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-233",
+      "compact": "조룡연아참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-234",
+      "compact": "조룡잔광검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-235",
+      "compact": "소생",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-236",
+      "compact": "스톱플로우",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-237",
+      "compact": "대아",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-238",
+      "compact": "테트라 어설트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-239",
+      "compact": "동아",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-240",
+      "compact": "썬더 소드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-241",
+      "compact": "동날십연격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-242",
+      "compact": "특제요리",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-243",
+      "compact": "도롱",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-244",
+      "compact": "사신",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-245",
+      "compact": "월큐리아 세이버",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-246",
+      "compact": "월큐리아 스트라이크",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-247",
+      "compact": "볼트 스러스트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-248",
+      "compact": "피해 주사",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-249",
+      "compact": "응조낙습각",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-250",
+      "compact": "참!",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-251",
+      "compact": "마신검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-252",
+      "compact": "윈드 커터",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-253",
+      "compact": "파이어볼",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-254",
+      "compact": "그레이브",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-255",
+      "compact": "번개",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-256",
+      "compact": "레이",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-257",
+      "compact": "재료확보",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-258",
+      "compact": "암석",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-259",
+      "compact": "열쇠",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-260",
+      "compact": "축재",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-261",
+      "compact": "함정회피",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-262",
+      "compact": "암시",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-263",
+      "compact": "내열",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-264",
+      "compact": "방한",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-265",
+      "compact": "비연연각",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-266",
+      "compact": "사자전후",
+      "large_repair": "사자전후",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "ARTE_222_FULL",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-267",
+      "compact": "힐",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-268",
+      "compact": "피코한",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-269",
+      "compact": "봉천천구",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-270",
+      "compact": "철수",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-271",
+      "compact": "메디컬 체크",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-272",
+      "compact": "슈퍼･빵사우",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-273",
+      "compact": "재료변화",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-274",
+      "compact": "경계",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-275",
+      "compact": "리리스의 손맛",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-276",
+      "compact": "폭염검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-277",
+      "compact": "폭염소파",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-278",
+      "compact": "폭쇄참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-279",
+      "compact": "브랜디스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-280",
+      "compact": "산엽고엽",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-281",
+      "compact": "디스넬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-282",
+      "compact": "영섬검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-283",
+      "compact": "파이널 플레이어",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-284",
+      "compact": "풍신초",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-285",
+      "compact": "아련섬",
+      "large_repair": "아련섬",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-286",
+      "compact": "아련창파인",
+      "large_repair": "아련창파인",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-287",
+      "compact": "아랑연도타",
+      "large_repair": "아랑연도타",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-288",
+      "compact": "월화유려",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-289",
+      "compact": "환영회귀",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-290",
+      "compact": "월섬허붕",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-291",
+      "compact": "월섬공파",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-292",
+      "compact": "호법련",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-293",
+      "compact": "비연참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-294",
+      "compact": "비천무구",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-295",
+      "compact": "붕습격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-296",
+      "compact": "아이템 스틸",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-297",
+      "compact": "화연격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-298",
+      "compact": "외월섬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-299",
+      "compact": "허공섬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-300",
+      "compact": "공파충",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-301",
+      "compact": "공파특공탄",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-302",
+      "compact": "공참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-303",
+      "compact": "경영창",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-304",
+      "compact": "진신연옥살",
+      "large_repair": "진신연옥살",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-305",
+      "compact": "무빙",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-306",
+      "compact": "아웃 버스트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-307",
+      "compact": "뇌신초",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-308",
+      "compact": "레이트러스트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-309",
+      "compact": "감속 피해",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-310",
+      "compact": "열화섬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-311",
+      "compact": "뇌아충",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-312",
+      "compact": "열풍공아충",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-313",
+      "compact": "리무엘 레이어",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-314",
+      "compact": "용염섬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-315",
+      "compact": "유련탄",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-316",
+      "compact": "작력부",
+      "large_repair": "작력부",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-317",
+      "compact": "산력표",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-318",
+      "compact": "산력부",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-319",
+      "compact": "생흡부",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-320",
+      "compact": "선빙섬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-321",
+      "compact": "섬광추인아",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-322",
+      "compact": "전후폭파",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-323",
+      "compact": "천렬허공섬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-324",
+      "compact": "사후멸룡섬",
+      "large_repair": "사후멸룡섬",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-325",
+      "compact": "질공연살검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-326",
+      "compact": "쌍월폭연무",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-327",
+      "compact": "솔페이지",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-328",
+      "compact": "쌍연격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-329",
+      "compact": "쌍타연차",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-330",
+      "compact": "창파인",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-331",
+      "compact": "수호진",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-332",
+      "compact": "상월쌍섬",
+      "large_repair": "상월쌍섬",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-333",
+      "compact": "정흡부",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-334",
+      "compact": "순신검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-335",
+      "compact": "취우쌍파참",
+      "large_repair": "취우쌍파참",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-336",
+      "compact": "천월선",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-337",
+      "compact": "천탄",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-338",
+      "compact": "천상창파참",
+      "large_repair": "천상창파참",
+      "basis": "Explicit untranslated/corrupt-name repair",
+      "reference": "Original B3TJ glyph pixels + phonetic compact name",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-339",
+      "compact": "추양섬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-340",
+      "compact": "와일드 기스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-341",
+      "compact": "응조취격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-342",
+      "compact": "참공천참검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-343",
+      "compact": "광왕검옥무",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-344",
+      "compact": "히스테릭 글래머",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-345",
+      "compact": "섹시한 다이너마이트",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-346",
+      "compact": "포이즌 키스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-347",
+      "compact": "마비 윙크",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-348",
+      "compact": "덴자라스 폭탄",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-349",
+      "compact": "디럭스 봄버",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-350",
+      "compact": "스컹크 핑거",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-351",
+      "compact": "사자 킥",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-352",
+      "compact": "호핑 자바바",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-353",
+      "compact": "번지 자바바",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-354",
+      "compact": "드리고 라운드",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-355",
+      "compact": "실드 스트라이크",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-356",
+      "compact": "실드 배쉬",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-357",
+      "compact": "사우전드 스트래시",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-358",
+      "compact": "세이브 더 퀸",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-359",
+      "compact": "제트 부츠",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-360",
+      "compact": "R･BLADE",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-361",
+      "compact": "R･CANNON",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-362",
+      "compact": "R･DRILL",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-363",
+      "compact": "R･DRAGON",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-364",
+      "compact": "X･BUSTER",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-365",
+      "compact": "위성",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-366",
+      "compact": "돈!",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-367",
+      "compact": "캣!",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-368",
+      "compact": "혼란",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-369",
+      "compact": "그림자 바늘",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-370",
+      "compact": "그림자 위스퍼",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-371",
+      "compact": "드래곤 테일",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-372",
+      "compact": "다크 포스",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-373",
+      "compact": "사후폭염진",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-374",
+      "compact": "살극무황검",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-375",
+      "compact": "제노사이드 브레이버",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-376",
+      "compact": "북의 달인",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-377",
+      "compact": "이노시카쵸",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-378",
+      "compact": "물요요",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-379",
+      "compact": "바쿠치",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-380",
+      "compact": "애플 구미 100G",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-381",
+      "compact": "오렌지구미 100G",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-382",
+      "compact": "믹스 구미 500G",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-383",
+      "compact": "에릭 씰 3000G",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-384",
+      "compact": "해독주사",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-385",
+      "compact": "전기 충격",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-386",
+      "compact": "도핑 주사",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-387",
+      "compact": "히카키",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-388",
+      "compact": "냥냥 펀치",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    },
+    {
+      "id": "skill-389",
+      "compact": "섬공쌍파참",
+      "large_repair": null,
+      "basis": "Inherited K1.1 wording; width-only ASCII/space/punctuation representation",
+      "reference": "K1.1 same record",
+      "review": "pending",
+      "layout": "all_callers_pending"
+    }
+  ]
+}

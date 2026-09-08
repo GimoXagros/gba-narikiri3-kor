@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "scope": "reload-menu",
+  "reference_final_frame": 1465,
+  "reference_log": "output/runtime-development05-reload-08/operations.jsonl",
+  "reference_artifact": "81e7056077a04ed546af650e87a6caea4c9d072836eaf3b8eb91931c3d52fb50",
+  "inputs": [
+    {
+      "op": "frames",
+      "count": 300
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 600
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "start"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 200
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "start"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 100
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 200
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "b"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 60
+    }
+  ]
+}

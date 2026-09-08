@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "source_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "regions": [
+    {
+      "id": "m4a-pcm-sample-bank",
+      "start": "0x1cb9d8",
+      "end": "0x6ec700",
+      "sample_count": 754,
+      "sha256": "ddb9c5a5acccb4bf3cdef96acf4b269d6fab78768e4c126691a301d7ec76e7a8",
+      "role": "PCM sound samples with WaveData headers, terminal sample bytes and alignment padding"
+    }
+  ],
+  "consumer_guards": [
+    {
+      "offset": "0xdb2ca",
+      "hex": "636a",
+      "role": "SoundChannel +24 is the WaveData pointer"
+    },
+    {
+      "offset": "0xdb302",
+      "hex": "181c1030a062d868a061",
+      "role": "sample payload +10, sample count +0C"
+    },
+    {
+      "offset": "0xdbc7e",
+      "hex": "4e463078607077686762b0686060",
+      "role": "ToneData +4 copied to SoundChannel +24"
+    },
+    {
+      "offset": "0x1c40b8",
+      "hex": "d8b91c08",
+      "role": "first sample reference"
+    },
+    {
+      "offset": "0x1c834c",
+      "hex": "00c76e08",
+      "role": "first song header follows PCM bank"
+    }
+  ],
+  "comparison_source": "https://github.com/pret/pokeemerald/blob/master/include/gba/m4a_internal.h",
+  "evidence_priority": "B3TJ original mixer and actual ToneData references establish the layout; external m4a declarations are supporting comparison only"
+}

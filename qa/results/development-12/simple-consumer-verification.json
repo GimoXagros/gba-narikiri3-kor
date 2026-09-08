@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9f895d9a13ed09386df47eb1256dc41419685e776c9ac5fa05a2f2e225d5c374",
+  "simple_glyph_mode_cases": 4700,
+  "original_simple_spacing_cases": 6,
+  "cross_consumer_cases": 2,
+  "scope": "Actual original simple Thumb renderer; preserves separate voicing/spacing semantics; all game callers remain pending"
+}

@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "scope": "Four observed first-battle Select menu captions; shared glyph sprite bank and caption-only placement metadata. No whole-game graphics claim.",
+  "bank": "0xd36058",
+  "graphics_index": 3,
+  "graphics_offset": "0xd384bc",
+  "graphics_size": 1792,
+  "graphics_sha256": "c3e3a41509853013f6711c9de170ad606b9392716e30763dd7836779c88bcb7c",
+  "tile_pool_offset": "0xd38a3c",
+  "tile_pool_count": 12,
+  "glyph_frame_first": 6,
+  "frame_table": "0x7c1cb0",
+  "frame_count": 18,
+  "layout_pointer_table": "0x7c1ddc",
+  "layout_consumer": "0x08017c88",
+  "guards": [
+    {
+      "offset": "0xd36058",
+      "hex": "0800000024000000e41300002423000064240000642b0000c42b0000e42b0000442c0000",
+      "basis": "8-entry relative graphics bank header"
+    },
+    {
+      "offset": "0x1759e",
+      "hex": "184c18480321ebf74eff2060381cedf768f8606015482423c05ec000842109060843a060a068",
+      "basis": "Graphics entry 3 selected then original DMA upload"
+    },
+    {
+      "offset": "0x17600",
+      "hex": "d40000045860d3087c3d1108",
+      "basis": "DMA / bank / sprite profile literals"
+    },
+    {
+      "offset": "0x113d7c",
+      "hex": "b01c7c080000ce29523ed6527b67670cd71d5f4fadc9f69873dafb92dc29dd52ff7fff7f38001200",
+      "basis": "18 frames, 56 tiles, existing palette"
+    },
+    {
+      "offset": "0x7c1b78",
+      "hex": "04000000f4f601000000000004f6080004000000f406040006000000040600000800000004000000f4f601010900000004f608010d000000f40604010f000000040600011100000004000000f4f601021200000004f6080216000000f406040218000000040600021a00000001000000f8f801001b00000004000000f4f601001f00000004f6080023000000f406040025000000040600002700000001000000000001022800000001000000000000022c00000001000000000000022d00000001000000000000022e00000001000000000000022f00000001000000000000023000000001000000000000023100000001000000000000023200000001000000000000023300000001000000000000023400000001000000000000023500000001000000000000023600000001000000000000023700000012000000781b7c089c1b7c08c01b7c08e41b7c08f01b7c08141c7c08201c7c082c1c7c08381c7c08441c7c08501c7c085c1c7c08681c7c08741c7c08801c7c088c1c7c08981c7c08a41c7c08",
+      "basis": "All original icon/glyph frame descriptors and pointer table"
+    },
+    {
+      "offset": "0x7c1ddc",
+      "hex": "3c1d7c085c1d7c087c1d7c089c1d7c08",
+      "basis": "Four caption layout pointers"
+    },
+    {
+      "offset": "0x7c1d35",
+      "hex": "50688098",
+      "basis": "Four icon anchors"
+    },
+    {
+      "offset": "0x17c88",
+      "hex": "f0b584460a21425e0a48910009180a4f0a48161880256d020a681424604614300019036800201056002809d1198b8020084308e0dc1d7c087fff0000351d7c08198b381c0840188301201056317840180c389881022010563930d881002010565882281c802149026d180432043400140728d3ddf0bc01bc00470000",
+      "basis": "Eight-component caption placement routine"
+    },
+    {
+      "offset": "0x1769c",
+      "hex": "0a21605e002801da032060810a21605e032801dd00206081",
+      "basis": "Four selection bounds"
+    },
+    {
+      "offset": "0x3444",
+      "hex": "00b5021c1068884205dd8800111d09180868101800e0002002bc0847",
+      "basis": "Relative bank getter"
+    }
+  ],
+  "records": [
+    {
+      "id": "battle-caption-0",
+      "index": 0,
+      "japanese": "とくぎ",
+      "layout_offset": "0x7c1d3c",
+      "original_layout_hex": "0a000000070800000d1000000b15fe0005feff000506ff00050eff0000000000"
+    },
+    {
+      "id": "battle-caption-1",
+      "index": 1,
+      "japanese": "さくせん",
+      "layout_offset": "0x7c1d5c",
+      "original_layout_hex": "0600000007080000081000000918000005feff000506ff00050eff000516ff00"
+    },
+    {
+      "id": "battle-caption-2",
+      "index": 2,
+      "japanese": "どうぐ",
+      "layout_offset": "0x7c1d7c",
+      "original_layout_hex": "0a0000000b06fe000c0c0000071500000b1bfe0005feff00050aff000513ff00"
+    },
+    {
+      "id": "battle-caption-3",
+      "index": 3,
+      "japanese": "たいれつ",
+      "layout_offset": "0x7c1d9c",
+      "original_layout_hex": "0e0000000f080000101000001118000005feff000506ff00050eff000516ff00"
+    }
+  ]
+}

@@ -1,0 +1,1155 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": "ship-two-launch",
+      "text": "@D2호,출발!",
+      "review": "pending",
+      "basis": "Restore omitted Korean vessel suffix present in Japanese original; retain @D and all surrounding legacy wording"
+    },
+    {
+      "id": "ship-history",
+      "text": "@D호를　사용해　세계나　역사를\n바꾸려　하고　있다는　말인데…",
+      "review": "pending",
+      "basis": "Restore omitted Korean vessel suffix present in Japanese original; retain @D and all surrounding legacy wording"
+    },
+    {
+      "id": "ship-two-location",
+      "text": "지금도　@D２호가　있는지\n궁금해서…",
+      "review": "pending_natural_play",
+      "reason": "Missing vessel number 2; original Japanese explicitly refers to second vessel"
+    },
+    {
+      "id": "device-actor-macro",
+      "text": "@0은　장치를　작동시켰다",
+      "review": "pending_natural_play",
+      "reason": "Legacy dropped @, displaying literal 0 instead of selected actor"
+    },
+    {
+      "id": "protagonist-macro",
+      "text": "뭐래,히죽거리면서!　기다려　@B!",
+      "review": "pending_natural_play",
+      "reason": "Legacy literal b replaces the protagonist name substitution"
+    },
+    {
+      "id": "suzu-ruins-floor",
+      "text": "스즈\n레미유적　지하　2층",
+      "review": "pending_natural_play",
+      "reason": "Original Japanese specifies basement floor 2. Legacy ideographic-space plus B2 accidentally invokes @B at a trail byte"
+    },
+    {
+      "id": "stan-ruins-floor",
+      "text": "스탄\n레미유적　지하　2층",
+      "review": "pending_natural_play",
+      "reason": "Original Japanese specifies basement floor 2. Legacy ideographic-space plus B2 accidentally invokes @B at a trail byte"
+    },
+    {
+      "id": "ship-custom-name",
+      "text": "시공을　여행하는　@D호는\n어떠냐,멋지지　않니?",
+      "review": "pending_natural_play",
+      "reason": "Restore original custom vessel name instead of hardcoded default"
+    },
+    {
+      "id": "fortress-escort-instruction",
+      "text": "부유요새　가장　안쪽　문까지\n@G를　데려가거라",
+      "review": "pending_natural_play",
+      "reason": "Legacy omits the entire instruction to escort the second protagonist; restore original second line and fix typo"
+    },
+    {
+      "id": "dialogue-terms-14d8e0",
+      "text": "저건…로이드와　콜레트?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-14d928",
+      "text": "로이드와　콜레트라면\n악마를　그냥　두지　않을거야%k\n그러니　우리가　대신　쓰러트릴거야!\n꿈꾸는　건　미뤄　둬",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-14db24",
+      "text": "아아!　이번에는　봤지?\n로이드와　콜레트　맞지?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-14dc28",
+      "text": "이봐!　로이드랑　콜레트!\n나야,@B!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-14e4d4",
+      "text": "아,로이드와　콜레트의　깨어났어!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-14e58c",
+      "text": "어쨋든　무사해서　다행이야!\n로이드,콜레트",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-14e5c4",
+      "text": "로이드와　콜레트가　동료가　됐다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-14f758",
+      "text": "엣?　아,물론　기쁘게…\n환영합니다,클라스　씨",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-14f788",
+      "text": "클라스가　동료가　됐다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-152358",
+      "text": "리드!　왜　이런곳에?\n파라씨와　킬씨는?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1526b4",
+      "text": "나쁜　예감은　맞는　법\n킬　씨　잡혀버렸어!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1528c4",
+      "text": "기다려,킬!　곧　도와줄게!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-152970",
+      "text": "모두!　킬씨를　되찾아야　해!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1529ec",
+      "text": "아마　킬씨가　잡혀서\n적에　말에　따르는　듯해…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1529fc",
+      "text": "파라…　젠장!\n어쨌든　지금은　킬을　찾아보자",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-152b0c",
+      "text": "파라도　킬도　이상하지　않아?\n뭔가　조종당하는　듯해",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-152b24",
+      "text": "그보다　파라와　킬은\n어디로　간거야?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-152c98",
+      "text": "…왜　킬　씨까지　적과\n함께　공격해　오는거야?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-152cb0",
+      "text": "킬녀석…\n어쨌든　지금은　파라를　찾자!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-152da8",
+      "text": "파라,킬!　나야,리드!\n제발!　눈을　떠!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-153250",
+      "text": "엥?　파라와　킬이…\n두,둘?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1534fc",
+      "text": "파라!　킬!　괜찮아?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-153574",
+      "text": "미안해,리드　또　모두에게　걱정을…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1535d4",
+      "text": "파라씨랑　킬씨가　있다면\n언제든　만회할　수　있어요!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15365c",
+      "text": "파라와　킬이　동료가　됐다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15b3c8",
+      "text": "저기　죄송한데요%k\n젤로스와　시이나라는　사람\n못　보셨나요?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15b3f0",
+      "text": "젤로스와　시이나라는　악인은…\n어차피　이런　얼굴이겠지?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15b868",
+      "text": "젤로스,시이나가　동료가　됐다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15ba7c",
+      "text": "@B!　속지마\n이쪽이　진짜　젤로스와　시이나에요!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15c444",
+      "text": "콜록…그만해　젤로스!\n생명의　은인에게　싸움이라니!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15c484",
+      "text": "젤로스…?　그리고　복사기　안에\n왜　사람이…?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15c4cc",
+      "text": "오케이~　나는　젤로스\n여기는　시이나야",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15cbc4",
+      "text": "믿어줘!　우리가\n진짜　젤로스와　시이나야!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15cc9c",
+      "text": "잘　봐,속지마!\n우리들이　진짜　젤로스,시이나야",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15d698",
+      "text": "그건　그건　클라스　쪽이　아닌가요?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15d6b0",
+      "text": "크,클라스　씨!　저를.\n그렇게　생각하고　계셨던　건가요!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15d800",
+      "text": "에~!\n속고　있는　건　클라스　쪽이야!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15d828",
+      "text": "뭐라고!　진짜　화났어!\n내　마법과　클라스의　소환술!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15dd98",
+      "text": "왜　킬이　악당　쪽에　있는거야?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15ddd0",
+      "text": "메르디,바보　아냐\n지금의　킬　실수투성이야!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15df5c",
+      "text": "어쩔　수　없군\n거칠겠지만,킬!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15e0c0",
+      "text": "킬,같이　돌아갈까?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15e0e8",
+      "text": "이런!　킬　고집쟁이!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15e7a4",
+      "text": "콜레트,당신까지…\n적의　계략에　넘어가다니!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15ec74",
+      "text": "콜레트는　로이드를　좋아하니\n그　쪽인건　어쩔　수　없지",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-15ecec",
+      "text": "너,너무해,콜레트!\n그런　눈빛　보내도　안돼!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-16156c",
+      "text": "분수도　모르는　침입자여\n내　이름은　왈큐레!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1639dc",
+      "text": "죠니　씨　어떻게　할까요?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1639ec",
+      "text": "푸른　하늘의　번개라　불리는\n죠니・시덴",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-163a04",
+      "text": "나　죠니는　언제든\n준비됐다고,베이비ー",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-163a24",
+      "text": "첼시와　죠니가　동료가　됐다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-163d38",
+      "text": "어쩔까,죠니?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-163d48",
+      "text": "푸른　하늘의　번개라　불리는\n죠니・시덴",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-163d60",
+      "text": "나　죠니는　언제든\n준비됐다고,베이비ー",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-163d80",
+      "text": "우드로우와　죠니가　동료가　됐다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-166170",
+      "text": "윌!　드디어　채트를　만났구나",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-166240",
+      "text": "채트가　동료가　됐다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-166248",
+      "text": "채트는\n@D호에서　대기합니다",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1671f4",
+      "text": "콜레트에겐　손대지　못해!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-169c9c",
+      "text": "여기가　창천의　번개\n이　죠니의스테이지로군",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-169ca4",
+      "text": "몬스터를　상대로\n짜릿한　죠니　넘버를　들려주지",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-16d69c",
+      "text": "어떤　때는　젤로스!\n까지　하고,그　실체는!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-170f2c",
+      "text": "무,무슨　소리에요　클라스!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1728b0",
+      "text": "어?　영웅전에선　클라스가\n여자　엉덩이에…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-172c24",
+      "text": "헤~!　그럼　언젠가　나도\n클라스처럼　될까?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-173268",
+      "text": "아체가　리필과　클라스를\n가르치고　있는거야?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17356c",
+      "text": "안녕　클라스,리필\n도시락　만들어봤어",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-179ca8",
+      "text": "안녕　@B,@G\n죠니넘버를　듣고　싶어?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-179cc0",
+      "text": "죠니는　정말　즐겁게　연주하네",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17a2c0",
+      "text": "로이드는　토마토\n콜레트는　피망　다　먹으라구",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17a710",
+      "text": "로이드는　토마토\n콜레트는　피망　다　먹으라구",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17b92c",
+      "text": "같이　간다고　말한건\n킬잖아",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17c3d4",
+      "text": "퀴키도　메르디　노래　좋아하는…\n아,킬!　무슨일이야?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17c42c",
+      "text": "흠,킬,메르디의　노래\n들으러　왔지?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17c45c",
+      "text": "와아!킬도　함께해!\n메르디　힘낼게!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17cfd8",
+      "text": "코린은　채트를　정말　좋아해\n퀵키들도　그렇지?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17d368",
+      "text": "걱정하지마,채트\n말라서　꼬마라고　한다면",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-17f0d0",
+      "text": "…그래서　젤로스\n좋아하는　여성은　찾았어?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-180b80",
+      "text": "『해롤드의　지팡이』를\n얻었다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1810b0",
+      "text": "콜레트,너까지　따라와도\n정말　괜찮은　거야?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-181130",
+      "text": "@G,콜레트의　솔직함의\n조금이라도　있었으면…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18252c",
+      "text": "그만,콜레트\n네가　달리면…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1825bc",
+      "text": "우와M　벼,벽에!\n콜레트가!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18261c",
+      "text": "괜찮아,콜레트?\n정말　덜렁거리네…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-182f40",
+      "text": "저기,로이드,콜레트\n선생님,그냥　둬도　될까?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-183ac0",
+      "text": "진짜　어쩔　수　없네\n젤로스는",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-183ad0",
+      "text": "@G,나를\n젤로스　군이라　불러줘",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-183ae0",
+      "text": "알겠어,젤로스!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-183b10",
+      "text": "에!　부르라고　했잖아\n젤로스군!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-183cf8",
+      "text": "젤로스는　원래　운명의\n신자라며?　멋지다!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-183d70",
+      "text": "미안해,젤로스…\n그런　의도가　아니었어",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-184084",
+      "text": "아,그리고　클라스와　젤로스에\n브라운　박사님도　걸었어",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1842e0",
+      "text": "왜　그렇게\n끼어드는　거야,젤로스!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-184300",
+      "text": "젤로스의　허니　라는　말\n전혀,믿을　수　없어!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-184328",
+      "text": "젤로스,최악이네요",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-186b10",
+      "text": "@D호의　드라이브에　휘말린\n로이드와　콜레트가…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-186b30",
+      "text": "맞아요,그리고　제　추측으론\n로이드와　콜레트처럼…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-187b88",
+      "text": "콜레트와　리아라의　정체를\n알고　있는　입장에선",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18821c",
+      "text": "파라와　킬의　가짜들,그건\n변장이라는　수준이　아니었지",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-189cfc",
+      "text": "음,클라스에　킬\n필리아　그리고　해롤드",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18a5e0",
+      "text": "어,그래?　아,고마워!\n이것도　해롤드　덕분이야",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18a86c",
+      "text": "…@B,제대로　된　사전을\n해롤드에게　주면　어때",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18cc4c",
+      "text": "클라스가　배신할　리　없어\n분명　이유가　있을　거야!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18e488",
+      "text": "클라스\n만남의　유적",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18e4c8",
+      "text": "클라스\n레미유적지하１Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18e508",
+      "text": "클라스\n신의눈대신전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18e548",
+      "text": "클라스\n신탁의　성당",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18e588",
+      "text": "클라스\n왕성　지하감옥",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18e788",
+      "text": "클라스\n배신의　요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18e948",
+      "text": "클라스\n부유요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-18e988",
+      "text": "클라스\n엔딩",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1919b8",
+      "text": "너희들의　힘은　마왕　자바바를\n이기기　위함이겠지%k\n주저하지　마\n얻은　힘을　마음껏　사용해",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-194f74",
+      "text": "죠니\n만남의　유적",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-194fb4",
+      "text": "죠니\n레미유적지하１Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-194ff4",
+      "text": "죠니\n신의　눈　대신전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195034",
+      "text": "죠니\n신탁의　성당",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195074",
+      "text": "죠니\n왕성　지하감옥",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1950b4",
+      "text": "죠니\n레미유적지하２Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1950f4",
+      "text": "죠니\n시간의　더미",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195134",
+      "text": "죠니\n절망의　궁전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195174",
+      "text": "죠니\n전생의　문",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1951b4",
+      "text": "죠니\n레미유적지하３Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1951f4",
+      "text": "죠니\n엘프　숲／냥인　마을／총영주　관저",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195234",
+      "text": "죠니\n인간목장",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195274",
+      "text": "죠니\n배신의　요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1952b4",
+      "text": "죠니\n레미　유적　최하층",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1952f4",
+      "text": "죠니\n마과학　연구소",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195334",
+      "text": "죠니\n불꽃미궁／얼음동굴→투혼　콜로세움",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195434",
+      "text": "죠니\n부유요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195474",
+      "text": "죠니\n엔딩",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195850",
+      "text": "리드\n신의눈대신전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195910",
+      "text": "리드\n레미유적지하２Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1959d0",
+      "text": "녀석들　파라와　킬의　기술까지\n흉내　내서　쓰잖아%k\n…그　말은　단순한　변장이　아니\n나리키리의　힘일지도　몰라",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-195b10",
+      "text": "킬녀석　우울해　하고\n있지만　지금은　말　걸지　마…%k\n그냥　내버려　둬,부탁이야",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196520",
+      "text": "킬이　사람을　배신하는건\n절대　불가능해!%k\n분명　속고　있는　거야!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196d24",
+      "text": "킬\n만남의　유적",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196d64",
+      "text": "킬\n레미유적지하１Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196da4",
+      "text": "킬\n신의눈대신전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196de4",
+      "text": "킬\n신탁의　성당",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196e24",
+      "text": "킬\n왕성　지하감옥",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196e64",
+      "text": "킬\n레미유적지하２Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196ea4",
+      "text": "킬\n시간의　더미",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-196ee4",
+      "text": "킬\n절망의　궁전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-197024",
+      "text": "킬\n배신의　요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1971e4",
+      "text": "킬\n부유요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-197224",
+      "text": "킬\n엔딩",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-197b60",
+      "text": "킬,솔직하지　못하네\n여기　오고　싶다고　한　건　킬이야!",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1987d4",
+      "text": "채트\n만남의　유적",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198814",
+      "text": "채트\n레미유적지하１Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198854",
+      "text": "채트\n신의　눈　대신전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198894",
+      "text": "채트\n신탁의　성당",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1988d4",
+      "text": "채트\n왕성　지하감옥",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198914",
+      "text": "채트\n레미　유적　지하　2층",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198954",
+      "text": "채트\n시간의　더미",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198994",
+      "text": "채트\n절망의　궁전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1989d4",
+      "text": "채트\n전생의　문",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198a14",
+      "text": "채트\n레미유적지하３Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198a54",
+      "text": "채트\n엘프　숲／냥인　마을／총영주　관저",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198a94",
+      "text": "채트\n인간목장",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198ad4",
+      "text": "채트\n배신의　요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198b14",
+      "text": "채트\n레미　유적　최하층",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198b54",
+      "text": "채트\n마과학　연구소",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198b94",
+      "text": "채트\n불꽃미궁／얼음동굴→투혼　콜로세움",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198bd4",
+      "text": "채트\n시간의　더미２",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198c94",
+      "text": "채트\n부유요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-198cd4",
+      "text": "채트\n엔딩",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19bf8c",
+      "text": "너희들의　힘은　마왕　자바바를\n이기기　위함이겠지%k\n주저하지　마\n얻은　힘을　마음껏　사용해",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19c3e4",
+      "text": "왜　크레스와　함께　있었는지\n나도　잘　모르겠어%k\n클라스는　전설이　변하고\n있다고　말했지만…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19ca38",
+      "text": "해롤드\n만남의　유적",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19caf8",
+      "text": "해롤드\n신탁의　성당",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19cb38",
+      "text": "해롤드\n왕성　지하감옥",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19cb78",
+      "text": "해롤드\n레미유적지하２Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19cbb8",
+      "text": "해롤드\n시간의　더미",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19cbf8",
+      "text": "해롤드\n절망의　궁전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19cc38",
+      "text": "해롤드\n전생의　문",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19cd38",
+      "text": "해롤드\n배신의　요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19cef8",
+      "text": "해롤드\n부유요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19cf38",
+      "text": "해롤드\n엔딩",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19e6dc",
+      "text": "콜레트\n만남의　유적",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19e71c",
+      "text": "콜레트\n레미유적지하１Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19e75c",
+      "text": "콜레트\n신의눈대신전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19e79c",
+      "text": "콜레트\n신탁의　성당",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19eb9c",
+      "text": "콜레트\n부유요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-19ebdc",
+      "text": "콜레트\n엔딩",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0548",
+      "text": "젤로스\n만남의　유적",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0588",
+      "text": "젤로스\n레미유적지하１Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a05c8",
+      "text": "젤로스\n신의눈대신전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0608",
+      "text": "젤로스\n신탁의성당",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0648",
+      "text": "젤로스\n왕성지하감옥",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0688",
+      "text": "젤로스\n레미유적지하２Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a06c8",
+      "text": "젤로스\n시간의　더미",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0708",
+      "text": "젤로스\n절망의궁전",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0748",
+      "text": "젤로스\n전생의문",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0788",
+      "text": "젤로스\n레미유적지하３Ｆ",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a07c8",
+      "text": "젤로스\n엘프　숲／냥인　마을／총영주　관저",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0808",
+      "text": "젤로스\n인간목장",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0a08",
+      "text": "젤로스\n부유요새",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a0a48",
+      "text": "젤로스\n엔딩",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a30c4",
+      "text": "있지,로이드와　콜레트는\n전설에서　이어지는　걸까?%k\n언니,좀　흥미진진하거든",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a66c0",
+      "text": "로이드와　콜레트가　무사했으니\n자잘한　건　됐잖아",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1a8480",
+      "text": "해롤드는　전설에　따라\n성별이　다르대,알고　있었어?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1ad460",
+      "text": "로이드와　콜레트대신\n성당에서　악마를　몰아내자",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1add80",
+      "text": "심포니아　전설의　영웅\n젤로스와　시이나가…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1afe80",
+      "text": "로이드와　콜레트의　대역으로\n가줄　수　있겠니?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b1e8c",
+      "text": "\n『로이드와　콜레트가\n여행을　떠난　며칠　후』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b1ec4",
+      "text": "『그러나　로이드,콜레트는\n시간이　지나도　돌아오지　않았다』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b2064",
+      "text": "『로이드와　콜레트는　많은　동료들을\n이끌고　돌아왔다』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b2444",
+      "text": "『지하　감옥에서　탈출한\n아체와　클라스는…』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b24e4",
+      "text": "『아체와　클라스가　잡혀있던\n감옥을　연　것은…』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b2a3c",
+      "text": "『파라와　킬이　미끼가　되어\n적을　끌어들였습니다』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b2a7c",
+      "text": "『그　틈에　리드는　함정에\n빠진　동료들을　구해　내고』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b37ec",
+      "text": "『그때　절망의　세레스티아에\n지혜의　여신　해롤드가…』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b39bc",
+      "text": "『젤로스,시이나라는　\n소문이었습니다』인가…",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b3aa4",
+      "text": "젤로스와　시이나의\n의혹은　플린걸까?",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b3b2c",
+      "text": "『그　중　대단했던　것은　\n젤로스와　시이나였습니다』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1b3b5c",
+      "text": "『젤로스와　시이나는　１００명\n몫을　했다고　평가되었습니다』",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "meredy-ruins-floor",
+      "text": "메르디\n레미유적　지하１층",
+      "review": "original_J_identity_and_floor_checked_natural_play_pending"
+    },
+    {
+      "id": "dialogue-terms-1ac028",
+      "text": "나는　리드,이　쪽　두　사람은\n소꿉친구인　파라와　킬",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-terms-1ac190",
+      "text": "내　이름은　로이드・어빙\n이　쪽이　콜레트와　지니어스",
+      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    }
+  ]
+}
