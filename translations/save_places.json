@@ -1,0 +1,314 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "index": 0,
+      "text": "만남의 유적",
+      "original_sha256": "fb8350a8f82cc8c60aa61a039639ce1c3f5c78d2bec1d2821843fff71411ec2a",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 1,
+      "text": "레미 유적 1층",
+      "original_sha256": "fd037b7a243481d0411dfd16fe31647cda3cf074a3536a0e938d8cb2dff3595b",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 2,
+      "text": "신의 눈 대신전",
+      "original_sha256": "796480de25f16580fe1ca68b87d6c53bd7966dceebe217f2d1c24ee5e5b98aac",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 3,
+      "text": "신탁의 성당",
+      "original_sha256": "0a73f438032ef42d274cb2df5cfb955a77036b48cb87ca54351d369ec2b0e6fc",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 4,
+      "text": "왕성 지하감옥",
+      "original_sha256": "6b051c370bfe290376b048859509406ee317c483c2830ef8b187329a7d474630",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 5,
+      "text": "레미 유적 지하 2층",
+      "original_sha256": "2f3a06ddcd21de4fa4dc3e8036cbdb6cd0ec20667fd19dac7b6ff55fa093e7e7",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 6,
+      "text": "레미 유적 지하 2층",
+      "original_sha256": "2f3a06ddcd21de4fa4dc3e8036cbdb6cd0ec20667fd19dac7b6ff55fa093e7e7",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 7,
+      "text": "시간의 더미",
+      "original_sha256": "600715b88500329f486ee5837975c30c1cf53bda3788fa5938f7f1e561c2268c",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 8,
+      "text": "절망의 궁전",
+      "original_sha256": "fdd11b47c72aefa0cdb2bc8a69aa67208c65eda992dd9b54dbcce3c5494278e3",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 9,
+      "text": "전생의 문",
+      "original_sha256": "13b2f855cc3fc9d78c2892beab94e218e9e512c7fbbe9bad29ed0adcfcb210e5",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 10,
+      "text": "레미 유적 지하 3층",
+      "original_sha256": "177fc1267380623768930cd0946865c1c0dcdb8c385148cc5c2a235603ae3402",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 11,
+      "text": "레미 유적 지하 3층",
+      "original_sha256": "177fc1267380623768930cd0946865c1c0dcdb8c385148cc5c2a235603ae3402",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 12,
+      "text": "레미 유적 지하 3층",
+      "original_sha256": "177fc1267380623768930cd0946865c1c0dcdb8c385148cc5c2a235603ae3402",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 13,
+      "text": "엘프의 숲",
+      "original_sha256": "a6eb028f4f5455efdeacdc26a918b128a45fc6e7de52d05c8bbda40aa10023f7",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 14,
+      "text": "냥인 마을",
+      "original_sha256": "6b7622a0278587fc7c52a36e3a9f9dbc1858c78c6cbd207f59d00679bda2551e",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 15,
+      "text": "총영주 저택",
+      "original_sha256": "802c01102d07d7b4703a233b708ce074b5215113626869faf803a12e24ad8638",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 16,
+      "text": "인간 목장",
+      "original_sha256": "5df90da9ad4d35a473d1746593c6b79a3ae6de7b36549969a362c5b22678ce6a",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 17,
+      "text": "배신의 요새",
+      "original_sha256": "a0996ea820ab0fff405d7cbf2758794ce07e72bcad5b2074b89e18885c10f336",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 18,
+      "text": "레미 유적 최하층",
+      "original_sha256": "f5efa30169ce8d20090ceaa1cf5347a3d79c65f7d90a498559cfa0c3a6c49ceb",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 19,
+      "text": "레미 유적 최하층",
+      "original_sha256": "f5efa30169ce8d20090ceaa1cf5347a3d79c65f7d90a498559cfa0c3a6c49ceb",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 20,
+      "text": "레미 유적 최하층",
+      "original_sha256": "f5efa30169ce8d20090ceaa1cf5347a3d79c65f7d90a498559cfa0c3a6c49ceb",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 21,
+      "text": "레미 유적 최하층",
+      "original_sha256": "f5efa30169ce8d20090ceaa1cf5347a3d79c65f7d90a498559cfa0c3a6c49ceb",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 22,
+      "text": "마과학 연구소",
+      "original_sha256": "dfdd059bfbbdc1aec7b82e49b757f0ae77cf24e5872584935d3a14ac19de0d8b",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 23,
+      "text": "불꽃 미궁",
+      "original_sha256": "5b66f070f9ad0d910f0907e3e9c5a40378497bcf225a3fbf1eaebfc2e6c9e964",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 24,
+      "text": "얼음 동굴",
+      "original_sha256": "349bbb52e3c8f1fcc2fdf14bfc35245bde6abc74796c92f1f7d4dc31b86ace8f",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 25,
+      "text": "투혼 콜로세움",
+      "original_sha256": "83512f312b49286fc3def613ef240ba068a1dbc163ce950a042d997f73f06ee5",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 26,
+      "text": "투혼 콜로세움",
+      "original_sha256": "83512f312b49286fc3def613ef240ba068a1dbc163ce950a042d997f73f06ee5",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 27,
+      "text": "시간의 더미 2",
+      "original_sha256": "fee8e3f055822be0588a6769480418a5dee9a20ef752dc0f8a566e3e52354bfe",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 28,
+      "text": "초고대 도시",
+      "original_sha256": "863fbba8f666bbd35925b584cfe12e943614b99c18863a23a1f69613d3a09ea9",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 29,
+      "text": "부유 요새",
+      "original_sha256": "ca5e735522d39c2f5b8f871d61e0af33e004b4677e66be41cbe493ba581745d6",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 30,
+      "text": "레미 유적 최하층",
+      "original_sha256": "f5efa30169ce8d20090ceaa1cf5347a3d79c65f7d90a498559cfa0c3a6c49ceb",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 31,
+      "text": "레미 유적 최하층",
+      "original_sha256": "f5efa30169ce8d20090ceaa1cf5347a3d79c65f7d90a498559cfa0c3a6c49ceb",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 32,
+      "text": "레미 유적 최하층",
+      "original_sha256": "f5efa30169ce8d20090ceaa1cf5347a3d79c65f7d90a498559cfa0c3a6c49ceb",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 33,
+      "text": "레미 유적 최하층",
+      "original_sha256": "f5efa30169ce8d20090ceaa1cf5347a3d79c65f7d90a498559cfa0c3a6c49ceb",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 34,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 35,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 36,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 37,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 38,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 39,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 40,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 41,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 42,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    },
+    {
+      "index": 43,
+      "text": "드루아가의 탑",
+      "original_sha256": "da634f95aa4f97fbe73936b02ced208313150775e0d35a72ca2d1ba6d2621eb4",
+      "basis": "Save display table read at D0218/D021C; source Japanese labels and existing dialogue place terminology; no map or save IDs changed",
+      "review": "source_consumer_confirmed_runtime_pending"
+    }
+  ]
+}

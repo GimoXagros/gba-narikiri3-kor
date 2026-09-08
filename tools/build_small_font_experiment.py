@@ -27,6 +27,7 @@ def main():
     p.add_argument('--skill-headers',action='store_true')
     p.add_argument('--biographies',action='store_true')
     p.add_argument('--clothing-results',action='store_true')
+    p.add_argument('--save-places',action='store_true')
     a=p.parse_args();j=a.j.read_bytes();ips=a.ips.read_bytes()
     if sha(j)!=J or sha(ips)!=IPS:raise ValueError('Unsupported input')
     legacy=bytearray(j);records,trunc=ips_records(ips)
@@ -290,6 +291,11 @@ def main():
         run('objcopy',['-O','binary','--only-section=.text',a.out/'clothing-measure.elf',a.out/'clothing-measure.bin'])
         clothing_writes,clothing_info=install_clothing(legacy,extension,(a.out/'clothing-measure.bin').read_bytes())
         writes.extend(clothing_writes)
+    save_place_info=None
+    if a.save_places:
+        from save_place_text import install as install_save_places
+        place_writes,save_place_info=install_save_places(legacy,extension)
+        writes.extend(place_writes)
     for o,d,_ in sorted(writes):
         if o<prior_end or o+len(d)>len(legacy):raise ValueError('Overlapping or out-of-range write')
         prior_end=o+len(d)
@@ -321,6 +327,10 @@ def main():
     report['biography_text']=biography_info
     report['skill_description_repairs']=skill_description_repairs
     report['clothing_results']=clothing_info
+    report['save_places']=save_place_info
+    if a.save_places:
+        for name in ['source/save_place_profile.json','translations/save_places.json','tools/save_place_text.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
     if a.clothing_results:
         for name in ['source/clothing_measure.s','source/clothing_result_profile.json','translations/clothing_results.json','tools/clothing_results.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())

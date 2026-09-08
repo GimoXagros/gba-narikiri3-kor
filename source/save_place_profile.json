@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "table": "0xf1d3dc",
+  "selected_count": 44,
+  "source_table_and_test_sha256": "7b7f68fbf38cba12f120e761abac1dcd798da62d21d9ff3ded8273d82b19bf3e",
+  "preserved_test_slot": "0xf1d48c",
+  "consumer": "080D01C4",
+  "state_address": "02001D20",
+  "mode_offset": 16,
+  "map_id_offset": 18,
+  "window_columns": 22,
+  "prefix_columns": 8,
+  "guards": [
+    {
+      "offset": "0xd0014",
+      "hex": "042100910122162331f764fb"
+    },
+    {
+      "offset": "0xd01c4",
+      "hex": "10b5041c064931f7edfd06491022885e03280ed0032807dc022817d01ee00000641c1c08201d00020a2802d00b2805d014e0014904e00000741c1c080248416e201c31f7cffd09e0dcd3f1080748498a890009180968201c31f7c4fd0449201c31f7c0fd10bc01bc00470000dcd3f108801c1c08"
+    }
+  ],
+  "scope": "44 explicitly selected save-label pointers; next test label preserved. Normal map-ID range and all save points are separate reachability questions."
+}
