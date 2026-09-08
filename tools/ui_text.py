@@ -37,5 +37,8 @@ def selected_ui(profile,catalog,legacy,glyphs):
         if max(map(len,worst.split('\n')))>p['selected_max_cells']:raise ValueError('UI exceeds selected caller width')
         if p['id']=='save-place-label' and len(text)!=8:raise ValueError('Location start would move')
         if 'exact_cells' in p and len(text)!=p['exact_cells']:raise ValueError('Adjacent setting position would move')
+        for sample in p.get('format_samples',[]):
+            sample_text=text.replace('%l','')%tuple(sample)
+            if max(map(len,sample_text.split('\n')))>p['selected_max_cells']:raise ValueError('UI numeric boundary exceeds selected window')
         result.append((p['id'],off,encode(text)+b'\0'))
     return result

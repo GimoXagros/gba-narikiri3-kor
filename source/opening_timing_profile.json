@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "basis": "Observed timer at every opening input boundary. mGBA dev13 vs dev15: delta first appears at name board frame7098 (-16), second new editor7878 (-32); three later menu/empty-save draws add three more frames before save. Full 8192-byte saved state excluding checksum/time is identical to established opening reference. Exact ROM/core/trace binding; no widened tolerance. Timing is not a real-time or audio performance claim.",
+  "records": [
+    {
+      "rom_sha256": "c22ee67ae4949a274e90609a4d30e842a42c630e21a057accaa197d1452c9728",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17733,
+      "evidence_sha256": "2a328876645d355655ff04e8d04cd565d1064f0afe6d73ce86b7aced4d86ec81"
+    },
+    {
+      "rom_sha256": "c22ee67ae4949a274e90609a4d30e842a42c630e21a057accaa197d1452c9728",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17728,
+      "evidence_sha256": "6dc8c11cbe069a3ab22aa62960cf05c254e01423b3c7a60a0191589ee742cab2"
+    },
+    {
+      "rom_sha256": "d58705206ed02a6133fc64519ab8c77ba8bb241b2475a6ebd13181d067f50d38",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17733,
+      "evidence_sha256": "b9767b2f658c97cda114a1dffc437f10d6b19a682e1050797009e906ae205c7b"
+    },
+    {
+      "rom_sha256": "d58705206ed02a6133fc64519ab8c77ba8bb241b2475a6ebd13181d067f50d38",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17728,
+      "evidence_sha256": "3ada7ca8972a2ad0336a25173fcf3e8edc46b765fa370146e87ee0dcfd8f2853"
+    }
+  ]
+}

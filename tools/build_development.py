@@ -22,7 +22,7 @@ def main():
         '--default-names',ROOT/'translations/default_names.json','--simple-hook',
         '--lexicon',ROOT/'translations/items-monsters.json','--ui',ROOT/'translations/ui.json',
         '--small-tables',ROOT/'translations/small_tables.json','--dialogue-fixes',ROOT/'translations/dialogue_fixes.json',
-        '--recipes',ROOT/'translations/recipes.json','--battle-captions',ROOT/'translations/battle_captions.json'])
+        '--recipes',ROOT/'translations/recipes.json','--battle-captions',ROOT/'translations/battle_captions.json','--name-keyboard','--skill-headers','--biographies'])
     # Reconstruct the immutable legacy input solely for the comparison fixture.
     from survey_rom import ips_records
     legacy=bytearray(j.read_bytes());records,trunc=ips_records(ips.read_bytes())
@@ -40,7 +40,10 @@ def main():
             ('verify_name_expansion.py','name-expansion-verification.json',[]),
             ('verify_dialogue_resource.py','dialogue-resource-verification.json',['--j',j,'--legacy',legacy_path]),
             ('verify_recipes.py','recipe-verification.json',['--legacy',legacy_path]),
-            ('verify_battle_captions.py','battle-caption-verification.json',['--legacy',legacy_path])]
+            ('verify_battle_captions.py','battle-caption-verification.json',['--legacy',legacy_path]),
+            ('verify_name_keyboard.py','name-keyboard-verification.json',['--legacy',legacy_path]),
+            ('verify_skill_headers.py','skill-header-verification.json',['--legacy',legacy_path]),
+            ('verify_biographies.py','biography-verification.json',['--legacy',legacy_path])]
     for script,filename,extra in checks:run(script,['--rom',rom,'--out',out/filename,*extra])
     files=[*sorted((ROOT/'tools').glob('*.py')),*sorted((ROOT/'source').glob('*')),
            *sorted((ROOT/'translations').glob('*.json')),ROOT/'fonts/dalmoori-wansung.json',ROOT/'requirements-dev.txt',ROOT/'project.json']

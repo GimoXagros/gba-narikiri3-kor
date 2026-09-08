@@ -25,7 +25,13 @@ def phase(a):
         save_validation=None
         if a.phase=='first-save':
             exported=probe.execute({'op':'save_export','name':'first-save.sav'})
-            save_validation=opening_save((a.out/'first-save.sav').read_bytes())
+            profile_path=ROOT/'source/opening_timing_profile.json'
+            profiles=json.loads(profile_path.read_text(encoding='utf-8'))['records'] if profile_path.exists() else []
+            matched=[r for r in profiles if r['rom_sha256']==probe.rom_hash and r['core_sha256']==probe.dll_hash and r['trace_sha256']==sha(trace)]
+            if len(matched)>1:raise ValueError('Ambiguous opening timing reference')
+            timing={'reference_timer':matched[0]['saved_timer'],'timer_tolerance':0} if matched else {}
+            save_validation=opening_save((a.out/'first-save.sav').read_bytes(),**timing)
+            if matched:save_validation['timing_evidence_sha256']=matched[0]['evidence_sha256']
         else:
             def key(button,count=60):
                 probe.execute({'op':'frames','count':1,'buttons':[button]})

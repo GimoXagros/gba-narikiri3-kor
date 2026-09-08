@@ -1,0 +1,781 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "index": 0,
+      "character_id": 0,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "크레스",
+          "original_sha256": "84026063e8bfa33a074a135ea451d955949a17fff8fb05126ae6832ad1d99b81",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "character_id": 1,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "체스터",
+          "original_sha256": "bc8b0d0ca21824c9f71d6fc756f959aad06a2e7c4d876355933f68f0140e212c",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "character_id": 2,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "민트",
+          "original_sha256": "2a915d81f4d59ee2dc2d4028240725b10c6b9325129f2832268a2288423a7f8e",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "민트 아드네이드 18세",
+          "original_sha256": "24ab29bcf4e9a2c5309e5ab0da68d3f605f2886451fd72265ff7e54e2a569c22",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "크레스와의 사이도 몰래 깊어지는 중",
+          "original_sha256": "0ceb48577510a17fa54ed33450976870c3662d4c2e1142b9be2463513a1fcf04",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "character_id": 3,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "클라스",
+          "original_sha256": "92ac43bff43fd512bd6ad810727c204882bf64bdedae979a03d7ff49c0312a28",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "클라스 F． 레스터 29세",
+          "original_sha256": "4091a0024579b16c72524084d3e4bf9e74bf4c8161e161d1842bd905d9591743",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair; explicit full-width European period because original ASCII period conversion selects Japanese full stop",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "정령을 연구하는 고고한 소환사",
+          "original_sha256": "4b581978f1d5799d568ca96f2ab1c9d6f05c1e9cdba09c11a86d5d63735a73c7",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "character_id": 4,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "아체",
+          "original_sha256": "efe1e2f6d39bb2f55e6d487c21f7aedcede8002c6fd63226723c3c35a3b43623",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "character_id": 5,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "스즈",
+          "original_sha256": "fee75efb40713a47c69da74485ae3ba248036b4b3e3f7768f3c51c43d7c0f358",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "character_id": 6,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "스탄",
+          "original_sha256": "10e4d928f0ac32e10830acda3db16c619070f0cc29a18ae12c06252e07717f41",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "스탄 엘론 19세",
+          "original_sha256": "f1bdd8f82d8a301ccb51634c1cab80db6f1394d0ff129ea0940be962182dcc3d",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "character_id": 7,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "루티",
+          "original_sha256": "5607d382c99b5249779d5d17183d70cabaee9544ad561fe2ec0ac6e476bc1aeb",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "루티 카틀릿 18세",
+          "original_sha256": "8e28a21f9188d19b80e2839144c0b4eee778871e8746de37e0d604f5820c563f",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "character_id": 8,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "리온",
+          "original_sha256": "607d1cb4af6db33e0636cc26675c2734e7074b15acb119da0bc794e5c2abaeef",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "리온 매그너스 16세",
+          "original_sha256": "9577cdcd0f2b95101a4a5b50647b623ffb009c5f1ca6ff83dce24968c4f02fd8",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "character_id": 9,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "필리아",
+          "original_sha256": "4e90d714c2f6c4a24785ceefc90fa26eedc9d6677930e9b43ba773d1fe4f035f",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "차분한 성격의 소디언 사용자",
+          "original_sha256": "5d0504905b8d127944c9a876644aae4717ac73f7d20d9964a2fda7f5f1ae845e",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "character_id": 10,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "우드로우",
+          "original_sha256": "105e9a1e4cf6be6f089dd12330d010f6e51f9765ef9cc976319db4e2caca44cd",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "활의 명수이자 소디언 사용자",
+          "original_sha256": "683063c86ff3ff91da8fe9aaf68bd2d5f41135318707f0e943e177c31e1245c2",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "character_id": 11,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "첼시",
+          "original_sha256": "fea1cea770955e7c645f69e65cfc3fad98173da07b4eb7a370316d362df6e679",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "전설적 궁수 알바의 손녀",
+          "original_sha256": "0de470b27bf81e27a4b705a78f798fd2a67a4000344d7abf306e2ac25e9ba29a",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "character_id": 12,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "마리",
+          "original_sha256": "fda73c484911c091452e954f81c92838218947d149b2b41df438cff9f867c432",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "마리 에이젠트 24세",
+          "original_sha256": "499e00a6a3fa5602d65db1d274324f02679491dc20991fdfd2c944a85726f9c2",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "잃어버린 기억에 시달리는 전사",
+          "original_sha256": "e4b883b7b47bad74539cceb1994321d10d7d8e78cb96433d9f5bb8057ababf64",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "character_id": 13,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "콩맨",
+          "original_sha256": "8a8aeb2c67fa50d0f2e8af02cbd5502706b18614da37885d06bbc21bb6f91b90",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "character_id": 14,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "죠니",
+          "original_sha256": "5e82a3ff6d217195eb289d3e9ee6ed4423b838e5e29f764eb6b2bbb50eac5ecc",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "죠니 시덴 26세",
+          "original_sha256": "ee2dc1826b2060731e266ada45806c9b93de2f48c54f70416ed6a056f498241e",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "character_id": 15,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "리드",
+          "original_sha256": "21aece9206b7ce55c023b556662a78c9f45cb2425ef703200c32125a5702a3ee",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "리드 허셸 18세",
+          "original_sha256": "c085e17e295cb85925012e946058a9ad4d0a6129fd4deea177e4c2414ff8ace0",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "메르디와 세계를 구하러 떠난다",
+          "original_sha256": "eee4ea4dfe0f2e6c4590881aa3c60a8b5361cde166400330936222cd21a5f397",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 이터니아)",
+          "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "character_id": 16,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "파라",
+          "original_sha256": "3f132ec937d00cd9d1e907ef34b80c0c0d3c453d59634018227352d54439ba8c",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 이터니아)",
+          "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "character_id": 17,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "킬",
+          "original_sha256": "cde325394ef4e720d9731b99e667470d554b3fb45a9274889fe1e29f586a430b",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "킬 차이벨 17세",
+          "original_sha256": "5e53fb5c314bc9383eafc12b84607d93a6097f87008f5a3923fca5d6361b3ccb",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 이터니아)",
+          "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "character_id": 18,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "메르디",
+          "original_sha256": "91099a96a00196b98ba1209c0a74b80edd6602f76784e993f808c7326e2b3760",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "리드 일행과 세계를 구하러 떠난다",
+          "original_sha256": "ba716049fedce75369f34f5df25e0484e677e3b4ac9fda5eeeacb806730c43a5",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 이터니아)",
+          "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "character_id": 19,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "포그",
+          "original_sha256": "648c4f223d94bbffa9d86a3081b1db34462962994126231e8d78341b0773c68f",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 이터니아)",
+          "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "character_id": 20,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "채트",
+          "original_sha256": "a38015348581ce8e76c19fbfb951588f2c52a311ed6122e9b453eecec43e8afa",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 이터니아)",
+          "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "character_id": 21,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "레이스",
+          "original_sha256": "ad69632d63ae716c69bbad44e202fae1acb01d392f92c56a4f6235908d3857dc",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 이터니아)",
+          "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "character_id": 26,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "나나리",
+          "original_sha256": "10d824170d1e6cea845e296ab3e54bf3f3cf15e4fcc76c283508d1b849017bf6",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "스탄과 루티의 친아들",
+          "original_sha256": "e45fb33b93929c64f196c504b2ea916b661f4cac1fe80e17b533f91fa48fb094",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "character_id": 27,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "해롤드",
+          "original_sha256": "55266d3eb5eca2d389de14c771d9d8c97ed60ec54e6a22bae3972b6538f1fd76",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "character_id": 28,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "로이드",
+          "original_sha256": "5e7c4414e37a6285fb9cc0d311e470805e3b1108775a66cc5bcc32fb2c0fbbd4",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "character_id": 29,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "지니어스",
+          "original_sha256": "3660b89fe177a50fdc5a79a1bdb80b94e9bb77b9b1cd70b5e35d3ce0d1336e7f",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "배신자의 이름을 지닌 가면의 검사",
+          "original_sha256": "83a16e943686658747bd50347a379e94a628c60dfa88057fcc30bdf4c41a5b96",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "소디언 샬티에를 지녔다",
+          "original_sha256": "6ad1de3ae4d4c577f5dca8e40ef3cb2a6f641f4c206dfb027d1645f686ba0d81",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "character_id": 30,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "콜레트",
+          "original_sha256": "0eb8434eb7c813d35616fd249367f7b508d0b5ba38dd3c56c9d260fbefcd22de",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "남을 잘 돌보는 누님 같은 성격",
+          "original_sha256": "812affdb15d1b1170eb804f875b71a83d55fe6077aa172fd0948de25b4433393",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "활을 쓰지만 관절기도 능숙하다",
+          "original_sha256": "7d0c7ff7c87dc0c35c3259f92eb151d9d94733ab7ed005630b5544cf8a8a1a12",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "character_id": 31,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "리필",
+          "original_sha256": "b18c8cbed4604b3ba98ac70ff6ab347a442fee66e9148964b776712bbbac2c55",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "해롤드 베르셀리우스 23세",
+          "original_sha256": "4a78c6d0a3ee5af3138b1906d88ac3cfaa888b5cac70eafd49b2980a1ee31e3a",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "character_id": 32,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "시이나",
+          "original_sha256": "1a1139167bf740fb8fffb7af12e246eaf290b0369ecf1b5895eeddfcb6eb3119",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "콜레트 일행과 세계 재생의 여행을 떠난다",
+          "original_sha256": "2e028ac5f0769360377392f068c20fe3d4ecf887eb17e660cd72e066d63aff22",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "character_id": 33,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "젤로스",
+          "original_sha256": "c929871d3fc806697a2c2a027d09821daac0a119f09bf4c7668c2a0a552184f7",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "자신을 이해해 주는 로이드를 따르는 마법사",
+          "original_sha256": "05e114178fecbb80a8f661bb158fe701005737760597a9cbdf1129e9652758e1",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "콜레트 일행과 세계 재생의 여행을 떠난다",
+          "original_sha256": "2e028ac5f0769360377392f068c20fe3d4ecf887eb17e660cd72e066d63aff22",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "character_id": 34,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "프레세아",
+          "original_sha256": "33303a832dca4690fd065c4edc8b8893eeb063153b25f8850de6c9d9c492d8dd",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "콜레트 브루넬 16세",
+          "original_sha256": "018950c712c4d4331f01232d8e938541a33840d30065686c29cb1566f3b9f993",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "신자로서 세계 재생의 여행을 떠난다",
+          "original_sha256": "1ccff7cf8f3da524bacb4b177523f57dffc68d194a318c00f66608a46af3b2ea",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "character_id": 35,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "리갈",
+          "original_sha256": "89c5d2e3b5ba841c020b80e2d705df74f2cfdaf8c4c9c2093ad9ebdd9a81e353",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "로이드 일행의 선생님이자 지니어스의 누나",
+          "original_sha256": "d8a38ab21e541f6b42ff844a43e47019a1e426a715881a4b43a39503179961fb",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "character_id": 36,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "크라토스",
+          "original_sha256": "e2f3cdcc442b1159897976733ce6ca9bf3b3d0e44c9bd98d7d92779b5bfa3a83",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "콜레트 암살을 위해 보내진 자객",
+          "original_sha256": "3ed52fb6e5b0a09c4cd862cf8ba6ddb5a8993c80d8e56b9e4e0c5d94cdccbac1",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "character_id": 37,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "다오스",
+          "original_sha256": "a5c4d16608aea23f2dfbb604eb8a91c455fd61a3e442e9b2854cc2a872ca4e21",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "젤로스 와일더 22세",
+          "original_sha256": "187a4b9be927a09cdc41cc2bc7a1c810c6880bb819f74c5ff00fb4a31c354fae",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "콜레트와 짝을 이루는 신자",
+          "original_sha256": "738791927c467dc11b2090e6c8f461c1a8ddfec1c0bc1bd57eced6d8a1d0817b",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "겉으로는 여자를 좋아하는 익살꾼이지만…",
+          "original_sha256": "4ea954374f837dc07ae4ffba9077a39998540186bdf5fe9441de458042f43707",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "character_id": 38,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "리리스",
+          "original_sha256": "613e1cdeb7a97cefa695f6bfbd8049018a065802ab394b9f4995f722d391ac5e",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "프레세아 콤바틸",
+          "original_sha256": "5758567b6fbfd543143100ab9f4ce5f8eb44516b6ccef50e4e9949151a892b22",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "character_id": 39,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "셀시우스",
+          "original_sha256": "8d36c389d1a7452881e4b8054dfe5dc6006bbd86a954b2de3535cfcfebe30359",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "character_id": 40,
+      "fields": [
+        {
+          "slot": 0,
+          "text": "미랄드",
+          "original_sha256": "4809c1ecd1b024b14335e8532977c4ed37e4aa8db74f34012b1bb0d72314b937",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "콜레트의 여행에 고용된 검사",
+          "original_sha256": "274f38b2ea11c10186d91c404ff8fe073025a6f3f3f3fbd2fff87693624a0b45",
+          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "review": "source_reviewed_runtime_pending"
+        }
+      ]
+    }
+  ]
+}

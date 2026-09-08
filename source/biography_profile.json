@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "table": "0x1c06e0",
+  "count": 37,
+  "stride": 24,
+  "table_sha256": "39d0a582c3a282198568327e69dd702ff917570d417282c70cea8337a446bcdb",
+  "guards": [
+    {
+      "offset": "0xcf19a",
+      "hex": "06210091022101220e2332f7a0fa20684019354a252134f77eff",
+      "basis": "14-cell list window and exact 37-entry list"
+    },
+    {
+      "offset": "0xcf304",
+      "hex": "30b5051c0c1c201c00f0d6f800280fd00549621c054b60000019c000c0180368281c32f73ffd08e088061c08e0061c080349621c281c32f735fd30bc01bc004790061c08",
+      "basis": "Unlocked/hidden list branches and 24-byte record indexing"
+    },
+    {
+      "offset": "0xcf408",
+      "hex": "30b5051c0c1c201c00f054f800280dd0084960000019c0004018007d0021bc223823f7f703fa68600020a86030bc01bc00470000e0061c08",
+      "basis": "Character sprite ID field +14"
+    },
+    {
+      "offset": "0xcf458",
+      "hex": "70b50c1c31f7eefd201c00f02bf8002820d0002660000c490019c000043145182c68002c0ad0002e02d0084832f7ecf8201c32f7e9f8064832f7e6f804350136032eeddd09e00000e0061c08c0061c08c4061c08024832f7d7f870bc01bc0047c8061c0800b5074a41000918c9008918087d0549401838f74dfe002806d1002005e00000e0061c0809020000012002bc08470000",
+      "basis": "Four large text fields, newline/key-wait separators, unchanged unlock flag getter"
+    }
+  ]
+}

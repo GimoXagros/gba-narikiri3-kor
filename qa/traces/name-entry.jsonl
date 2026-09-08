@@ -1,0 +1,40 @@
+{"scope": "Fresh new game to first name editor; controller input only", "reference_log_sha256": "519d963fec6e2da5a43a61f81eb1b04223051fc4d383304a57a04962fa3e2f25"}
+{"frame": 300, "request": {"op": "frames", "count": 300}, "result": {}}
+{"frame": 301, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 901, "request": {"op": "frames", "count": 600}, "result": {}}
+{"frame": 902, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1102, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 1103, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1203, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 1204, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 1404, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 2004, "request": {"op": "frames", "count": 600}, "result": {}}
+{"frame": 5604, "request": {"op": "frames", "count": 3600, "buttons": ["a"]}, "result": {}}
+{"frame": 5605, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 5705, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 5706, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 5806, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 5807, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 5907, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 5908, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6008, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6009, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6109, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6110, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6210, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6211, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6311, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6312, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6412, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6413, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6513, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6514, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6614, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6615, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6715, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6716, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6816, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6817, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6977, "request": {"op": "frames", "count": 160}, "result": {}}
+{"frame": 6978, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 7098, "request": {"op": "frames", "count": 120}, "result": {}}

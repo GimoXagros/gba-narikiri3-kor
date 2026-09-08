@@ -35,7 +35,8 @@ def main():
                     u.emu_start(int(row['getter'],16)|1,0x0203fff0,count=10000)
                     if u.reg_read(UC_ARM_REG_PC)!=0x0203fff0 or u.reg_read(UC_ARM_REG_R0)!=ptr:raise ValueError('Special unit label getter differs')
                 continue
-            if identity.endswith('-team'):samples=[('훌리오',),('캐로',),('가나다라마',),('가A나B다',),('???',)]
+            if 'format_samples' in row:samples=[tuple(v) for v in row['format_samples']]
+            elif identity.endswith('-team'):samples=[('훌리오',),('캐로',),('가나다라마',),('가A나B다',),('???',)]
             elif identity=='save-time-single':samples=[(0,0),(1,9),(999,4),(19884,9)]
             elif identity=='save-time-double':samples=[(0,10),(12,59),(999,42),(19884,59)]
             else:samples=[()]

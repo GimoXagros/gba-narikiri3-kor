@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "hangul_header": "한글 %02d/27 L/R:전환",
+  "other_headers": [
+    "영문 L/R:전환",
+    "가타카나 L/R:전환",
+    "히라가나 L/R:전환"
+  ],
+  "actions": [
+    "전환",
+    "삭제",
+    "결정"
+  ],
+  "blank_cells": "not_selectable"
+}

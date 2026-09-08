@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "Individually established UI literals and four complete strategy/settings loops; not all UI",
+  "scope": "Individually established UI literals and actual consumers; not the complete UI population",
   "records": [
     {
       "id": "menu-team",
@@ -578,6 +578,1176 @@
         {
           "offset": "0x27c8",
           "hex": "044a106801700130106001990170013010600ae0"
+        }
+      ]
+    },
+    {
+      "id": "battle-remove-skill",
+      "pointer_offset": "0xca870",
+      "original_pointer": "0x081be508",
+      "original_raw": "2568c4b8b7de20a620cabddebd",
+      "call_address": "080CA866",
+      "call_bytes": "37f79ffa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 12,
+      "variable_kinds": [],
+      "basis": "Observed first-battle skill binding list. Original callback tests skill ID zero and selects the remove binding label; preserves zero ID and skill lookup/control code.",
+      "guards": [
+        {
+          "offset": "0xca85c",
+          "hex": "041c002c08d10349281c37f79ffa"
+        }
+      ]
+    },
+    {
+      "id": "save-empty-data",
+      "pointer_offset": "0xd00c0",
+      "original_pointer": "0x081c1a68",
+      "original_raw": "0a2020202020beb0ccdec3deb0c02568cab1d8cfbedd",
+      "call_address": "080D007A",
+      "call_bytes": "31f795fe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 22,
+      "variable_kinds": [],
+      "basis": "Observed first manual-save confirmation before any EEPROM save exists. Original D0026 checks 02001D20 and D0070 selects this label only for absent save data. Preserve leading newline and five-cell indentation; save presence and yes/no behavior are untouched.",
+      "guards": [
+        {
+          "offset": "0xd0014",
+          "hex": "042100910122162331f764fb"
+        },
+        {
+          "offset": "0xd0026",
+          "hex": "11480088002820d0"
+        },
+        {
+          "offset": "0xd0070",
+          "hex": "2068c821c9004018114931f795fe"
+        }
+      ]
+    },
+    {
+      "id": "battle-magic-disabled",
+      "pointer_offset": "0x12b68",
+      "original_pointer": "0x81138d8",
+      "original_raw": "2568cfceb3b7ddbc2568",
+      "call_address": "08012B4E",
+      "call_bytes": "eff72bf9",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0x12b4c",
+          "hex": "0649eff72bf9"
+        }
+      ]
+    },
+    {
+      "id": "battle-result-experience",
+      "pointer_offset": "0xc5f88",
+      "original_pointer": "0x8148998",
+      "original_raw": "2568b9b2b9ddc120253864",
+      "call_address": "080C5F08",
+      "call_bytes": "3bf74eff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xc5f02",
+          "hex": "214901a82a1c3bf74eff"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          99999999
+        ],
+        [
+          2147483647
+        ]
+      ]
+    },
+    {
+      "id": "monster-gald",
+      "pointer_offset": "0xcdc0c",
+      "original_pointer": "0x81be724",
+      "original_raw": "b6ded9c4de2020253564",
+      "call_address": "080CDBD6",
+      "call_bytes": "34f7e7f8",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcdbd2",
+          "hex": "0e49628c34f7e7f8"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          99999
+        ],
+        [
+          65535
+        ]
+      ]
+    },
+    {
+      "id": "monster-attack",
+      "pointer_offset": "0xcdf28",
+      "original_pointer": "0x81be740",
+      "original_raw": "2568bab3b9deb72020202020202535640a",
+      "call_address": "080CDE58",
+      "call_bytes": "33f7a6ff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcde52",
+          "hex": "35494b46da8a33f7a6ff"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          99999
+        ],
+        [
+          65535
+        ]
+      ]
+    },
+    {
+      "id": "monster-defense",
+      "pointer_offset": "0xcdf2c",
+      "original_pointer": "0x81be754",
+      "original_raw": "2568cedeb3b7deae2020202020202535640a",
+      "call_address": "080CDE66",
+      "call_bytes": "33f79fff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcde60",
+          "hex": "32494b461a8b33f79fff"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          99999
+        ],
+        [
+          65535
+        ]
+      ]
+    },
+    {
+      "id": "monster-intelligence",
+      "pointer_offset": "0xcdf30",
+      "original_pointer": "0x81be768",
+      "original_raw": "2568c1d8aeb82020202020202535640a",
+      "call_address": "080CDE74",
+      "call_bytes": "33f798ff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcde6e",
+          "hex": "30494b465a8b33f798ff"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          99999
+        ],
+        [
+          65535
+        ]
+      ]
+    },
+    {
+      "id": "monster-agility",
+      "pointer_offset": "0xcdf34",
+      "original_pointer": "0x81be77c",
+      "original_raw": "2568bdcaded4bb2020202020202535640a",
+      "call_address": "080CDE82",
+      "call_bytes": "33f791ff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcde7c",
+          "hex": "2d494b469a8b33f791ff"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          99999
+        ],
+        [
+          65535
+        ]
+      ]
+    },
+    {
+      "id": "monster-drops",
+      "pointer_offset": "0xcdf38",
+      "original_pointer": "0x81be790",
+      "original_raw": "2568b5c4bd2568b1b2c3d1",
+      "call_address": "080CDE8C",
+      "call_bytes": "33f78cff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xcde8a",
+          "hex": "2b4933f78cff"
+        }
+      ]
+    },
+    {
+      "id": "monster-magic-resistant",
+      "pointer_offset": "0xcdf50",
+      "original_pointer": "0x81be7a8",
+      "original_raw": "0a2568cfceb320c620c2d6b2",
+      "call_address": "080CDF0E",
+      "call_bytes": "33f74bff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xcdf0c",
+          "hex": "104933f74bff"
+        }
+      ]
+    },
+    {
+      "id": "monster-attack-unknown",
+      "pointer_offset": "0xcdfc0",
+      "original_pointer": "0x81be7d8",
+      "original_raw": "2568bab3b9deb720202020203f3f3f3f3f0a",
+      "call_address": "080CDF90",
+      "call_bytes": "33f70aff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xcdf8e",
+          "hex": "0c4933f70aff"
+        }
+      ]
+    },
+    {
+      "id": "monster-defense-unknown",
+      "pointer_offset": "0xcdfc4",
+      "original_pointer": "0x81be7ec",
+      "original_raw": "2568cedeb3b7deae20202020203f3f3f3f3f0a",
+      "call_address": "080CDF9A",
+      "call_bytes": "33f705ff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xcdf98",
+          "hex": "0a4933f705ff"
+        }
+      ]
+    },
+    {
+      "id": "monster-intelligence-unknown",
+      "pointer_offset": "0xcdfc8",
+      "original_pointer": "0x81be800",
+      "original_raw": "2568c1d8aeb820202020203f3f3f3f3f0a",
+      "call_address": "080CDFA4",
+      "call_bytes": "33f700ff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xcdfa2",
+          "hex": "094933f700ff"
+        }
+      ]
+    },
+    {
+      "id": "monster-agility-unknown",
+      "pointer_offset": "0xcdfcc",
+      "original_pointer": "0x81be814",
+      "original_raw": "2568bdcaded4bb20202020203f3f3f3f3f0a",
+      "call_address": "080CDFAE",
+      "call_bytes": "33f7fbfe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xcdfac",
+          "hex": "074933f7fbfe"
+        }
+      ]
+    },
+    {
+      "id": "monster-element",
+      "pointer_offset": "0xce0e0",
+      "original_pointer": "0x81be828",
+      "original_raw": "2568bfdeb8beb20a",
+      "call_address": "080CE008",
+      "call_bytes": "33f7cefe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xce006",
+          "hex": "364933f7cefe"
+        }
+      ]
+    },
+    {
+      "id": "monster-element-strong",
+      "pointer_offset": "0xce0e4",
+      "original_pointer": "0x81be834",
+      "original_raw": "2568c2d6b20a0a0a0a",
+      "call_address": "080CE012",
+      "call_bytes": "33f7c9fe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xce010",
+          "hex": "344933f7c9fe"
+        }
+      ]
+    },
+    {
+      "id": "monster-element-weak",
+      "pointer_offset": "0xce0e8",
+      "original_pointer": "0x81be840",
+      "original_raw": "2568d6dcb2",
+      "call_address": "080CE01C",
+      "call_bytes": "33f7c4fe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xce01a",
+          "hex": "334933f7c4fe"
+        }
+      ]
+    },
+    {
+      "id": "costume-modifier-heading",
+      "pointer_offset": "0xcf008",
+      "original_pointer": "0x81c05fc",
+      "original_raw": "cadfd7d2b0c0b02568cebeb2c10a",
+      "call_address": "080CEFB0",
+      "call_bytes": "32f7fafe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xcefae",
+          "hex": "164932f7fafe"
+        }
+      ]
+    },
+    {
+      "id": "costume-modifier-attack",
+      "pointer_offset": "0xcf014",
+      "original_pointer": "0x81c062c",
+      "original_raw": "2568bab3b9deb7d8aeb8202020202534640a",
+      "call_address": "080CEFD4",
+      "call_bytes": "32f7e8fe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcefd0",
+          "hex": "1049327d32f7e8fe"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ],
+        [
+          -1
+        ],
+        [
+          -32768
+        ],
+        [
+          32767
+        ]
+      ]
+    },
+    {
+      "id": "costume-modifier-defense",
+      "pointer_offset": "0xcf018",
+      "original_pointer": "0x81c0640",
+      "original_raw": "2568cedeb3b7deaed8aeb8202020202534640a",
+      "call_address": "080CEFE0",
+      "call_bytes": "32f7e2fe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcefdc",
+          "hex": "0e49727d32f7e2fe"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ],
+        [
+          -1
+        ],
+        [
+          -32768
+        ],
+        [
+          32767
+        ]
+      ]
+    },
+    {
+      "id": "costume-modifier-intelligence",
+      "pointer_offset": "0xcf01c",
+      "original_pointer": "0x81c0654",
+      "original_raw": "2568c1d8aeb8202020202020202534640a",
+      "call_address": "080CEFEC",
+      "call_bytes": "32f7dcfe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcefe8",
+          "hex": "0c49b27d32f7dcfe"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ],
+        [
+          -1
+        ],
+        [
+          -32768
+        ],
+        [
+          32767
+        ]
+      ]
+    },
+    {
+      "id": "costume-modifier-agility",
+      "pointer_offset": "0xcf020",
+      "original_pointer": "0x81c0668",
+      "original_raw": "2568bdcaded4bb20202020202020253464",
+      "call_address": "080CEFF8",
+      "call_bytes": "32f7d6fe",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xceff4",
+          "hex": "0a49f27d32f7d6fe"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ],
+        [
+          -1
+        ],
+        [
+          -32768
+        ],
+        [
+          32767
+        ]
+      ]
+    },
+    {
+      "id": "costume-stat-attack",
+      "pointer_offset": "0xcf9c0",
+      "original_pointer": "0x81c19d0",
+      "original_raw": "2568bab3b9deb720202020202534640a",
+      "call_address": "080CF940",
+      "call_bytes": "32f732fa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcf93a",
+          "hex": "21490a23fa5e32f732fa"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ],
+        [
+          -1
+        ],
+        [
+          -32768
+        ],
+        [
+          32767
+        ]
+      ]
+    },
+    {
+      "id": "costume-stat-defense",
+      "pointer_offset": "0xcf9c4",
+      "original_pointer": "0x81c19e4",
+      "original_raw": "2568cedeb3b7deae20202020202534640a",
+      "call_address": "080CF94E",
+      "call_bytes": "32f72bfa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcf948",
+          "hex": "1e490c23fa5e32f72bfa"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ],
+        [
+          -1
+        ],
+        [
+          -32768
+        ],
+        [
+          32767
+        ]
+      ]
+    },
+    {
+      "id": "costume-stat-intelligence",
+      "pointer_offset": "0xcf9c8",
+      "original_pointer": "0x81c19f8",
+      "original_raw": "2568c1d8aeb820202020202534640a",
+      "call_address": "080CF95C",
+      "call_bytes": "32f724fa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcf956",
+          "hex": "1c490e23fa5e32f724fa"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ],
+        [
+          -1
+        ],
+        [
+          -32768
+        ],
+        [
+          32767
+        ]
+      ]
+    },
+    {
+      "id": "costume-stat-agility",
+      "pointer_offset": "0xcf9cc",
+      "original_pointer": "0x81c1a08",
+      "original_raw": "2568bdcaded4bb20202020202534640a",
+      "call_address": "080CF96A",
+      "call_bytes": "32f71dfa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcf964",
+          "hex": "19491023fa5e32f71dfa"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ],
+        [
+          -1
+        ],
+        [
+          -32768
+        ],
+        [
+          32767
+        ]
+      ]
+    },
+    {
+      "id": "costume-stat-experience",
+      "pointer_offset": "0xcf9d0",
+      "original_pointer": "0x81c1a1c",
+      "original_raw": "45585081402534642f3130300a",
+      "call_address": "080CF976",
+      "call_bytes": "32f717fa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xcf972",
+          "hex": "1749ba8a32f717fa"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999
+        ]
+      ]
+    },
+    {
+      "id": "costume-equipment-heading",
+      "pointer_offset": "0xcf9d4",
+      "original_pointer": "0x81c1a2c",
+      "original_raw": "2568bfb3cbde0a",
+      "call_address": "080CF980",
+      "call_bytes": "32f712fa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xcf97e",
+          "hex": "154932f712fa"
+        }
+      ]
+    },
+    {
+      "id": "shop-select-item",
+      "pointer_offset": "0xd0eec",
+      "original_pointer": "0x81c1fd0",
+      "original_raw": "b1b2c3d12568a6b4d7ccde2568",
+      "call_address": "080D0E98",
+      "call_bytes": "30f786ff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd0e96",
+          "hex": "154930f786ff"
+        }
+      ]
+    },
+    {
+      "id": "shop-select-count",
+      "pointer_offset": "0xd0ef0",
+      "original_pointer": "0x81c1fe0",
+      "original_raw": "2568b6bddea6b4d7ccde25680a",
+      "call_address": "080D0EB0",
+      "call_bytes": "30f77aff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd0eae",
+          "hex": "104930f77aff"
+        }
+      ]
+    },
+    {
+      "id": "shop-confirm",
+      "pointer_offset": "0xd0ef4",
+      "original_pointer": "0x81c1ff0",
+      "original_raw": "2568b9afc3b22568",
+      "call_address": "080D0EC8",
+      "call_bytes": "30f76eff",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd0ec6",
+          "hex": "0b4930f76eff"
+        }
+      ]
+    },
+    {
+      "id": "shop-gald",
+      "pointer_offset": "0xd180c",
+      "original_pointer": "0x81c2090",
+      "original_raw": "256cb6ded9c4de2020253764",
+      "call_address": "080D17EC",
+      "call_bytes": "30f7dcfa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xd17e2",
+          "hex": "0a490a4a0b4bd218126830f7dcfa"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999999
+        ],
+        [
+          2147483647
+        ]
+      ]
+    },
+    {
+      "id": "shop-total",
+      "pointer_offset": "0xd1818",
+      "original_pointer": "0x81c20a0",
+      "original_raw": "256c2568badeb3b9b220253764",
+      "call_address": "080D17FC",
+      "call_bytes": "30f7d4fa",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xd17f8",
+          "hex": "07492a1c30f7d4fa"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999999
+        ],
+        [
+          2147483647
+        ]
+      ]
+    },
+    {
+      "id": "reward-experience",
+      "pointer_offset": "0xd567c",
+      "original_pointer": "0x81c2578",
+      "original_raw": "2568b9b2b9dd",
+      "call_address": "080D5630",
+      "call_bytes": "2cf7bafb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd562e",
+          "hex": "13492cf7bafb"
+        }
+      ]
+    },
+    {
+      "id": "reward-money",
+      "pointer_offset": "0xd5680",
+      "original_pointer": "0x81c2580",
+      "original_raw": "2568b5b6c8",
+      "call_address": "080D563E",
+      "call_bytes": "2cf7b3fb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd563c",
+          "hex": "10492cf7b3fb"
+        }
+      ]
+    },
+    {
+      "id": "reward-participation",
+      "pointer_offset": "0xd5684",
+      "original_pointer": "0x81c2588",
+      "original_raw": "2568bbddb6",
+      "call_address": "080D564C",
+      "call_bytes": "2cf7acfb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd564a",
+          "hex": "0e492cf7acfb"
+        }
+      ]
+    },
+    {
+      "id": "food-shop-gald",
+      "pointer_offset": "0xd86e0",
+      "original_pointer": "0x81c3048",
+      "original_raw": "256cb6ded9c4de2020253764",
+      "call_address": "080D86D4",
+      "call_bytes": "29f768fb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xd86d2",
+          "hex": "034929f768fb"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999999
+        ],
+        [
+          2147483647
+        ]
+      ]
+    },
+    {
+      "id": "food-shop-total",
+      "pointer_offset": "0xd8700",
+      "original_pointer": "0x81c3058",
+      "original_raw": "256c2568badeb3b9b220253764",
+      "call_address": "080D86F4",
+      "call_bytes": "29f758fb",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [
+        "original_numeric_argument"
+      ],
+      "guards": [
+        {
+          "offset": "0xd86f2",
+          "hex": "034929f758fb"
+        }
+      ],
+      "format_samples": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ],
+        [
+          9999999
+        ],
+        [
+          2147483647
+        ]
+      ]
+    },
+    {
+      "id": "food-shop-select-item",
+      "pointer_offset": "0xd8dbc",
+      "original_pointer": "0x81c308c",
+      "original_raw": "b1b2c3d12568a6b4d7ccde2568",
+      "call_address": "080D8D32",
+      "call_bytes": "29f739f8",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd8d30",
+          "hex": "224929f739f8"
+        }
+      ]
+    },
+    {
+      "id": "food-shop-confirm",
+      "pointer_offset": "0xd8dc0",
+      "original_pointer": "0x81c309c",
+      "original_raw": "2568b9afc3b22568",
+      "call_address": "080D8D4A",
+      "call_bytes": "29f72df8",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd8d48",
+          "hex": "1d4929f72df8"
+        }
+      ]
+    },
+    {
+      "id": "food-shop-view-info",
+      "pointer_offset": "0xd8dc4",
+      "original_pointer": "0x81c30a8",
+      "original_raw": "2568bcdeaeb3ceb3a6d0d92568",
+      "call_address": "080D8D62",
+      "call_bytes": "29f721f8",
+      "consumer": "08001DA8",
+      "selected_max_cells": 20,
+      "basis": "Individually inspected r1 literal argument and original format call. Korean label shortened; original numeric conversion and newline/reset order retained. Runtime page validation separate.",
+      "variable_kinds": [],
+      "guards": [
+        {
+          "offset": "0xd8d60",
+          "hex": "184929f721f8"
         }
       ]
     }

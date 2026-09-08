@@ -12,15 +12,15 @@ REFERENCE_TIMER=17767
 # all other bytes against the previous reference, retaining checksum checks.
 REFERENCE_STATE_HASH='439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56'
 
-def opening_save(raw):
+def opening_save(raw,reference_timer=REFERENCE_TIMER,timer_tolerance=3):
     if len(raw)!=8192:raise ValueError('Expected 8 KiB EEPROM')
     decoded=bytearray(b''.join(raw[i:i+8][::-1] for i in range(0,len(raw),8)))
     if decoded[:8]!=b'NARIKIRI' or struct.unpack_from('<I',decoded,8)[0]!=0x0131cd45:raise ValueError('Save signature/revision differs')
     checksum=struct.unpack_from('<I',decoded,12)[0]
     if checksum!=(sum(struct.unpack('<956I',decoded[16:0xf00]))&0xffffffff):raise ValueError('Game sum32 validation failed')
     timer=struct.unpack_from('<I',decoded,0x9dc)[0]
-    if abs(timer-REFERENCE_TIMER)>3:raise ValueError('Opening timer differs beyond the observed three-frame envelope')
+    if abs(timer-reference_timer)>timer_tolerance:raise ValueError('Opening timer differs beyond the explicitly selected observed envelope')
     decoded[12:16]=bytes(4);decoded[0x9dc:0x9e0]=bytes(4)
     normalized=hashlib.sha256(decoded).hexdigest()
     if normalized!=REFERENCE_STATE_HASH:raise ValueError('Opening state differs outside the verified timer/checksum fields')
-    return {'game_checksum_valid':True,'all_other_save_bytes_identical':True,'normalized_state_sha256':normalized,'play_timer_frames':timer,'timer_delta_from_mgba_reference':timer-REFERENCE_TIMER,'timing_claim':'Recorded, not an audio/performance equivalence claim'}
+    return {'game_checksum_valid':True,'all_other_save_bytes_identical':True,'normalized_state_sha256':normalized,'play_timer_frames':timer,'timer_reference':reference_timer,'timer_tolerance':timer_tolerance,'timer_delta_from_reference':timer-reference_timer,'timing_claim':'Recorded, not an audio/performance equivalence claim'}

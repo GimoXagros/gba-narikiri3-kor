@@ -1,0 +1,937 @@
+{"scope": "Fresh game; all page controls, maximum mixed/Hangul protagonist and ship names, manual save completion; normal buttons only"}
+{"frame": 300, "request": {"op": "frames", "count": 300}, "result": {}}
+{"frame": 301, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 901, "request": {"op": "frames", "count": 600}, "result": {}}
+{"frame": 902, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1102, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 1103, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1203, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 1204, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 1404, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 2004, "request": {"op": "frames", "count": 600}, "result": {}}
+{"frame": 5604, "request": {"op": "frames", "count": 3600, "buttons": ["a"]}, "result": {}}
+{"frame": 5605, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 5705, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 5706, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 5806, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 5807, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 5907, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 5908, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6008, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6009, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6109, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6110, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6210, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6211, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6311, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6312, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6412, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6413, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6513, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6514, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6614, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6615, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6715, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6716, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6816, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 6817, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 6977, "request": {"op": "frames", "count": 160}, "result": {}}
+{"frame": 6978, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 7098, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 7099, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7139, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7140, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7180, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7181, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7221, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7222, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7262, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7263, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7303, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7304, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7344, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7345, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7385, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7386, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7426, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7427, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7467, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7468, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7508, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7509, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7549, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7550, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7590, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7591, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7631, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7632, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7672, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7673, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7713, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7714, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7754, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7755, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7795, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7796, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7836, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7837, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7877, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7878, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7918, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7919, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 7959, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 7960, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8000, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8001, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8041, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8042, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8082, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8083, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8123, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8124, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8164, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8165, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8205, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8206, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8246, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8247, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8287, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8288, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 8328, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8329, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8369, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8370, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8410, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8411, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8451, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8452, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8492, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8493, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8533, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8534, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8574, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8575, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8615, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8616, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8656, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8657, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8697, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8698, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8738, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8739, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8779, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8780, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8820, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8821, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8861, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8862, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8902, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8903, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8943, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8944, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 8984, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 8985, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9025, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9026, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9066, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9067, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9107, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9108, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9148, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9149, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9189, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9190, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9230, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9231, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9271, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9272, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9312, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9313, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9353, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9354, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9394, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9395, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9435, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9436, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9476, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9477, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9517, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9518, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9558, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9559, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 9599, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9600, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 9640, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9641, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 9681, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9682, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 9722, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9723, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9763, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9764, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9804, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9805, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 9845, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9846, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 9886, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9887, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 9927, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9928, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 9968, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 9969, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 10009, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10010, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 10050, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10051, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 10091, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10092, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 10132, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10133, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 10173, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10174, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 10214, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10215, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 10255, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10256, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 10296, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10297, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 10337, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10338, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 10378, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10379, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 10419, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10420, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 10460, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10461, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 10501, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10502, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 10542, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10543, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 10583, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10584, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 10624, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10625, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 10665, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10666, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 10706, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10707, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 10747, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10748, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 10788, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10789, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 10829, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10830, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 10870, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10871, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 10911, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10912, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 10952, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10953, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 10993, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 10994, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11034, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11035, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 11075, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11076, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 11116, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11117, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 11157, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11158, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11198, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11199, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11239, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11240, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11280, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11281, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11321, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11322, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11362, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11363, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11403, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11404, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11444, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11445, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11485, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11486, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 11526, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11527, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 11567, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11568, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 11608, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11609, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 11649, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11650, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 11690, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11691, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 11731, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11732, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 11772, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11773, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 11813, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11814, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 11854, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11855, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 11895, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11896, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 11936, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11937, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 11977, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 11978, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12018, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12019, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12059, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12060, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12100, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12101, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12141, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12142, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12182, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12183, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12223, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12224, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12264, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12265, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12305, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12306, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12346, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12347, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12387, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12388, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12428, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12429, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12469, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12470, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12510, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12511, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12551, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12552, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12592, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12593, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12633, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12634, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12674, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12675, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12715, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12716, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12756, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12757, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12797, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12798, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 12838, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12839, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 12879, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12880, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 12920, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12921, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 12961, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 12962, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 13002, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13003, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 13043, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13044, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 13084, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13085, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 13125, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13126, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 13166, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13167, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 13207, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13208, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13248, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13249, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13289, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13290, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13330, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13331, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13371, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13372, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13412, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13413, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13453, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13454, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13494, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13495, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13535, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13536, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13576, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13577, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13617, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13618, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13658, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13659, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13699, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13700, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13740, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13741, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 13781, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13782, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 13822, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13823, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 13863, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13864, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 13904, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13905, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 13945, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13946, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 13986, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 13987, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14027, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14028, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14068, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14069, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14109, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14110, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14150, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14151, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 14191, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14192, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 14372, "request": {"op": "frames", "count": 180}, "result": {}}
+{"frame": 14373, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 14413, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14414, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 14454, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14455, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 14495, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14496, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 14536, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14537, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 14577, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14578, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 14618, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14619, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 14659, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14660, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14700, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14701, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14741, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14742, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14782, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14783, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14823, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14824, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 14864, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14865, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 14905, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14906, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 14946, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14947, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 14987, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 14988, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 15028, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15029, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 15069, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15070, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 15110, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15111, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 15151, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15152, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 15192, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15193, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 15233, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15234, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 15274, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15275, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 15315, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15316, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 15356, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15357, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 15397, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15398, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 15438, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15439, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 15479, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15480, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 15520, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15521, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 15561, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15562, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 15602, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15603, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 15643, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15644, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 15684, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15685, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 15725, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15726, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 15766, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15767, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 15807, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15808, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 15848, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15849, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 15889, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15890, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 15930, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15931, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 15971, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 15972, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16012, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16013, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16053, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16054, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16094, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16095, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16135, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16136, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16176, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16177, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16217, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16218, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16258, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16259, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16299, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16300, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16340, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16341, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16381, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16382, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 16422, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16423, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 16463, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16464, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 16504, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16505, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 16545, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16546, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 16586, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16587, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 16627, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16628, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 16668, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16669, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 16709, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16710, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 16750, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16751, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 16791, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16792, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16832, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16833, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16873, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16874, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16914, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16915, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16955, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16956, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 16996, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 16997, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17037, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17038, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17078, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17079, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17119, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17120, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17160, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17161, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 17201, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17202, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 17242, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17243, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 17283, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17284, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 17324, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17325, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 17365, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17366, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 17406, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17407, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 17447, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17448, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 17488, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17489, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 17529, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17530, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 17570, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17571, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 17611, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17612, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 17652, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17653, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 17693, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17694, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 17734, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17735, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17775, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17776, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17816, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17817, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17857, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17858, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17898, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17899, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17939, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17940, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 17980, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 17981, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 18021, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18022, "request": {"op": "frames", "count": 1, "buttons": ["l"]}, "result": {}}
+{"frame": 18062, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18063, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 18103, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18104, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 18144, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18145, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 18185, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18186, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 18226, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18227, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 18267, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18268, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 18308, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18309, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 18349, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18350, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 18390, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18391, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 18431, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18432, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 18472, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18473, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18513, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18514, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18554, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18555, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18595, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18596, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18636, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18637, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18677, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18678, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18718, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18719, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18759, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18760, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18800, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18801, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 18841, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18842, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 18882, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 18883, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 19003, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 19004, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 19124, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
+{"frame": 19125, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 19245, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
+{"frame": 19246, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 19366, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
+{"frame": 19367, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 19487, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
+{"frame": 19488, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 19528, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19529, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 19569, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19570, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 19610, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19611, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 19651, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19652, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 19692, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19693, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 19733, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19734, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 19774, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19775, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 19815, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19816, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 19856, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19857, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 19897, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19898, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 19938, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19939, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 19979, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 19980, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20020, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20021, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 20061, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20062, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 20102, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20103, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 20143, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20144, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 20184, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20185, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 20225, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20226, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 20266, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20267, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 20307, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20308, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 20348, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20349, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 20389, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20390, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 20430, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20431, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 20471, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20472, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 20512, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20513, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 20553, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20554, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20594, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20595, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20635, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20636, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20676, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20677, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20717, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20718, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20758, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20759, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20799, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20800, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20840, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20841, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20881, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20882, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20922, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20923, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 20963, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 20964, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 21004, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21005, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 21045, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21046, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 21086, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21087, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 21127, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21128, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 21168, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21169, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 21209, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21210, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 21250, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21251, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 21291, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21292, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 21332, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21333, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 21373, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21374, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21414, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21415, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21455, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21456, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21496, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21497, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21537, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21538, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21578, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21579, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21619, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21620, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21660, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21661, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21701, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21702, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21742, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21743, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21783, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21784, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21824, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21825, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 21865, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21866, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 21906, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21907, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 21947, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21948, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 21988, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 21989, "request": {"op": "frames", "count": 1, "buttons": ["r"]}, "result": {}}
+{"frame": 22029, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22030, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 22070, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22071, "request": {"op": "frames", "count": 1, "buttons": ["left"]}, "result": {}}
+{"frame": 22111, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22112, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 22152, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22153, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 22193, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22194, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 22234, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22235, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 22275, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22276, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 22316, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22317, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 22357, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22358, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 22398, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22399, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 22439, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22440, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 22480, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22481, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 22521, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22522, "request": {"op": "frames", "count": 1, "buttons": ["right"]}, "result": {}}
+{"frame": 22562, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22563, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 22603, "request": {"op": "frames", "count": 40}, "result": {}}
+{"frame": 22604, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 22724, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 22784, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 22785, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 22965, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 22966, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 23146, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 23147, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 23327, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 23328, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 23508, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 23509, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 23689, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 23690, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 23870, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 23871, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 24051, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 24052, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 24232, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 24233, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 24413, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 24414, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 24594, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 24595, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 24775, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 24776, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 24956, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 24957, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 25137, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 25138, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 25318, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 25319, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 25499, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 25500, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 25680, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 25681, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 25861, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 25862, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 26042, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 26043, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 26223, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 26224, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 26404, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 26405, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 26585, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 26586, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 26766, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 26767, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 26947, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 26948, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 27128, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 27129, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 27309, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 27310, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 27490, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 27491, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 27671, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 27672, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 27852, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 27853, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 28033, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 28034, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 28214, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 28215, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 28395, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 28396, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 28576, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 28577, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 28757, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 28758, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 28938, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 28939, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 29119, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 29120, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 29300, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 29301, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 29481, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 29482, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 29662, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 29663, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 29843, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 29844, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 30024, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 30025, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 30205, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 30206, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 30386, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 30387, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 30567, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 30568, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 30748, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 30749, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 30929, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 30930, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 31110, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 31111, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 31291, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 31292, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 31472, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 31473, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 31653, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 31654, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 31834, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 31835, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 32015, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 32016, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 32196, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 32197, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 32377, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 32378, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 32558, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 32559, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 32739, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 32740, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 32920, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 32921, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 33101, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 33102, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 33282, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 33283, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 33333, "request": {"op": "frames", "count": 50, "buttons": []}, "result": {}}
+{"frame": 33334, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 33394, "request": {"op": "frames", "count": 60, "buttons": []}, "result": {}}
+{"frame": 33395, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 33403, "request": {"op": "frames", "count": 8, "buttons": []}, "result": {}}
+{"frame": 33404, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 33412, "request": {"op": "frames", "count": 8, "buttons": []}, "result": {}}
+{"frame": 33413, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 33473, "request": {"op": "frames", "count": 60, "buttons": []}, "result": {}}
+{"frame": 33474, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 33534, "request": {"op": "frames", "count": 60, "buttons": []}, "result": {}}
+{"frame": 33535, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 33545, "request": {"op": "frames", "count": 10, "buttons": []}, "result": {}}
+{"frame": 33546, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 33556, "request": {"op": "frames", "count": 10, "buttons": []}, "result": {}}
+{"frame": 33616, "request": {"op": "frames", "count": 60, "buttons": []}, "result": {}}
+{"frame": 33617, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 33677, "request": {"op": "frames", "count": 60, "buttons": []}, "result": {}}
+{"frame": 33678, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 33686, "request": {"op": "frames", "count": 8, "buttons": []}, "result": {}}
+{"frame": 33687, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 33695, "request": {"op": "frames", "count": 8, "buttons": []}, "result": {}}
+{"frame": 33696, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 33704, "request": {"op": "frames", "count": 8, "buttons": []}, "result": {}}
+{"frame": 33705, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 33713, "request": {"op": "frames", "count": 8, "buttons": []}, "result": {}}
+{"frame": 33714, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 33722, "request": {"op": "frames", "count": 8, "buttons": []}, "result": {}}
+{"frame": 33723, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 33731, "request": {"op": "frames", "count": 8, "buttons": []}, "result": {}}
+{"frame": 33732, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 33792, "request": {"op": "frames", "count": 60, "buttons": []}, "result": {}}
+{"frame": 33793, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 33973, "request": {"op": "frames", "count": 180, "buttons": []}, "result": {}}
+{"frame": 34573, "request": {"op": "frames", "count": 600, "buttons": []}, "result": {}}
+{"frame": 34574, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 34694, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 34695, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 34815, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 34816, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 34836, "request": {"op": "frames", "count": 20}, "result": {}}
+{"frame": 34837, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 34857, "request": {"op": "frames", "count": 20}, "result": {}}
+{"frame": 34858, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 34978, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 34979, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 35879, "request": {"op": "frames", "count": 900}, "result": {}}

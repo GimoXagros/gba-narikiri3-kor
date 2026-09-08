@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "scope": "Two skill menu headers selected by C90F8 types 3/4. Four resource indices only; sprites, anchors, allocations, palette, menu actions remain original.",
+  "bank": "0xf1d734",
+  "guards": [
+    {
+      "offset": "0xc918c",
+      "hex": "034a2d2000902e2001902f204ee00000fcd0f108024a2d200090302076e0000018d1f108",
+      "basis": "Actual type 3/4 resource IDs and descriptor pointers"
+    },
+    {
+      "offset": "0xc8f94",
+      "hex": "70b5041c081c3bf771fb061c0b48211c3af74efa041c2068000a3af7c5fb051c201c291c3af730fa2268120a281c311c3af7c8f870bc01bc0047000034d7f108",
+      "basis": "Resource getter, scratch allocation, BIOS decompression, DMA queue"
+    },
+    {
+      "offset": "0x341c",
+      "hex": "00b5021c10680006000f012802d0032804d006e0101cdaf007f802e0101cdaf009f801bc0047",
+      "basis": "Compression type dispatch"
+    },
+    {
+      "offset": "0xdd450",
+      "hex": "14df7047",
+      "basis": "Original BIOS RLE WRAM wrapper"
+    },
+    {
+      "offset": "0xc9bf8",
+      "hex": "032030210022fff77bfa2968224a89180860042044210022fff772fa2968c622d20089180860018b21430183",
+      "basis": "Two header anchors and initial visibility"
+    },
+    {
+      "offset": "0xf1d0e0",
+      "hex": "0300000000000500000000001400050004000000340005000800000001000000e0d0f10802000000000005000000000014000500040000000100000004d1f108",
+      "basis": "Three/two original sprite descriptors"
+    },
+    {
+      "offset": "0x3158",
+      "hex": "f0b5061c171c0e48844605681f2d14dc0c4b2c01e0180660181d201801601a1c0832a218b80884210906084310600c33e4182760681c61460860f0bc01bc0047202a000320280003",
+      "basis": "Original queued DMA copy"
+    },
+    {
+      "offset": "0x373c",
+      "hex": "00b5011c064b1a68c81c002800da881d8010800010181860101c02bc08470000302a0003",
+      "basis": "Original rounded scratch allocation"
+    }
+  ],
+  "resources": [
+    {
+      "index": 45,
+      "offset": "0xf27730",
+      "stored_span": 100,
+      "sha256": "1e4723d0548db320528943f068e11e786fc9926ea8e2a68b9e76a3ace8332e52"
+    },
+    {
+      "index": 46,
+      "offset": "0xf27794",
+      "stored_span": 132,
+      "sha256": "57fbfbb3bdbf11518db9eb8417eb045731995c7f4b65732b0505069ecc0545c4"
+    },
+    {
+      "index": 47,
+      "offset": "0xf27818",
+      "stored_span": 84,
+      "sha256": "0aff07ac5c69dab6fd3ba9fd3839d3b3bd005a8484e5b459c49657d74adfd81e"
+    },
+    {
+      "index": 48,
+      "offset": "0xf2786c",
+      "stored_span": 132,
+      "sha256": "f11127bf2aea5e718860c15c120d5686f46a87e7f65be56a0943cbd3989541f7"
+    }
+  ]
+}

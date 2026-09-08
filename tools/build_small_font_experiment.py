@@ -23,6 +23,9 @@ def main():
     p.add_argument('--dialogue-fixes',type=Path)
     p.add_argument('--recipes',type=Path)
     p.add_argument('--battle-captions',type=Path)
+    p.add_argument('--name-keyboard',action='store_true')
+    p.add_argument('--skill-headers',action='store_true')
+    p.add_argument('--biographies',action='store_true')
     a=p.parse_args();j=a.j.read_bytes();ips=a.ips.read_bytes()
     if sha(j)!=J or sha(ips)!=IPS:raise ValueError('Unsupported input')
     legacy=bytearray(j);records,trunc=ips_records(ips)
@@ -159,7 +162,7 @@ def main():
         run('ld',['-Ttext=0x09000400','-e','name_import',a.out/'name-import.o','-o',a.out/'name-import.elf'])
         run('objcopy',['-O','binary','--only-section=.text',a.out/'name-import.elf',a.out/'name-import.bin'])
         importer=(a.out/'name-import.bin').read_bytes()
-        if len(code)>0x400 or len(importer)>0xc00:raise ValueError('Name import allocation overlaps')
+        if len(code)>0x400 or len(importer)>0x400:raise ValueError('Name import allocation overlaps')
         extension[0x400:0x400+len(importer)]=importer
         writes.append((0xd6754,bytes.fromhex('004b1847')+struct.pack('<I',0x09000401),'Five-slot import: preserve complete double-byte characters'))
         names=json.loads(a.default_names.read_text(encoding='utf-8'))
@@ -248,8 +251,24 @@ def main():
         profile=json.loads((ROOT/'source/battle_caption_profile.json').read_text(encoding='utf-8'))
         catalog=json.loads(a.battle_captions.read_text(encoding='utf-8'))
         writes.extend(caption_selections(profile,catalog,legacy,glyphs));caption_count=len(catalog['records'])
+    keyboard_info=None
+    if a.name_keyboard:
+        if not a.default_names or not a.simple_hook:raise ValueError('Keyboard requires importer and both font consumers')
+        from name_keyboard import install as install_keyboard
+        keyboard_writes,keyboard_info=install_keyboard(legacy,extension,a.out,run)
+        writes.extend(keyboard_writes)
     expected=[];out=bytearray(legacy)
     prior_end=0
+    header_info=None
+    if a.skill_headers:
+        from skill_header_graphics import install as install_headers
+        header_writes,header_info=install_headers(legacy,extension,glyphs)
+        writes.extend(header_writes)
+    biography_info=None
+    if a.biographies:
+        from biography_text import install as install_biographies
+        biography_writes,biography_info=install_biographies(legacy,extension)
+        writes.extend(biography_writes)
     for o,d,_ in sorted(writes):
         if o<prior_end or o+len(d)>len(legacy):raise ValueError('Overlapping or out-of-range write')
         prior_end=o+len(d)
@@ -276,6 +295,18 @@ def main():
     report['dialogue_corrections']=dialogue_count
     report['recipe_string_fields']=recipe_count
     report['battle_caption_sprites']=caption_count
+    report['name_keyboard']=keyboard_info
+    report['skill_header_graphics']=header_info
+    report['biography_text']=biography_info
+    if a.biographies:
+        for name in ['source/biography_profile.json','translations/biographies.json','tools/biography_text.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
+    if a.skill_headers:
+        for name in ['source/skill_header_profile.json','translations/skill_headers.json','tools/skill_header_graphics.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
+    if a.name_keyboard:
+        for name in ['source/name_keyboard.s','source/name_keyboard_profile.json','translations/name_keyboard.json','tools/name_keyboard.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
     if a.battle_captions:
         for path in [a.battle_captions,ROOT/'source/battle_caption_profile.json',ROOT/'tools/battle_captions.py']:
             report['inputs'][str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path)]=sha(path.read_bytes())

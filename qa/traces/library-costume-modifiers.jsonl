@@ -1,0 +1,29 @@
+{"frame": 300, "request": {"op": "frames", "count": 300}, "result": {}}
+{"frame": 301, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 901, "request": {"op": "frames", "count": 600}, "result": {}}
+{"frame": 902, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1102, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 1103, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1203, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 1204, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 1404, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 1405, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 1465, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1466, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 1526, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1527, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 1587, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1588, "request": {"op": "frames", "count": 1, "buttons": ["down"]}, "result": {}}
+{"frame": 1648, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1649, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 1709, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1710, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 1830, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1831, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 1891, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1892, "request": {"op": "frames", "count": 1, "buttons": ["up"]}, "result": {}}
+{"frame": 1952, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1953, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 2013, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 2014, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 2074, "request": {"op": "frames", "count": 60}, "result": {}}

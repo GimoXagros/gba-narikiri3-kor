@@ -21,6 +21,9 @@ def main():
     if m.get('dialogue_corrections'):required.extend(['name-expansion-verification.json','dialogue-resource-verification.json'])
     if m.get('recipe_string_fields'):required.append('recipe-verification.json')
     if m.get('battle_caption_sprites'):required.append('battle-caption-verification.json')
+    if m.get('name_keyboard'):required.append('name-keyboard-verification.json')
+    if m.get('skill_header_graphics'):required.append('skill-header-verification.json')
+    if m.get('biography_text'):required.append('biography-verification.json')
     for filename in required:
         c=json.loads((a.build/filename).read_text(encoding='utf-8'))
         if c['status']!='PASS' or c['rom_sha256']!=m['target_sha256']:raise ValueError('Verification does not cover this exact artifact')

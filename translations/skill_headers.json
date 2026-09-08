@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "headers": [
+    {"type": 3, "japanese": "とくぎのセッティング", "text": "특기 설정", "resources": [45, 46, 47]},
+    {"type": 4, "japanese": "とくぎをつかう", "text": "특기 사용", "resources": [45, 48]}
+  ],
+  "resources": [
+    {"index": 45, "text": "특기"},
+    {"index": 46, "text": "설정"},
+    {"index": 47, "text": ""},
+    {"index": 48, "text": "사용"}
+  ]
+}

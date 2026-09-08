@@ -164,6 +164,254 @@
       "id": "field-target-hint",
       "text": "%0g:결정/%1g:취소",
       "review": "original_movement_caption_observed_revised_pixels_pending"
+    },
+    {
+      "id": "battle-remove-skill",
+      "text": "특기 해제"
+    },
+    {
+      "id": "save-empty-data",
+      "text": "\n     저장 데이터가 없습니다."
+    },
+    {
+      "id": "battle-magic-disabled",
+      "text": "마법 금지",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "battle-result-experience",
+      "text": "경험치 %8d",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-gald",
+      "text": "갈드 %5d",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-attack",
+      "text": "공격    %5d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-defense",
+      "text": "방어    %5d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-intelligence",
+      "text": "지력    %5d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-agility",
+      "text": "민첩    %5d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-drops",
+      "text": "드롭 아이템",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-magic-resistant",
+      "text": "\n마법에 강함",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-attack-unknown",
+      "text": "공격    ?????\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-defense-unknown",
+      "text": "방어    ?????\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-intelligence-unknown",
+      "text": "지력    ?????\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-agility-unknown",
+      "text": "민첩    ?????\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-element",
+      "text": "속성\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-element-strong",
+      "text": "강함\n\n\n\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "monster-element-weak",
+      "text": "약함",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-modifier-heading",
+      "text": "능력치 보정\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-modifier-attack",
+      "text": "공격력   %4d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-modifier-defense",
+      "text": "방어력   %4d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-modifier-intelligence",
+      "text": "지력     %4d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-modifier-agility",
+      "text": "민첩     %4d",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-stat-attack",
+      "text": "공격    %4d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-stat-defense",
+      "text": "방어    %4d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-stat-intelligence",
+      "text": "지력    %4d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-stat-agility",
+      "text": "민첩    %4d\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-stat-experience",
+      "text": "EXP %4d/100\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "costume-equipment-heading",
+      "text": "장비\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "shop-select-item",
+      "text": "아이템 선택",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "shop-select-count",
+      "text": "개수 선택\n",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "shop-confirm",
+      "text": "결정",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "shop-gald",
+      "text": "%l갈드 %7d",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "shop-total",
+      "text": "%l합계 %7d",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "reward-experience",
+      "text": "경험치",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "reward-money",
+      "text": "돈",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "reward-participation",
+      "text": "참가",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "food-shop-gald",
+      "text": "%l갈드 %7d",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "food-shop-total",
+      "text": "%l합계 %7d",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "food-shop-select-item",
+      "text": "아이템 선택",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "food-shop-confirm",
+      "text": "결정",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "food-shop-view-info",
+      "text": "정보 보기",
+      "review": "source_and_call_inspected",
+      "layout": "isolated_formatter_and_runtime_review_pending"
     }
   ]
 }

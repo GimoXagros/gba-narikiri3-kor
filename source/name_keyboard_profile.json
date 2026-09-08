@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "basis": "D63E0 six row pointers and original D6470 dispatcher are separate display/input consumers. D64B4/D6558/D6608 retain original kana/ASCII semantics. D61A0 has page increments and L/R wrapping; only three bound immediates change.",
+  "regions": [
+    {
+      "id": "editor-code",
+      "start": "0xd5fac",
+      "end": "0xd6800",
+      "sha256": "25e2beededb89b8dcd15973e5e5516fdb54869942777d05886e18cf54b9fa2df"
+    },
+    {
+      "id": "original-candidate-tables",
+      "start": "0xf1d6a4",
+      "end": "0xf1d6f4",
+      "sha256": "542f2359c9e6cef21dde6c05f2d00528373abae3b5a3e34d56b5346a91930b9f"
+    },
+    {
+      "id": "original-keyboard-strings-and-coordinates",
+      "start": "0x1c2a34",
+      "end": "0x1c2d05",
+      "sha256": "e168a2260d8d9a54856ef72b3dc8b0c151e86bddda6cab894533afb8159f4377"
+    }
+  ],
+  "guards": [
+    {
+      "offset": "0xd63e0",
+      "hex": "70b5002806d00128"
+    },
+    {
+      "offset": "0xd6470",
+      "hex": "10b5041c14202056"
+    },
+    {
+      "offset": "0xd62c6",
+      "hex": "0228"
+    },
+    {
+      "offset": "0xd62f4",
+      "hex": "0226"
+    },
+    {
+      "offset": "0xd634e",
+      "hex": "0228"
+    },
+    {
+      "offset": "0xd6084",
+      "hex": "342a1c08"
+    }
+  ],
+  "original_display_tables": [
+    "0xf1d6dc",
+    "0xf1d6ac",
+    "0xf1d6c4"
+  ],
+  "rows_per_page": 6,
+  "columns": 15,
+  "slots": 5,
+  "bytes_per_slot": 4,
+  "page_count": 30,
+  "hangul_pages": 27,
+  "source_control_values": {
+    "page_context_offset": 20,
+    "length_context_offset": 21,
+    "cursor_x_offset": 22,
+    "cursor_y_offset": 23
+  }
+}
