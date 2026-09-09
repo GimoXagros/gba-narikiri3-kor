@@ -1218,6 +1218,36 @@
       "text": "『괴인　@B에게서　훌륭하게\n되찾았습니다.그러나…』",
       "basis": "Original 奪い返しました means recaptured, not simply took; retain the quoted opponent.",
       "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-precision-15ac34",
+      "text": "안타깝네,분석군의　계산에　따르면\n９７．３％의　확률로　틀려",
+      "basis": "Replace the inherited format introducer ASCII % with the original Japanese full-width percent glyph. The actual untouched formatter drops both % and 의 in K1.1; original J uses 8193.",
+      "review": "source_and_original_consumer_reviewed_pixels_pending"
+    },
+    {
+      "id": "dialogue-precision-16f554",
+      "text": "결코　포기하지　않는　남자!\n스탄・엘론!",
+      "basis": "Original スタン・エルロン; user-approved character list specifies 스탄 엘론.",
+      "review": "source_and_original_consumer_reviewed_pixels_pending"
+    },
+    {
+      "id": "dialogue-precision-16f7dc",
+      "text": "하늘이　내려준　실력!　리드　허셸!",
+      "basis": "Original リッド・ハーシェル; user-approved character list specifies 리드 허셸.",
+      "review": "source_and_original_consumer_reviewed_pixels_pending"
+    },
+    {
+      "id": "dialogue-precision-16fcac",
+      "text": "변화무쌍한　이도류!　로이드　어빙!",
+      "basis": "Original ロイド・アーヴィング; user-approved character list specifies 로이드 어빙.",
+      "review": "source_and_original_consumer_reviewed_pixels_pending"
+    },
+    {
+      "id": "dialogue-precision-16ff44",
+      "text": "문답무용!　울부짖는　국자!\n리리스・엘론♪",
+      "basis": "Original リリス・エルロン; restore the last syllable of user-approved 리리스 엘론.",
+      "review": "source_and_original_consumer_reviewed_pixels_pending"
     }
   ]
 }

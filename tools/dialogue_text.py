@@ -1,7 +1,7 @@
 """Adopted opcode-0F dialogue corrections; no text obtained from build scans."""
 import re,struct
 from text_codec import encode,decode
-from dialogue_tokens import controls,unsafe_expansion_sequences
+from dialogue_tokens import controls,unsafe_expansion_sequences,validate_dialogue_formats
 from dialogue_structure import source_records
 
 def selections(profile,catalog,j,legacy):
@@ -22,6 +22,7 @@ def selections(profile,catalog,j,legacy):
             raw=bytes.fromhex(row[key])
             if rom[start:start+len(raw)+1]!=raw+b'\0':raise ValueError('Dialogue source differs')
         raw=bytes.fromhex(row['legacy_raw']);new=encode(rows[row['id']]['text'])
+        validate_dialogue_formats(new)
         token_ref=bytes.fromhex(row['j_raw']) if row.get('control_source')=='j' else raw
         line_ref=bytes.fromhex(row['j_raw']) if row.get('newline_source')=='j' else raw
         if tokens(new)!=tokens(token_ref) or new.count(b'\n')!=line_ref.count(b'\n'):raise ValueError('Dialogue controls/name substitutions changed')

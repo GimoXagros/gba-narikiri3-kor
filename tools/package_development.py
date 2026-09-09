@@ -35,6 +35,7 @@ def main():
         c=json.loads((a.build/filename).read_text(encoding='utf-8'))
         if c['status']!='PASS' or c['rom_sha256']!=m['target_sha256']:raise ValueError('Verification does not cover this exact artifact')
         if filename in ('item-description-pixel-verification.json','dialogue-pixel-verification.json') and c.get('complete_pixel_buffers_match_original_font_bits') is not True:raise ValueError('Selected text lacks independent pixel verification')
+        if filename=='dialogue-pixel-verification.json' and c.get('typed_dialogue_records')!=5208:raise ValueError('Incomplete indexed dialogue display coverage')
         checks[filename]=c
     if m.get('protected_nontext_regions'):
         c=json.loads((a.build/'nontext-verification.json').read_text(encoding='utf-8'))

@@ -39,7 +39,7 @@ def main():
             ('verify_nontext.py','nontext-verification.json',[]),
             ('verify_name_expansion.py','name-expansion-verification.json',[]),
             ('verify_dialogue_resource.py','dialogue-resource-verification.json',['--j',j,'--legacy',legacy_path]),
-            ('verify_dialogue_pixels.py','dialogue-pixel-verification.json',['--legacy',legacy_path]),
+            ('verify_dialogue_pixels.py','dialogue-pixel-verification.json',['--legacy',legacy_path,'--all-records','--j',j]),
             ('verify_recipes.py','recipe-verification.json',['--legacy',legacy_path]),
             ('verify_battle_captions.py','battle-caption-verification.json',['--legacy',legacy_path]),
             ('verify_name_keyboard.py','name-keyboard-verification.json',['--legacy',legacy_path]),

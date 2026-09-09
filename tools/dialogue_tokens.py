@@ -22,6 +22,18 @@ def unsafe_expansion_sequences(raw):
     valid={off for off,token in controls(raw) if token.startswith(b'@')}
     return [m.start() for m in re.finditer(rb'@[01BDGKL]',raw) if m.start() not in valid]
 
+
+def validate_dialogue_formats(raw):
+    """Only the k/l commands occur in the established dialogue population.
+
+    Literal percent signs must use the full-width glyph. The original
+    formatter can silently swallow the percent and following Hangul bytes.
+    """
+    cells = list(units(raw))
+    for index, (off, char) in enumerate(cells):
+        if char == b'%' and (index + 1 == len(cells) or cells[index + 1][1] not in (b'k', b'l')):
+            raise ValueError(f'Unsafe dialogue percent/control at byte {off}')
+
 def expand_expected(raw,names):
     out=bytearray();cursor=0
     for off,token in controls(raw):

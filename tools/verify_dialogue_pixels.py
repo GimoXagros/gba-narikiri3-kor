@@ -145,6 +145,8 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--rom', type=Path, required=True)
     p.add_argument('--legacy', type=Path, required=True)
+    p.add_argument('--all-records', action='store_true')
+    p.add_argument('--j', type=Path)
     p.add_argument('--out', type=Path, required=True)
     p.add_argument('--render-records', nargs='*', type=lambda s: int(s, 0))
     p.add_argument('--render-dir', type=Path)
@@ -155,7 +157,17 @@ def main():
     for start, end in ((0xc762c, 0xc7632), (0xea8, 0x16e8), (0x2320, 0x23f0), (0x25cc, 0x2860), (0xffe80, 0xfff3e), (0x741d80, 0x741d84)):
         if rom[start:end] != old[start:end]:
             raise ValueError('Original dialogue formatter/display code changed')
-    rows = json.loads((ROOT/'source/dialogue_fixes.json').read_text('utf-8'))['records']
+    selected = json.loads((ROOT/'source/dialogue_fixes.json').read_text('utf-8'))['records']
+    selected_by_offset = {int(r['record_offset'], 0): r for r in selected}
+    rows = selected
+    if a.all_records:
+        if not a.j:
+            p.error('--all-records requires --j')
+        from dialogue_structure import source_records
+        rows = [selected_by_offset.get(r['record_offset'],
+                {'id': f"unchanged-{r['record_offset']:06x}", 'record_offset': hex(r['record_offset']),
+                 'original_pointer': r['pointer']})
+                for r in source_records(a.j.read_bytes(), old)]
     target = {r['id']: r['text'] for r in json.loads((ROOT/'translations/dialogue_fixes.json').read_text('utf-8'))['records']}
     samples = [('default', ('훌리오', '캐로', '드림', '크라토스', '프레세아')),
                ('maximum', ('가나다라마',)*5),
@@ -171,8 +183,11 @@ def main():
                 ptr = struct.unpack_from('<I', rom, off+4)[0]
                 start = ptr-0x08000000
                 raw = rom[start:rom.index(0, start)]
-                if raw != encode(target[row['id']]):
-                    raise ValueError('Relocated dialogue differs from adopted text')
+                if row['id'] in target:
+                    if raw != encode(target[row['id']]):
+                        raise ValueError('Relocated dialogue differs from adopted text')
+                elif ptr != row['original_pointer'] or raw != old[start:old.index(0, start)]:
+                    raise ValueError('Unselected dialogue differs from original')
                 try:
                     pixels += fixture.run(ptr, raw, names)
                 except Exception as error:
@@ -201,11 +216,12 @@ def main():
                             page.putpixel((x, n*48+12+y), (0, 0, 0))
             page.resize((720, page.height*3), Image.Resampling.NEAREST).save(a.render_dir/f'page-{start//7+1:02d}.png')
     result = {'status': 'PASS', 'rom_sha256': hashlib.sha256(rom).hexdigest(),
-              'selected_dialogue_records': len(rows), 'original_expansion_and_display_cases': cases,
+              'selected_dialogue_records': len(selected), 'typed_dialogue_records': len(rows),
+              'original_expansion_and_display_cases': cases,
               'large_glyph_position_checks': pixels, 'complete_pixel_snapshots': snapshots,
               'bios_transfer_substitutions': bios, 'vblank_input_substitutions': vblanks,
               'sound_substitutions': sounds, 'complete_pixel_buffers_match_original_font_bits': True,
-              'scope': 'All selected dialogue operands, three name samples and both background modes. Actual original name expansion and C762C formatter caller, ASCII conversion, line wrapping, scrolling and key-wait code. Independent cursor/events and complete font-buffer pixel reference at every scroll, wait, clear and return. BIOS font transfers, VBlank/A input and sound completion are modeled. Speaker portraits, consecutive scene timing, natural reachability and full-game review are separate.'}
+              'scope': ('All 1000-script opcode0F/25 dialogue operands' if a.all_records else 'All selected dialogue operands') + ', three name samples and both background modes. Actual original name expansion and C762C formatter caller, ASCII conversion, line wrapping, scrolling and key-wait code. Independent cursor/events and complete font-buffer pixel reference at every scroll, wait, clear and return. BIOS font transfers, VBlank/A input and sound completion are modeled. Speaker portraits, consecutive scene timing, natural reachability, semantic translation and full-game review are separate.'}
     a.out.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n', 'utf-8')
     print(json.dumps(result, ensure_ascii=False))
 

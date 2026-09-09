@@ -4,7 +4,7 @@ from pathlib import Path
 from unicorn import UC_HOOK_CODE
 from unicorn.arm_const import UC_ARM_REG_R0,UC_ARM_REG_R1,UC_ARM_REG_SP,UC_ARM_REG_LR,UC_ARM_REG_PC
 from dialogue_structure import source_records,ROOT
-from dialogue_tokens import expand_expected,unsafe_expansion_sequences
+from dialogue_tokens import expand_expected,unsafe_expansion_sequences,validate_dialogue_formats
 from text_codec import encode
 from verify_small_consumer import Fixture
 
@@ -48,6 +48,7 @@ def main():
         oldstart=oldptr-0x08000000;oldraw=legacy[oldstart:legacy.index(0,oldstart)]
         if off not in changes and raw!=oldraw:raise ValueError('Unselected dialogue payload changed')
         if unsafe_expansion_sequences(raw):raise ValueError('Unsafe multibyte-trail macro remains')
+        validate_dialogue_formats(raw)
         if unsafe_expansion_sequences(oldraw):legacy_unsafe.append((off,oldptr,oldraw))
         cases.append((ptr,raw))
     samples=[{k:encode(v) for k,v in zip((b'@B',b'@G',b'@D',b'@0',b'@1'),('훌리오','캐로','드림','크라토스','프레세아'))},

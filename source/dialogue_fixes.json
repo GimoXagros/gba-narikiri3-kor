@@ -3745,6 +3745,51 @@
       "kind": "source_context_omission",
       "control_source": "j",
       "context_review_basis": "Original 奪い返しました means recaptured, not simply took; retain the quoted opponent."
+    },
+    {
+      "id": "dialogue-precision-15ac34",
+      "record_offset": "0x15ac34",
+      "source_record": "0f001f0094ac1508",
+      "j_raw": "82a082e78e63944f82cb814189f090cd8c4e82cc8c768e5a82c982e682e982c60a82bb82ea82cd8258825681448252819382cc8a6d97a682c58ceb82e882e6",
+      "legacy_raw": "8fc6935789958a762c8dce8eac895990c5814088e68e8a904081408b9b8ca18ce70a82588256814482522590c5814094ac8c9c8c6d814093b08c60",
+      "kind": "literal_format_repair",
+      "basis": "Replace the inherited format introducer ASCII % with the original Japanese full-width percent glyph. The actual untouched formatter drops both % and 의 in K1.1; original J uses 8193."
+    },
+    {
+      "id": "dialogue-precision-16f554",
+      "record_offset": "0x16f554",
+      "source_record": "0f004d00f4f51608",
+      "j_raw": "8c8882b582c4814182a082ab82e782df82c882a2926a81490a8358835e839381458347838b838d839383ae83ae",
+      "legacy_raw": "88df92d8814093f58982946e919681408fc88ac081408a5190d8210a8f599359814590438c5021",
+      "kind": "approved_full_character_name",
+      "basis": "Original スタン・エルロン; user-approved character list specifies 스탄 엘론."
+    },
+    {
+      "id": "dialogue-precision-16f7dc",
+      "record_offset": "0x16f7dc",
+      "source_record": "0f004d007cf81608",
+      "j_raw": "935682a982e7975e82a682e782ea82bd8c9582cc987282dc82a681490a838a836283688145836e815b83568346838b83ae83ae",
+      "legacy_raw": "946e8ac190ca81408a5a8c60917781408f668c612181408cac8b858140946e8ebd21",
+      "kind": "approved_full_character_name",
+      "basis": "Original リッド・ハーシェル; user-approved character list specifies 리드 허셸."
+    },
+    {
+      "id": "dialogue-precision-16fcac",
+      "record_offset": "0x16fcac",
+      "source_record": "0f004d0058fd1608",
+      "j_raw": "95cf8cb68ea98ddd82cc93f1938197ac0a838d8343836881458341815b839483428393834f83ae83ae",
+      "legacy_raw": "8dad94ab8d4a8f759470814090ca8b548c992181408c6d90ca8b8581408fc48df721",
+      "kind": "approved_full_character_name",
+      "basis": "Original ロイド・アーヴィング; user-approved character list specifies 로이드 어빙."
+    },
+    {
+      "id": "dialogue-precision-16ff44",
+      "record_offset": "0x16ff44",
+      "source_record": "0f004d0020001708",
+      "j_raw": "96e2939a96b3977082cc814082a482c882e9814082a882bd82dc81490a838a838a835881458347838b838d839381f4",
+      "legacy_raw": "8d4d8ae28d4a908b218140908f8dcc91a08ac08140895890d8210a8cac8cac8f59814590438c6d81f4",
+      "kind": "approved_full_character_name",
+      "basis": "Original リリス・エルロン; restore the last syllable of user-approved 리리스 엘론."
     }
   ]
 }
