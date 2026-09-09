@@ -1,0 +1,778 @@
+{"request": {"op": "frames", "count": 300}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 200}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 100}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 200}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 660}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 20}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 20}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 20}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 25, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 25, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 10, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 40, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 25, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 20, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 50, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 10, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 45, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 900}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["select"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 120, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["select"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 90, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 24}}
+{"request": {"op": "frames", "count": 85, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a", "right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 8}}
+{"request": {"op": "frames", "count": 170}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 360}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 16, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 16, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 360}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 660}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 360}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 360}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}

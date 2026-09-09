@@ -1,0 +1,26 @@
+[
+  {
+    "measurement": "keyboard-mgba.json",
+    "original_trace_sha256": "0283fa6b71a0cfe782af0bb515fbaba0bf602541f884679c2328186a6cdd8bb3",
+    "portable_trace": "qa/traces/font-keyboard.jsonl",
+    "portable_trace_sha256": "412ccbcdc5777564d029d2261900462156f04741d59a1a4e450211bd4279e938",
+    "controller_sequence_sha256": "4057e3d3460c0742cf01e55c811b816920642fa01c6161a52f06e6e9a91ecdda",
+    "note": "Controller requests are byte-equivalent after canonical JSON serialization; local screenshot/dump entries are omitted."
+  },
+  {
+    "measurement": "keyboard-vba.json",
+    "original_trace_sha256": "b814fc0890d7a568b8ad71e9f70abd7b53136fa9e5afc8c0bb884c468a48e5cd",
+    "portable_trace": "qa/traces/font-keyboard.jsonl",
+    "portable_trace_sha256": "412ccbcdc5777564d029d2261900462156f04741d59a1a4e450211bd4279e938",
+    "controller_sequence_sha256": "4057e3d3460c0742cf01e55c811b816920642fa01c6161a52f06e6e9a91ecdda",
+    "note": "Controller requests are byte-equivalent after canonical JSON serialization; local screenshot/dump entries are omitted."
+  },
+  {
+    "measurement": "mission-mgba-02.json",
+    "original_trace_sha256": "9df86c13c4ac7b1837a1e18ad2afdc06199d5676be7190ae76cbba77a51a1bf1",
+    "portable_trace": "qa/traces/font-mission-mgba-02.jsonl",
+    "portable_trace_sha256": "0924a9a5602e2ff9095181a7d486b2f3c9ffcf4e67a88adfec886d71c3994810",
+    "controller_sequence_sha256": "2502d0fcabf0185bf9f87a64ee13045c625bc449256b253c5b40ecd59ed4deed",
+    "note": "Controller requests are byte-equivalent after canonical JSON serialization; local screenshot/dump entries are omitted."
+  }
+]
