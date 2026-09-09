@@ -5,6 +5,7 @@ from unicorn import UC_HOOK_CODE
 from unicorn.arm_const import UC_ARM_REG_R0,UC_ARM_REG_R1,UC_ARM_REG_R2,UC_ARM_REG_SP,UC_ARM_REG_LR,UC_ARM_REG_PC
 from verify_small_consumer import Fixture
 from text_codec import encode,decode,glyph_index
+from large_pixel_reference import color_lut,expected_buffer
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
@@ -56,9 +57,10 @@ def main():
                 # Zero per-character delay avoids a fixture VBlank wait;
                 # normal runtime validates the unchanged key-wait separators.
                 u.mem_write(0x03000040,bytes([0,0,18,2,0,0,0,13,1,28,15,4,0,0,0,0]))
-                u.mem_write(0x0300055c,b'\xa5'*4);u.mem_write(0x03001464,b'\xa5'*4)
+                u.mem_write(0x0300055c,b'\xa5'*4);u.mem_write(0x03001464,color_lut(mode))
+                u.mem_write(0x03000560,expected_buffer(rom,[],mode))
                 drawn.clear();run(0x08001660,ptr)
-                if bytes(u.mem_read(0x0300055c,4))!=b'\xa5'*4 or bytes(u.mem_read(0x03001464,4))!=b'\xa5'*4:raise ValueError('Large font buffer boundary changed')
+                if bytes(u.mem_read(0x0300055c,4))!=b'\xa5'*4 or bytes(u.mem_read(0x03001464,4))!=color_lut(mode):raise ValueError('Large font buffer boundary or palette changed')
                 codes=[]
                 for char in text:
                     # The original large renderer expands printable ASCII to
@@ -72,6 +74,7 @@ def main():
                     codes.append(glyph_index(int.from_bytes(code,'big')))
                 want=[(n%18,n//18,index) for n,index in enumerate(codes)]
                 if drawn!=want:raise ValueError(f'Large library glyph/position differs at record {i} field {slot}: {drawn!r} != {want!r}')
+                if bytes(u.mem_read(0x03000560,0xf00))!=expected_buffer(rom,want,mode):raise ValueError('Library pixels differ from original font bits')
                 large_cases+=1;glyph_cases+=len(codes);max_cells=max(max_cells,len(codes))
         u.hook_del(handle)
     report={'status':'PASS','rom_sha256':hashlib.sha256(rom).hexdigest(),'library_records':37,'selected_string_fields':selected,'original_flag_and_list_cases':small_cases,'large_field_consumer_cases':large_cases,'large_glyph_position_cases':glyph_cases,'maximum_large_field_cells':max_cells,'metadata_and_newline_keywait_code_preserved':True,'scope':'Actual 37-entry locked/unlocked list through original flag getter and formatter, both small modes. Every four-line biography field uses original large formatter/converter/pixel routine with inspected 18x2 geometry and zero fixture character delay. Whole biography paging and normal unlock progression need runtime review.'}

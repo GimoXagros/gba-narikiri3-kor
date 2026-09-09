@@ -5,6 +5,7 @@ from unicorn import UC_HOOK_CODE
 from unicorn.arm_const import UC_ARM_REG_R0,UC_ARM_REG_R1,UC_ARM_REG_R2,UC_ARM_REG_R3,UC_ARM_REG_R5,UC_ARM_REG_R6,UC_ARM_REG_SP,UC_ARM_REG_LR,UC_ARM_REG_PC
 from verify_small_consumer import Fixture
 from text_codec import encode,glyph_index
+from large_pixel_reference import color_lut,expected_buffer
 ROOT=Path(__file__).resolve().parents[1]
 
 
@@ -25,6 +26,7 @@ def main():
     titles=0;glyphs=0;field=0;getters=0;maximum=0;bios_fills=[]
     for mode in (0,1):
         f=Fixture(rom,mode);expected=Fixture(rom,mode);u=f.uc
+        u.mem_write(0x03001464,color_lut(mode))
         if rom[0xdd428:0xdd42c]!=bytes.fromhex('0bdf7047'):raise ValueError('CpuSet wrapper changed')
         def cpu_set(uc,addr,size,_):
             source,dest,control=(uc.reg_read(reg) for reg in (UC_ARM_REG_R0,UC_ARM_REG_R1,UC_ARM_REG_R2))
@@ -69,6 +71,7 @@ def main():
                 if (context[8],context[10])!=(1,1 if variant==0 else 17):raise ValueError('Music map anchor changed')
                 want=[(n,0,slot) for n,slot in enumerate(codes)]
                 if drawn!=want:raise ValueError(f'Music title {i} glyph positions differ: {drawn!r} != {want!r}')
+                if bytes(u.mem_read(0x03000560,0xf00))!=expected_buffer(rom,want,mode):raise ValueError('Music pixels differ from original font bits')
                 titles+=1;glyphs+=len(codes);maximum=max(maximum,len(raw))
         u.hook_del(handle)
         name=rows[-1]['text'];target=struct.unpack_from('<I',rom,0xa5620)[0]

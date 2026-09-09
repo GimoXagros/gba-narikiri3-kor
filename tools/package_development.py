@@ -30,9 +30,11 @@ def main():
     if m.get('notice_text'):required.append('notice-verification.json')
     if m.get('inspect_eye'):required.append('inspect-eye-verification.json')
     if m.get('element_symbols'):required.append('element-symbol-verification.json')
+    if m.get('item_descriptions'):required.append('item-description-pixel-verification.json')
     for filename in required:
         c=json.loads((a.build/filename).read_text(encoding='utf-8'))
         if c['status']!='PASS' or c['rom_sha256']!=m['target_sha256']:raise ValueError('Verification does not cover this exact artifact')
+        if filename=='item-description-pixel-verification.json' and c.get('complete_pixel_buffers_match_original_font_bits') is not True:raise ValueError('Item descriptions lack independent pixel verification')
         checks[filename]=c
     if m.get('protected_nontext_regions'):
         c=json.loads((a.build/'nontext-verification.json').read_text(encoding='utf-8'))

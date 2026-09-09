@@ -29,6 +29,7 @@ def main():
     p.add_argument('--clothing-results',action='store_true')
     p.add_argument('--save-places',action='store_true')
     p.add_argument('--notices',action='store_true')
+    p.add_argument('--item-descriptions',action='store_true')
     p.add_argument('--inspect-eye',action='store_true')
     p.add_argument('--element-symbols',action='store_true')
     a=p.parse_args();j=a.j.read_bytes();ips=a.ips.read_bytes()
@@ -311,6 +312,11 @@ def main():
         from element_symbols import install as install_elements
         element_writes,element_info=install_elements(legacy,extension,glyphs)
         writes.extend(element_writes)
+    item_description_info=None
+    if a.item_descriptions:
+        from item_descriptions import install as install_item_descriptions
+        item_description_writes,item_description_info=install_item_descriptions(legacy,extension)
+        writes.extend(item_description_writes)
     notice_info=None
     if a.notices:
         from notice_text import install as install_notices
@@ -356,6 +362,10 @@ def main():
     report['notice_text']=notice_info
     report['inspect_eye']=inspection_info
     report['element_symbols']=element_info
+    report['item_descriptions']=item_description_info
+    if a.item_descriptions:
+        for name in ['source/item_description_profile.json','translations/item_descriptions.json','tools/item_descriptions.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
     if a.element_symbols:
         for name in ['source/element_symbol_profile.json','translations/element_symbols.json','tools/element_symbols.py','tools/gba_rle.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())

@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": 20,
+      "text": "발이 빨라지는 놀라운 장화\n전투시의 이동속도 상승",
+      "basis": "Correct the nonsensical literal translation of a formidable speed-enhancing boot.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 28,
+      "text": "전투 시 불속성 피해 경감\n맵에서 열로 인한 피해 면역",
+      "basis": "Distinguish field heat damage from the separate battle fire element.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 33,
+      "text": "전투의 신이 새겨진 반지\n원소 속성 피해를 경감",
+      "basis": "Restore the engraved motif and the original elemental attribute terminology.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 51,
+      "text": "오랜 단련으로 손에 익은 활\n♂전용 루트『체스터』",
+      "basis": "Used and trained with does not mean used to an extreme.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 52,
+      "text": "치유의 힘이 깃든 법술사 지팡이\n♀전용 루트『민트』",
+      "basis": "Legacy incorrectly duplicates Elven Bow text, Chester and male-only label.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 53,
+      "text": "정령과 계약에 사용하는 반지\n♂전용 루트『클라스』",
+      "basis": "Approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 55,
+      "text": "날카로운 날을 지닌 닌자도\n♀전용 루트『스즈』",
+      "basis": "Sharp cutting edge does not mean a taste of cutting.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 56,
+      "text": "갑판청소 등에 사용하는 도구\n♂전용 루트『스탄』",
+      "basis": "Approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 57,
+      "text": "혜성의 핵으로 만든 에너지 결정\n♀전용 루트『루티』",
+      "basis": "Original sui-sei means comet, not the planet Mercury.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 59,
+      "text": "지적인 기품이 감도는 안경\n♀전용 루트『필리아』",
+      "basis": "Approved character spelling and incorrect Korean verb ending.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 64,
+      "text": "음유시인의 현악기\n♂전용 루트『죠니』",
+      "basis": "Approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 65,
+      "text": "사냥에 사용하는 손도끼\n♂전용 루트『리드』",
+      "basis": "Approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 67,
+      "text": "이터니아의 현상을 기록한 사전\n♂전용 루트『킬』",
+      "basis": "Original phenomena was mistranslated as ideas; approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 70,
+      "text": "해적이 즐겨 쓰는 항해용 모자\n♀전용 루트『채트』",
+      "basis": "Restore nautical cap and approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 71,
+      "text": "세레스티아 7대 비보 중 하나\n♂전용 루트『레이스』",
+      "basis": "Restore the omitted seven great treasures qualifier.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 73,
+      "text": "분쇄를 뜻하는 신화 속 무구\n♂전용 루트『로니』",
+      "basis": "Restore mythical weapon and crushing meaning instead of generic destructive object.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 75,
+      "text": "사람을 멀리하려 만든 기괴한 가면\n♂전용 루트『쥬다스』",
+      "basis": "Restore purpose and unusual shape of the mask.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 80,
+      "text": "실버란트의 신자복\n♀전용 루트『콜레트』",
+      "basis": "Approved character spelling; retain inherited setting wording.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 83,
+      "text": "테세아라 신자의 예복\n♂전용 루트『젤로스』",
+      "basis": "Approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 84,
+      "text": "땅 정령의 힘이 깃든 전투 도끼\n♀전용 루트『프레세아』",
+      "basis": "Repair malformed Korean and retain battle-axe meaning.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 88,
+      "text": "망자의 각성을 쓰는 전설 무구\n♀전용 루트『리리스』",
+      "basis": "Original names the secret technique awakening the dead; not releasing the dead.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 93,
+      "text": "사냥꾼이 쓰는 일반적인 활\n루트『아처』",
+      "basis": "Match the selected costume identity and restore hunter qualifier.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 94,
+      "text": "승려가 가진 경전\n루트『클레릭』",
+      "basis": "Match the selected costume identity.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 95,
+      "text": "어둠에 숨기 위한 닌자 도구\n루트『닌자』",
+      "basis": "Replace untranslated Japanese ningu with ninja equipment.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 96,
+      "text": "마법사가 입는 검은 로브\n루트『위저드』『윗치』",
+      "basis": "Match both selected costume identities.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 99,
+      "text": "오래 써서 손에 익은 프라이팬\n루트『원더셰프』",
+      "basis": "Well-used does not mean used to an extreme.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 101,
+      "text": "의사가 진찰에 사용하는 도구\n루트『닥터』『너스』",
+      "basis": "Match both selected costume identities.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 103,
+      "text": "여러 현상을 기록한 백과사전\n루트『학자』",
+      "basis": "Original phenomena was mistranslated as ideas.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 107,
+      "text": "북유럽 신화 오딘이 가졌다는 창\n♀전용 루트『왈큐레』",
+      "basis": "Approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 108,
+      "text": "암반 굴착용 드릴\n♂전용 루트『드릴러』",
+      "basis": "Rock drilling was mistranslated as cliff use.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 110,
+      "text": "어둠의 극광의 힘이 담긴 보주\n♀전용 루트『시젤』",
+      "basis": "Restore the omitted darkness qualifier.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 111,
+      "text": "많은 영웅을 토막낸 거대 도끼\n♂전용 루트『바르바토스』",
+      "basis": "Approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 115,
+      "text": "조잡한 취향의 호랑이 모피\n♀전용 루트『포니』",
+      "basis": "Bad taste was softened incorrectly to unusual.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 117,
+      "text": "일본 전통 북을 치는 북채\n루트『와다동』『와다카츠』",
+      "basis": "Match both selected costume identities and explain wadaiko.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 120,
+      "text": "에테르로 만들어진 장갑판\n♀전용 루트『코스모스』",
+      "basis": "Match the selected item identity and restore material meaning.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    }
+  ]
+}

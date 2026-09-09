@@ -5,6 +5,7 @@ from unicorn import UC_HOOK_CODE
 from unicorn.arm_const import UC_ARM_REG_R0,UC_ARM_REG_R1,UC_ARM_REG_R2,UC_ARM_REG_R4,UC_ARM_REG_SP,UC_ARM_REG_LR,UC_ARM_REG_PC
 from verify_small_consumer import Fixture
 from text_codec import encode,glyph_index
+from large_pixel_reference import color_lut,expected_buffer
 ROOT=Path(__file__).resolve().parents[1]
 
 
@@ -62,7 +63,8 @@ def main():
                 ptr=struct.unpack_from('<I',rom,base+i*20+delta)[0];at=ptr-0x08000000;raw=rom[at:rom.index(0,at)];codes=glyphs(raw)
                 if len(codes)>18:raise ValueError('Skill field exceeds single 18-cell line')
                 u.mem_write(0x03000040,bytes([0,0,18,2,0,0,0,13,1,28,15,4,0,0,0,0]))
-                u.mem_write(0x0300055c,b'\xa5'*4);u.mem_write(0x03001464,b'\xa5'*4)
+                u.mem_write(0x0300055c,b'\xa5'*4);u.mem_write(0x03001464,color_lut(mode))
+                u.mem_write(0x03000560,expected_buffer(rom,[],mode))
                 drawn.clear()
                 if delta==4:
                     u.reg_write(UC_ARM_REG_R0,ptr);run(0x08001660);names+=1
@@ -78,7 +80,8 @@ def main():
                     if xy not in (bytes([0,1]),bytes([18,0])):raise ValueError(f'TP continuation position differs: {i} {xy.hex()}')
                 want=[(n,0,index) for n,index in enumerate(codes)]
                 if drawn!=want:raise ValueError(f'Skill glyph/position differs {i} field {delta}: {drawn!r} != {want!r}')
-                if bytes(u.mem_read(0x0300055c,4))!=b'\xa5'*4 or bytes(u.mem_read(0x03001464,4))!=b'\xa5'*4:raise ValueError('Large font buffer boundary changed')
+                if bytes(u.mem_read(0x0300055c,4))!=b'\xa5'*4 or bytes(u.mem_read(0x03001464,4))!=color_lut(mode):raise ValueError('Large font buffer boundary or palette changed')
+                if bytes(u.mem_read(0x03000560,0xf00))!=expected_buffer(rom,want,mode):raise ValueError('Large skill pixels differ from original font bits')
                 positions+=len(codes)
         u.hook_del(handle)
     r={'status':'PASS','rom_sha256':hashlib.sha256(rom).hexdigest(),'skill_records':390,'selected_text_fields':fields,'large_name_repairs':large_repairs,'description_repairs':desc_repairs,'name_getter_cases':getters,'large_name_cases':names,'actual_description_and_newline_cases':descriptions,'large_glyph_position_cases':positions,'maximum_description_cells':max_description,'metadata_preserved':True,'scope':'All 390 typed records and real name getters; large name and actual description/newline caller in both modes, observed 18-cell line. Stops before actor-dependent TP calculation. Normal skill acquisition, all menus and use remain separate.'}
