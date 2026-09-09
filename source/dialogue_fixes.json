@@ -197,7 +197,8 @@
           "selected": "콜레트",
           "occurrences": 1
         }
-      ]
+      ],
+      "context_review_basis": "Repair the inherited incorrect possessive particle after the already-approved character name."
     },
     {
       "id": "dialogue-terms-14e58c",
@@ -213,7 +214,8 @@
           "selected": "콜레트",
           "occurrences": 1
         }
-      ]
+      ],
+      "context_review_basis": "Correct the inherited typo 어쨋든 while retaining the approved names and layout."
     },
     {
       "id": "dialogue-terms-14e5c4",
@@ -3632,6 +3634,117 @@
           "occurrences": 1
         }
       ]
+    },
+    {
+      "id": "dialogue-context-160c88",
+      "record_offset": "0x160c88",
+      "source_record": "0f005e00a00c1608",
+      "j_raw": "88ab404282c9816782d082a982e882cc834a834d816882f00a924482ed82ea82bd8149",
+      "legacy_raw": "8df990c58140904c8ee68ca481408e488fcf88e38ad721",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "newline_source": "j",
+      "context_review_basis": "Restore the identity of the alternate protagonist who steals the light key."
+    },
+    {
+      "id": "dialogue-context-1674e8",
+      "record_offset": "0x1674e8",
+      "source_record": "0f002b005c751608",
+      "j_raw": "82a082c682cd404782cc9841978d91d282bf82a90a82c582e0814082a282c282dc82c591d282c482ce82a282a282f182be8148",
+      "legacy_raw": "89768c522c904b8bf290b9814089828ad78c608fdd946e8a493f0a8fee9145898e919681633f",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Restore which separated teammate must send the signal."
+    },
+    {
+      "id": "dialogue-context-167f58",
+      "record_offset": "0x167f58",
+      "source_record": "0f002b005c751608",
+      "j_raw": "82a082c682cd404782cc9841978d91d282bf82a90a82c582e0814082a282c282dc82c591d282c482ce82a282a282f182be8148",
+      "legacy_raw": "89768c522c904b8bf290b9814089828ad78c608fdd946e8a493f0a8fee9145898e919681633f",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Same original line in the alternate stored scene; preserve its independent VM record."
+    },
+    {
+      "id": "dialogue-context-1891b8",
+      "record_offset": "0x1891b8",
+      "source_record": "0f001a0054941808",
+      "j_raw": "817596be93fa82cd8da193fa82e682e891e595cf817682c182c481410a82a082ea82cd8140404782cc8cfb82ae82b98148",
+      "legacy_raw": "8a5a90cd90b88140905f8ac18db68ad78140934a90cd81630a897688c5814090d28d968ca7814090cc889f3f",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Restore the owner of the recurring catchphrase."
+    },
+    {
+      "id": "dialogue-context-19a8b0",
+      "record_offset": "0x19a8b0",
+      "source_record": "0f001b0060aa1908",
+      "j_raw": "404782b682e182cb834682af82c70a816796be93fa82cd8da193fa82e682e891e595cf816882a98340256b0a8250824f824f93fa95aa82cc814096be93fa82f08ca982c482e982f182be0a82bb82e882e182a08141934782b382f181418bad82a282cd82b882be82ba",
+      "legacy_raw": "8aa7895781408cb9814092528c520a8a5a90cd90b88140905f8ac18db68ad78140934a90cd90ca8acd898e256b0a8250824f824f90cd8dce90c581408a5a90cd90b981408db688eb814090d48ad788eb0a90f990ca814088ab947181408ef48d7a904081408ff68fec",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Restore the specifically referenced speaker of the catchphrase; retain all existing waits."
+    },
+    {
+      "id": "dialogue-context-19a8f0",
+      "record_offset": "0x19a8f0",
+      "source_record": "0f001b0060aa1908",
+      "j_raw": "404782b682e182cb834682af82c70a816796be93fa82cd8da193fa82e682e891e595cf816882a98340256b0a8250824f824f93fa95aa82cc814096be93fa82f08ca982c482e982f182be0a82bb82e882e182a08141934782b382f181418bad82a282cd82b882be82ba",
+      "legacy_raw": "8aa7895781408cb9814092528c520a8a5a90cd90b88140905f8ac18db68ad78140934a90cd90ca8acd898e256b0a8250824f824f90cd8dce90c581408a5a90cd90b981408db688eb814090d48ad788eb0a90f990ca814088ab947181408ef48d7a904081408ff68fec",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Same catchphrase reference in another independent VM record."
+    },
+    {
+      "id": "dialogue-context-19c524",
+      "record_offset": "0x19c524",
+      "source_record": "0f001e004cc71908",
+      "j_raw": "8be294af82cc8ee182a2926a81418ca982bd82a982a281480a905682b582a28371815b838d815b82be82c681408e7682a482f182be82af82c78163256b0a404782cc81408cfb94aa929a82c5814082dc82e982df82b182f182c50a82a482dc82ad92878ad482c9814088f882ab82b182f182b682dc82a282c882e68149",
+      "legacy_raw": "90b88d7e90c5814090fc90b881408a5190d881408dc18fec3f0a8e958c6d908e81409054909590ca8bf181408e9d88a0946e8ac08b448163256b0a8a6994ef889f814090dd814089578f5c8c608eab0a8b5e8c818c6d81408cb68b898fec8dbf21",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Restore Caro as the teammate whose persuasive speaking is specifically requested."
+    },
+    {
+      "id": "dialogue-context-19d640",
+      "record_offset": "0x19d640",
+      "source_record": "0f00200034da1908",
+      "j_raw": "82a882c182a982b582a282c8834081638141838a83748342838b90e690b682bd82bf0a8a6d82a982c9404282c6404782c683ac83ac256b0a82a282c182b582e582c940448d8682c98fe682c182c481630a82a082ea8148814082a082cc40448d868141904682aa8163",
+      "legacy_raw": "90ca8e93946e8a76816381408cac946981408eaf8e9d8ad28a760a8dce8ceb94f5256b0a404494a190408140935f8ac08b4481630a8fec3f814090f88140404494a12c8e9690ca8163",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Restore the two witnessed companions, a plot clue distinguishing the two ships/worlds."
+    },
+    {
+      "id": "dialogue-context-1ae330",
+      "record_offset": "0x1ae330",
+      "source_record": "0f002e0088eb1a08",
+      "j_raw": "899c82c982a082e994e082cc914f82dc82c5919782e893cd82af82e60a82bb82b582c48140404782cc9841978d82f091d282c4",
+      "legacy_raw": "8fc691c881408d4d8140898e919681408b448c608ad7814091800a89768cac88eb8140904b8bf290b9814089828ad78c60",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Restore the named sender of the signal in the escort instruction."
+    },
+    {
+      "id": "dialogue-context-1b3e9c",
+      "record_offset": "0x1b3e9c",
+      "source_record": "0f002c00505d1b08",
+      "j_raw": "817789f6906c404282a982e70a816782d082a982e882cc834a834d816882f08ee782e982bd82df82c983ac83ac8178",
+      "legacy_raw": "8177894a90cc904088d28eab81408df990c58140904c8ee68ca40a9196934f8982814090a594778178",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Restore the named opponent in the quoted account, plus the original unfinished quotation."
+    },
+    {
+      "id": "dialogue-context-1b406c",
+      "record_offset": "0x1b406c",
+      "source_record": "0f002b00485b1b08",
+      "j_raw": "817789f6906c404282cc8ee882a982e70a8ca98e968140924482a295d482b582dc82b582bd814282b582a982b581638178",
+      "legacy_raw": "81774042904088d28eab814094c58ca0946e88d20a8e488fcf8fd08f5f8acd8ad72e89768c4e8a4981638178",
+      "kind": "source_context_omission",
+      "control_source": "j",
+      "context_review_basis": "Original 奪い返しました means recaptured, not simply took; retain the quoted opponent."
     }
   ]
 }

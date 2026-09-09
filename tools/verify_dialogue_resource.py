@@ -9,8 +9,8 @@ from text_codec import encode
 from verify_small_consumer import Fixture
 
 class Expander:
-    def __init__(self,rom):
-        self.u=Fixture(rom,0).uc;self.allocations=[];self.buf=0x02010000
+    def __init__(self,rom,mode=0):
+        self.u=Fixture(rom,mode).uc;self.allocations=[];self.buf=0x02010000
         def allocate(u,address,size,data):
             self.allocations.append(u.reg_read(UC_ARM_REG_R0))
             u.reg_write(UC_ARM_REG_R0,self.buf);u.reg_write(UC_ARM_REG_PC,u.reg_read(UC_ARM_REG_LR))

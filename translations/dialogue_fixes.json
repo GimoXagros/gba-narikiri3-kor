@@ -78,13 +78,15 @@
     },
     {
       "id": "dialogue-terms-14e4d4",
-      "text": "아,로이드와　콜레트의　깨어났어!",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "아,로이드와　콜레트가　깨어났어!",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending",
+      "basis": "Repair the inherited incorrect possessive particle after the already-approved character name."
     },
     {
       "id": "dialogue-terms-14e58c",
-      "text": "어쨋든　무사해서　다행이야!\n로이드,콜레트",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "어쨌든　무사해서　다행이야!\n로이드,콜레트",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending",
+      "basis": "Correct the inherited typo 어쨋든 while retaining the approved names and layout."
     },
     {
       "id": "dialogue-terms-14e5c4",
@@ -1150,6 +1152,72 @@
       "id": "dialogue-terms-1ac190",
       "text": "내　이름은　로이드・어빙\n이　쪽이　콜레트와　지니어스",
       "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+    },
+    {
+      "id": "dialogue-context-160c88",
+      "text": "악당　@B에게\n빛의　열쇠를　빼앗겼다!",
+      "basis": "Restore the identity of the alternate protagonist who steals the light key.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-1674e8",
+      "text": "@G의　연락을　기다려야하나?\n언제까지…?",
+      "basis": "Restore which separated teammate must send the signal.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-167f58",
+      "text": "@G의　연락을　기다려야하나?\n언제까지…?",
+      "basis": "Same original line in the alternate stored scene; preserve its independent VM record.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-1891b8",
+      "text": "내일은　오늘보다　큰일…\n그건　@G의　입버릇인가?",
+      "basis": "Restore the owner of the recurring catchphrase.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-19a8b0",
+      "text": "@G의　말처럼\n내일은　오늘보다　큰일이니까%k\n１００일분의　내일을　보고　있다고\n적이　강할　수밖에　없어",
+      "basis": "Restore the specifically referenced speaker of the catchphrase; retain all existing waits.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-19a8f0",
+      "text": "@G의　말처럼\n내일은　오늘보다　큰일이니까%k\n１００일분의　내일을　보고　있다고\n적이　강할　수밖에　없어",
+      "basis": "Same catchphrase reference in another independent VM record.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-19c524",
+      "text": "은발의　젊은　남자　봤어?\n새로운　영웅이라　생각하는데…%k\n@G의　말솜씨로　잘　구슬려서\n동료로　만들어봐!",
+      "basis": "Restore Caro as the teammate whose persuasive speaking is specifically requested.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-19d640",
+      "text": "이상하네…　리필　선생님네\n분명　@B,@G와　함께%k\n@D호에　탔는데…\n어?　저　@D호,색이…",
+      "basis": "Restore the two witnessed companions, a plot clue distinguishing the two ships/worlds.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-1ae330",
+      "text": "안쪽　문까지　데려다　줘\n그리고　@G의　연락을　기다려",
+      "basis": "Restore the named sender of the signal in the escort instruction.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-1b3e9c",
+      "text": "『괴인　@B에게서\n빛의　열쇠를　지키기　위해…』",
+      "basis": "Restore the named opponent in the quoted account, plus the original unfinished quotation.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
+    },
+    {
+      "id": "dialogue-context-1b406c",
+      "text": "『괴인　@B에게서　훌륭하게\n되찾았습니다.그러나…』",
+      "basis": "Original 奪い返しました means recaptured, not simply took; retain the quoted opponent.",
+      "review": "source_context_reviewed_original_consumer_and_pixels_pending"
     }
   ]
 }
