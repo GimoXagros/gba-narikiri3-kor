@@ -35,6 +35,7 @@ def main():
             ('verify_name_import.py','name-import-verification.json',[]),
             ('verify_integrated_names.py','integrated-name-verification.json',[]),
             ('verify_ui_format.py','ui-verification.json',[]),
+            ('verify_trap_menu.py','trap-menu-verification.json',['--legacy',legacy_path]),
             ('verify_small_tables.py','small-tables-verification.json',[]),
             ('verify_nontext.py','nontext-verification.json',[]),
             ('verify_graphics_candidate_edges.py','graphics-candidate-edge-verification.json',[]),

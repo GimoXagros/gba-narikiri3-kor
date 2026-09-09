@@ -1,0 +1,97 @@
+{
+  "status": "REPLAY_AND_SAVE_CHECKS_PASS_VISUAL_INSPECTION_PENDING",
+  "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "separate_process_reload": true,
+  "ram_interventions": 0,
+  "phases": {
+    "first-save": {
+      "status": "REPLAY_AND_SAVE_CHECKS_PASS_VISUAL_INSPECTION_PENDING",
+      "phase": "first-save",
+      "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "core_version": "0.11-219-e31759b",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "ram_interventions": 0,
+      "input_save_sha256": null,
+      "save": {
+        "ok": true,
+        "frame": 19851,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\first-save\\first-save.sav",
+        "size": 8192,
+        "core_buffer_size": 8192,
+        "core_buffer_offset": 0,
+        "sha256": "03850ed91f3909aaf5f7daf8329bececb10e3917aceacb0e088ff3fa0da48752",
+        "fixture_modified": false
+      },
+      "save_validation": {
+        "game_checksum_valid": true,
+        "all_other_save_bytes_identical": true,
+        "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+        "play_timer_frames": 17733,
+        "timer_reference": 17733,
+        "timer_tolerance": 0,
+        "timer_delta_from_reference": 0,
+        "timing_claim": "Recorded, not an audio/performance equivalence claim",
+        "timing_evidence_sha256": "a9a45684b05fc713c6a5e6dd0e6914c09bd09a7c501cecdf878022228f87fec9"
+      },
+      "captures": [
+        {
+          "ok": true,
+          "frame": 19851,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\first-save\\first-save.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "d8eb5d944bed05061831e7a5ebc30e11f07c4f8da947933026f3c8481db118d3"
+        }
+      ]
+    },
+    "reload": {
+      "status": "REPLAY_AND_SAVE_CHECKS_PASS_VISUAL_INSPECTION_PENDING",
+      "phase": "reload",
+      "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "core_version": "0.11-219-e31759b",
+      "trace_sha256": "9710afc80a4e57b19b42afddfbdf04ab473aa10a8624050336250ff1aa78168e",
+      "ram_interventions": 0,
+      "input_save_sha256": "03850ed91f3909aaf5f7daf8329bececb10e3917aceacb0e088ff3fa0da48752",
+      "save": null,
+      "save_validation": null,
+      "captures": [
+        {
+          "ok": true,
+          "frame": 1465,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\reload\\reload.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "6e831b17bc9c1d77cc24e38ebb34a03b35124dc6e47000d0ddecaf8c168a31ad"
+        },
+        {
+          "ok": true,
+          "frame": 1581,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\reload\\items.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a6eb9baf84d462e437834ea0e1d04a1413cce9225c477a93fe9102f5939f260c"
+        },
+        {
+          "ok": true,
+          "frame": 1642,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\reload\\item-description.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "474dd36d3f281dfb8fb339a10d3b194a16fd8bca13a7ee308f8f715d9e601bae"
+        }
+      ]
+    }
+  },
+  "scope": "Normal opening inputs to first save, fresh-process reload, main menu and three starting items. No battle, branches, endings, all names, user saves or hardware claim."
+}

@@ -424,6 +424,36 @@
       "text": "%16g:스크롤 %1g:뒤로",
       "review": "source_and_call_inspected",
       "layout": "isolated_formatter_and_runtime_review_pending"
+    },
+    {
+      "id": "trap-menu-00",
+      "text": "덫",
+      "review": "pending",
+      "layout": "Original eight-cell five-row trap picker; CPU and later natural scenario review recorded separately"
+    },
+    {
+      "id": "trap-menu-01",
+      "text": "폭탄",
+      "review": "pending",
+      "layout": "Original eight-cell five-row trap picker; CPU and later natural scenario review recorded separately"
+    },
+    {
+      "id": "trap-menu-02",
+      "text": "독 덫",
+      "review": "pending",
+      "layout": "Original eight-cell five-row trap picker; CPU and later natural scenario review recorded separately"
+    },
+    {
+      "id": "trap-menu-03",
+      "text": "깜짝 폭탄",
+      "review": "pending",
+      "layout": "Original eight-cell five-row trap picker; CPU and later natural scenario review recorded separately"
+    },
+    {
+      "id": "trap-menu-04",
+      "text": "종료",
+      "review": "pending",
+      "layout": "Original eight-cell five-row trap picker; CPU and later natural scenario review recorded separately"
     }
   ]
 }

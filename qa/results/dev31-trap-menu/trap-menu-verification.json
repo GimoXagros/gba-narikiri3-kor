@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+  "translated_trap_entries": 5,
+  "actual_list_initial_output_calls": 10,
+  "whole_map_pixel_bytes_per_mode": 32768,
+  "independent_hangul_pixels": true,
+  "original_cursor_and_wrap_cases": 24,
+  "original_budget_and_finish_cases": 4,
+  "images": [
+    {
+      "file": "trap-menu-mode-0.png",
+      "sha256": "0353ec8d435a5ced434129c18c36c540636e2ae9505a785ab77ac994e93dbd94"
+    },
+    {
+      "file": "trap-menu-mode-1.png",
+      "sha256": "86432fa6a82ca5de4e3daeb41a26393dd75f6e1ed8cece7171aaed17089d0750"
+    }
+  ],
+  "scope": "Original list allocator/renderer/cursor and trap budget/finish logic. Independent Hangul bitmap comparison. Interactive chooser, placement and unrelated output are substituted only in budget cases; not normal access to these later story scenarios."
+}

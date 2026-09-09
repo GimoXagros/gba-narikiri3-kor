@@ -1,0 +1,51 @@
+{
+  "status": "EXPECTED_SCREENS_OBSERVED",
+  "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "observer": "Codex direct image review",
+  "captures": [
+    {
+      "ok": true,
+      "frame": 19851,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\first-save\\first-save.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "d8eb5d944bed05061831e7a5ebc30e11f07c4f8da947933026f3c8481db118d3"
+    },
+    {
+      "ok": true,
+      "frame": 1465,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\reload\\reload.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "6e831b17bc9c1d77cc24e38ebb34a03b35124dc6e47000d0ddecaf8c168a31ad"
+    },
+    {
+      "ok": true,
+      "frame": 1581,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\reload\\items.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "a6eb9baf84d462e437834ea0e1d04a1413cce9225c477a93fe9102f5939f260c"
+    },
+    {
+      "ok": true,
+      "frame": 1642,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-mgba-smoke\\reload\\item-description.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "474dd36d3f281dfb8fb339a10d3b194a16fd8bca13a7ee308f8f715d9e601bae"
+    }
+  ],
+  "same_core_dev30_four_images_byte_identical": true,
+  "same_core_dev30_eeprom_byte_identical": true,
+  "observed": "All four captures directly viewed: save completed with Julio/Caro, Minacle town and 0:04; fresh-process menu shows HP600/TP100; starting items Life Bottle 1, Panacea Bottle 5, Apple Gummy 5; Life Bottle description is legible. This smoke route does not reach the newly translated trap menu. No audio audition."
+}
