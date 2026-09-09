@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "selection": "One-cell Hangul labels for the eight original elemental symbols. ID 8 remains the original empty no-attribute result. Never alter gameplay IDs or rates.",
+  "records": [
+    {"id": 0, "source_symbol": "元", "meaning": "원소", "compact": "원"},
+    {"id": 1, "source_symbol": "闇", "meaning": "어둠", "compact": "암"},
+    {"id": 2, "source_symbol": "光", "meaning": "빛", "compact": "광"},
+    {"id": 3, "source_symbol": "雷", "meaning": "번개", "compact": "뇌"},
+    {"id": 4, "source_symbol": "地", "meaning": "땅", "compact": "지"},
+    {"id": 5, "source_symbol": "水", "meaning": "물", "compact": "수"},
+    {"id": 6, "source_symbol": "風", "meaning": "바람", "compact": "풍"},
+    {"id": 7, "source_symbol": "火", "meaning": "불", "compact": "화"}
+  ]
+}

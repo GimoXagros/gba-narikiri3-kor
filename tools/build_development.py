@@ -22,7 +22,7 @@ def main():
         '--default-names',ROOT/'translations/default_names.json','--simple-hook',
         '--lexicon',ROOT/'translations/items-monsters.json','--ui',ROOT/'translations/ui.json',
         '--small-tables',ROOT/'translations/small_tables.json','--dialogue-fixes',ROOT/'translations/dialogue_fixes.json',
-        '--recipes',ROOT/'translations/recipes.json','--battle-captions',ROOT/'translations/battle_captions.json','--name-keyboard','--skill-headers','--biographies','--clothing-results','--save-places','--notices','--inspect-eye'])
+        '--recipes',ROOT/'translations/recipes.json','--battle-captions',ROOT/'translations/battle_captions.json','--name-keyboard','--skill-headers','--biographies','--clothing-results','--save-places','--notices','--inspect-eye','--element-symbols'])
     # Reconstruct the immutable legacy input solely for the comparison fixture.
     from survey_rom import ips_records
     legacy=bytearray(j.read_bytes());records,trunc=ips_records(ips.read_bytes())
@@ -50,6 +50,7 @@ def main():
             ('verify_save_places.py','save-place-verification.json',['--legacy',legacy_path]),
             ('verify_notices.py','notice-verification.json',['--legacy',legacy_path]),
             ('verify_inspect_eye.py','inspect-eye-verification.json',['--legacy',legacy_path]),
+            ('verify_element_symbols.py','element-symbol-verification.json',['--legacy',legacy_path]),
             ('verify_auxiliary_exclusions.py','auxiliary-exclusion-verification.json',[])]
     for script,filename,extra in checks:run(script,['--rom',rom,'--out',out/filename,*extra])
     files=[*sorted((ROOT/'tools').glob('*.py')),*sorted((ROOT/'source').glob('*')),

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "scope": "Eight elemental symbols of affine resource 440; only font bank entry 282 changes. Other element consumers remain separate.",
+  "bank": "0xd4524c",
+  "bank_entry": "0xd456b8",
+  "font_offset": "0xd86384",
+  "font_stored_span": 7972,
+  "font_decoded_bytes": 15360,
+  "font_sha256": "6743cc8a4c764998bb8087201dd62e204702c2ab8f9bb2d86a46fae8bb330fbd",
+  "affine_resource_table": "0x1448e4",
+  "affine_resource_count": 86,
+  "affine_resource_stride": 8,
+  "affine_resource_table_sha256": "9cda37dd2c7a79b66474b95510404ff9dfe72a68f2f68a63cc2ff31a8b2b6cca",
+  "records": [
+    {
+      "id": 0,
+      "symbol": "元",
+      "byte_code": "0x80",
+      "tile": 187,
+      "tile_sha256": "0ddd83a409398dedcfd6b1243df7bd7c55198318638bc7bc2248d13f1290cb11"
+    },
+    {
+      "id": 1,
+      "symbol": "闇",
+      "byte_code": "0x81",
+      "tile": 188,
+      "tile_sha256": "013f41550a4a742b14f54a16b2ccfda126c2668ba54c9163ff69a6a0da96ca90"
+    },
+    {
+      "id": 2,
+      "symbol": "光",
+      "byte_code": "0x82",
+      "tile": 189,
+      "tile_sha256": "d427f61fe3a129f5d4a1bdf4f199f0bf1ba0dc3768a08b23222da1918ed57c91"
+    },
+    {
+      "id": 3,
+      "symbol": "雷",
+      "byte_code": "0x83",
+      "tile": 190,
+      "tile_sha256": "15923c6810fb704611f7cf339e7b4054591e8a938bcc932f75e9538a679a5238"
+    },
+    {
+      "id": 4,
+      "symbol": "地",
+      "byte_code": "0x84",
+      "tile": 191,
+      "tile_sha256": "6d1c10030dd00abc40ff21111047801c48b22cbff21daa657235616c4ac63e3c"
+    },
+    {
+      "id": 5,
+      "symbol": "水",
+      "byte_code": "0x85",
+      "tile": 192,
+      "tile_sha256": "1ab546c9d424b66a435766296d2e86c7f8d9da189fec0bfc5f6e2c037d62cbe5"
+    },
+    {
+      "id": 6,
+      "symbol": "風",
+      "byte_code": "0x86",
+      "tile": 193,
+      "tile_sha256": "e826d4fc47f7344839983faf3bb65dc77f6872dd317adbcb565035003646ba20"
+    },
+    {
+      "id": 7,
+      "symbol": "火",
+      "byte_code": "0x87",
+      "tile": 194,
+      "tile_sha256": "40b4988c79deea6d50a9fbf692ce40b188ba3cb2f7a85a1e0bf58a0df990738e"
+    }
+  ]
+}

@@ -30,6 +30,7 @@ def main():
     p.add_argument('--save-places',action='store_true')
     p.add_argument('--notices',action='store_true')
     p.add_argument('--inspect-eye',action='store_true')
+    p.add_argument('--element-symbols',action='store_true')
     a=p.parse_args();j=a.j.read_bytes();ips=a.ips.read_bytes()
     if sha(j)!=J or sha(ips)!=IPS:raise ValueError('Unsupported input')
     legacy=bytearray(j);records,trunc=ips_records(ips)
@@ -303,6 +304,13 @@ def main():
         run('objcopy',['-O','binary','--only-section=.text',a.out/'inspect-eye.elf',a.out/'inspect-eye.bin'])
         inspection_writes,inspection_info=install_inspection(legacy,extension,(a.out/'inspect-eye.bin').read_bytes())
         writes.extend(inspection_writes)
+    element_info=None
+    if a.element_symbols:
+        if not a.inspect_eye:
+            raise ValueError('Element symbol translation requires the inspection renderer')
+        from element_symbols import install as install_elements
+        element_writes,element_info=install_elements(legacy,extension,glyphs)
+        writes.extend(element_writes)
     notice_info=None
     if a.notices:
         from notice_text import install as install_notices
@@ -347,6 +355,10 @@ def main():
     report['save_places']=save_place_info
     report['notice_text']=notice_info
     report['inspect_eye']=inspection_info
+    report['element_symbols']=element_info
+    if a.element_symbols:
+        for name in ['source/element_symbol_profile.json','translations/element_symbols.json','tools/element_symbols.py','tools/gba_rle.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
     if a.inspect_eye:
         for name in ['source/inspect_eye.s','source/inspect_eye_profile.json','translations/inspect_eye.json','tools/inspect_eye.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())

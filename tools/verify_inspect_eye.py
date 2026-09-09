@@ -70,7 +70,8 @@ def main():
         off = int(resource['offset'], 0)
         if rom[off:off + resource['size']] != old[off:off + resource['size']]:
             raise ValueError('Original inspection graphics changed')
-    atlas = unpack_rle(rom, 0xd86384)
+    font_at = 0xd4524c + struct.unpack_from('<I', rom, 0xd456b8)[0]
+    atlas = unpack_rle(rom, font_at)
     if len(atlas) != 240 * 64 or rom[0xd882e8:0xd882ec] != bytes([15, 9, 6, 0]):
         raise ValueError('Inspection spare-tile geometry differs')
     source_map = rom[0xd882ec:0xd882ec + 15 * 9 * 6]
