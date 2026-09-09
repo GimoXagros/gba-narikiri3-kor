@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": "attack",
+      "text": "공격:"
+    },
+    {
+      "id": "resistance",
+      "text": "내성:"
+    },
+    {
+      "id": "weakness",
+      "text": "약점:"
+    }
+  ]
+}

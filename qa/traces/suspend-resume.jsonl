@@ -1,0 +1,9 @@
+{"request": {"op": "frames", "count": 900}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 300}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 400}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
