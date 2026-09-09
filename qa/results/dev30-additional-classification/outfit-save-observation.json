@@ -1,0 +1,52 @@
+{
+  "status": "SCOPED_NORMAL_OUTFIT_SAVE_RELOAD_OBSERVED",
+  "rom_sha256": "99f8d80a2ca26720a430a253cbccbd90438edb61405b78317fff83428cd83a2a",
+  "save_sha256": "128c85481e583c1e2f74b20974097599ae15446dabf01977a1aaf89e14eb0d80",
+  "ram_interventions": 0,
+  "scope": "First-mission turn 7 after first battle victory; normal Julio swordsman/Caro fighter outfit changes and suspend save on mGBA, separate processes reloaded this exact ordinary EEPROM on mGBA and VBA Next. Whole mission and crafting not complete.",
+  "captures": [
+    {
+      "core": "mgba",
+      "file": "outfit-suspend-resumed-30.png",
+      "sha256": "b8a29bd254354959694844eb1be1b2273b4c5ce1b2b741a6acdc02e797819814"
+    },
+    {
+      "core": "mgba",
+      "file": "resumed-clothes-30.png",
+      "sha256": "0aff696b37ebd2c7d982dec4750b460561190f75b92b3390937f84f785ae6f3c"
+    },
+    {
+      "core": "vba",
+      "file": "outfit-suspend-resumed-30.png",
+      "sha256": "440e444c3c2ad03a56ac28536d70b55aa2148a53785a2282d9a66e623f924018"
+    },
+    {
+      "core": "vba",
+      "file": "resumed-clothes-30.png",
+      "sha256": "e0f391a7e5dbaee0861bcc9cedf3f48bb83cb35e545e76490dfec741a86e55c4"
+    }
+  ],
+  "core_sha256": {
+    "mgba": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+    "vba": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372"
+  },
+  "observed_values": {
+    "Julio": {
+      "outfit": "검사",
+      "level": 1,
+      "hp": 600,
+      "tp": 86
+    },
+    "Caro": {
+      "outfit": "격투가",
+      "level": 1,
+      "hp": 600,
+      "tp": 90
+    }
+  },
+  "source_capture_sha256": {
+    "caro-fighter-equipped-30": "260d39d2e296ac36c53ce1df83385f79d47009f7dd6904bf84853bb42d83c1fe",
+    "checkpoint-outfits-saved-30": "862590a557e4a400e0b10dd41228fb5b94708f18dd670009c1a37309332405fc",
+    "suspend-finished-title-30": "3f94698a0a89b5c5b71e0ecf0b6cf8a03cdec9234bc28d4ee3ebdafd89959824"
+  }
+}

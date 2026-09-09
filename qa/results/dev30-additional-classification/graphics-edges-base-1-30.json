@@ -1,0 +1,57 @@
+{
+  "status": "SCOPED_GRAPHICS_EDGE_CLASSIFICATION_PASS",
+  "rom_sha256": "8440f3e3db46c474c81cf84098798f07ab91aa13d48431c523c309a0af363010",
+  "false_pointer_edges": [
+    {
+      "edge": "0xe483b4",
+      "pointer_shaped_word": "0x8107ab7",
+      "stream": "0xe466d0",
+      "encoded_byte_roles": [
+        "literal",
+        "literal",
+        "back_reference_high",
+        "back_reference_low"
+      ],
+      "encoded_bytes": 12643,
+      "decoded_bytes": 33867,
+      "actual_cpu_route": [
+        [
+          "bank_lookup",
+          149186232,
+          0
+        ],
+        [
+          "bios_lz77_vram",
+          149186256,
+          100663296
+        ]
+      ]
+    },
+    {
+      "edge": "0xe050a0",
+      "pointer_shaped_word": "0x810b704",
+      "stream": "0xe03eb8",
+      "encoded_byte_roles": [
+        "back_reference_low",
+        "flags",
+        "back_reference_high",
+        "back_reference_low"
+      ],
+      "encoded_bytes": 17317,
+      "decoded_bytes": 33873,
+      "actual_cpu_route": [
+        [
+          "bank_lookup",
+          148913824,
+          0
+        ],
+        [
+          "bios_lz77_vram",
+          148913848,
+          100663296
+        ]
+      ]
+    }
+  ],
+  "scope": "Original field caller -> B076C -> B06A4 -> 3444 -> 33F4 -> BIOS LZ77 VRAM entry, stopped before BIOS. Stream decoding independently checks exact bounded bytes. Synthetic context only, no normal gameplay claim. Only these two pointer-shaped words are classified; other references to their target strings are not excluded."
+}

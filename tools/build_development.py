@@ -37,6 +37,7 @@ def main():
             ('verify_ui_format.py','ui-verification.json',[]),
             ('verify_small_tables.py','small-tables-verification.json',[]),
             ('verify_nontext.py','nontext-verification.json',[]),
+            ('verify_graphics_candidate_edges.py','graphics-candidate-edge-verification.json',[]),
             ('verify_name_expansion.py','name-expansion-verification.json',[]),
             ('verify_dialogue_resource.py','dialogue-resource-verification.json',['--j',j,'--legacy',legacy_path]),
             ('verify_dialogue_pixels.py','dialogue-pixel-verification.json',['--legacy',legacy_path,'--all-records','--j',j]),

@@ -1,0 +1,9 @@
+{
+  "scope": "Additional read-only classification on already-built dev30; does not replace its frozen build or package. ROM output is unchanged.",
+  "files": {
+    "tools/verify_auxiliary_exclusions.py": "7c4643822edeb40e3d859ca54b4b8439126dfbdf33e7c3f21fdb73a451c3d35e",
+    "source/auxiliary_exclusion_profile.json": "2aee536ce5193beed2dd6ee85022d1627b53f8c14c886b2e9b6544c2c0b6cfa9",
+    "tools/verify_graphics_candidate_edges.py": "61cda9be1d0b27e522fe9b9fa2a357c60651920ef09994c0e51c585a0a8a6509",
+    "source/graphics_candidate_edge_profile.json": "c1bd07c0d0d5c85d6bab16e1e946fa2c06f9d45f62494e78381649e85a6032f6"
+  }
+}

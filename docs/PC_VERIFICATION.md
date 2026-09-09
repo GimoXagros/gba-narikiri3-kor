@@ -92,3 +92,8 @@ ROM SHA-256 `99f8d80a2ca26720a430a253cbccbd90438edb61405b78317fff83428cd83a2a`�
 `output/v1.1a-dev30-{mgba,vba}-smoke`의 runtime/visual-observation 기록과 dev30-verified의 post-build-runtime-evidence에 연결했다. 관찰된 시간 프로필은 빌드 완료 후 추가한 것으로 원래 reproduction.json을 덮어쓰지 않는다. 초기 아이템은 이번에 의미를 고친 후반 아이템 35개의 정상 획득 증거가 아니다.
 
 앞선 dev28의 첫 임무 진행은 여러 전투/탈출 뒤 주인공 팀 전멸에 따른 미션 실패로 끝났다. 해당 실패 화면과 정상 입력 기록을 보존했고 에뮬레이터 오류나 임무 완료로 분류하지 않았다. dev30은 건강한 첫 저장에서 임무 진행을 다시 검증 중이다.
+# dev30 의상 변경 후 중단 저장 추가 확인
+
+정확한 dev30(SHA-256 `99f8d80a2ca26720a430a253cbccbd90438edb61405b78317fff83428cd83a2a`)의 첫 임무 7턴에서 첫 전투를 이긴 뒤, 정상 입력으로 훌리오를 검사·캐로를 격투가로 변경했다. mGBA에서 ‘중단 데이터 저장완료’와 전원 종료 안내까지 관찰하고 8192바이트 EEPROM을 내보냈다. SHA-256은 `128c85481e583c1e2f74b20974097599ae15446dabf01977a1aaf89e14eb0d80`이다.
+
+이 저장을 mGBA와 VBA Next의 별도 새 프로세스에 각각 불러왔다. 필드 재개 및 다시 연 의상 화면 4장을 직접 확인했다. 양쪽 모두 훌리오 검사 LV1 HP600 TP86, 캐로 격투가 LV1 HP600 TP90이다. RAM 변경과 즉시 저장 상태 가져오기는 0회다. 옷 변경·저장·재로드의 증거이며 정상 의상 제작, 첫 임무 완료나 전편 호환 검증은 아니다. `qa/results/dev30-additional-classification/outfit-save-observation.json`에 코어·저장·이미지 해시와 관찰 범위를 기록했다.

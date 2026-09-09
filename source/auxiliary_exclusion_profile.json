@@ -20,10 +20,84 @@
     {
       "offset": "0x1127a8",
       "hex": "30271108a9c600083827110871c700084027110811c8000844271108d1c900084c27110839ca00085427110819c9000860271108edc800086827110899ca000870271108edca00087827110871c8000884271108adc8000890271108d5cb00089827110835c80008a027110855c900080000000000000000"
+    },
+    {
+      "offset": "0xc9d0",
+      "hex": "70b582b011480068f030066801256d420220012104220e4bf8f742f8041cac421cd00a2000900b4801900220012110220a23f8f7a3f8a842ead0311c90310919054a8000801800680870e1e7a031000298037c0899c90008ac037c08002002b070bc02bc08470000"
+    },
+    {
+      "offset": "0xca98",
+      "hex": "30b501256d420220012104220c4bf7f7e3ff041cac4219d0022001210522094bf7f7daff021caa42edd007480068a10082235b00c01840180068f5300270e2e7e4037c08f4037c08a0310002002030bc02bc0847"
+    },
+    {
+      "offset": "0x7c0398",
+      "hex": "6036110854361108483611083c361108000000001c0000001d0000001e0000001f00000020000000210000002200000023000000240000002500000080361108743611086c36110800000000c42a1108bc2a1108b42a110800000000ac361108a43611089c361108903611088836110800000000c42a1108bc2a1108b42a110800000000"
+    },
+    {
+      "offset": "0x11363c",
+      "hex": "bcc0202b2042cedec0dd0000d0b7de2b2042cedec0dd0000b3b4202b2042cedec0dd0000202020202042cedec0dd00006175746f0000000073656d69206175746f0000006d616e75616c0000b5cfb6be000000005450b1cfd8c2b6b3c5000000cfdcd8a6cfd3da005450b7c6bdd9c5005450c2b6b3c50000"
     }
   ],
   "preserved_table_start": "0x7bf9f0",
   "preserved_table_end": "0x7bfd58",
   "preserved_table_sha256": "fe30b0c793d9f02d0c32d4711f139990a5740f562181efa6b2420b61f5d8cfcc",
-  "scope": "Additional tables owned by previously verified inaccessible fifth ordinary battle-menu action, and a hardware error branch guarded by an unconditional success return. Scoped ordinary execution only."
+  "scope": "Additional tables owned by previously verified inaccessible fifth ordinary battle-menu action, and a hardware error branch guarded by an unconditional success return. Scoped ordinary execution only.",
+  "editor_leaf_tables": [
+    {
+      "table": "0x7c0398",
+      "count": 4,
+      "consumer": "0xc9d0",
+      "guarded_internal_action_index": 3,
+      "action_pointer": "0x800c9d1",
+      "table_sha256": "8a76eb70b9122f53fa89b8ae92368bd00667ffabe663781fb6a29a2d11bff8f4",
+      "strings": [
+        {
+          "offset": "0x113660",
+          "hex": "202020202042cedec0dd"
+        },
+        {
+          "offset": "0x113654",
+          "hex": "b3b4202b2042cedec0dd"
+        },
+        {
+          "offset": "0x113648",
+          "hex": "d0b7de2b2042cedec0dd"
+        },
+        {
+          "offset": "0x11363c",
+          "hex": "bcc0202b2042cedec0dd"
+        }
+      ]
+    },
+    {
+      "table": "0x7c03f4",
+      "count": 5,
+      "consumer": "0xca98",
+      "guarded_internal_action_index": 7,
+      "action_pointer": "0x800ca99",
+      "table_sha256": "e840f8272909ecded4971827827ef790ecb03de5dd38002f8558d0bcc481cbbf",
+      "strings": [
+        {
+          "offset": "0x1136ac",
+          "hex": "5450c2b6b3c5"
+        },
+        {
+          "offset": "0x1136a4",
+          "hex": "5450b7c6bdd9c5"
+        },
+        {
+          "offset": "0x11369c",
+          "hex": "cfdcd8a6cfd3da"
+        },
+        {
+          "offset": "0x113690",
+          "hex": "5450b1cfd8c2b6b3c5"
+        },
+        {
+          "offset": "0x113688",
+          "hex": "b5cfb6be"
+        }
+      ]
+    }
+  ]
 }

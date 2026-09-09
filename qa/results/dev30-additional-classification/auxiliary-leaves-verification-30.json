@@ -1,0 +1,19 @@
+{
+  "status": "SCOPED_INACTIVE_PATH_CLASSIFICATION_PASS",
+  "rom_sha256": "99f8d80a2ca26720a430a253cbccbd90438edb61405b78317fff83428cd83a2a",
+  "preserved_internal_action_labels": 14,
+  "original_action_dispatch_cases": 14,
+  "preserved_actor_alias_entries": 93,
+  "series_entries": 8,
+  "original_actor_selection_and_cancel_cases": 102,
+  "hardware_constant_success_cases": 5,
+  "scope": "Internal C550 actions and C6A8->C5FC actor lists are owned by the already guarded fifth ordinary battle action; CPU picker and leaf-action stubs only. 4CBC always returns 1, so 4CC0 skips its Japanese hardware-error message. No ROM bytes changed; not a proof about cheats, arbitrary memory modification, all hidden entry points or entire text population.",
+  "editor_leaf_verification": {
+    "preserved_labels": 9,
+    "b_button_assign_and_cancel_cases": 45,
+    "strategy_assign_and_cancel_cases": 19,
+    "actual_leaf_picker_calls": 188,
+    "whole_actor_guard_bytes_per_case": 1536,
+    "scope": "Original C9D0/CA98 bodies, table identity, assignment bytes and cancellation. Only interactive pickers substituted. Their ownership is the guarded C550 internal editor; not a claim about every hidden entry point."
+  }
+}

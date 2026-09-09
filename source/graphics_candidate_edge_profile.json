@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "scope": "Only two pointer-shaped words within compressed field graphics; no change to ROM and no statement that every reference to the target strings is false.",
+  "guards": [
+    {
+      "offset": "0xbfb18",
+      "hex": "10b582b0041c1d480221009104210191002101220323f0f71dfef0f7"
+    },
+    {
+      "offset": "0xbfb94",
+      "hex": "b866e408"
+    },
+    {
+      "offset": "0xb7940",
+      "hex": "70b582b0061c21480225009504210191002101220323f8f709ff"
+    },
+    {
+      "offset": "0xb79cc",
+      "hex": "a03ee008"
+    },
+    {
+      "offset": "0xb06a4",
+      "hex": "70b556464d46444670b42e4881460668302189198846306b097952f7c1fec021c90452f795fe"
+    },
+    {
+      "offset": "0xb0768",
+      "hex": "7c330002f0b5059e069f074c25682c1c30342863002021716271a371e67127726072f0bc01bc00477c330002"
+    },
+    {
+      "offset": "0x3444",
+      "hex": "00b5021c1068884205dd8800111d09180868101800e0002002bc0847"
+    },
+    {
+      "offset": "0x33f4",
+      "hex": "00b5021c10680006000f012802d0032804d006e0101cdaf019f802e0101cdaf01bf801bc0047"
+    },
+    {
+      "offset": "0xdd440",
+      "hex": "12df7047"
+    }
+  ],
+  "banks": [
+    {
+      "bank": "0xe466b8",
+      "count": 5,
+      "header_hex": "05000000180000007c310000d03200000c4300005c590000",
+      "entry": 0,
+      "start": "0xe466d0",
+      "limit": "0xe49834",
+      "code_entry": "0xbfb18",
+      "edge": "0xe483b4",
+      "word": "0x8107ab7",
+      "encoded_bytes": 12643,
+      "encoded_sha256": "2d45e17cc915265d810e8e451cdd2440af6d0af6785da4668811e8e6309e3775",
+      "decoded_bytes": 33867,
+      "decoded_sha256": "185f71a86b6c412e8ed231d96f7d8ff86c11cd6e347de520b679238ca92cf4e2",
+      "destination": "0x06000000"
+    },
+    {
+      "bank": "0xe03ea0",
+      "count": 5,
+      "header_hex": "0500000018000000c043000010450000004e000030610000",
+      "entry": 0,
+      "start": "0xe03eb8",
+      "limit": "0xe08260",
+      "code_entry": "0xb7940",
+      "edge": "0xe050a0",
+      "word": "0x810b704",
+      "encoded_bytes": 17317,
+      "encoded_sha256": "e12d8889fda9010b7dbad92291ffec0852a99fc0178a5784fe35e5e2c4da9564",
+      "decoded_bytes": 33873,
+      "decoded_sha256": "7cd45927bc5a4e35b5e4c23f06a9927cb0b28b15211d0ec897f8addcb1e07cf8",
+      "destination": "0x06000000"
+    }
+  ]
+}
