@@ -66,7 +66,7 @@ def main():
     (a.out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
     for name,data in checks.items():(a.out/name).write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
     for src,dest in [('tools/apply_development.py','apply_development.py'),('tools/bps.py','bps.py'),('fonts/LICENSE.dalmoori','LICENSE.dalmoori'),('docs/LICENSE.nd2-tools','LICENSE.nd2-tools'),('CREDITS.md','CREDITS.md'),('docs/REVIEW_README.md','먼저_읽어주세요.md')]:shutil.copyfile(ROOT/src,a.out/dest)
-    archive=a.out.with_suffix('.zip')
+    archive=a.out.parent/(a.out.name+'.zip')
     with zipfile.ZipFile(archive,'x',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for path in sorted(a.out.iterdir()):z.write(path,path.name)
     report={'patch':str(a.out/patch_name),'patch_bytes':len(patch),'zip':str(archive),'zip_bytes':archive.stat().st_size,'zip_sha256':sha(archive.read_bytes()),'target_sha256':sha(target),'status':manifest['status']}
