@@ -43,6 +43,7 @@ def main():
             ('verify_name_expansion.py','name-expansion-verification.json',[]),
             ('verify_dialogue_resource.py','dialogue-resource-verification.json',['--j',j,'--legacy',legacy_path]),
             ('verify_dialogue_pixels.py','dialogue-pixel-verification.json',['--legacy',legacy_path,'--all-records','--j',j]),
+            ('verify_dialogue_audit.py','dialogue-audit-verification.json',['--legacy',legacy_path,'--j',j]),
             ('verify_recipes.py','recipe-verification.json',['--legacy',legacy_path]),
             ('verify_battle_captions.py','battle-caption-verification.json',['--legacy',legacy_path]),
             ('verify_name_keyboard.py','name-keyboard-verification.json',['--legacy',legacy_path]),
@@ -61,7 +62,7 @@ def main():
             ('verify_auxiliary_exclusions.py','auxiliary-exclusion-verification.json',[])]
     for script,filename,extra in checks:run(script,['--rom',rom,'--out',out/filename,*extra])
     files=[*sorted((ROOT/'tools').glob('*.py')),*sorted((ROOT/'source').glob('*')),
-           *sorted((ROOT/'translations').glob('*.json')),ROOT/'fonts/dalmoori-wansung.json',ROOT/'requirements-dev.txt',ROOT/'project.json']
+           *sorted((ROOT/'translations').glob('*.json')),ROOT/'fonts/dalmoori-wansung.json',ROOT/'requirements-dev.txt',ROOT/'project.json',ROOT/'qa/dialogue-review-v1.1a.json']
     provenance={'status':'ISOLATED_CPU_CHECKS_PASS_RUNTIME_AND_REVIEW_SEPARATE',
                 'python':platform.python_version(),'packages':{n:version(n) for n in ['pillow','numpy','capstone','fonttools','unicorn']},
                 'toolchain':{name:hashlib.sha256((tc/f'arm-none-eabi-{name}.exe').read_bytes()).hexdigest() for name in ['as','ld','objcopy','objdump','nm']},

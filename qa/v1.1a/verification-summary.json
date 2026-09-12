@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "version": "1.1a",
+  "claim": "Experimental prerelease; source comparison of known dialogue, isolated original-code checks, scoped PC save/reload/menu observation. Not full-game or all-platform certification.",
+  "target_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869",
+  "verified_checks": {
+    "auxiliary-exclusion-verification.json": {
+      "status": "SCOPED_INACTIVE_PATH_CLASSIFICATION_PASS",
+      "sha256": "39d8b17a375317e48b0fd1efbe87cb40dbccea0f17bef2e35d5fe9f74f9fad1b",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "battle-caption-verification.json": {
+      "status": "PASS",
+      "sha256": "8729bb8cdd578991ab5d804f3f05b0f51af402c2b58404029280f363e52804c2",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "biography-verification.json": {
+      "status": "PASS",
+      "sha256": "192442971e86508a5add7560658e2c9103a17203579e42bbbd81dc30ff282996",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "cache-replacement-verification.json": {
+      "status": "PASS",
+      "sha256": "8839bd992416cc1f2565d60b2ebb8707e79e731e2a67b204bf6bc2327796f3f8",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "clothing-result-verification.json": {
+      "status": "PASS",
+      "sha256": "5fe6c7dbc704813eb9743a1085ab3e20081da6db9a919c81bfde55a7541f27f9",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "consumer-verification.json": {
+      "status": "PASS",
+      "sha256": "ce7824a89c976358de81b2c9dadd281da2a2325125f6299909699a417b023509",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "costume-label-verification.json": {
+      "status": "PASS",
+      "sha256": "a7871b716a465f669832fa24dd0987d4238c5b4be2162966541ef05775d56c39",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "dialogue-audit-verification.json": {
+      "status": "PASS",
+      "sha256": "36e0b692fb721c91d607225b5990fb18f72e8b46e2af4fb76c54878d6fc9c50e",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "dialogue-pixel-verification.json": {
+      "status": "PASS",
+      "sha256": "8f1369b31f84ddd6e6a9aec717214bd8779f44cbc97541d98a4fe1d6039ece0a",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "dialogue-resource-verification.json": {
+      "status": "PASS",
+      "sha256": "187db9aca0bcb9475a52652dd322a697a67fa5125f178a72b623d15b6ddff30f",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "element-symbol-verification.json": {
+      "status": "PASS",
+      "sha256": "2475a98670f5123bcb876b8a8cc3c266b6b0b9cfed61746cc1c2468cd77e102c",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "graphics-candidate-edge-verification.json": {
+      "status": "SCOPED_GRAPHICS_EDGE_CLASSIFICATION_PASS",
+      "sha256": "3b0de7cdf9c7ee1c30003e8b92b98617f66d27c02de4ae6a0da633c918d92440",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "inspect-eye-verification.json": {
+      "status": "PASS",
+      "sha256": "72fa2384f6a115fe529d15fa01e511f0ad60eba31f7711b70545fd7b11c80064",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "integrated-name-verification.json": {
+      "status": "PASS",
+      "sha256": "aa6d45efe8f938f9fff9a739509c1ff03558845dc6e6c9a132ca385a8e9ce5f2",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "internal-battle-menu-verification.json": {
+      "status": "PASS",
+      "sha256": "23e08e2beebe3208d68e150e8dbcf270a7d963cdaa7215418df1309b0deb9acc",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "item-description-pixel-verification.json": {
+      "status": "PASS",
+      "sha256": "9d5d22ccdb6d75e8cb3f6f79356d1e30267f00adb714cd781f837ad325f7cf55",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "name-expansion-verification.json": {
+      "status": "PASS",
+      "sha256": "1a37ed8d46ca1330244aab22aa0b7b1efa1513258b6a5a92915012b9706839c2",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "name-import-verification.json": {
+      "status": "PASS",
+      "sha256": "a019444b9ef666aed59ef94c339d9a5e1879bbfd712bb3b26c9a4acd164d6e22",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "name-keyboard-verification.json": {
+      "status": "PASS",
+      "sha256": "0bef71d7ac97a7828a86476e5794440fff861c262bc88457d4fc0546e97893e3",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "nontext-verification.json": {
+      "status": "PROTECTED_NON_TEXT_IDENTICAL",
+      "sha256": "195a92697ee821890660683cb5e411d1851192464be59caff0d9c1864bbffa62",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "notice-verification.json": {
+      "status": "PASS",
+      "sha256": "339ea5fc3ab9de7923810098bd0d8ec4bb58c7b490daa0352a07dbfbeb8a9ed4",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "recipe-verification.json": {
+      "status": "PASS",
+      "sha256": "1a946ec067466dfe9a6e4739d7f0ab9b902af488ed20d1b2607eead026911a1a",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "save-place-verification.json": {
+      "status": "PASS",
+      "sha256": "14c90cea915ff91a7687c4d054e308b0856829b541654d357f3a047f65b8d357",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "simple-consumer-verification.json": {
+      "status": "PASS",
+      "sha256": "6ef3a37299ea46bb56519b9063051b0ab0c380db8d90f8410e1af15e9cc06928",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "skill-header-verification.json": {
+      "status": "PASS",
+      "sha256": "bd162f2b00e75a65d36eb47854a14c0ff58742a97ad7181bb7fe6c2c707fcbf1",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "skill-text-verification.json": {
+      "status": "PASS",
+      "sha256": "ffcb6df3b8d7b984fe5827b59041e28bdecca4c1d2513d18e4fbb8610922e489",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "small-tables-verification.json": {
+      "status": "PASS",
+      "sha256": "20f17c86a22f86ec11373e4f0a40fccc4cba68d2bc2125528481019a8bbf3307",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "splash-credit-verification.json": {
+      "status": "PASS",
+      "sha256": "ce858c7999e053d6a212703f409e0ff2341911e2ae4fec507324e916b8597929",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "trap-menu-verification.json": {
+      "status": "PASS",
+      "sha256": "474c4fcdb14f9611371be8d579e25757b588d638adc44ba8d750f40641e42d84",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    },
+    "ui-verification.json": {
+      "status": "PASS",
+      "sha256": "7c46257fb63cbbdaa8ce505642bef2cbccc19e745ab269373e9958b16ddedc7c",
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+    }
+  },
+  "pc_cores": {
+    "mgba": {
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "core_version": "0.11-219-e31759b",
+      "ram_interventions": 0,
+      "separate_process_reload": true,
+      "save_sha256": "312bb57555b6d405d235d1affe240b29fedc0c73ddfa1e125607efb37d94e6c2",
+      "observations": [
+        "저장 완료 표시와 주인공 이름, LV1, 저장 장소 미나쿠 마을이 보임",
+        "별도 실행에서 저장을 불러온 뒤 편성 메뉴, 훌리오/캐로와 HP600 TP100이 보임",
+        "아이템 목록에 라이프보틀/파나시아보틀/애플구미 및 수량 1/5/5가 표시됨",
+        "선택 후 라이프보틀 설명이 두 줄로 표시되며 창 안에 들어감"
+      ],
+      "captures": [
+        {
+          "name": "first-save.png",
+          "sha256": "d8eb5d944bed05061831e7a5ebc30e11f07c4f8da947933026f3c8481db118d3"
+        },
+        {
+          "name": "reload.png",
+          "sha256": "6e831b17bc9c1d77cc24e38ebb34a03b35124dc6e47000d0ddecaf8c168a31ad"
+        },
+        {
+          "name": "items.png",
+          "sha256": "10f27982581f925fe0a9c3e566b8398335ab6c0205363f8e6ebaad25d5d9ec97"
+        },
+        {
+          "name": "item-description.png",
+          "sha256": "90eb8d9379d1d1755403f666621aa33bf030175622201075b2d3db4b0395b646"
+        }
+      ]
+    },
+    "vba": {
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "core_version": "v1.0.2",
+      "ram_interventions": 0,
+      "separate_process_reload": true,
+      "save_sha256": "6baf1cb03834cc2abfb37806e621c68edb7f3613505f85186232d3a81175cf54",
+      "observations": [
+        "저장 완료 표시와 주인공 이름, LV1, 저장 장소 미나쿠 마을이 보임",
+        "별도 실행에서 저장을 불러온 뒤 편성 메뉴, 훌리오/캐로와 HP600 TP100이 보임",
+        "아이템 목록에 라이프보틀/파나시아보틀/애플구미 및 수량 1/5/5가 표시됨",
+        "선택 후 라이프보틀 설명이 두 줄로 표시되며 창 안에 들어감"
+      ],
+      "captures": [
+        {
+          "name": "first-save.png",
+          "sha256": "6a21364ee9f1a2da070978be12fffcc84d7c8ef0a7203bc9ff117df520bc974f"
+        },
+        {
+          "name": "reload.png",
+          "sha256": "399a02ade97e764f13059151a30dc9866650a9e4126732e35593929a0f512059"
+        },
+        {
+          "name": "items.png",
+          "sha256": "25e2c9b037d6fc1043372209afca6181747e85b3fc1030d8b1e4c443442f430e"
+        },
+        {
+          "name": "item-description.png",
+          "sha256": "fdd19456bdd8db33b8a719f7084180c5fbd16a2abd35a629c40898bf5c4ccf80"
+        }
+      ]
+    }
+  },
+  "publication_safety": {
+    "history_objects_with_paths": 812,
+    "forbidden_paths": [],
+    "credential_pattern_paths": [],
+    "large_objects": []
+  },
+  "shop": {
+    "scope": "Synthetic postgame save and ordinary controller input; no live RAM writes. Explicitly inspected shop-05 and followup-1/2/3 only. First Mel advice and Dio recipe/roots-buy-sell continuation; not natural unlock progression.",
+    "observations": [
+      "멜의 나리키리 의상 상담 문장 두 줄 확인",
+      "디오의 옷 제작과 루트 사고팔기 설명 두 줄 확인",
+      "다음 강화 설명 및 멜의 커맨드 설명으로 진행 확인"
+    ],
+    "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869"
+  },
+  "package": {
+    "status": "PASS",
+    "archive_sha256": "2bc441bc7b39a4c003b12b6c13073b3ae0002c1c6c5d54e959f0e575c8f15485",
+    "target_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869",
+    "source_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+    "actual_included_applier_roundtrip": true,
+    "wrong_base_rejected_without_output": true,
+    "existing_output_rejected_without_change": true,
+    "archive_has_no_rom_or_save": true,
+    "member_count": 40
+  },
+  "reproduction_sha256": "2c14f8831d562c8af92fb79d1611de691717d58be0a88c394dc8028a6fa492cf",
+  "identical_rebuild": true
+}

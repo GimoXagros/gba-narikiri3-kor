@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "version": "1.1a",
-  "stage": "development",
+  "stage": "experimental-prerelease",
   "rom_file": "ND3_B3TJ_K_v1.1a.gba",
   "patch_file": "ND3_B3TJ_K_v1.1a_FROM_J.bps",
-  "release_requested": "GitHub prerelease after completion and verification",
-  "completion_claim": "Not yet complete; full text population and PC regression verification in progress"
+  "release_requested": "User authorized v1.1a GitHub prerelease after dialogue source comparison and correction report",
+  "completion_claim": "Known 5208 dialogue records compared; 403 correction groups/425 positions. Scoped verification; no full-game 100% or error-free claim."
 }

@@ -67,3 +67,18 @@ dev33은 일본판 명감의 독립 인물 대응 자료를 빌드·검사에서
 
 
 dev34는 `--costume-label`을 누적 빌드에 포함한다. `source/costume_label_profile.json`의 기존 여덟 타일만 수정하며 atlas·34개 타일맵·팔레트·실제 은행 조회와 DMA 전달을 검사한다. 전체 분리 검사는 29개이며 꾸러미 생성에 `costume-label-verification.json`도 필수다. `docs/COSTUME_MENU_LABEL.md` 참조.
+
+
+## v1.1a 대사 대조 프리릴리즈
+
+현재 누적 빌드는 30개 검사를 수행한다. `qa/dialogue-review-v1.1a.json`에 5,208개 대사 위치의 검토 범위와 403개 수정 묶음/425개 수정 위치를 기록했다. `verify_dialogue_audit.py`는 원문, 명령·화자 정보, 수정 결과, 제어 코드와 최대 이름 길이를 검사한다. 대사 의미의 검토 기록과 자동 검사의 주장은 구별한다.
+
+새 ROM의 첫 저장 시각은 `record_opening_timing.py`로 먼저 관찰한다. 시간·체크섬을 뺀 저장 상태 전체가 기존 참조와 동일할 때만 정확한 ROM/코어/입력 기록 조합을 `source/opening_timing_profile.json`에 추가한다. 해당 조합은 허용 오차 없이 관측한 시각과 일치해야 한다.
+
+두 PC 코어에서 저장·재실행과 화면 관찰을 마친 후 다음 명령으로 실험용 프리릴리즈 꾸러미를 만든다. 이는 완성판 또는 릴리즈 후보 인증이 아니다.
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 tools/package_prerelease.py --j '일본판.gba' --build output/reproduce-01 --runtime output/runtime-mgba --second-runtime output/runtime-vba --out output/ND3_Korean_v1.1a_prerelease
+```
+
+`verify_package.py`로 최종 ZIP의 실제 적용과 잘못된 입력 거부를 검사한 뒤 GitHub 프리릴리즈에 업로드한다. 공개 ZIP은 BPS 패치·적용 도구·리포트·검증 기록·라이선스만 포함한다.

@@ -68,8 +68,10 @@
     },
     {
       "id": "dialogue-terms-14db24",
-      "text": "아아!　이번에는　봤지?\n로이드와　콜레트　맞지?",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "이번엔　봤지?\n로이드,콜레트랑　똑같이　생겼지?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "닮았다는 추측을 동일인 확정으로 바꾼 오류",
+      "audit": "qa/dialogue-review-v1.1a.json#028"
     },
     {
       "id": "dialogue-terms-14dc28",
@@ -230,8 +232,10 @@
     },
     {
       "id": "dialogue-terms-15d698",
-      "text": "그건　그건　클라스　쪽이　아닌가요?",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "그건　클라스　씨　쪽이\n아닌가요?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "그건 그건 중복",
+      "audit": "qa/dialogue-review-v1.1a.json#079"
     },
     {
       "id": "dialogue-terms-15d6b0",
@@ -345,8 +349,10 @@
     },
     {
       "id": "dialogue-terms-166248",
-      "text": "채트는\n@D호에서　대기합니다",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "채트는　쇠약해져서\n@D호에서　대기합니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "衰弱으로 대기함을 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#125"
     },
     {
       "id": "dialogue-terms-1671f4",
@@ -365,8 +371,10 @@
     },
     {
       "id": "dialogue-terms-16d69c",
-      "text": "어떤　때는　젤로스!\n까지　하고,그　실체는!",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "또　어떤　때는　젤로스!\n그런데　그　실체는Ν",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "しかして 그 실체는, 까지 하고 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#165"
     },
     {
       "id": "dialogue-terms-170f2c",
@@ -375,8 +383,10 @@
     },
     {
       "id": "dialogue-terms-1728b0",
-      "text": "어?　영웅전에선　클라스가\n여자　엉덩이에…",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "어?　영웅전에선　클라스가\n여자한테　꼼짝　못　한다고…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "尻にしかれる 여자에게 꼼짝 못하다, 여자 엉덩이에라는 직역 중단",
+      "audit": "qa/dialogue-review-v1.1a.json#178"
     },
     {
       "id": "dialogue-terms-172c24",
@@ -420,8 +430,10 @@
     },
     {
       "id": "dialogue-terms-17c3d4",
-      "text": "퀴키도　메르디　노래　좋아하는…\n아,킬!　무슨일이야?",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "퀵키도　메르디　노래　아주　좋아해요\n…아,킬!　무슨　일이야?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#211"
     },
     {
       "id": "dialogue-terms-17c42c",
@@ -460,8 +472,10 @@
     },
     {
       "id": "dialogue-terms-181130",
-      "text": "@G,콜레트의　솔직함의\n조금이라도　있었으면…",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "@G도　콜레트의　솔직함이\n１０분의　１만　있었으면…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "콜레트 솔직함의 10분의 1 숫자 및 문법 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#231"
     },
     {
       "id": "dialogue-terms-18252c",
@@ -470,8 +484,10 @@
     },
     {
       "id": "dialogue-terms-1825bc",
-      "text": "우와M　벼,벽에!\n콜레트가!",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "우와아Μ　벼,벽에!\n콜레트가!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "우와M 훼손 영문 잔여",
+      "audit": "qa/dialogue-review-v1.1a.json#241"
     },
     {
       "id": "dialogue-terms-18261c",
@@ -495,8 +511,10 @@
     },
     {
       "id": "dialogue-terms-183ae0",
-      "text": "알겠어,젤로스!",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "알겠어,젤로스군!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "젤로스 군 호칭이 금지된 남자가 따라 부르는 핵심 개그 보존",
+      "audit": "qa/dialogue-review-v1.1a.json#243"
     },
     {
       "id": "dialogue-terms-183b10",
@@ -720,8 +738,10 @@
     },
     {
       "id": "dialogue-terms-1959d0",
-      "text": "녀석들　파라와　킬의　기술까지\n흉내　내서　쓰잖아%k\n…그　말은　단순한　변장이　아니\n나리키리의　힘일지도　몰라",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "녀석들,파라와　킬의　기술까지\n흉내　내서　쓰더군%k\n…단순한　변장이　아니라\n나리키리　의상의　힘일지도　몰라",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "아니 미완성 및 나리키리 의상 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#290"
     },
     {
       "id": "dialogue-terms-195b10",
@@ -1125,8 +1145,10 @@
     },
     {
       "id": "dialogue-terms-1b3aa4",
-      "text": "젤로스와　시이나의\n의혹은　플린걸까?",
-      "review": "source_name_identity_user_wording_and_attached_particles_verified_layout_pending"
+      "text": "젤로스　씨와　시이나　씨의\n의혹은　풀렸을까?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "플린걸까 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#355"
     },
     {
       "id": "dialogue-terms-1b3b2c",
@@ -1254,6 +1276,2904 @@
       "text": "후배　여러분!　나리키리　의상은\n뭐든지　상담해　줄게",
       "review": "source_context_checked_pixel_and_runtime_pending",
       "basis": "Restore omitted 服 (clothes/costumes), correct legacy 나리키라라면; preserve speaker, one newline and invitation to ask advice."
+    },
+    {
+      "id": "dialogue-audit-148e84",
+      "text": "안심하세요,엘레인님!\n작전은　지금까지　예정대로입니다%k\n부하들이　그　꼬마를　꾀어내\n도착을　늦췄습니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "아이를 유인하여 도착을 지연시킨 경위를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#001"
+    },
+    {
+      "id": "dialogue-audit-148eac",
+      "text": "아뇨,역사를　움직이는　신비한\n힘을　얕봐선　안　됩니다%k\n썩은　말뚝도　뜨거울　때\n두드려야　불이　안　난답니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "크라이트가 잘못 섞어 말하는 속담 문장 전체 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#002"
+    },
+    {
+      "id": "dialogue-audit-149788",
+      "text": "우연이네!　내　학생들은\n어떤　직업도　되는　나리키리사야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "직업명 나리키리사 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#003"
+    },
+    {
+      "id": "dialogue-audit-1499d4",
+      "text": "둘　다　굉장한데~!\n이게　나리키리　의상의　힘이야?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "능력의 주체는 의상",
+      "audit": "qa/dialogue-review-v1.1a.json#004"
+    },
+    {
+      "id": "dialogue-audit-149a84",
+      "text": "자,엘레인은　눈앞이야\n전력으로　가자!%k\n단,@B와　@G는\n절대로　무리하지　말고",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 주인공 이름 호출 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#005"
+    },
+    {
+      "id": "dialogue-audit-149c10",
+      "text": "사람들의　바람은　신의　바람",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "사람들의 바람이라는 주어가 빠짐",
+      "audit": "qa/dialogue-review-v1.1a.json#006"
+    },
+    {
+      "id": "dialogue-audit-149f04",
+      "text": "아…　숨기고　있었는데…\n사실　우리　누나는　뼛속까지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "누나의 취향을 숨겼다는 말 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#007"
+    },
+    {
+      "id": "dialogue-audit-14ad48",
+      "text": "흠,나리키리사는\n의외로　편리하네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "승인된 직업명 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#008"
+    },
+    {
+      "id": "dialogue-audit-14ae80",
+      "text": "꺄~　또　그　유적　모드야!\n어떻게　좀　해　봐,@B",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "例の는 예전이라는 시점이 아닌 그/문제의 의미",
+      "audit": "qa/dialogue-review-v1.1a.json#009"
+    },
+    {
+      "id": "dialogue-audit-14b320",
+      "text": "저　부조는　뭐지?\n머리가　기니까　여자인가",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "유적 부조를 가리키는 목적어 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#010"
+    },
+    {
+      "id": "dialogue-audit-14b51c",
+      "text": "어디,내게　보여　봐\n이　정도라면　어떻게든　되겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "どれ는 어때가 아니라 어디 보자는 뜻",
+      "audit": "qa/dialogue-review-v1.1a.json#011"
+    },
+    {
+      "id": "dialogue-audit-14b814",
+      "text": "그러니까,어떻게　된　일인가요?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "이떻게 오타 수정",
+      "audit": "qa/dialogue-review-v1.1a.json#012"
+    },
+    {
+      "id": "dialogue-audit-14bb9c",
+      "text": "바르바토스　님~구해　드릴　때\n나눈　약속,잊지　않으셨죠?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#013"
+    },
+    {
+      "id": "dialogue-audit-14bba4",
+      "text": "일이　잘　풀리면\n이　신의　눈을　보수로…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "신의 눈을 보수로 받기로 했다는 거래 조건 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#014"
+    },
+    {
+      "id": "dialogue-audit-14bbd4",
+      "text": "바르바토스　님의　힘에　새　병기\n딱딱　광선까지　더해지면…%k\n악어엔쇠몽둥이!　고양이에빨판상어!\n큰　배　탄　너구리라　생각하고…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#015"
+    },
+    {
+      "id": "dialogue-audit-14bf00",
+      "text": "마지막으로　기다리는　것은\n극악인　바르바토스Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#016"
+    },
+    {
+      "id": "dialogue-audit-14c108",
+      "text": "좋아,모두　힘을　빌려줘!\n하나　둘　셋에　문을　밀자",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "힘들→힘을",
+      "audit": "qa/dialogue-review-v1.1a.json#017"
+    },
+    {
+      "id": "dialogue-audit-14c308",
+      "text": "@B,누구의　석상인지\n확인할　시간은　없어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "상대 이름 호출 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#018"
+    },
+    {
+      "id": "dialogue-audit-14c318",
+      "text": "맞아,바르바토스를　쓰러뜨린　뒤\n천천히　확인하기로　하고…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#019"
+    },
+    {
+      "id": "dialogue-audit-14c650",
+      "text": "봐,자기!　분해하는　얼굴\n그대로　돌이　됐어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "悔しそう는 웃기는 표정이 아니라 분한 표정",
+      "audit": "qa/dialogue-review-v1.1a.json#020"
+    },
+    {
+      "id": "dialogue-audit-14c680",
+      "text": "오,말　잘하는데\n자,바르바토스에게　보고하자",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#021"
+    },
+    {
+      "id": "dialogue-audit-14c924",
+      "text": "신의　눈을　훔치려는　도둑을\n혼내　주러　가는　중이에요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "こらしめる 의미 및 잡으로 오타 수정",
+      "audit": "qa/dialogue-review-v1.1a.json#022"
+    },
+    {
+      "id": "dialogue-audit-14cd14",
+      "text": "바르바토스　님,미리　말씀드리지만\n딱딱　광선은…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#023"
+    },
+    {
+      "id": "dialogue-audit-14cd2c",
+      "text": "한　번밖에　쓸　수　없으니\n돌다리도　두드려　부술　각오로!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "잘못 섞은 속담과 높임말 누락 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#024"
+    },
+    {
+      "id": "dialogue-audit-14cf28",
+      "text": "바르바토스　님,멋져요~Π",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#025"
+    },
+    {
+      "id": "dialogue-audit-14d5cc",
+      "text": "비장의　카드까지　철벽　방어!\n나온　개미도　새는　물에　빠집니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "방어를 자랑하는 엉터리 속담을 실수 금지 명령으로 바꾼 오류",
+      "audit": "qa/dialogue-review-v1.1a.json#026"
+    },
+    {
+      "id": "dialogue-audit-14d7a8",
+      "text": "박사님　말로는　이　세계에\n영웅이　둘　와　있을지도　모른대!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "이미 와 있을 가능성을 앞으로 온다는 미래로 옮김",
+      "audit": "qa/dialogue-review-v1.1a.json#027"
+    },
+    {
+      "id": "dialogue-audit-14db2c",
+      "text": "우리를　못　본　걸까?\n일단　저　둘을　뒤쫓아가자",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "못 알아챘다는 뜻을 일부러 무시하는 뜻으로 옮김",
+      "audit": "qa/dialogue-review-v1.1a.json#029"
+    },
+    {
+      "id": "dialogue-audit-14de6c",
+      "text": "내가　아는　@B와\n@G는　아니었지%k\n그나저나　꽤　늦었네\n안내하던　둘을　못　만났니?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "다른 세계의 동명 주인공이라는 핵심 설정 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#030"
+    },
+    {
+      "id": "dialogue-audit-14de9c",
+      "text": "그래,맞아!　나는　인간의\n마음도　지배할　수　있어%k\n특히　영웅들은　조종하기　쉽지\n마음에　어둠을　품은　자가　많거든",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "そうだよ는 상대 추측을 인정하는 대답",
+      "audit": "qa/dialogue-review-v1.1a.json#031"
+    },
+    {
+      "id": "dialogue-audit-14e0f8",
+      "text": "아름답네…　다　타버리기\n직전에　발하는　생명의　빛은!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "燃えつきる는 타오르기 시작함이 아니라 다 타서 사라짐",
+      "audit": "qa/dialogue-review-v1.1a.json#032"
+    },
+    {
+      "id": "dialogue-audit-14e190",
+      "text": "드디어　찾았어,자기!\n꾸물대서　미안해",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "グズ로 느렸음을 사과, 귀찮게 했다는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#033"
+    },
+    {
+      "id": "dialogue-audit-14ef98",
+      "text": "아,아니에요!\n이건　나리키리　의상이라고…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#034"
+    },
+    {
+      "id": "dialogue-audit-14ff84",
+      "text": "오늘은　네가　마지막이니까\n서비스를　듬뿍　해　줄게",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "충분시→충분히",
+      "audit": "qa/dialogue-review-v1.1a.json#035"
+    },
+    {
+      "id": "dialogue-audit-150edc",
+      "text": "대박~!　대박~!　대박~!\n역대　최강,최속의　작업　기술이야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ナンパ術는 나쁜 남자가 아니라 이성에게 접근하는 작업 기술",
+      "audit": "qa/dialogue-review-v1.1a.json#036"
+    },
+    {
+      "id": "dialogue-audit-1510c8",
+      "text": "리아라가　동료가　됐다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "리아라가 동료가 됐다",
+      "audit": "qa/dialogue-review-v1.1a.json#037"
+    },
+    {
+      "id": "dialogue-audit-15112c",
+      "text": "리아라가　동료가　됐다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "리아라가 동료가 됐다",
+      "audit": "qa/dialogue-review-v1.1a.json#037"
+    },
+    {
+      "id": "dialogue-audit-1510d0",
+      "text": "리아라는　쇠약해져서\n@D호에서　대기합니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "衰弱している 쇠약해진 상태와 배에서 대기하는 이유",
+      "audit": "qa/dialogue-review-v1.1a.json#038"
+    },
+    {
+      "id": "dialogue-audit-151400",
+      "text": "루티는　쇠약해져서\n@D호에서　대기합니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "루티의 쇠약 상태가 대기 이유",
+      "audit": "qa/dialogue-review-v1.1a.json#039"
+    },
+    {
+      "id": "dialogue-audit-1514a8",
+      "text": "정신　차려요,엄마…\n루티　씨!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "母さ… 카일이 어머니라고 부르려다 고치는 관계 정보",
+      "audit": "qa/dialogue-review-v1.1a.json#040"
+    },
+    {
+      "id": "dialogue-audit-1517c4",
+      "text": "곁에　있어도　눈치　못　채는\n얼간이랑은　하늘과　땅　차이지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "月とスッポン는 하늘과 땅 차이; 상대를 거북이라고 부르는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#041"
+    },
+    {
+      "id": "dialogue-audit-151a20",
+      "text": "길을　잃어서　못　돌아가는　건…\n설마　너라면　그럴　리　없겠지?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "길을 잃어 못 돌아가는 것은 아니겠지라는 아체의 체스터 상대 질문, 자신이 길 잃었다는 말 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#042"
+    },
+    {
+      "id": "dialogue-audit-152de0",
+      "text": "잠꼬대하는　건　너잖아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "그 쪼이야→너잖아",
+      "audit": "qa/dialogue-review-v1.1a.json#043"
+    },
+    {
+      "id": "dialogue-audit-1532f4",
+      "text": "둘　다　수고했어\n나리키리　의상은　정말　편리하네♪",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "변신 도구 나리키리 의상",
+      "audit": "qa/dialogue-review-v1.1a.json#044"
+    },
+    {
+      "id": "dialogue-audit-1532fc",
+      "text": "자,세이퍼트　키도\n회수했으니　튀자",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ずらかるよ 도주 명령 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#045"
+    },
+    {
+      "id": "dialogue-audit-153454",
+      "text": "목　씻고　기다릴게",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "기다려가 아닌 자신이 기다리겠다는 의도적 속담 말실수",
+      "audit": "qa/dialogue-review-v1.1a.json#046"
+    },
+    {
+      "id": "dialogue-audit-15353c",
+      "text": "다,당연히　괜찮지\n약을　먹여　놔서　아직　어지러워…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "薬を盛られて는 누군가 약을 먹인 피동",
+      "audit": "qa/dialogue-review-v1.1a.json#047"
+    },
+    {
+      "id": "dialogue-audit-153aa4",
+      "text": "흥,우리가　재회를\n기뻐할　만한　사이는　아니잖아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "재회를 기뻐할 사이가 아니라고 관계를 부정, 시간이 아니라 사이",
+      "audit": "qa/dialogue-review-v1.1a.json#048"
+    },
+    {
+      "id": "dialogue-audit-154328",
+      "text": "새로운　팀이　추가됐다!%k\n쥬다스　팀은　１명뿐이니\n주의하세요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "합류 메시지 %k 대기 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#049"
+    },
+    {
+      "id": "dialogue-audit-1549a4",
+      "text": "흥,작은　새도　아니면서\n삐삐　시끄럽기도　하군",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#050"
+    },
+    {
+      "id": "dialogue-audit-154d0c",
+      "text": "분해~!　또　적의　나리키리사에게\n당해　버렸어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사 직업명",
+      "audit": "qa/dialogue-review-v1.1a.json#051"
+    },
+    {
+      "id": "dialogue-audit-155bb8",
+      "text": "내가　원래　세계로\n돌아가는　게…%k\n그　녀석들이나　그녀를　괴롭힌다면\n기꺼이　목숨을　내놓겠어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "그녀 외에 그들까지 상처 입게 된다는 대상 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#052"
+    },
+    {
+      "id": "dialogue-audit-155d3c",
+      "text": "기회는　아마　이번뿐이야\n놓치면　다　헛수고라고",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "적을 놓치면 헛수고라는 지시",
+      "audit": "qa/dialogue-review-v1.1a.json#053"
+    },
+    {
+      "id": "dialogue-audit-156810",
+      "text": "상황이　불리하네\n튀,튀자,자기!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "旗色 상황의 유불리, 얼굴색 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#054"
+    },
+    {
+      "id": "dialogue-audit-1569b8",
+      "text": "변명은　필요　없다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "問答無用 말대꾸/변명의 여지가 없음",
+      "audit": "qa/dialogue-review-v1.1a.json#055"
+    },
+    {
+      "id": "dialogue-audit-156ab0",
+      "text": "역시　자기야,또　반했어Π",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ほれ直した 다시 반했다",
+      "audit": "qa/dialogue-review-v1.1a.json#056"
+    },
+    {
+      "id": "dialogue-audit-156b8c",
+      "text": "우리도　그　나리키리사에게\n속은　피해자라고",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#057"
+    },
+    {
+      "id": "dialogue-audit-156b9c",
+      "text": "피해자끼리　손을　잡자고요\n어제의　적은　재주　좋은　친구라지요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "昨日の敵は器用な友 일부러 잘못 말하는 속담을 정상 속담으로 번역하여 후속 지적 단절",
+      "audit": "qa/dialogue-review-v1.1a.json#058"
+    },
+    {
+      "id": "dialogue-audit-156bdc",
+      "text": "그런　말은　안　해Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "言わない는 그런 말 안 쓴다는 지적, 말하지 않겠다는 거부 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#059"
+    },
+    {
+      "id": "dialogue-audit-156e7c",
+      "text": "앗,스탄!　무사했구나!\n그런데　그쪽　분들은　누구야?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "무사함을 확인하는 말인데 직전 걱정 문장 반복",
+      "audit": "qa/dialogue-review-v1.1a.json#060"
+    },
+    {
+      "id": "dialogue-audit-156fbc",
+      "text": "물론　대환영이야!　그런데…?\n여기는　판타지아　전설의　세계잖아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "판타자아→판타지아",
+      "audit": "qa/dialogue-review-v1.1a.json#061"
+    },
+    {
+      "id": "dialogue-audit-1573e0",
+      "text": "너스!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ナース 정술명 너스",
+      "audit": "qa/dialogue-review-v1.1a.json#062"
+    },
+    {
+      "id": "dialogue-audit-1575c8",
+      "text": "그런데　정령은　왜　그런　걸\n갑자기　갖고　싶어　할까…%k\n난　동료를　도우러　보물고에　갈게\n그럼　이따　보자",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "보물창로→보물창고",
+      "audit": "qa/dialogue-review-v1.1a.json#063"
+    },
+    {
+      "id": "dialogue-audit-157930",
+      "text": "아!　구해　준　엘프　둘이\n적의　나리키리사였다는　거야?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#064"
+    },
+    {
+      "id": "dialogue-audit-158c30",
+      "text": "포그와　냥인　두　명이\n동료가　됐다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "냥인 두 명의 합류 인원",
+      "audit": "qa/dialogue-review-v1.1a.json#065"
+    },
+    {
+      "id": "dialogue-audit-158e9c",
+      "text": "우리　쪽　착오가　원인이니\n고양이　손을　빌려줬다냥",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "手ちがい는 착오, 손의 이상이 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#066"
+    },
+    {
+      "id": "dialogue-audit-158edc",
+      "text": "아~그렇구나!\n너희　쪽　착오라니…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "手ちがい의 의미를 착오로 바로잡고 전후 연결",
+      "audit": "qa/dialogue-review-v1.1a.json#067"
+    },
+    {
+      "id": "dialogue-audit-1590c0",
+      "text": "너희한테서　옷을　빼앗은\n나리키리사",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사라는 정체 누락 및 빼았았던 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#068"
+    },
+    {
+      "id": "dialogue-audit-1590f8",
+      "text": "뭐?　무슨　소리야!\n우리,나리키리　의상　입고　있잖아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#069"
+    },
+    {
+      "id": "dialogue-audit-159100",
+      "text": "아니야,@BΜ\n미래의　우리에게서　빼앗은　거야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "@B 호칭 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#070"
+    },
+    {
+      "id": "dialogue-audit-1596e0",
+      "text": "시험용　부품　좀\n끼워　넣었다고…　근성　없는　녀석!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "근성 없는 녀석이라고 로봇을 욕하는 해롤드, 근성 없다는 말을 당한 게 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#071"
+    },
+    {
+      "id": "dialogue-audit-15984c",
+      "text": "글쎄…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "さあ는 앞 질문에 글쎄라는 답",
+      "audit": "qa/dialogue-review-v1.1a.json#072"
+    },
+    {
+      "id": "dialogue-audit-159ac8",
+      "text": "이얏Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "とうッ는 발차기 기합, 아얏 고통 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#073"
+    },
+    {
+      "id": "dialogue-audit-15a46c",
+      "text": "하나　끝~♪\n그럼　다음으로,고　고!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "いっちょ あがり 작업 하나 완료, 시작 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#074"
+    },
+    {
+      "id": "dialogue-audit-15ad44",
+      "text": "큰일,큰일이야!\n모두가　싸우는　동안에　말이야…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "크일→큰일",
+      "audit": "qa/dialogue-review-v1.1a.json#075"
+    },
+    {
+      "id": "dialogue-audit-15b0a0",
+      "text": "우와!　총영주　부인　시젤이야!\n아직　살아　있었구나…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "시첼→시젤",
+      "audit": "qa/dialogue-review-v1.1a.json#076"
+    },
+    {
+      "id": "dialogue-audit-15b7f8",
+      "text": "그　복사기야!　어딘가에　두　사람을\n복제하는　장치가　있을　거야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "복제는→두 사람을 복제하는",
+      "audit": "qa/dialogue-review-v1.1a.json#077"
+    },
+    {
+      "id": "dialogue-audit-15d08c",
+      "text": "너희들이냐…\n악의　나리키리사가",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사 직업명",
+      "audit": "qa/dialogue-review-v1.1a.json#078"
+    },
+    {
+      "id": "dialogue-audit-15d830",
+      "text": "어느　쪽이　더　뛰어난지\n겨뤄　보자고Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "겨줘보자→겨뤄보자",
+      "audit": "qa/dialogue-review-v1.1a.json#080"
+    },
+    {
+      "id": "dialogue-audit-15dc9c",
+      "text": "우린　파큘라　효과를　응용해\n인공　정령장　유지에　성공했다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "晶霊場는 정령장, 인공결정 영혼이라는 대상 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#081"
+    },
+    {
+      "id": "dialogue-audit-15e434",
+      "text": "뭐,그에　대해서는\n１만　하고도　８가지　근거가　있지…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "１万とんで８는 10008, 10000으로 수량 축소",
+      "audit": "qa/dialogue-review-v1.1a.json#082"
+    },
+    {
+      "id": "dialogue-audit-15e7cc",
+      "text": "좀　혼쭐을　내　줄\n필요가　있겠네,각오해!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "おきゅうをすえる 혼쭐내다, 쉬다 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#083"
+    },
+    {
+      "id": "dialogue-audit-15e8e0",
+      "text": "악의　나리키리사들",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "なりきり師 나리키리사",
+      "audit": "qa/dialogue-review-v1.1a.json#084"
+    },
+    {
+      "id": "dialogue-audit-15e978",
+      "text": "검을　거둬라,로이드",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "剣を引け 검을 거둬라; 뽑아라와 반대 지시",
+      "audit": "qa/dialogue-review-v1.1a.json#085"
+    },
+    {
+      "id": "dialogue-audit-15eb24",
+      "text": "그거　부끄러우니까　그만하라니까!\n난　그런　말이　거북한　거　알잖아Ν",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "苦手 민망한 표현이 거북하다는 의미, 실력이 부족한 게 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#086"
+    },
+    {
+      "id": "dialogue-audit-15f0c4",
+      "text": "정체를　알고　싶다면　레미　유적\n깊은　곳으로　둘만　와",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ふたりだけで 둘만 오라는 중요 조건 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#087"
+    },
+    {
+      "id": "dialogue-audit-15f3cc",
+      "text": "가　보면　알겠지\n둘뿐이니까　무리는　금물이야%k\n자,가자",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "가보면 알겠 미완성 및 %k 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#088"
+    },
+    {
+      "id": "dialogue-audit-15f4e8",
+      "text": "그　녀석들이든　마왕이든\n모두를　괴롭히면　때려눕힐　거야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ぶん殴る 주먹으로 혼내겠다는 서술어 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#089"
+    },
+    {
+      "id": "dialogue-audit-15f6bc",
+      "text": "나리키리　의상은　마음이　맑은　자만\n쓸　수　있는　거　아니었어?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "なりきり服 나리키리 의상 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#090"
+    },
+    {
+      "id": "dialogue-audit-15fa10",
+      "text": "이　문을　여는　열쇠를\n하나만　더　손에　넣으면…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "あとひとつ 하나만 더 있으면 됨, 하나 하나가 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#091"
+    },
+    {
+      "id": "dialogue-audit-16005c",
+      "text": "…내일은　오늘보다　힘들다는　거야\n일단　석판을　베껴서　돌아가자",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "배껴→베껴",
+      "audit": "qa/dialogue-review-v1.1a.json#092"
+    },
+    {
+      "id": "dialogue-audit-160178",
+      "text": "@BΜ　위험해Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "@B 호출 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#093"
+    },
+    {
+      "id": "dialogue-audit-160474",
+      "text": "그럼　이만　실례하겠소!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ごめん 떠날 때 실례하겠다는 인사, 미안해 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#094"
+    },
+    {
+      "id": "dialogue-audit-1605d8",
+      "text": "과학을　위해　목숨도　아깝지　않아!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "命など惜しくない 목숨도 아깝지 않다 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#095"
+    },
+    {
+      "id": "dialogue-audit-160db4",
+      "text": "아무래도\n죽고　싶은　모양이군",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "적을 향해 죽고 싶은 모양이군이라는 위협, 어쩌면 죽고 싶을지도라는 모호한 추측 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#096"
+    },
+    {
+      "id": "dialogue-audit-160e8c",
+      "text": "스즈는\n빛의　열쇠를　손에　넣었다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "열쇠를 얻는 주체 스즈 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#097"
+    },
+    {
+      "id": "dialogue-audit-1616a0",
+      "text": "아무래도　오해였던　것　같군요%k\n저　소녀가　납치되어　곤란해하기에\n구해　드린　겁니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "소녀를 이미 납치범에게서 구했다는 경위와 완료 시제",
+      "audit": "qa/dialogue-review-v1.1a.json#098"
+    },
+    {
+      "id": "dialogue-audit-1616b0",
+      "text": "저　소녀는　이제　여러분께　맡기지요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "娘는 저 소녀 첼시, 왈큐레 자신의 딸이라는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#099"
+    },
+    {
+      "id": "dialogue-audit-161edc",
+      "text": "아이를　납치하다니　용서　못　해!\n혼내　주겠어!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "봇해→못해",
+      "audit": "qa/dialogue-review-v1.1a.json#100"
+    },
+    {
+      "id": "dialogue-audit-161f84",
+      "text": "아이를　납치하다니　용서　못　해!\n혼내　주겠어!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "봇해→못해",
+      "audit": "qa/dialogue-review-v1.1a.json#100"
+    },
+    {
+      "id": "dialogue-audit-16226c",
+      "text": "우리와　우드로우　씨가　나뉘어\n찾으면　분명　괜찮을　거야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ふた手 두 갈래로 나누어 찾음, 함께라는 반대 행동 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#101"
+    },
+    {
+      "id": "dialogue-audit-162490",
+      "text": "２주　동안　비가　내려서　쌓이고\n쌓인　@B의　속옷에…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "계속 비가 와서 쌓인 속옷, 2주 내내 비에 젖은 옷이 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#102"
+    },
+    {
+      "id": "dialogue-audit-1624b8",
+      "text": "너…　내　속옷　냄새를\n맡는　거야?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "パンツ 속옷",
+      "audit": "qa/dialogue-review-v1.1a.json#103"
+    },
+    {
+      "id": "dialogue-audit-162d34",
+      "text": "스탄!　이　뾰족머리　자식!\n만난　게　네놈　운이　다한　날이다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "여기서 만난 게 백 년째라는 관용 위협, 백 년 만의 재회라는 사실 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#104"
+    },
+    {
+      "id": "dialogue-audit-16319c",
+      "text": "서로　쓰러뜨리도록\n꾸며　놨는데",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "서로 쓰러뜨리게 만들려는 계략 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#105"
+    },
+    {
+      "id": "dialogue-audit-16320c",
+      "text": "자~여러분,주목해　주세요\n다음　게임은　단단히　지켜　보쇼!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ガッチリ守りまショー 보물 방어 게임이라는 안내",
+      "audit": "qa/dialogue-review-v1.1a.json#106"
+    },
+    {
+      "id": "dialogue-audit-1633d8",
+      "text": "자,신나게\n분위기를　띄워　보자고!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "신다게→신나게",
+      "audit": "qa/dialogue-review-v1.1a.json#107"
+    },
+    {
+      "id": "dialogue-audit-163588",
+      "text": "함정을　몇　개　찾았어\n이걸　써서　어떻게든　버텨야　해",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "찾은 함정을 써서 버티라는 전략, 함정을 피하라는 반대 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#108"
+    },
+    {
+      "id": "dialogue-audit-1635a8",
+      "text": "히익!　보물고　네　곳의　상자를\n전부　조사해야　하는　거야Ν",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "４つの宝物庫 보물창고 네 곳의 상자 전부, 상자 4개가 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#109"
+    },
+    {
+      "id": "dialogue-audit-164520",
+      "text": "여행의　열쇠를　빼앗겼다!%k\n미션　실패\n연구소로　돌아갑니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "빼았겼다→빼앗겼다",
+      "audit": "qa/dialogue-review-v1.1a.json#110"
+    },
+    {
+      "id": "dialogue-audit-164920",
+      "text": "쳇,헛싸움이나　하게　만들고!\n이　녀석은　꽝이야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#111"
+    },
+    {
+      "id": "dialogue-audit-16498c",
+      "text": "젠장,꽝이야!　대체　누가\n미래의　열쇠를　갖고　있지Ν",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "젠자→젠장",
+      "audit": "qa/dialogue-review-v1.1a.json#112"
+    },
+    {
+      "id": "dialogue-audit-164c38",
+      "text": "물론\n마왕　자바바를　쓰러뜨릴　거야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "무찔→무찌를",
+      "audit": "qa/dialogue-review-v1.1a.json#113"
+    },
+    {
+      "id": "dialogue-audit-1650e4",
+      "text": "이봐~,나!\n목표　지점에　도착했어~",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "도착햇어→도착했어",
+      "audit": "qa/dialogue-review-v1.1a.json#114"
+    },
+    {
+      "id": "dialogue-audit-165314",
+      "text": "프레세아는　쇠약해져서\n@D호에서　대기합니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "衰弱으로 대기함을 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#115"
+    },
+    {
+      "id": "dialogue-audit-1656c4",
+      "text": "우드로우는　쇠약해져서\n@D호에서　대기합니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "衰弱으로 대기함을 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#116"
+    },
+    {
+      "id": "dialogue-audit-165a44",
+      "text": "첼시는　쇠약해져서\n@D호에서　대기합니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "衰弱으로 대기함을 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#117"
+    },
+    {
+      "id": "dialogue-audit-165ccc",
+      "text": "아~우드로우　님~\n도와줘요~",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "윈드로우→우드로우",
+      "audit": "qa/dialogue-review-v1.1a.json#118"
+    },
+    {
+      "id": "dialogue-audit-165d20",
+      "text": "아~우드로우　님~\n어디　계세요~",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "윈드로우→우드로우",
+      "audit": "qa/dialogue-review-v1.1a.json#119"
+    },
+    {
+      "id": "dialogue-audit-165dd8",
+      "text": "응!\n내가　열심히　하면…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "열심해→열심히",
+      "audit": "qa/dialogue-review-v1.1a.json#120"
+    },
+    {
+      "id": "dialogue-audit-165df0",
+      "text": "난　너의　그런　모습에\n흥미를　느껴",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "그런 성향에 흥미라는 뜻, 그럼이라는 접속어 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#121"
+    },
+    {
+      "id": "dialogue-audit-165e48",
+      "text": "레이스는　쇠약해져서\n@D호에서　대기합니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "衰弱으로 대기함을 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#122"
+    },
+    {
+      "id": "dialogue-audit-1661b0",
+      "text": "퀴퀴퀴,퀵,퀵키!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#123"
+    },
+    {
+      "id": "dialogue-audit-166208",
+      "text": "퀴퀴퀴,퀵키!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#124"
+    },
+    {
+      "id": "dialogue-audit-16647c",
+      "text": "제　부하로　변신하다니\n배짱도　좋군요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "변신다하다니→변신하다니",
+      "audit": "qa/dialogue-review-v1.1a.json#126"
+    },
+    {
+      "id": "dialogue-audit-16661c",
+      "text": "그래서　제　발과　제　의지로\n미래를　향해　걷고　싶어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "행해→향해",
+      "audit": "qa/dialogue-review-v1.1a.json#127"
+    },
+    {
+      "id": "dialogue-audit-166634",
+      "text": "그래,고마워　프레세아\n나도　미래를　바라보겠다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "프레시아→프레세아",
+      "audit": "qa/dialogue-review-v1.1a.json#128"
+    },
+    {
+      "id": "dialogue-audit-16665c",
+      "text": "리갈은　쇠약해져서\n@D호에서　대기합니다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "衰弱으로 대기함을 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#129"
+    },
+    {
+      "id": "dialogue-audit-166830",
+      "text": "내　동료의　모습을　빌린　죄\n그　대가를　치르게　해　주마!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "상대에게 죄를 갚게 하겠다는 뜻, 내가 갚아준다는 주체 역전",
+      "audit": "qa/dialogue-review-v1.1a.json#130"
+    },
+    {
+      "id": "dialogue-audit-1670e4",
+      "text": "오랜만이군,크라토스\n내　친구라　해도…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "我が友とはいえ 친구라 해도라는 관계 정보 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#131"
+    },
+    {
+      "id": "dialogue-audit-167224",
+      "text": "그건　누님의　영혼을　담을　그릇\n날　방해하는　자는…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "姉上 남성 유그드라실의 누나, 언니 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#132"
+    },
+    {
+      "id": "dialogue-audit-167374",
+      "text": "넌　누님의　영혼을　담을　그릇\n이번에야말로　데려가겠다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "姉上 유그드라실의 누나",
+      "audit": "qa/dialogue-review-v1.1a.json#133"
+    },
+    {
+      "id": "dialogue-audit-1675bc",
+      "text": "모두를　구할　길이\n언제나　있는　건　아니다%k\n명심해　둬라",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "모든 구할 오자와 %k 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#134"
+    },
+    {
+      "id": "dialogue-audit-1677d8",
+      "text": "제２전투　체제?　하하~\n포격　방식이　바뀌는　거구나",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "전투체체→전투체제",
+      "audit": "qa/dialogue-review-v1.1a.json#135"
+    },
+    {
+      "id": "dialogue-audit-167964",
+      "text": "어,당신이　바르바토스?\n전설대로　정말　끈질기네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#136"
+    },
+    {
+      "id": "dialogue-audit-167a30",
+      "text": "카일,네놈도　참　운이　없군\n아비나　자식이나　내　앞에　나타나니",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "親子ともども 아버지와 아들 둘 다 뜻, 부모와 함께 출현한 것이 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#137"
+    },
+    {
+      "id": "dialogue-audit-167a60",
+      "text": "아비나　자식이나?\n그게　무슨　뜻이야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "親子 부모 자식이라는 말에 의문",
+      "audit": "qa/dialogue-review-v1.1a.json#138"
+    },
+    {
+      "id": "dialogue-audit-167a78",
+      "text": "푸하하!\n저승에서　네　아비에게　물어봐라!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "オヤジ 아버지에게 물으라는 살해 암시 대상 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#139"
+    },
+    {
+      "id": "dialogue-audit-167b70",
+      "text": "이　손으로　죽여　주마!\n자,내　갈증을　해소해　다오!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "해 해소 중복",
+      "audit": "qa/dialogue-review-v1.1a.json#140"
+    },
+    {
+      "id": "dialogue-audit-167cd0",
+      "text": "바르바토스,좋은　거　알려　줄게\n끈질긴　남자는　인기　없어!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#141"
+    },
+    {
+      "id": "dialogue-audit-167d00",
+      "text": "…내가　바르바토스라고?\n이제　눈치　좀　채라,납작아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#142"
+    },
+    {
+      "id": "dialogue-audit-16868c",
+      "text": "나리키리사　네　명의　승부에\n세계의　운명을　걸자!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사 직업 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#143"
+    },
+    {
+      "id": "dialogue-audit-1686ac",
+      "text": "마지막　결전은　우리\n나리키리사들만의　승부야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사만 결전에 참가한다는 제한",
+      "audit": "qa/dialogue-review-v1.1a.json#144"
+    },
+    {
+      "id": "dialogue-audit-1686ec",
+      "text": "세계의　운명이니　마왕을　쓰러뜨리니\n너희,말이　앞뒤가　안　맞잖아!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "メチャクチャ 말이 앞뒤가 안 맞는다는 비판, 대단하다는 칭찬 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#145"
+    },
+    {
+      "id": "dialogue-audit-168734",
+      "text": "지금　우리에게는　그　힘이　있어!\n너희도　이미　눈치챘을　텐데",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "이미 눈치챘을 거라는 뜻, 앞으로 알게 된다는 미래 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#146"
+    },
+    {
+      "id": "dialogue-audit-16874c",
+      "text": "우리　나리키리사는\n그　어떤　영웅보다도…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사 직업명",
+      "audit": "qa/dialogue-review-v1.1a.json#147"
+    },
+    {
+      "id": "dialogue-audit-169818",
+      "text": "둘　다　자신들의　역할은\n알고　있겠지?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "자진/일고→자신/알고",
+      "audit": "qa/dialogue-review-v1.1a.json#148"
+    },
+    {
+      "id": "dialogue-audit-16a1c8",
+      "text": "두　사람　다\n꼭　돌아와야　해요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "반드시 돌아오라는 당부를 예측으로 바꾼 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#149"
+    },
+    {
+      "id": "dialogue-audit-16a380",
+      "text": "세레스티아인인　저로서는\n이해할　수　없는　습관이지만…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "세레스타아→셀레스티아(기존 용어와 확인)",
+      "audit": "qa/dialogue-review-v1.1a.json#150"
+    },
+    {
+      "id": "dialogue-audit-16a4cc",
+      "text": "모든　세계의　운명을\n너희에게　맡기겠어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "너희에에→너희에게",
+      "audit": "qa/dialogue-review-v1.1a.json#151"
+    },
+    {
+      "id": "dialogue-audit-16a778",
+      "text": "모두를　만나기　전의\n저는　망설이기만　했어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나는의 나 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#152"
+    },
+    {
+      "id": "dialogue-audit-16a8c0",
+      "text": "사람들은　그런　이를　영웅이라　하지\n너희는　이미　훌륭한　영웅이야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "그렇게 사는 모습을 보고 영웅이라고 부른다는 핵심 이유 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#153"
+    },
+    {
+      "id": "dialogue-audit-16add4",
+      "text": "생길　줄은　몰랐어\n너희　둘을　만나서　정말　다행이야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "친구가 생길 것, 할 것이 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#154"
+    },
+    {
+      "id": "dialogue-audit-16b1d4",
+      "text": "여긴　이　몸에게　맡겨!\n든든한　진흙배에　탔다고　생각해",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "泥船 진흙배 말실수; 통통배라고 하면 침몰 지적과 연결 안 됨",
+      "audit": "qa/dialogue-review-v1.1a.json#155"
+    },
+    {
+      "id": "dialogue-audit-16baf8",
+      "text": "애초에　쓰러뜨리려고　부활시키다니\n말이　안　되잖아!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "안 되→안 돼",
+      "audit": "qa/dialogue-review-v1.1a.json#156"
+    },
+    {
+      "id": "dialogue-audit-16bfb8",
+      "text": "힘없는　자에게는　이러쿵저러쿵\n말할　권리가　없어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "어절 권리 훼손; 이러쿵저러쿵 말할 권리",
+      "audit": "qa/dialogue-review-v1.1a.json#157"
+    },
+    {
+      "id": "dialogue-audit-16c334",
+      "text": "다음에는　죽일　생각으로　갈　테니\n그쪽도　각오해!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "자음엔 오자 및 서로 죽일 각오로 싸운다는 문장 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#158"
+    },
+    {
+      "id": "dialogue-audit-16c494",
+      "text": "크루시스의　휘석을　손에　넣었다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "크루시스의 기적→크루시스의 휘석, 사용자 제공 아이템 용어",
+      "audit": "qa/dialogue-review-v1.1a.json#159"
+    },
+    {
+      "id": "dialogue-audit-16cb1c",
+      "text": "딱히…기다리란　소리는\n전혀　못　들었는데…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#160"
+    },
+    {
+      "id": "dialogue-audit-16cf70",
+      "text": "이봐~~~~!\n누가　좀　열어　줘어!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "문을 열어달라는 요청 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#161"
+    },
+    {
+      "id": "dialogue-audit-16d044",
+      "text": "부하하하,역시　돌아왔군!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "돌아왓군→돌아왔군",
+      "audit": "qa/dialogue-review-v1.1a.json#162"
+    },
+    {
+      "id": "dialogue-audit-16d118",
+      "text": "난　마왕　자바바!\n최강을　추구하며　시공을　넘은　자다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "最強を求め 최강을 추구해서 시공을 넘음, 이미 최강이라는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#163"
+    },
+    {
+      "id": "dialogue-audit-16d484",
+      "text": "되찾을　수　없는　과거와　미래를\n몇　번이고　후회하는　것이다…Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "悔やむ 후회하다 동사 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#164"
+    },
+    {
+      "id": "dialogue-audit-16d88c",
+      "text": "내가　베개　밑에　깔아　둔　건\n그쪽이야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "배게→베개",
+      "audit": "qa/dialogue-review-v1.1a.json#166"
+    },
+    {
+      "id": "dialogue-audit-16dbd0",
+      "text": "우리　둘을　합쳐도\n저쪽이　팔　두　개만큼　유리하겠네…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "둘 합쳐 팔 두 개라는 오역; 상대 팔이 두 개 더 많음",
+      "audit": "qa/dialogue-review-v1.1a.json#167"
+    },
+    {
+      "id": "dialogue-audit-16ea20",
+      "text": "아,맞다,여유가　있을　때\n나리키리　의상의　힘을　시험해　봐",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#168"
+    },
+    {
+      "id": "dialogue-audit-16ed30",
+      "text": "@B와　@G!\n드디어　와　줬다냥",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "왓구나→왔구나",
+      "audit": "qa/dialogue-review-v1.1a.json#169"
+    },
+    {
+      "id": "dialogue-audit-16f718",
+      "text": "꽤　잘했지만　아직은　내가\n조금　더　강한　것　같네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "いいセンいってた 꽤 잘했다, 좋은 센스 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#170"
+    },
+    {
+      "id": "dialogue-audit-16f80c",
+      "text": "너희와　한번　진심으로\n싸워　보고　싶었어,간다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "싶엇어→싶었어",
+      "audit": "qa/dialogue-review-v1.1a.json#171"
+    },
+    {
+      "id": "dialogue-audit-16ff84",
+      "text": "오빠의　원수는\n내가　갚아　줄게!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "여동생 리리스의 お兄ちゃん 오빠, 형 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#172"
+    },
+    {
+      "id": "dialogue-audit-1701e0",
+      "text": "영웅이　보상을　바라면\n안　된다냥",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "모상→보상",
+      "audit": "qa/dialogue-review-v1.1a.json#173"
+    },
+    {
+      "id": "dialogue-audit-170778",
+      "text": "갈아입으면　안　되잖아…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "着がえちゃったらだめ 갈아입으면 안 됨, 갈아입어야 함과 반대",
+      "audit": "qa/dialogue-review-v1.1a.json#174"
+    },
+    {
+      "id": "dialogue-audit-170900",
+      "text": "계기가　번쩍번쩍　깜박이고　있다\n이　복사기는　가짜인　모양이다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#175"
+    },
+    {
+      "id": "dialogue-audit-1713f0",
+      "text": "맞아,@B의　검술에는\n눈여겨볼　데가　있고…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "見るものがある 검술에 재능이 있다는 칭찬, 볼 것 없다는 정반대",
+      "audit": "qa/dialogue-review-v1.1a.json#176"
+    },
+    {
+      "id": "dialogue-audit-172584",
+      "text": "그렇게　칭찬해　주시니\n정말　영광이에요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "영광에요→영광이에요",
+      "audit": "qa/dialogue-review-v1.1a.json#177"
+    },
+    {
+      "id": "dialogue-audit-1731f8",
+      "text": "그러니까　이　삐죽한　모양이　둘이면\n똑똑하다가　바보란　뜻으로　바뀌어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "賢い→バカ 똑똑하다가 바보로 바뀌는 문자, 물→불로 임의 변경",
+      "audit": "qa/dialogue-review-v1.1a.json#179"
+    },
+    {
+      "id": "dialogue-audit-173e78",
+      "text": "우리에게는　그게　전부예요\n그렇게　살아왔지요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#180"
+    },
+    {
+      "id": "dialogue-audit-174528",
+      "text": "난　늦잠　잔　벌로　바닥을\n청소해야　해서　바쁘거든",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "늦잠의 벌로 청소라는 이유 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#181"
+    },
+    {
+      "id": "dialogue-audit-1748dc",
+      "text": "난　늦잠　잔　벌로　바닥을\n청소해야　해서　바쁘거든",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "늦잠의 벌로 청소라는 이유 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#181"
+    },
+    {
+      "id": "dialogue-audit-1745e0",
+      "text": "@B,바닥　청소　좀　도와줘\n이거　줄　테니까",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "これやるから 이걸 줄 테니, 내가 이걸 한다는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#182"
+    },
+    {
+      "id": "dialogue-audit-174994",
+      "text": "@B,바닥　청소　좀　도와줘\n이거　줄　테니까",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "これやるから 이걸 줄 테니, 내가 이걸 한다는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#182"
+    },
+    {
+      "id": "dialogue-audit-17500c",
+      "text": "잠꼬대는!　뭐가　엄마야!\n정말,부모　얼굴　좀　보고　싶네!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "親の顔 부모 얼굴이라는 펀치라인 대상 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#183"
+    },
+    {
+      "id": "dialogue-audit-175364",
+      "text": "렌즈라면\n비싼　물건　아니야Ν",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "물건이 인데→물건인데",
+      "audit": "qa/dialogue-review-v1.1a.json#184"
+    },
+    {
+      "id": "dialogue-audit-17540c",
+      "text": "…농담이야,농담!\n그걸　진짜로　믿으면　어떡해",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "농당→농담",
+      "audit": "qa/dialogue-review-v1.1a.json#185"
+    },
+    {
+      "id": "dialogue-audit-175760",
+      "text": "샬티에　본인보다　성능이\n좋아지다니　흥미롭네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "シャルティエ本人より 샬티에가 사람이던 시절보다 성능 향상, 검 자체의 향상 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#186"
+    },
+    {
+      "id": "dialogue-audit-175d54",
+      "text": "난　그저　남에게　발목　잡히는　게\n싫을　뿐이야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "足を引っぱられる 남에게 발목 잡히기 싫다, 자신이 짐 되기 싫다는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#187"
+    },
+    {
+      "id": "dialogue-audit-1764b4",
+      "text": "그럼,린다　양\n@B　씨　일행이…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "@B님 일행 대상 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#188"
+    },
+    {
+      "id": "dialogue-audit-1764bc",
+      "text": "내일도　무사하도록　신께\n기도하는　건　어떨까요?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "明日の無事 내일도 무사하기, 내일과 무사함 두 대상 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#189"
+    },
+    {
+      "id": "dialogue-audit-176cec",
+      "text": "여분이라도　괜찮으시면\n드릴게요,자　받으세요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "여분의 안경이라도 괜찮다면 드린다, 여분으로 필요하다는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#190"
+    },
+    {
+      "id": "dialogue-audit-177a9c",
+      "text": "뭘　다　큰　어른처럼　말하니\n넌　아직　열네　살이잖아?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "一人前の口 어른인 척 말함, 한쌍 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#191"
+    },
+    {
+      "id": "dialogue-audit-177db0",
+      "text": "메르디　씨와　함께　느티나무님과\n얘기하고　있었어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ケヤキ 느티나무 일반명",
+      "audit": "qa/dialogue-review-v1.1a.json#192"
+    },
+    {
+      "id": "dialogue-audit-177de0",
+      "text": "???　느티나무님이라니…\n그　나무　느티나무랑…대화를?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ケヤキ 느티나무",
+      "audit": "qa/dialogue-review-v1.1a.json#193"
+    },
+    {
+      "id": "dialogue-audit-177df0",
+      "text": "와이르!　메르디도\n느티나무님　목소리　들려요!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ケヤキ 느티나무",
+      "audit": "qa/dialogue-review-v1.1a.json#194"
+    },
+    {
+      "id": "dialogue-audit-177e00",
+      "text": "이렇게　나무　그늘에　서　있으면\n느티나무님과　얘기할　수　있어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ケヤキ 느티나무",
+      "audit": "qa/dialogue-review-v1.1a.json#195"
+    },
+    {
+      "id": "dialogue-audit-177e60",
+      "text": "두더지군의　이갈이나\n상수리나무님의　트림　같은…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "モグラ 두더지 クヌギ 상수리나무 일반명",
+      "audit": "qa/dialogue-review-v1.1a.json#196"
+    },
+    {
+      "id": "dialogue-audit-178110",
+      "text": "네,평소에는　바지　고무줄도\n못　고치는　사람이지만…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ズボンのゴムも直せない 바지 고무줄도 못 고친다는 구체 묘사 복원 및 모르지만 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#197"
+    },
+    {
+      "id": "dialogue-audit-178664",
+      "text": "그들이　돈으로　얻을　수　없는\n소중한　것을　가르쳐　줬으니까",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "가르져→가르쳐",
+      "audit": "qa/dialogue-review-v1.1a.json#198"
+    },
+    {
+      "id": "dialogue-audit-178880",
+      "text": "그건　어떤　기분일까　해서\n…슬프지는　않아?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "그런 어떤→그건 어떤",
+      "audit": "qa/dialogue-review-v1.1a.json#199"
+    },
+    {
+      "id": "dialogue-audit-1791cc",
+      "text": "너,머리　좋다면서?\n효율적인　육체　개조법　좀　알려　줘",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "효울→효율",
+      "audit": "qa/dialogue-review-v1.1a.json#200"
+    },
+    {
+      "id": "dialogue-audit-1791e4",
+      "text": "그럼　먼저　두　다리는　무한궤도로\n당연히　두　팔은　로켓　펀치겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "로켓펀지→로켓펀치",
+      "audit": "qa/dialogue-review-v1.1a.json#201"
+    },
+    {
+      "id": "dialogue-audit-179524",
+      "text": "챔피언　벨트를\n손에　넣었다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "밸드→벨트",
+      "audit": "qa/dialogue-review-v1.1a.json#202"
+    },
+    {
+      "id": "dialogue-audit-179798",
+      "text": "이봐,거기　베이비\n내　뒤에　서지　말아　주겠어?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "背後に立つ 뒤에 서다, 숨다 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#203"
+    },
+    {
+      "id": "dialogue-audit-179b28",
+      "text": "이봐,거기　베이비\n내　뒤에　서지　말아　주겠어?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "背後に立つ 뒤에 서다, 숨다 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#203"
+    },
+    {
+      "id": "dialogue-audit-17a380",
+      "text": "빨리　먹어\n다　큰　어른이잖아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "いいオトナ 다 큰 어른, 좋은 어른 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#204"
+    },
+    {
+      "id": "dialogue-audit-17a7d0",
+      "text": "빨리　먹어\n다　큰　어른이잖아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "いいオトナ 다 큰 어른, 좋은 어른 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#204"
+    },
+    {
+      "id": "dialogue-audit-17b0c8",
+      "text": "파라는　수영　못　해!\n또　숲에서　붙잡힌　곰을…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "파나→파라; 붙잡힌 곰이라는 맥락 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#205"
+    },
+    {
+      "id": "dialogue-audit-17b94c",
+      "text": "불평해　봤자　소용없잖아\n봐,주디　씨가　기다려",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "늦엇어→늦었어",
+      "audit": "qa/dialogue-review-v1.1a.json#206"
+    },
+    {
+      "id": "dialogue-audit-17b95c",
+      "text": "여전히　체력이　약하네\n내　절반밖에　안　들었으면서",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "持って 체력 반이 아니라 짐을 절반만 들고 있다는 뜻",
+      "audit": "qa/dialogue-review-v1.1a.json#207"
+    },
+    {
+      "id": "dialogue-audit-17bba4",
+      "text": "이봐,게으름　피우지　말고\n어서　끝까지　읽어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "게르음→게으름",
+      "audit": "qa/dialogue-review-v1.1a.json#208"
+    },
+    {
+      "id": "dialogue-audit-17bbac",
+      "text": "난　리필　씨에게\n너희를　돌봐　달라는　부탁을　받았어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "면도를 부탁받았다는 건 학습 돌보기, 너희 일을 부탁받은 것이 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#209"
+    },
+    {
+      "id": "dialogue-audit-17c3bc",
+      "text": "퀵!　퀵키!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#210"
+    },
+    {
+      "id": "dialogue-audit-17c6bc",
+      "text": "속　편해　보이기도　하고",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "おめでたそう 순진하고 태평한 모습, 축할만한은 훼손",
+      "audit": "qa/dialogue-review-v1.1a.json#212"
+    },
+    {
+      "id": "dialogue-audit-17c6cc",
+      "text": "속　편하다,무슨　뜻이야?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "おめでたい 전후 말장난 연결 필요",
+      "audit": "qa/dialogue-review-v1.1a.json#213"
+    },
+    {
+      "id": "dialogue-audit-17c704",
+      "text": "와이르!　메르디　행복해!\n메르디,속　편해요!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "메르디가 おめでたい 라는 자기 성향 말, 메르디에게 축하하는 게 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#214"
+    },
+    {
+      "id": "dialogue-audit-17c940",
+      "text": "퀴퀴퀴,퀵!\n퀵키!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#215"
+    },
+    {
+      "id": "dialogue-audit-17cf58",
+      "text": "퀴퀴퀴,퀵!\n퀵키!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#215"
+    },
+    {
+      "id": "dialogue-audit-17cc60",
+      "text": "포그가　대장으로　있는\n자유군　실루에시카의　배지잖아?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "포그가 리더를 맡는 자유군 배지, 리더였네라는 별도 감탄 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#216"
+    },
+    {
+      "id": "dialogue-audit-17cc80",
+      "text": "미아키스라는　동물을\n본떠　만든　거래!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "미아키스라는 동물을 본뜬 배지, 미아키스 자체가 조형물이라는 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#217"
+    },
+    {
+      "id": "dialogue-audit-17ccd0",
+      "text": "대단해!　멋져!\n가슴에　미아키스를!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ミアキスを胸に 가슴에 미아키스를 표어의 장소 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#218"
+    },
+    {
+      "id": "dialogue-audit-17cce0",
+      "text": "가슴에　미아키스를!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ミアキスを胸に 표어 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#219"
+    },
+    {
+      "id": "dialogue-audit-17cff8",
+      "text": "퀵,퀵!\n퀵키!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#220"
+    },
+    {
+      "id": "dialogue-audit-17d0a0",
+      "text": "동물에게　사랑받는　사람　중에는\n나쁜　사람이　없다는　걸까?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "動物に好かれる 동물에게 사랑받다, 동물을 사랑하다 주체 반대",
+      "audit": "qa/dialogue-review-v1.1a.json#221"
+    },
+    {
+      "id": "dialogue-audit-17d300",
+      "text": "제　성별을　생각하면\n사내아이라고　부르는　건　틀렸어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "坊主 사내아이 호칭 때문에 여자 채트가 항의; 성중립 꼬마로는 이유 없음",
+      "audit": "qa/dialogue-review-v1.1a.json#222"
+    },
+    {
+      "id": "dialogue-audit-17d310",
+      "text": "하하하,사내녀석!\n그렇게　비쩍　마른　꼬마가…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "坊主 사내꼬마로 전후 연결",
+      "audit": "qa/dialogue-review-v1.1a.json#223"
+    },
+    {
+      "id": "dialogue-audit-17d370",
+      "text": "나도　같은데!　함께　힘내서\n콩맨처럼　되자!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "콘맨→콩맨",
+      "audit": "qa/dialogue-review-v1.1a.json#224"
+    },
+    {
+      "id": "dialogue-audit-17d58c",
+      "text": "좋아요!　당신들은\n아주　싹수가　있군요!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "見所がある 사람에게 가능성과 안목이 있다, 궁금한 게 많다는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#225"
+    },
+    {
+      "id": "dialogue-audit-17ee60",
+      "text": "어?　그,그야　생각을　고친다면\n난　딱히…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "생각 고쳐먹으면 나야 상관없다는 말, 내가 별로냐는 질문 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#226"
+    },
+    {
+      "id": "dialogue-audit-17eeb8",
+      "text": "그마해,용서해　줘\n다신　말　안　하께…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "もう言いません 다시 말 안 할게, 그만해 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#227"
+    },
+    {
+      "id": "dialogue-audit-180354",
+      "text": "어라,켄\n린다랑　함께　있지　않았어?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "리나→린다",
+      "audit": "qa/dialogue-review-v1.1a.json#228"
+    },
+    {
+      "id": "dialogue-audit-1808f4",
+      "text": "당연히　싫지!\n덤이라니,그게　뭐야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "イヤに決まってる 당연히 싫지, 동의하는 당연하지 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#229"
+    },
+    {
+      "id": "dialogue-audit-180b68",
+      "text": "아~너라면\n이걸　쓰면　알　수　있을지도",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "これ使えばわかる 쓰면 성별을 알 수도 있다는 답, 쓸 수 있다는 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#230"
+    },
+    {
+      "id": "dialogue-audit-1813e8",
+      "text": "이　손의　엑스피어와　노이슈가\n내　출생의　비밀을　풀　열쇠인　건가",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "この手の 이 손에 있는 엑스피어, 이런 종류의 뜻 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#232"
+    },
+    {
+      "id": "dialogue-audit-181438",
+      "text": "그　보석이랑　주위　무늬\n엄청　멋져!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "보적→보석",
+      "audit": "qa/dialogue-review-v1.1a.json#233"
+    },
+    {
+      "id": "dialogue-audit-181470",
+      "text": "요소의　문장을\n손에　넣었다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "かなめのもん 요의 문장; 문 아닌 문양/문장 아이템 통일 확인",
+      "audit": "qa/dialogue-review-v1.1a.json#234"
+    },
+    {
+      "id": "dialogue-audit-181ce4",
+      "text": "하지만　로이드처럼　노력을\n포기하면　나중에　고생할　거야…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "않으먼→않으면",
+      "audit": "qa/dialogue-review-v1.1a.json#235"
+    },
+    {
+      "id": "dialogue-audit-181d0c",
+      "text": "그럼　너도　여기서\n게으름　피울　수는　없겠네,지니어스",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "안돼지→안되지",
+      "audit": "qa/dialogue-review-v1.1a.json#236"
+    },
+    {
+      "id": "dialogue-audit-181d24",
+      "text": "으아아아!　누나!\n히익~괜히　말을　꺼냈어!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "남자 지니어스가姉さん 누나, 언니 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#237"
+    },
+    {
+      "id": "dialogue-audit-181f64",
+      "text": "있지,너희　세계에도\n하프엘프가　있지?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "하이엘프→하프엘프 혼혈 종족",
+      "audit": "qa/dialogue-review-v1.1a.json#238"
+    },
+    {
+      "id": "dialogue-audit-181f94",
+      "text": "엘프도　하프엘프도　모두\n차별　없이　어울릴　날이　올　거야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "하이엘프→하프엘프",
+      "audit": "qa/dialogue-review-v1.1a.json#239"
+    },
+    {
+      "id": "dialogue-audit-182258",
+      "text": "난　지니어스의　켄다마가\n나쁘지　않다고　생각해",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "지니어스이→지니어스의",
+      "audit": "qa/dialogue-review-v1.1a.json#240"
+    },
+    {
+      "id": "dialogue-audit-183508",
+      "text": "시이나는　코린의　첫　친구\n시이나는　코린이　지킬　거야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "시이나를 코린이 지킨다, 시이나가 코린을 지킨다는 반대 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#242"
+    },
+    {
+      "id": "dialogue-audit-183d20",
+      "text": "태어나자마자　정해진　배우자에\n독　검사　끝나　식어　버린　음식…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "태어나자마자 정해진 배우자와 기미 후 식은 음식의 구체 사실 전체 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#244"
+    },
+    {
+      "id": "dialogue-audit-183db8",
+      "text": "글쎄,그건　어떨까",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "글세→글쎄",
+      "audit": "qa/dialogue-review-v1.1a.json#245"
+    },
+    {
+      "id": "dialogue-audit-184074",
+      "text": "뭐야,@G는　몰라?\n스즈랑　프레세아의　웃음　참기　시합",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "にらめっこ 먼저 웃으면 지는 얼굴 마주보기 놀이; 눈치게임 아님, 프레에아 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#246"
+    },
+    {
+      "id": "dialogue-audit-18407c",
+      "text": "최근　꽤　화제야\n로니　같은　사람은　돈도　걸었다고",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "お金かける 돈을 걸다, 돈 쓰다 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#247"
+    },
+    {
+      "id": "dialogue-audit-18408c",
+      "text": "무표정한　둘이　웃음　참기?\n그게　뭐가　재밌을까?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "웃음 참기 놀이로 전후 연결",
+      "audit": "qa/dialogue-review-v1.1a.json#248"
+    },
+    {
+      "id": "dialogue-audit-1845f8",
+      "text": "우와,대단해!\n그렇게　큰　도끼를　가볍게!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "대단대→대단해",
+      "audit": "qa/dialogue-review-v1.1a.json#249"
+    },
+    {
+      "id": "dialogue-audit-1848bc",
+      "text": "아리시아에　대해\n얘기해　달라고?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "아리시이의 대해→아리시아에 대해",
+      "audit": "qa/dialogue-review-v1.1a.json#250"
+    },
+    {
+      "id": "dialogue-audit-1848e4",
+      "text": "작은　속죄라도　되겠지…좋다\n내　얘기를　꼭　들어　주면　좋겠다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ぜひ聞いて欲しい 내 이야기를 들어주었으면 함, 내가 듣고 싶다가 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#251"
+    },
+    {
+      "id": "dialogue-audit-1853fc",
+      "text": "내일은　오늘보다　힘들지…꿈나무집\n아이라면　세　살에　각오하거든",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "３つで 세 살 때 각오를 한다, 세 가지 각오 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#252"
+    },
+    {
+      "id": "dialogue-audit-185570",
+      "text": "그　나리키리　의상이란　거\n나도　입어　봐도　될까?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#253"
+    },
+    {
+      "id": "dialogue-audit-1863d8",
+      "text": "여러　세계의　존망을　건　싸움의\n전선　기지라니　믿기지　않아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "어러→여러",
+      "audit": "qa/dialogue-review-v1.1a.json#254"
+    },
+    {
+      "id": "dialogue-audit-186d58",
+      "text": "정말…여자들은\n낭만을　모른다니까",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ロマン 낭만, 연애 로맨스 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#255"
+    },
+    {
+      "id": "dialogue-audit-186d70",
+      "text": "낭만으로는　배가　안　불러\n기껏해야　가슴이나　부풀지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "낭만으로 배는 안 부르고 가슴만 부푸는 비유; 최고는 가슴이라는 의미 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#256"
+    },
+    {
+      "id": "dialogue-audit-186d78",
+      "text": "그럼　@G　누나는\n낭만이　전혀　없다는　거야?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "가슴이 납작하니 낭만이 없다고 놀리는 말의 낭만 용어",
+      "audit": "qa/dialogue-review-v1.1a.json#257"
+    },
+    {
+      "id": "dialogue-audit-186f80",
+      "text": "안전하고　확실한　도둑질은　없어!\n…정말,말귀를　못　알아듣네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "확신한→확실한; 안전한 도둑질",
+      "audit": "qa/dialogue-review-v1.1a.json#258"
+    },
+    {
+      "id": "dialogue-audit-187418",
+      "text": "레미　유적　안에서　남자　괴물과\n여자　괴물을　봤다고　하더라",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "男と女の怪物 남녀 모습의 괴물 둘, 남녀와 괴물 셋 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#259"
+    },
+    {
+      "id": "dialogue-audit-187428",
+      "text": "남자　괴물과　여자　괴물Ν\n그런데　그　사람은　거기서　뭘　했대",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "남녀 모습의 괴물로 연결",
+      "audit": "qa/dialogue-review-v1.1a.json#260"
+    },
+    {
+      "id": "dialogue-audit-187d6c",
+      "text": "시간의　더미에서　막　돌아온\n너희에게는　가혹한　얘기지만…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "가옥한→가혹한",
+      "audit": "qa/dialogue-review-v1.1a.json#261"
+    },
+    {
+      "id": "dialogue-audit-187f70",
+      "text": "적도　아무래도　나리키리　의상을\n사용하는　모양이군",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상",
+      "audit": "qa/dialogue-review-v1.1a.json#262"
+    },
+    {
+      "id": "dialogue-audit-188264",
+      "text": "나리키리사…\n아마　우리와　같은…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사 직업명",
+      "audit": "qa/dialogue-review-v1.1a.json#263"
+    },
+    {
+      "id": "dialogue-audit-1882a4",
+      "text": "어?　아,그렇구나\n이　세계에는　많이　사는　거야?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "大勢いる 나리키리사가 많이 사느냐, 다들 의상 가졌냐 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#264"
+    },
+    {
+      "id": "dialogue-audit-188748",
+      "text": "틀렸다면　미안한데,리온　씨는\n스스로　남은　거죠?　왜요?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "違ってたらごめん 틀렸다면 미안, 그만해 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#265"
+    },
+    {
+      "id": "dialogue-audit-188a54",
+      "text": "…그렇다고　해도　지금은\n우리도　손쓸　도리가　없어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "打つ手なし 손쓸 방법이 없다, 사용 불가 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#266"
+    },
+    {
+      "id": "dialogue-audit-188eec",
+      "text": "그런데　그　녀석들한테　배신당했지…\n키우던　개의　손을　문　거야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "飼い犬の手をかむ 키우던 개의 손을 물다 의도적 속담 역전 유지해야 후속 말장난 연결",
+      "audit": "qa/dialogue-review-v1.1a.json#267"
+    },
+    {
+      "id": "dialogue-audit-189d4c",
+      "text": "…대체　무슨　일이　일어난　거야\n그리고　어디로　간　거지?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "있어난거야→일어난거야",
+      "audit": "qa/dialogue-review-v1.1a.json#268"
+    },
+    {
+      "id": "dialogue-audit-18a2f0",
+      "text": "내가　참　면목이　없군…\n적의　나리키리사가…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사 직업명",
+      "audit": "qa/dialogue-review-v1.1a.json#269"
+    },
+    {
+      "id": "dialogue-audit-18afa8",
+      "text": "그　녀석들　정체는　들었어요!\n그래서　이것저것　생각해　봤는데요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "생각해 좀 했는데→생각을 좀 했는데",
+      "audit": "qa/dialogue-review-v1.1a.json#270"
+    },
+    {
+      "id": "dialogue-audit-18afb0",
+      "text": "나리키리　의상은　분명\n그　사람의　미래　가능성이었죠?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "確か 나리키리 의상은 ~였지라는 확인, 진짜 나리키리 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#271"
+    },
+    {
+      "id": "dialogue-audit-18b5bc",
+      "text": "몸의　통증을　없애는　건\n마음의　아픔을　없애기보다　쉽지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "몸의 통증을 없애는 것이라는 동사 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#272"
+    },
+    {
+      "id": "dialogue-audit-18bb0c",
+      "text": "１００일　뒤의　너희와　지금　너희는\n우리와　같은　운명이야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "僕らと同じ 너희 두 버전은 우리와 동일한 운명이라는 비교 대상 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#273"
+    },
+    {
+      "id": "dialogue-audit-18be0c",
+      "text": "１００일　뒤의　너희와　지금　너희는\n우리와　같은　운명이야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "僕らと同じ 너희 두 버전은 우리와 동일한 운명이라는 비교 대상 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#273"
+    },
+    {
+      "id": "dialogue-audit-18bf10",
+      "text": "순진하네~아무리　@B와\n@G가　ΠΠ　사이라도…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "@B와 @G 이름 및 하트 두 개 표현 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#274"
+    },
+    {
+      "id": "dialogue-audit-18ce0c",
+      "text": "자기　자신과의　싸움은\n정말　괴로울　거야%k\n하지만　너희라면　어떤　어려움도\n반드시　이겨　낼　거라　믿어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "법이야해 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#275"
+    },
+    {
+      "id": "dialogue-audit-18e648",
+      "text": "세세한　건　제쳐　두고\n빨간　적은　검,파란　적은　마법!%k\n이것만은　머리에　새겨　둬\n빨강은　검!　파랑은　마법이야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "빨 검! 파란 마법 훼손 지시를 빨강은 검 파랑은 마법으로",
+      "audit": "qa/dialogue-review-v1.1a.json#276"
+    },
+    {
+      "id": "dialogue-audit-18e7c8",
+      "text": "정말　면목이　없군\n적에게　나리키리사가　있다면…%k\n@B와　@G로　변할　건\n당연히　예상했어야　했는데",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사 직업명",
+      "audit": "qa/dialogue-review-v1.1a.json#277"
+    },
+    {
+      "id": "dialogue-audit-18e808",
+      "text": "그　둘은　나리키리　의상의　힘으로\n너희로　변신했던　게　아니다%k\n아마　미래의　너희　본인일　거다\n직접　만난　나로서는　알　수　있어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상의 힘",
+      "audit": "qa/dialogue-review-v1.1a.json#278"
+    },
+    {
+      "id": "dialogue-audit-1904a0",
+      "text": "적의　나리키리사를　쓰러뜨리면\n１００일　뒤의　너희도　구할　텐데…%k\n아무튼　지금　할　수　있는　일을\n최선을　다해　해야지!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#279"
+    },
+    {
+      "id": "dialogue-audit-190d80",
+      "text": "저　애들　나리키리　의상도\n유적에서　훔친　걸까?%k\n정말　부럽네\n…어,농담이야!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#280"
+    },
+    {
+      "id": "dialogue-audit-191fb4",
+      "text": "처음　만나는　분들과도\n되도록　친해지시면　좋겠어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "친해는게→친해지는게",
+      "audit": "qa/dialogue-review-v1.1a.json#281"
+    },
+    {
+      "id": "dialogue-audit-1920b4",
+      "text": "처음　만나는　분들과도\n되도록　친해지시면　좋겠어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "친해는게→친해지는게",
+      "audit": "qa/dialogue-review-v1.1a.json#281"
+    },
+    {
+      "id": "dialogue-audit-1921b4",
+      "text": "처음　만나는　분들과도\n되도록　친해지시면　좋겠어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "친해는게→친해지는게",
+      "audit": "qa/dialogue-review-v1.1a.json#281"
+    },
+    {
+      "id": "dialogue-audit-1921f4",
+      "text": "처음　만나는　분들과도\n되도록　친해지시면　좋겠어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "친해는게→친해지는게",
+      "audit": "qa/dialogue-review-v1.1a.json#281"
+    },
+    {
+      "id": "dialogue-audit-191ff4",
+      "text": "석판에　기록된　석화　광선총은\n딱딱　광선을　말하는　것　같아요%k\n다른　병기　이름도　있었다니\n여러모로　걱정이네요…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "카치카치 광선과 동일 장치, 일종이라고 집합 관계로 바꾼 오역; 다른 병기 이름 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#282"
+    },
+    {
+      "id": "dialogue-audit-192034",
+      "text": "나리키리　의상으로　마왕을　이긴\n용사는　대체　누구였을까요?%k\n@B　씨와　@G　씨의\n모습만　떠오르네요,후후후",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상을 입은 용사라는 추론 핵심 조건 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#283"
+    },
+    {
+      "id": "dialogue-audit-192134",
+      "text": "해롤드　씨가　이번　출동은\n미뤄　달라고　하셨대요%k\n무슨　연구　때문에\n바쁘시다고　하네요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "해롤드가 이번엔 출동하지 말아달라고 요청했다는 말, 필리아의 제안이 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#284"
+    },
+    {
+      "id": "dialogue-audit-19369c",
+      "text": "시간의　더미２에　출동할　때는\n꼭　저를　데려가　주세요%k\n우드로우　님의　목소리가\n들린다고요!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "우르도우→우드로우",
+      "audit": "qa/dialogue-review-v1.1a.json#285"
+    },
+    {
+      "id": "dialogue-audit-193c94",
+      "text": "출동지에서　인원이　적은　팀이\n합류할　때도　있을　것이다%k\n너희의　지휘관으로서의　능력을\n시험받게　되겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "少人数 팀 수가 아니라 한 팀 소속 인원 수",
+      "audit": "qa/dialogue-review-v1.1a.json#286"
+    },
+    {
+      "id": "dialogue-audit-193e94",
+      "text": "출동지에서　인원이　적은　팀이\n합류할　때도　있을　것이다%k\n너희의　지휘관으로서의　능력을\n시험받게　되겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "少人数 팀 수가 아니라 한 팀 소속 인원 수",
+      "audit": "qa/dialogue-review-v1.1a.json#286"
+    },
+    {
+      "id": "dialogue-audit-193dd4",
+      "text": "석화　광선　다음은　나리키리　의상…\n앞일을　생각하면　머리가　아프군",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문 의상/직업 명시 및 기존 명칭 통일",
+      "audit": "qa/dialogue-review-v1.1a.json#287"
+    },
+    {
+      "id": "dialogue-audit-193f14",
+      "text": "적의　요구대로　레미　유적에는\n너희　둘이　가는　게　좋겠다%k\n걱정　마라,지금의　너희　둘이라면\n분명　괜찮을　거야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "레미유저→레미유적",
+      "audit": "qa/dialogue-review-v1.1a.json#288"
+    },
+    {
+      "id": "dialogue-audit-194c44",
+      "text": "너희　풀이　죽은　얼굴을　떠올리니\n팔이　근질근질해서　말이야%k\n그러니까…한번　더\n함께　싸우고　싶어졌다고!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "腕が鳴る 팔이 저린 통증 아님, 실력을 발휘하고 싶어 근질거림; 함께 싸운다 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#289"
+    },
+    {
+      "id": "dialogue-audit-195b90",
+      "text": "출동하면　한동안　마을에\n못　돌아올　수도　있으니까…%k\n준비는　철저히　해　줘!\n지휘관님!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "準備万全で 부탁은 준비를 철저히 해 달라, 이미 준비 완료했다는 말 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#291"
+    },
+    {
+      "id": "dialogue-audit-196420",
+      "text": "만남의　유적에서　날아간　뒤의　일은\n잘　기억나지　않아%k\n기절한　사이에　약을　먹여　놔서…\n정말　살았어,고마워!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "薬を盛られて 기절한 사이 약을 먹인 범죄, 보살핌 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#292"
+    },
+    {
+      "id": "dialogue-audit-196560",
+      "text": "전설의　악역,영웅,엘프\n냥인,@B와　@G…%k\n다음에는　대체\n뭐로　변신할　생각일까?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "전설의 악역 누락 및 냥인 용어, %k 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#293"
+    },
+    {
+      "id": "dialogue-audit-196f24",
+      "text": "그렇게　쉽게　내　흉내를　내다니\n나리키리　의상은　무섭군",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#294"
+    },
+    {
+      "id": "dialogue-audit-197a20",
+      "text": "시간의　더미２에\n메르디　가고　싶어요!%k\n퀵키도　가라고\n말하고　있어요!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "퀵퀴 오자: 퀵키/퀴키 명명 정리",
+      "audit": "qa/dialogue-review-v1.1a.json#295"
+    },
+    {
+      "id": "dialogue-audit-197a60",
+      "text": "호흡　맞추기　힘들면\n더　가까이　붙으면　좋아요!%k\n그런데　두　사람은\n아주　친해서　안심이에요!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "가까지→가까이",
+      "audit": "qa/dialogue-review-v1.1a.json#296"
+    },
+    {
+      "id": "dialogue-audit-197aa0",
+      "text": "호흡　맞추기　힘들면\n더　가까이　붙으면　좋아요!%k\n그런데　두　사람은\n아주　친해서　안심이에요!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "가까지→가까이",
+      "audit": "qa/dialogue-review-v1.1a.json#296"
+    },
+    {
+      "id": "dialogue-audit-198180",
+      "text": "낙담할　필요　없어\n간단하잖아!%k\n미래의　너희가　당할　거라면\n당하기　전에　해치워　버려!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "미래이→미래의",
+      "audit": "qa/dialogue-review-v1.1a.json#297"
+    },
+    {
+      "id": "dialogue-audit-19996c",
+      "text": "유적에　나타난　두　사람은\n역시　그　도둑일까?%k\n그런데　엄청　강하다던데…\n그　둘은　아니겠지?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나타는→나타난",
+      "audit": "qa/dialogue-review-v1.1a.json#298"
+    },
+    {
+      "id": "dialogue-audit-199b6c",
+      "text": "나오미　씨,저렇게　보여도\n꽤　무섭다고%k\n오늘　아침에도　늦잠을　잤더니\n양동이로　물을　끼얹더라…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "水ぶっかけられ 물을 뒤집어씀, 본인이 쏟은 듯한 문장 수정",
+      "audit": "qa/dialogue-review-v1.1a.json#299"
+    },
+    {
+      "id": "dialogue-audit-199bac",
+      "text": "나오미　씨,저렇게　보여도\n꽤　무섭다고%k\n오늘　아침에도　늦잠을　잤더니\n양동이로　물을　끼얹더라…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "늦잠 자다 나오미에게 물벼락 맞은 피동",
+      "audit": "qa/dialogue-review-v1.1a.json#300"
+    },
+    {
+      "id": "dialogue-audit-19b2d4",
+      "text": "@D호　없이　이제\n대체　어떻게　해야　할까…%k\n지금도　휘둘리고　있는데\n정말　불안해",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "없이제 이제→없이 이제",
+      "audit": "qa/dialogue-review-v1.1a.json#301"
+    },
+    {
+      "id": "dialogue-audit-19b314",
+      "text": "@D호를　되찾았다고\n절대　방심하지　마%k\n더　끔찍한　일이\n안　생기리란　보장도　없으니까",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "끔직→끔찍",
+      "audit": "qa/dialogue-review-v1.1a.json#302"
+    },
+    {
+      "id": "dialogue-audit-19b454",
+      "text": "마왕을　쓰러뜨렸다는　추적자들…\n그들은　어디로　갔을까?%k\n마왕과　함께　그들도　부활한다…\n그렇게　편리한　일은　없겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "전해는 및 마왕 퇴치 추적자 명칭 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#303"
+    },
+    {
+      "id": "dialogue-audit-19b494",
+      "text": "마왕을　쓰러뜨렸다는　추적자들…\n그들은　어디로　갔을까?%k\n마왕과　함께　그들도　부활한다…\n그렇게　편리한　일은　없겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "전해는 및 마왕 퇴치 추적자 명칭 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#303"
+    },
+    {
+      "id": "dialogue-audit-19b4d4",
+      "text": "마왕을　쓰러뜨렸다는　추적자들…\n그들은　어디로　갔을까?%k\n마왕과　함께　그들도　부활한다…\n그렇게　편리한　일은　없겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "전해는 및 마왕 퇴치 추적자 명칭 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#303"
+    },
+    {
+      "id": "dialogue-audit-19b514",
+      "text": "마왕을　쓰러뜨렸다는　추적자들…\n그들은　어디로　갔을까?%k\n마왕과　함께　그들도　부활한다…\n그렇게　편리한　일은　없겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "전해는 및 마왕 퇴치 추적자 명칭 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#303"
+    },
+    {
+      "id": "dialogue-audit-19ce38",
+      "text": "냥시와　만났어?\n재밌는　걸　가져왔지?%k\n그런　데서　문화　차이가\n드러나는　게　흥미롭네♪",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ニャンシー 냥시 고유 인물명, 냥인 종족 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#304"
+    },
+    {
+      "id": "dialogue-audit-19ce78",
+      "text": "냥시와　만났어?\n재밌는　걸　가져왔지?%k\n그런　데서　문화　차이가\n드러나는　게　흥미롭네♪",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ニャンシー 냥시 고유 인물명, 냥인 종족 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#304"
+    },
+    {
+      "id": "dialogue-audit-19ceb8",
+      "text": "냥시와　만났어?\n재밌는　걸　가져왔지?%k\n그런　데서　문화　차이가\n드러나는　게　흥미롭네♪",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "ニャンシー 냥시 고유 인물명, 냥인 종족 아님",
+      "audit": "qa/dialogue-review-v1.1a.json#304"
+    },
+    {
+      "id": "dialogue-audit-19d540",
+      "text": "나리키리　의상이란　이상한　게\n셋이나　넷이나　있다니…%k\n좀　이상하잖아\n원래　많이　있었던　걸까?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#305"
+    },
+    {
+      "id": "dialogue-audit-19f220",
+      "text": "신의　눈에　이어　소서러　링도…\n지금은　눈에　안　보여도…%k\n머지않아　이　세계에도\n큰　영향이　나타나겠지요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "소서리 링→소서러 링",
+      "audit": "qa/dialogue-review-v1.1a.json#306"
+    },
+    {
+      "id": "dialogue-audit-19f460",
+      "text": "적의　나리키리사는　너희에　대해\n뭐든　알고　있는　것　같았어%k\n그렇게　완벽하게　변신할　줄은\n몰랐어,정말　미안해",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리사 용어와 변장했다는 서술 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#307"
+    },
+    {
+      "id": "dialogue-audit-1a1778",
+      "text": "리갈\n시간의　더미",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "시간의 웅덩이→시간의 더미 장소명(디버그 표제 사용인지 분리)",
+      "audit": "qa/dialogue-review-v1.1a.json#308"
+    },
+    {
+      "id": "dialogue-audit-1a2378",
+      "text": "마왕을　부활시킨다면　말리진　않겠다\n막은　너희　손으로　내려라",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "부활시킨다면이라는 조건문 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#309"
+    },
+    {
+      "id": "dialogue-audit-1a2844",
+      "text": "엄마　손맛은　굳이　떠올리진　않되\n잊지는　않는　정도가　딱　좋아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "추억을 떠올리지 않되 잊지 않는다는 말의 의미 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#310"
+    },
+    {
+      "id": "dialogue-audit-1a2a84",
+      "text": "엄마　손맛은　굳이　떠올리진　않되\n잊지는　않는　정도가　딱　좋아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "추억을 떠올리지 않되 잊지 않는다는 말의 의미 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#310"
+    },
+    {
+      "id": "dialogue-audit-1a4e60",
+      "text": "이동　전　아이템과　기술　사용은\n１팀,１턴당　각각　１회뿐이다%k\n위기일수록　머리를　식히고\n잘　생각한　뒤　결정해야　한다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "아이템과 기술은 각각 턴당 1회라는 제한 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#311"
+    },
+    {
+      "id": "dialogue-audit-1a4f20",
+      "text": "강한　팀이　약한　적을　잡아　봤자\n얻는　경험치는　적단다%k\n약한　팀이　강한　적을　잡으면\n순식간에　레벨이　오르지!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "팀과 적의 상대적 강약에 따른 경험치 설명 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#312"
+    },
+    {
+      "id": "dialogue-audit-1a50e0",
+      "text": "나리키리　의상으로　영웅의　모습과\n능력을　재현하는　건　쉽지%k\n하지만　진정　본받아야　할　것은\n그들의　삶의　방식일　게다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "본받을 대상은 영웅들의 삶의 방식",
+      "audit": "qa/dialogue-review-v1.1a.json#313"
+    },
+    {
+      "id": "dialogue-audit-1a5120",
+      "text": "강한　팀으로　적을　약하게　만든　뒤\n일부러　도망쳐서　곧바로…%k\n약한　팀이　마무리하면\n효율　좋게　레벨을　올릴　수　있지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "도망처 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#314"
+    },
+    {
+      "id": "dialogue-audit-1a6430",
+      "text": "석판은　Ｂ버튼으로　메뉴를　열어\n정보에서　확인할　수　있어요",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "버튼로 조사 오류",
+      "audit": "qa/dialogue-review-v1.1a.json#315"
+    },
+    {
+      "id": "dialogue-audit-1a6d00",
+      "text": "저　녀석들도　나리키리　의상을\n레미　유적에서　찾은　걸까?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#316"
+    },
+    {
+      "id": "dialogue-audit-1a72d0",
+      "text": "…대단하네,단둘이　매번\n영웅　군단을　마음대로　다루다니",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "영웅을 마음대로 다룬다는 서술 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#317"
+    },
+    {
+      "id": "dialogue-audit-1a79b8",
+      "text": "돌아가지　않은　것　같아\n…나라면　이젠　돌아갈　수　없어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나라면 돌아갈 수 없다는 가정 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#318"
+    },
+    {
+      "id": "dialogue-audit-1a8130",
+      "text": "서두를　것　없다…다신　못　만날\n친구들이　마을에서　기다리고　있다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "다시는 만날 수 없는 친구라는 이별 의미 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#319"
+    },
+    {
+      "id": "dialogue-audit-1abcd8",
+      "text": "이것은　나리키리　의상",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상 정의 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#320"
+    },
+    {
+      "id": "dialogue-audit-1abd88",
+      "text": "미래의　@B와\n@G에　관한　것이다…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "주인공 이름 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#321"
+    },
+    {
+      "id": "dialogue-audit-1ac3b0",
+      "text": "시간이　아깝다!　@B,\n@G,곧바로　출동이다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "출발 대상 주인공 이름 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#322"
+    },
+    {
+      "id": "dialogue-audit-1ac3c0",
+      "text": "영웅　여러분,\n@B와　@G를　부탁하네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "영웅에게 맡기는 주인공 이름 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#323"
+    },
+    {
+      "id": "dialogue-audit-1ad3e8",
+      "text": "신전　안의　바르바토스를\n쓰러뜨리면　미션　성공이다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#324"
+    },
+    {
+      "id": "dialogue-audit-1ad6e0",
+      "text": "만남의　유적　사고　뒤　행방불명된\n리드,파라,킬",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "키엘을 승인 표기 킬로 수정",
+      "audit": "qa/dialogue-review-v1.1a.json#325"
+    },
+    {
+      "id": "dialogue-audit-1adc08",
+      "text": "특별히　강한　몬스터는\n없는　모양이지만　수가　많다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "특혈히 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#326"
+    },
+    {
+      "id": "dialogue-audit-1adc18",
+      "text": "날아다니는　적을　잘　감시해라\n아마　연못을　넘어올　게다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "비행 적을 감시하라는 지시 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#327"
+    },
+    {
+      "id": "dialogue-audit-1ae080",
+      "text": "용암　피해와　날아다니는　적,\n미궁의　여주인을　조심해라",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "여 알지의 의미는 미궁의 여주인",
+      "audit": "qa/dialogue-review-v1.1a.json#328"
+    },
+    {
+      "id": "dialogue-audit-1ae140",
+      "text": "눈보라　피해와　날아다니는　적,\n동굴의　여주인을　조심해라",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "여 알지의 의미는 동굴의 여주인",
+      "audit": "qa/dialogue-review-v1.1a.json#329"
+    },
+    {
+      "id": "dialogue-audit-1ae1f8",
+      "text": "상황에　따라　영웅　구출은\n뒤로　미뤄도　괜찮다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "구출을 미루어도 된다는 허용을 권장으로 번역",
+      "audit": "qa/dialogue-review-v1.1a.json#330"
+    },
+    {
+      "id": "dialogue-audit-1afde8",
+      "text": "데스티니　전설의　신의　눈　대신전에\n바르바토스가　나타난　모양이다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#331"
+    },
+    {
+      "id": "dialogue-audit-1afe78",
+      "text": "심포니아　전설의　신탁의　성당이\n악마에게　점령당한　모양이다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "신포니아 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#332"
+    },
+    {
+      "id": "dialogue-audit-1b0098",
+      "text": "되살아난　절망의　궁전에\n리드,파라,킬이…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "키엘을 승인 표기 킬로 수정",
+      "audit": "qa/dialogue-review-v1.1a.json#333"
+    },
+    {
+      "id": "dialogue-audit-1b0130",
+      "text": "동문,서문　중　한쪽만　갈　수　있다\n너희의　감에　맡기마",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "동문과 서문 중 한 곳만 갈 수 있다는 선택 조건 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#334"
+    },
+    {
+      "id": "dialogue-audit-1b1adc",
+      "text": "듣고　싶지는　않지만\n일단　읽어　줄래?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "읽단 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#335"
+    },
+    {
+      "id": "dialogue-audit-1b1b3c",
+      "text": "『어느　날　바르바토스가　갑자기\n신의　눈　대신전에　나타났습니다』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#336"
+    },
+    {
+      "id": "dialogue-audit-1b1b44",
+      "text": "『바르바토스는　수수께끼의　상인들이\n준　정체불명의　병기를　써서…』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "미지의 대상은 상인이 아니라 병기",
+      "audit": "qa/dialogue-review-v1.1a.json#337"
+    },
+    {
+      "id": "dialogue-audit-1b1b74",
+      "text": "『４영웅　중　한　명인　필리아를\n돌로　만들　음모를　꾸몄습니다』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "4영웅 중 한 명이라는 관계 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#338"
+    },
+    {
+      "id": "dialogue-audit-1b1d0c",
+      "text": "『그러나　바르바토스의　야망은\n마리의　손에　산산이　부서졌습니다』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "부셔졌다 오자 및 승인 인명",
+      "audit": "qa/dialogue-review-v1.1a.json#339"
+    },
+    {
+      "id": "dialogue-audit-1b1d24",
+      "text": "『필리아는　바르바토스에　의해\n돌이　된　소년과　소녀…』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원문과 대조해 승인 인명/반려동물 명칭, 누락 의미와 말투를 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#340"
+    },
+    {
+      "id": "dialogue-audit-1b221c",
+      "text": "이번　변화는　지금까지　없던\n방식이니까　각오하고　읽어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "패던 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#341"
+    },
+    {
+      "id": "dialogue-audit-1b25ac",
+      "text": "새로운　전설이　갑자기　나타났어!\n내용이　상당히　위험해",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "위험한 전설 내용을 대단한 내용으로 번역",
+      "audit": "qa/dialogue-review-v1.1a.json#342"
+    },
+    {
+      "id": "dialogue-audit-1b2694",
+      "text": "길을　잃은　영웅들이　안　돌아오면\n전설들은　어떻게　되는　거지…?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "어떨게 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#343"
+    },
+    {
+      "id": "dialogue-audit-1b283c",
+      "text": "『주인과　사라진　절망의　궁전이\n다시　나타났다는　소식을　듣고…』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "주인과 함께 사라졌던 궁전의 재등장 정보 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#344"
+    },
+    {
+      "id": "dialogue-audit-1b2924",
+      "text": "절망의　궁전에　가면　분명\n리드　일행과　합류할　수　있어Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "함류 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#345"
+    },
+    {
+      "id": "dialogue-audit-1b2c4c",
+      "text": "『하지만　둘을　구별할　수　없어\n두　영웅도　발이　묶이고　말았지요』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "발이 묶인 주체인 두 영웅 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#346"
+    },
+    {
+      "id": "dialogue-audit-1b3154",
+      "text": "왠지　다른　나라의　도깨비　퇴치\n이야기처럼　되어　버렸네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "이국의 도깨비 퇴치 이야기라는 모모타로 인용의 연결 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#347"
+    },
+    {
+      "id": "dialogue-audit-1b36a4",
+      "text": "『정령술사들이　아무리　쓰러뜨려도\n마물　수는　줄지　않았습니다』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "마물을 쓰러뜨려도 수가 줄지 않는다는 완료 동작을 명확히 함; 정령술사 기존 번역 유지",
+      "audit": "qa/dialogue-review-v1.1a.json#348"
+    },
+    {
+      "id": "dialogue-audit-1b36ec",
+      "text": "문제는　아무리　쓰러뜨려도\n줄지　않는　마물과　어떻게　싸우냐야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "러뜨려도 오자",
+      "audit": "qa/dialogue-review-v1.1a.json#349"
+    },
+    {
+      "id": "dialogue-audit-1b3804",
+      "text": "『남녀　수호천사를　거느리고\n이세계에서　강림한　것입니다』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "남녀 수호천사와 이세계 강림 정보 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#350"
+    },
+    {
+      "id": "dialogue-audit-1b382c",
+      "text": "『해롤드는　해석군２호　개량형으로\n마물을　불태웠습니다』라네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "기계의 정확한 명칭이란 다음 대사와 일치하도록 해석군 2호 개량형 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#351"
+    },
+    {
+      "id": "dialogue-audit-1b393c",
+      "text": "으,기분　나빠!　그래도　로이드들\n덕분에　전부　없어졌잖아?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "기분 나쁘다는 감탄을 기억 난다고 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#352"
+    },
+    {
+      "id": "dialogue-audit-1b399c",
+      "text": "어디…『하지만　그중　하나가\n몰래　활동을　재개하고　있었습니다』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "인간 목장이 몰래 활동을 재개했다는 문장 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#353"
+    },
+    {
+      "id": "dialogue-audit-1b39a4",
+      "text": "『게다가　목장의　새　관리인은\n영웅이었을　터인…』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "영웅이었을 터라는 의심의 의미 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#354"
+    },
+    {
+      "id": "dialogue-audit-1b3bcc",
+      "text": "후후,그렇게　나왔구나\n그래도　１００명은　과장이잖아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "100명은 과장이라는 문장 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#356"
+    },
+    {
+      "id": "dialogue-audit-1b3c94",
+      "text": "『마력이　강한　영웅들이\n시공을　넘어　모였습니다』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "마력이 강한 영웅이라는 조건 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#357"
+    },
+    {
+      "id": "dialogue-audit-1b3cfc",
+      "text": "…무슨　이야기인지　잘　모르겠는데\n이거,설마?",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "이야기를 이해하지 못한다는 의미",
+      "audit": "qa/dialogue-review-v1.1a.json#358"
+    },
+    {
+      "id": "dialogue-audit-1b3db4",
+      "text": "왠지　쓸쓸하네",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "쓸쓸하다는 감정을 어색함으로 번역",
+      "audit": "qa/dialogue-review-v1.1a.json#359"
+    },
+    {
+      "id": "dialogue-audit-1b44c4",
+      "text": "이번에는　시간의　더미　전설２\n…라는데",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "시간의 더미 전설 2의 번호 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#360"
+    },
+    {
+      "id": "dialogue-audit-1b47b4",
+      "text": "『세상의　끝,시간의　끝에\n신의　보물고가　있었습니다』",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "보물과 보물고의 혼동",
+      "audit": "qa/dialogue-review-v1.1a.json#361"
+    },
+    {
+      "id": "dialogue-audit-1b4a34",
+      "text": "제목은　나리키리　전설!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 전설을 나름대로 전설로 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#362"
+    },
+    {
+      "id": "dialogue-audit-1b4b64",
+      "text": "어쩌면　그　녀석들　얘기였을지도\n모르지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "그 녀석들 이야기였을 가능성 표현",
+      "audit": "qa/dialogue-review-v1.1a.json#363"
+    },
+    {
+      "id": "dialogue-audit-1b82f4",
+      "text": "영웅은　나리키리　의상을　못　쓰잖아\n박사님　얘기로　그　이유를　알겠어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#364"
+    },
+    {
+      "id": "dialogue-audit-1b833c",
+      "text": "「나리키리　의상은　시공전이　기술을\n응용한　만능　슈트라　적혀　있다」",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상 정의 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#365"
+    },
+    {
+      "id": "dialogue-audit-1b8344",
+      "text": "「착용자의　먼　미래　가능성　중\n하나를　현재에　구현하는　듯하구나」",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "구현하는 듯하다는 설명을 구현하자는 제안으로 번역",
+      "audit": "qa/dialogue-review-v1.1a.json#366"
+    },
+    {
+      "id": "dialogue-audit-1b8484",
+      "text": "「생체　복사기는　원본의　가까운\n미래　여럿을　동시에　실체화한다」",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "원본의 가까운 미래 복제 설명 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#367"
+    },
+    {
+      "id": "dialogue-audit-1b8494",
+      "text": "「이것들도　나리키리　의상처럼\n시공　전이　기술을　쓰는　게지」",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상과 시공 전이 장치 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#368"
+    },
+    {
+      "id": "dialogue-audit-1b853c",
+      "text": "「나리키리　의상을　입은　용사들은\n고생　끝에　마왕군에게　승리!」",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상과 마왕군 승리 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#369"
+    },
+    {
+      "id": "dialogue-audit-1b85b4",
+      "text": "우리가　나리키리　의상을　입고\n@D호에　타고　있잖아",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "의상을 입고 탑승하고 있다는 근거 설명",
+      "audit": "qa/dialogue-review-v1.1a.json#370"
+    },
+    {
+      "id": "dialogue-audit-1b891c",
+      "text": "이제야　이야기가　연결됐네!\n나리키리　의상을　입은　젊은이들이…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#371"
+    },
+    {
+      "id": "dialogue-audit-1b89fc",
+      "text": "「못　미더운　추측을　일부러\n남긴　데는　이유가　있었던　게야」",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "わざわざ 일부러를 번역하여로 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#372"
+    },
+    {
+      "id": "dialogue-audit-1b8a0c",
+      "text": "「그들은　봉인을　지키며\n전생을　반복하는　영혼으로　말이지」",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "전생을 반복하는 영혼 조사 오류",
+      "audit": "qa/dialogue-review-v1.1a.json#373"
+    },
+    {
+      "id": "dialogue-audit-1b9e3c",
+      "text": "…흠흠,그랬구나\n정말　수고가　많았구나",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "박사의 수고했다는 문장 전체 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#374"
+    },
+    {
+      "id": "dialogue-audit-1b9eb4",
+      "text": "몸도　피곤하겠지,오늘은\n꿈나무집에서　푹　쉬도록　해라",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "너희가 피곤할 것이라는 주어와 추측 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#375"
+    },
+    {
+      "id": "dialogue-audit-1b9f6c",
+      "text": "…흠흠,그랬구나\n정말　큰　고생을　했겠구나",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "박사의 고생했겠다는 문장 전체 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#376"
+    },
+    {
+      "id": "dialogue-audit-1ba244",
+      "text": "스즈는　걱정할　것　없다\n치료는　우리에게　맡겨　두거라",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "스즈 인명을 주석으로 오역하고 치료 설명 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#377"
+    },
+    {
+      "id": "dialogue-audit-1ba2e4",
+      "text": "정말　경사로구나Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "경사스럽다는 감탄을 희망으로 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#378"
+    },
+    {
+      "id": "dialogue-audit-1ba90c",
+      "text": "@D호의　금단의　비기를\n쓴　셈　치고…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "비기를 쓴 셈 치자는 의미 복원",
+      "audit": "qa/dialogue-review-v1.1a.json#379"
+    },
+    {
+      "id": "dialogue-audit-1baaf4",
+      "text": "만일의　경우　너희에게　주라고\n맡겨　놓은　물건이야",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "만일에 경우 조사 오류",
+      "audit": "qa/dialogue-review-v1.1a.json#380"
+    },
+    {
+      "id": "dialogue-audit-1bae74",
+      "text": "…그런데　@B　형도\n@G　누나도…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "형/누나 호칭 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#381"
+    },
+    {
+      "id": "dialogue-audit-1baf44",
+      "text": "대표적인　게　이　포니와　크라이트다\n고고학자라지만　실은　도굴꾼이지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "크라이트 승인 인명",
+      "audit": "qa/dialogue-review-v1.1a.json#382"
+    },
+    {
+      "id": "dialogue-audit-1baf7c",
+      "text": "박사에게　조심하라고　전해　줘\n뭘　도둑맞은　뒤에는　늦으니까",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "도난당하기 전에 조심하라고 박사에게 전해 달라는 문장 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#383"
+    },
+    {
+      "id": "dialogue-audit-1baff4",
+      "text": "@B,@G…\n동생들　교육이　엉망이잖아…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "동생 교육을 탓하는 문장 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#384"
+    },
+    {
+      "id": "dialogue-audit-1bb0c4",
+      "text": "이　가게에서는　새　옷을　만들거나\n옷　재료인　루트를　사고팔　수　있어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "루트 매매를 판매로만 번역",
+      "audit": "qa/dialogue-review-v1.1a.json#385"
+    },
+    {
+      "id": "dialogue-audit-1bb134",
+      "text": "두　사람의　장비인　액세서리와\n나리키리　의상의　재료인…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "나리키리 의상 재료 명시",
+      "audit": "qa/dialogue-review-v1.1a.json#386"
+    },
+    {
+      "id": "dialogue-audit-1bb1fc",
+      "text": "후후,한　방　먹었네…\n이제　새　메뉴를　생각해야겠어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "난처하다는 반응을 괜찮다고 번역",
+      "audit": "qa/dialogue-review-v1.1a.json#387"
+    },
+    {
+      "id": "dialogue-audit-1bb334",
+      "text": "@B,@G\n지난번에는　정말　고마웠다냥",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "지난번 감사 인사 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#388"
+    },
+    {
+      "id": "dialogue-audit-1bb34c",
+      "text": "구경만이라도　어때냥?\n싸게　해　주겠다냥Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "상인의 勉強は 가격을 깎아준다는 뜻",
+      "audit": "qa/dialogue-review-v1.1a.json#389"
+    },
+    {
+      "id": "dialogue-audit-1bc0fc",
+      "text": "므흐흐…구미가　당기는　줄거리야\n자아Μ　잘　거다아Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "만족스러운 줄거리와 잠들겠다는 말 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#390"
+    },
+    {
+      "id": "dialogue-audit-1bc438",
+      "text": "자아Μ　잘　거다아Μ",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "자신이 자겠다는 말을 상대에게 자라는 명령으로 번역",
+      "audit": "qa/dialogue-review-v1.1a.json#391"
+    },
+    {
+      "id": "dialogue-audit-1bc5e4",
+      "text": "…내버려　둬",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "내버려 두라는 말을 안심으로 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#392"
+    },
+    {
+      "id": "dialogue-audit-1bc99c",
+      "text": "다녀왔어~",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "다녀왔다는 귀가 인사를 지금으로 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#393"
+    },
+    {
+      "id": "dialogue-audit-1bcb88",
+      "text": "다녀왔어~",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "다녀왔다는 귀가 인사를 지금으로 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#393"
+    },
+    {
+      "id": "dialogue-audit-1bc9dc",
+      "text": "막　돌아온　참이잖느냐\n그렇게까지　서두를　필요는…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "막 돌아왔으니 서두르지 않아도 된다는 문장 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#394"
+    },
+    {
+      "id": "dialogue-audit-1bcbc8",
+      "text": "막　돌아온　참이잖느냐\n그렇게까지　서두를　필요는…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "막 돌아왔으니 서두르지 않아도 된다는 문장 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#394"
+    },
+    {
+      "id": "dialogue-audit-1bca24",
+      "text": "무,무,무슨　일이냐!\n@B에게　무슨　일　생겼나Ν",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "무슨 일이냐는 놀람을 어땠냐고 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#395"
+    },
+    {
+      "id": "dialogue-audit-1bcc10",
+      "text": "무,무,무슨　일이냐!\n@B에게　무슨　일　생겼나Ν",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "무슨 일이냐는 놀람을 어땠냐고 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#395"
+    },
+    {
+      "id": "dialogue-audit-1bcc38",
+      "text": "그,그러냐,놀라게　하지　마라…\n그럼　준비되는　대로　출동이다",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "놀라게 하지 말라는 당부와 출동 지시 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#396"
+    },
+    {
+      "id": "dialogue-audit-1bce4c",
+      "text": "모두　연구소로　돌아갔나　봐\n우리도　배웅하러　가야겠어",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "배웅하러 가야 한다는 문장 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#397"
+    },
+    {
+      "id": "dialogue-audit-1bd068",
+      "text": "흠,잘　모르겠지만　역사가\n완전히　원래대로　돌아왔단　증거겠지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "역사가 원래대로 돌아왔다는 완료 의미",
+      "audit": "qa/dialogue-review-v1.1a.json#398"
+    },
+    {
+      "id": "dialogue-audit-1bd130",
+      "text": "꾹　눌러야지",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "버튼 누르는 의성어를 딱딱한으로 오역",
+      "audit": "qa/dialogue-review-v1.1a.json#399"
+    },
+    {
+      "id": "dialogue-audit-1bd1b8",
+      "text": "아마　걱정　없을　게다,놈들은\n눈치채지　못한　모양이지만…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "적들이 눈치 못 챘다는 설명 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#400"
+    },
+    {
+      "id": "dialogue-audit-1bd210",
+      "text": "너무　불쌍해…뭐,어떻게　되든\n내일은　오늘보다　힘든　법이지~♪",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "불쌍하다는 반응을 귀엽다고 오역하고 마지막 문장 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#401"
+    },
+    {
+      "id": "dialogue-audit-1bd634",
+      "text": "누가　열어　줘!　난　마왕이라고!\n흉악하다고,정말이라니까…",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "누군가 열어 달라는 요청 누락",
+      "audit": "qa/dialogue-review-v1.1a.json#402"
+    },
+    {
+      "id": "dialogue-audit-1bda88",
+      "text": "지금　한창　제작　중입니다!",
+      "review": "source_compared_pending_full_playthrough",
+      "basis": "개발 중인 시험용 대사: 예의 제작중 오역; 도달 가능성 별도",
+      "audit": "qa/dialogue-review-v1.1a.json#403"
     }
   ]
 }

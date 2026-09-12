@@ -299,6 +299,24 @@
       "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
       "evidence_sha256": "065d70673e6e7378a548da23a34fcd300c9334fdb941666fe5e4ac85b49c15fa",
       "evidence_path": "qa/results/shop-dialogue-dev37/opening-vba.json"
+    },
+    {
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17721,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "230e391406e5a3d5f93dadd7f9677b25f22cf809a17eb4fbf66aface93b4e098",
+      "evidence_path": "output/v1.1a-audit-timing-mgba/timing.json"
+    },
+    {
+      "rom_sha256": "b01911f260e53cadbf08c9ef1b54c7f20f9a04e6ffba8fc8de21258da93b7869",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17714,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "0acd19ef40b32d3c4fa212a54a3f1c6727043aff27da15fecc61b38f0f15ec74",
+      "evidence_path": "output/v1.1a-audit-timing-vba/timing.json"
     }
   ]
 }
