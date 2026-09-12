@@ -3,7 +3,7 @@ import argparse,hashlib,json,struct
 from pathlib import Path
 from unicorn.arm_const import UC_ARM_REG_R0,UC_ARM_REG_R4,UC_ARM_REG_R6,UC_ARM_REG_SP,UC_ARM_REG_LR,UC_ARM_REG_PC
 from verify_small_consumer import Fixture
-from text_codec import encode
+from text_codec import encode,decode
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
@@ -20,6 +20,15 @@ def main():
                 start=ptr-0x08000000
                 if not 0x1090000<=start<0x10a0000 or rom[start:rom.index(0,start)]!=encode(row[name]):raise ValueError('Recipe string relocation differs')
                 fields+=1
+    # The shared two-row description window reserves its second row for
+    # effect text. A longer description scrolls its beginning off screen.
+    description_cells=[]
+    for i in range(22):
+        ptr=struct.unpack_from('<I',rom,0x74c67c+i*20+8)[0]-0x08000000
+        text=decode(rom[ptr:rom.index(0,ptr)],korean=True)
+        if len(text)>18 or any(c in text for c in ('\n','%','@')):
+            raise ValueError(f'Recipe {i} exceeds the single description row')
+        description_cells.append(len(text))
     for mode in (0,1):
         f=Fixture(rom,mode);expected=Fixture(rom,mode);u=f.uc
         for i,row in enumerate(catalog['records']):
@@ -35,8 +44,8 @@ def main():
             expected.draw(encode(row['small_name']))
             if f.pixels()!=expected.pixels():raise ValueError('Recipe original list call renders different glyphs')
             cases+=1
-    report={'status':'PASS','rom_sha256':hashlib.sha256(rom).hexdigest(),'recipe_records':22,'selected_string_fields':fields,'original_getter_and_list_renderer_cases':cases,'effect_and_ingredient_bytes_preserved':True,
-            'scope':'All 22 recipe identities; original getter and small-list call path in both modes. Large name/description pointer contents checked; natural cooking/results/layout remain separate.'}
+    report={'status':'PASS','rom_sha256':hashlib.sha256(rom).hexdigest(),'recipe_records':22,'selected_string_fields':fields,'original_getter_and_list_renderer_cases':cases,'effect_and_ingredient_bytes_preserved':True,'description_row_cells':18,'description_lengths':description_cells,
+            'scope':'All 22 recipe identities; original getter and small-list call path in both modes. Large name/description pointer contents and all 22 single-row description budgets checked. Runtime pixels and natural cooking/results remain separate.'}
     a.out.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(report))
 
 if __name__=='__main__':main()

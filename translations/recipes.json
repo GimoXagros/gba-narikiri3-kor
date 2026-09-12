@@ -83,8 +83,8 @@
       "id": "recipe-11",
       "small_name": "리조또",
       "large_name": null,
-      "description": "쌀을　국물에　넣어　죽처럼　끓인　요리",
-      "review": "source_food_identity_checked_natural_cooking_pending"
+      "description": "국물에　쌀을　넣어　끓인　요리",
+      "review": "user_approved_wording_two_pc_core_display_verified"
     },
     {
       "id": "recipe-12",

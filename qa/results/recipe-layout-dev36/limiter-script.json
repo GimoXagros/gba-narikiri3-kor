@@ -1,0 +1,13 @@
+{
+  "terminator_hex": "00",
+  "entries": [
+    {
+      "id": "recipe-11-description",
+      "source": "쌀을　국물에　넣어　죽처럼　끓인　요리",
+      "translation": "국물에　쌀을　넣어　끓인　요리",
+      "max_bytes": 37,
+      "max_width_px": 216,
+      "max_lines": 1
+    }
+  ]
+}

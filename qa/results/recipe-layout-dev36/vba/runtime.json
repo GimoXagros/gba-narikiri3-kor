@@ -1,0 +1,347 @@
+{
+  "status": "CAPTURED_REVIEW_PENDING",
+  "core": "VBA Next",
+  "core_version": "v1.0.2",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "rom_sha256": "c45a9b0e9c974da8f63f707a5a9a983ddacff0f7d5079505cd9ddeddcf3f4d11",
+  "input_save_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1",
+  "frame": 4689,
+  "ram_interventions": 0,
+  "pixel_format": 2,
+  "save_size": 139264,
+  "memory_maps": [
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 0,
+      "select": 0,
+      "disconnect": 0,
+      "len": 16384
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 33554432,
+      "select": 0,
+      "disconnect": 0,
+      "len": 262144
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 50331648,
+      "select": 0,
+      "disconnect": 0,
+      "len": 32768
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 67108864,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 83886080,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 100663296,
+      "select": 4294868992,
+      "disconnect": 0,
+      "len": 98304
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 117440512,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 134217728,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 167772160,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 201326592,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 234881024,
+      "select": 0,
+      "disconnect": 0,
+      "len": 65536
+    }
+  ],
+  "options": {
+    "vbanext_bios": "enabled",
+    "vbanext_rtc": "auto",
+    "vbanext_turboenable": "disabled",
+    "vbanext_turbodelay": "2"
+  },
+  "option_overrides": {
+    "mgba_use_bios": "OFF",
+    "mgba_skip_bios": "ON",
+    "mgba_frameskip": "disabled",
+    "mgba_frameskip_interval": "0"
+  },
+  "captures": [
+    {
+      "ok": true,
+      "frame": 1961,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-00.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "2b10a4bc07cc0331f557511ffaf86db2ce276b76f2e0e82a50ad5dd23a463e28"
+    },
+    {
+      "ok": true,
+      "frame": 2085,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-01.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "05d8d765a75e58006e8841a1a4b2462009a286bcdd411cd1403adb5aaf58241c"
+    },
+    {
+      "ok": true,
+      "frame": 2209,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-02.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "a2a2a133cf3c41fd5777c120cbbc7c5451d82dad55e7c55bd59fb6f3dd2c3600"
+    },
+    {
+      "ok": true,
+      "frame": 2333,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-03.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "9d68bb9a8a1171c4fdfb55fd22d075546b59d7e25ae0e2354868a217d47af4ca"
+    },
+    {
+      "ok": true,
+      "frame": 2457,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-04.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "56f784a8491b1cb9cec54341adaedb845349fb9ea29c4c63395d3c569a4620cc"
+    },
+    {
+      "ok": true,
+      "frame": 2581,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-05.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "efbcae5402df745c606b9d72397c721e1c3bb6de8a168fdd04dc7244ac89941a"
+    },
+    {
+      "ok": true,
+      "frame": 2705,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-06.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "2dc21d2b3ee64acf6d3a4de576d118ca4a4d5df7fd068535feadf81a9106e76e"
+    },
+    {
+      "ok": true,
+      "frame": 2829,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-07.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "46f356f4339949eb655c1f11756780edcaebdc72d5f535cefc3cb780b6bc9cd8"
+    },
+    {
+      "ok": true,
+      "frame": 2953,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-08.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "7cd1ce76036776a88685e5b7f72dd2cfc84ef7cfec4b3b49cb832c47f61465d0"
+    },
+    {
+      "ok": true,
+      "frame": 3077,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-09.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "73f74c93b1bae1a6841e47ec5af10173916ab196969c2e494ba1ebb190547256"
+    },
+    {
+      "ok": true,
+      "frame": 3201,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-10.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "4da56893dfbd29492cc809d56cede9f1dca7a3804ac2033228963ad46d9b0339"
+    },
+    {
+      "ok": true,
+      "frame": 3325,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-11.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "6136bce09ce660540b176bd57781469ea23cc11780a5f234cff6a2af99cee589"
+    },
+    {
+      "ok": true,
+      "frame": 3449,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-12.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "9e9de8a2c525b8d7974135261709899b73ca439c9f017e2a4a7b8cb187f3eb03"
+    },
+    {
+      "ok": true,
+      "frame": 3573,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-13.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "c25487c137bd061372092a601e0c18996b8ef8871a6a5669cd3e765b9a94c246"
+    },
+    {
+      "ok": true,
+      "frame": 3697,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-14.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "ef9166c64e4f7a46349b886071481fa2e653cc6a10cbde6dcadf74d4d810660c"
+    },
+    {
+      "ok": true,
+      "frame": 3821,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-15.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "83adb1068f8fdd60d2d6cd23bdc81a549ad89681ca7e620f5d6201b5b9934d37"
+    },
+    {
+      "ok": true,
+      "frame": 3945,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-16.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "0a0552dd3fe8d47ae48d8286766cf4607e518944d80ce664d32c72066b520a43"
+    },
+    {
+      "ok": true,
+      "frame": 4069,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-17.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "caeabe1e58cb434d472df6dde9df1aba07abc17f0ee9e908e607617b803339d6"
+    },
+    {
+      "ok": true,
+      "frame": 4193,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-18.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "19319d3ef68e8dbe656c44b252860b77dc18e0a00acca2361f4a229cf8d3e373"
+    },
+    {
+      "ok": true,
+      "frame": 4317,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-19.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "df5081e466cc97df4351279bbb6dad7b7c49d251025f5bf9f734df197d9c1e90"
+    },
+    {
+      "ok": true,
+      "frame": 4441,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-20.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "8c71f57487db12499bd53e99335a3c2a7ef821d4c90a2e3fbe54ee844a1c594b"
+    },
+    {
+      "ok": true,
+      "frame": 4565,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\recipe-21.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "a5c9527884dd852be281591ee49a65392908a6c1180c4ac61dc4778a19a8711c"
+    },
+    {
+      "ok": true,
+      "frame": 4689,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-recipes-vba\\return-category.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "c3fb08c1b556023b31689cc1c8b7870a7428bd6b93309457fbe8470552b27080"
+    }
+  ],
+  "scope": "Synthetic all-unlock save; ordinary buttons only. Recipe description/effect/ingredient display and menu return, not cooking success or natural acquisition."
+}

@@ -1,0 +1,82 @@
+{
+  "reserved_codes": [
+    "00"
+  ],
+  "entries": [
+    {
+      "code": "8140",
+      "text": "　",
+      "width_px": 12
+    },
+    {
+      "code": "8958",
+      "text": "국",
+      "width_px": 12
+    },
+    {
+      "code": "89f8",
+      "text": "끓",
+      "width_px": 12
+    },
+    {
+      "code": "8a75",
+      "text": "넣",
+      "width_px": 12
+    },
+    {
+      "code": "8c52",
+      "text": "럼",
+      "width_px": 12
+    },
+    {
+      "code": "8cac",
+      "text": "리",
+      "width_px": 12
+    },
+    {
+      "code": "8d4f",
+      "text": "물",
+      "width_px": 12
+    },
+    {
+      "code": "8f71",
+      "text": "쌀",
+      "width_px": 12
+    },
+    {
+      "code": "8fec",
+      "text": "어",
+      "width_px": 12
+    },
+    {
+      "code": "9040",
+      "text": "에",
+      "width_px": 12
+    },
+    {
+      "code": "9084",
+      "text": "요",
+      "width_px": 12
+    },
+    {
+      "code": "90b9",
+      "text": "을",
+      "width_px": 12
+    },
+    {
+      "code": "90cc",
+      "text": "인",
+      "width_px": 12
+    },
+    {
+      "code": "9176",
+      "text": "죽",
+      "width_px": 12
+    },
+    {
+      "code": "9252",
+      "text": "처",
+      "width_px": 12
+    }
+  ]
+}

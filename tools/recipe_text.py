@@ -15,7 +15,7 @@ def selections(profile,catalog,j,legacy):
     out=[]
     for i,(source,row) in enumerate(zip(profile['records'],catalog['records'])):
         if row['id']!=source['id'] or source['index']!=i:raise ValueError('Recipe identity/order differs')
-        for field,delta,limit in [('large_name',0,28),('small_name',4,10),('description',8,28)]:
+        for field,delta,limit in [('large_name',0,28),('small_name',4,10),('description',8,18)]:
             ptr=struct.unpack_from('<I',legacy,base+i*20+delta)[0];start=ptr-0x08000000
             for key,rom in [('j',j),('legacy',legacy)]:
                 raw=bytes.fromhex(source[field+'_'+key+'_raw'])

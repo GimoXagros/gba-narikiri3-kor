@@ -1,0 +1,201 @@
+{
+  "rom_sha256": "c45a9b0e9c974da8f63f707a5a9a983ddacff0f7d5079505cd9ddeddcf3f4d11",
+  "typed_dialogue_records": 5208,
+  "japanese_kana_kanji_matches": [],
+  "shared_punctuation_records": [
+    {
+      "record": "0x15481c",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1548a8",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x154994",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1549a4",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1562c4",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1617c8",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1620cc",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1620d4",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x16225c",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x162730",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x163144",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x1639ec",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x163a04",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x163d48",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x163d60",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x16562c",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x16566c",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1659cc",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x166b98",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x166ce8",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x166dfc",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x16763c",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1677c0",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x16786c",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x169908",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x16ee98",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x16f320",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x16f554",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x16ff44",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x177aac",
+      "characters": [
+        "ー"
+      ]
+    },
+    {
+      "record": "0x1abec0",
+      "characters": [
+        "・"
+      ]
+    },
+    {
+      "record": "0x1ac190",
+      "characters": [
+        "・"
+      ]
+    }
+  ],
+  "decode_errors": [],
+  "scope": "Known VM dialogue only. Long-vowel sound marks and interpuncts in 32 Korean records are not untranslated Japanese sentences. No whole-game, graphics-text or semantic-completeness claim."
+}

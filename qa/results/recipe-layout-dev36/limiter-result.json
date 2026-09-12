@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "entries": [
+    {
+      "id": "recipe-11-description",
+      "ok": true,
+      "bytes": 31,
+      "line_widths_px": [
+        180
+      ],
+      "lines": 1,
+      "errors": []
+    }
+  ],
+  "scope": "declared table, control tokens and budgets only; not translation-quality or runtime validation"
+}

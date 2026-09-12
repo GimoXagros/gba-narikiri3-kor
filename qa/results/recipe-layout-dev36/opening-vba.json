@@ -1,0 +1,1076 @@
+{
+  "status": "OBSERVED_OPENING_TIMER_COMPLETE_STATE_IDENTICAL",
+  "rom_sha256": "c45a9b0e9c974da8f63f707a5a9a983ddacff0f7d5079505cd9ddeddcf3f4d11",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+  "save": {
+    "ok": true,
+    "frame": 19851,
+    "path": "C:\\Users\\rlgh0\\Documents\\GBC \ubcf5\uad6c\\\ub098\ub9ac\ud0a4\ub9ac \ub358\uc8043\\output\\dev36-opening-vba\\first-save.sav",
+    "size": 8192,
+    "core_buffer_size": 139264,
+    "core_buffer_offset": 131072,
+    "sha256": "6baf1cb03834cc2abfb37806e621c68edb7f3613505f85186232d3a81175cf54",
+    "fixture_modified": false
+  },
+  "saved_timer": 17714,
+  "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+  "samples": [
+    {
+      "input_index": 0,
+      "frame": 300,
+      "timer": 0
+    },
+    {
+      "input_index": 1,
+      "frame": 301,
+      "timer": 0
+    },
+    {
+      "input_index": 2,
+      "frame": 901,
+      "timer": 586
+    },
+    {
+      "input_index": 3,
+      "frame": 902,
+      "timer": 587
+    },
+    {
+      "input_index": 4,
+      "frame": 1102,
+      "timer": 787
+    },
+    {
+      "input_index": 5,
+      "frame": 1103,
+      "timer": 788
+    },
+    {
+      "input_index": 6,
+      "frame": 1203,
+      "timer": 888
+    },
+    {
+      "input_index": 7,
+      "frame": 1204,
+      "timer": 889
+    },
+    {
+      "input_index": 8,
+      "frame": 1404,
+      "timer": 108
+    },
+    {
+      "input_index": 9,
+      "frame": 2004,
+      "timer": 708
+    },
+    {
+      "input_index": 10,
+      "frame": 5604,
+      "timer": 4308
+    },
+    {
+      "input_index": 11,
+      "frame": 5605,
+      "timer": 4309
+    },
+    {
+      "input_index": 12,
+      "frame": 5705,
+      "timer": 4409
+    },
+    {
+      "input_index": 13,
+      "frame": 5706,
+      "timer": 4410
+    },
+    {
+      "input_index": 14,
+      "frame": 5806,
+      "timer": 4510
+    },
+    {
+      "input_index": 15,
+      "frame": 5807,
+      "timer": 4511
+    },
+    {
+      "input_index": 16,
+      "frame": 5907,
+      "timer": 4611
+    },
+    {
+      "input_index": 17,
+      "frame": 5908,
+      "timer": 4612
+    },
+    {
+      "input_index": 18,
+      "frame": 6008,
+      "timer": 4712
+    },
+    {
+      "input_index": 19,
+      "frame": 6009,
+      "timer": 4713
+    },
+    {
+      "input_index": 20,
+      "frame": 6109,
+      "timer": 4813
+    },
+    {
+      "input_index": 21,
+      "frame": 6110,
+      "timer": 4814
+    },
+    {
+      "input_index": 22,
+      "frame": 6210,
+      "timer": 4914
+    },
+    {
+      "input_index": 23,
+      "frame": 6211,
+      "timer": 4915
+    },
+    {
+      "input_index": 24,
+      "frame": 6311,
+      "timer": 5015
+    },
+    {
+      "input_index": 25,
+      "frame": 6312,
+      "timer": 5016
+    },
+    {
+      "input_index": 26,
+      "frame": 6412,
+      "timer": 5116
+    },
+    {
+      "input_index": 27,
+      "frame": 6413,
+      "timer": 5117
+    },
+    {
+      "input_index": 28,
+      "frame": 6513,
+      "timer": 5217
+    },
+    {
+      "input_index": 29,
+      "frame": 6514,
+      "timer": 5218
+    },
+    {
+      "input_index": 30,
+      "frame": 6614,
+      "timer": 5318
+    },
+    {
+      "input_index": 31,
+      "frame": 6615,
+      "timer": 5319
+    },
+    {
+      "input_index": 32,
+      "frame": 6715,
+      "timer": 5419
+    },
+    {
+      "input_index": 33,
+      "frame": 6716,
+      "timer": 5420
+    },
+    {
+      "input_index": 34,
+      "frame": 6816,
+      "timer": 5520
+    },
+    {
+      "input_index": 35,
+      "frame": 6817,
+      "timer": 5521
+    },
+    {
+      "input_index": 36,
+      "frame": 6977,
+      "timer": 5681
+    },
+    {
+      "input_index": 37,
+      "frame": 6978,
+      "timer": 5682
+    },
+    {
+      "input_index": 38,
+      "frame": 7098,
+      "timer": 5779
+    },
+    {
+      "input_index": 39,
+      "frame": 7099,
+      "timer": 5780
+    },
+    {
+      "input_index": 40,
+      "frame": 7149,
+      "timer": 5830
+    },
+    {
+      "input_index": 41,
+      "frame": 7150,
+      "timer": 5831
+    },
+    {
+      "input_index": 42,
+      "frame": 7270,
+      "timer": 5951
+    },
+    {
+      "input_index": 43,
+      "frame": 7271,
+      "timer": 5952
+    },
+    {
+      "input_index": 44,
+      "frame": 7273,
+      "timer": 5954
+    },
+    {
+      "input_index": 45,
+      "frame": 7274,
+      "timer": 5955
+    },
+    {
+      "input_index": 46,
+      "frame": 7394,
+      "timer": 6074
+    },
+    {
+      "input_index": 47,
+      "frame": 7395,
+      "timer": 6075
+    },
+    {
+      "input_index": 48,
+      "frame": 7515,
+      "timer": 6195
+    },
+    {
+      "input_index": 49,
+      "frame": 7516,
+      "timer": 6196
+    },
+    {
+      "input_index": 50,
+      "frame": 7636,
+      "timer": 6316
+    },
+    {
+      "input_index": 51,
+      "frame": 7637,
+      "timer": 6317
+    },
+    {
+      "input_index": 52,
+      "frame": 7757,
+      "timer": 6437
+    },
+    {
+      "input_index": 53,
+      "frame": 7758,
+      "timer": 6438
+    },
+    {
+      "input_index": 54,
+      "frame": 7878,
+      "timer": 6536
+    },
+    {
+      "input_index": 55,
+      "frame": 7879,
+      "timer": 6537
+    },
+    {
+      "input_index": 56,
+      "frame": 7881,
+      "timer": 6539
+    },
+    {
+      "input_index": 57,
+      "frame": 7882,
+      "timer": 6540
+    },
+    {
+      "input_index": 58,
+      "frame": 8062,
+      "timer": 6719
+    },
+    {
+      "input_index": 59,
+      "frame": 8063,
+      "timer": 6720
+    },
+    {
+      "input_index": 60,
+      "frame": 8243,
+      "timer": 6900
+    },
+    {
+      "input_index": 61,
+      "frame": 8244,
+      "timer": 6901
+    },
+    {
+      "input_index": 62,
+      "frame": 8424,
+      "timer": 7080
+    },
+    {
+      "input_index": 63,
+      "frame": 8425,
+      "timer": 7081
+    },
+    {
+      "input_index": 64,
+      "frame": 8605,
+      "timer": 7261
+    },
+    {
+      "input_index": 65,
+      "frame": 8606,
+      "timer": 7262
+    },
+    {
+      "input_index": 66,
+      "frame": 8786,
+      "timer": 7442
+    },
+    {
+      "input_index": 67,
+      "frame": 8787,
+      "timer": 7443
+    },
+    {
+      "input_index": 68,
+      "frame": 8967,
+      "timer": 7622
+    },
+    {
+      "input_index": 69,
+      "frame": 8968,
+      "timer": 7623
+    },
+    {
+      "input_index": 70,
+      "frame": 9148,
+      "timer": 7802
+    },
+    {
+      "input_index": 71,
+      "frame": 9149,
+      "timer": 7803
+    },
+    {
+      "input_index": 72,
+      "frame": 9329,
+      "timer": 7983
+    },
+    {
+      "input_index": 73,
+      "frame": 9330,
+      "timer": 7984
+    },
+    {
+      "input_index": 74,
+      "frame": 9510,
+      "timer": 8164
+    },
+    {
+      "input_index": 75,
+      "frame": 9511,
+      "timer": 8165
+    },
+    {
+      "input_index": 76,
+      "frame": 9691,
+      "timer": 8345
+    },
+    {
+      "input_index": 77,
+      "frame": 9692,
+      "timer": 8346
+    },
+    {
+      "input_index": 78,
+      "frame": 9872,
+      "timer": 8526
+    },
+    {
+      "input_index": 79,
+      "frame": 9873,
+      "timer": 8527
+    },
+    {
+      "input_index": 80,
+      "frame": 10053,
+      "timer": 8707
+    },
+    {
+      "input_index": 81,
+      "frame": 10054,
+      "timer": 8708
+    },
+    {
+      "input_index": 82,
+      "frame": 10234,
+      "timer": 8888
+    },
+    {
+      "input_index": 83,
+      "frame": 10235,
+      "timer": 8889
+    },
+    {
+      "input_index": 84,
+      "frame": 10415,
+      "timer": 9069
+    },
+    {
+      "input_index": 85,
+      "frame": 10416,
+      "timer": 9070
+    },
+    {
+      "input_index": 86,
+      "frame": 10596,
+      "timer": 9250
+    },
+    {
+      "input_index": 87,
+      "frame": 10597,
+      "timer": 9251
+    },
+    {
+      "input_index": 88,
+      "frame": 10777,
+      "timer": 9431
+    },
+    {
+      "input_index": 89,
+      "frame": 10778,
+      "timer": 9432
+    },
+    {
+      "input_index": 90,
+      "frame": 10958,
+      "timer": 9612
+    },
+    {
+      "input_index": 91,
+      "frame": 10959,
+      "timer": 9613
+    },
+    {
+      "input_index": 92,
+      "frame": 11139,
+      "timer": 9793
+    },
+    {
+      "input_index": 93,
+      "frame": 11140,
+      "timer": 9794
+    },
+    {
+      "input_index": 94,
+      "frame": 11320,
+      "timer": 9974
+    },
+    {
+      "input_index": 95,
+      "frame": 11321,
+      "timer": 9975
+    },
+    {
+      "input_index": 96,
+      "frame": 11501,
+      "timer": 10155
+    },
+    {
+      "input_index": 97,
+      "frame": 11502,
+      "timer": 10156
+    },
+    {
+      "input_index": 98,
+      "frame": 11682,
+      "timer": 10335
+    },
+    {
+      "input_index": 99,
+      "frame": 11683,
+      "timer": 10336
+    },
+    {
+      "input_index": 100,
+      "frame": 11863,
+      "timer": 10515
+    },
+    {
+      "input_index": 101,
+      "frame": 11864,
+      "timer": 10516
+    },
+    {
+      "input_index": 102,
+      "frame": 12044,
+      "timer": 10695
+    },
+    {
+      "input_index": 103,
+      "frame": 12045,
+      "timer": 10696
+    },
+    {
+      "input_index": 104,
+      "frame": 12225,
+      "timer": 10876
+    },
+    {
+      "input_index": 105,
+      "frame": 12226,
+      "timer": 10877
+    },
+    {
+      "input_index": 106,
+      "frame": 12406,
+      "timer": 11057
+    },
+    {
+      "input_index": 107,
+      "frame": 12407,
+      "timer": 11058
+    },
+    {
+      "input_index": 108,
+      "frame": 12587,
+      "timer": 11238
+    },
+    {
+      "input_index": 109,
+      "frame": 12588,
+      "timer": 11239
+    },
+    {
+      "input_index": 110,
+      "frame": 12768,
+      "timer": 11418
+    },
+    {
+      "input_index": 111,
+      "frame": 12769,
+      "timer": 11419
+    },
+    {
+      "input_index": 112,
+      "frame": 12949,
+      "timer": 11599
+    },
+    {
+      "input_index": 113,
+      "frame": 12950,
+      "timer": 11600
+    },
+    {
+      "input_index": 114,
+      "frame": 13130,
+      "timer": 11780
+    },
+    {
+      "input_index": 115,
+      "frame": 13131,
+      "timer": 11781
+    },
+    {
+      "input_index": 116,
+      "frame": 13311,
+      "timer": 11961
+    },
+    {
+      "input_index": 117,
+      "frame": 13312,
+      "timer": 11962
+    },
+    {
+      "input_index": 118,
+      "frame": 13492,
+      "timer": 12142
+    },
+    {
+      "input_index": 119,
+      "frame": 13493,
+      "timer": 12143
+    },
+    {
+      "input_index": 120,
+      "frame": 13673,
+      "timer": 12323
+    },
+    {
+      "input_index": 121,
+      "frame": 13674,
+      "timer": 12324
+    },
+    {
+      "input_index": 122,
+      "frame": 13854,
+      "timer": 12504
+    },
+    {
+      "input_index": 123,
+      "frame": 13855,
+      "timer": 12505
+    },
+    {
+      "input_index": 124,
+      "frame": 14035,
+      "timer": 12685
+    },
+    {
+      "input_index": 125,
+      "frame": 14036,
+      "timer": 12686
+    },
+    {
+      "input_index": 126,
+      "frame": 14216,
+      "timer": 12866
+    },
+    {
+      "input_index": 127,
+      "frame": 14217,
+      "timer": 12867
+    },
+    {
+      "input_index": 128,
+      "frame": 14397,
+      "timer": 13047
+    },
+    {
+      "input_index": 129,
+      "frame": 14398,
+      "timer": 13048
+    },
+    {
+      "input_index": 130,
+      "frame": 14578,
+      "timer": 13228
+    },
+    {
+      "input_index": 131,
+      "frame": 14579,
+      "timer": 13229
+    },
+    {
+      "input_index": 132,
+      "frame": 14759,
+      "timer": 13409
+    },
+    {
+      "input_index": 133,
+      "frame": 14760,
+      "timer": 13410
+    },
+    {
+      "input_index": 134,
+      "frame": 14940,
+      "timer": 13590
+    },
+    {
+      "input_index": 135,
+      "frame": 14941,
+      "timer": 13591
+    },
+    {
+      "input_index": 136,
+      "frame": 15121,
+      "timer": 13771
+    },
+    {
+      "input_index": 137,
+      "frame": 15122,
+      "timer": 13772
+    },
+    {
+      "input_index": 138,
+      "frame": 15302,
+      "timer": 13952
+    },
+    {
+      "input_index": 139,
+      "frame": 15303,
+      "timer": 13953
+    },
+    {
+      "input_index": 140,
+      "frame": 15483,
+      "timer": 14133
+    },
+    {
+      "input_index": 141,
+      "frame": 15484,
+      "timer": 14134
+    },
+    {
+      "input_index": 142,
+      "frame": 15664,
+      "timer": 14314
+    },
+    {
+      "input_index": 143,
+      "frame": 15665,
+      "timer": 14315
+    },
+    {
+      "input_index": 144,
+      "frame": 15845,
+      "timer": 14495
+    },
+    {
+      "input_index": 145,
+      "frame": 15846,
+      "timer": 14496
+    },
+    {
+      "input_index": 146,
+      "frame": 16026,
+      "timer": 14676
+    },
+    {
+      "input_index": 147,
+      "frame": 16027,
+      "timer": 14677
+    },
+    {
+      "input_index": 148,
+      "frame": 16207,
+      "timer": 14857
+    },
+    {
+      "input_index": 149,
+      "frame": 16208,
+      "timer": 14858
+    },
+    {
+      "input_index": 150,
+      "frame": 16388,
+      "timer": 15038
+    },
+    {
+      "input_index": 151,
+      "frame": 16389,
+      "timer": 15039
+    },
+    {
+      "input_index": 152,
+      "frame": 16569,
+      "timer": 15219
+    },
+    {
+      "input_index": 153,
+      "frame": 16570,
+      "timer": 15220
+    },
+    {
+      "input_index": 154,
+      "frame": 16750,
+      "timer": 15400
+    },
+    {
+      "input_index": 155,
+      "frame": 16751,
+      "timer": 15401
+    },
+    {
+      "input_index": 156,
+      "frame": 16931,
+      "timer": 15581
+    },
+    {
+      "input_index": 157,
+      "frame": 16932,
+      "timer": 15582
+    },
+    {
+      "input_index": 158,
+      "frame": 17112,
+      "timer": 15762
+    },
+    {
+      "input_index": 159,
+      "frame": 17113,
+      "timer": 15763
+    },
+    {
+      "input_index": 160,
+      "frame": 17293,
+      "timer": 15943
+    },
+    {
+      "input_index": 161,
+      "frame": 17294,
+      "timer": 15944
+    },
+    {
+      "input_index": 162,
+      "frame": 17474,
+      "timer": 16124
+    },
+    {
+      "input_index": 163,
+      "frame": 17475,
+      "timer": 16125
+    },
+    {
+      "input_index": 164,
+      "frame": 17655,
+      "timer": 16305
+    },
+    {
+      "input_index": 165,
+      "frame": 17656,
+      "timer": 16306
+    },
+    {
+      "input_index": 166,
+      "frame": 17836,
+      "timer": 16486
+    },
+    {
+      "input_index": 167,
+      "frame": 17837,
+      "timer": 16487
+    },
+    {
+      "input_index": 168,
+      "frame": 18017,
+      "timer": 16667
+    },
+    {
+      "input_index": 169,
+      "frame": 18018,
+      "timer": 16668
+    },
+    {
+      "input_index": 170,
+      "frame": 18198,
+      "timer": 16848
+    },
+    {
+      "input_index": 171,
+      "frame": 18199,
+      "timer": 16849
+    },
+    {
+      "input_index": 172,
+      "frame": 18379,
+      "timer": 17029
+    },
+    {
+      "input_index": 173,
+      "frame": 18380,
+      "timer": 17030
+    },
+    {
+      "input_index": 174,
+      "frame": 18560,
+      "timer": 17210
+    },
+    {
+      "input_index": 175,
+      "frame": 18561,
+      "timer": 17211
+    },
+    {
+      "input_index": 176,
+      "frame": 18611,
+      "timer": 17261
+    },
+    {
+      "input_index": 177,
+      "frame": 18612,
+      "timer": 17262
+    },
+    {
+      "input_index": 178,
+      "frame": 18672,
+      "timer": 17319
+    },
+    {
+      "input_index": 179,
+      "frame": 18673,
+      "timer": 17320
+    },
+    {
+      "input_index": 180,
+      "frame": 18681,
+      "timer": 17328
+    },
+    {
+      "input_index": 181,
+      "frame": 18682,
+      "timer": 17329
+    },
+    {
+      "input_index": 182,
+      "frame": 18690,
+      "timer": 17337
+    },
+    {
+      "input_index": 183,
+      "frame": 18691,
+      "timer": 17338
+    },
+    {
+      "input_index": 184,
+      "frame": 18751,
+      "timer": 17398
+    },
+    {
+      "input_index": 185,
+      "frame": 18752,
+      "timer": 17399
+    },
+    {
+      "input_index": 186,
+      "frame": 18812,
+      "timer": 17457
+    },
+    {
+      "input_index": 187,
+      "frame": 18813,
+      "timer": 17458
+    },
+    {
+      "input_index": 188,
+      "frame": 18823,
+      "timer": 17468
+    },
+    {
+      "input_index": 189,
+      "frame": 18824,
+      "timer": 17469
+    },
+    {
+      "input_index": 190,
+      "frame": 18834,
+      "timer": 17479
+    },
+    {
+      "input_index": 191,
+      "frame": 18894,
+      "timer": 17539
+    },
+    {
+      "input_index": 192,
+      "frame": 18895,
+      "timer": 17540
+    },
+    {
+      "input_index": 193,
+      "frame": 18955,
+      "timer": 17599
+    },
+    {
+      "input_index": 194,
+      "frame": 18956,
+      "timer": 17600
+    },
+    {
+      "input_index": 195,
+      "frame": 18964,
+      "timer": 17608
+    },
+    {
+      "input_index": 196,
+      "frame": 18965,
+      "timer": 17609
+    },
+    {
+      "input_index": 197,
+      "frame": 18973,
+      "timer": 17617
+    },
+    {
+      "input_index": 198,
+      "frame": 18974,
+      "timer": 17618
+    },
+    {
+      "input_index": 199,
+      "frame": 18982,
+      "timer": 17626
+    },
+    {
+      "input_index": 200,
+      "frame": 18983,
+      "timer": 17627
+    },
+    {
+      "input_index": 201,
+      "frame": 18991,
+      "timer": 17635
+    },
+    {
+      "input_index": 202,
+      "frame": 18992,
+      "timer": 17636
+    },
+    {
+      "input_index": 203,
+      "frame": 19000,
+      "timer": 17644
+    },
+    {
+      "input_index": 204,
+      "frame": 19001,
+      "timer": 17645
+    },
+    {
+      "input_index": 205,
+      "frame": 19009,
+      "timer": 17653
+    },
+    {
+      "input_index": 206,
+      "frame": 19010,
+      "timer": 17654
+    },
+    {
+      "input_index": 207,
+      "frame": 19070,
+      "timer": 17712
+    },
+    {
+      "input_index": 208,
+      "frame": 19071,
+      "timer": 17713
+    },
+    {
+      "input_index": 209,
+      "frame": 19251,
+      "timer": 17715
+    },
+    {
+      "input_index": 210,
+      "frame": 19851,
+      "timer": 18189
+    }
+  ],
+  "scope": "Read-only timer observation; identical normal input; complete saved state excluding checksum/time is checked. Not an audio or gameplay performance equivalence claim."
+}

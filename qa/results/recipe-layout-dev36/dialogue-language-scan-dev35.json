@@ -1,0 +1,136 @@
+{
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "typed_dialogue_records": 5208,
+  "japanese_character_matches": [
+    {
+      "record": "0x15481c",
+      "text": "삐ー삐ー　모든　입력　확인\n제１차　방어선을　일시정지…"
+    },
+    {
+      "record": "0x1548a8",
+      "text": "삐ー삐ー　전원　대피\n삐ー삐ー　전원　대피"
+    },
+    {
+      "record": "0x154994",
+      "text": "삐ー삐ー　전원　대피\n삐ー삐ー　전원　대피"
+    },
+    {
+      "record": "0x1549a4",
+      "text": "흥,삐ー삐ー　시끄럽네~"
+    },
+    {
+      "record": "0x1562c4",
+      "text": "알겠어,복사　광선　발사!　뿅ー!"
+    },
+    {
+      "record": "0x1617c8",
+      "text": "부ー,우드로우님이\n오실　줄　알았는데…"
+    },
+    {
+      "record": "0x1620cc",
+      "text": "근데,너희들　어려운　말을　쓰고%k\n부ー가　버릇인　소녀를　\n못　봤니?"
+    },
+    {
+      "record": "0x1620d4",
+      "text": "부ー　인가요?"
+    },
+    {
+      "record": "0x16225c",
+      "text": "그러고　보니　우드로우…%k\n부ー가　버릇인\n소녀가　어떻게　됐다고　했지?"
+    },
+    {
+      "record": "0x162730",
+      "text": "@B・스벤과\n유쾌한　친구들~!"
+    },
+    {
+      "record": "0x163144",
+      "text": "저는\n@B・스벤　입니다"
+    },
+    {
+      "record": "0x1639ec",
+      "text": "푸른　하늘의　번개라　불리는\n죠니・시덴"
+    },
+    {
+      "record": "0x163a04",
+      "text": "나　죠니는　언제든\n준비됐다고,베이비ー"
+    },
+    {
+      "record": "0x163d48",
+      "text": "푸른　하늘의　번개라　불리는\n죠니・시덴"
+    },
+    {
+      "record": "0x163d60",
+      "text": "나　죠니는　언제든\n준비됐다고,베이비ー"
+    },
+    {
+      "record": "0x16562c",
+      "text": "부ー!　우드로우님이\n길을　잃다니!"
+    },
+    {
+      "record": "0x16566c",
+      "text": "부ー!　놀리지　마세요!\n어린애가　아니거든요!"
+    },
+    {
+      "record": "0x1659cc",
+      "text": "부ー!　틀려요!\n길을　잃다니　그런…"
+    },
+    {
+      "record": "0x166b98",
+      "text": "삐ー삐ー　적　침입　감지!\n적　침입　감지!"
+    },
+    {
+      "record": "0x166ce8",
+      "text": "삐ー삐ー\n적　제１차　방어선을　돌파!"
+    },
+    {
+      "record": "0x166dfc",
+      "text": "삐ー삐ー\n적　제2차　방어선　돌파"
+    },
+    {
+      "record": "0x16763c",
+      "text": "삐ー삐ー　적　침입　감지!\n적　침입　감지!"
+    },
+    {
+      "record": "0x1677c0",
+      "text": "삐ー삐ー\n적　제１차　방어선을　돌파!"
+    },
+    {
+      "record": "0x16786c",
+      "text": "삐ー삐ー\n적　제2차　방어선을　돌파!"
+    },
+    {
+      "record": "0x169908",
+      "text": "활의　명수로　불렸던\n알바・톤의　손녀라구요"
+    },
+    {
+      "record": "0x16ee98",
+      "text": "부드럽고　상쾌한　미소!\n크레스・알베인!"
+    },
+    {
+      "record": "0x16f320",
+      "text": "부드럽고　상쾌한　미소!\n크레스・알베인!"
+    },
+    {
+      "record": "0x16f554",
+      "text": "결코　포기하지　않는　남자!\n스탄・엘론!"
+    },
+    {
+      "record": "0x16ff44",
+      "text": "문답무용!　울부짖는　국자!\n리리스・엘론♪"
+    },
+    {
+      "record": "0x177aac",
+      "text": "부ー,전　아이가　아니에요!"
+    },
+    {
+      "record": "0x1abec0",
+      "text": "잘　부탁해　@B,@G\n내　이름은　스탄,스탄・엘론!"
+    },
+    {
+      "record": "0x1ac190",
+      "text": "내　이름은　로이드・어빙\n이　쪽이　콜레트와　지니어스"
+    }
+  ],
+  "decode_errors": [],
+  "scope": "Current known VM dialogue only. Does not cover unknown text consumers, graphics text, semantic accuracy or full gameplay."
+}

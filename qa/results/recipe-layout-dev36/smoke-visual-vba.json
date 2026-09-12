@@ -1,0 +1,50 @@
+{
+  "status": "EXPECTED_SCREENS_OBSERVED",
+  "date": "2026-09-13",
+  "rom_sha256": "c45a9b0e9c974da8f63f707a5a9a983ddacff0f7d5079505cd9ddeddcf3f4d11",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "observer": "Codex direct image review",
+  "captures": [
+    {
+      "ok": true,
+      "frame": 19851,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-smoke-vba\\first-save\\first-save.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "6a21364ee9f1a2da070978be12fffcc84d7c8ef0a7203bc9ff117df520bc974f"
+    },
+    {
+      "ok": true,
+      "frame": 1465,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-smoke-vba\\reload\\reload.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "399a02ade97e764f13059151a30dc9866650a9e4126732e35593929a0f512059"
+    },
+    {
+      "ok": true,
+      "frame": 1581,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-smoke-vba\\reload\\items.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "25e2c9b037d6fc1043372209afca6181747e85b3fc1030d8b1e4c443442f430e"
+    },
+    {
+      "ok": true,
+      "frame": 1642,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev36-smoke-vba\\reload\\item-description.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "fdd19456bdd8db33b8a719f7084180c5fbd16a2abd35a629c40898bf5c4ccf80"
+    }
+  ],
+  "observed": "First save, fresh process menu, starting inventory and Life Bottle description reviewed in composite. Scoped validation, not whole-game."
+}
