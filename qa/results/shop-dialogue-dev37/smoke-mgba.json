@@ -1,0 +1,97 @@
+{
+  "status": "REPLAY_AND_SAVE_CHECKS_PASS_VISUAL_INSPECTION_PENDING",
+  "rom_sha256": "5d34e2d9b194bc295e956796c4f2c9ca90ccdbbedd55e00f8f7eb86404a717ec",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "separate_process_reload": true,
+  "ram_interventions": 0,
+  "phases": {
+    "first-save": {
+      "status": "REPLAY_AND_SAVE_CHECKS_PASS_VISUAL_INSPECTION_PENDING",
+      "phase": "first-save",
+      "rom_sha256": "5d34e2d9b194bc295e956796c4f2c9ca90ccdbbedd55e00f8f7eb86404a717ec",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "core_version": "0.11-219-e31759b",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "ram_interventions": 0,
+      "input_save_sha256": null,
+      "save": {
+        "ok": true,
+        "frame": 19851,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-smoke-mgba\\first-save\\first-save.sav",
+        "size": 8192,
+        "core_buffer_size": 8192,
+        "core_buffer_offset": 0,
+        "sha256": "312bb57555b6d405d235d1affe240b29fedc0c73ddfa1e125607efb37d94e6c2",
+        "fixture_modified": false
+      },
+      "save_validation": {
+        "game_checksum_valid": true,
+        "all_other_save_bytes_identical": true,
+        "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+        "play_timer_frames": 17721,
+        "timer_reference": 17721,
+        "timer_tolerance": 0,
+        "timer_delta_from_reference": 0,
+        "timing_claim": "Recorded, not an audio/performance equivalence claim",
+        "timing_evidence_sha256": "d678422185193f0ed560a6864f25ca01f082c960c6f0a2ec77aeef0e521a71fe"
+      },
+      "captures": [
+        {
+          "ok": true,
+          "frame": 19851,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-smoke-mgba\\first-save\\first-save.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "d8eb5d944bed05061831e7a5ebc30e11f07c4f8da947933026f3c8481db118d3"
+        }
+      ]
+    },
+    "reload": {
+      "status": "REPLAY_AND_SAVE_CHECKS_PASS_VISUAL_INSPECTION_PENDING",
+      "phase": "reload",
+      "rom_sha256": "5d34e2d9b194bc295e956796c4f2c9ca90ccdbbedd55e00f8f7eb86404a717ec",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "core_version": "0.11-219-e31759b",
+      "trace_sha256": "9710afc80a4e57b19b42afddfbdf04ab473aa10a8624050336250ff1aa78168e",
+      "ram_interventions": 0,
+      "input_save_sha256": "312bb57555b6d405d235d1affe240b29fedc0c73ddfa1e125607efb37d94e6c2",
+      "save": null,
+      "save_validation": null,
+      "captures": [
+        {
+          "ok": true,
+          "frame": 1465,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-smoke-mgba\\reload\\reload.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "6e831b17bc9c1d77cc24e38ebb34a03b35124dc6e47000d0ddecaf8c168a31ad"
+        },
+        {
+          "ok": true,
+          "frame": 1581,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-smoke-mgba\\reload\\items.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "10f27982581f925fe0a9c3e566b8398335ab6c0205363f8e6ebaad25d5d9ec97"
+        },
+        {
+          "ok": true,
+          "frame": 1642,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-smoke-mgba\\reload\\item-description.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "90eb8d9379d1d1755403f666621aa33bf030175622201075b2d3db4b0395b646"
+        }
+      ]
+    }
+  },
+  "scope": "Normal opening inputs to first save, fresh-process reload, main menu and three starting items. No battle, branches, endings, all names, user saves or hardware claim."
+}

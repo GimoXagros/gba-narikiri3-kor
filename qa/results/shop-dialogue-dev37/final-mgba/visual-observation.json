@@ -1,0 +1,18 @@
+{
+  "status": "TARGET_SHOP_DIALOGUE_OBSERVED",
+  "date": "2026-09-13",
+  "rom_sha256": "5d34e2d9b194bc295e956796c4f2c9ca90ccdbbedd55e00f8f7eb86404a717ec",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "target_capture": {
+    "ok": true,
+    "frame": 3399,
+    "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-mgba\\shop-05.png",
+    "size": [
+      240,
+      160
+    ],
+    "sha256": "a34f90dca6ae4424e266637a6908ace0c83b482db8775a68b60b14351d31133a"
+  },
+  "observer": "Codex direct image review",
+  "observed": "Japanese: なりきり服のことなら. Korean final: 나리키리 의상은; exact two-line text, Mel portrait/name, no clipping. Normal inputs after synthetic postgame save, no runtime RAM edits."
+}

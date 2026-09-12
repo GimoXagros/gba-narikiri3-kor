@@ -1248,6 +1248,12 @@
       "text": "문답무용!　울부짖는　국자!\n리리스・엘론♪",
       "basis": "Original リリス・エルロン; restore the last syllable of user-approved 리리스 엘론.",
       "review": "source_and_original_consumer_reviewed_pixels_pending"
+    },
+    {
+      "id": "shop-mentor-costume-advice",
+      "text": "후배　여러분!　나리키리　의상은\n뭐든지　상담해　줄게",
+      "review": "source_context_checked_pixel_and_runtime_pending",
+      "basis": "Restore omitted 服 (clothes/costumes), correct legacy 나리키라라면; preserve speaker, one newline and invitation to ask advice."
     }
   ]
 }

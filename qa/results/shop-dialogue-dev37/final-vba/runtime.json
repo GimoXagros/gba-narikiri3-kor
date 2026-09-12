@@ -1,0 +1,178 @@
+{
+  "status": "CAPTURED_REVIEW_PENDING",
+  "core": "VBA Next",
+  "core_version": "v1.0.2",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "rom_sha256": "5d34e2d9b194bc295e956796c4f2c9ca90ccdbbedd55e00f8f7eb86404a717ec",
+  "input_save_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1",
+  "frame": 3399,
+  "ram_interventions": 0,
+  "pixel_format": 2,
+  "save_size": 139264,
+  "memory_maps": [
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 0,
+      "select": 0,
+      "disconnect": 0,
+      "len": 16384
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 33554432,
+      "select": 0,
+      "disconnect": 0,
+      "len": 262144
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 50331648,
+      "select": 0,
+      "disconnect": 0,
+      "len": 32768
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 67108864,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 83886080,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 100663296,
+      "select": 4294868992,
+      "disconnect": 0,
+      "len": 98304
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 117440512,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 134217728,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 167772160,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 201326592,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 234881024,
+      "select": 0,
+      "disconnect": 0,
+      "len": 65536
+    }
+  ],
+  "options": {
+    "vbanext_bios": "enabled",
+    "vbanext_rtc": "auto",
+    "vbanext_turboenable": "disabled",
+    "vbanext_turbodelay": "2"
+  },
+  "option_overrides": {
+    "mgba_use_bios": "OFF",
+    "mgba_skip_bios": "ON",
+    "mgba_frameskip": "disabled",
+    "mgba_frameskip_interval": "0"
+  },
+  "captures": [
+    {
+      "ok": true,
+      "frame": 2194,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-entry.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "ceaa86d27d66b931a8ad1fac222bbd9f7493c0bb889daa9b4a8ca79cf72b027c"
+    },
+    {
+      "ok": true,
+      "frame": 2435,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-01.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "81a8fe8b1b62c7fe2d5eb385031369b806ac31e3528b3d7ebfe08ce88b2b5413"
+    },
+    {
+      "ok": true,
+      "frame": 2676,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-02.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "97e84a66da90262dd729fe18707b3ea86bdf5a074565370d4706c6a0cba62fd6"
+    },
+    {
+      "ok": true,
+      "frame": 2917,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-03.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "6a432376fc70c529c2f2a24dfd6ec216dd1c51e307c8f92ca8c4b4c97bd8009d"
+    },
+    {
+      "ok": true,
+      "frame": 3158,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-04.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "67323126465f32d9d28335769174691c36bb3ccb128678c1eb069963e1107e4c"
+    },
+    {
+      "ok": true,
+      "frame": 3399,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-05.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "ffa223e9ac295db01ac041ca3e8dd0371205aaec57a2b2984362658bc492bdc2"
+    }
+  ],
+  "trace_sha256": "9b33e3ceb91dd655363df5c23dc338cd3101f069e09354dd2ebc63e969c8a6a1",
+  "scope": "Synthetic postgame save; normal controller trace, no runtime RAM writes. First costume-shop conversation only."
+}

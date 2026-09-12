@@ -1,0 +1,191 @@
+{
+  "status": "CAPTURED_REVIEW_PENDING",
+  "core": "mGBA",
+  "core_version": "0.11-219-e31759b",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "rom_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "input_save_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1",
+  "frame": 3399,
+  "ram_interventions": 0,
+  "pixel_format": 2,
+  "save_size": 8192,
+  "memory_maps": [
+    {
+      "flags": 4,
+      "offset": 0,
+      "start": 50331648,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 32768
+    },
+    {
+      "flags": 4,
+      "offset": 0,
+      "start": 33554432,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 262144
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 234881024,
+      "select": 0,
+      "disconnect": 0,
+      "len": 131072
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 134217728,
+      "select": 0,
+      "disconnect": 0,
+      "len": 16777216
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 167772160,
+      "select": 0,
+      "disconnect": 0,
+      "len": 16777216
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 201326592,
+      "select": 0,
+      "disconnect": 0,
+      "len": 16777216
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 0,
+      "select": 0,
+      "disconnect": 0,
+      "len": 16384
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 100663296,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 98304
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 83886080,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 117440512,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 67108864,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    }
+  ],
+  "options": {
+    "mgba_gb_model": "Autodetect",
+    "mgba_use_bios": "ON",
+    "mgba_skip_bios": "OFF",
+    "mgba_gb_colors": "Grayscale",
+    "mgba_gb_colors_preset": "0",
+    "mgba_sgb_borders": "ON",
+    "mgba_color_correction": "OFF",
+    "mgba_interframe_blending": "OFF",
+    "mgba_audio_low_pass_filter": "disabled",
+    "mgba_audio_low_pass_range": "60",
+    "mgba_allow_opposing_directions": "no",
+    "mgba_solar_sensor_level": "0",
+    "mgba_force_gbp": "OFF",
+    "mgba_idle_optimization": "Remove Known",
+    "mgba_frameskip": "disabled",
+    "mgba_frameskip_threshold": "33",
+    "mgba_frameskip_interval": "0"
+  },
+  "option_overrides": {
+    "mgba_use_bios": "OFF",
+    "mgba_skip_bios": "ON",
+    "mgba_frameskip": "disabled",
+    "mgba_frameskip_interval": "0"
+  },
+  "captures": [
+    {
+      "ok": true,
+      "frame": 2194,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-japanese-mgba\\shop-entry.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "1d4d354d11d44dbaf53816f409218e333fca75655cb8eae66819d74cae2716d1"
+    },
+    {
+      "ok": true,
+      "frame": 2435,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-japanese-mgba\\shop-01.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "35999656360f29b4f7e3c73ce0e2352b2b158c7f019254bdb8017f8ae5af48a5"
+    },
+    {
+      "ok": true,
+      "frame": 2676,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-japanese-mgba\\shop-02.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "f86a4e14311ea12a08f9ad24646242e26d716407c8e7fb04645657aa3dd8900e"
+    },
+    {
+      "ok": true,
+      "frame": 2917,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-japanese-mgba\\shop-03.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "dd3148289635694a75054727915a9357a6ba1a1fb3b5cc15b2ef3fb8384bfd35"
+    },
+    {
+      "ok": true,
+      "frame": 3158,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-japanese-mgba\\shop-04.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "ef1c8770b2e62dff62861f8cf5eb18a458a10447cabb2770a27988b7e51c14c4"
+    },
+    {
+      "ok": true,
+      "frame": 3399,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-japanese-mgba\\shop-05.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "91664f3cf2fe2aaa6772921400d23c72684eca180803a1a4a7c5c8ced28fed77"
+    }
+  ],
+  "trace_sha256": "9b33e3ceb91dd655363df5c23dc338cd3101f069e09354dd2ebc63e969c8a6a1",
+  "scope": "Synthetic postgame save; normal controller trace, no runtime RAM writes. First costume-shop conversation only."
+}

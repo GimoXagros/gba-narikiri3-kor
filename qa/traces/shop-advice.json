@@ -1,0 +1,209 @@
+{
+  "scope": "Postgame synthetic review save; hub to first costume-shop mentor advice by normal inputs only.",
+  "inputs": [
+    {
+      "op": "frames",
+      "count": 300
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 600
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "start"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 200
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "start"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 100
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 200
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "b"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 60
+    },
+    {
+      "op": "frames",
+      "count": 4,
+      "buttons": [
+        "b"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 120
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "up"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 90
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "left"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 90
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "up"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 90
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "up"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 90
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 240
+    },
+    {
+      "op": "screenshot",
+      "name": "shop-entry.png"
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 240
+    },
+    {
+      "op": "screenshot",
+      "name": "shop-01.png"
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 240
+    },
+    {
+      "op": "screenshot",
+      "name": "shop-02.png"
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 240
+    },
+    {
+      "op": "screenshot",
+      "name": "shop-03.png"
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 240
+    },
+    {
+      "op": "screenshot",
+      "name": "shop-04.png"
+    },
+    {
+      "op": "frames",
+      "count": 1,
+      "buttons": [
+        "a"
+      ]
+    },
+    {
+      "op": "frames",
+      "count": 240
+    },
+    {
+      "op": "screenshot",
+      "name": "shop-05.png"
+    }
+  ]
+}

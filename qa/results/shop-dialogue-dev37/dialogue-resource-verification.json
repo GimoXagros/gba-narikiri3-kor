@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "rom_sha256": "5d34e2d9b194bc295e956796c4f2c9ca90ccdbbedd55e00f8f7eb86404a717ec",
+  "indexed_scripts": 1000,
+  "dialogue_records": 5208,
+  "original_expander_cases": 10416,
+  "maximum_observed_expanded_bytes": 178,
+  "allocation_bytes": 256,
+  "legacy_trail_byte_failures_reproduced": [
+    "0x18fb34",
+    "0x190320"
+  ],
+  "only_selected_dialogue_operands_changed": 245,
+  "nontext_vm_instructions_preserved": true,
+  "scope": "All indexed opcode0F and opcode25 dialogue payloads with default and five-Hangul name fixtures. Actual expander and strlen, allocator substituted. Not full script execution, layout, every possible custom string, or natural-play reachability."
+}

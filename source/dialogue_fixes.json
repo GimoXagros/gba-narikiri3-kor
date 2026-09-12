@@ -3790,6 +3790,14 @@
       "legacy_raw": "8d4d8ae28d4a908b218140908f8dcc91a08ac08140895890d8210a8cac8cac8f59814590438c6d81f4",
       "kind": "approved_full_character_name",
       "basis": "Original リリス・エルロン; restore the last syllable of user-approved 리리스 엘론."
+    },
+    {
+      "id": "shop-mentor-costume-advice",
+      "record_offset": "0x1bb0b4",
+      "source_record": "0f00380094b81b08",
+      "j_raw": "8ce394798f948c4e8149814082c882e882ab82e8959e82cc82b182c682c882e70a82c882f182c582e0918a926b82c98fe682e982ed82e6",
+      "legacy_raw": "94c28d88814090488c4e8dce2181408a498cac934f8bf18bf18ce781400a8d588b87919681408e938ae19477917888d2",
+      "basis": "Script 914, Mel speaker 56: narikiri clothes advice after both mentors identify themselves as former narikiri masters."
     }
   ]
 }

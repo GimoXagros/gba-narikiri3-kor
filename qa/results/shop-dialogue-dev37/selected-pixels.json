@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rom_sha256": "5d34e2d9b194bc295e956796c4f2c9ca90ccdbbedd55e00f8f7eb86404a717ec",
+  "selected_dialogue_records": 245,
+  "typed_dialogue_records": 245,
+  "original_expansion_and_display_cases": 1470,
+  "large_glyph_position_checks": 25936,
+  "complete_pixel_snapshots": 1690,
+  "bios_transfer_substitutions": 568,
+  "vblank_input_substitutions": 2350,
+  "sound_substitutions": 78,
+  "complete_pixel_buffers_match_original_font_bits": true,
+  "scope": "All selected dialogue operands, three name samples and both background modes. Actual original name expansion and C762C formatter caller, ASCII conversion, line wrapping, scrolling and key-wait code. Independent cursor/events and complete font-buffer pixel reference at every scroll, wait, clear and return. BIOS font transfers, VBlank/A input and sound completion are modeled. Speaker portraits, consecutive scene timing, natural reachability, semantic translation and full-game review are separate."
+}
