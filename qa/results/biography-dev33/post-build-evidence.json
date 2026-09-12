@@ -1,0 +1,17 @@
+{
+  "rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+  "artifact_bytes_unchanged": true,
+  "build_input_manifest_files_still_match": true,
+  "post_build_changes": [
+    {
+      "path": "source/opening_timing_profile.json",
+      "at_build_sha256": "a7e694831fde290472bd48eba827bd334fb11fcbacc9e237c28e37c20c7225ee",
+      "after_runtime_sha256": "e4c580d868928b1affccf23db654e180ea4bec48c6763683118bafdcc0ab07d8"
+    }
+  ],
+  "reason": "Exact ROM/core timing registration is produced by subsequent runtime verification. The original reproduction snapshot is preserved. This profile is a runtime checker input, not a ROM construction input.",
+  "new_runtime_comparison_tool": {
+    "path": "tools/verify_biography_gallery.py",
+    "sha256": "e7665bb6c823bc8585f80dc704fadd6873ba87c6a6854f755dc7f19b70f8a36c"
+  }
+}

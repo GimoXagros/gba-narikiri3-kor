@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+  "library_records": 37,
+  "selected_string_fields": 185,
+  "original_flag_and_list_cases": 148,
+  "large_field_consumer_cases": 296,
+  "large_glyph_position_cases": 4464,
+  "maximum_large_field_cells": 23,
+  "metadata_and_newline_keywait_code_preserved": true,
+  "scope": "Actual 37-entry locked/unlocked list through original flag getter and formatter, both small modes. Every four-line biography field uses original large formatter/converter/pixel routine with inspected 18x2 geometry and zero fixture character delay. Whole biography paging and normal unlock progression need runtime review."
+}

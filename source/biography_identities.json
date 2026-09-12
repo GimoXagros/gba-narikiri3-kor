@@ -1,0 +1,1376 @@
+{
+  "schema": 1,
+  "japanese_rom_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "table_sha256": "39d0a582c3a282198568327e69dd702ff917570d417282c70cea8337a446bcdb",
+  "records": [
+    {
+      "index": 0,
+      "portrait_unlock_id": 0,
+      "korean_name": "크레스",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c19bc",
+          "sha256": "84026063e8bfa33a074a135ea451d955949a17fff8fb05126ae6832ad1d99b81",
+          "text": "ｸﾚｽ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c19a0",
+          "sha256": "9e29f1551adac6085b8fd4825a58ca9335fba41a4c2b990a563916a661841146",
+          "text": "クレス・アルベイン　１７歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1980",
+          "sha256": "ce53e6c5d467ab18fff1b309980daebf5ee1f6001be057d55e67ae5f2f8f3dcc",
+          "text": "仲間と共に世界を救う冒険に出る"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1960",
+          "sha256": "fdb5b14efef159f1509de30a3008d98faf7c3566cb5b83a0a99fb502fa346ff5",
+          "text": "剣術を得意とする心やさしき青年"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c193c",
+          "sha256": "fb092d641e085715a20c3ae79e99c39464758e48e429c12acbc27fa7b3931d99",
+          "text": "　　　（テイルズオブファンタジア）"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "portrait_unlock_id": 1,
+      "korean_name": "체스터",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1934",
+          "sha256": "bc8b0d0ca21824c9f71d6fc756f959aad06a2e7c4d876355933f68f0140e212c",
+          "text": "ﾁｪｽﾀｰ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1910",
+          "sha256": "717942135bf4939ede66d3ee96c2c60af8cb35d077c8c87fb2f2e7e0de9092f8",
+          "text": "チェスター・バークライト　１７歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c18f8",
+          "sha256": "82d393124c62823221e4365d408e428dbd181cfe8fe997fa68ac81ac07eda1aa",
+          "text": "弓術を得意とする狩人"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c18d8",
+          "sha256": "480d5822d319b4eae8854801b8319f0a105bba207707730346e14b8a08586ccd",
+          "text": "クレスの幼なじみで無二の親友"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c193c",
+          "sha256": "fb092d641e085715a20c3ae79e99c39464758e48e429c12acbc27fa7b3931d99",
+          "text": "　　　（テイルズオブファンタジア）"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "portrait_unlock_id": 2,
+      "korean_name": "민트",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c18d4",
+          "sha256": "2a915d81f4d59ee2dc2d4028240725b10c6b9325129f2832268a2288423a7f8e",
+          "text": "ﾐﾝﾄ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c18b8",
+          "sha256": "ffce5b4efea1531afc9b88592036b88baee706e095fe2786cf95573a84488a15",
+          "text": "ミント・アドネード　１８歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c189c",
+          "sha256": "67d688ab59a21f92ed28471d33e3e236da573c48e882d892bbfb327498109809",
+          "text": "人々に安らぎを与える法術師"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c187c",
+          "sha256": "7fd7aa698c1f5991a8e2adc1cdc98ea3428590b655577ce9ce87335f95b8c633",
+          "text": "クレスとの仲は、ひそかに進展中"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c193c",
+          "sha256": "fb092d641e085715a20c3ae79e99c39464758e48e429c12acbc27fa7b3931d99",
+          "text": "　　　（テイルズオブファンタジア）"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "portrait_unlock_id": 3,
+      "korean_name": "클라스",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1874",
+          "sha256": "92ac43bff43fd512bd6ad810727c204882bf64bdedae979a03d7ff49c0312a28",
+          "text": "ｸﾗｰｽ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1854",
+          "sha256": "d54f204ab964affe869108a07ba29d827acf002f793f06e868c504cbcabffee9",
+          "text": "クラース・F・レスター　２９歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1834",
+          "sha256": "885c4b2aae2b65152d223d3c1687331268d9a5595df6cb58974e1223938a86fd",
+          "text": "精霊を研究する孤高の召喚術士"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1810",
+          "sha256": "d317b24014ac2e54fbb0fa319710d38d6445645805170e301302d75009237dc2",
+          "text": "探究心旺盛で、時に脱線することも…"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c193c",
+          "sha256": "fb092d641e085715a20c3ae79e99c39464758e48e429c12acbc27fa7b3931d99",
+          "text": "　　　（テイルズオブファンタジア）"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "portrait_unlock_id": 4,
+      "korean_name": "아체",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1808",
+          "sha256": "efe1e2f6d39bb2f55e6d487c21f7aedcede8002c6fd63226723c3c35a3b43623",
+          "text": "ｱｰﾁｪ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c17ec",
+          "sha256": "249ee81fe942e8db73f62b9a7a50c194a811e4dd2c95ad09f9c0ee8c29229064",
+          "text": "アーチェ・クライン　１７歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c17c8",
+          "sha256": "d3f2c040ad0ddfb834ee7c7a07f525a31047f301a3acaaff0874beda4da390ed",
+          "text": "魔法を得意とするハーフエルフの少女"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c17a4",
+          "sha256": "af68bbffa9d3bc7b827ea529b77e22c152ad75a38f2b0bdfbf58314d4421b56c",
+          "text": "クレスたち一行のトラブルメーカー"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c193c",
+          "sha256": "fb092d641e085715a20c3ae79e99c39464758e48e429c12acbc27fa7b3931d99",
+          "text": "　　　（テイルズオブファンタジア）"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "portrait_unlock_id": 5,
+      "korean_name": "스즈",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c179c",
+          "sha256": "fee75efb40713a47c69da74485ae3ba248036b4b3e3f7768f3c51c43d7c0f358",
+          "text": "{BYTE:12}ｽｽ{BYTE:12}ﾞ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1780",
+          "sha256": "40f7fbb7c15d39da163d2749e7f31ca9b51746dc7055cc09d8e123f6d58a4096",
+          "text": "ふじばやし・すず　１１歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c175c",
+          "sha256": "2db9ff7794babcd2fd6b1519c939dd89e62085c88c4f4d0cfd636d80a33da5ca",
+          "text": "非情な忍者として生きる寡黙な少女"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1738",
+          "sha256": "649c28db80f1d7201bc23d3e675106315e6ab09fc2f8118a7792e258d305fd3f",
+          "text": "多彩な忍術でクレスたちを手助けする"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c193c",
+          "sha256": "fb092d641e085715a20c3ae79e99c39464758e48e429c12acbc27fa7b3931d99",
+          "text": "　　　（テイルズオブファンタジア）"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "portrait_unlock_id": 6,
+      "korean_name": "스탄",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1734",
+          "sha256": "10e4d928f0ac32e10830acda3db16c619070f0cc29a18ae12c06252e07717f41",
+          "text": "ｽﾀﾝ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1718",
+          "sha256": "8bcb94c5163f40dd24559734d38986cc262b7b2fad0424794dd4b36cc56c9014",
+          "text": "スタン・エルロン　１９歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c16f4",
+          "sha256": "d40631a81488275d6ffe7ae84bb6222efde6979bb36cd10b983c9a5ab8c90859",
+          "text": "人格を持つ剣ソーディアンの使い手"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c16d0",
+          "sha256": "76f73d836ca5bf6d4713de447be7b8a43ac5b143e158c17db6107a6e6314b335",
+          "text": "正義感が強く、曲がったことが大嫌い"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "portrait_unlock_id": 7,
+      "korean_name": "루티",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c16a4",
+          "sha256": "5607d382c99b5249779d5d17183d70cabaee9544ad561fe2ec0ac6e476bc1aeb",
+          "text": "ﾙｰﾃｨ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1684",
+          "sha256": "d55fb3f4314fb5e62fc5c2d71a29006366d14111b67f5e2b40ba97a4ed23e154",
+          "text": "ルーティ・カトレット　１８歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1664",
+          "sha256": "08c6392e94d421783b9318030d0096703aa63f67c1c2967a204f7ee3d1b7df9d",
+          "text": "お金に目がないソーディアン使い"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1640",
+          "sha256": "82e1f04c55ed52eb5bc12d0b854b77444e77fb5a22c33aea690cdd23e2b909db",
+          "text": "マリーと共にレンズハンターを名乗る"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "portrait_unlock_id": 8,
+      "korean_name": "리온",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c163c",
+          "sha256": "607d1cb4af6db33e0636cc26675c2734e7074b15acb119da0bc794e5c2abaeef",
+          "text": "ﾘｵﾝ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1620",
+          "sha256": "1819d17771f4f251786e2e0fcf379277752d1e18f038ab8ab704ce4fb163af51",
+          "text": "リオン・マグナス　１６歳　"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1600",
+          "sha256": "03cc7d132817abca72bc75f0b0aad9fd428566da0b26dabcb7f4c292f38a9794",
+          "text": "ソーディアンを持つ、天才剣士"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c15dc",
+          "sha256": "98610dad1c422cd0b7c3671c47cb463679f620e9c14fd8487d6f00d54341ca27",
+          "text": "冷徹な反面、優しさを見せることも…"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "portrait_unlock_id": 9,
+      "korean_name": "필리아",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c15d4",
+          "sha256": "4e90d714c2f6c4a24785ceefc90fa26eedc9d6677930e9b43ba773d1fe4f035f",
+          "text": "ﾌｨﾘｱ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c15b8",
+          "sha256": "ab7f5352394a53d40b843e885f897fc6aa05e56bd29a941cd58558dd9b8f8b53",
+          "text": "フィリア・フィリス　１９歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1594",
+          "sha256": "50f54f2ba1c90e00b26c1fa44f133779b7e64c116263ebc6de48021eb25b4e75",
+          "text": "おっとりした性格のソーディアン使い"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1574",
+          "sha256": "51478a887619f0f89ede03cb72e242aaf9d74b36c9ecc6110e82d3a670653f88",
+          "text": "司祭で古代文明の研究者でもある"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "portrait_unlock_id": 10,
+      "korean_name": "우드로우",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c156c",
+          "sha256": "105e9a1e4cf6be6f089dd12330d010f6e51f9765ef9cc976319db4e2caca44cd",
+          "text": "ｳｯﾄﾞﾛｳ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c154c",
+          "sha256": "657d93ba9e0d9ecb0caaf216e103b19028b36225a778d2ea30c0c51a5d574a2f",
+          "text": "ウッドロウ・ケルヴィン　２３歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1530",
+          "sha256": "21f6853d515db49233f9adb67332f6ef3e25010c3e018187db5a9475795b5cd1",
+          "text": "広い見識を持つ、若き国王"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1510",
+          "sha256": "ef34d12cef54af3a01c319a57f2af511acb7be3e64d0f78392c6e4234fc3ebfc",
+          "text": "弓の名手にしてソーディアン使い"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "portrait_unlock_id": 11,
+      "korean_name": "첼시",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1508",
+          "sha256": "fea1cea770955e7c645f69e65cfc3fad98173da07b4eb7a370316d362df6e679",
+          "text": "ﾁｪﾙｼｰ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c14ec",
+          "sha256": "6c7a8498b6e06fbee2a04998e9a3557d19357f2a7a8a9c963e9209355aac9c42",
+          "text": "チェルシー・トーン　１４歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c14d0",
+          "sha256": "31cd403e83275c8b1542147e99d0e022e01f2d4f7ead3a5e8939b265521d536c",
+          "text": "伝説的弓使いアルバの孫娘"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c14b0",
+          "sha256": "c027f861042bad30bb86fdab9e2236c320fd1382b2837a7bd75350fc770b8b43",
+          "text": "ウッドロウを恋人のように慕う"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "portrait_unlock_id": 12,
+      "korean_name": "마리",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c14ac",
+          "sha256": "fda73c484911c091452e954f81c92838218947d149b2b41df438cff9f867c432",
+          "text": "ﾏﾘｰ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c148c",
+          "sha256": "bbc4f7dcb670ee30caeaed887ba80c9d91d977a38c05be1968bd1cad2b9a072b",
+          "text": "マリー・エージェント　２４歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1474",
+          "sha256": "7e004c003111d2b3aa72bdcb7a549f76389332c712857d8b6b64113140af1f05",
+          "text": "失われた記憶に悩む戦士"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c144c",
+          "sha256": "85136c68eadf92deb2203e7531773c8dd6d72b01253d4c3bd6890206e9ce51b9",
+          "text": "ルーティと共にレンズハンターを名乗る"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "portrait_unlock_id": 13,
+      "korean_name": "콩맨",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1444",
+          "sha256": "8a8aeb2c67fa50d0f2e8af02cbd5502706b18614da37885d06bbc21bb6f91b90",
+          "text": "ｺﾝｸﾞﾏﾝ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1424",
+          "sha256": "086c86263ece47e85da7d4fe058b4c62052b4654e63fdc4eb5f698a2f73b80ad",
+          "text": "マイティ・コングマン　３９歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1404",
+          "sha256": "a939d1159cb1f2f82ed5cfa9fc493b7a9f3c99e709c8a31206c370eea8cc7e73",
+          "text": "おのれの拳のみを信じる格闘家"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c13e8",
+          "sha256": "77f90b085d65ca1ece57f1bb8e4ee7b92b63c08109c92d23c7b2be9730ad9fd0",
+          "text": "それが彼の人気の秘密である"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "portrait_unlock_id": 14,
+      "korean_name": "죠니",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c13e0",
+          "sha256": "5e82a3ff6d217195eb289d3e9ee6ed4423b838e5e29f764eb6b2bbb50eac5ecc",
+          "text": "ｼﾞｮﾆｰ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c13c4",
+          "sha256": "f20f7a0f0e0ddc2d1cb311a7fa9adb06949fa246a1130fdf8585e1957856c8b7",
+          "text": "ジョニー・シデン　２６歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c13a8",
+          "sha256": "f57a67cc7333fae4f81647e31d55e0becf7b45146f528f07f60c0bc85dfdc06a",
+          "text": "吟遊詩人は世を忍ぶ仮の姿"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c138c",
+          "sha256": "ec115fd12d8b3634c93fd8cf6e3a6aa42940fc7bb3b98b5d32b188afadba8a67",
+          "text": "正体を隠す、その理由は…"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c16ac",
+          "sha256": "1cb2c83a02c89ed7bab2835163e19f6ecd438d22f358613ca2bbdaa1c27ee4c6",
+          "text": "　　　（テイルズオブデスティニー）"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "portrait_unlock_id": 15,
+      "korean_name": "리드",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1384",
+          "sha256": "21aece9206b7ce55c023b556662a78c9f45cb2425ef703200c32125a5702a3ee",
+          "text": "ﾘｯﾄﾞ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1368",
+          "sha256": "21deb70857cee1eeb68f3eef286a937f59969e2578076b417eb4ca149bf4bcd7",
+          "text": "リッド・ハーシェル　１８歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1350",
+          "sha256": "e71487185a5b08cdf80e984017e4fb6e18fc2cb02d3da8d72603f82d9a675534",
+          "text": "優れた剣技は天性のもの"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1328",
+          "sha256": "00d2a19726e69a7dddc96d567d25060688d0824327760d33e118742e85979ce0",
+          "text": "メルディと出会い、世界を救う旅に出る"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1304",
+          "sha256": "d8d64b3a21340283643dd9d997dc6c28115f77e300a996e262ecffc28d8d8fef",
+          "text": "　　　　（テイルズオブエターニア）"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "portrait_unlock_id": 16,
+      "korean_name": "파라",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1300",
+          "sha256": "3f132ec937d00cd9d1e907ef34b80c0c0d3c453d59634018227352d54439ba8c",
+          "text": "ﾌｧﾗ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c12e0",
+          "sha256": "e916f9e4a4271eb0d0a436371b6eb4715c3f22b9483f138ae35b86ec0eb7dd46",
+          "text": "ファラ・エルステッド　１７歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c12c0",
+          "sha256": "5066081c0acb46a19273e69c792b51b292ecebeb169109daf08149306986844e",
+          "text": "リッドの幼なじみで、いつも一緒"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1298",
+          "sha256": "037ffcb72780d271547b1acbf27eb3f47308823d1184f283ff108b601fc0a0e8",
+          "text": "困っている人を放っておけない熱血少女"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1304",
+          "sha256": "d8d64b3a21340283643dd9d997dc6c28115f77e300a996e262ecffc28d8d8fef",
+          "text": "　　　　（テイルズオブエターニア）"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "portrait_unlock_id": 17,
+      "korean_name": "킬",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1294",
+          "sha256": "cde325394ef4e720d9731b99e667470d554b3fb45a9274889fe1e29f586a430b",
+          "text": "ｷｰﾙ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1278",
+          "sha256": "e435c8819b7886a91696881452384743bce6e530f7894befb3a627f7841799b2",
+          "text": "キール・ツァイベル　１７歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1254",
+          "sha256": "320aca994d72f594392a769095c32c871d21a1ef78dbbe10ff28022c1d50865c",
+          "text": "頭脳明せきで晶霊術を使いこなす学士"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1238",
+          "sha256": "0e9d4465c3a323dbdf75033f2451aa878e74d6e09c6e550e4f919baeb00443b4",
+          "text": "リッドとファラとは幼なじみ"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1304",
+          "sha256": "d8d64b3a21340283643dd9d997dc6c28115f77e300a996e262ecffc28d8d8fef",
+          "text": "　　　　（テイルズオブエターニア）"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "portrait_unlock_id": 18,
+      "korean_name": "메르디",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1230",
+          "sha256": "91099a96a00196b98ba1209c0a74b80edd6602f76784e993f808c7326e2b3760",
+          "text": "ﾒﾙﾃﾞｨ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1210",
+          "sha256": "c1b2c429fc2487b512d361d586b2482cd17ea300e16cbd30aa3e2ab1789e9ee9",
+          "text": "過酷な運命を背負う少女　１６歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c11ec",
+          "sha256": "2aefbe459d46509e7dd8e095b7e5ffea5181d1477955eb8e7858b2c58501cc50",
+          "text": "リッドたちと共に世界を救う旅に出る"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c11c8",
+          "sha256": "d839ba7c3cee1dddf924565f2db07a10b503f1df9258080d8445139e31727020",
+          "text": "ペットのクィッキーとは大の仲良し"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1304",
+          "sha256": "d8d64b3a21340283643dd9d997dc6c28115f77e300a996e262ecffc28d8d8fef",
+          "text": "　　　　（テイルズオブエターニア）"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "portrait_unlock_id": 19,
+      "korean_name": "포그",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c11c0",
+          "sha256": "648c4f223d94bbffa9d86a3081b1db34462962994126231e8d78341b0773c68f",
+          "text": "ﾌｫｯｸﾞ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c119c",
+          "sha256": "ccf1d19dcfdb4061c6c287f1999d468a6b29ebdccb74f88b16115bbf46ea2861",
+          "text": "圧政への抵抗軍を率いる大男　３８歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c1184",
+          "sha256": "9098351c7efa96a4660a25024e028df1aa051bd3df5800ca4fa24fafe1cf0816",
+          "text": "不器用だが、根は優しい"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c116c",
+          "sha256": "69a3094b958e2df35935fa0192b026fd3258d581cfb1918298fa4606602687a6",
+          "text": "体力と頑丈さは底なし"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1304",
+          "sha256": "d8d64b3a21340283643dd9d997dc6c28115f77e300a996e262ecffc28d8d8fef",
+          "text": "　　　　（テイルズオブエターニア）"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "portrait_unlock_id": 20,
+      "korean_name": "채트",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1164",
+          "sha256": "a38015348581ce8e76c19fbfb951588f2c52a311ed6122e9b453eecec43e8afa",
+          "text": "ﾁｬｯﾄ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1140",
+          "sha256": "b8a47e9857940d732e0d4120c4ee0018d7f301d61b97e9c92a8443d04be2e947",
+          "text": "大海賊アイフリードの子孫　１２歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c111c",
+          "sha256": "06a928a0f11d1cb41eee217344c3f8cb10729c6fec357c03d9c8e20ac8fbe6ab",
+          "text": "機械に詳しく、多様なメカをあやつる"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c10f8",
+          "sha256": "d8a0f5dbcb113485689ba393920233744c884c6d3b8c9e34062beaed0716dd5c",
+          "text": "クィッキーのような毛深い動物が苦手"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1304",
+          "sha256": "d8d64b3a21340283643dd9d997dc6c28115f77e300a996e262ecffc28d8d8fef",
+          "text": "　　　　（テイルズオブエターニア）"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "portrait_unlock_id": 21,
+      "korean_name": "레이스",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c10f4",
+          "sha256": "ad69632d63ae716c69bbad44e202fae1acb01d392f92c56a4f6235908d3857dc",
+          "text": "ﾚｲｽ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c10d0",
+          "sha256": "126ec64acae9569f03d8dad2394de59485a4854dd8fadb25d760e0d707b1d21a",
+          "text": "レイシス・フォーマルハウト　２５歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c10ac",
+          "sha256": "ccbb12d729fdaab7261bb27882f454dc4c64ae3190dd7acae2519e45a6d2d925",
+          "text": "行商人として、各地を旅する謎の人物"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1084",
+          "sha256": "94a9394d9ff95613bfd48bc0bb5b960ddbce0ccd5cb9d318cef83dea6ecc2dff",
+          "text": "かつては騎士だったようで剣の腕は一流"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1304",
+          "sha256": "d8d64b3a21340283643dd9d997dc6c28115f77e300a996e262ecffc28d8d8fef",
+          "text": "　　　　（テイルズオブエターニア）"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "portrait_unlock_id": 26,
+      "korean_name": "카일",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1080",
+          "sha256": "10d824170d1e6cea845e296ab3e54bf3f3cf15e4fcc76c283508d1b849017bf6",
+          "text": "ｶｲﾙ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c1064",
+          "sha256": "c6961e41efd2d4a244525940743c8734236a4777c5a76cac53432437933cc11f",
+          "text": "カイル・デュナミス　１５歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c104c",
+          "sha256": "0d08c6f3e8819bddc6386b6d153af74a645707035e50635a6f5495b3d9e96717",
+          "text": "スタンとルーティの実子"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c1028",
+          "sha256": "0fb2bc8144f101c62ff5a23999d866784072dacdaf31d08766f11e02d8954aa6",
+          "text": "リアラと出会い、英雄への道を歩む"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1004",
+          "sha256": "2ebc5ac405e081f339bfb51b54d499bc8a285746e1aa1ac3f37f6022b45d60b4",
+          "text": "　　（テイルズオブデスティニー２）"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "portrait_unlock_id": 27,
+      "korean_name": "로니",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c1000",
+          "sha256": "55266d3eb5eca2d389de14c771d9d8c97ed60ec54e6a22bae3972b6538f1fd76",
+          "text": "ﾛﾆ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0fe4",
+          "sha256": "41e6f392033e0df89d012deb6974aefe22cb9161d9eedde386938c52018d1164",
+          "text": "ロニ・デュナミス　２３歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0fc4",
+          "sha256": "aed31dc7d0c9a62c5638649dea317180903321be101cdf0abc49ae3709f9b012",
+          "text": "ルーティが運営する孤児院の出身"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0fa8",
+          "sha256": "f9fd33b3e029eee5cfb3180b0b0bcccbd1cd287e9ca053b325740e47547c5987",
+          "text": "カイルの幼なじみで、兄貴分"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1004",
+          "sha256": "2ebc5ac405e081f339bfb51b54d499bc8a285746e1aa1ac3f37f6022b45d60b4",
+          "text": "　　（テイルズオブデスティニー２）"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "portrait_unlock_id": 28,
+      "korean_name": "리아라",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0fa4",
+          "sha256": "5e7c4414e37a6285fb9cc0d311e470805e3b1108775a66cc5bcc32fb2c0fbbd4",
+          "text": "ﾘｱﾗ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0f80",
+          "sha256": "dc144da6ecb4855f2c7df968436391cb3a1d5977e443298b6dfd69275ce1b41d",
+          "text": "真の英雄を探しもとめる、謎の少女"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0f5c",
+          "sha256": "5854dfc86246088b90f8fa53e1cc26f95690909fa175ef53f8a529ab8ce8d8e9",
+          "text": "彼女とカイルの運命的な出会いが、"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0f38",
+          "sha256": "f3a90bad2ee71b5d006298fce7f63be7cedff9a127b9c0d424a95210f31de1b8",
+          "text": "世界を巻きこむ　大乱の幕開けとなる"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1004",
+          "sha256": "2ebc5ac405e081f339bfb51b54d499bc8a285746e1aa1ac3f37f6022b45d60b4",
+          "text": "　　（テイルズオブデスティニー２）"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "portrait_unlock_id": 29,
+      "korean_name": "쥬다스",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0f30",
+          "sha256": "3660b89fe177a50fdc5a79a1bdb80b94e9bb77b9b1cd70b5e35d3ce0d1336e7f",
+          "text": "ｼﾞｭｰﾀﾞｽ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0f10",
+          "sha256": "8fc9327bf05cc546ab48008694cda3ec631a0358d3d4b431a045cf66a3c7f80f",
+          "text": "裏切り者の名を持つ、仮面の剣士"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0eec",
+          "sha256": "38eadd124ef5001ed3c7c611b8717f93e4cfb86f75295fcf1f9f381fd285e03e",
+          "text": "ソーディアン“シャルティエ”を持つ"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0ec8",
+          "sha256": "4ca147178279441ee575475be2f35c2f52992f849b0c27bcc1cde2720ba42ea6",
+          "text": "その瞳は、盟友の息子を見守り続ける"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1004",
+          "sha256": "2ebc5ac405e081f339bfb51b54d499bc8a285746e1aa1ac3f37f6022b45d60b4",
+          "text": "　　（テイルズオブデスティニー２）"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "portrait_unlock_id": 30,
+      "korean_name": "나나리",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0ec0",
+          "sha256": "0eb8434eb7c813d35616fd249367f7b508d0b5ba38dd3c56c9d260fbefcd22de",
+          "text": "ﾅﾅﾘｰ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0ea4",
+          "sha256": "56fe0caa61609b3222250c391df4b58c8b08774ff5cb46f3589cb1e4c6e545d7",
+          "text": "ナナリー・フレッチ　１９歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0e8c",
+          "sha256": "45d886a030f76a518d0cfb680faef1fbb700c167cbf86d7beef383969be1532a",
+          "text": "面倒見がよく、姉御肌"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0e68",
+          "sha256": "e36bd5c6e05723bc0fb866a3d73a39e6d89b02352235545e9516c75e217fb1ce",
+          "text": "弓の使い手だが、なぜか関節技が得意"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1004",
+          "sha256": "2ebc5ac405e081f339bfb51b54d499bc8a285746e1aa1ac3f37f6022b45d60b4",
+          "text": "　　（テイルズオブデスティニー２）"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "portrait_unlock_id": 31,
+      "korean_name": "해롤드",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0e60",
+          "sha256": "b18c8cbed4604b3ba98ac70ff6ab347a442fee66e9148964b776712bbbac2c55",
+          "text": "ﾊﾛﾙﾄﾞ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0e40",
+          "sha256": "90eac5edddf1e03b37cab03b466d0e044f4bf56387e1869ed26a48f1354e3829",
+          "text": "ハロルド・ベルセリオス　２３歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0e24",
+          "sha256": "b2caa63ca05502f55ebe0ea2e439620105bbba10da6dd1810fd5ed7dd5e1969b",
+          "text": "自他共に認める天才科学者"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0e00",
+          "sha256": "69e50843fdd3e2209d22cbddd9f994d3ab00668edb2c5b70238515ead7294223",
+          "text": "彼女の辞書に、不可能の文字はない"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c1004",
+          "sha256": "2ebc5ac405e081f339bfb51b54d499bc8a285746e1aa1ac3f37f6022b45d60b4",
+          "text": "　　（テイルズオブデスティニー２）"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "portrait_unlock_id": 32,
+      "korean_name": "로이드",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0df8",
+          "sha256": "1a1139167bf740fb8fffb7af12e246eaf290b0369ecf1b5895eeddfcb6eb3119",
+          "text": "ﾛｲﾄﾞ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0dd8",
+          "sha256": "4f2356fab418da7159dbfbb18e5ef1b4758c88474e6ee755c72908ef75eea96c",
+          "text": "ロイド・アーヴィング　１７歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0db8",
+          "sha256": "3f5399e986b5cd47ec734762dda3b8fbd028f60d4d697ed250c9cf1023aa7143",
+          "text": "ドワーフに育てられた二刀流剣士"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0d94",
+          "sha256": "d2245b327ef95777c82dbbf9c9ae64d9e45b41dcd83252e57f62d593bcba999e",
+          "text": "コレットたちと世界再生の旅に出る"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "portrait_unlock_id": 33,
+      "korean_name": "지니어스",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0d68",
+          "sha256": "c929871d3fc806697a2c2a027d09821daac0a119f09bf4c7668c2a0a552184f7",
+          "text": "ｼﾞｰﾆｱｽ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0d4c",
+          "sha256": "78114cfaa88d15715ccd879ecc0103a426891152ba929cd93661180acfef0e59",
+          "text": "ジーニアス・セイジ　１２歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0d2c",
+          "sha256": "c01e50fa700b4b3e78fccbd62041b552b7ec01736c2abefc26f2523d0e0179e0",
+          "text": "よき理解者ロイドを慕う魔術師"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0d94",
+          "sha256": "d2245b327ef95777c82dbbf9c9ae64d9e45b41dcd83252e57f62d593bcba999e",
+          "text": "コレットたちと世界再生の旅に出る"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "portrait_unlock_id": 34,
+      "korean_name": "콜레트",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0d24",
+          "sha256": "33303a832dca4690fd065c4edc8b8893eeb063153b25f8850de6c9d9c492d8dd",
+          "text": "ｺﾚｯﾄ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0d04",
+          "sha256": "31e5699aeb2b631228250998464c782ac86fc200d5be98b5dd314209256cc378",
+          "text": "コレット・ブルーネル　１６歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0ce4",
+          "sha256": "7033dc9ef95723e85cb150a80d05ecd64bdfbcb8edf75711053bcb420f94e4bc",
+          "text": "ロイド、ジーニアスの幼なじみ"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0cc4",
+          "sha256": "33a84534b8c99cde11f63fd4d65da683c2c17f98a631e977e96edec502dccb94",
+          "text": "神子として世界再生の旅に出る"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "portrait_unlock_id": 35,
+      "korean_name": "리필",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0cbc",
+          "sha256": "89c5d2e3b5ba841c020b80e2d705df74f2cfdaf8c4c9c2093ad9ebdd9a81e353",
+          "text": "ﾘﾌｨﾙ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0ca0",
+          "sha256": "bef721ea42877b7ba074af2a01e37ba22b9cfa23459ec86e2eea8cd7b1485389",
+          "text": "リフィル・セイジ　２３歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0c7c",
+          "sha256": "e1754779c3cbaf59ef34004788990e89a630f41cd5f87bfa107e4905d709228b",
+          "text": "ロイドたちの先生で、ジーニアスの姉"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0c5c",
+          "sha256": "310b04121e1f1cb4875e16a931991bf5ef7b3cc06f9b5d4fb337c81b2c19a694",
+          "text": "遺跡を前にすると、性格が豹変"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "portrait_unlock_id": 36,
+      "korean_name": "시이나",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0c54",
+          "sha256": "e2f3cdcc442b1159897976733ce6ca9bf3b3d0e44c9bd98d7d92779b5bfa3a83",
+          "text": "{BYTE:12}ｼｲﾅ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0c38",
+          "sha256": "ba5d3c6dc3d4ff2a4426e43f52442e3732db4caabf72409c6e142bd28ed1724b",
+          "text": "ふじばやし・しいな　１９歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0c14",
+          "sha256": "7d9c781385f7319a6d04afc8025014f58eec613887631c099966df3f4f6519cf",
+          "text": "コレット暗殺のために放たれた刺客"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0bf4",
+          "sha256": "d054978ed39fe091881ddf7a54fe89c1cee87ddbaba2cd1ffc68e56807c9d6c3",
+          "text": "精霊と契約し、使役する符術士"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "portrait_unlock_id": 37,
+      "korean_name": "젤로스",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0bec",
+          "sha256": "a5c4d16608aea23f2dfbb604eb8a91c455fd61a3e442e9b2854cc2a872ca4e21",
+          "text": "ｾﾞﾛｽ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0bd0",
+          "sha256": "3bfb3c5863742425941e62b4f83fc84b1b89334240622399b39aa0301677630e",
+          "text": "ゼロス・ワイルダー　２２歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0bb8",
+          "sha256": "ea9e1bab9420978320dc6460aed7eaefbc0d2c42042440e9c358ee3a08ecb591",
+          "text": "コレットと対をなす神子"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0b94",
+          "sha256": "3c9eb78b940115e81c2be4c849c764f490e8ca7b24b87be3f3fb67e9c23b55cb",
+          "text": "表向きは女好きで、お調子者だが…"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "portrait_unlock_id": 38,
+      "korean_name": "프레세아",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0b8c",
+          "sha256": "613e1cdeb7a97cefa695f6bfbd8049018a065802ab394b9f4995f722d391ac5e",
+          "text": "ﾌﾟﾚｾｱ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0b70",
+          "sha256": "470792bbe142c19a3e26408bf9e91f36bbb822c0d90ccb6d98ed8076ccb13f9d",
+          "text": "プレセア・コンバティール"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0b4c",
+          "sha256": "edba7c47b0831c19e2c452f1c23b86abc5dfb48cf32380e73a78b4fb86da946f",
+          "text": "妹を殺めた人物を追う、悲しき復讐者"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0b24",
+          "sha256": "fb018fd741dd1b719dbafd0434ec8be640d6ab2c5fcb957b1828908409417611",
+          "text": "エクスフィア人体実験の犠牲者でもある"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "portrait_unlock_id": 39,
+      "korean_name": "리갈",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0b1c",
+          "sha256": "8d36c389d1a7452881e4b8054dfe5dc6006bbd86a954b2de3535cfcfebe30359",
+          "text": "ﾘｰｶﾞﾙ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0afc",
+          "sha256": "28ce58ecdc3192b6bd555dd6912d9895e00ec50efb051ed218a1d47ef79b4a05",
+          "text": "リーガル・ブライアン　３３歳"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0ae4",
+          "sha256": "c9e16704278c4a64450cee0e1107d4eb76b38faec418575b470307b77ec80806",
+          "text": "足技を主体とする格闘家"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0abc",
+          "sha256": "f019ce3659c31a78c14e1917ccbefd92266c83e762c3dc155988b476ec7dabac",
+          "text": "その手かせは恋人の命を奪った罪の証し"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "portrait_unlock_id": 40,
+      "korean_name": "크라토스",
+      "japanese_fields": [
+        {
+          "slot": 0,
+          "pointer": "0x81c0ab4",
+          "sha256": "4809c1ecd1b024b14335e8532977c4ed37e4aa8db74f34012b1bb0d72314b937",
+          "text": "ｸﾗﾄｽ"
+        },
+        {
+          "slot": 1,
+          "pointer": "0x81c0a9c",
+          "sha256": "be6829f67c91e076a139c35a7d1e1b1ad8070b4166122425e37b3943b9b788fa",
+          "text": "クラトス・アウリオン"
+        },
+        {
+          "slot": 2,
+          "pointer": "0x81c0a78",
+          "sha256": "946f2acb67e13811ff65a5483bf9b2fa97da63d62ad8f18e04e7700367fd3a30",
+          "text": "コレットの旅に同行する雇われ剣士"
+        },
+        {
+          "slot": 3,
+          "pointer": "0x81c0a58",
+          "sha256": "5ce7050bf4f5924d18f1cf85ee95a22ffe026e09331a6147e4f93385d0272d51",
+          "text": "性格は冷静沈着、剣の腕は超一流"
+        },
+        {
+          "slot": 4,
+          "pointer": "0x81c0d70",
+          "sha256": "c5cef4349d565f3ff8cb3c9c486f4aa96b880a98c67dc3e8ed0cedc855676e89",
+          "text": "　　　（テイルズオブシンフォニア）"
+        }
+      ]
+    }
+  ]
+}

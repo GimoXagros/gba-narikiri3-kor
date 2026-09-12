@@ -191,6 +191,42 @@
       "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
       "evidence_sha256": "5ba53e6f0b396c7426328ee652dfc7a86676b60772bff631b239bd02120266bd",
       "evidence_path": "output/v1.1a-dev32-vba-timing/timing.json"
+    },
+    {
+      "rom_sha256": "e0157830af1f19b0ed20f4144b9286b25c4ec2042a8b9fc50e0c04a8a12f7941",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17721,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "0224fcd768a8e28c0af9ac0cc5a440aae37021a0697a74b22882b4ef123fac8f",
+      "evidence_path": "qa/results/biography-dev33/opening-mgba-identity.json"
+    },
+    {
+      "rom_sha256": "e0157830af1f19b0ed20f4144b9286b25c4ec2042a8b9fc50e0c04a8a12f7941",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17714,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "96b66119dcf8569245a5ec3ae052de005f97d0629b9685c6a2b518f30a36cfc0",
+      "evidence_path": "qa/results/biography-dev33/opening-vba-identity.json"
+    },
+    {
+      "rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17721,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "efc1ee1b04ceb03f473fcfacc325c5f6619f43e265403325cb76dddf2d3ed27b",
+      "evidence_path": "qa/results/biography-dev33/opening-final-mgba.json"
+    },
+    {
+      "rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17714,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "d957547bdabce2c673dfac569c9b614fcacf84f20e101acd3fa4c26e436b5275",
+      "evidence_path": "qa/results/biography-dev33/opening-final-vba.json"
     }
   ]
 }

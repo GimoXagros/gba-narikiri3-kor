@@ -6,9 +6,27 @@ ROOT=Path(__file__).resolve().parents[1]
 START=0xd0000
 END=0xe0000
 
-def install(legacy,extension):
+def validate_identities(japanese,catalog):
+    identities=json.loads((ROOT/'source/biography_identities.json').read_text(encoding='utf-8'))
+    base=0x1c06e0
+    if hashlib.sha256(japanese).hexdigest()!=identities['japanese_rom_sha256']:raise ValueError('Japanese identity source differs')
+    if hashlib.sha256(japanese[base:base+37*24]).hexdigest()!=identities['table_sha256']:raise ValueError('Japanese library table differs')
+    if len(identities['records'])!=37 or len(catalog['records'])!=37:raise ValueError('Incomplete library population')
+    for i,(source,row) in enumerate(zip(identities['records'],catalog['records'])):
+        pointers=struct.unpack_from('<6I',japanese,base+i*24)
+        if source['index']!=i or row['index']!=i or pointers[5]!=source['portrait_unlock_id'] or row['character_id']!=pointers[5]:raise ValueError('Library identity/order differs')
+        if [f['slot'] for f in row['fields']]!=list(range(5)):raise ValueError('Unreviewed or duplicated library fields')
+        if row['fields'][0]['text']!=source['korean_name']:raise ValueError(f'Name/portrait identity mismatch at library {i+1}')
+        for field in source['japanese_fields']:
+            slot=field['slot'];ptr=pointers[slot]-0x08000000
+            raw=japanese[ptr:japanese.index(0,ptr)+1]
+            if int(field['pointer'],0)!=pointers[slot] or hashlib.sha256(raw).hexdigest()!=field['sha256']:raise ValueError('Japanese biography source text differs')
+    return identities
+
+def install(legacy,extension,japanese):
     profile=json.loads((ROOT/'source/biography_profile.json').read_text(encoding='utf-8'))
     catalog=json.loads((ROOT/'translations/biographies.json').read_text(encoding='utf-8'))
+    validate_identities(japanese,catalog)
     if profile['count']!=37 or profile['stride']!=24 or catalog['policy']!='development_only_needs_review':raise ValueError('Library structure/policy differs')
     base=int(profile['table'],0)
     if hashlib.sha256(legacy[base:base+37*24]).hexdigest()!=profile['table_sha256']:raise ValueError('Library source table differs')

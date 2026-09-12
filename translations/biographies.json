@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "policy": "development_only_needs_review",
   "records": [
     {
@@ -10,7 +10,35 @@
           "slot": 0,
           "text": "크레스",
           "original_sha256": "84026063e8bfa33a074a135ea451d955949a17fff8fb05126ae6832ad1d99b81",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "크레스 알베인 17세",
+          "original_sha256": "3415893a4c8ddd253a8558d2189e9175196d01e9d62ba986883d4f22f2dcf6bd",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "동료들과 함께 세계를 구할 모험을 떠난다",
+          "original_sha256": "83aca267ab39356785edaaf6997304da954cf40543e704614cbf2650f967425a",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "검술에 능한 마음씨 착한 청년",
+          "original_sha256": "a0de5af9b04180269fc80e3a1962e5ca9eb1ef273944b501cb73034bc6422bd0",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 판타지아)",
+          "original_sha256": "0785e3125397bd8cc6fa376f9dbf0ecf406a7ef4782b24d69f2f8b2f15b8d58c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -23,7 +51,35 @@
           "slot": 0,
           "text": "체스터",
           "original_sha256": "bc8b0d0ca21824c9f71d6fc756f959aad06a2e7c4d876355933f68f0140e212c",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "체스터 버클라이트 17세",
+          "original_sha256": "084cdcd1e3c397898cef5f6f3ef32e8967b29a9a311d4c79cd0275dbb718c7f4",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "궁술에 능한 사냥꾼",
+          "original_sha256": "e20333327f09b94a525886c378e487c1b875de1d74b832622ea92c9c5a6adf95",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "크레스의 소꿉친구이자 둘도 없는 단짝",
+          "original_sha256": "8f0556411523006921f04c5d33f8972008e6fa7265165e24313de98d59501f3c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 판타지아)",
+          "original_sha256": "0785e3125397bd8cc6fa376f9dbf0ecf406a7ef4782b24d69f2f8b2f15b8d58c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -36,21 +92,35 @@
           "slot": 0,
           "text": "민트",
           "original_sha256": "2a915d81f4d59ee2dc2d4028240725b10c6b9325129f2832268a2288423a7f8e",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "민트 아드네이드 18세",
           "original_sha256": "24ab29bcf4e9a2c5309e5ab0da68d3f605f2886451fd72265ff7e54e2a569c22",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "사람들에게 평안을 주는 법술사",
+          "original_sha256": "cf824469f4cbf7cd9a08a25cebb01faf07dc4d380c104728e1a26c4f26bcd9d0",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
           "text": "크레스와의 사이도 몰래 깊어지는 중",
           "original_sha256": "0ceb48577510a17fa54ed33450976870c3662d4c2e1142b9be2463513a1fcf04",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 판타지아)",
+          "original_sha256": "0785e3125397bd8cc6fa376f9dbf0ecf406a7ef4782b24d69f2f8b2f15b8d58c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -63,21 +133,35 @@
           "slot": 0,
           "text": "클라스",
           "original_sha256": "92ac43bff43fd512bd6ad810727c204882bf64bdedae979a03d7ff49c0312a28",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "클라스 F． 레스터 29세",
           "original_sha256": "4091a0024579b16c72524084d3e4bf9e74bf4c8161e161d1842bd905d9591743",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair; explicit full-width European period because original ASCII period conversion selects Japanese full stop",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
           "text": "정령을 연구하는 고고한 소환사",
           "original_sha256": "4b581978f1d5799d568ca96f2ab1c9d6f05c1e9cdba09c11a86d5d63735a73c7",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "탐구심이 왕성해 가끔 엉뚱한 길로 새기도…",
+          "original_sha256": "f0ff6227e6d2ac20ca0b8a64182656f1e05bb37b9232cb393ad98c013f1782bd",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 판타지아)",
+          "original_sha256": "0785e3125397bd8cc6fa376f9dbf0ecf406a7ef4782b24d69f2f8b2f15b8d58c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -90,7 +174,35 @@
           "slot": 0,
           "text": "아체",
           "original_sha256": "efe1e2f6d39bb2f55e6d487c21f7aedcede8002c6fd63226723c3c35a3b43623",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "아체 클라인 17세",
+          "original_sha256": "54cc4855a0c10b269978a099e1c03a7658009bd380a6a8292ce0e599710e9fd4",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "마법에 능한 하프 엘프 소녀",
+          "original_sha256": "e0ab3b9803c6c47fdf3d2e33bac871d0fe45187b81679d791c181ecea5515353",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "크레스 일행의 말썽꾸러기",
+          "original_sha256": "f9c319e06a991e1ffd6fa03633e805a59a9435e3664013e32e5811d631f8d3ed",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 판타지아)",
+          "original_sha256": "0785e3125397bd8cc6fa376f9dbf0ecf406a7ef4782b24d69f2f8b2f15b8d58c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -103,7 +215,35 @@
           "slot": 0,
           "text": "스즈",
           "original_sha256": "fee75efb40713a47c69da74485ae3ba248036b4b3e3f7768f3c51c43d7c0f358",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "후지바야시 스즈 11세",
+          "original_sha256": "ee2021b320d05240f75af83a96aafe1e32c37bcd3ea231006e0afcf1d06094b4",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "냉혹한 닌자로 살아가는 과묵한 소녀",
+          "original_sha256": "370808a20457e9fa8505f384857cbd2619f7bd6cd9937c16caf1465579228f7e",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "다채로운 인술로 크레스 일행을 돕는다",
+          "original_sha256": "288212e2948794ff49320c2a1b90cfc5b242d5760217d9d6fea923125a97478f",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 판타지아)",
+          "original_sha256": "0785e3125397bd8cc6fa376f9dbf0ecf406a7ef4782b24d69f2f8b2f15b8d58c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -116,14 +256,35 @@
           "slot": 0,
           "text": "스탄",
           "original_sha256": "10e4d928f0ac32e10830acda3db16c619070f0cc29a18ae12c06252e07717f41",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "스탄 엘론 19세",
           "original_sha256": "f1bdd8f82d8a301ccb51634c1cab80db6f1394d0ff129ea0940be962182dcc3d",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "인격을 지닌 검 소디언의 사용자",
+          "original_sha256": "6d2742b82e85084dca68980fb5d4c8ae4134bf2ac47f27749254dcda47198830",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "정의감이 강하고 불의를 몹시 싫어한다",
+          "original_sha256": "18f06751a30f86e337c13ca9895df3cf100e8a334be2695cff89938aee4823eb",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -136,14 +297,35 @@
           "slot": 0,
           "text": "루티",
           "original_sha256": "5607d382c99b5249779d5d17183d70cabaee9544ad561fe2ec0ac6e476bc1aeb",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "루티 카틀릿 18세",
           "original_sha256": "8e28a21f9188d19b80e2839144c0b4eee778871e8746de37e0d604f5820c563f",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "돈에 눈이 먼 소디언 사용자",
+          "original_sha256": "09467e704c5e98a66ffb39553da4c929eabd66e3f487d544aa9a1bf1ded3599a",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "마리와 함께 렌즈 헌터를 자칭한다",
+          "original_sha256": "bac54ebb315f349012717ece9057ecf765254e43bd9910787c7da135e9a6a679",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -156,14 +338,35 @@
           "slot": 0,
           "text": "리온",
           "original_sha256": "607d1cb4af6db33e0636cc26675c2734e7074b15acb119da0bc794e5c2abaeef",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "리온 매그너스 16세",
           "original_sha256": "9577cdcd0f2b95101a4a5b50647b623ffb009c5f1ca6ff83dce24968c4f02fd8",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "소디언을 지닌 천재 검사",
+          "original_sha256": "5e50b8b3ed6060bbf2b6874d961622e229f7949e198d23af78fe9abf964c2e1f",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "냉철하지만 때로는 다정한 모습을 보인다…",
+          "original_sha256": "bafe3b9be2692990d74841a8a7049349e889a0759759cae7a1499e3a830c88e4",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -176,14 +379,35 @@
           "slot": 0,
           "text": "필리아",
           "original_sha256": "4e90d714c2f6c4a24785ceefc90fa26eedc9d6677930e9b43ba773d1fe4f035f",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "필리아 필리스 19세",
+          "original_sha256": "a4566a9833c755d64e5567a85aff2fe36f7e13575a8694084672e45cc3615be9",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
-          "text": "차분한 성격의 소디언 사용자",
+          "text": "느긋한 성격의 소디언 사용자",
           "original_sha256": "5d0504905b8d127944c9a876644aae4717ac73f7d20d9964a2fda7f5f1ae845e",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "사제이자 고대 문명의 연구자",
+          "original_sha256": "8dc2b195390b9be33a21c0aa749b6e85a604e2a6bb1538122bda7b3805be5303",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -196,14 +420,35 @@
           "slot": 0,
           "text": "우드로우",
           "original_sha256": "105e9a1e4cf6be6f089dd12330d010f6e51f9765ef9cc976319db4e2caca44cd",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "우드로우 켈빈 23세",
+          "original_sha256": "4d5503c4acb3e055f871fe4b5a86d1e3345beddfaa2e8776f9c4fe387f3a532a",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "폭넓은 식견을 지닌 젊은 국왕",
+          "original_sha256": "0c2ba694f0e841e6674014afe2eee5508785acf4d0f8b9a0798b7767aac68d2a",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
           "text": "활의 명수이자 소디언 사용자",
           "original_sha256": "683063c86ff3ff91da8fe9aaf68bd2d5f41135318707f0e943e177c31e1245c2",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -216,14 +461,35 @@
           "slot": 0,
           "text": "첼시",
           "original_sha256": "fea1cea770955e7c645f69e65cfc3fad98173da07b4eb7a370316d362df6e679",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "첼시 톤 14세",
+          "original_sha256": "389cdc6eda7aac64e5a9744d463d9517eb9de331c7f5123332ceb2dc6a4c8e81",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
-          "text": "전설적 궁수 알바의 손녀",
+          "text": "전설적인 궁수 알바의 손녀",
           "original_sha256": "0de470b27bf81e27a4b705a78f798fd2a67a4000344d7abf306e2ac25e9ba29a",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "우드로우를 연인처럼 사모한다",
+          "original_sha256": "96e1e0cd063f0ec6d878d586580a356828224a8836c228e05b4dcc04676249dd",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -236,21 +502,35 @@
           "slot": 0,
           "text": "마리",
           "original_sha256": "fda73c484911c091452e954f81c92838218947d149b2b41df438cff9f867c432",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "마리 에이젠트 24세",
           "original_sha256": "499e00a6a3fa5602d65db1d274324f02679491dc20991fdfd2c944a85726f9c2",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
-          "text": "잃어버린 기억에 시달리는 전사",
+          "text": "잃어버린 기억 때문에 괴로워하는 전사",
           "original_sha256": "e4b883b7b47bad74539cceb1994321d10d7d8e78cb96433d9f5bb8057ababf64",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "루티와 함께 렌즈 헌터를 자칭한다",
+          "original_sha256": "9847dfbc6dab2885945d206b91950727435a2cf501d1b88d9a25e3555a4ed7ab",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -263,7 +543,35 @@
           "slot": 0,
           "text": "콩맨",
           "original_sha256": "8a8aeb2c67fa50d0f2e8af02cbd5502706b18614da37885d06bbc21bb6f91b90",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "마이티 콩맨 39세",
+          "original_sha256": "b17cf6e195ae12a0baef911347fe1e88f20af1fa56d71fb5b95a2c329fd092bc",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "오직 자신의 주먹만 믿는 격투가",
+          "original_sha256": "2c14a00b971b67c303882a3222bba2ad8d0f56852c9e7dc520a0051a8bfe4e9e",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "그것이 바로 그의 인기 비결",
+          "original_sha256": "91276253b9bfab5c2112b2297178ab19ed4cce771e0cca005590fb46ec5a68cd",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -276,14 +584,35 @@
           "slot": 0,
           "text": "죠니",
           "original_sha256": "5e82a3ff6d217195eb289d3e9ee6ed4423b838e5e29f764eb6b2bbb50eac5ecc",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "죠니 시덴 26세",
           "original_sha256": "ee2dc1826b2060731e266ada45806c9b93de2f48c54f70416ed6a056f498241e",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "음유시인은 정체를 숨기기 위한 위장 신분",
+          "original_sha256": "7f9a0d4485a839305be398337a2232269c5fa21d7187d9114e484b0dd9f2ba6f",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "그가 정체를 숨기는 이유는…",
+          "original_sha256": "30cc23d32b07411196d7ab75129d7b4f62cf364e165ccc4d509816dab085237b",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니)",
+          "original_sha256": "71f7880fb044a36c10a37db3fa8c83ccbd2d039625305a7b58425f015b17555c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -296,28 +625,35 @@
           "slot": 0,
           "text": "리드",
           "original_sha256": "21aece9206b7ce55c023b556662a78c9f45cb2425ef703200c32125a5702a3ee",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "리드 허셸 18세",
           "original_sha256": "c085e17e295cb85925012e946058a9ad4d0a6129fd4deea177e4c2414ff8ace0",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "뛰어난 검술은 타고난 재능",
+          "original_sha256": "7a61d97ccecb564eff92fb9b4bc61f73adcff482c78502cddcf4c6097d945851",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
-          "text": "메르디와 세계를 구하러 떠난다",
+          "text": "메르디를 만나 세계를 구할 여행을 떠난다",
           "original_sha256": "eee4ea4dfe0f2e6c4590881aa3c60a8b5361cde166400330936222cd21a5f397",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 4,
           "text": "(테일즈 오브 이터니아)",
           "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -330,14 +666,35 @@
           "slot": 0,
           "text": "파라",
           "original_sha256": "3f132ec937d00cd9d1e907ef34b80c0c0d3c453d59634018227352d54439ba8c",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "파라 엘스테드 17세",
+          "original_sha256": "39ccadfc6dfab8c7c44d10dcb0d17a9cf4f2dcea7ea1a6821c732895db69bdb6",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "리드의 소꿉친구로 늘 함께한다",
+          "original_sha256": "2254e155d4960787cca7c976efdd44f860384b9327e0031e1fa9446ca8470721",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "곤경에 처한 사람을 못 지나치는 열혈 소녀",
+          "original_sha256": "5dac82dc3970195a639dfbaf8204af757a2b038d15b06bb54ce05faa5b1d6a5e",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 4,
           "text": "(테일즈 오브 이터니아)",
           "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -350,21 +707,35 @@
           "slot": 0,
           "text": "킬",
           "original_sha256": "cde325394ef4e720d9731b99e667470d554b3fb45a9274889fe1e29f586a430b",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "킬 차이벨 17세",
           "original_sha256": "5e53fb5c314bc9383eafc12b84607d93a6097f87008f5a3923fca5d6361b3ccb",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "명석한 두뇌로 정령술을 구사하는 학자",
+          "original_sha256": "5c756e514a16d5dae3d5150ca1994f209e63f689352920ac1f08ca2f1a170fd0",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "리드와 파라는 소꿉친구",
+          "original_sha256": "89d537637c1580ff07ddf63cbcccce3d1b287f5b6c42183392581260c41a9e67",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 4,
           "text": "(테일즈 오브 이터니아)",
           "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -377,21 +748,35 @@
           "slot": 0,
           "text": "메르디",
           "original_sha256": "91099a96a00196b98ba1209c0a74b80edd6602f76784e993f808c7326e2b3760",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "가혹한 운명을 짊어진 소녀 16세",
+          "original_sha256": "4deaf2436b6de7ff36c72b0617ac961e559d9334d8c741996a0e0f0cb88cf397",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
-          "text": "리드 일행과 세계를 구하러 떠난다",
+          "text": "리드 일행과 세계를 구할 여행을 떠난다",
           "original_sha256": "ba716049fedce75369f34f5df25e0484e677e3b4ac9fda5eeeacb806730c43a5",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "반려동물 퀵키와는 둘도 없는 단짝",
+          "original_sha256": "63e7782c3bb475a597dd69274b5c5175e5161cd06c620401a241520e1a169e26",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 4,
           "text": "(테일즈 오브 이터니아)",
           "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -404,14 +789,35 @@
           "slot": 0,
           "text": "포그",
           "original_sha256": "648c4f223d94bbffa9d86a3081b1db34462962994126231e8d78341b0773c68f",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "폭정에 맞선 저항군의 거한 대장 38세",
+          "original_sha256": "3598a96158ff3ff4c7f6616fefe6cba6891365f59e2a3906abecad462dd1ec3c",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "서툴지만 본성은 다정하다",
+          "original_sha256": "72e204b5c7426a43733231a919ea3c6efcb762074a1fc9d96dea5ad8066584e4",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "체력과 맷집은 끝이 없다",
+          "original_sha256": "7fdc5821de13ede9dd5b66f9d0f1fcaf399edf3763bc4b06a64be0f7ca11c9a5",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 4,
           "text": "(테일즈 오브 이터니아)",
           "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -424,14 +830,35 @@
           "slot": 0,
           "text": "채트",
           "original_sha256": "a38015348581ce8e76c19fbfb951588f2c52a311ed6122e9b453eecec43e8afa",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "대해적 아이프리드의 후손 12세",
+          "original_sha256": "0e0b775025fb8c51cfb29938119bbf02467903db440faba5c728b0e0805f2b52",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "기계에 밝고 다양한 메카를 조종한다",
+          "original_sha256": "b93d8620e9a5f401448a54544023f6f639814912ae40c6612beefd959e071fcf",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "퀵키처럼 털이 많은 동물은 질색이다",
+          "original_sha256": "10c7ed2566b52a870032839d56dd9828db9eaf5b0aafce6d4b80d9073f794865",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 4,
           "text": "(테일즈 오브 이터니아)",
           "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -444,14 +871,35 @@
           "slot": 0,
           "text": "레이스",
           "original_sha256": "ad69632d63ae716c69bbad44e202fae1acb01d392f92c56a4f6235908d3857dc",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "레이시스 포멀하우트 25세",
+          "original_sha256": "a7129ee00947c524f183c9dc33f0e18311d9b7c4839513077ea05df3ee8265a0",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "행상인으로 각지를 여행하는 의문의 인물",
+          "original_sha256": "c708b3c04b778a1c24c84e67901c3a9a99f8a7a9ab9a6a84d38421acb91082d4",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "한때 기사였던 듯하며 검술은 일류",
+          "original_sha256": "4d7c6c24c3a0d9d229c0aa31e874bf00afab207cd09719bf2024e077a3834115",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 4,
           "text": "(테일즈 오브 이터니아)",
           "original_sha256": "d97ec574960dd83dc031574afb0d4a9bbc94bc82a4b8471c33d7b56801fcdd38",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -462,16 +910,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "나나리",
+          "text": "카일",
           "original_sha256": "10d824170d1e6cea845e296ab3e54bf3f3cf15e4fcc76c283508d1b849017bf6",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "카일 듀나미스 15세",
+          "original_sha256": "c86090da271461d465a8591cbe7a86fce9e9d9e18292052879845c145521f656",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
           "text": "스탄과 루티의 친아들",
           "original_sha256": "e45fb33b93929c64f196c504b2ea916b661f4cac1fe80e17b533f91fa48fb094",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "리아라를 만나 영웅의 길을 걷는다",
+          "original_sha256": "ad3c3d4761c8278980795f333799c90f7f117b4e394ae55ca67eab7df0f0e7d1",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니 2)",
+          "original_sha256": "cf52e16b76768a7ce50fa56c991649133747853c66b6ac2dc96b36abe78911ed",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -482,9 +951,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "해롤드",
+          "text": "로니",
           "original_sha256": "55266d3eb5eca2d389de14c771d9d8c97ed60ec54e6a22bae3972b6538f1fd76",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "로니 듀나미스 23세",
+          "original_sha256": "0171cc4ac2c53107b03fa9b0d1a1c01e5f301266240a4ef289fc3453ecf04304",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "루티가 운영하는 고아원 출신",
+          "original_sha256": "e682aaa879b53465c572b136d7b1124cec40f388bc74f060a11b6e0940c00150",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "카일의 소꿉친구이자 형 같은 존재",
+          "original_sha256": "f6a6844f61c3ed3886638626e8ce841d90e16e6d854c1c80378bf7cc1ef05a87",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니 2)",
+          "original_sha256": "cf52e16b76768a7ce50fa56c991649133747853c66b6ac2dc96b36abe78911ed",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -495,9 +992,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "로이드",
+          "text": "리아라",
           "original_sha256": "5e7c4414e37a6285fb9cc0d311e470805e3b1108775a66cc5bcc32fb2c0fbbd4",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "진정한 영웅을 찾아다니는 의문의 소녀",
+          "original_sha256": "1a2da8ce3b9ba1145fb6fd303aaef2645a0b71648dcd7c12daa5da52063519a8",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "그녀와 카일의 운명적인 만남이",
+          "original_sha256": "d2de0a4a350925d35de78f3687f3be9fc56ac9913f776acaf17a507788e0a392",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "세계를 휩쓸 대란의 서막이 된다",
+          "original_sha256": "99e26cef582bafca2e6a96049cf614c2d1b2a8c3315aeb88ec235e0ade060e0b",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니 2)",
+          "original_sha256": "cf52e16b76768a7ce50fa56c991649133747853c66b6ac2dc96b36abe78911ed",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -508,23 +1033,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "지니어스",
+          "text": "쥬다스",
           "original_sha256": "3660b89fe177a50fdc5a79a1bdb80b94e9bb77b9b1cd70b5e35d3ce0d1336e7f",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "배신자의 이름을 지닌 가면의 검사",
           "original_sha256": "83a16e943686658747bd50347a379e94a628c60dfa88057fcc30bdf4c41a5b96",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
           "text": "소디언 샬티에를 지녔다",
           "original_sha256": "6ad1de3ae4d4c577f5dca8e40ef3cb2a6f641f4c206dfb027d1645f686ba0d81",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "그 눈은 전우의 아들을 늘 지켜본다",
+          "original_sha256": "801709c5e2014baafdebc1a5a24e9c5630e14d897be369b5f30870ccceaafdd2",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니 2)",
+          "original_sha256": "cf52e16b76768a7ce50fa56c991649133747853c66b6ac2dc96b36abe78911ed",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -535,23 +1074,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "콜레트",
+          "text": "나나리",
           "original_sha256": "0eb8434eb7c813d35616fd249367f7b508d0b5ba38dd3c56c9d260fbefcd22de",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "나나리 프레치 19세",
+          "original_sha256": "967019aeb3e6914f79691b35c6a956e88f323c53b4c97f7e8cf0530983776ac6",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
           "text": "남을 잘 돌보는 누님 같은 성격",
           "original_sha256": "812affdb15d1b1170eb804f875b71a83d55fe6077aa172fd0948de25b4433393",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
-          "text": "활을 쓰지만 관절기도 능숙하다",
+          "text": "활을 쓰지만 어째서인지 관절기도 능숙하다",
           "original_sha256": "7d0c7ff7c87dc0c35c3259f92eb151d9d94733ab7ed005630b5544cf8a8a1a12",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니 2)",
+          "original_sha256": "cf52e16b76768a7ce50fa56c991649133747853c66b6ac2dc96b36abe78911ed",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -562,16 +1115,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "리필",
+          "text": "해롤드",
           "original_sha256": "b18c8cbed4604b3ba98ac70ff6ab347a442fee66e9148964b776712bbbac2c55",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "해롤드 베르셀리우스 23세",
           "original_sha256": "4a78c6d0a3ee5af3138b1906d88ac3cfaa888b5cac70eafd49b2980a1ee31e3a",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "자타가 인정하는 천재 과학자",
+          "original_sha256": "c7d1d0f4d21a3c2b804dbdf057f19aafaae1fce70ccae93b9166ab36aa2b7ac2",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "그녀의 사전에는 불가능이란 없다",
+          "original_sha256": "a6b7c8128094332465f0ce5fb3bd70984f6f70574e8de809531e3898565cf01e",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 데스티니 2)",
+          "original_sha256": "cf52e16b76768a7ce50fa56c991649133747853c66b6ac2dc96b36abe78911ed",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -582,16 +1156,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "시이나",
+          "text": "로이드",
           "original_sha256": "1a1139167bf740fb8fffb7af12e246eaf290b0369ecf1b5895eeddfcb6eb3119",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "로이드 어빙 17세",
+          "original_sha256": "41efc50bed8c0f8e389abd409da1a8dfe1d7e07c3aff77fce81adeff060d53be",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "드워프에게 길러진 이도류 검사",
+          "original_sha256": "be83590b99c28e59200e7cdf3bb5f19937e7134987ee893b60255eb592129285",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
           "text": "콜레트 일행과 세계 재생의 여행을 떠난다",
           "original_sha256": "2e028ac5f0769360377392f068c20fe3d4ecf887eb17e660cd72e066d63aff22",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -602,23 +1197,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "젤로스",
+          "text": "지니어스",
           "original_sha256": "c929871d3fc806697a2c2a027d09821daac0a119f09bf4c7668c2a0a552184f7",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "지니어스 세이지 12세",
+          "original_sha256": "42b8e3d4c12d2ca1bd3077541df008e12ad139791ab160e21efb09b04bc77cad",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
           "text": "자신을 이해해 주는 로이드를 따르는 마법사",
           "original_sha256": "05e114178fecbb80a8f661bb158fe701005737760597a9cbdf1129e9652758e1",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
           "text": "콜레트 일행과 세계 재생의 여행을 떠난다",
           "original_sha256": "2e028ac5f0769360377392f068c20fe3d4ecf887eb17e660cd72e066d63aff22",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -629,23 +1238,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "프레세아",
+          "text": "콜레트",
           "original_sha256": "33303a832dca4690fd065c4edc8b8893eeb063153b25f8850de6c9d9c492d8dd",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "콜레트 브루넬 16세",
           "original_sha256": "018950c712c4d4331f01232d8e938541a33840d30065686c29cb1566f3b9f993",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "로이드와 지니어스의 소꿉친구",
+          "original_sha256": "71438944d938e1a36bd998c09d9e47d00548b8d5e1f6b2050c67781859d828e4",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
           "text": "신자로서 세계 재생의 여행을 떠난다",
           "original_sha256": "1ccff7cf8f3da524bacb4b177523f57dffc68d194a318c00f66608a46af3b2ea",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -656,16 +1279,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "리갈",
+          "text": "리필",
           "original_sha256": "89c5d2e3b5ba841c020b80e2d705df74f2cfdaf8c4c9c2093ad9ebdd9a81e353",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "리필 세이지 23세",
+          "original_sha256": "0da39afbe5b593510b44df9413b60e37ed5a347259353a159edc24d414f70cff",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
           "text": "로이드 일행의 선생님이자 지니어스의 누나",
           "original_sha256": "d8a38ab21e541f6b42ff844a43e47019a1e426a715881a4b43a39503179961fb",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "유적을 마주하면 성격이 돌변한다",
+          "original_sha256": "560c097a9ce6d8c7ff4c07671329ac17cdf2d003473124408697097d584e5aae",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -676,16 +1320,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "크라토스",
+          "text": "시이나",
           "original_sha256": "e2f3cdcc442b1159897976733ce6ca9bf3b3d0e44c9bd98d7d92779b5bfa3a83",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "후지바야시 시이나 19세",
+          "original_sha256": "a2783e4b176b3372aad61509e76b01bb152a9efbf7dfe39d78a8e62df8a58525",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
-          "text": "콜레트 암살을 위해 보내진 자객",
+          "text": "콜레트를 암살하기 위해 보내진 자객",
           "original_sha256": "3ed52fb6e5b0a09c4cd862cf8ba6ddb5a8993c80d8e56b9e4e0c5d94cdccbac1",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "정령과 계약하여 부리는 부적술사",
+          "original_sha256": "cd4d91c116c0d3f84e38196d4004f8d57dc050568468c1afb0918504310ae5ef",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -696,30 +1361,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "다오스",
+          "text": "젤로스",
           "original_sha256": "a5c4d16608aea23f2dfbb604eb8a91c455fd61a3e442e9b2854cc2a872ca4e21",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "젤로스 와일더 22세",
           "original_sha256": "187a4b9be927a09cdc41cc2bc7a1c810c6880bb819f74c5ff00fb4a31c354fae",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
           "text": "콜레트와 짝을 이루는 신자",
           "original_sha256": "738791927c467dc11b2090e6c8f461c1a8ddfec1c0bc1bd57eced6d8a1d0817b",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
           "text": "겉으로는 여자를 좋아하는 익살꾼이지만…",
           "original_sha256": "4ea954374f837dc07ae4ffba9077a39998540186bdf5fe9441de458042f43707",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -730,16 +1402,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "리리스",
+          "text": "프레세아",
           "original_sha256": "613e1cdeb7a97cefa695f6bfbd8049018a065802ab394b9f4995f722d391ac5e",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 1,
           "text": "프레세아 콤바틸",
           "original_sha256": "5758567b6fbfd543143100ab9f4ce5f8eb44516b6ccef50e4e9949151a892b22",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "동생을 죽인 자를 쫓는 슬픈 복수자",
+          "original_sha256": "cd998f10d0c6de7be545ffdf5eeb924ee8fd2285112984e9589a2ad3dd56394e",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "엑스피어 인체 실험의 희생자이기도 하다",
+          "original_sha256": "9745eeffa8ccd55d97250e966666de5a6e1b508bee9f6ef92bf01508974c8201",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -750,9 +1443,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "셀시우스",
+          "text": "리갈",
           "original_sha256": "8d36c389d1a7452881e4b8054dfe5dc6006bbd86a954b2de3535cfcfebe30359",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "리갈 브라이언 33세",
+          "original_sha256": "bdfcd16f76d490d7f2f12bdabda211b55c64de633f6c566d9ddebba2fefeadaa",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 2,
+          "text": "발기술을 주로 쓰는 격투가",
+          "original_sha256": "79a45fb753d4476a602411a91b9c471679af2087b806a3a523b0f9a30cc0f27b",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "그 수갑은 연인의 목숨을 빼앗은 죄의 증표",
+          "original_sha256": "44a118a6518848c5ab87ff36d897b4eb55373253231d0f99d505bcf972f86852",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]
@@ -763,16 +1484,37 @@
       "fields": [
         {
           "slot": 0,
-          "text": "미랄드",
+          "text": "크라토스",
           "original_sha256": "4809c1ecd1b024b14335e8532977c4ed37e4aa8db74f34012b1bb0d72314b937",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 1,
+          "text": "크라토스 아우리온",
+          "original_sha256": "6501d328e5beec80737915c0a74cc13279feaa1a4d7421db85755b01564684f7",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 2,
-          "text": "콜레트의 여행에 고용된 검사",
+          "text": "콜레트의 여행에 동행하는 고용된 검사",
           "original_sha256": "274f38b2ea11c10186d91c404ff8fe073025a6f3f3f3fbd2fff87693624a0b45",
-          "basis": "User-approved character names; individually compared with Japanese library source for semantic repair",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 3,
+          "text": "냉정하고 침착하며 검술은 초일류",
+          "original_sha256": "6b18978054d64cafcbcb402390dad0ca6cbdcf151572e2890eb6c504379a3234",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "review": "source_reviewed_runtime_pending"
+        },
+        {
+          "slot": 4,
+          "text": "(테일즈 오브 심포니아)",
+          "original_sha256": "74cb91ed241cc8fb0d7da4ab66e4ad526b30fc33592998cf67471af1fc5c8649",
+          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         }
       ]

@@ -1,0 +1,79 @@
+{
+  "status": "SOURCE_AND_ALL_LIBRARY_CAPTURES_REVIEWED",
+  "rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+  "fields_reviewed_against_japanese": 185,
+  "remaining_kana_fields": 0,
+  "incorrect_names_fixed": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "direct_review": "All seven mGBA contact sheets read. Final Fogg fields 1/2 read after last semantic correction; all other final captures identical to already reviewed captures (final-capture-differences.json). VBA 19..24 sheet and final menu exit viewed; complete 148 text areas match mGBA in RGB555. Japanese 19..24 sheet read; all 37 distinct portraits match. Xagros below original credit observed; final boot unchanged from reviewed version.",
+  "scope": "Synthetic unlocked save with ordinary buttons, no live writes; natural unlock progression and whole-game semantic completion remain pending.",
+  "evidence": [
+    {
+      "file": "23-field-1.png",
+      "sha256": "6067db00fda3b84b0bc344438ff51dba59af5ebea0dee092b6897c29d12a8dc2"
+    },
+    {
+      "file": "37-field-4.png",
+      "sha256": "73d25dd669b5cf196e972678ba57586d66da68711a6de8e33aead14f2f12c2ca"
+    },
+    {
+      "file": "boot.png",
+      "sha256": "07ae1e896738fb7569b7ca4d2f9d85f324c1362d620e361eb931140ca60795d3"
+    },
+    {
+      "file": "exit-info-menu.png",
+      "sha256": "53563e5322c3909ee099c77882abebf5ec92df75e283e9a4f8be897792c33a99"
+    },
+    {
+      "file": "mgba-review-sheet.png",
+      "sha256": "75eee2c4bdcbbcc910917564ee51d5236b8271b17445ac8c319881842b5ed0fc"
+    },
+    {
+      "file": "sheet-01-06.png",
+      "sha256": "6fd9ddff3d5dccc743ca0d6b8947020d340c3471be1e3871e88421df57766601"
+    },
+    {
+      "file": "sheet-07-12.png",
+      "sha256": "34bb4c0009702da402a1b6330ec9d6cdcb5821cf4ed9b3cca803b301467cd569"
+    },
+    {
+      "file": "sheet-13-18.png",
+      "sha256": "3cd7849e6b963894b2d098a8427d9f8df24aa178b25afa70ed7bb2261215009f"
+    },
+    {
+      "file": "sheet-19-24.png",
+      "sha256": "bfb9d1eb14e68c2d9f203156ba3d5ea2ea31309a46dab12a84bec53eca9ea927"
+    },
+    {
+      "file": "sheet-25-30.png",
+      "sha256": "9b3847b682e242b60f1496c27640eaa2e0fbd66d9533fe2ba05b226bae8fa9e5"
+    },
+    {
+      "file": "sheet-31-36.png",
+      "sha256": "983f264876934d917868e30e28f6798f8e1ed7d7a1fa126ce7e1cead193a7c46"
+    },
+    {
+      "file": "sheet-37-37.png",
+      "sha256": "2126bddf6d897d1d84a4e23eb67baecc4387992270fc3053936a5e1b3f6e31df"
+    },
+    {
+      "file": "vba-review-sheet.png",
+      "sha256": "20fb402648d6c3fd13aec17884add72923b4a6bc1352a499a45bee2dd65c345c"
+    }
+  ]
+}

@@ -9,10 +9,17 @@ from large_pixel_reference import color_lut,expected_buffer
 ROOT=Path(__file__).resolve().parents[1]
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--rom',type=Path,required=True);p.add_argument('--legacy',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--rom',type=Path,required=True);p.add_argument('--legacy',type=Path,required=True);p.add_argument('--j',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
     rom=a.rom.read_bytes();old=a.legacy.read_bytes();base=0x1c06e0
     profile=json.loads((ROOT/'source/biography_profile.json').read_text(encoding='utf-8'))
     catalog=json.loads((ROOT/'translations/biographies.json').read_text(encoding='utf-8'))
+    from biography_text import validate_identities
+    identities=validate_identities(a.j.read_bytes(),catalog)
+    import copy
+    corrupt=copy.deepcopy(catalog);corrupt['records'][22]['fields'][0]['text']='나나리'
+    try:validate_identities(a.j.read_bytes(),corrupt)
+    except ValueError:pass
+    else:raise ValueError('Wrong identity was not rejected')
     for g in profile['guards']:
         off=int(g['offset'],0);raw=bytes.fromhex(g['hex'])
         if rom[off:off+len(raw)]!=raw:raise ValueError('Library code/controls changed')

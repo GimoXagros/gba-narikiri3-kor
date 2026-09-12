@@ -1,0 +1,2586 @@
+{
+  "status": "CAPTURED_REVIEW_PENDING",
+  "core": "mGBA",
+  "core_version": "0.11-219-e31759b",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+  "input_save_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1",
+  "frame": 47373,
+  "ram_interventions": 0,
+  "pixel_format": 2,
+  "save_size": 8192,
+  "memory_maps": [
+    {
+      "flags": 4,
+      "offset": 0,
+      "start": 50331648,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 32768
+    },
+    {
+      "flags": 4,
+      "offset": 0,
+      "start": 33554432,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 262144
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 234881024,
+      "select": 0,
+      "disconnect": 0,
+      "len": 131072
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 134217728,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 167772160,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 201326592,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 0,
+      "select": 0,
+      "disconnect": 0,
+      "len": 16384
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 100663296,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 98304
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 83886080,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 117440512,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 67108864,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    }
+  ],
+  "options": {
+    "mgba_gb_model": "Autodetect",
+    "mgba_use_bios": "ON",
+    "mgba_skip_bios": "OFF",
+    "mgba_gb_colors": "Grayscale",
+    "mgba_gb_colors_preset": "0",
+    "mgba_sgb_borders": "ON",
+    "mgba_color_correction": "OFF",
+    "mgba_interframe_blending": "OFF",
+    "mgba_audio_low_pass_filter": "disabled",
+    "mgba_audio_low_pass_range": "60",
+    "mgba_allow_opposing_directions": "no",
+    "mgba_solar_sensor_level": "0",
+    "mgba_force_gbp": "OFF",
+    "mgba_idle_optimization": "Remove Known",
+    "mgba_frameskip": "disabled",
+    "mgba_frameskip_threshold": "33",
+    "mgba_frameskip_interval": "0"
+  },
+  "option_overrides": {
+    "mgba_use_bios": "OFF",
+    "mgba_skip_bios": "ON",
+    "mgba_frameskip": "disabled",
+    "mgba_frameskip_interval": "0"
+  },
+  "boot": {
+    "ok": true,
+    "frame": 300,
+    "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\boot.png",
+    "size": [
+      240,
+      160
+    ],
+    "sha256": "07ae1e896738fb7569b7ca4d2f9d85f324c1362d620e361eb931140ca60795d3"
+  },
+  "records": [
+    {
+      "index": 0,
+      "selection": {
+        "ok": true,
+        "frame": 2085,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\01-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "949e643887ef4e3f4af370807dc2d523b334934c25cadf4cb9dba54ee33c546d"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 2329,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\01-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "5a165a3dd2359ff447f5bcd6424f2de4b41ada61d47680d851bc318cad194da5"
+        },
+        {
+          "ok": true,
+          "frame": 2573,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\01-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "5b1150f75d373b6cbb4e9da9191d9a28472f5e75517b5f0893a5b13d8af53280"
+        },
+        {
+          "ok": true,
+          "frame": 2817,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\01-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "46aa931fcb8f00959eea08c53ad9b3d80408d088c47547754d3fdf2f1f58d807"
+        },
+        {
+          "ok": true,
+          "frame": 3061,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\01-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "f7ba6368992c9bb960cbd016b66a078d479347df9c5b16cb4e030f537f80b14a"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 3185,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\01-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "41a9fb8008ead2f33065b07d2a56aba534cdc8fe4a0f2a57b0db5ffbdaf2c91d"
+      }
+    },
+    {
+      "index": 1,
+      "selection": {
+        "ok": true,
+        "frame": 3309,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\02-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "8a0b545183629cd528fc64e61f480258dd0a4dd3791fb3ff294b01d095c872ed"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 3553,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\02-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "46bc9d7aaf470a191f6b227b607814f83d95d1d52c18cf986a74b3904b41da1b"
+        },
+        {
+          "ok": true,
+          "frame": 3797,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\02-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "fd01afa3e29d6355957ff3548edfc06712c129be1a6d2d2bef9e4b689c47d0ad"
+        },
+        {
+          "ok": true,
+          "frame": 4041,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\02-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "271f0240403472294426e7bd79a03518764ab9feb01326ea29b4992afb739198"
+        },
+        {
+          "ok": true,
+          "frame": 4285,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\02-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "1269ba1a0854da59abad225cb792724e77eca3d5e356d6931e70e5fa9d6543f8"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 4409,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\02-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "fa8c726706b4d1db5b747ceb8b35907736c6965d3bcd0e97f42c72067f15b8b2"
+      }
+    },
+    {
+      "index": 2,
+      "selection": {
+        "ok": true,
+        "frame": 4533,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\03-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "33dbaa53959b572059a7b58c3f128a0a7b196acd99de8697bded75293def3751"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 4777,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\03-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "13a702d464bb0c28470a9466d69adb9f7d4fa02b30858def4f8f56da4f6df96c"
+        },
+        {
+          "ok": true,
+          "frame": 5021,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\03-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "504b57b2a1855cb9e727f16b7ebabc830ace00e08a5d37a5fd6b6561d8eaaca3"
+        },
+        {
+          "ok": true,
+          "frame": 5265,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\03-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "cf5ce2eaf51bec6463a18afcd611612b19bd5ce92ed9b21215b1915966a2c322"
+        },
+        {
+          "ok": true,
+          "frame": 5509,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\03-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ca360b7c1567ad3bde5e61c83943425aef0ce5b87c52fc42655e2278cfc201f4"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 5633,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\03-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "514213805d90336d6c537145eb0c91109219c8081cf6ff78bf77e45edff85c73"
+      }
+    },
+    {
+      "index": 3,
+      "selection": {
+        "ok": true,
+        "frame": 5757,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\04-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "0cfc59f6db6546c6ecea21d8d70f017281b095ca449bece9b6106b70904dafac"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 6001,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\04-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "68e6d7f0b0a9bab0edf34670fccb9200c193443741a4efdc1e7e038456415e49"
+        },
+        {
+          "ok": true,
+          "frame": 6245,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\04-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "4a8176f6d106871fed009e4f967dfad2d5388f7fe955802df1c1166dfaf97531"
+        },
+        {
+          "ok": true,
+          "frame": 6489,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\04-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "7832fdb72b51fd7230e40e6d58a3659f3be0c6f9bcc203c2f32513d5c79d55a7"
+        },
+        {
+          "ok": true,
+          "frame": 6733,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\04-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a246090dfd1c3ebb05f5ec60299238c61c54ecbab97127676e007cb4e2cbb638"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 6857,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\04-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "bec91de7722ab562702bfdd53756d71ad50e1b762deccd475e7cbc8b7573527a"
+      }
+    },
+    {
+      "index": 4,
+      "selection": {
+        "ok": true,
+        "frame": 6981,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\05-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "1085928f7ee75e4baaafb201cf2861d0beb5679622a7b5c58d5d2f1bb112b049"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 7225,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\05-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "714a75d51457a52ccc011aab639bcc402b65f0fc66dd9fb8d5c09655e6ff2092"
+        },
+        {
+          "ok": true,
+          "frame": 7469,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\05-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "3e985278ccfc04c7b9f477c5ecc1aeb3a57889081dcebca529a85b5d599c1eb2"
+        },
+        {
+          "ok": true,
+          "frame": 7713,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\05-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ec08e44baf87ca7219fc6b68c662bce5123e5950d143afad55d720c3d787de85"
+        },
+        {
+          "ok": true,
+          "frame": 7957,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\05-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "e3d265b92cd18c1312e95d19b63966016eebce88710165b9bf54b21baba5e763"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 8081,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\05-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "ec8ed30768edb3126351bc7dd063798e14e5177d8c1b9f943b947eada59ebc91"
+      }
+    },
+    {
+      "index": 5,
+      "selection": {
+        "ok": true,
+        "frame": 8205,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\06-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "d822ae2fed587308f3c75bd9e850f2e895dd681bf7abd04e6b32ba5e56e39f7c"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 8449,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\06-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "0d074b30f634a9f45125b1063741865a5379bcbd22887cec92363ce097744448"
+        },
+        {
+          "ok": true,
+          "frame": 8693,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\06-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "22d26ab16a88462fbe7ae167ecd0ab3a2e65852896f97294f90c8a4ce99537e3"
+        },
+        {
+          "ok": true,
+          "frame": 8937,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\06-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ae3256de61b2148e7a4f56112b6ee99b41d0e564d9e1327a04be67a615a55c48"
+        },
+        {
+          "ok": true,
+          "frame": 9181,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\06-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "f6222f53df24644b8ce2ec7a3abc708ffc49d82d003bac5d02ba4323127f07d7"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 9305,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\06-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "20bcc65e6bcf672b7b66714af5d3a90d06b1f9f7608b7775ba3e121d83206670"
+      }
+    },
+    {
+      "index": 6,
+      "selection": {
+        "ok": true,
+        "frame": 9429,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\07-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "3087c13ed78ffa2d7df9f2b027958da0d5e3f0e61c4aa1d071da92cff737ba46"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 9673,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\07-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "17b9a57dc040b715dbe62821a5d699ddef00df5361d4c7acc64fbe724360bae1"
+        },
+        {
+          "ok": true,
+          "frame": 9917,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\07-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ef62ab26949ebac8f4f70e29dcbd3bbadd7af27da8717158478d7b75d1709b8a"
+        },
+        {
+          "ok": true,
+          "frame": 10161,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\07-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "faf02587fef50af40e3489c1e8d7a338046ac86127fa55d617f2b8d7e16f3a98"
+        },
+        {
+          "ok": true,
+          "frame": 10405,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\07-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a14b722a090fb0a162265bb084d3c78e1fac8a9fc37738c7ac849e57f68409bd"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 10529,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\07-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "763bc5ef62fa55a1d9490e1e0f38e13c04398cbded9a3376d751e2af4760b41f"
+      }
+    },
+    {
+      "index": 7,
+      "selection": {
+        "ok": true,
+        "frame": 10653,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\08-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "e1c8b91b7a95f97f2050573980edc5e2b8184e966d7084baee426f1f06a5474c"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 10897,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\08-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "3957351956d17b0649056aa88e8748f27826455ead344b706783b9efe1d259cc"
+        },
+        {
+          "ok": true,
+          "frame": 11141,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\08-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "14e4ebf2f44cc4d214635c7eca84f5d3e3ba5522dca84e57f3fd17515661c637"
+        },
+        {
+          "ok": true,
+          "frame": 11385,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\08-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "e5015cbd3804990147b5f2aa496086f81d4af5c7990fa6f970c634d3f0d0bb49"
+        },
+        {
+          "ok": true,
+          "frame": 11629,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\08-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "59b900c80ca100ca7d6b410bc267305543bd55f598e1bcd5d4fd7df641793c8f"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 11753,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\08-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "beae9c854fd6580299342e8a1f1b124c9c3f6ce9f776e9e884f5a7733123df7a"
+      }
+    },
+    {
+      "index": 8,
+      "selection": {
+        "ok": true,
+        "frame": 11877,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\09-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "ae42108ac54b1f3f9ad35b737d58756d9d2be2c8b36eb4d707747274bac68b80"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 12121,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\09-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "5a3b6007d9941e09e01e8b8a9fc324db9571e00e896a1c4da4373830be0585ca"
+        },
+        {
+          "ok": true,
+          "frame": 12365,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\09-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ac2c0b0ad5671d1cf7bfeb3ee007f64e52a704e0f8c1ad803781cbe38112edb3"
+        },
+        {
+          "ok": true,
+          "frame": 12609,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\09-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ea2728e21ca018b2160f6e37767299d90939e0f17d5a6bac2b4b84b8e6c41bfd"
+        },
+        {
+          "ok": true,
+          "frame": 12853,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\09-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "8f2c4be21d905a077d9482bed8e502d0e5f4f9bf2b49fe0958ce9ccf73b5a024"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 12977,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\09-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "b1fc574385a7daca2d069dbea4cbdce378cbc7f6a3f8e22661c21cd6777ae4a5"
+      }
+    },
+    {
+      "index": 9,
+      "selection": {
+        "ok": true,
+        "frame": 13101,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\10-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "c02dd4797cc7a8d29425b3d1e67fef870ec748cc9556262bcfcec4e91b4724aa"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 13345,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\10-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a6e7873a018f6596c1d907a46c6bbc503dba08a73892376499355bc762fa4583"
+        },
+        {
+          "ok": true,
+          "frame": 13589,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\10-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "8a0d92c0031fe025b9b2d3842c43c9a5809f0c0fb4a388bc04494f18a4f95313"
+        },
+        {
+          "ok": true,
+          "frame": 13833,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\10-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "b626988266d5a7bdeb449e99c5984a31cabff38423387f9ea40ae2db1c22f4e7"
+        },
+        {
+          "ok": true,
+          "frame": 14077,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\10-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "1b64cffc635940b5eb0da0e2f59c2d716c7a07d2499c2ba592437dcfa209cde6"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 14201,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\10-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "cba60bd092feb173748b728f8540394c33fe749518529c943fa69a30dd2fe6b2"
+      }
+    },
+    {
+      "index": 10,
+      "selection": {
+        "ok": true,
+        "frame": 14325,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\11-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "1c53f440f7d665c878155436d9c41e743f4c21a16c549e10d868eb74ea54af93"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 14569,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\11-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a001e4fc071a9faa10faca6974c445abc488751a1b39c1f9646eae03739ce599"
+        },
+        {
+          "ok": true,
+          "frame": 14813,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\11-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "0b60056068760a34ee79aeb2bbd3f3da786a9105652c34dbfe8112f94b8fc88a"
+        },
+        {
+          "ok": true,
+          "frame": 15057,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\11-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "7260b55b5b06651c874d9191b039623b39767fdaeb755302932379e43d865a36"
+        },
+        {
+          "ok": true,
+          "frame": 15301,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\11-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "83f6b9e2416537cea5f410dfa7ed9eef6aa36fc62682be2d4857e1d7a4c5b9b9"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 15425,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\11-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "1c53f440f7d665c878155436d9c41e743f4c21a16c549e10d868eb74ea54af93"
+      }
+    },
+    {
+      "index": 11,
+      "selection": {
+        "ok": true,
+        "frame": 15549,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\12-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "99d3e98f7ebc72c82bfa2f5e13e3190249500740583cfd2fde26e390254e7389"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 15793,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\12-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "e3ca31a8a50761a2d0cfffcb0b89ea7db01ba24be8373a144f90648e3702d5b2"
+        },
+        {
+          "ok": true,
+          "frame": 16037,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\12-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "7ffb699865de2ce9347408c250f102a6db1387c05459ccd8461e51d0cdc97e05"
+        },
+        {
+          "ok": true,
+          "frame": 16281,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\12-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "c1c22459204d6c718ec4ff5c8b959f25ee19a3bbc1d66c594ee2aa61862d9925"
+        },
+        {
+          "ok": true,
+          "frame": 16525,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\12-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "48dec56aa26c3fc9e8ac359bb40d5c9e069c499896f04d7d695d66338d599150"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 16649,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\12-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "ea4acc287d7fa232cc555311fc12107befab5eb0d63034ddb82457f3d08a7ba8"
+      }
+    },
+    {
+      "index": 12,
+      "selection": {
+        "ok": true,
+        "frame": 16773,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\13-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "d94dd48e17eeffc95dff998a866f05347bbbb794d53df7e863f16d9605c43f9f"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 17017,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\13-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "5816b91556f5d9b49ab808744d808ee5898993acf265809d5453445485b702c2"
+        },
+        {
+          "ok": true,
+          "frame": 17261,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\13-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "b824e526949a976417d4e3ca1b822ccefbf1e5a7263d1cb1eef7f63e06e2a049"
+        },
+        {
+          "ok": true,
+          "frame": 17505,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\13-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "bd7a973cff75dccaecec686fdfef78ba7ad4811fb4db8056e958933380019a14"
+        },
+        {
+          "ok": true,
+          "frame": 17749,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\13-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "24f60ced577f3e023d04d7f9c455f3aaf0a2d296944e56f6ca6223b6b3f93adf"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 17873,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\13-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "d94dd48e17eeffc95dff998a866f05347bbbb794d53df7e863f16d9605c43f9f"
+      }
+    },
+    {
+      "index": 13,
+      "selection": {
+        "ok": true,
+        "frame": 17997,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\14-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "20939fc73a5502f12fe6ef431659ee53b3e35367cf2827d456c5fd6ede42088b"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 18241,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\14-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "275db3c5c84d9ceea68a2d749cad830c8b7263dd5fdb63f766edc93f7dff8d50"
+        },
+        {
+          "ok": true,
+          "frame": 18485,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\14-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "efeb22656873a778dc8d5809db282aa7b214325295137b7957faed9c630fb3c4"
+        },
+        {
+          "ok": true,
+          "frame": 18729,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\14-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "d82369888a0280ceb1a7574cf3a1bf491ef6fed718b3e05092335f7b901ce00b"
+        },
+        {
+          "ok": true,
+          "frame": 18973,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\14-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "e3d89644927790194562a905484bebe4e8d6d4640cb2942835978d3781368683"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 19097,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\14-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "566673836367abc5ef260d62a7620e3f84c49d0c474b52ec76d99f319e9fc6f9"
+      }
+    },
+    {
+      "index": 14,
+      "selection": {
+        "ok": true,
+        "frame": 19221,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\15-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "cd4812ca22c9e874c446bee9f1d7d3b90e8ca4175ba65604abd50ca2fd9b9ec0"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 19465,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\15-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "751d63f809e758504190113f01f24217a388c9cb4634f2a11752c599b76e226a"
+        },
+        {
+          "ok": true,
+          "frame": 19709,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\15-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "36870b42c2a1129fed4b66edbaf3590916c29485f87c246e4d81d3ace29d320e"
+        },
+        {
+          "ok": true,
+          "frame": 19953,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\15-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "6fce8b613843f5abef6fc7d7f249f505d9d27b4b290290814c5618619b0f4fbb"
+        },
+        {
+          "ok": true,
+          "frame": 20197,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\15-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "5094230d45b43b67ef269e1eb91db70c677ca6c5bc99a8fae9943be636ad8a9b"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 20321,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\15-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "cd4812ca22c9e874c446bee9f1d7d3b90e8ca4175ba65604abd50ca2fd9b9ec0"
+      }
+    },
+    {
+      "index": 15,
+      "selection": {
+        "ok": true,
+        "frame": 20445,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\16-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "51375f55fd9f2a83bae6c536553183a4a74f5f30d17b13bd5f48b32ce79b18ae"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 20689,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\16-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ce95f3ad1e931a83a1763e18af5f0b802f4ad4a7e733431559329244ab071c69"
+        },
+        {
+          "ok": true,
+          "frame": 20933,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\16-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "11acf7c710fdd7a5a153e98675e4b59722839c161cb78cd19f7c596797be02cf"
+        },
+        {
+          "ok": true,
+          "frame": 21177,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\16-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "5eff4de3fe6e868a1b2519963da4076ae64097fc03bb52568ed476587c2fb545"
+        },
+        {
+          "ok": true,
+          "frame": 21421,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\16-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "40fc1d91f5b58d47cefd2fe7a9899f091cc9cdede10ad22325bd4dd0c0e0c8f3"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 21545,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\16-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "8b6228f96d60ffe2e042dd545113ffef161d48f935b209921f5331a295916443"
+      }
+    },
+    {
+      "index": 16,
+      "selection": {
+        "ok": true,
+        "frame": 21669,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\17-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "ae9c742124fba28040d0e34a6ec8686323b2d12541db9bf393b2954687298d2c"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 21913,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\17-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "41c3d67ebb034900f379f634300970d97a385379bd9768572da554a8936ebdc1"
+        },
+        {
+          "ok": true,
+          "frame": 22157,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\17-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "9495628b168cf648492f25e5dd988c6e63321e81a7e5b1f62195c191505e7938"
+        },
+        {
+          "ok": true,
+          "frame": 22401,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\17-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "714254c3ac324a302a7549bfde600d9aa499a381ada2df99a900836da9fb14ce"
+        },
+        {
+          "ok": true,
+          "frame": 22645,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\17-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "e3d73f441909433cbcef6ab21438c4419ccedc28e20954bb493be191eb9c1e24"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 22769,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\17-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "ae9c742124fba28040d0e34a6ec8686323b2d12541db9bf393b2954687298d2c"
+      }
+    },
+    {
+      "index": 17,
+      "selection": {
+        "ok": true,
+        "frame": 22893,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\18-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "19a0df5976759a4c529ab81a950216fe44879c8fcd0fb91adebd26597bd7552f"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 23137,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\18-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "aa4b03ddedd8eb968a6d3366872eaf5a451bcfe3b675cd6d998eec3ebdf005e9"
+        },
+        {
+          "ok": true,
+          "frame": 23381,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\18-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "7ff122e29b014307399b1f0a4773f51c325a3f5366de1a1640bd8367cfda7a97"
+        },
+        {
+          "ok": true,
+          "frame": 23625,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\18-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "1140e685c8bded15dc91a9aa447313d12b10cf2f4ece7754555295bb2ffacd40"
+        },
+        {
+          "ok": true,
+          "frame": 23869,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\18-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "058d707bfa56205e0928fba03b7e531e348b91b1c103fb9da565a8fbfcad2b7d"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 23993,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\18-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "931a74e3f090e77ac6f365cec21bafca27824219d94b75d545459558f6966be7"
+      }
+    },
+    {
+      "index": 18,
+      "selection": {
+        "ok": true,
+        "frame": 24117,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\19-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "72364d456587f1d19a4c5a57798d8a7d1e44d3123c2b706bf9be838df6e3be23"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 24361,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\19-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "bb47efa6a25fbc761d50e361490a5abe1cf3ed9f9ab5c988ab680dcd80494b4a"
+        },
+        {
+          "ok": true,
+          "frame": 24605,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\19-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "fe41b0693a5493a6b324470b8a03c0e81a621c6b60af0fbaffc35163ca35f2d7"
+        },
+        {
+          "ok": true,
+          "frame": 24849,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\19-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a527c552ec7b7003410012165ea4dc95121a33ce11aa5c1d7ba2cb39ddf2ac26"
+        },
+        {
+          "ok": true,
+          "frame": 25093,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\19-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "495442af5d203503dc8b40aa0ac5c7bd3454ce7032be5269881f46c158a4df54"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 25217,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\19-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "72bf62ba73d4800b923ce955c8af07134cd698644d44b90142f721ce2178226f"
+      }
+    },
+    {
+      "index": 19,
+      "selection": {
+        "ok": true,
+        "frame": 25341,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\20-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "4a51dadec46e1d5a8126e79542ca4c4b6769a80f0f403859ed90fb766007ed5d"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 25585,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\20-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "2b91f4a6a22993cbb724265e893b9064270f15a313640adfc4db81dd491357ac"
+        },
+        {
+          "ok": true,
+          "frame": 25829,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\20-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "f381c0e5afabf0c51d474549a7d79fb293e1d580425c89b9e862feb25c6f579c"
+        },
+        {
+          "ok": true,
+          "frame": 26073,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\20-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "0b1520b23740e2d7cc4959853dee07732a25f703aea966237145af853f67e242"
+        },
+        {
+          "ok": true,
+          "frame": 26317,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\20-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "05ae10d1f27ba57439894cc9ba112891d34b91b27bdc6cd0aa045400da070830"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 26441,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\20-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "e5940d165168e16007f2fa3135bfe6d064c6c9cd2f755ecc5bcf76c7bd62ec25"
+      }
+    },
+    {
+      "index": 20,
+      "selection": {
+        "ok": true,
+        "frame": 26565,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\21-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "4d07b70f88e662d927260955715d83a690e1e83e26ac1760e8174405e8b98980"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 26809,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\21-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "9074141061357cca6dd6721c7e4b210e62e884c5a8518d0ab5f74c86f68f81e8"
+        },
+        {
+          "ok": true,
+          "frame": 27053,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\21-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "6514fce1ed6210350a663dec37a5d517221bb8ce482d27f7cdc620c5715c5899"
+        },
+        {
+          "ok": true,
+          "frame": 27297,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\21-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "4b78eb5c2cb47a98f3f01b8150586c1abc5dbf9fbe0affa19285f1b4630238d0"
+        },
+        {
+          "ok": true,
+          "frame": 27541,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\21-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "98ec7f4db1fbc33bc8bacfc8f35bfd6d5056662fe420fad39b492375cf34261e"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 27665,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\21-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "9409f39764e29c16672503856c957ae010505f300299a027681419cc75ddce4f"
+      }
+    },
+    {
+      "index": 21,
+      "selection": {
+        "ok": true,
+        "frame": 27789,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\22-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "7f392c1b1629aaacbdd3d8918abbd71adfdb4394e109d5a85551f5660b947770"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 28033,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\22-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "d14d490b607bb610301ddd67e064c3793fd96e341d62d79fbef6e77e28e719fa"
+        },
+        {
+          "ok": true,
+          "frame": 28277,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\22-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "c2c07b3829fa983c0b91132617dc9c3506fe1dc62f8a30c4d08a66ee26a3da4a"
+        },
+        {
+          "ok": true,
+          "frame": 28521,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\22-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "fc4e9e7415b5829f6b32b2e5b1db3a70190eb161a24d45eaf2a7371caf54d864"
+        },
+        {
+          "ok": true,
+          "frame": 28765,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\22-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "75d2c16a938945e9a110fa9d49b9cb03363daf4ecf9a408c47fb9d9b6cef39ce"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 28889,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\22-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "b6995b5328a7fa23f63c55fb11ea96c6704834f25b1b6c27209facdd456a6dff"
+      }
+    },
+    {
+      "index": 22,
+      "selection": {
+        "ok": true,
+        "frame": 29013,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\23-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "67a40fe357571a6a2f92f6bac0109809bb40e6228d56e81675a88efc225e440d"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 29257,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\23-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "6067db00fda3b84b0bc344438ff51dba59af5ebea0dee092b6897c29d12a8dc2"
+        },
+        {
+          "ok": true,
+          "frame": 29501,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\23-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a6c2937d3543cc7162e6a1f90c2d3f1c26627f9c0414a971363cbceb8bd6857c"
+        },
+        {
+          "ok": true,
+          "frame": 29745,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\23-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "1d3802e023f96412e8f722c899f41657e540a7cf8c33a1abfd6aa631660547a3"
+        },
+        {
+          "ok": true,
+          "frame": 29989,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\23-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "0663b7bbd03e5ac2cfe1a531deefa9104f2d2f80b8edd7c72b5371ea120764f2"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 30113,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\23-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "196d67e83994180e9d54642c0fda79fc4de26d77713f8a57371a7ab430db3880"
+      }
+    },
+    {
+      "index": 23,
+      "selection": {
+        "ok": true,
+        "frame": 30237,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\24-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "cc702a2a342ae5b04231ec39a2213a68c773fb70f523421dc925c1828027e11a"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 30481,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\24-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "329c2900cfa038b3b5a2d065a2ed9722c734a7f2e5b18bb115d049f43749fe0a"
+        },
+        {
+          "ok": true,
+          "frame": 30725,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\24-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "9f1a6675b369470ae9eabd9081a6889e49b2b502b56a2bd2c00a02a898c09450"
+        },
+        {
+          "ok": true,
+          "frame": 30969,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\24-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "bf4f6454bafb191e5a546e028240de78e3490c00ee9c98e917fbe2dd75a27328"
+        },
+        {
+          "ok": true,
+          "frame": 31213,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\24-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "74e3a75ee67fd6cff8a97df68099ec35e1860fbd60a00075b67dd5f33dfebdeb"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 31337,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\24-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "cc702a2a342ae5b04231ec39a2213a68c773fb70f523421dc925c1828027e11a"
+      }
+    },
+    {
+      "index": 24,
+      "selection": {
+        "ok": true,
+        "frame": 31461,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\25-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "eabd813680a13f6e1bb5a04b6e860a14e46cc9fcfa587ab7bed9432704e290ee"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 31705,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\25-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "577c799729637bb25861a2af2cd945b679454b7e644c71a85021a855eaa2e29b"
+        },
+        {
+          "ok": true,
+          "frame": 31949,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\25-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a28cebe0525b0a819cd3efe33872cbacd5257f467cf93a70860df51594f98479"
+        },
+        {
+          "ok": true,
+          "frame": 32193,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\25-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "eb11e59bb0fdcaedd5dac60ef60cb8e29a303d27de4c69823721f9d2c549f446"
+        },
+        {
+          "ok": true,
+          "frame": 32437,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\25-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "79186e9aaf931a67b8f17d97433d8c6dde543b6a595b8ac2a0500ae68943ea2e"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 32561,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\25-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "c3d6d820da70ce958f4c9ced662e13b51040af85df97b32ac2dd0a85b7f39073"
+      }
+    },
+    {
+      "index": 25,
+      "selection": {
+        "ok": true,
+        "frame": 32685,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\26-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "9740067e1c8d95366d194e6155d13086e035926d08501df140f54e56e00b186c"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 32929,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\26-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "524eef4cdc9698f0a450b02945091ff8f2bb0c590d279fade0839d470c719177"
+        },
+        {
+          "ok": true,
+          "frame": 33173,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\26-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "82ac6d2d27fba35a1fbe4480c41a6fbb53124e87bfb19c49d42d528ee869fe88"
+        },
+        {
+          "ok": true,
+          "frame": 33417,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\26-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a5b3a7952b03cee2b24e04b5ed84346d3145b8171fbc55db6b8cc733cf50fe14"
+        },
+        {
+          "ok": true,
+          "frame": 33661,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\26-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "b9bc48c6f770112904362240c4f8a0e368ac4d7dc3dc0f9a96db866d7f39b2cb"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 33785,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\26-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "9740067e1c8d95366d194e6155d13086e035926d08501df140f54e56e00b186c"
+      }
+    },
+    {
+      "index": 26,
+      "selection": {
+        "ok": true,
+        "frame": 33909,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\27-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "83c8a5c4265ee824b21130fd9a1aa774cf8256fa0fd9e4629604fb5b0d0c7d14"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 34153,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\27-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "062f49561b8034cd7d030918621a14642905f751b557ec9801be81e2db5d0089"
+        },
+        {
+          "ok": true,
+          "frame": 34397,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\27-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "0f14a2c0cad062e7238b7179b5e804216b023501020b53efeadd3ebdb6440a47"
+        },
+        {
+          "ok": true,
+          "frame": 34641,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\27-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "2b69f0af915d15489b360a246fdc8fb3f357078400b1e976197a3aaf8c4feeca"
+        },
+        {
+          "ok": true,
+          "frame": 34885,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\27-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "6d6c7faf5e7e765241c6984a11672c769ea992de1602de0bf6b06c963e5350e2"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 35009,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\27-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "2440d73045220df9bd4794d9f5424ae2f10d5ef4f32a089ab0bc1053c8ff06c4"
+      }
+    },
+    {
+      "index": 27,
+      "selection": {
+        "ok": true,
+        "frame": 35133,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\28-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "93ef8bcb3f06356899744a93e9eb71ec752582f37eb68c434470d3f802af7dca"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 35377,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\28-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "608f91fab822ec1d99ed63515c590023ab67ca40ee7c3526c625a8a49bb16594"
+        },
+        {
+          "ok": true,
+          "frame": 35621,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\28-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "f6fc0fc2e18635cc2455633f3947d9dbe81b4f5769395e4ba7d95f1ae5087773"
+        },
+        {
+          "ok": true,
+          "frame": 35865,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\28-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "9a96421fe13c33f8b687bc94107cd9cc2f57593a26765d47615c2925395ace2f"
+        },
+        {
+          "ok": true,
+          "frame": 36109,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\28-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "99801449b06417c3c42370b1f15d091cc9a0ac23389f4c17361d7f130591bebe"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 36233,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\28-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "93ef8bcb3f06356899744a93e9eb71ec752582f37eb68c434470d3f802af7dca"
+      }
+    },
+    {
+      "index": 28,
+      "selection": {
+        "ok": true,
+        "frame": 36357,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\29-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "d25bd0326b2c13c077d6a64822c4baae4aad8783da80b335a1f8e9dbc1da768e"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 36601,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\29-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "eddfa4d9121d0c194ae0c7d9bd2a850a5d6493027ca90aa03eff02224177ca39"
+        },
+        {
+          "ok": true,
+          "frame": 36845,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\29-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "dde271ff49947e921fe983f8406c9f74425acf9cfed6b795c5c40fcbffe0bebb"
+        },
+        {
+          "ok": true,
+          "frame": 37089,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\29-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "6b84fb0d3c836e670dd2a1063e775fded56bbe9e6f0ad1c4d2cb5215cf36d7c2"
+        },
+        {
+          "ok": true,
+          "frame": 37333,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\29-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "9b0a5406f11b98fea278ec7d1687de8853bf8a32faa9c3774db4d0e1d4523979"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 37457,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\29-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "b928024c4c0f30a924be69021db826a6eedf5a10a730f649973262e8a6ec9628"
+      }
+    },
+    {
+      "index": 29,
+      "selection": {
+        "ok": true,
+        "frame": 37581,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\30-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "ee80e5a59aaf339297390313cdbea2d8ecd6cad3c5c0499c7da41271a96f5d50"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 37825,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\30-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "b33c3ccaeecc7629c411e7449422c93aa858904dd82704afa45da296daab7981"
+        },
+        {
+          "ok": true,
+          "frame": 38069,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\30-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "d6bc2958a93614417d432d00f5724a7c032dbb7e7c437f2ab2ce1c18adf07c59"
+        },
+        {
+          "ok": true,
+          "frame": 38313,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\30-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a38269fa99df2d8fd3ab8f99de3e808b72b1be868d4911956f424231f9cdf8ee"
+        },
+        {
+          "ok": true,
+          "frame": 38557,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\30-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ef947c4ad89e91cde4cbcdfa4a17e410d99783adc59bff77e267d96eb1e03e0a"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 38681,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\30-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "f657f66d349550a4fcc5d2f6bb44d653c5d61996c7684a71b80180eae6f17b1d"
+      }
+    },
+    {
+      "index": 30,
+      "selection": {
+        "ok": true,
+        "frame": 38805,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\31-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "b48dcbf0dd1e4ef05801d4ae1e44180bb0c7180f9c270cf5e8c59bcc4d0ceb4d"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 39049,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\31-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "862a3ca845a58cde3c1c685b03720f9e06d18539ddb28972c8b5a13d6b457c38"
+        },
+        {
+          "ok": true,
+          "frame": 39293,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\31-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "b4d6c1ebdb3bc38876898b8521c8cea64f016cee527590d848431246c301f032"
+        },
+        {
+          "ok": true,
+          "frame": 39537,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\31-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "d926ddc7e86d04656c942262d785f3cd72819e936505e9c88b590d6455dd3889"
+        },
+        {
+          "ok": true,
+          "frame": 39781,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\31-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a288a2ccb75d524b718fb056069f0693fc75c41fa82c45dce5cc34c80d8fe39d"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 39905,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\31-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "d1518999a2744dcc85c44bd0f38f9bacbc307ed8cc535acc1ec34135db835813"
+      }
+    },
+    {
+      "index": 31,
+      "selection": {
+        "ok": true,
+        "frame": 40029,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\32-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "63b9ce0c23f30216a8a3ad995e2542fb988b4d8836af01093e2e18ed0131ac74"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 40273,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\32-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "821b49a81397bb095c4275a42b1d91f883f9637c098caeee758077bd4ec5a28f"
+        },
+        {
+          "ok": true,
+          "frame": 40517,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\32-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "08dab346d0ce867351c8b6cd30526c8e6cfa88676e93f237dd7f563538b7630d"
+        },
+        {
+          "ok": true,
+          "frame": 40761,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\32-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "cb56990403847911248fa2a955b7c4951d1d3657e129dbb3b764a9b6e7d2cb71"
+        },
+        {
+          "ok": true,
+          "frame": 41005,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\32-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "f228efce025a7a66263def3d9263c799eb0b13b86fc5060f45c7081a358cab10"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 41129,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\32-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "18f30ecc0872c67eb1b618e07e3cf431b23b2ca944085304a6698040a08d50c2"
+      }
+    },
+    {
+      "index": 32,
+      "selection": {
+        "ok": true,
+        "frame": 41253,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\33-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "f299cbf026345b8c07f28040ccc09b975e17191145e531fc26819cd6a6bbf555"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 41497,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\33-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a20120228d878af62bcfc2525dcd7bf15865b631b42578f15de3ad6df37240fb"
+        },
+        {
+          "ok": true,
+          "frame": 41741,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\33-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "e418a2d246ccb48c0f924f33ee912495798e4895f681a60e5d36497ec2705f06"
+        },
+        {
+          "ok": true,
+          "frame": 41985,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\33-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a0f29a12926893c2434238ebd3b1022a20dfb8b9ba2ff3a8f4f0a8b5a1ae19eb"
+        },
+        {
+          "ok": true,
+          "frame": 42229,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\33-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "d063206f902dbc892995e15451ea5ab6ef258316a48ad70f0fb1d011d88621ac"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 42353,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\33-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "d6952d355f30b5970e82be4b5350f18b85e44a6e8e65c357f0d08818d4765107"
+      }
+    },
+    {
+      "index": 33,
+      "selection": {
+        "ok": true,
+        "frame": 42477,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\34-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "3fcac8dc41daefb11e4a2af39683a15faec8e256c223ad1d8e327c4729e50604"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 42721,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\34-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "fee2e77ea4d1ef2d873bcec9b45bfa43527b2f3cf80577af155107f292c2b2e8"
+        },
+        {
+          "ok": true,
+          "frame": 42965,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\34-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "9fc9390839794c240746e705b645ef03fc1cc26d52dd194af93e20bb3ad8a8cb"
+        },
+        {
+          "ok": true,
+          "frame": 43209,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\34-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "e44f6f5836cbc14d97447b6d40443cdd13deece94141cae18c28f171554eadfd"
+        },
+        {
+          "ok": true,
+          "frame": 43453,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\34-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "04e884824d354b118f3733c0b54f2d7d97ec8152a1db0f6fe034ad1d7a730d1b"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 43577,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\34-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "d3406990f7ee5ae9223604805302dbf77672696007b556c9f55f3a2f2ab5feee"
+      }
+    },
+    {
+      "index": 34,
+      "selection": {
+        "ok": true,
+        "frame": 43701,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\35-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "57f0096220e4b3aeb42f051efa65f234e4883ce6480fa68a7db13b56f50d6c09"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 43945,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\35-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "701173484d2358faef70496c1c6918d2f37059ea1bb77f36971c7c6e976d1f80"
+        },
+        {
+          "ok": true,
+          "frame": 44189,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\35-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "ba5224e9011860aed4434dbf5ea773d8d997c5529832e174cf91508c90278300"
+        },
+        {
+          "ok": true,
+          "frame": 44433,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\35-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "eebb35da8beb22a3f6d6de09afdd3cd07c432a27a4b481ed30903dfbe879c776"
+        },
+        {
+          "ok": true,
+          "frame": 44677,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\35-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "07bdd5441757f58a1fa2aafb54ece270ded18045e18ea1de325526461002c362"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 44801,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\35-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "85cfa4e3b4905e2eadbcf6cc2098a121b54f34c154d7be9e6a5cd466608e970c"
+      }
+    },
+    {
+      "index": 35,
+      "selection": {
+        "ok": true,
+        "frame": 44925,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\36-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "c2d3cf213b0f2fd3e442e71def938eb7e9990a6f1e75e3a7d26f84c89d517870"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 45169,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\36-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a43e04c9f95c8151ebae7d591e5b98ee6c3a84c1c5de2f36452683dac39ed182"
+        },
+        {
+          "ok": true,
+          "frame": 45413,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\36-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "577de06abe6d6b4f537bb0f896d3501e8601dd9423d2540e36ef454dbe32e9a7"
+        },
+        {
+          "ok": true,
+          "frame": 45657,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\36-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "a8eea0c91c824ea2c21564af18359caee97765e80d77a44cee6d97a66d81589c"
+        },
+        {
+          "ok": true,
+          "frame": 45901,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\36-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "c0f6dbea6a7d2525fdf60c93b8475656208f74b80f61a5cc59fb2dd21492263d"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 46025,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\36-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "6e717c49f3cadfe1ec958801cd4125fbebe19a96708a9b1d8e9c1f78a87cb167"
+      }
+    },
+    {
+      "index": 36,
+      "selection": {
+        "ok": true,
+        "frame": 46149,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\37-selection.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "e17b5dbb2d6bfe5b59572fb0cce1a90703fc9e7f55d4b5ab4545be64eaf73161"
+      },
+      "fields": [
+        {
+          "ok": true,
+          "frame": 46393,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\37-field-1.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "c92d4c1c9432a157c0dc40f3baa2e87d46f57e795e3a5cd3c5c33f7ebcfe0612"
+        },
+        {
+          "ok": true,
+          "frame": 46637,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\37-field-2.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "dab63957a89af50f25ae8c330c6e2ba690c45ce9e46befc76708572f4500a175"
+        },
+        {
+          "ok": true,
+          "frame": 46881,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\37-field-3.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "be767499f8e8b0bd233b39c7101c84f339dd799c1ababbbf054bebeb4f3457fb"
+        },
+        {
+          "ok": true,
+          "frame": 47125,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\37-field-4.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "73d25dd669b5cf196e972678ba57586d66da68711a6de8e33aead14f2f12c2ca"
+        }
+      ],
+      "return": {
+        "ok": true,
+        "frame": 47249,
+        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\37-return.png",
+        "size": [
+          240,
+          160
+        ],
+        "sha256": "2a1bdaba2ef3e08b645446e367fc94f2c8e0adc5424a0b9ec2b9c99b73ea966b"
+      }
+    }
+  ],
+  "exit": {
+    "ok": true,
+    "frame": 47373,
+    "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\exit-info-menu.png",
+    "size": [
+      240,
+      160
+    ],
+    "sha256": "53563e5322c3909ee099c77882abebf5ec92df75e283e9a4f8be897792c33a99"
+  },
+  "sheets": [
+    {
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\sheet-01-06.png",
+      "sha256": "6fd9ddff3d5dccc743ca0d6b8947020d340c3471be1e3871e88421df57766601"
+    },
+    {
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\sheet-07-12.png",
+      "sha256": "34bb4c0009702da402a1b6330ec9d6cdcb5821cf4ed9b3cca803b301467cd569"
+    },
+    {
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\sheet-13-18.png",
+      "sha256": "3cd7849e6b963894b2d098a8427d9f8df24aa178b25afa70ed7bb2261215009f"
+    },
+    {
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\sheet-19-24.png",
+      "sha256": "bfb9d1eb14e68c2d9f203156ba3d5ea2ea31309a46dab12a84bec53eca9ea927"
+    },
+    {
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\sheet-25-30.png",
+      "sha256": "9b3847b682e242b60f1496c27640eaa2e0fbd66d9533fe2ba05b226bae8fa9e5"
+    },
+    {
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\sheet-31-36.png",
+      "sha256": "983f264876934d917868e30e28f6798f8e1ed7d7a1fa126ce7e1cead193a7c46"
+    },
+    {
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-mgba-02\\sheet-37-37.png",
+      "sha256": "2126bddf6d897d1d84a4e23eb67baecc4387992270fc3053936a5e1b3f6e31df"
+    }
+  ],
+  "entry_trace_sha256": "9710afc80a4e57b19b42afddfbdf04ab473aa10a8624050336250ff1aa78168e",
+  "scope": "Synthetic unlocked EEPROM; ordinary controller inputs only. No live memory/state edits. Natural unlock acquisition and other gameplay are outside this review."
+}

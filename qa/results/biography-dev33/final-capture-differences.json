@@ -1,0 +1,16 @@
+{
+  "previous_rom_sha256": "e0157830af1f19b0ed20f4144b9286b25c4ec2042a8b9fc50e0c04a8a12f7941",
+  "final_rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+  "changed_captures": [
+    [
+      20,
+      1
+    ],
+    [
+      20,
+      2
+    ]
+  ],
+  "slot_order": "0 selection; 1..4 fields; 5 return",
+  "scope": "PNG hashes; all other previously directly viewed captures are exact copies of final captures."
+}

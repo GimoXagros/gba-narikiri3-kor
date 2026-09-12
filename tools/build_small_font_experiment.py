@@ -26,6 +26,7 @@ def main():
     p.add_argument('--name-keyboard',action='store_true')
     p.add_argument('--skill-headers',action='store_true')
     p.add_argument('--biographies',action='store_true')
+    p.add_argument('--splash-credit',action='store_true')
     p.add_argument('--clothing-results',action='store_true')
     p.add_argument('--save-places',action='store_true')
     p.add_argument('--notices',action='store_true')
@@ -285,7 +286,7 @@ def main():
     biography_info=None
     if a.biographies:
         from biography_text import install as install_biographies
-        biography_writes,biography_info=install_biographies(legacy,extension)
+        biography_writes,biography_info=install_biographies(legacy,extension,j)
         writes.extend(biography_writes)
     clothing_info=None
     if a.clothing_results:
@@ -327,6 +328,11 @@ def main():
         from save_place_text import install as install_save_places
         place_writes,save_place_info=install_save_places(legacy,extension)
         writes.extend(place_writes)
+    splash_info=None
+    if a.splash_credit:
+        from splash_credit import install as install_splash
+        splash_writes,splash_info=install_splash(legacy)
+        writes.extend(splash_writes)
     for o,d,_ in sorted(writes):
         if o<prior_end or o+len(d)>len(legacy):raise ValueError('Overlapping or out-of-range write')
         prior_end=o+len(d)
@@ -356,6 +362,10 @@ def main():
     report['name_keyboard']=keyboard_info
     report['skill_header_graphics']=header_info
     report['biography_text']=biography_info
+    report['splash_credit']=splash_info
+    if a.splash_credit:
+        for name in ['source/splash_credit.json','tools/splash_credit.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
     report['skill_description_repairs']=skill_description_repairs
     report['clothing_results']=clothing_info
     report['save_places']=save_place_info
@@ -384,7 +394,7 @@ def main():
     if a.skills:
         report['inputs']['source/skill_text_profile.json']=sha((ROOT/'source/skill_text_profile.json').read_bytes())
     if a.biographies:
-        for name in ['source/biography_profile.json','translations/biographies.json','tools/biography_text.py']:
+        for name in ['source/biography_profile.json','source/biography_identities.json','translations/biographies.json','tools/biography_text.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())
     if a.skill_headers:
         for name in ['source/skill_header_profile.json','translations/skill_headers.json','tools/skill_header_graphics.py']:

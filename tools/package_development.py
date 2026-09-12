@@ -25,6 +25,7 @@ def main():
     if m.get('name_keyboard'):required.append('name-keyboard-verification.json')
     if m.get('skill_header_graphics'):required.append('skill-header-verification.json')
     if m.get('biography_text'):required.append('biography-verification.json')
+    if m.get('splash_credit'):required.append('splash-credit-verification.json')
     if m.get('skill_description_repairs'):required.append('skill-text-verification.json')
     if m.get('clothing_results'):required.append('clothing-result-verification.json')
     if m.get('save_places'):required.append('save-place-verification.json')

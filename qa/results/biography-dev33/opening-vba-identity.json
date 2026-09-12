@@ -1,0 +1,20 @@
+{
+  "rom_sha256": "e0157830af1f19b0ed20f4144b9286b25c4ec2042a8b9fc50e0c04a8a12f7941",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+  "save_sha256": "6baf1cb03834cc2abfb37806e621c68edb7f3613505f85186232d3a81175cf54",
+  "all_8192_bytes_equal_dev32": true,
+  "saved_timer": 17714,
+  "previous_reference": {
+    "rom_sha256": "1051612d3027c315596e28a5eb78451287bde5926e57d45268537c90c29b56ca",
+    "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+    "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+    "saved_timer": 17714,
+    "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+    "evidence_sha256": "5ba53e6f0b396c7426328ee652dfc7a86676b60772bff631b239bd02120266bd",
+    "evidence_path": "output/v1.1a-dev32-vba-timing/timing.json"
+  },
+  "new_save_path": "output\\v1.1a-dev33-smoke-vba-01\\first-save\\first-save.sav",
+  "old_save_path": "output\\v1.1a-dev32-smoke-vba-02\\first-save\\first-save.sav",
+  "scope": "Exact prior verified EEPROM equality; no timing tolerance widening."
+}
