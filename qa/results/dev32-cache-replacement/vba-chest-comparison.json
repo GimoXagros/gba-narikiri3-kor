@@ -1,0 +1,66 @@
+{
+  "status": "SAME_CORE_REPLAY_MISMATCH",
+  "rom_sha256": "1051612d3027c315596e28a5eb78451287bde5926e57d45268537c90c29b56ca",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "core_version": "v1.0.2",
+  "route_sha256": "86c0a216d42f99f31654518ae300e0ce9b9f8b230bc91ba6dc9bef7b755cf4a5",
+  "input_save_sha256": "551ca18a4d85b9b8d999eeaa8523f39085b2f7456566c094313f697cea987853",
+  "final_frame": 41972,
+  "ram_interventions": 0,
+  "state_imports": 0,
+  "captures": [
+    {
+      "ok": true,
+      "frame": 40285,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-vba-comparison\\adaptive-chest-first-reward-31.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "b8a12635b0f548d64a62554307904b5c2467b7c3699b52c2890f9aefefe78cdc",
+      "reference_core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "reference_png_sha256": "b8a12635b0f548d64a62554307904b5c2467b7c3699b52c2890f9aefefe78cdc",
+      "reference_png_bytes_equal": true
+    },
+    {
+      "ok": true,
+      "frame": 41730,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-vba-comparison\\adaptive-chest-checkpoint-save-complete-31.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "64804dcc3cf06dc8e88f710240d9e86c3ec22466f269ed4b53e7e335a2c28594",
+      "reference_core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "reference_png_sha256": "64804dcc3cf06dc8e88f710240d9e86c3ec22466f269ed4b53e7e335a2c28594",
+      "reference_png_bytes_equal": true
+    },
+    {
+      "ok": true,
+      "frame": 41972,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-vba-comparison\\adaptive-chest-checkpoint-shutdown-31.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "602f7bc282d8f908d59dc3895b20a25441aa9ffb775bf0207d80ed79fce355b7",
+      "reference_core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "reference_png_sha256": "602f7bc282d8f908d59dc3895b20a25441aa9ffb775bf0207d80ed79fce355b7",
+      "reference_png_bytes_equal": true
+    }
+  ],
+  "save": {
+    "ok": true,
+    "frame": 41972,
+    "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-vba-comparison\\route-final.sav",
+    "size": 8192,
+    "core_buffer_size": 139264,
+    "core_buffer_offset": 131072,
+    "sha256": "bb3fe8468d68d29b4c7ead1aa831436320da2b859015bb545cda42d3d80cf9cd",
+    "fixture_modified": false
+  },
+  "same_core_as_reference": true,
+  "reference_images_byte_identical": true,
+  "reference_save_byte_identical": false,
+  "scope": "REGRESSION ATTEMPT against dev31 route and images/save. A mismatch needs direct observation and diagnosis; not automatically a game defect or updated reference. Ordinary turn-9 suspend resume, Thief costume change, first locked door and Refill dialogue, further Lloyd corridor battles, item healing, first chest and normal suspend save. Not first mission completion, all story scenes or later crafting/unlocks. Capture labels describe the original mGBA observation; every new core run requires direct image review. VBA timing variant: 120 idle frames added after frame 37959; no ROM change. Only the final three captures are this variant reference."
+}

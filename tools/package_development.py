@@ -13,7 +13,7 @@ def main():
     if sha(source)!=J or len(source)!=0x1000000 or sha(target)!=m['target_sha256']:raise ValueError('Source/target mismatch')
     if m['status']!='EXPERIMENT_NOT_RELEASE':raise ValueError('This packager is only for development evidence')
     checks={}
-    required=['consumer-verification.json','name-import-verification.json','internal-battle-menu-verification.json']
+    required=['consumer-verification.json','cache-replacement-verification.json','name-import-verification.json','internal-battle-menu-verification.json']
     if any(w['offset']=='0x1ddc' for w in m['writes']):required.append('simple-consumer-verification.json')
     if m.get('lexicon_entries'):required.append('integrated-name-verification.json')
     if m.get('ui_entries'):required.append('ui-verification.json')

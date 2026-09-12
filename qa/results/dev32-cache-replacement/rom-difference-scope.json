@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "before_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+  "after_sha256": "1051612d3027c315596e28a5eb78451287bde5926e57d45268537c90c29b56ca",
+  "changed_bytes": 586,
+  "allowed_ranges_exclusive_end": [
+    [
+      "0x1DDC",
+      "0x1DE4"
+    ],
+    [
+      "0x1000000",
+      "0x1000400"
+    ]
+  ],
+  "all_other_bytes_identical": true,
+  "hook_bytes": 752,
+  "hook_sha256": "95430c70456fdc632ed07ae9202aa3c6ddda116745087d5e31ebb5835e3b2b85"
+}

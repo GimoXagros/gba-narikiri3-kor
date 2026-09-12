@@ -1,0 +1,29 @@
+{
+  "status": "SCOPED_CHEST_AND_SAVE_OBSERVED",
+  "date": "2026-09-12",
+  "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "route_sha256": "4e41825a3a5d338994fdfc58f0baf9d0f46d2e1202123d76fe2f4b801c56c2d3",
+  "input_save_sha256": "551ca18a4d85b9b8d999eeaa8523f39085b2f7456566c094313f697cea987853",
+  "captures": [
+    {
+      "frame": 40285,
+      "name": "adaptive-chest-first-reward-31.png",
+      "sha256": "b8a12635b0f548d64a62554307904b5c2467b7c3699b52c2890f9aefefe78cdc"
+    },
+    {
+      "frame": 41730,
+      "name": "adaptive-chest-checkpoint-save-complete-31.png",
+      "sha256": "64804dcc3cf06dc8e88f710240d9e86c3ec22466f269ed4b53e7e335a2c28594"
+    },
+    {
+      "frame": 41972,
+      "name": "adaptive-chest-checkpoint-shutdown-31.png",
+      "sha256": "602f7bc282d8f908d59dc3895b20a25441aa9ffb775bf0207d80ed79fce355b7"
+    }
+  ],
+  "final_save_sha256": "2146dbe8591aa529e5332766b35e51063bfc4a1fa1a63214a87a1f2ee426e440",
+  "ram_interventions": 0,
+  "state_imports": 0,
+  "observation": "All three reference captures directly viewed: Apple Gummy obtained, suspend data save complete, shutdown message. Adding 120 idle frames after frame 37959 restores the remaining controller sequence; this is route timing adaptation, not a ROM bug fix. Cross-core combat state and reward quantities are not identical."
+}

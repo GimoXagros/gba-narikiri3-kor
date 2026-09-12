@@ -76,7 +76,7 @@ def main():
         final_save = probe.execute({'op': 'save_export', 'name': 'final.sav'})
         report = {'status': 'SCOPED_END_OF_FRAME_MEASUREMENT_COMPLETE',
                   'rom_sha256': probe.rom_hash, 'core_sha256': probe.dll_hash,
-                  'cache_code_720_bytes_sha256': hashlib.sha256(probe.rom[0x1000000:0x10002d0]).hexdigest(),
+                  'small_and_simple_hook_region_0x400_sha256': hashlib.sha256(probe.rom[0x1000000:0x1000400]).hexdigest(),
                   'trace_sha256': hashlib.sha256(a.trace.read_bytes()).hexdigest(),
                   'controller_sequence_sha256': controller_hash,
                   'input_save_sha256': input_hash, 'ram_interventions': probe.ram_interventions,

@@ -88,6 +88,7 @@ pixel_done:
     cmp r5, #8
     blo row_loop
     mov r0, sp
+    bl window_cell
     bl cached_tile
     ldr r6, [sp, #52] @ original palette
     bl write_cell
@@ -121,6 +122,7 @@ kana_slot:
     ldr r2, =0x080fdcc4
 kana_source:
     adds r0, r2
+    bl window_cell
     bl cached_tile
     bl write_cell
     pop {r0-r3,r5-r7}
@@ -137,6 +139,16 @@ call_r3:
     bx r3
 .thumb_func
 write_cell:
+    push {lr}
+    bl window_cell
+    lsls r2, r6, #12
+    orrs r0, r2
+    strh r0, [r1]
+    pop {r1}
+    bx r1
+.thumb_func
+window_cell:
+    @ r1=the exact destination shadow cell; r0 (glyph/tile ID) is retained.
     movs r1, #4
     ldrsb r1, [r4, r1]
     lsls r1, #1
@@ -146,21 +158,21 @@ write_cell:
     adds r1, r2
     ldr r2, =0x03000060
     adds r1, r2
-    lsls r2, r6, #12
-    orrs r0, r2
-    strh r0, [r1]
     bx lr
 .ltorg
 
 @ Content-addressed 124-tile cache; no persistent scratch RAM.
 @ Bank 70..AD and B0..ED. AE/AF/EE/EF voicing marks stay fixed.
 @ Match is by all 32 pixel bytes. Allocation pins every referenced BG0
-@ shadow tile, so unrelated visible glyphs are never evicted.
-@ r0=32-byte glyph. Returns absolute tile ID. r4-r7 preserved.
+@ shadow tile except the cell being replaced. Other references to the old
+@ destination tile still pin it, so unrelated glyphs are never evicted.
+@ r0=32-byte glyph, r1=destination shadow cell. Returns absolute tile ID.
+@ r4-r7 preserved; no state is retained after the current consumer call.
 .thumb_func
 cached_tile:
     push {r4-r7,lr}
     sub sp, #36
+    str r1, [sp, #32]
     movs r4, r0
     ldr r0, =0x03000054
     ldr r5, [r0]
@@ -201,6 +213,9 @@ clear_used:
     lsls r6, #4
     adds r6, r0
 pin_loop:
+    ldr r1, [sp, #32]
+    cmp r0, r1
+    beq next_pin
     ldrh r1, [r0]
     lsls r1, #22
     lsrs r1, #22

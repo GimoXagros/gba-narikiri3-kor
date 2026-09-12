@@ -83,6 +83,7 @@ next_pixel:
     cmp r5,#8
     blo row
     mov r0,sp
+    ldr r1,[sp,#36] @ saved destination shadow cell
     bl cached_tile
     movs r2,r0
     add sp,#36
@@ -108,6 +109,7 @@ kana:
     ldr r2,=0x080fdcc4
 atlas:
     adds r0,r2
+    ldr r1,[sp,#4] @ saved destination shadow cell
     bl cached_tile
     movs r2,r0
     add sp,#4

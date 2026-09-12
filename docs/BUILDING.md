@@ -36,6 +36,8 @@ python -m venv .venv
 
 ## 정상 입력과 저장 재실행 확인
 
+dev32부터 전체 27개 분리 CPU 검사에 소형 글자 공간 124칸에서의 교체 경계 16건을 포함한다. 교체할 셀만 해제하고 다른 셀의 글자를 보존하는지 두 출력기·두 배경에서 검사한다. 꾸러미에도 필수이며 전체 화면의 동시 글자 수가 124 이내라는 증거와 구별한다. `docs/CACHE_REPLACEMENT.md` 참조.
+
 ```powershell
 .\.venv\Scripts\python.exe -X utf8 tools/verify_runtime_smoke.py --rom output/reproduce-01/ND3_B3TJ_K_v1.1a.gba --core 'C:\도구\mgba_libretro.dll' --out output/runtime-reproduce-01
 ```

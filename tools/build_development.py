@@ -32,6 +32,7 @@ def main():
     rom=out/project()['rom_file']
     checks=[('verify_small_consumer.py','consumer-verification.json',['--legacy',legacy_path,'--glyphs',ROOT/'fonts/dalmoori-wansung.json']),
             ('verify_simple_consumer.py','simple-consumer-verification.json',['--legacy',legacy_path,'--glyphs',ROOT/'fonts/dalmoori-wansung.json']),
+            ('verify_cache_replacement.py','cache-replacement-verification.json',[]),
             ('verify_name_import.py','name-import-verification.json',[]),
             ('verify_integrated_names.py','integrated-name-verification.json',[]),
             ('verify_ui_format.py','ui-verification.json',[]),

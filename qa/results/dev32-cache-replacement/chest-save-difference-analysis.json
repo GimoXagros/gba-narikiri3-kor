@@ -1,0 +1,50 @@
+{
+  "status": "SCOPED_STATE_COMPARISON_COMPLETE",
+  "rom_sha256": "1051612d3027c315596e28a5eb78451287bde5926e57d45268537c90c29b56ca",
+  "date": "2026-09-12",
+  "ignored_for_comparison_only": [
+    "0xF0C..0xF0F: suspend checksum",
+    "0x18DC..0x18DF: suspend timer"
+  ],
+  "save_files_modified": false,
+  "new_cross_core_remaining_8192_byte_state_identical": true,
+  "runs": [
+    {
+      "core": "mgba",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "save_sha256": "09d08b67991c59685af4787ab6af4e6f4eedbc9274cf586a2ee43ced2f63632c",
+      "checksum_valid": true,
+      "suspend_timer": 106529,
+      "normalized_sha256": "6ecd567d33c57d132afce259f37c0541df88a0739861c836decb034f4ee67987",
+      "same_core_dev31_changed_decoded_offsets": [
+        "0xf0c",
+        "0x18dc"
+      ],
+      "comparison_report_sha256": "5af02704d40fa5e5c6619c33e6d0164b2c5095b6154457e6a6bfade257f09cc8",
+      "adopted_route_sha256": "7e325d794e0e6c4b1aa7a509304b5b204fb37006a3150bba78e1c83c18fc8e0f"
+    },
+    {
+      "core": "vba",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "save_sha256": "bb3fe8468d68d29b4c7ead1aa831436320da2b859015bb545cda42d3d80cf9cd",
+      "checksum_valid": true,
+      "suspend_timer": 106660,
+      "normalized_sha256": "6ecd567d33c57d132afce259f37c0541df88a0739861c836decb034f4ee67987",
+      "same_core_dev31_changed_decoded_offsets": [
+        "0xf0c",
+        "0xf0e",
+        "0x11e2",
+        "0x11e4",
+        "0x140a",
+        "0x140c",
+        "0x1410",
+        "0x178c",
+        "0x18dc",
+        "0x1aa4"
+      ],
+      "comparison_report_sha256": "bf3c2268b98e5c1007b3a57bd9e7cee4ccdcc005e811b57cea13a6bea66ddfc7",
+      "adopted_route_sha256": "7b6c9b3facf3ff7414ec34e6ee2c9d2488f7dd85884572b2337ea2652ee865aa"
+    }
+  ],
+  "observations": "mGBA: nine PNGs equal previously viewed dev31 captures; changed battle item list directly viewed, difference is 95 hand-cursor pixels. Chest and save-complete images also directly viewed. VBA: three final captures byte-identical to the directly viewed successful dev31 route. Raw strict comparison failures are retained. New VBA differs from old VBA combat outcomes; it matches new mGBA state after checksum/timer normalization."
+}

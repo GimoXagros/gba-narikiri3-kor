@@ -1,0 +1,104 @@
+{
+  "status": "SCOPED_NORMAL_RELOAD_AND_COOKING_MENU_OBSERVED",
+  "date": "2026-09-12",
+  "runs": [
+    {
+      "core": "mgba",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "rom_sha256": "1051612d3027c315596e28a5eb78451287bde5926e57d45268537c90c29b56ca",
+      "input_save_sha256": "09d08b67991c59685af4787ab6af4e6f4eedbc9274cf586a2ee43ced2f63632c",
+      "operations_sha256": "3aa221419ec196bb7953aa3a2b75f44d72472d53a33b5e6b9a4fc4253e34191e",
+      "final_frame": 3337,
+      "ram_interventions": 0,
+      "state_imports": 0,
+      "captures": [
+        {
+          "frame": 2609,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-mgba\\resumed-chest-items-32.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "6c49b8f2e7c5851870a96fd828cd50df046d6f8f7f36f6c3c58512ff041366db"
+        },
+        {
+          "frame": 3095,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-mgba\\first-chest-cooking-list-32.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "99af895954e67d425ec7309efaa26e3d2c4cba606e7a746071a743ee2c374c96"
+        },
+        {
+          "frame": 3216,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-mgba\\cooking-no-rice-32.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "87cc4ac7d2423a7afa2e6e9b1ba7a2524d12864c16bcdba73461e4a8460ebf85"
+        },
+        {
+          "frame": 3337,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-mgba\\cooking-cancel-return-32.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "097c546b3760ceae386bebeeecaf9fa422aa9b1906b434fd60752d85bff7d38b"
+        }
+      ],
+      "observed": "All four selected captures directly viewed: resumed inventory Apple Gummy4/Lettuce3/Life Bottle1/Panacea Bottle5; Rice Ball94%, required Rice0, HP10% recovery description; insufficient ingredients message after A; recipe description restored after B. No successful cooking or other recipes claimed."
+    },
+    {
+      "core": "vba",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "rom_sha256": "1051612d3027c315596e28a5eb78451287bde5926e57d45268537c90c29b56ca",
+      "input_save_sha256": "bb3fe8468d68d29b4c7ead1aa831436320da2b859015bb545cda42d3d80cf9cd",
+      "operations_sha256": "628ed7af287d03f1c8a85fca2a7ec479afec10150437fbad6cfde4e675194263",
+      "final_frame": 3337,
+      "ram_interventions": 0,
+      "state_imports": 0,
+      "captures": [
+        {
+          "frame": 2609,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-vba\\resumed-chest-items-32.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "2a4e3bfd319e802c492bfc663759402903d082e67408838280555006ff6fb6d6"
+        },
+        {
+          "frame": 3095,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-vba\\first-chest-cooking-list-32.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "2ecca785caa99c96d8246a13038635e8c49b6ab8a518bcef61eb6d5c891ecc15"
+        },
+        {
+          "frame": 3216,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-vba\\cooking-no-rice-32.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "62ae4b2f919d4b31f2a520f0076453b1633178a213e94bad50489b538a5a9573"
+        },
+        {
+          "frame": 3337,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-vba\\cooking-cancel-return-32.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "7b4f332305d82fb58ff5635676238cc81dc57b2f56cd3352e98e32026e0cdebb"
+        }
+      ],
+      "observed": "All four selected captures directly viewed: resumed inventory Apple Gummy4/Lettuce3/Life Bottle1/Panacea Bottle5; Rice Ball94%, required Rice0, HP10% recovery description; insufficient ingredients message after A; recipe description restored after B. No successful cooking or other recipes claimed."
+    }
+  ]
+}

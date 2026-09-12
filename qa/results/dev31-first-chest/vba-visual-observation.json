@@ -1,0 +1,19 @@
+{
+  "status": "PARTIAL_ROUTE_OBSERVED_LATE_INPUT_DIVERGENCE",
+  "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "route_sha256": "c877c66d80f5049f2bb031faf516ea75514b0144594357599ff50a4fedad3098",
+  "capture_sha256s": [
+    "a64cdddd728f4601d692bc26d860ef0ad1133518c2059679b61358c9a146f336",
+    "cf22c2015c01e8fa43c2cce8c3aac80251ad8de62d09e644358cd0533555c489",
+    "586af96a0f8cf995aa58911323fcbee1c6a006525580c7ef4190bf679232f4b9",
+    "dd18f0da158ef0d437544fc359922272383320c8c855fc2b2ff972a7d1738d02",
+    "e49b97c73fe11e04572a080cb8eceda57971b48e3e5644c24b30e8de14bac4fe",
+    "39b76b8da52e71c00f7a455b685048f761b8743f602c5c1cff212516f29f5bd4",
+    "21680b6abce79262850ed55d918949475ddb8ba1ab5b42dd98b6bcf14a56df7e",
+    "a96550053daff73bebc98ac33347352c2215717f10f69a5451738811cbe57586",
+    "530aeccda4e47f62cef1c4722e643020000ea89d1f1352229eafbe07714b2e0c",
+    "5668c2e892733748229d1cc05510cd5dd5a219899cded3efa4944d572ee1566c"
+  ],
+  "observed": "All ten replay PNGs directly viewed. First seven capture milestones show: Thief costume; lockpick prompt; first Refill dialogue after opening the door; second Refill dialogue; lettuce reward; item list; post-heal HP599. Final three requested chest/save milestones instead show Lloyd field/movement/menu. They do not prove chest collection or a new save on this core. No emulator crash or ROM defect is established."
+}

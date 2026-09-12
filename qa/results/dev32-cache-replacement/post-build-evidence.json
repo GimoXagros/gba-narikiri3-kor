@@ -1,0 +1,76 @@
+{
+  "rom_sha256": "1051612d3027c315596e28a5eb78451287bde5926e57d45268537c90c29b56ca",
+  "date": "2026-09-12",
+  "frozen_reproduction_sha256": "a31133728e611ad0d95df069e4cd9672b02f93cbaaaaab99de197e483e6e8305",
+  "evidence": [
+    {
+      "file": "qa/results/dev32-cache-replacement/after-dev32.json",
+      "sha256": "b49f3bdd4b7692459d3f7a349c4181a178a6974dda1019fe3ac9a33fd1799e78"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/before-dev31.json",
+      "sha256": "e21f0fc4550deebe0c4d56a09f6c2bb18104df3a1c23a4bda2279251b9280b5e"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/chest-resume-and-cooking-observations.json",
+      "sha256": "bc9c91c70025a8b5734d0c43ac90755835bf9a8eecbc4a79ef86f5c1b8aedd13"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/chest-save-difference-analysis.json",
+      "sha256": "e564e30e8781d1726f4d9d777005fa2821b1bd76e05afb7038d69dac3bd431b5"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/mgba-chest-comparison.json",
+      "sha256": "5af02704d40fa5e5c6619c33e6d0164b2c5095b6154457e6a6bfade257f09cc8"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/mgba-keyboard.json",
+      "sha256": "a198f0572140e33092f69d1acdb99b957024dc7535ffc41b1a8c9fd039155ecb"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/mgba-runtime.json",
+      "sha256": "c318c0b672e1e8fb66ae3afd34040200b82d3dbb485f1258a530793416a520f5"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/mgba-timing.json",
+      "sha256": "e0fd01f4f879cf0b02bdf576bde8d7d157d39d54117c1e262e92adbc1f0c0890"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/mgba-visual-observation.json",
+      "sha256": "5e5269613d024d83210020b034709a7659972594bf96a4962100c88271359bf3"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/package-initial-verification.json",
+      "sha256": "ea3101f3fb37d7ac4f10d0c2255f3908117831d28e16770305db579c19d1911b"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/package-verification.json",
+      "sha256": "3da9bb2b97a25b15920f91d723475a5daef0479c21652653b0381fdbce3067b5"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/rom-difference-scope.json",
+      "sha256": "d98b8559dada174e7e66d7372f210ab1163e5967fdd88cb289fd0b4df7eee718"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/vba-chest-comparison.json",
+      "sha256": "bf3c2268b98e5c1007b3a57bd9e7cee4ccdcc005e811b57cea13a6bea66ddfc7"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/vba-keyboard.json",
+      "sha256": "38bcac7c4f723ba5c85cd80505a062a07f70a4db682917b95172dae330f9a93a"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/vba-runtime.json",
+      "sha256": "297f18fd7cd4f5bb4014caa316a88f3a6528af9886a7beecdbd3f0256d3f93e0"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/vba-timing.json",
+      "sha256": "5ba53e6f0b396c7426328ee652dfc7a86676b60772bff631b239bd02120266bd"
+    },
+    {
+      "file": "qa/results/dev32-cache-replacement/vba-visual-observation.json",
+      "sha256": "4429c3705d5fa8f51501a48a6365f52878ebedb4e5cc969ce8a6d88d4346280c"
+    }
+  ],
+  "note": "Timing references were adopted after frozen reproduction.json. Original strict chest comparison failures are preserved and diagnosed in chest-save-difference-analysis.json; see the separate fresh reload/cooking observations. The initial package had a stale guide; the selected _02 package corrects documentation without changing the ROM."
+}

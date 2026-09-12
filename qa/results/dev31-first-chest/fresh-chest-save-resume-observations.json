@@ -1,0 +1,82 @@
+{
+  "status": "SCOPED_RELOAD_AND_INVENTORY_OBSERVED",
+  "runs": [
+    {
+      "core": "mgba",
+      "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "input_save_sha256": "fc8fb3e347dd0a465e2a8bdfaebe2bc8ff4a69712e765c98b7040706fda7272e",
+      "operations_sha256": "a69bef59cd1726dacc6b0143b908b72dfafce613e16b1fc86b0ea43d29c54988",
+      "ram_interventions": 0,
+      "state_imports": 0,
+      "captures": [
+        {
+          "frame": 2325,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-resume-mgba\\resumed-chest-checkpoint-31.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "4e284e42da445a0ad0aeb1e339224b55b978387edd1e125d57af767b93fb154e"
+        },
+        {
+          "frame": 2609,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-resume-mgba\\resumed-chest-items-31.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "c283810967ebd114d3ea6257af67efbc0ec7f9993da7338453b851c0fb9e41a6"
+        }
+      ],
+      "observed": "Both captures directly viewed on 2026-09-12: field resumes with Lloyd selected; item menu opens and names/quantities display.",
+      "inventory": {
+        "애플 구미": 4,
+        "양상추": 3,
+        "라이프 보틀": 1,
+        "파나시아 보틀": 5
+      }
+    },
+    {
+      "core": "vba",
+      "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "input_save_sha256": "2146dbe8591aa529e5332766b35e51063bfc4a1fa1a63214a87a1f2ee426e440",
+      "operations_sha256": "5b7baa23a7ed781cc7bbc68ebc67f15892b3379613ead377ed6daafb86eed16d",
+      "ram_interventions": 0,
+      "state_imports": 0,
+      "captures": [
+        {
+          "frame": 2325,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-resume-vba\\resumed-chest-checkpoint-31.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "e76b88a40c7b7bd2063e7f325334fb09578e0d40606b52bdeebd638699260930"
+        },
+        {
+          "frame": 2609,
+          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-resume-vba\\resumed-chest-items-31.png",
+          "size": [
+            240,
+            160
+          ],
+          "sha256": "578585beab1e4689876077f915a6e57b49b522851423c58e8413a50d80fcd836"
+        }
+      ],
+      "observed": "Both captures directly viewed on 2026-09-12: field resumes with Lloyd selected; item menu opens and names/quantities display.",
+      "inventory": {
+        "애플 구미": 4,
+        "양상추": 4,
+        "라이프 보틀": 1,
+        "파나시아 보틀": 5
+      }
+    }
+  ],
+  "limits": [
+    "First mission not completed.",
+    "Different cross-core reward quantities; no claim of identical final save state.",
+    "No audio verification or whole-game compatibility claim."
+  ]
+}

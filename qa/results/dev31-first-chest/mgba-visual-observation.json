@@ -1,0 +1,19 @@
+{
+  "status": "SCOPED_MILESTONES_OBSERVED",
+  "rom_sha256": "088f768240a75e29de007c7848b2df5dc02ee8b15c30c8ea5939fc7daf3996bc",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "route_sha256": "c877c66d80f5049f2bb031faf516ea75514b0144594357599ff50a4fedad3098",
+  "capture_sha256s": [
+    "4f377e2fd6495722b185f0c11af1a00ba85ac1ae8344d2f217c49108674813af",
+    "4fe73d6d2e0593d1cdf4ac3b141b4fb97e5e806e0cc8870f0fd8499cbb9659b4",
+    "942aa404ad3a3c13b9d6383f36fe496948d271cd75eac53ff03f66d1d848e594",
+    "e7db1e138e9d403429bf0ae63b5b3954471853beada3612a2f828b62109a412c",
+    "834116cb4fb1e01553de06224c477de2485ba46182ee789fdb1fcac546c30eba",
+    "2b6d6e2111937ef01a1435e46e5f0fbe8c3652660d69712e0ebd52c66f533e2e",
+    "e386b30c29a9db9f114a957564f4af1836670d74d6eedb1ca2e1295f72e0d062",
+    "8df18a43082f8aa6520ba648446bba00f5c393d82cb58e92d4f1069211951dd9",
+    "e6c5db1fd22c0df4dd5ffb7da25271aa2541f740b647f089307d077ee81049de",
+    "3f94698a0a89b5c5b71e0ecf0b6cf8a03cdec9234bc28d4ee3ebdafd89959824"
+  ],
+  "observed": "The original mGBA captures were directly viewed during live controller operation. This replay reproduces all ten PNGs and final EEPROM byte-for-byte."
+}
