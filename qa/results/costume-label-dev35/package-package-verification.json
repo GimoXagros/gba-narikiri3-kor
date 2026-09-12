@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "archive_sha256": "ad66be484f5fa2e0f8f987b7e8ea34fb2b603cd1a373b2f9817d06bdfc7cd9c5",
+  "target_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "source_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "actual_included_applier_roundtrip": true,
+  "wrong_base_rejected_without_output": true,
+  "existing_output_rejected_without_change": true,
+  "archive_has_no_rom_or_save": true,
+  "member_count": 36
+}

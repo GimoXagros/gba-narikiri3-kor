@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "selected_text_fields": 7,
+  "hangul_measure_cases": 4700,
+  "legacy_width_cases": 10,
+  "actual_creation_cases": 192,
+  "actual_item_stat_record_cases": 246,
+  "synthetic_signed_boundary_records": 10,
+  "stat_messages_including_boundaries": 304,
+  "maximum_observed_stack_string_bytes": 16,
+  "original_stack_buffer_bytes": 32,
+  "item_stat_data_preserved": true,
+  "scope": "Actual original creation getter/center/renderer and 123-item six-signed-stat loop with only its 90-frame wait substituted, both modes. Separate signed-byte boundary fixture substitutes item getter with a RAM record, never changing ROM/saves. Every Hangul width and original legacy convention checked. Normal wardrobe crafting remains separate."
+}

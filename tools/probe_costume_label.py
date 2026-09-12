@@ -11,6 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def main():
     p=argparse.ArgumentParser()
     for n in ('rom','core','save','out'):p.add_argument('--'+n,type=Path,required=True)
+    p.add_argument('--dump-memory',action='store_true')
     a=p.parse_args();f=Probe(a.core,a.rom,a.out,a.save);captures=[]
     def key(k,wait=240):
         f.execute({'op':'frames','count':4,'buttons':[k]})
@@ -19,6 +20,7 @@ def main():
         c=f.execute({'op':'screenshot','name':name+'.png'})
         ram=f.read_memory(0x02000000,0x20000)+f.read_memory(0x02020000,0x20000)
         c['ewram_sha256']=hashlib.sha256(ram).hexdigest()
+        if a.dump_memory:(a.out/(name+'.ewram')).write_bytes(ram)
         captures.append(c)
     try:
         trace=ROOT/'qa/traces/reload-menu.json'

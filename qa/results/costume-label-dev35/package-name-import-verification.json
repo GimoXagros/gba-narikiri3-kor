@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "hangul_position_roundtrips": 11750,
+  "mixed_and_default_delete_cases": 6,
+  "scope": "Actual Thumb importer, original five-slot commit and deletion; candidate keyboard and all persistence consumers are separate"
+}

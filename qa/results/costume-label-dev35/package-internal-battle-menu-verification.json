@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "selector_boundary_cases": 128,
+  "actual_dispatch_cases": 64,
+  "ordinary_actions": [
+    "0x801770d",
+    "0x80178c9",
+    "0x8017991",
+    "0x8017a85"
+  ],
+  "unselectable_internal_action": "0x8017ac1",
+  "preserved_duplicate_name_entries": 212,
+  "scope": "Original ordinary battle menu clamps selection to 0..3 before confirming; fifth slot 17AC0 opens internal character editor C5DC/C6A8 with duplicate 212-entry list. Sound and cursor animation substituted. This is a scoped ordinary-route exclusion, not a proof against arbitrary memory corruption, cheats, all hidden code or every ROM reference."
+}

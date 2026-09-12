@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "skill_records": 390,
+  "selected_text_fields": 538,
+  "large_name_repairs": 98,
+  "description_repairs": 50,
+  "name_getter_cases": 1560,
+  "large_name_cases": 780,
+  "actual_description_and_newline_cases": 780,
+  "large_glyph_position_cases": 13644,
+  "maximum_description_cells": 18,
+  "metadata_preserved": true,
+  "scope": "All 390 typed records and real name getters; large name and actual description/newline caller in both modes, observed 18-cell line. Stops before actor-dependent TP calculation. Normal skill acquisition, all menus and use remain separate."
+}

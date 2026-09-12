@@ -17,6 +17,15 @@ def main():
     bank=int(profile['bank'],0)
     for idx in range(111):
         if idx in (45,46,47,48):continue
+        if idx in (0,7):
+            # The costume verifier separately proves these relocated payloads
+            # and executes their original consumers; still guard exact targets.
+            label=json.loads((ROOT/'source/costume_label_profile.json').read_text(encoding='utf-8'))
+            target=int(label['relocated_atlas' if idx==0 else 'relocated_map'],0)
+            off=bank+4+idx*4
+            if rom[off:off+4]!=old[off:off+4] and struct.unpack_from('<I',rom,off)[0]!=target-bank:
+                raise ValueError('Unexpected costume graphics relocation')
+            continue
         off=bank+4+idx*4
         if rom[off:off+4]!=old[off:off+4]:raise ValueError('Unrelated graphics bank entry moved')
     pixel_cases=0;loads=0;cases=[]

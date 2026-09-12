@@ -1,0 +1,238 @@
+{
+  "status": "SCOPED_COMPARISON_COMPLETE",
+  "scope": "21 of 22 same-core screenshots differ only inside the 48x16 label. One mGBA character-selection capture also differs within Caro animation (535 pixels). No text or stat difference outside the label. VBA EWRAM differs only in four map edge halfwords. mGBA full EWRAM identity is not asserted. Exact first-save contents checked separately. No whole-game/audio claim.",
+  "cores": {
+    "mgba": {
+      "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "cases": [
+        {
+          "capture": "main-menu.png",
+          "old_png_sha256": "a8bc37e5e4e5ab495aa98955855fa60cf6e7451da101e9cfa8c36e7b51376117",
+          "new_png_sha256": "a8bc37e5e4e5ab495aa98955855fa60cf6e7451da101e9cfa8c36e7b51376117",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 0,
+          "old_ewram_sha256": "aca04c8afb43b82266d52879fae21434675ed91c5df2ae97cfd4900fff69303c",
+          "new_ewram_sha256": "aca04c8afb43b82266d52879fae21434675ed91c5df2ae97cfd4900fff69303c"
+        },
+        {
+          "capture": "change-selected.png",
+          "old_png_sha256": "23d9fc36230a3dff24dc2fc8d0831a020b16a8faac369eda5727886c222f2aff",
+          "new_png_sha256": "f684f0fd4f55208974596f911864a7a75c32b649446539cc83e639fc80178e05",
+          "changed_pixels": 387,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3156,
+          "old_ewram_sha256": "18914bb48c8859a1493c8d1d52c79e2fed265f8cf2f909085ed47d816c72b1b3",
+          "new_ewram_sha256": "e0c44b8bf4e54e482bff0eda8f7529db30773fa7d3e729c3a57097166cbb4ee3"
+        },
+        {
+          "capture": "confirm-selected.png",
+          "old_png_sha256": "9f75f5df99174e98dab2d1416e0f1c4d3db345637dcdbb6f5b12a6f34d4e349b",
+          "new_png_sha256": "3a881e8aebd6d208dd259bd8a91fe64fbc3176ff12cfcd6a9c682d4d5ccfaafe",
+          "changed_pixels": 418,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3137,
+          "old_ewram_sha256": "e60436ce8a743746f4b21f43c4dda2e3482acc522b131bc674a37aaefff46e74",
+          "new_ewram_sha256": "e5eff85b2734ffd11b8e6b8ab5a0a5dee3deac9d475f06be1b066b3e15ce08d9"
+        },
+        {
+          "capture": "change-reselected.png",
+          "old_png_sha256": "dbd08d829aebdaaafd09bc2e5267d7f472e61ca8ee1ceb44ed770c1a1184aaa9",
+          "new_png_sha256": "ce168ec2e5400ce14fa835c22f8a232e13667a749704262f0da8f5c880a5e481",
+          "changed_pixels": 397,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3145,
+          "old_ewram_sha256": "2f85d5a030bc026aba458d3b093a3c0dad973a911d1fb203b520713bcb321155",
+          "new_ewram_sha256": "9b8b067a2ba4ea1faa2c7fc3b3d0309bac6cc95e9f6e33f73fb0b8475069c316"
+        },
+        {
+          "capture": "character-selection.png",
+          "old_png_sha256": "db36d44bb9d9529ef1ee6cd8b32692cedd27dbf8defde925f769dfd5204b5e93",
+          "new_png_sha256": "459a2952c1431e7f734de38b656c3598adf38bd71e9282487569d8cb07bc691b",
+          "changed_pixels": 953,
+          "outside_label_changed_pixels": 535,
+          "ewram_changed_bytes": 3165,
+          "old_ewram_sha256": "d080451a90a59c74f9e3727bb0c3c6f5f35f3ae6bdc2f125d0232bf1acee91e2",
+          "new_ewram_sha256": "01b2a580fda2192a6687ba827a7794aeebcf1b3d28f3727b23c7442251b0130b"
+        },
+        {
+          "capture": "costume-list.png",
+          "old_png_sha256": "f96de826b02d7a100fedb76767b4d2f0e5e2c02e9101bc43e3ef31e6892b0436",
+          "new_png_sha256": "f96de826b02d7a100fedb76767b4d2f0e5e2c02e9101bc43e3ef31e6892b0436",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3159,
+          "old_ewram_sha256": "4256d98a7b19b937891d25e129075ce93eaed35d48ae8909bbe26651a58a3584",
+          "new_ewram_sha256": "fe088220abf504e8a25bdbb9ee3d357cdfbbf12d49ac51bc4e1db2d8336f5178"
+        },
+        {
+          "capture": "swordsman-selection.png",
+          "old_png_sha256": "e738f255118fe9428ab165bd97d627c4d088688c9f84af8d8fc79291e905f6f1",
+          "new_png_sha256": "e738f255118fe9428ab165bd97d627c4d088688c9f84af8d8fc79291e905f6f1",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3130,
+          "old_ewram_sha256": "6d4fb9a94b3706daeb1ed9b6a37c6db74ec97a8a6b145823a7bda4be7271dc3a",
+          "new_ewram_sha256": "a144b8e32880687810d062acaa03f6556102050db202bc9f465bb29be311e487"
+        },
+        {
+          "capture": "change-confirmation.png",
+          "old_png_sha256": "eea57c137905f39e6f8c43b01bb04bf93c928c544e50daf77af4d05284a1c058",
+          "new_png_sha256": "eea57c137905f39e6f8c43b01bb04bf93c928c544e50daf77af4d05284a1c058",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3139,
+          "old_ewram_sha256": "ddfc4a7f0c39ebf3aa6aa9b5f5fd62d73b1e8dc7b5e36238b28e72196b3c9f05",
+          "new_ewram_sha256": "ff4c54d91ccfbdbd37e48a5413f84d34bd07b698f368c0122685e647e5431bd5"
+        },
+        {
+          "capture": "change-applied.png",
+          "old_png_sha256": "67ce46da4c517f312af284584a972c53e78f0e87cfecabeedb5b04be925f9090",
+          "new_png_sha256": "67ce46da4c517f312af284584a972c53e78f0e87cfecabeedb5b04be925f9090",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3340,
+          "old_ewram_sha256": "7d8591618a0e98e7561ceecf3e3f0c190b5c240d591620f80d9c5ed5551a3878",
+          "new_ewram_sha256": "b52da6994f62c264f50a9377720f50732971994fd4c4a18b479798938cec1e19"
+        },
+        {
+          "capture": "back-from-costumes.png",
+          "old_png_sha256": "11e64492a8c2c5ba50f2e6c88713b5f3b4ef38bb5e3280c1e5c0b3013bd21c0f",
+          "new_png_sha256": "a02b080b49c03c5b669a6859c7a03773a13d7f919b1e63bcf5e45f2125c8cfe4",
+          "changed_pixels": 418,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3174,
+          "old_ewram_sha256": "6192bbb508a499d7540e46e8253c2fdaec482da67865a6f7db15ded4ba7c693a",
+          "new_ewram_sha256": "76a175c3d810c71e8a705b480a3b6132db8904a9b8624465027b276a03698cca"
+        },
+        {
+          "capture": "back-to-menu.png",
+          "old_png_sha256": "deba1dc7468067e3506f8a061c071d6c0ac4bd8b98d3f4374684d0d08147089e",
+          "new_png_sha256": "df3fd2dcb25457b7f8700c273dc0e3909ad54a54426bdedc821dd005bec7e76d",
+          "changed_pixels": 387,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 3170,
+          "old_ewram_sha256": "1664752d88dfa66e350474f45a168b1877849d44d2d27be8fba836205967d397",
+          "new_ewram_sha256": "a775a04a2c6b9b5841f2f8a4ad1faa25aa188bec610f4a6aec7a20b24f105c0e"
+        }
+      ]
+    },
+    "vba": {
+      "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "cases": [
+        {
+          "capture": "main-menu.png",
+          "old_png_sha256": "ccea570567d9b4c09b213d30fb3e4d02a27cf71951b65fba12d1b838bdd35b20",
+          "new_png_sha256": "ccea570567d9b4c09b213d30fb3e4d02a27cf71951b65fba12d1b838bdd35b20",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 0,
+          "old_ewram_sha256": "0240cc1f116262d375d051247d838b63dbf8abf75cf0febd2182b35123772249",
+          "new_ewram_sha256": "0240cc1f116262d375d051247d838b63dbf8abf75cf0febd2182b35123772249"
+        },
+        {
+          "capture": "change-selected.png",
+          "old_png_sha256": "310254e47301272a1822bd18c83ec34ff18e9c69b15fd659a037a5c4df8c4f5e",
+          "new_png_sha256": "9585aabc4a818193a366c482179658953c2486c212e20cbcdf856e6afdec1d3e",
+          "changed_pixels": 387,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 8,
+          "old_ewram_sha256": "643f388810066b0bff82a09f19e19ffb30fbdcee807e6125b16a63eb23695dc0",
+          "new_ewram_sha256": "5d1c58ab9404c9e2e80b8e8f2e7d44a23edb568e885a05a9107154d88d707f5a"
+        },
+        {
+          "capture": "confirm-selected.png",
+          "old_png_sha256": "d95ac4fa89174afb7683b8fa05f09949493be76226a8bd33889417ed21721073",
+          "new_png_sha256": "f47a7fd880406626f67035990ee7eea987b7369b0f74fe0f3dc842e0ae538da8",
+          "changed_pixels": 418,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 8,
+          "old_ewram_sha256": "eb0b9d88345b678511a499499b931f1f539915557c9550a9f3d01becfc802c8b",
+          "new_ewram_sha256": "c6c3333c5e69eb83b2267614318172060459f351db9effc973492aab86dc29bc"
+        },
+        {
+          "capture": "change-reselected.png",
+          "old_png_sha256": "0c992c42ada21f6ad2f2d5b2d306cfc6c98408de751c1f1cd550f3eacb07f7e1",
+          "new_png_sha256": "5b6ce14665f93142141e5732d95c827e76d8929e2da8912dff7464071f9cb052",
+          "changed_pixels": 397,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 8,
+          "old_ewram_sha256": "d71f49fe2df5e2cf83c8f1603d0933eb49392ed9e02becd73f678d9fc81a9b3c",
+          "new_ewram_sha256": "3e5bfee0d123b82b1591f456f01af68959b3b685a2d0cf138044b288ec5f33f9"
+        },
+        {
+          "capture": "character-selection.png",
+          "old_png_sha256": "41487a59ef965a9b9ed5386cbc7405439454c002fb4d240b3dc99a6418e6a245",
+          "new_png_sha256": "586c928af9123aefe5ccdbfb09d0622bc11c95b8d4c657f8a10330cf334715a3",
+          "changed_pixels": 418,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 8,
+          "old_ewram_sha256": "3ba56206b67a149736de8bf0bf600476cfcf3a9bdf0d666d2b73c24b7cc22643",
+          "new_ewram_sha256": "3a90325cecde5fbde3c8b93f7f2e2b9a6cfbe93c1b651f599c4859a7b4f54121"
+        },
+        {
+          "capture": "costume-list.png",
+          "old_png_sha256": "b6c484dc07546e5669de2888002cc8b28719af8a56d4113016f0123d7bd59cee",
+          "new_png_sha256": "b6c484dc07546e5669de2888002cc8b28719af8a56d4113016f0123d7bd59cee",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 0,
+          "old_ewram_sha256": "1fe9a71049b02d22efb33f4dbf6d13afef96e40f0d86ef3eca0aeef8597b8e64",
+          "new_ewram_sha256": "1fe9a71049b02d22efb33f4dbf6d13afef96e40f0d86ef3eca0aeef8597b8e64"
+        },
+        {
+          "capture": "swordsman-selection.png",
+          "old_png_sha256": "3e61f3c3173eff2c8598b44d48e27045da8c12336fc642d01d7a9529e85ace09",
+          "new_png_sha256": "3e61f3c3173eff2c8598b44d48e27045da8c12336fc642d01d7a9529e85ace09",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 0,
+          "old_ewram_sha256": "59d24f2d2e95e28ba12eeb00e7ce8e62dd60682079f4957f108a3fc5a7a864dc",
+          "new_ewram_sha256": "59d24f2d2e95e28ba12eeb00e7ce8e62dd60682079f4957f108a3fc5a7a864dc"
+        },
+        {
+          "capture": "change-confirmation.png",
+          "old_png_sha256": "ae397cd893a082c397cbe3e80a7f16cdaca86f7ea1abc582e64ba930c4d91410",
+          "new_png_sha256": "ae397cd893a082c397cbe3e80a7f16cdaca86f7ea1abc582e64ba930c4d91410",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 0,
+          "old_ewram_sha256": "89ec6d51fee725f1e1deadb748453af4b99c0f477480c9a974af0303ab0ae088",
+          "new_ewram_sha256": "89ec6d51fee725f1e1deadb748453af4b99c0f477480c9a974af0303ab0ae088"
+        },
+        {
+          "capture": "change-applied.png",
+          "old_png_sha256": "6565b1fdb8e4a9ce338e00dd69eecbb5aca376028ce64ed8b50fa97c4ec25d17",
+          "new_png_sha256": "6565b1fdb8e4a9ce338e00dd69eecbb5aca376028ce64ed8b50fa97c4ec25d17",
+          "changed_pixels": 0,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 0,
+          "old_ewram_sha256": "5dc714274b32ff035d6fb2e5d7976a268752b95bb73bb7ad9f462ee376e0f996",
+          "new_ewram_sha256": "5dc714274b32ff035d6fb2e5d7976a268752b95bb73bb7ad9f462ee376e0f996"
+        },
+        {
+          "capture": "back-from-costumes.png",
+          "old_png_sha256": "7758c3e406ce215b1d484831e1ebe5e76619cf3d52acb82be288a6e55246644f",
+          "new_png_sha256": "24ccd5b3aced908ad7ee5f0aeb471f38b84ac5ac89510659d4d751d44858b985",
+          "changed_pixels": 418,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 8,
+          "old_ewram_sha256": "36e3696ee4a28d28c3e2869025f6ba8d65ccd2fb7f881d9e7439045b2c5161a5",
+          "new_ewram_sha256": "9a03a4a20b0b8eacc25ef1d114a9e8cafee80fff028ca38c41f5da02e176369b"
+        },
+        {
+          "capture": "back-to-menu.png",
+          "old_png_sha256": "dc480b75943bba370fc79e14aba4acb816041fcf076a573d9abad91f858a3720",
+          "new_png_sha256": "1195646ccc8c68460b17645119b32213d46b25a67751d0fab2bc3d4b06180ef9",
+          "changed_pixels": 387,
+          "outside_label_changed_pixels": 0,
+          "ewram_changed_bytes": 8,
+          "old_ewram_sha256": "bdc5844e58529271922833ac640974af43ba2b22c87eb63e4e916f99275793d1",
+          "new_ewram_sha256": "46c4ed0aa84ae456084a8070f1fe9e211108c93a366a252f450800ab38426866"
+        }
+      ]
+    }
+  }
+}

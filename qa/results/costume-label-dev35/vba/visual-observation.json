@@ -1,0 +1,16 @@
+{
+  "status": "EXPECTED_SCREENS_OBSERVED",
+  "date": "2026-09-13",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+  "captures_reviewed": [
+    "change-selected",
+    "confirm-selected",
+    "costume-list",
+    "change-confirmation",
+    "back-to-menu",
+    "main-menu"
+  ],
+  "observer": "Codex direct image review",
+  "observed": "All four label characters, interior palette index 1, original outlines and selection colors; normal swordsman selection/confirmation and return with HP8504 TP1097. Logo unchanged."
+}

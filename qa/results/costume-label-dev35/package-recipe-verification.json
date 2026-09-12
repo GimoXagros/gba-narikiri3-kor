@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "recipe_records": 22,
+  "selected_string_fields": 29,
+  "original_getter_and_list_renderer_cases": 44,
+  "effect_and_ingredient_bytes_preserved": true,
+  "scope": "All 22 recipe identities; original getter and small-list call path in both modes. Large name/description pointer contents checked; natural cooking/results/layout remain separate."
+}

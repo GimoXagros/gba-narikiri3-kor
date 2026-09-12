@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "selected_ui_entries": 77,
+  "format_and_pixel_mode_cases": 384,
+  "scope": "Real Thumb formatter or declared direct small-render path, including sequential team suffixes and special unit getter; representative boundaries in both modes; not all UI or whole-game coverage"
+}

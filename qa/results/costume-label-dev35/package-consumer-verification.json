@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "claim": "Isolated original Thumb consumer execution, not whole-game runtime",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "glyph_mode_cases": 4700,
+  "kana_ascii_control_cases": 24,
+  "live_label_cases": 2,
+  "cache_capacity_and_exhaustion_cases": 2,
+  "skill_consumer_cases": 780,
+  "button_graphic_preservation_cases": 76,
+  "limits": [
+    "Not all callers or font loaders covered",
+    "124-slot exhaustion is a verified development-only failure signal, not release behavior",
+    "No persistence or gameplay claim"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "selected_table_entries": 54,
+  "getter_pointer_and_both_renderers_mode_cases": 108,
+  "non_text_team_rules_unchanged": true,
+  "scope": "All adopted title/bonus slots, original index getters and two isolated small renderers. Normal-play representative screens and full reachability are separate."
+}

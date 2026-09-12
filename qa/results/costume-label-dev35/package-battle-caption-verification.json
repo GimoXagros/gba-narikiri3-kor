@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "caption_count": 4,
+  "letter_pixel_cases": 9,
+  "original_layout_cpu_cases": 4,
+  "nontext_icons_palette_frames_and_action_code_preserved": true,
+  "scope": "Original graphics bank getter, eight-component caption placement and sprite frame descriptors. Exact Korean pixels, positions and untouched icon/palette/code checked; full GPU and input behavior require normal runtime verification."
+}

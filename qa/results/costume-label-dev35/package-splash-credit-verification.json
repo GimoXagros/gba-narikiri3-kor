@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "changed_bitmap_bytes": 154,
+  "text": "Xagros",
+  "rectangle": [
+    202,
+    152,
+    35,
+    7
+  ],
+  "original_credits_preserved": true,
+  "boot_code_unchanged": true,
+  "scope": "Exact 240x160 RGB555 bitmap and unchanged ARM DMA/key-wait loader; real boot capture is separate."
+}

@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "cases": [
+    {
+      "mode": 0,
+      "consumer": "window",
+      "replacement": "hangul",
+      "old_glyph_has_another_reference": false,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 0,
+      "consumer": "window",
+      "replacement": "hangul",
+      "old_glyph_has_another_reference": true,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 0,
+      "consumer": "window",
+      "replacement": "kana",
+      "old_glyph_has_another_reference": false,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 0,
+      "consumer": "window",
+      "replacement": "kana",
+      "old_glyph_has_another_reference": true,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 0,
+      "consumer": "simple",
+      "replacement": "hangul",
+      "old_glyph_has_another_reference": false,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 0,
+      "consumer": "simple",
+      "replacement": "hangul",
+      "old_glyph_has_another_reference": true,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 0,
+      "consumer": "simple",
+      "replacement": "kana",
+      "old_glyph_has_another_reference": false,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 0,
+      "consumer": "simple",
+      "replacement": "kana",
+      "old_glyph_has_another_reference": true,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 1,
+      "consumer": "window",
+      "replacement": "hangul",
+      "old_glyph_has_another_reference": false,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 1,
+      "consumer": "window",
+      "replacement": "hangul",
+      "old_glyph_has_another_reference": true,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 1,
+      "consumer": "window",
+      "replacement": "kana",
+      "old_glyph_has_another_reference": false,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 1,
+      "consumer": "window",
+      "replacement": "kana",
+      "old_glyph_has_another_reference": true,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 1,
+      "consumer": "simple",
+      "replacement": "hangul",
+      "old_glyph_has_another_reference": false,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 1,
+      "consumer": "simple",
+      "replacement": "hangul",
+      "old_glyph_has_another_reference": true,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 1,
+      "consumer": "simple",
+      "replacement": "kana",
+      "old_glyph_has_another_reference": false,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    },
+    {
+      "mode": 1,
+      "consumer": "simple",
+      "replacement": "kana",
+      "old_glyph_has_another_reference": true,
+      "target_pixels_match": true,
+      "other_123_glyphs_preserved": true,
+      "shared_old_glyph_preserved": true,
+      "status": "PASS"
+    }
+  ],
+  "claim": "Constructed 124-slot replacement boundary through actual Thumb consumers.",
+  "limits": [
+    "Not normal-play reachability evidence for a 124-glyph screen.",
+    "True 125-live-glyph exhaustion remains a release condition.",
+    "Does not close font-loader or full-game lifetime coverage."
+  ]
+}

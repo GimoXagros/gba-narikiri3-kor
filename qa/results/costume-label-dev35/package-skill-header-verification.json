@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "header_cases": [
+    {
+      "type": 3,
+      "text": "특기 설정",
+      "resources": [
+        45,
+        46,
+        47
+      ],
+      "anchor": [
+        48,
+        0
+      ]
+    },
+    {
+      "type": 4,
+      "text": "특기 사용",
+      "resources": [
+        45,
+        48
+      ],
+      "anchor": [
+        68,
+        0
+      ]
+    }
+  ],
+  "resource_load_cases": 5,
+  "letter_pixel_cases": 8,
+  "scope": "Original type dispatch, graphics shape-size lookup, relative bank getter, rounded scratch allocation, decompression dispatch and DMA queue. BIOS RLE interpreted with strict output bounds; isolated OBJ allocation and observed compositor boundary. Full GPU and input require runtime observation."
+}

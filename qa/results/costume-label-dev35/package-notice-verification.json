@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "selected_fields": 13,
+  "music_title_center_copy_and_render_cases": 48,
+  "music_glyph_positions": 568,
+  "maximum_centered_title_bytes_including_nul": 27,
+  "music_buffer_bytes": 44,
+  "special_getter_cases": 10,
+  "field_formatter_cases": 8,
+  "bios_font_buffer_fill_substitutions": 48,
+  "music_and_action_metadata_preserved": true,
+  "scope": "Original music table lookup, centering, bounded object copy and actual large renderer, both positions/modes; only BIOS CpuSet fixed 3840-byte word-fill is modeled. Original field-name special branches and one/two-row small formatter. Normal music-event and special-character progression remain separate."
+}

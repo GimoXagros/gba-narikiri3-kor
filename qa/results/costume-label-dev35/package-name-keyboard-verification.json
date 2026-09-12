@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "successive_page_draws": 120,
+  "candidate_glyph_pixel_cases": 9400,
+  "input_commit_delete_position_mode_cases": 23500,
+  "legacy_input_cells_both_modes": 540,
+  "invalid_blank_or_full_context_cases": 168,
+  "original_page_control_cases": 180,
+  "maximum_observed_pinned_cache_slots": 103,
+  "scope": "Actual Thumb keyboard display/input/commit/delete, every candidate and storage position, both font modes, original page controls with sound callback substituted. PC normal input, saved custom names and full-game cache lifetime remain separate."
+}

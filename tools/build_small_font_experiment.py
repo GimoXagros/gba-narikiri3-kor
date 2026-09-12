@@ -333,7 +333,7 @@ def main():
     costume_label_info=None
     if a.costume_label:
         from costume_label import install as install_costume_label
-        costume_writes,costume_label_info=install_costume_label(legacy,glyphs)
+        costume_writes,costume_label_info=install_costume_label(legacy,extension)
         writes.extend(costume_writes)
     if a.splash_credit:
         from splash_credit import install as install_splash

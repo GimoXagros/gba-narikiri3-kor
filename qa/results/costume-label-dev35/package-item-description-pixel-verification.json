@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "typed_item_records": 123,
+  "selected_description_repairs": 35,
+  "original_getter_cases": 246,
+  "original_description_caller_cases": 1230,
+  "large_glyph_position_checks": 26350,
+  "bios_fill_substitutions": 1230,
+  "item_metadata_preserved": true,
+  "complete_pixel_buffers_match_original_font_bits": true,
+  "scope": "All 123 typed descriptions, five original getter/formatter/large-pixel caller paths, both font modes. Every complete pixel buffer independently matches original 12x16 font bits, with real palette expansion values and two-line boundaries. Only fixed BIOS font-buffer fills are modeled; inventory selection and zero character delay are isolated CPU fixtures. Normal item acquisition and full-game runtime are separate."
+}

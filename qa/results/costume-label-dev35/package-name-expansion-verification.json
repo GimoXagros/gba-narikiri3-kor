@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "new_game_defaults_verified": [
+    "훌리오",
+    "캐로",
+    "드림"
+  ],
+  "selected_dialogue_records": 244,
+  "original_expander_cases": 1225,
+  "allocation_bytes": 256,
+  "guard_bytes_preserved": true,
+  "scope": "Actual original Thumb name expansion and strlen; only allocator substituted. Every relocated dialogue record plus observed unchanged theft template. Natural-play and all other dialogue remain separate."
+}

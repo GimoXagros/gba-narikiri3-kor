@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "baseline_sha256": "af29f6fbd8982bf4874c8c7149d48f106385ed64dbc7176274bcbdeec3a5cc2d",
+  "target_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "changed_bytes": 29909,
+  "permitted_ranges": [
+    [
+      "0xf1d738",
+      "0xf1d73c"
+    ],
+    [
+      "0xf1d754",
+      "0xf1d758"
+    ],
+    [
+      "0xc8c6c",
+      "0xc8c6e"
+    ],
+    [
+      "0x1130000",
+      "0x1139000"
+    ],
+    [
+      "0xf208f4",
+      "0xf20914"
+    ],
+    [
+      "0xf20914",
+      "0xf20934"
+    ],
+    [
+      "0xf20934",
+      "0xf20954"
+    ],
+    [
+      "0xf20954",
+      "0xf20974"
+    ],
+    [
+      "0xf20cf4",
+      "0xf20d14"
+    ],
+    [
+      "0xf20d14",
+      "0xf20d34"
+    ],
+    [
+      "0xf20d34",
+      "0xf20d54"
+    ],
+    [
+      "0xf20d54",
+      "0xf20d74"
+    ]
+  ],
+  "outside_ranges_changed_bytes": 0,
+  "logo_sha256": "5a67a2fe1aa039607aa2550abdb5c3db6844b5f3b45505f2bad37a36c7899df2"
+}

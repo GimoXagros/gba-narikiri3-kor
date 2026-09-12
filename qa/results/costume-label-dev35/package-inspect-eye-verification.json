@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "complete_producer_cases": 280,
+  "monster_titles": 212,
+  "label_fields": 3,
+  "hangul_glyph_position_checks": 2792,
+  "maximum_title_cells": 9,
+  "vram_halfword_writes": 89344,
+  "modeled_dma_transfers": 280,
+  "reserved_tile_indices": [
+    240,
+    254
+  ],
+  "persistent_ram_bytes": 0,
+  "actor_and_monster_metadata_preserved": true,
+  "scope": "Original monster/HP/element/resistance producer and formatter execute. New affine Hangul pixels, complete byte map, borders, repeated reuse, signed resistance boundaries, all eight element symbols and no-attribute ID 8 verified. The 256-byte final DMA is modeled. Normal gameplay and resource lifetime are separate."
+}

@@ -1,0 +1,36 @@
+{
+  "status": "LOCAL_DEVELOPMENT_REVIEW_NOT_100_PERCENT_NOT_RELEASE",
+  "source_size": 16777216,
+  "source_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "target_size": 33554432,
+  "target_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "patch_file": "ND3_B3TJ_K_v1.1a_FROM_J.bps",
+  "patch_sha256": "c3b789557b07d30b63c42e938d5ad30f01afac37a8718907020f9f8462fa5b2c",
+  "bps_roundtrip": true,
+  "rom_included": false,
+  "counts": {
+    "font_glyphs": 2350,
+    "speaker_entries": 89,
+    "skill_entries": 390,
+    "actor_entries": 96,
+    "large_skill_repairs": 98,
+    "large_actor_changes": 26,
+    "lexicon_entries": {
+      "item": 123,
+      "monster": 212
+    },
+    "ui_entries": 77
+  },
+  "limits": [
+    "124 active cached glyphs; remaining consumer paths and lifetime unverified",
+    "exhaustion deliberately emits ? as visible development failure",
+    "player-created names follow a separate path",
+    "32MB expansion requires target-device verification"
+  ],
+  "version": "1.1a",
+  "small_table_entries": 54,
+  "dialogue_corrections": 244,
+  "recipe_string_fields": 29,
+  "battle_caption_sprites": 4,
+  "skill_description_repairs": 50
+}

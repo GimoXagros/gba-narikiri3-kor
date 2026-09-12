@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "japanese_label": "きがえ（着替え）",
   "korean_label": "갈아입기",
   "bank": "0xf1d734",
@@ -21,8 +21,6 @@
     653,
     656
   ],
-  "ink_index": 14,
-  "glyph_y": 4,
   "maps": [
     {
       "index": 1,
@@ -255,5 +253,54 @@
       "hex": "6f000000c0010000"
     }
   ],
-  "scope": "Eight existing 8x8 4bpp tiles in the costume-menu label only; all tilemaps, palettes, code, actions and other atlas tiles preserved. Four 8x8 Hangul glyphs fit the original 32x16 label extent."
+  "scope": "48x16 costume label, original menu glyph artwork and palette. Atlas expands by four tiles within 0x7800..0x787f, below map VRAM 0x8000. Only map7 edge tile IDs and original atlas DMA count change; new resources use relative bank offsets.",
+  "style_sources": {
+    "아": {
+      "map": 1,
+      "x": 14,
+      "y": 82
+    },
+    "입": {
+      "map": 5,
+      "x": 32,
+      "y": 2
+    },
+    "기": {
+      "map": 1,
+      "x": 20,
+      "y": 34
+    }
+  },
+  "authored_gal_mask": [
+    "............",
+    ".######.##..",
+    "......#.##..",
+    ".....##.###.",
+    ".####...##..",
+    "........##..",
+    ".#########..",
+    "........##..",
+    ".#########..",
+    ".##.........",
+    ".#########..",
+    "............"
+  ],
+  "styled_tiles": [
+    960,
+    384,
+    385,
+    386,
+    387,
+    961,
+    962,
+    416,
+    417,
+    418,
+    419,
+    963
+  ],
+  "relocated_atlas": "0x1130000",
+  "relocated_map": "0x1137880",
+  "new_atlas_bytes": 30848,
+  "extension_limit": "0x1139000"
 }

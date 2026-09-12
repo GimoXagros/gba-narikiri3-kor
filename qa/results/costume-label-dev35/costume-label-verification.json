@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "text": "갈아입기",
+  "japanese": "きがえ",
+  "rectangle": [
+    8,
+    0,
+    48,
+    16
+  ],
+  "original_style_letters": 3,
+  "authored_style_letters": 1,
+  "atlas_bytes": 30848,
+  "additional_vram_tiles": 4,
+  "atlas_end_vram": "0x06007880",
+  "next_map_vram": "0x06008000",
+  "palette_preserved": true,
+  "atlas_offset": "0x1130000",
+  "map_offset": "0x1137880",
+  "copied_letter_pixel_checks": 432,
+  "unchanged_original_menu_maps": 34,
+  "atlas_dma_bytes": 30848,
+  "changed_map_cells": [
+    1,
+    6,
+    33,
+    38
+  ],
+  "original_map_dma_bytes": 1280,
+  "scope": "Original bank lookup, decompression dispatch and DMA queue execute. BIOS RLE output modeled with strict bounds. Original atlas and compressed maps preserved; copied atlas changes limited to twelve declared tiles, four map edge cells and atlas DMA length. Normal controller behavior requires separate runtime review."
+}

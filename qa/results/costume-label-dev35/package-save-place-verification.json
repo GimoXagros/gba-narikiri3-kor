@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "selected_location_pointer_fields": 44,
+  "mode_index_renderer_cases": 116,
+  "maximum_label_plus_location_cells": 19,
+  "original_window_cells": 22,
+  "save_state_fields_preserved": true,
+  "test_slot_preserved": true,
+  "scope": "Actual D01C4 mode/ID selection and formatter/renderer in both modes; all selected dungeon IDs, town modes, fixed colosseum branch and no-location modes. CPU state fixtures are not live save edits. Normal dungeon save progression remains separate."
+}

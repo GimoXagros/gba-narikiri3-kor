@@ -1,0 +1,12 @@
+{
+  "status": "PROTECTED_NON_TEXT_IDENTICAL",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "regions": [
+    {
+      "id": "m4a-pcm-sample-bank",
+      "bytes": 5377320,
+      "sha256": "ddb9c5a5acccb4bf3cdef96acf4b269d6fab78768e4c126691a301d7ec76e7a8"
+    }
+  ],
+  "scope": "Identified PCM sample bank; does not classify all ROM data or establish translation completion"
+}

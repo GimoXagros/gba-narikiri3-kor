@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "rom_sha256": "9b7b3c1594d079dddc607e270a59ddb235a4d9acaf6c16110a4bc1450e0c5f99",
+  "localized_symbols": 8,
+  "original_affine_font_bytes": 15360,
+  "resource_loads": [
+    {
+      "image": "legacy",
+      "load_count": 2,
+      "bios_events": [
+        "RLUnCompVram-15360",
+        "CpuSet-palette-64",
+        "RLUnCompVram-15360",
+        "CpuSet-palette-64"
+      ]
+    },
+    {
+      "image": "localized",
+      "load_count": 2,
+      "bios_events": [
+        "RLUnCompVram-15360",
+        "CpuSet-palette-64",
+        "RLUnCompVram-15360",
+        "CpuSet-palette-64"
+      ]
+    }
+  ],
+  "scope": "Original resource 440 table selection, bank getter, decompression dispatch and map initialization execute twice on each image. BIOS RLEVRAM and palette CpuSet are modeled with exact source/output bounds. Eight intended symbol tiles only; all other atlas pixels, palette, metadata and neighboring memory preserved. Normal gameplay and other element renderers remain separate."
+}
