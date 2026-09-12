@@ -1,0 +1,13 @@
+{
+  "file": "output\\검토용_해금세이브_v1.1a_dev32.zip",
+  "sha256": "589bf9cb4fb47f3d4900c5869bf24c12b71334ba7475e6965e14035e77e2c43f",
+  "size": 18698,
+  "members": [
+    "ND3_v1.1a_review_collection.sav",
+    "ND3_v1.1a_review_postgame.sav",
+    "SHA256.txt",
+    "사용방법.txt",
+    "요리확인.png",
+    "해금확인.png"
+  ]
+}

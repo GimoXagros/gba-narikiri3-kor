@@ -1,0 +1,108 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_SCOPE",
+  "scope": "Synthetic unlock save; PC load, save, reload, collection counters and retained fields. Not natural completion or all event branches.",
+  "rom_sha256": "1051612d3027c315596e28a5eb78451287bde5926e57d45268537c90c29b56ca",
+  "seed_sha256": "312bb57555b6d405d235d1affe240b29fedc0c73ddfa1e125607efb37d94e6c2",
+  "cases": [
+    {
+      "variant": "collection",
+      "core": "mgba",
+      "input_sha256": "c13fc3c7a38b0bf717cbe20e7cc33eee3a3eeef422619216fe12e5950ba83746",
+      "resaved_sha256": "e888493236415e7361d37291f27f15cc6a42523874d62b2b4b9ed9277a49ba6b",
+      "live_main_sha256": "82240606d5ef9fc328d26aa65ff1e7e9948e45307852063a839c615e6bd8bcf9",
+      "field_preservation": "PASS",
+      "game_save_completed": true,
+      "fresh_process_reload": true,
+      "roster_visual": "Early-chapter formation restrictions retained",
+      "artifacts": {
+        "output\\review-save-resave-collection-mgba-02\\01-loaded-menu.png": "a8bc37e5e4e5ab495aa98955855fa60cf6e7451da101e9cfa8c36e7b51376117",
+        "output\\review-save-resave-collection-mgba-02\\02-save-prompt.png": "ce4baff49244fa413caed0f9ea6437d85d4a73ca95c6ef9dfa5efa04e3896e90",
+        "output\\review-save-resave-collection-mgba-02\\03-save-result.png": "6c24bc71ae1acc593ac466ffc5037fba9854974e0decb061b83a7264bde9f5be",
+        "output\\review-save-resave-collection-mgba-02\\operations.jsonl": "d035eb1c2a85f49891f353ade04ae119f8c5e277ed3a06113075062b7a4e5e04",
+        "output\\review-save-reloaded-collection-mgba-01\\01-loaded-menu.png": "3649d8e02843984a4b233951d13d10cb6b1992421882abc638dd3966b2bc8cdb",
+        "output\\review-save-reloaded-collection-mgba-01\\02-collection-counts.png": "5da172be9a56df044529489786c8ef3403b8ebaefcd35d19b43572eeafe14f23",
+        "output\\review-save-reloaded-collection-mgba-01\\03-recipe-first.png": "304acc07a3ab267a48b3a8c0ecc300cc77f5cae6ef6e7636f2a90b8ebf1d0346",
+        "output\\review-save-reloaded-collection-mgba-01\\04-recipe-last.png": "97d632135f8fb414cfb3aaea70da8f142a71e66daf6d8c25203f009c9a6766d0",
+        "output\\review-save-reloaded-collection-mgba-01\\05-party-selection.png": "22a23eaacfb64b0d58bd32440a85d7a8cb0ee9090c50f6100263afc97a40d770",
+        "output\\review-save-reloaded-collection-mgba-01\\06-available-party.png": "351ad36ce339ab84fc1816b71cbe3c495627722212c2ea660daa028b5efc50e7",
+        "output\\review-save-reloaded-collection-mgba-01\\07-final.png": "351ad36ce339ab84fc1816b71cbe3c495627722212c2ea660daa028b5efc50e7",
+        "output\\review-save-reloaded-collection-mgba-01\\operations.jsonl": "1793e0b0644f6701914e5ab95df04c00103c5a465434431bfa276995b1b842b9"
+      }
+    },
+    {
+      "variant": "collection",
+      "core": "vba",
+      "input_sha256": "c13fc3c7a38b0bf717cbe20e7cc33eee3a3eeef422619216fe12e5950ba83746",
+      "resaved_sha256": "f5d72fc34730f0db8c4e448d7048fb4cad50836133e987d37a59c91bea5f867b",
+      "live_main_sha256": "0668f5d7a1a5b48eb1e4666bada63b9248bb46ea83e90a056f490febad394ec2",
+      "field_preservation": "PASS",
+      "game_save_completed": true,
+      "fresh_process_reload": true,
+      "roster_visual": "Early-chapter formation restrictions retained",
+      "artifacts": {
+        "output\\review-save-resave-collection-vba-02\\01-loaded-menu.png": "ccea570567d9b4c09b213d30fb3e4d02a27cf71951b65fba12d1b838bdd35b20",
+        "output\\review-save-resave-collection-vba-02\\02-save-prompt.png": "94148194f53f993d7282c6515534fb5156f54e4c75affe89d0634eaf76c2484e",
+        "output\\review-save-resave-collection-vba-02\\03-save-result.png": "efaee65b4f70f0a0a94dc9fe3541ecea87b016877136d3e3c6728308946548bf",
+        "output\\review-save-resave-collection-vba-02\\operations.jsonl": "d27db12e1eacea5361e0daaad0f1bf756b7e8dde7e17bf17f0e463006f69c003",
+        "output\\review-save-reloaded-collection-vba-01\\01-loaded-menu.png": "5ddbfc2b5ac921cbdb19bd1a5abd0b0583888c2cc1ad00769c6c39b9063e3201",
+        "output\\review-save-reloaded-collection-vba-01\\02-collection-counts.png": "2669509e6435ed8a34c6168540d592e103f0d926cc1cfb903af8b083c108eabe",
+        "output\\review-save-reloaded-collection-vba-01\\03-recipe-first.png": "7dd784ddf3f6b1876e75658ad74822d1e119f070600fc385e3a2bd951794495a",
+        "output\\review-save-reloaded-collection-vba-01\\04-recipe-last.png": "5b6c1f112aea09a8de1651b13bd390778b3629091b68180d383baca64f769a36",
+        "output\\review-save-reloaded-collection-vba-01\\05-party-selection.png": "4ae5680902e904cd41f2a41bc1fed36727b6270479b318e6ed9322870319aad0",
+        "output\\review-save-reloaded-collection-vba-01\\06-available-party.png": "bba37da84eb61973678f269bbb408579b6cf469cd5130d83ee233957cb6db99c",
+        "output\\review-save-reloaded-collection-vba-01\\07-final.png": "bba37da84eb61973678f269bbb408579b6cf469cd5130d83ee233957cb6db99c",
+        "output\\review-save-reloaded-collection-vba-01\\operations.jsonl": "ba3921e254ae94efb0000af2c19ab41f5b17f39a827e488ab223d9d416af7054"
+      }
+    },
+    {
+      "variant": "postgame",
+      "core": "mgba",
+      "input_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1",
+      "resaved_sha256": "3641115e6015ed17a1741c4e6f5e31a2722d91bd2509e90792871e442c20429c",
+      "live_main_sha256": "d50e57d77289766022bf0f2cace03ea5bf20c38e1ca281ba5f1e865de8a1c5a2",
+      "field_preservation": "PASS",
+      "game_save_completed": true,
+      "fresh_process_reload": true,
+      "roster_visual": "PASS",
+      "artifacts": {
+        "output\\review-save-resave-postgame-mgba-02\\01-loaded-menu.png": "a8bc37e5e4e5ab495aa98955855fa60cf6e7451da101e9cfa8c36e7b51376117",
+        "output\\review-save-resave-postgame-mgba-02\\02-save-prompt.png": "ce4baff49244fa413caed0f9ea6437d85d4a73ca95c6ef9dfa5efa04e3896e90",
+        "output\\review-save-resave-postgame-mgba-02\\03-save-result.png": "6c24bc71ae1acc593ac466ffc5037fba9854974e0decb061b83a7264bde9f5be",
+        "output\\review-save-resave-postgame-mgba-02\\operations.jsonl": "3479d7e66a3bcff07c30f741635a27597cff9826f32ea6c3820d171378c848d2",
+        "output\\review-save-reloaded-postgame-mgba-01\\01-loaded-menu.png": "3649d8e02843984a4b233951d13d10cb6b1992421882abc638dd3966b2bc8cdb",
+        "output\\review-save-reloaded-postgame-mgba-01\\02-collection-counts.png": "5da172be9a56df044529489786c8ef3403b8ebaefcd35d19b43572eeafe14f23",
+        "output\\review-save-reloaded-postgame-mgba-01\\03-recipe-first.png": "304acc07a3ab267a48b3a8c0ecc300cc77f5cae6ef6e7636f2a90b8ebf1d0346",
+        "output\\review-save-reloaded-postgame-mgba-01\\04-recipe-last.png": "97d632135f8fb414cfb3aaea70da8f142a71e66daf6d8c25203f009c9a6766d0",
+        "output\\review-save-reloaded-postgame-mgba-01\\05-party-selection.png": "c5564038e9c58ae63003b5be31a1c854ec92af519709587a3d2edbb0652b7775",
+        "output\\review-save-reloaded-postgame-mgba-01\\06-available-party.png": "16f500b99fe8afc8c595fae58a8e772c4f6281e24946ce38522640598172e7d5",
+        "output\\review-save-reloaded-postgame-mgba-01\\07-final.png": "16f500b99fe8afc8c595fae58a8e772c4f6281e24946ce38522640598172e7d5",
+        "output\\review-save-reloaded-postgame-mgba-01\\operations.jsonl": "60bb28c4ee39526616c4ea9379ca0d031737aedeb39f7a0474a2841718ffd0ac"
+      }
+    },
+    {
+      "variant": "postgame",
+      "core": "vba",
+      "input_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1",
+      "resaved_sha256": "8d7a67453617df0349be3a587caf85f946f7c032d7788c6311bf75b038119871",
+      "live_main_sha256": "5895f24c24b5a29aea05d60e1ad6b65841da423295c50ab79c34185842613c80",
+      "field_preservation": "PASS",
+      "game_save_completed": true,
+      "fresh_process_reload": true,
+      "roster_visual": "PASS",
+      "artifacts": {
+        "output\\review-save-resave-postgame-vba-02\\01-loaded-menu.png": "ccea570567d9b4c09b213d30fb3e4d02a27cf71951b65fba12d1b838bdd35b20",
+        "output\\review-save-resave-postgame-vba-02\\02-save-prompt.png": "94148194f53f993d7282c6515534fb5156f54e4c75affe89d0634eaf76c2484e",
+        "output\\review-save-resave-postgame-vba-02\\03-save-result.png": "efaee65b4f70f0a0a94dc9fe3541ecea87b016877136d3e3c6728308946548bf",
+        "output\\review-save-resave-postgame-vba-02\\operations.jsonl": "beb13474db3773a48520dac966899d7ab998270e8aff90d64d1b3a8b3c343115",
+        "output\\review-save-reloaded-postgame-vba-01\\01-loaded-menu.png": "5ddbfc2b5ac921cbdb19bd1a5abd0b0583888c2cc1ad00769c6c39b9063e3201",
+        "output\\review-save-reloaded-postgame-vba-01\\02-collection-counts.png": "2669509e6435ed8a34c6168540d592e103f0d926cc1cfb903af8b083c108eabe",
+        "output\\review-save-reloaded-postgame-vba-01\\03-recipe-first.png": "7dd784ddf3f6b1876e75658ad74822d1e119f070600fc385e3a2bd951794495a",
+        "output\\review-save-reloaded-postgame-vba-01\\04-recipe-last.png": "5b6c1f112aea09a8de1651b13bd390778b3629091b68180d383baca64f769a36",
+        "output\\review-save-reloaded-postgame-vba-01\\05-party-selection.png": "9c4dcffca19ac9840c054987511e15a202fb5000329c4c791c5f9b677988e32f",
+        "output\\review-save-reloaded-postgame-vba-01\\06-available-party.png": "489f8f72f1a4808e4b5625945674b7d7a0352e334d0fcc9172b3ca8211a77ef3",
+        "output\\review-save-reloaded-postgame-vba-01\\07-final.png": "489f8f72f1a4808e4b5625945674b7d7a0352e334d0fcc9172b3ca8211a77ef3",
+        "output\\review-save-reloaded-postgame-vba-01\\operations.jsonl": "067b0186d41d6843da17031a63556062fff93837d96c15b419cc8ee6d88e062a"
+      }
+    }
+  ]
+}
