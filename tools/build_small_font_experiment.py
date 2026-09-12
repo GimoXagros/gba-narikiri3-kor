@@ -27,6 +27,7 @@ def main():
     p.add_argument('--skill-headers',action='store_true')
     p.add_argument('--biographies',action='store_true')
     p.add_argument('--splash-credit',action='store_true')
+    p.add_argument('--costume-label',action='store_true')
     p.add_argument('--clothing-results',action='store_true')
     p.add_argument('--save-places',action='store_true')
     p.add_argument('--notices',action='store_true')
@@ -329,6 +330,11 @@ def main():
         place_writes,save_place_info=install_save_places(legacy,extension)
         writes.extend(place_writes)
     splash_info=None
+    costume_label_info=None
+    if a.costume_label:
+        from costume_label import install as install_costume_label
+        costume_writes,costume_label_info=install_costume_label(legacy,glyphs)
+        writes.extend(costume_writes)
     if a.splash_credit:
         from splash_credit import install as install_splash
         splash_writes,splash_info=install_splash(legacy)
@@ -363,6 +369,10 @@ def main():
     report['skill_header_graphics']=header_info
     report['biography_text']=biography_info
     report['splash_credit']=splash_info
+    report['costume_label']=costume_label_info
+    if a.costume_label:
+        for name in ['source/costume_label_profile.json','tools/costume_label.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
     if a.splash_credit:
         for name in ['source/splash_credit.json','tools/splash_credit.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())

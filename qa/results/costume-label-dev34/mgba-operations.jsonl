@@ -1,0 +1,55 @@
+{"frame": 0, "op": "initialize", "core": "mGBA", "core_version": "0.11-219-e31759b", "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1", "rom_sha256": "af29f6fbd8982bf4874c8c7149d48f106385ed64dbc7176274bcbdeec3a5cc2d", "input_save_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1", "ram_interventions": 0, "pixel_format": 2, "save_size": 131072, "memory_maps": [], "options": {"mgba_gb_model": "Autodetect", "mgba_use_bios": "ON", "mgba_skip_bios": "OFF", "mgba_gb_colors": "Grayscale", "mgba_gb_colors_preset": "0", "mgba_sgb_borders": "ON", "mgba_color_correction": "OFF", "mgba_interframe_blending": "OFF", "mgba_audio_low_pass_filter": "disabled", "mgba_audio_low_pass_range": "60", "mgba_allow_opposing_directions": "no", "mgba_solar_sensor_level": "0", "mgba_force_gbp": "OFF", "mgba_idle_optimization": "Remove Known", "mgba_frameskip": "disabled", "mgba_frameskip_threshold": "33", "mgba_frameskip_interval": "0"}, "option_overrides": {"mgba_use_bios": "OFF", "mgba_skip_bios": "ON", "mgba_frameskip": "disabled", "mgba_frameskip_interval": "0"}}
+{"frame": 300, "request": {"op": "frames", "count": 300}, "result": {}}
+{"frame": 301, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 901, "request": {"op": "frames", "count": 600}, "result": {}}
+{"frame": 902, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1102, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 1103, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1203, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 1204, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 1404, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 1405, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 1465, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1465, "request": {"op": "screenshot", "name": "main-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\main-menu.png", "size": [240, 160], "sha256": "a8bc37e5e4e5ab495aa98955855fa60cf6e7451da101e9cfa8c36e7b51376117"}}
+{"frame": 1469, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 1589, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1593, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 1713, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1717, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 1837, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1841, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 1961, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1965, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 2085, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 2089, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 2209, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 2213, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
+{"frame": 2333, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 2333, "request": {"op": "screenshot", "name": "change-selected.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\change-selected.png", "size": [240, 160], "sha256": "23d9fc36230a3dff24dc2fc8d0831a020b16a8faac369eda5727886c222f2aff"}}
+{"frame": 2337, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 2577, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 2577, "request": {"op": "screenshot", "name": "confirm-selected.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\confirm-selected.png", "size": [240, 160], "sha256": "9f75f5df99174e98dab2d1416e0f1c4d3db345637dcdbb6f5b12a6f34d4e349b"}}
+{"frame": 2581, "request": {"op": "frames", "count": 4, "buttons": ["up"]}, "result": {}}
+{"frame": 2821, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 2821, "request": {"op": "screenshot", "name": "change-reselected.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\change-reselected.png", "size": [240, 160], "sha256": "dbd08d829aebdaaafd09bc2e5267d7f472e61ca8ee1ceb44ed770c1a1184aaa9"}}
+{"frame": 2825, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
+{"frame": 3065, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 3065, "request": {"op": "screenshot", "name": "character-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\character-selection.png", "size": [240, 160], "sha256": "db36d44bb9d9529ef1ee6cd8b32692cedd27dbf8defde925f769dfd5204b5e93"}}
+{"frame": 3069, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
+{"frame": 3309, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 3309, "request": {"op": "screenshot", "name": "costume-list.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\costume-list.png", "size": [240, 160], "sha256": "f96de826b02d7a100fedb76767b4d2f0e5e2c02e9101bc43e3ef31e6892b0436"}}
+{"frame": 3313, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 3553, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 3553, "request": {"op": "screenshot", "name": "swordsman-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\swordsman-selection.png", "size": [240, 160], "sha256": "e738f255118fe9428ab165bd97d627c4d088688c9f84af8d8fc79291e905f6f1"}}
+{"frame": 3557, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
+{"frame": 3797, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 3797, "request": {"op": "screenshot", "name": "change-confirmation.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\change-confirmation.png", "size": [240, 160], "sha256": "eea57c137905f39e6f8c43b01bb04bf93c928c544e50daf77af4d05284a1c058"}}
+{"frame": 3801, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
+{"frame": 4041, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 4041, "request": {"op": "screenshot", "name": "change-applied.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\change-applied.png", "size": [240, 160], "sha256": "67ce46da4c517f312af284584a972c53e78f0e87cfecabeedb5b04be925f9090"}}
+{"frame": 4045, "request": {"op": "frames", "count": 4, "buttons": ["b"]}, "result": {}}
+{"frame": 4285, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 4285, "request": {"op": "screenshot", "name": "back-from-costumes.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\back-from-costumes.png", "size": [240, 160], "sha256": "11e64492a8c2c5ba50f2e6c88713b5f3b4ef38bb5e3280c1e5c0b3013bd21c0f"}}
+{"frame": 4289, "request": {"op": "frames", "count": 4, "buttons": ["b"]}, "result": {}}
+{"frame": 4529, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 4529, "request": {"op": "screenshot", "name": "back-to-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-mgba-01\\back-to-menu.png", "size": [240, 160], "sha256": "deba1dc7468067e3506f8a061c071d6c0ac4bd8b98d3f4374684d0d08147089e"}}

@@ -64,3 +64,6 @@ CPU 검사, 정확한 ROM에 연결된 실행 기록과 화면 관찰 기록을 
 
 
 dev33은 일본판 명감의 독립 인물 대응 자료를 빌드·검사에서 확인한다. 23번을 나나리로 되돌리면 검사가 실패한다. 시작 그림 Xagros 크레딧의 원본/최종 픽셀 보존 검사를 추가해 총 28개 검사를 수행한다. `tools/probe_biography_gallery.py`와 `tools/verify_biography_gallery.py`는 명시적인 검토 EEPROM으로 37명 전체를 정상 버튼으로 조회하고 일본판 초상화와 두 PC 코어의 표시를 비교한다. 합성 해금 상태는 정상 해금 과정의 증거가 아니다. `docs/BIOGRAPHIES.md` 참조.
+
+
+dev34는 `--costume-label`을 누적 빌드에 포함한다. `source/costume_label_profile.json`의 기존 여덟 타일만 수정하며 atlas·34개 타일맵·팔레트·실제 은행 조회와 DMA 전달을 검사한다. 전체 분리 검사는 29개이며 꾸러미 생성에 `costume-label-verification.json`도 필수다. `docs/COSTUME_MENU_LABEL.md` 참조.

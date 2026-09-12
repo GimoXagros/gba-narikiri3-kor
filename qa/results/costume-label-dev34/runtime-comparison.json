@@ -1,0 +1,206 @@
+{
+  "status": "PASS",
+  "rom_sha256": "af29f6fbd8982bf4874c8c7149d48f106385ed64dbc7176274bcbdeec3a5cc2d",
+  "prior_rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+  "captures": [
+    {
+      "core": "mgba",
+      "capture": "main-menu.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "a8bc37e5e4e5ab495aa98955855fa60cf6e7451da101e9cfa8c36e7b51376117",
+      "new_png_sha256": "a8bc37e5e4e5ab495aa98955855fa60cf6e7451da101e9cfa8c36e7b51376117"
+    },
+    {
+      "core": "mgba",
+      "capture": "change-selected.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "41d6248061077f684a39ab068cc7af744d3d10ff725a561a9c5fefe2baf6aed5",
+      "new_png_sha256": "23d9fc36230a3dff24dc2fc8d0831a020b16a8faac369eda5727886c222f2aff"
+    },
+    {
+      "core": "mgba",
+      "capture": "confirm-selected.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "5ac9b10091f9afd1589306800726d1f909f92eaaa9fa21789ad4a13f9ceb7842",
+      "new_png_sha256": "9f75f5df99174e98dab2d1416e0f1c4d3db345637dcdbb6f5b12a6f34d4e349b"
+    },
+    {
+      "core": "mgba",
+      "capture": "change-reselected.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "e4a0619330c662f8033798af82dff6d7422253f5c5d677815909312de82fcf4a",
+      "new_png_sha256": "dbd08d829aebdaaafd09bc2e5267d7f472e61ca8ee1ceb44ed770c1a1184aaa9"
+    },
+    {
+      "core": "mgba",
+      "capture": "character-selection.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "2b9f977ba8acc70063d85ee825d672ee61a7ce5b287a3da271aeb57b70026f42",
+      "new_png_sha256": "db36d44bb9d9529ef1ee6cd8b32692cedd27dbf8defde925f769dfd5204b5e93"
+    },
+    {
+      "core": "mgba",
+      "capture": "costume-list.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "f96de826b02d7a100fedb76767b4d2f0e5e2c02e9101bc43e3ef31e6892b0436",
+      "new_png_sha256": "f96de826b02d7a100fedb76767b4d2f0e5e2c02e9101bc43e3ef31e6892b0436"
+    },
+    {
+      "core": "mgba",
+      "capture": "swordsman-selection.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "e738f255118fe9428ab165bd97d627c4d088688c9f84af8d8fc79291e905f6f1",
+      "new_png_sha256": "e738f255118fe9428ab165bd97d627c4d088688c9f84af8d8fc79291e905f6f1"
+    },
+    {
+      "core": "mgba",
+      "capture": "change-confirmation.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "eea57c137905f39e6f8c43b01bb04bf93c928c544e50daf77af4d05284a1c058",
+      "new_png_sha256": "eea57c137905f39e6f8c43b01bb04bf93c928c544e50daf77af4d05284a1c058"
+    },
+    {
+      "core": "mgba",
+      "capture": "change-applied.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "67ce46da4c517f312af284584a972c53e78f0e87cfecabeedb5b04be925f9090",
+      "new_png_sha256": "67ce46da4c517f312af284584a972c53e78f0e87cfecabeedb5b04be925f9090"
+    },
+    {
+      "core": "mgba",
+      "capture": "back-from-costumes.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "503664fa9dc558dd075dfd736db4e9ba65cfd4fdcf7500b6ae67cf192ce8a2c9",
+      "new_png_sha256": "11e64492a8c2c5ba50f2e6c88713b5f3b4ef38bb5e3280c1e5c0b3013bd21c0f"
+    },
+    {
+      "core": "mgba",
+      "capture": "back-to-menu.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "6caa9e354575e506216fb698df9676113151867cf424945b2b21e225881cfd09",
+      "new_png_sha256": "deba1dc7468067e3506f8a061c071d6c0ac4bd8b98d3f4374684d0d08147089e"
+    },
+    {
+      "core": "vba",
+      "capture": "main-menu.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "ccea570567d9b4c09b213d30fb3e4d02a27cf71951b65fba12d1b838bdd35b20",
+      "new_png_sha256": "ccea570567d9b4c09b213d30fb3e4d02a27cf71951b65fba12d1b838bdd35b20"
+    },
+    {
+      "core": "vba",
+      "capture": "change-selected.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "b891a031794bc01aa0b437fc6096277625f0e77445a5457451f9ab7f3e5f5187",
+      "new_png_sha256": "310254e47301272a1822bd18c83ec34ff18e9c69b15fd659a037a5c4df8c4f5e"
+    },
+    {
+      "core": "vba",
+      "capture": "confirm-selected.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "eda941f008b35cbc76e307ee33f29a0a60fa591549faa4feb4f4fe21bc776b7b",
+      "new_png_sha256": "d95ac4fa89174afb7683b8fa05f09949493be76226a8bd33889417ed21721073"
+    },
+    {
+      "core": "vba",
+      "capture": "change-reselected.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "576848f8bd08f0d49b87cbf6a31f13707c11dc463176e31d037fe711a194a0d7",
+      "new_png_sha256": "0c992c42ada21f6ad2f2d5b2d306cfc6c98408de751c1f1cd550f3eacb07f7e1"
+    },
+    {
+      "core": "vba",
+      "capture": "character-selection.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "1b9316bcecbc6d48546afca96452cf552bc7e4818296142382b119f4f861905f",
+      "new_png_sha256": "41487a59ef965a9b9ed5386cbc7405439454c002fb4d240b3dc99a6418e6a245"
+    },
+    {
+      "core": "vba",
+      "capture": "costume-list.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "b6c484dc07546e5669de2888002cc8b28719af8a56d4113016f0123d7bd59cee",
+      "new_png_sha256": "b6c484dc07546e5669de2888002cc8b28719af8a56d4113016f0123d7bd59cee"
+    },
+    {
+      "core": "vba",
+      "capture": "swordsman-selection.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "3e61f3c3173eff2c8598b44d48e27045da8c12336fc642d01d7a9529e85ace09",
+      "new_png_sha256": "3e61f3c3173eff2c8598b44d48e27045da8c12336fc642d01d7a9529e85ace09"
+    },
+    {
+      "core": "vba",
+      "capture": "change-confirmation.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "ae397cd893a082c397cbe3e80a7f16cdaca86f7ea1abc582e64ba930c4d91410",
+      "new_png_sha256": "ae397cd893a082c397cbe3e80a7f16cdaca86f7ea1abc582e64ba930c4d91410"
+    },
+    {
+      "core": "vba",
+      "capture": "change-applied.png",
+      "changed_pixels": 0,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "6565b1fdb8e4a9ce338e00dd69eecbb5aca376028ce64ed8b50fa97c4ec25d17",
+      "new_png_sha256": "6565b1fdb8e4a9ce338e00dd69eecbb5aca376028ce64ed8b50fa97c4ec25d17"
+    },
+    {
+      "core": "vba",
+      "capture": "back-from-costumes.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "a487c54f083f2defeae4f7bd45ae66518d9e6b8fe63381c3ae806dd7e6b6ca42",
+      "new_png_sha256": "7758c3e406ce215b1d484831e1ebe5e76619cf3d52acb82be288a6e55246644f"
+    },
+    {
+      "core": "vba",
+      "capture": "back-to-menu.png",
+      "changed_pixels": 228,
+      "changes_within_label_only": true,
+      "all_256KiB_ewram_identical": true,
+      "old_png_sha256": "3e0b71e1dd48121510359b569afec3b12ac3c550255fad5316e17925d5f242ed",
+      "new_png_sha256": "dc480b75943bba370fc79e14aba4acb816041fcf076a573d9abad91f858a3720"
+    }
+  ],
+  "scope": "Exact frame/button and synthetic save comparison per PC core. Eleven screens each, complete EWRAM hashes identical; all image changes confined to x16..47,y0..15. This does not establish natural unlock acquisition or all gameplay."
+}

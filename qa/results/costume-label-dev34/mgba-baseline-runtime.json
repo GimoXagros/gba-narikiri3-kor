@@ -1,0 +1,252 @@
+{
+  "status": "CAPTURED_REVIEW_PENDING",
+  "core": "mGBA",
+  "core_version": "0.11-219-e31759b",
+  "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+  "rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595",
+  "input_save_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1",
+  "frame": 4529,
+  "ram_interventions": 0,
+  "pixel_format": 2,
+  "save_size": 8192,
+  "memory_maps": [
+    {
+      "flags": 4,
+      "offset": 0,
+      "start": 50331648,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 32768
+    },
+    {
+      "flags": 4,
+      "offset": 0,
+      "start": 33554432,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 262144
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 234881024,
+      "select": 0,
+      "disconnect": 0,
+      "len": 131072
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 134217728,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 167772160,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 201326592,
+      "select": 0,
+      "disconnect": 0,
+      "len": 33554432
+    },
+    {
+      "flags": 1,
+      "offset": 0,
+      "start": 0,
+      "select": 0,
+      "disconnect": 0,
+      "len": 16384
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 100663296,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 98304
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 83886080,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 117440512,
+      "select": 4278190080,
+      "disconnect": 0,
+      "len": 1024
+    },
+    {
+      "flags": 0,
+      "offset": 0,
+      "start": 67108864,
+      "select": 0,
+      "disconnect": 0,
+      "len": 1024
+    }
+  ],
+  "options": {
+    "mgba_gb_model": "Autodetect",
+    "mgba_use_bios": "ON",
+    "mgba_skip_bios": "OFF",
+    "mgba_gb_colors": "Grayscale",
+    "mgba_gb_colors_preset": "0",
+    "mgba_sgb_borders": "ON",
+    "mgba_color_correction": "OFF",
+    "mgba_interframe_blending": "OFF",
+    "mgba_audio_low_pass_filter": "disabled",
+    "mgba_audio_low_pass_range": "60",
+    "mgba_allow_opposing_directions": "no",
+    "mgba_solar_sensor_level": "0",
+    "mgba_force_gbp": "OFF",
+    "mgba_idle_optimization": "Remove Known",
+    "mgba_frameskip": "disabled",
+    "mgba_frameskip_threshold": "33",
+    "mgba_frameskip_interval": "0"
+  },
+  "option_overrides": {
+    "mgba_use_bios": "OFF",
+    "mgba_skip_bios": "ON",
+    "mgba_frameskip": "disabled",
+    "mgba_frameskip_interval": "0"
+  },
+  "captures": [
+    {
+      "ok": true,
+      "frame": 1465,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\main-menu.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "a8bc37e5e4e5ab495aa98955855fa60cf6e7451da101e9cfa8c36e7b51376117",
+      "ewram_sha256": "aca04c8afb43b82266d52879fae21434675ed91c5df2ae97cfd4900fff69303c"
+    },
+    {
+      "ok": true,
+      "frame": 2333,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\change-selected.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "41d6248061077f684a39ab068cc7af744d3d10ff725a561a9c5fefe2baf6aed5",
+      "ewram_sha256": "18914bb48c8859a1493c8d1d52c79e2fed265f8cf2f909085ed47d816c72b1b3"
+    },
+    {
+      "ok": true,
+      "frame": 2577,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\confirm-selected.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "5ac9b10091f9afd1589306800726d1f909f92eaaa9fa21789ad4a13f9ceb7842",
+      "ewram_sha256": "e60436ce8a743746f4b21f43c4dda2e3482acc522b131bc674a37aaefff46e74"
+    },
+    {
+      "ok": true,
+      "frame": 2821,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\change-reselected.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "e4a0619330c662f8033798af82dff6d7422253f5c5d677815909312de82fcf4a",
+      "ewram_sha256": "2f85d5a030bc026aba458d3b093a3c0dad973a911d1fb203b520713bcb321155"
+    },
+    {
+      "ok": true,
+      "frame": 3065,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\character-selection.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "2b9f977ba8acc70063d85ee825d672ee61a7ce5b287a3da271aeb57b70026f42",
+      "ewram_sha256": "d080451a90a59c74f9e3727bb0c3c6f5f35f3ae6bdc2f125d0232bf1acee91e2"
+    },
+    {
+      "ok": true,
+      "frame": 3309,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\costume-list.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "f96de826b02d7a100fedb76767b4d2f0e5e2c02e9101bc43e3ef31e6892b0436",
+      "ewram_sha256": "4256d98a7b19b937891d25e129075ce93eaed35d48ae8909bbe26651a58a3584"
+    },
+    {
+      "ok": true,
+      "frame": 3553,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\swordsman-selection.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "e738f255118fe9428ab165bd97d627c4d088688c9f84af8d8fc79291e905f6f1",
+      "ewram_sha256": "6d4fb9a94b3706daeb1ed9b6a37c6db74ec97a8a6b145823a7bda4be7271dc3a"
+    },
+    {
+      "ok": true,
+      "frame": 3797,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\change-confirmation.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "eea57c137905f39e6f8c43b01bb04bf93c928c544e50daf77af4d05284a1c058",
+      "ewram_sha256": "ddfc4a7f0c39ebf3aa6aa9b5f5fd62d73b1e8dc7b5e36238b28e72196b3c9f05"
+    },
+    {
+      "ok": true,
+      "frame": 4041,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\change-applied.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "67ce46da4c517f312af284584a972c53e78f0e87cfecabeedb5b04be925f9090",
+      "ewram_sha256": "7d8591618a0e98e7561ceecf3e3f0c190b5c240d591620f80d9c5ed5551a3878"
+    },
+    {
+      "ok": true,
+      "frame": 4285,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\back-from-costumes.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "503664fa9dc558dd075dfd736db4e9ba65cfd4fdcf7500b6ae67cf192ce8a2c9",
+      "ewram_sha256": "6192bbb508a499d7540e46e8253c2fdaec482da67865a6f7db15ded4ba7c693a"
+    },
+    {
+      "ok": true,
+      "frame": 4529,
+      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-baseline-mgba-01\\back-to-menu.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "6caa9e354575e506216fb698df9676113151867cf424945b2b21e225881cfd09",
+      "ewram_sha256": "1664752d88dfa66e350474f45a168b1877849d44d2d27be8fba836205967d397"
+    }
+  ],
+  "trace_sha256": "9710afc80a4e57b19b42afddfbdf04ab473aa10a8624050336250ff1aa78168e",
+  "scope": "Explicit synthetic review save; ordinary controller inputs, no live RAM/state edits. Selection highlighting and one swordsman costume change; not all costumes or natural acquisition."
+}

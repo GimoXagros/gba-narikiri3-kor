@@ -1,0 +1,28 @@
+{"frame": 0, "op": "initialize", "core": "mGBA", "core_version": "0.11-219-e31759b", "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1", "rom_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394", "input_save_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1", "ram_interventions": 0, "pixel_format": 2, "save_size": 131072, "memory_maps": [], "options": {"mgba_gb_model": "Autodetect", "mgba_use_bios": "ON", "mgba_skip_bios": "OFF", "mgba_gb_colors": "Grayscale", "mgba_gb_colors_preset": "0", "mgba_sgb_borders": "ON", "mgba_color_correction": "OFF", "mgba_interframe_blending": "OFF", "mgba_audio_low_pass_filter": "disabled", "mgba_audio_low_pass_range": "60", "mgba_allow_opposing_directions": "no", "mgba_solar_sensor_level": "0", "mgba_force_gbp": "OFF", "mgba_idle_optimization": "Remove Known", "mgba_frameskip": "disabled", "mgba_frameskip_threshold": "33", "mgba_frameskip_interval": "0"}, "option_overrides": {"mgba_use_bios": "OFF", "mgba_skip_bios": "ON", "mgba_frameskip": "disabled", "mgba_frameskip_interval": "0"}}
+{"frame": 300, "request": {"op": "frames", "count": 300}, "result": {}}
+{"frame": 301, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 901, "request": {"op": "frames", "count": 600}, "result": {}}
+{"frame": 902, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1102, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 1103, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
+{"frame": 1203, "request": {"op": "frames", "count": 100}, "result": {}}
+{"frame": 1204, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
+{"frame": 1404, "request": {"op": "frames", "count": 200}, "result": {}}
+{"frame": 1405, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
+{"frame": 1465, "request": {"op": "frames", "count": 60}, "result": {}}
+{"frame": 1465, "request": {"op": "screenshot", "name": "main-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\costume-label-japanese-01\\main-menu.png", "size": [240, 160], "sha256": "a219acb57906a571f09a8f2d0c386a2aa19ab1c2d59de31c332ecf8a952c14d3"}}
+{"frame": 1469, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 1589, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1593, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 1713, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1717, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 1837, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1841, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 1961, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 1965, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 2085, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 2089, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
+{"frame": 2209, "request": {"op": "frames", "count": 120}, "result": {}}
+{"frame": 2213, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
+{"frame": 2453, "request": {"op": "frames", "count": 240}, "result": {}}
+{"frame": 2453, "request": {"op": "screenshot", "name": "costume-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\costume-label-japanese-01\\costume-menu.png", "size": [240, 160], "sha256": "c96141ea0d7dd22f4a45e9d76fbe49464f1f8702635c3ecec0d07304489b4388"}}

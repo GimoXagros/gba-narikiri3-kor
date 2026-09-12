@@ -1,0 +1,59 @@
+{
+  "status": "SOURCE_LABEL_AND_MODIFIED_MENU_OBSERVED",
+  "rom_sha256": "af29f6fbd8982bf4874c8c7149d48f106385ed64dbc7176274bcbdeec3a5cc2d",
+  "japanese": "きがえ",
+  "adopted_korean": "갈아입기",
+  "source_review": "Japanese same-menu capture directly read. Help text describes changing narikiri clothes; existing confirmation already says 갈아입을까요. The action is changing costumes, so 갈아입기 is more faithful than 변장.",
+  "runtime_review": "Both PC cores show the new label. Selected/deselected state inspected, swordsman change animation and return with Julio swordsman HP8504 TP1097 observed. Complete EWRAM and non-label image regions equal baseline at 11 checkpoints per core.",
+  "scope": "Synthetic review EEPROM; no live RAM modification. Japanese player names display the Korean-save encoding mismatch and are excluded from this static-menu-label review.",
+  "captures": [
+    {
+      "file": "dev33-costume-menu.png",
+      "sha256": "0936c1fe65a77a4d2efe8b0c619f628a75a33580eb48aaeac3712f8827cf2ace"
+    },
+    {
+      "file": "japanese-costume-menu.png",
+      "sha256": "c96141ea0d7dd22f4a45e9d76fbe49464f1f8702635c3ecec0d07304489b4388"
+    },
+    {
+      "file": "mgba-back-to-menu.png",
+      "sha256": "deba1dc7468067e3506f8a061c071d6c0ac4bd8b98d3f4374684d0d08147089e"
+    },
+    {
+      "file": "mgba-change-applied.png",
+      "sha256": "67ce46da4c517f312af284584a972c53e78f0e87cfecabeedb5b04be925f9090"
+    },
+    {
+      "file": "mgba-change-selected.png",
+      "sha256": "23d9fc36230a3dff24dc2fc8d0831a020b16a8faac369eda5727886c222f2aff"
+    },
+    {
+      "file": "mgba-confirm-selected.png",
+      "sha256": "9f75f5df99174e98dab2d1416e0f1c4d3db345637dcdbb6f5b12a6f34d4e349b"
+    },
+    {
+      "file": "mgba-smoke-review-sheet.png",
+      "sha256": "75eee2c4bdcbbcc910917564ee51d5236b8271b17445ac8c319881842b5ed0fc"
+    },
+    {
+      "file": "vba-back-to-menu.png",
+      "sha256": "dc480b75943bba370fc79e14aba4acb816041fcf076a573d9abad91f858a3720"
+    },
+    {
+      "file": "vba-change-applied.png",
+      "sha256": "6565b1fdb8e4a9ce338e00dd69eecbb5aca376028ce64ed8b50fa97c4ec25d17"
+    },
+    {
+      "file": "vba-change-selected.png",
+      "sha256": "310254e47301272a1822bd18c83ec34ff18e9c69b15fd659a037a5c4df8c4f5e"
+    },
+    {
+      "file": "vba-confirm-selected.png",
+      "sha256": "d95ac4fa89174afb7683b8fa05f09949493be76226a8bd33889417ed21721073"
+    },
+    {
+      "file": "vba-smoke-review-sheet.png",
+      "sha256": "20fb402648d6c3fd13aec17884add72923b4a6bc1352a499a45bee2dd65c345c"
+    }
+  ]
+}

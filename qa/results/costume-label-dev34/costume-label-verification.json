@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "rom_sha256": "af29f6fbd8982bf4874c8c7149d48f106385ed64dbc7176274bcbdeec3a5cc2d",
+  "text": "갈아입기",
+  "japanese": "きがえ",
+  "existing_tiles": 8,
+  "rectangle": [
+    16,
+    0,
+    32,
+    16
+  ],
+  "palette_and_tilemaps_preserved": true,
+  "pixel_checks": 512,
+  "unchanged_menu_maps": 34,
+  "original_atlas_dma_bytes": 30720,
+  "original_map_dma_bytes": 1280,
+  "scope": "Original bank lookup and DMA queue execute; BIOS LZ77 output is modeled with bounds. Whole atlas and 34 maps, palettes and consumers are preserved except eight declared tiles. Normal controller selection/change and all runtime states need separate review."
+}

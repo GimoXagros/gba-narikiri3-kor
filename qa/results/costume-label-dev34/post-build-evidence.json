@@ -1,0 +1,7 @@
+{
+  "rom_sha256": "af29f6fbd8982bf4874c8c7149d48f106385ed64dbc7176274bcbdeec3a5cc2d",
+  "changed_repository_inputs_after_build": [
+    "source/opening_timing_profile.json"
+  ],
+  "reason": "Exact ROM/core timing profile registered from subsequent normal runtime observation. Original reproduction snapshot preserved; profile does not construct ROM bytes."
+}

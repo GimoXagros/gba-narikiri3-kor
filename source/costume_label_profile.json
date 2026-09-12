@@ -1,0 +1,259 @@
+{
+  "schema": 1,
+  "japanese_label": "きがえ（着替え）",
+  "korean_label": "갈아입기",
+  "bank": "0xf1d734",
+  "atlas_offset": "0xf1d8f4",
+  "atlas_bytes": 30720,
+  "atlas_sha256": "0ca737766ed42d5357cfcc75f176bb128619a779a5fa9039af7aff8a40ce00c3",
+  "map_index": 7,
+  "tiles": [
+    384,
+    385,
+    386,
+    387,
+    416,
+    417,
+    418,
+    419
+  ],
+  "background_tiles": [
+    653,
+    656
+  ],
+  "ink_index": 14,
+  "glyph_y": 4,
+  "maps": [
+    {
+      "index": 1,
+      "offset": "0xf250f4",
+      "encoded_bytes": 411,
+      "sha256": "6a5a0daa92ab33ff9d6c5424a18289270cd6204cd99ae478ca3bcf327c5e8892"
+    },
+    {
+      "index": 2,
+      "offset": "0xf25290",
+      "encoded_bytes": 182,
+      "sha256": "64c36ccba89b5359937434ae371f414ab9b0846cd079b322b741f350750d0c06"
+    },
+    {
+      "index": 3,
+      "offset": "0xf25348",
+      "encoded_bytes": 179,
+      "sha256": "c3ee53461c1581987a71b7e49e6693bd70ef28e00c1d754448362ee2980d5dfd"
+    },
+    {
+      "index": 4,
+      "offset": "0xf253fc",
+      "encoded_bytes": 193,
+      "sha256": "d335049b3b4321ad80e239043316ef6406ec8dccb9f8e3fc55323c25f9a2044a"
+    },
+    {
+      "index": 5,
+      "offset": "0xf254c0",
+      "encoded_bytes": 351,
+      "sha256": "31e9ad83b3b897840bb8de0d1184586f659110f3a4594af754d1b073ed294fa4"
+    },
+    {
+      "index": 6,
+      "offset": "0xf25620",
+      "encoded_bytes": 180,
+      "sha256": "33e9bee5e61853d3659da5e47a2a40012d5c02be32ff0c10419cfe2f1cac9f54"
+    },
+    {
+      "index": 7,
+      "offset": "0xf256d4",
+      "encoded_bytes": 242,
+      "sha256": "1d6e43bd730b6945cc6e63de286ffa17cde281e8a7d63e0f49570f57ac5ded51"
+    },
+    {
+      "index": 8,
+      "offset": "0xf257c8",
+      "encoded_bytes": 182,
+      "sha256": "cba638c5755879f698b68fd069344ee94ec063cbb57fda8865cd3ffb08d9984f"
+    },
+    {
+      "index": 9,
+      "offset": "0xf25880",
+      "encoded_bytes": 225,
+      "sha256": "acaab01e041b0b18a9983b7b904428a547ef2c97a3180df6193c5cb33e1fa03d"
+    },
+    {
+      "index": 10,
+      "offset": "0xf25964",
+      "encoded_bytes": 180,
+      "sha256": "501291a0208c1b5e90a61fe77c1a4c7ee9799f6ef6cbbcdd9fd666eecac96add"
+    },
+    {
+      "index": 11,
+      "offset": "0xf25a18",
+      "encoded_bytes": 324,
+      "sha256": "f5122760b8f3db2f269766bdce7e45bb656a772510cd13505d1ec324263517ba"
+    },
+    {
+      "index": 12,
+      "offset": "0xf25b5c",
+      "encoded_bytes": 320,
+      "sha256": "21e5707bb67d414b59bff35addf685dbd19784b4ff450d422a713ad383af7be7"
+    },
+    {
+      "index": 13,
+      "offset": "0xf25c9c",
+      "encoded_bytes": 339,
+      "sha256": "4617bc01469ef5fba900ffe1294379fd2480c040477ced7964ff22b471bc23b5"
+    },
+    {
+      "index": 14,
+      "offset": "0xf25df0",
+      "encoded_bytes": 339,
+      "sha256": "91028185f0c81e7de0742fe518c304acbf9b2a380bd4fde6c7d4dbf4adea9ce0"
+    },
+    {
+      "index": 15,
+      "offset": "0xf25f44",
+      "encoded_bytes": 186,
+      "sha256": "cbbdb5ff73250f8c8dc9ca6ac972a730d8b69ebdd8dab46117d827e97718939b"
+    },
+    {
+      "index": 16,
+      "offset": "0xf26000",
+      "encoded_bytes": 344,
+      "sha256": "8cde4766808f30bb8ae8c58ad4908ddc68fd117afc3e61d4944a912a49c63035"
+    },
+    {
+      "index": 17,
+      "offset": "0xf26158",
+      "encoded_bytes": 217,
+      "sha256": "fe114591bf60805fc295bf77b3f1a1ab544896dc4c44567d8e42add8488a6eff"
+    },
+    {
+      "index": 18,
+      "offset": "0xf26234",
+      "encoded_bytes": 218,
+      "sha256": "5161f41c39f44b974b9c4c4fd24974b476873c5a84fb9ad52849e01722f1fd58"
+    },
+    {
+      "index": 19,
+      "offset": "0xf26310",
+      "encoded_bytes": 217,
+      "sha256": "1a0def8bd64ae864b2a117a36f1c52fa19e105a15412ebc2c1896b9e4216e975"
+    },
+    {
+      "index": 20,
+      "offset": "0xf263ec",
+      "encoded_bytes": 212,
+      "sha256": "fea0d787fabf14896aabb089c5ba787ec033e691b32734677e6d21a760672033"
+    },
+    {
+      "index": 21,
+      "offset": "0xf264c0",
+      "encoded_bytes": 359,
+      "sha256": "4705f5acbc7a4546f41ea1bb5e6879d9f6514ae584440f6db803bfcc80409c9c"
+    },
+    {
+      "index": 22,
+      "offset": "0xf26628",
+      "encoded_bytes": 390,
+      "sha256": "7962a149a6328b0cc05655ad75cacfe293296750991573fc3065ce91278b03ad"
+    },
+    {
+      "index": 23,
+      "offset": "0xf267b0",
+      "encoded_bytes": 365,
+      "sha256": "2af40558f1090115095397fcf757b06f6753133b9051c66f096d9b26ff57bf04"
+    },
+    {
+      "index": 24,
+      "offset": "0xf26920",
+      "encoded_bytes": 177,
+      "sha256": "9ece7aa787cde836e0b29621e3914e48add37c03537219d572d7d8dc264f6df3"
+    },
+    {
+      "index": 25,
+      "offset": "0xf269d4",
+      "encoded_bytes": 346,
+      "sha256": "4bf5bce6999fb70aeac411f2974d94da9465f24a3cfcbaead5f8b9c792485580"
+    },
+    {
+      "index": 26,
+      "offset": "0xf26b30",
+      "encoded_bytes": 300,
+      "sha256": "8e3cf37494e3e3de572f4826bfb4753ebc3ab96c341d9137782df9042ce81a3b"
+    },
+    {
+      "index": 27,
+      "offset": "0xf26c5c",
+      "encoded_bytes": 277,
+      "sha256": "9b6676bf782d4bcf100896c4cdf0aa94389448160bdb21bd0e6ad67904cd53e7"
+    },
+    {
+      "index": 28,
+      "offset": "0xf26d74",
+      "encoded_bytes": 277,
+      "sha256": "d614adfbf9a1583429890154bade7081c38f0fab775bb7af1e73db65e758ea69"
+    },
+    {
+      "index": 29,
+      "offset": "0xf26e8c",
+      "encoded_bytes": 178,
+      "sha256": "36b2db7d15700301ec6deb37bcc2e57bb682d2f0792e78f0200140fb712a6745"
+    },
+    {
+      "index": 30,
+      "offset": "0xf26f40",
+      "encoded_bytes": 184,
+      "sha256": "2d9d34a43f7b1cbfc68ca194d602ca8ccbc651ab3d59ca6f025158415a77a0a3"
+    },
+    {
+      "index": 31,
+      "offset": "0xf26ff8",
+      "encoded_bytes": 215,
+      "sha256": "8b1808a2fa3c7bc8050791e781d1244437239f66d433e6b33f5dd0c3d741890a"
+    },
+    {
+      "index": 32,
+      "offset": "0xf270d0",
+      "encoded_bytes": 211,
+      "sha256": "2f1c92a918fbd076b91777e8888ffe9323416e93455c5bda692d8369524a3acf"
+    },
+    {
+      "index": 33,
+      "offset": "0xf271a4",
+      "encoded_bytes": 218,
+      "sha256": "291fe0fac1d5063ca174ae857495b5efa22afdbc328dcd4956dc8452f80ea598"
+    },
+    {
+      "index": 34,
+      "offset": "0xf27280",
+      "encoded_bytes": 213,
+      "sha256": "ed89c5a4f2a75a67b87a5a22dd52dfa03246babdbd5e5dadff7a3948657deec5"
+    }
+  ],
+  "guards": [
+    {
+      "offset": "0xc8c60",
+      "hex": "201c00213af7eefbc021c904f022d2013af772fa"
+    },
+    {
+      "offset": "0xc8d24",
+      "hex": "34d7f108"
+    },
+    {
+      "offset": "0xc8e20",
+      "hex": "70b5031c161c012906d0022908d00148056806e080330002004d02e000800006094d0a48191c3af7fdfa09490c68211c3af7e4faa54215d0002e0dd0054a201c291c14f0e1fa0de000a0000634d7f1088033000240010004a022d200201c291c3af76af970bc01bc00470000"
+    },
+    {
+      "offset": "0xc8ec0",
+      "hex": "f0b557464e464546e0b4031c8946002603201856864227da17488246002402201856771c84421adad4461448804648460503604602680021595609194900012018568019800109185218118840460840284310800134022018568442e9db3e1c032018568642d9db38bc9846a146aa46f0bc01bc0047000080330002ff0f0000"
+    },
+    {
+      "offset": "0x3158",
+      "hex": "f0b5061c171c0e48844605681f2d14dc0c4b2c01e0180660181d201801601a1c0832a218b80884210906084310600c33e4182760681c61460860f0bc01bc0047202a000320280003f0b5041c"
+    },
+    {
+      "offset": "0xf1d734",
+      "hex": "6f000000c0010000"
+    }
+  ],
+  "scope": "Eight existing 8x8 4bpp tiles in the costume-menu label only; all tilemaps, palettes, code, actions and other atlas tiles preserved. Four 8x8 Hangul glyphs fit the original 32x16 label extent."
+}
