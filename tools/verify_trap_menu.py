@@ -51,7 +51,14 @@ def main():
         for guard in row['guards']:
             at = int(guard['offset'], 0)
             raw = bytes.fromhex(guard['hex'])
-            if rom[at:at + len(raw)] != raw or legacy[at:at + len(raw)] != raw:
+            actual = bytearray(rom[at:at + len(raw)])
+            # The reviewed xlsx-580 prompt is a four-byte literal at the end
+            # of this otherwise unchanged caller. Its pointer/text is checked
+            # separately by verify_review_ui.py.
+            if at <= 0xae220 and 0xae224 <= at + len(raw):
+                start = 0xae220 - at
+                actual[start:start + 4] = raw[start:start + 4]
+            if bytes(actual) != raw or legacy[at:at + len(raw)] != raw:
                 raise ValueError('Trap original consumer code changed')
         ptr = struct.unpack_from('<I', rom, edge)[0]
         text = catalog[row['id']]

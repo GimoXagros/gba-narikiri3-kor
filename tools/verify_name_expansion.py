@@ -10,6 +10,7 @@ from unicorn.arm_const import UC_ARM_REG_R0, UC_ARM_REG_R1, UC_ARM_REG_SP, UC_AR
 from verify_small_consumer import Fixture
 from text_codec import encode
 from dialogue_tokens import expand_expected,unsafe_expansion_sequences
+from dialogue_text import DIALOGUE_POOLS
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -34,7 +35,7 @@ def main():
             raise ValueError('Dialogue opcode or speaker changed')
         ptr = struct.unpack_from('<I', rom, offset+4)[0]; start = ptr-0x08000000
         raw = rom[start:rom.index(0, start)]
-        if not 0x1080000 <= start < 0x1090000 or raw != encode(catalog[row['id']]):
+        if not any(0x1000000+lo <= start < 0x1000000+hi for lo,hi in DIALOGUE_POOLS.values()) or raw != encode(catalog[row['id']]):
             raise ValueError('Dialogue relocation differs')
         if unsafe_expansion_sequences(raw):raise ValueError('Unsafe multibyte trail in corrected dialogue')
         sources.append((row['id'], ptr, raw))

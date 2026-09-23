@@ -1,0 +1,446 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "records": [
+    {
+      "id": 1,
+      "stable_id": "xlsx-7002",
+      "text": "밤에　나는　흡혈　나비\n대롱을　뻗어　공격한다",
+      "japanese": "夜に舞う吸血蝶\n管を延ばして攻撃する",
+      "basis": "Now confirmed as monster-library description by real consumer; restore both original clauses. Wrong apology is already present in K1.1.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 3,
+      "stable_id": "xlsx-7004",
+      "text": "알을　낳는　곰\n기절　공격　있음",
+      "japanese": "卵生の熊\n気絶攻撃を持つ",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 13,
+      "stable_id": "xlsx-7014",
+      "text": "냉기를　두른　혹한의　새\n어떤　고열도　통하지　않음",
+      "japanese": "冷気をまとう極寒の鳥\nその冷気はどんな高熱も受けつけない",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 16,
+      "stable_id": "xlsx-7017",
+      "text": "어둠　속에서　덮쳐오는　육식　나방",
+      "japanese": "闇に紛れて襲いかかる肉食性の蛾",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 17,
+      "stable_id": "xlsx-7018",
+      "text": "불에　강한　왕나방\n직선으로　움직이며　공격",
+      "japanese": "炎に強い大型の蛾\n直線的な動きで敵を攻撃する",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 22,
+      "stable_id": "xlsx-7023",
+      "text": "모든　것을　파괴하는　악령\n해머　공격",
+      "japanese": "破壊の限りを尽くす悪霊\nハンマーで攻撃する",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 29,
+      "stable_id": "xlsx-7030",
+      "text": "지능이　높은　괴조\n깃털을　날려　공격",
+      "japanese": "知力が高い妖鳥\n羽を飛ばして攻撃する",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 31,
+      "stable_id": "xlsx-7032",
+      "text": "숲에　서식하는　매\n날카로운　발톱으로　먹이를　노림",
+      "japanese": "本来は森に生息している鷹\n鋭い爪で獲物を狙う",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 32,
+      "stable_id": "xlsx-7033",
+      "text": "초원에　서식하는　매\n가장　흉포한　매",
+      "japanese": "本来は草原に生息する鷹\n鷹の中でもっとも凶暴",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 41,
+      "stable_id": "xlsx-7042",
+      "text": "눈빛만으로　동결시키는　공격　주의",
+      "japanese": "ひとにらみで凍結させる攻撃に注意",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 48,
+      "stable_id": "xlsx-7049",
+      "text": "분별없이　날뛰는　괴물",
+      "japanese": "見境いなく暴れまくる怪物",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 50,
+      "stable_id": "xlsx-7051",
+      "text": "단단한　껍질과　강력한　침　공격",
+      "japanese": "固い殻と針による強力な一撃が特徴",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 51,
+      "stable_id": "xlsx-7052",
+      "text": "날카로운　침을　가진　전갈\n쇠약　효과의　탄으로　공격",
+      "japanese": "鋭い針を持つサソリ\n衰弱効果のある弾で攻撃する",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 56,
+      "stable_id": "xlsx-7057",
+      "text": "방황하는　영혼\n원한을　품고　사람을　덮친다",
+      "japanese": "さまよえる霊魂\n恨めしさゆえ人を襲う",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 57,
+      "stable_id": "xlsx-7058",
+      "text": "도깨비불\n지력　높고　마법이　잘　안　통함",
+      "japanese": "鬼火\n知力が高く、魔法の効果が低い",
+      "basis": "Avoid reading 마법에 강함 as offensive magic strength; explicitly express reduced incoming magic effect.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 58,
+      "stable_id": "xlsx-7059",
+      "text": "들개\n먹잇감에게　달려든다",
+      "japanese": "野犬\n獲物を見つけると飛びかかってくる",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 60,
+      "stable_id": "xlsx-7061",
+      "text": "지옥의　파수견\n불에　강함",
+      "japanese": "地獄の番犬\n火に強い",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 67,
+      "stable_id": "xlsx-7068",
+      "text": "언데드　몬스터\n접근전에서　높은　내구력",
+      "japanese": "アンデッドモンスター\n接近戦の耐久力が高い",
+      "basis": "접근전의 내구력이 높다는 한정이 현행에서 빠져 전반적 내구력으로 읽힐 수 있음.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 70,
+      "stable_id": "xlsx-7071",
+      "text": "흉포한　토끼\n다릿심을　살린　공격이　특기",
+      "japanese": "凶暴化したウサギ\n脚力を生かした攻撃が得意",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 72,
+      "stable_id": "xlsx-7073",
+      "text": "추위에　강한　새우\n가까운　적에게　뛰어든다",
+      "japanese": "寒さに強いエビ\n近付いてきた敵に飛びかかる",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 78,
+      "stable_id": "xlsx-7079",
+      "text": "＜풍＞속성　궁수",
+      "japanese": "＜風＞属性の弓使い",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
+    },
+    {
+      "id": 79,
+      "stable_id": "xlsx-7080",
+      "text": "＜수＞속성　궁수",
+      "japanese": "＜水＞属性の弓使い",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
+    },
+    {
+      "id": 80,
+      "stable_id": "xlsx-7081",
+      "text": "＜뇌＞속성　궁수",
+      "japanese": "＜雷＞属性の弓使い",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
+    },
+    {
+      "id": 81,
+      "text": "＜광＞속성　궁수\n조준이　정확함",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7082",
+      "japanese": "＜光＞属性の弓使い\n狙いが正確"
+    },
+    {
+      "id": 83,
+      "text": "＜뇌＞속성　격투가",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7084",
+      "japanese": "＜雷＞属性の格闘家"
+    },
+    {
+      "id": 84,
+      "text": "＜광＞속성　격투가",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7085",
+      "japanese": "＜光＞属性の格闘家"
+    },
+    {
+      "id": 85,
+      "text": "＜화＞속성　격투가",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7086",
+      "japanese": "＜火＞属性の格闘家"
+    },
+    {
+      "id": 86,
+      "text": "＜암＞속성　격투가\n강한　상대를　찾아　떠돎",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7087",
+      "japanese": "＜闇＞属性の格闘家\n強い相手を求め、さすらう"
+    },
+    {
+      "id": 88,
+      "text": "＜풍＞속성　검사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7089",
+      "japanese": "＜風＞属性の剣士"
+    },
+    {
+      "id": 89,
+      "text": "＜수＞속성　검사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7090",
+      "japanese": "＜水＞属性の剣士"
+    },
+    {
+      "id": 90,
+      "text": "＜화＞속성　검사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7091",
+      "japanese": "＜火＞属性の剣士"
+    },
+    {
+      "id": 91,
+      "text": "＜지＞속성　검사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7092",
+      "japanese": "＜地＞属性の剣士"
+    },
+    {
+      "id": 93,
+      "text": "＜뇌＞속성　중갑전사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7094",
+      "japanese": "＜雷＞属性の重戦士"
+    },
+    {
+      "id": 94,
+      "text": "＜무＞속성　중갑전사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7095",
+      "japanese": "＜元素＞属性の重戦士"
+    },
+    {
+      "id": 95,
+      "text": "＜암＞속성　중갑전사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7096",
+      "japanese": "＜闇＞属性の重戦士"
+    },
+    {
+      "id": 96,
+      "text": "＜광＞속성　중갑전사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7097",
+      "japanese": "＜光＞属性の重戦士"
+    },
+    {
+      "id": 98,
+      "text": "＜지＞속성　여마법사　",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7099",
+      "japanese": "＜地＞属性の女魔術師"
+    },
+    {
+      "id": 99,
+      "text": "＜수＞속성　여마법사　",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7100",
+      "japanese": "＜水＞属性の女魔術師"
+    },
+    {
+      "id": 100,
+      "text": "＜광＞속성　여마법사　",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7101",
+      "japanese": "＜光＞属性の女魔術師"
+    },
+    {
+      "id": 101,
+      "stable_id": "xlsx-7102",
+      "text": "＜화＞속성　여마법사",
+      "japanese": "＜火＞属性の女魔術師",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
+    },
+    {
+      "id": 103,
+      "text": "＜풍＞속성　남마법사　",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7104",
+      "japanese": "＜風＞属性の男魔術師"
+    },
+    {
+      "id": 104,
+      "text": "＜암＞속성　남마법사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7105",
+      "japanese": "＜闇＞属性の男魔術師"
+    },
+    {
+      "id": 105,
+      "text": "＜화＞속성　남마법사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7106",
+      "japanese": "＜火＞属性の男魔術師"
+    },
+    {
+      "id": 106,
+      "text": "＜광＞속성　남마법사",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending",
+      "stable_id": "xlsx-7107",
+      "japanese": "＜光＞属性の男魔術師"
+    },
+    {
+      "id": 111,
+      "stable_id": "xlsx-7112",
+      "text": "영혼이　깃든　마검\n모든　것을　얼리는　날카로운　칼날",
+      "japanese": "魂を宿す魔剣\n全てを凍らせる刃が冴える",
+      "basis": "Preserve the possessed-sword meaning in natural Korean rather than the telegraphic 영혼 마검.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 119,
+      "stable_id": "xlsx-7120",
+      "text": "언데드　몬스터\n강화된　스켈레톤",
+      "japanese": "アンデッドモンスター\n強化されたスケルトン",
+      "basis": "스켈레톤 is the existing compact name in translations/items-monsters.json monster-067; 強化された restores 강화된.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 122,
+      "stable_id": "xlsx-7123",
+      "text": "수변의　강자\n꼬리　연타로　움직임을　봉쇄",
+      "japanese": "水辺の実力者\n尻尾の連打で敵の動きを封じる",
+      "basis": "尾の連打で敵の動きを封じる의 움직임을 봉쇄한다는 효과를 복원.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 126,
+      "stable_id": "xlsx-7127",
+      "text": "왕　개구리\n날아차기와　혀로　공격",
+      "japanese": "大型のカエル\n飛びげりと舌を使って攻撃する",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 128,
+      "stable_id": "xlsx-7129",
+      "text": "큰　집게발을　가진　새우",
+      "japanese": "大きなハサミを持つエビ",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 130,
+      "stable_id": "xlsx-7131",
+      "text": "사람에게　해를　끼치는　악령",
+      "japanese": "人に害をなす悪霊",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 139,
+      "stable_id": "xlsx-7140",
+      "text": "초거대　애벌레\n큰　몸으로　들이받음",
+      "japanese": "超巨大イモ虫\n大きな体で体当りする",
+      "basis": "体当り는 머리만 쓰는 박치기가 아닌 몸으로 들이받는 공격.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 141,
+      "stable_id": "xlsx-7142",
+      "text": "초거대　애벌레\n연속　몸통박치기",
+      "japanese": "超巨大イモ虫\n連続で体当りを仕掛ける",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 150,
+      "stable_id": "xlsx-7151",
+      "text": "욕망에　휘둘려　남을　해치는　자\n단검을　다룸",
+      "japanese": "欲望にまかせ、人に害をなす者\nダガーを操る",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 151,
+      "stable_id": "xlsx-7152",
+      "text": "욕망에　휘둘려　남을　해치는　자\n근거리　공격",
+      "japanese": "欲望にまかせ、人に害なす者\n近距離攻撃が得意",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 152,
+      "stable_id": "xlsx-7153",
+      "text": "욕망에　휘둘려　남을　해치는　자\n움직임이　빠름",
+      "japanese": "欲望にまかせ人に害なす者\n動きが素早い",
+      "basis": "JP and candidate reread: proposed spelling/meaning retained. Consumer and runtime status are separate.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    }
+  ]
+}

@@ -22,19 +22,19 @@
 {"frame": 1953, "request": {"op": "frames", "count": 90}, "result": {}}
 {"frame": 1954, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 2194, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2194, "request": {"op": "screenshot", "name": "shop-entry.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-entry.png", "size": [240, 160], "sha256": "ceaa86d27d66b931a8ad1fac222bbd9f7493c0bb889daa9b4a8ca79cf72b027c"}}
+{"frame": 2194, "request": {"op": "screenshot", "name": "shop-entry.png"}, "result": {"path": "output\\dev37-shop-final-vba\\shop-entry.png", "size": [240, 160], "sha256": "ceaa86d27d66b931a8ad1fac222bbd9f7493c0bb889daa9b4a8ca79cf72b027c"}}
 {"frame": 2195, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 2435, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2435, "request": {"op": "screenshot", "name": "shop-01.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-01.png", "size": [240, 160], "sha256": "81a8fe8b1b62c7fe2d5eb385031369b806ac31e3528b3d7ebfe08ce88b2b5413"}}
+{"frame": 2435, "request": {"op": "screenshot", "name": "shop-01.png"}, "result": {"path": "output\\dev37-shop-final-vba\\shop-01.png", "size": [240, 160], "sha256": "81a8fe8b1b62c7fe2d5eb385031369b806ac31e3528b3d7ebfe08ce88b2b5413"}}
 {"frame": 2436, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 2676, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2676, "request": {"op": "screenshot", "name": "shop-02.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-02.png", "size": [240, 160], "sha256": "97e84a66da90262dd729fe18707b3ea86bdf5a074565370d4706c6a0cba62fd6"}}
+{"frame": 2676, "request": {"op": "screenshot", "name": "shop-02.png"}, "result": {"path": "output\\dev37-shop-final-vba\\shop-02.png", "size": [240, 160], "sha256": "97e84a66da90262dd729fe18707b3ea86bdf5a074565370d4706c6a0cba62fd6"}}
 {"frame": 2677, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 2917, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2917, "request": {"op": "screenshot", "name": "shop-03.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-03.png", "size": [240, 160], "sha256": "6a432376fc70c529c2f2a24dfd6ec216dd1c51e307c8f92ca8c4b4c97bd8009d"}}
+{"frame": 2917, "request": {"op": "screenshot", "name": "shop-03.png"}, "result": {"path": "output\\dev37-shop-final-vba\\shop-03.png", "size": [240, 160], "sha256": "6a432376fc70c529c2f2a24dfd6ec216dd1c51e307c8f92ca8c4b4c97bd8009d"}}
 {"frame": 2918, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 3158, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 3158, "request": {"op": "screenshot", "name": "shop-04.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-04.png", "size": [240, 160], "sha256": "67323126465f32d9d28335769174691c36bb3ccb128678c1eb069963e1107e4c"}}
+{"frame": 3158, "request": {"op": "screenshot", "name": "shop-04.png"}, "result": {"path": "output\\dev37-shop-final-vba\\shop-04.png", "size": [240, 160], "sha256": "67323126465f32d9d28335769174691c36bb3ccb128678c1eb069963e1107e4c"}}
 {"frame": 3159, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 3399, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 3399, "request": {"op": "screenshot", "name": "shop-05.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-vba\\shop-05.png", "size": [240, 160], "sha256": "ffa223e9ac295db01ac041ca3e8dd0371205aaec57a2b2984362658bc492bdc2"}}
+{"frame": 3399, "request": {"op": "screenshot", "name": "shop-05.png"}, "result": {"path": "output\\dev37-shop-final-vba\\shop-05.png", "size": [240, 160], "sha256": "ffa223e9ac295db01ac041ca3e8dd0371205aaec57a2b2984362658bc492bdc2"}}

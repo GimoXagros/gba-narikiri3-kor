@@ -343,7 +343,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "ef0e55bdb33d9f9c0aa741b70953f12f8e856638efa37a9df64dfaea495f5720"
+      "source_record_sha256": "ef0e55bdb33d9f9c0aa741b70953f12f8e856638efa37a9df64dfaea495f5720",
+      "description_repair": "적을　공중에　들어　올린　후　낙하",
+      "description_original_sha256": "7f04236b44cd00d00cc6d5bbc0ae62325b0fb8438d0bfd5252e8596492b8e0c6",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-10986"
     },
     {
       "id": "skill-033",
@@ -532,7 +535,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "cda52faa71cf6a85330d0b2646f7333a15fa8e608362733e24aef7535873cc09"
+      "source_record_sha256": "cda52faa71cf6a85330d0b2646f7333a15fa8e608362733e24aef7535873cc09",
+      "description_repair": "하늘에서　수많은　레이저　공격",
+      "description_original_sha256": "9e66afafc1e782bc39232e357ded64d224eccaeb4d9778b630f958243b04b416",
+      "description_basis": "Original Japanese description; proofreading xlsx-11040"
     },
     {
       "id": "skill-051",
@@ -1173,7 +1179,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "3f05cb0b28f5d5cbaae894d809aa89aa02c8f49d8e86a8d38ea90f701fdc9543"
+      "source_record_sha256": "3f05cb0b28f5d5cbaae894d809aa89aa02c8f49d8e86a8d38ea90f701fdc9543",
+      "description_repair": "관통하는　어둠의　힘으로　공격",
+      "description_original_sha256": "fee24e6038a3a2626d6fa899b6ce1c29656e5621ce3f9003cd29963a5b516b60",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11226"
     },
     {
       "id": "skill-113",
@@ -1226,7 +1235,10 @@
       "reference": "Immutable B3TJ same ID; ND2 v0.9b banked_arte_names.tsv terminology reference (IDs are not interchangeable); user terminology for skill 132/168",
       "review": "source_meaning_reviewed_runtime_pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "0a91bbabe1e275cbde36a6063372754431758de37f0363bd3920c67500cf7e60"
+      "source_record_sha256": "0a91bbabe1e275cbde36a6063372754431758de37f0363bd3920c67500cf7e60",
+      "description_repair": "일정　시간　아군　명중률　상승",
+      "description_original_sha256": "d796e93e3629011b1bdc0078b4171dcecde55f0a4e10805078c7fbbe275deacf",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11241"
     },
     {
       "id": "skill-118",
@@ -1286,7 +1298,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "b3c1e9485215130550fcfad615917bf416e6e5525c1bcf2d1de7a900eb431ae5"
+      "source_record_sha256": "b3c1e9485215130550fcfad615917bf416e6e5525c1bcf2d1de7a900eb431ae5",
+      "description_repair": "동결　효과의　망치를　던짐",
+      "description_original_sha256": "4c6cae0d81e7555d7d083fa40c97cf75db79b5e3bd2ab35d758e9df43eb432bc",
+      "description_basis": "Original Japanese description; proofreading xlsx-11259"
     },
     {
       "id": "skill-124",
@@ -1356,7 +1371,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "8885181d9c643fdf07373c884a16d5be491ba214afd56043f9fabd51565519f6"
+      "source_record_sha256": "8885181d9c643fdf07373c884a16d5be491ba214afd56043f9fabd51565519f6",
+      "description_repair": "다른　속성의　레이저　연속　발사",
+      "description_original_sha256": "a9f47183eed00f9f18d141ee92001c941d10d3953e5cf258025364d0ec77b06e",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11280"
     },
     {
       "id": "skill-131",
@@ -1804,7 +1822,10 @@
       "reference": "ARTE_129_FULL",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "456fc8f7c7f84fcc580f9f84a9fc825f5aa1368cb3fa52b03c0a6256c2455171"
+      "source_record_sha256": "456fc8f7c7f84fcc580f9f84a9fc825f5aa1368cb3fa52b03c0a6256c2455171",
+      "description_repair": "진공파를　날려　적을　베어　냄",
+      "description_original_sha256": "5ef79860805a4ed90f3da9836d398b3607cf7862830beccb63979a936a28bbdb",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11409"
     },
     {
       "id": "skill-174",
@@ -2040,7 +2061,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "3f21a39a1425cd13fab4a979bbee00e1646fe032d8e8df61fc2f86ba7aad95b0"
+      "source_record_sha256": "3f21a39a1425cd13fab4a979bbee00e1646fe032d8e8df61fc2f86ba7aad95b0",
+      "description_repair": "마비를　일으키는　공을　던짐",
+      "description_original_sha256": "45f80fe32bcba4cd1317aee5d90f4a035d06d10d3c1a75e8c5aff8d29602ae12",
+      "description_basis": "Original Japanese description; proofreading xlsx-11478"
     },
     {
       "id": "skill-197",
@@ -2133,7 +2157,10 @@
       "reference": "Immutable B3TJ same ID; ND2 v0.9b banked_arte_names.tsv terminology reference (IDs are not interchangeable); user terminology for skill 132/168",
       "review": "source_meaning_reviewed_runtime_pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "572de7c01a33dcf76ac04b078e53b51eef8cb83d168566281b39162db1f48cce"
+      "source_record_sha256": "572de7c01a33dcf76ac04b078e53b51eef8cb83d168566281b39162db1f48cce",
+      "description_repair": "회전　공중　베기",
+      "description_original_sha256": "4e511f61249000a54fa05615024c75e8c5679dd32db0a72e95a2cb09acaef3eb",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11505"
     },
     {
       "id": "skill-206",
@@ -2176,7 +2203,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "66696143285d33043931d6e9126a70e7f28825ab9b110546fe7f6799da7f89f3"
+      "source_record_sha256": "66696143285d33043931d6e9126a70e7f28825ab9b110546fe7f6799da7f89f3",
+      "description_repair": "적에게서　아이템　입수",
+      "description_original_sha256": "b21a03ce1254550e0c175c670797bcca51aec1b2849a7f650abc0331d20583d6",
+      "description_basis": "Original Japanese description; proofreading xlsx-11517"
     },
     {
       "id": "skill-210",
@@ -2196,7 +2226,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "c03d090e833c31dd9aa8ced0e8aae50a40c3cbd0d38e1b121ac9cd9349bcf234"
+      "source_record_sha256": "c03d090e833c31dd9aa8ced0e8aae50a40c3cbd0d38e1b121ac9cd9349bcf234",
+      "description_repair": "급강하　날아차기　+　삼산화",
+      "description_original_sha256": "5029f14b6ffd5358631c20872253dfe49fff0e486a14603880ad69e5fd292d07",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11523"
     },
     {
       "id": "skill-212",
@@ -2286,7 +2319,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "c3ca69041d682d7d7096f7db5c8072a36911b66dcb3c26da382196d4b75d29fa"
+      "source_record_sha256": "c3ca69041d682d7d7096f7db5c8072a36911b66dcb3c26da382196d4b75d29fa",
+      "description_repair": "화살　연속　공격",
+      "description_original_sha256": "ac892bc829667d49ba992ea515440e4b77e4b74a610c7b614f2b0216260a1ceb",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11550"
     },
     {
       "id": "skill-221",
@@ -2296,7 +2332,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "376028e84d945962aef3fcb6cd4edb1b8b31c0da829578fb4fc2e6ff1c300883"
+      "source_record_sha256": "376028e84d945962aef3fcb6cd4edb1b8b31c0da829578fb4fc2e6ff1c300883",
+      "description_repair": "적에게서　아이템　입수",
+      "description_original_sha256": "b21a03ce1254550e0c175c670797bcca51aec1b2849a7f650abc0331d20583d6",
+      "description_basis": "Original Japanese description; proofreading xlsx-11553"
     },
     {
       "id": "skill-222",
@@ -2399,7 +2438,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "6e8a8bae67d21d1525ea913e28c3fe4d84956ce519bf08f4839606914250b6ef"
+      "source_record_sha256": "6e8a8bae67d21d1525ea913e28c3fe4d84956ce519bf08f4839606914250b6ef",
+      "description_repair": "공중에서　힘찬　찌르기",
+      "description_original_sha256": "b3a9398e900a45d36153a7a6ec22e5e8ca08de548362976c36b9f53553944adc",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11583"
     },
     {
       "id": "skill-232",
@@ -2419,7 +2461,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "87a8d8821ef8c4ea81b9a9d8eb500b5ff211640a37e153d54407aefb38a7d039"
+      "source_record_sha256": "87a8d8821ef8c4ea81b9a9d8eb500b5ff211640a37e153d54407aefb38a7d039",
+      "description_repair": "날카로운　참격　연속　공격",
+      "description_original_sha256": "c200850480d509e381c4cb5ac52ea82dba69519ba2c6bf7583470db3711fefd9",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11589"
     },
     {
       "id": "skill-234",
@@ -2469,7 +2514,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "2edc62f533a800bf98a5778dc518c419b9d99674a058421f0f6018e72a5bd56a"
+      "source_record_sha256": "2edc62f533a800bf98a5778dc518c419b9d99674a058421f0f6018e72a5bd56a",
+      "description_repair": "빠른　주먹　연속　공격",
+      "description_original_sha256": "73c2848e46e702817eeb954e0dc3d7c29571a36a03bda4653371869f9b7c9b9f",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11604"
     },
     {
       "id": "skill-239",
@@ -2536,9 +2584,9 @@
       "review": "pending",
       "layout": "all_callers_pending",
       "source_record_sha256": "dcc7c30ed6ec000ddeafd466bf7bf9e2d517eed3e0f3875291d464c34aa8c65e",
-      "description_repair": "자신의 행동을 따라하는 분신 생성",
+      "description_repair": "행동을　따라　하는　분신　생성",
       "description_original_sha256": "0f775735aac0811363d09817f96087b80dc790c427e51e0e79b43a343a35c76d",
-      "description_basis": "Exact Japanese description same 20-byte record; preserve quantities and target/effect meaning; maximum 18 visible cells; runtime verification pending"
+      "description_basis": "Original Japanese description; proofreading xlsx-11622"
     },
     {
       "id": "skill-245",
@@ -2601,7 +2649,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "fea306bee73c9840b24e16568427b1e289269a4aacd7b0e0f02d4eeb178144ca"
+      "source_record_sha256": "fea306bee73c9840b24e16568427b1e289269a4aacd7b0e0f02d4eeb178144ca",
+      "description_repair": "강뢰검,맹습검　후　내려　베기",
+      "description_original_sha256": "7423145368a0c9800867a4828d4f7b0ca86e3658127a0754f64780f119541898",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11640"
     },
     {
       "id": "skill-251",
@@ -2661,7 +2712,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "2cf69095060e6294aacac4ccf08f20d7ab1db6fc5f9948a921881a7b6643eaff"
+      "source_record_sha256": "2cf69095060e6294aacac4ccf08f20d7ab1db6fc5f9948a921881a7b6643eaff",
+      "description_repair": "하늘에서　수많은　레이저　공격",
+      "description_original_sha256": "9e66afafc1e782bc39232e357ded64d224eccaeb4d9778b630f958243b04b416",
+      "description_basis": "Original Japanese description; proofreading xlsx-11658"
     },
     {
       "id": "skill-257",
@@ -2754,7 +2808,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "2670c062fe2b813c24598ad1a292109661a6804a36f56ab04c11699ed9bc5fdc"
+      "source_record_sha256": "2670c062fe2b813c24598ad1a292109661a6804a36f56ab04c11699ed9bc5fdc",
+      "description_repair": "공중　３연속　돌려차기",
+      "description_original_sha256": "06ba2c6dbebc441c85379015afe65ba46640b81063a7cab7a6a3a567b50fc26d",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11685"
     },
     {
       "id": "skill-266",
@@ -2784,7 +2841,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "7a0f7104168f12d61aa3f7eabafd628a314d0ecf72d774023f6aa671b48f11f3"
+      "source_record_sha256": "7a0f7104168f12d61aa3f7eabafd628a314d0ecf72d774023f6aa671b48f11f3",
+      "description_repair": "적을　기절시키는　망치를　던짐",
+      "description_original_sha256": "e9befee684e5d2ee292b53861062821383c344af9c8b9808589c83e3597ab7ab",
+      "description_basis": "Original Japanese description; proofreading xlsx-11694"
     },
     {
       "id": "skill-269",
@@ -2920,7 +2980,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "96c73a98e2443e1e255d0d62686e9282f8f66feb025c321b761a5b2cf4b27558"
+      "source_record_sha256": "96c73a98e2443e1e255d0d62686e9282f8f66feb025c321b761a5b2cf4b27558",
+      "description_repair": "하늘에서　수많은　레이저　공격",
+      "description_original_sha256": "9e66afafc1e782bc39232e357ded64d224eccaeb4d9778b630f958243b04b416",
+      "description_basis": "Original Japanese description; proofreading xlsx-11733"
     },
     {
       "id": "skill-282",
@@ -2980,7 +3043,10 @@
       "reference": "Original B3TJ glyph pixels + phonetic compact name",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "fb818ddba95fc024fc532c316760a5ef90b37c901ed395124665f0b75bc4e160"
+      "source_record_sha256": "fb818ddba95fc024fc532c316760a5ef90b37c901ed395124665f0b75bc4e160",
+      "description_repair": "연속　돌려차기　후　회전차기",
+      "description_original_sha256": "c2633a2555ef195984dcdd7334b46e53f1c712cdb057f93f024559fe59a8b80c",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11751"
     },
     {
       "id": "skill-288",
@@ -2990,7 +3056,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "7fdab53987761d0eb82fb4be752cddbfdd83af23c970bbe32ebdcbe4dac0c1b0"
+      "source_record_sha256": "7fdab53987761d0eb82fb4be752cddbfdd83af23c970bbe32ebdcbe4dac0c1b0",
+      "description_repair": "연속　돌려차기　후　천월선　공격",
+      "description_original_sha256": "cb9900faf0d0dcf47a72d2faffaa24426968d69626f2d3d64586dbea19800e1a",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11754"
     },
     {
       "id": "skill-289",
@@ -3001,9 +3070,9 @@
       "review": "pending",
       "layout": "all_callers_pending",
       "source_record_sha256": "b94ab1edf9f7af9705a71f49f3113312f19878cbd002b0473398c7c2d189b7d4",
-      "description_repair": "앞뒤의 적을 베고 돌아오며 찌름",
+      "description_repair": "찌르고　뒤를　벤　후　돌아와　찌름",
       "description_original_sha256": "66057e2a8e767e289e3babedb09a0f25b1443f0c74444be678272dccd9aa27bd",
-      "description_basis": "Exact Japanese description same 20-byte record; preserve quantities and target/effect meaning; maximum 18 visible cells; runtime verification pending"
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11757"
     },
     {
       "id": "skill-290",
@@ -3033,7 +3102,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "3047f2504800ef45fbd7248d490277bad728c22a857a239e604275abbf084b15"
+      "source_record_sha256": "3047f2504800ef45fbd7248d490277bad728c22a857a239e604275abbf084b15",
+      "description_repair": "적　날리고　근처　아군ＨＰ　미량회복",
+      "description_original_sha256": "cd16f80d72b21c3b338cb82474a3e210159248c23f76a8aa39c118d5e6ffa363",
+      "description_basis": "Original Japanese description; proofreading xlsx-11766"
     },
     {
       "id": "skill-293",
@@ -3212,7 +3284,10 @@
       "reference": "Immutable B3TJ same ID; ND2 v0.9b banked_arte_names.tsv terminology reference (IDs are not interchangeable); user terminology for skill 132/168",
       "review": "source_meaning_reviewed_runtime_pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "b5a42450d77ce5faba7962817341faab5a241f41bb35324f9a12ffd89b6e4368"
+      "source_record_sha256": "b5a42450d77ce5faba7962817341faab5a241f41bb35324f9a12ffd89b6e4368",
+      "description_repair": "마법을　포함한　모든　공격을　방어",
+      "description_original_sha256": "737b06eb6426c341a3221a903ab6777371b11a168852b555f86d28dbfe227182",
+      "description_basis": "Original Japanese description; proofreading xlsx-11817"
     },
     {
       "id": "skill-310",
@@ -3272,7 +3347,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "09f885603afa1b658235e0de585e2d5c7fbd63234af3229b1e88754db7560401"
+      "source_record_sha256": "09f885603afa1b658235e0de585e2d5c7fbd63234af3229b1e88754db7560401",
+      "description_repair": "압축된　물줄기　탄환을　발사",
+      "description_original_sha256": "c1cbc92cf57e98e96f7a2f4fd31853d46d0ae0acb9aec5a3e1bd7dc8290a50bf",
+      "description_basis": "Original Japanese description; proofreading xlsx-11835"
     },
     {
       "id": "skill-316",
@@ -3371,7 +3449,10 @@
       "reference": "Original B3TJ glyph pixels + phonetic compact name",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "b3d1c580099f8c8d7e35415faed67e177156c0a22d7e79f51e4a38a03929a5d3"
+      "source_record_sha256": "b3d1c580099f8c8d7e35415faed67e177156c0a22d7e79f51e4a38a03929a5d3",
+      "description_repair": "사자　형태　투기로　적을　날림",
+      "description_original_sha256": "142731e021b1bdea840812ba16abeafb565aa6e8351dd9fb40308bb2aba34c3b",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11862"
     },
     {
       "id": "skill-325",
@@ -3414,7 +3495,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "d0825a428619b41db4ed2805136dae6e12f72159c64de7bcf527b513acc2ab87"
+      "source_record_sha256": "d0825a428619b41db4ed2805136dae6e12f72159c64de7bcf527b513acc2ab87",
+      "description_repair": "쌍검을　번갈아　쓰는　４연속　공격",
+      "description_original_sha256": "2ef88323b0b252ebd07a6a072226ce6b7ee1504a93ba4e92807588ea30b72f6c",
+      "description_basis": "Original Japanese description; proofreading xlsx-11874"
     },
     {
       "id": "skill-329",
@@ -3445,7 +3529,7 @@
       "review": "pending",
       "layout": "all_callers_pending",
       "source_record_sha256": "d893980a6abb8f891374beefb686996465fc5f95fa73d0bc534f566c94deb928",
-      "description_repair": "마법을 포함한 모든 공격을 방어",
+      "description_repair": "마법을　포함한　모든　공격을　방어",
       "description_original_sha256": "737b06eb6426c341a3221a903ab6777371b11a168852b555f86d28dbfe227182",
       "description_basis": "Exact Japanese description same 20-byte record; preserve quantities and target/effect meaning; maximum 18 visible cells; runtime verification pending"
     },
@@ -3457,7 +3541,10 @@
       "reference": "Original B3TJ glyph pixels + phonetic compact name",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "64e00540ace7411336333d31388188dbc7bd42033b80085a93146f51a8b0a3b2"
+      "source_record_sha256": "64e00540ace7411336333d31388188dbc7bd42033b80085a93146f51a8b0a3b2",
+      "description_repair": "달의　궤적을　두　번　그리는　연속기",
+      "description_original_sha256": "9e9ea03d8c3d0ee45e874655090f8a9a3839a7c776d268cef4e695710fe2ed82",
+      "description_basis": "Original Japanese description; proofreading xlsx-11886"
     },
     {
       "id": "skill-333",
@@ -3497,7 +3584,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "53df8f1a7ea9db3cc5025eeb1c31aebde981cee6c7c943e9429f46ee0dc084c0"
+      "source_record_sha256": "53df8f1a7ea9db3cc5025eeb1c31aebde981cee6c7c943e9429f46ee0dc084c0",
+      "description_repair": "달을　그리는　듯한　대공　회전차기",
+      "description_original_sha256": "27c1e873c9bc4e018056083cde1293526a411d55492a864a7ece33272034d8c7",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11898"
     },
     {
       "id": "skill-337",
@@ -3680,7 +3770,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "4c74f6b4ef9c2a209c6ba1ed1b0272bb032a1e985d28a1c9a038c1cb46044bc0"
+      "source_record_sha256": "4c74f6b4ef9c2a209c6ba1ed1b0272bb032a1e985d28a1c9a038c1cb46044bc0",
+      "description_repair": "회전하며　전진해　적을　공격",
+      "description_original_sha256": "3b08f70b8507e23623f05755b782420570363d4cef7bb1f614e744233d3bf699",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11952"
     },
     {
       "id": "skill-355",
@@ -3839,7 +3932,10 @@
       "reference": "Immutable B3TJ same ID; ND2 v0.9b banked_arte_names.tsv terminology reference (IDs are not interchangeable); user terminology for skill 132/168",
       "review": "source_meaning_reviewed_runtime_pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "a711b10a8a5d12a0bf07eb69453d931b9e8c67849d936643b7bbba10a9245df8"
+      "source_record_sha256": "a711b10a8a5d12a0bf07eb69453d931b9e8c67849d936643b7bbba10a9245df8",
+      "description_repair": "굳힌　머리카락을　사방으로　뻗음",
+      "description_original_sha256": "5d41d50e39ccacfc05199f67492700633f6ee15e7fcd11d9088174252b922b99",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-11997"
     },
     {
       "id": "skill-370",
@@ -3859,7 +3955,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "6c25789558e23b1cd97ae79efc6905fc562b3e49ec9ff0967045609144c908ed"
+      "source_record_sha256": "6c25789558e23b1cd97ae79efc6905fc562b3e49ec9ff0967045609144c908ed",
+      "description_repair": "굳힌　머리카락을　땅속에서　뻗음",
+      "description_original_sha256": "b437938a6f6c6227f189331f072ed8b60f01722041503b4be8d0388114595d5a",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-12003"
     },
     {
       "id": "skill-372",
@@ -3895,7 +3994,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "d152315042b74ce823ff4046d491d5ddf72cb2c05d2155d8235d30a6d2dc784d"
+      "source_record_sha256": "d152315042b74ce823ff4046d491d5ddf72cb2c05d2155d8235d30a6d2dc784d",
+      "description_repair": "무수한　검격을　퍼부음",
+      "description_original_sha256": "d3468381c8fc5aa2ed2eaf190efe01a1470e65bea3e0ebbd7ccb821d2cb5a43f",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-12012"
     },
     {
       "id": "skill-375",
@@ -3935,7 +4037,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "18ce1182b134cbaf5ce73c1a9fc0add2871f4ef2bf65da3f4ce80a65d0e75410"
+      "source_record_sha256": "18ce1182b134cbaf5ce73c1a9fc0add2871f4ef2bf65da3f4ce80a65d0e75410",
+      "description_repair": "축제　같은　화려한　연속　공격",
+      "description_original_sha256": "4a3914cee84dc543e5040f84387c27a9440470f108fec2f64f47a1ef5dd08862",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-12024"
     },
     {
       "id": "skill-379",
@@ -4008,7 +4113,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "48cac9f7ef332d4061673673fdec6453ecb740bad26519fbd5072a4c0b7d965b"
+      "source_record_sha256": "48cac9f7ef332d4061673673fdec6453ecb740bad26519fbd5072a4c0b7d965b",
+      "description_repair": "전기　스파크로　공격",
+      "description_original_sha256": "ef62bff8e74e1720eee305c4816cb991f8a01dec4ca1d33d386313cf1134b7c9",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-12045"
     },
     {
       "id": "skill-386",
@@ -4051,7 +4159,10 @@
       "reference": "K1.1 same record",
       "review": "pending",
       "layout": "all_callers_pending",
-      "source_record_sha256": "09b751d3850449c83a3b86d4ade3dceb88c5a62599f3c571466fc4144554aca5"
+      "source_record_sha256": "09b751d3850449c83a3b86d4ade3dceb88c5a62599f3c571466fc4144554aca5",
+      "description_repair": "격렬한　검격　연속　공격",
+      "description_original_sha256": "10d39de0f84612b030997836539a9b99d4dc489bd7c21809860d0900a075c62a",
+      "description_basis": "Original Japanese skill +8 field; independent second proofreading xlsx-12057"
     }
   ]
 }

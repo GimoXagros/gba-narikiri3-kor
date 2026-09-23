@@ -22,7 +22,12 @@ def main():
     else:raise ValueError('Wrong identity was not rejected')
     for g in profile['guards']:
         off=int(g['offset'],0);raw=bytes.fromhex(g['hex'])
-        if rom[off:off+len(raw)]!=raw:raise ValueError('Library code/controls changed')
+        actual=bytearray(rom[off:off+len(raw)])
+        # xlsx-777 is the reviewed four-byte "not met yet" literal within
+        # this consumer guard; verify_review_ui checks its target and bytes.
+        if off<=0xcf4b8 and 0xcf4bc<=off+len(raw):
+            start=0xcf4b8-off;actual[start:start+4]=raw[start:start+4]
+        if bytes(actual)!=raw:raise ValueError('Library code/controls changed')
     selected=0
     for row in catalog['records']:
         i=row['index'];fields={f['slot']:f for f in row['fields']}

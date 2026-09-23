@@ -14,7 +14,7 @@
       "captures": [
         {
           "frame": 2609,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-mgba\\resumed-chest-items-32.png",
+          "path": "output\\v1.1a-dev32-chest-resume-mgba\\resumed-chest-items-32.png",
           "size": [
             240,
             160
@@ -23,7 +23,7 @@
         },
         {
           "frame": 3095,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-mgba\\first-chest-cooking-list-32.png",
+          "path": "output\\v1.1a-dev32-chest-resume-mgba\\first-chest-cooking-list-32.png",
           "size": [
             240,
             160
@@ -32,7 +32,7 @@
         },
         {
           "frame": 3216,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-mgba\\cooking-no-rice-32.png",
+          "path": "output\\v1.1a-dev32-chest-resume-mgba\\cooking-no-rice-32.png",
           "size": [
             240,
             160
@@ -41,7 +41,7 @@
         },
         {
           "frame": 3337,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-mgba\\cooking-cancel-return-32.png",
+          "path": "output\\v1.1a-dev32-chest-resume-mgba\\cooking-cancel-return-32.png",
           "size": [
             240,
             160
@@ -63,7 +63,7 @@
       "captures": [
         {
           "frame": 2609,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-vba\\resumed-chest-items-32.png",
+          "path": "output\\v1.1a-dev32-chest-resume-vba\\resumed-chest-items-32.png",
           "size": [
             240,
             160
@@ -72,7 +72,7 @@
         },
         {
           "frame": 3095,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-vba\\first-chest-cooking-list-32.png",
+          "path": "output\\v1.1a-dev32-chest-resume-vba\\first-chest-cooking-list-32.png",
           "size": [
             240,
             160
@@ -81,7 +81,7 @@
         },
         {
           "frame": 3216,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-vba\\cooking-no-rice-32.png",
+          "path": "output\\v1.1a-dev32-chest-resume-vba\\cooking-no-rice-32.png",
           "size": [
             240,
             160
@@ -90,7 +90,7 @@
         },
         {
           "frame": 3337,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev32-chest-resume-vba\\cooking-cancel-return-32.png",
+          "path": "output\\v1.1a-dev32-chest-resume-vba\\cooking-cancel-return-32.png",
           "size": [
             240,
             160

@@ -143,7 +143,7 @@ dev31은 실제 두 이야기 코드에서 호출하는 함정 메뉴 5개를 �
 
 ## 환경 및 보호
 
-.venv/Scripts/python.exe -X utf8, Pillow/numpy/capstone/Unicorn. ARM binutils: C:/Users/rlgh0/codex-build-tools/msys64/opt/wonderful/toolchain/gcc-arm-none-eabi/bin.
+.venv/Scripts/python.exe -X utf8, Pillow/numpy/capstone/Unicorn. ARM binutils: `arm-none-eabi-*` 실행 파일이 들어 있는 도구 폴더를 빌드의 `--toolchain`에 지정한다.
 
 ROM·저장·캡처·가이드 OCR·추출 자료는 Git 제외. 원본 덮어쓰기 없음, 빌드는 새 폴더에 생성. 달무리 글꼴 commit 897f0e71224d9964a84b888f2596b2bfd7f98def, Apache-2.0, 원본 픽셀과 LICENSE 유지.
 

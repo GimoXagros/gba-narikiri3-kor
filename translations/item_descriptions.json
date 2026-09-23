@@ -3,22 +3,124 @@
   "policy": "development_only_needs_review",
   "records": [
     {
-      "id": 20,
-      "text": "발이 빨라지는 놀라운 장화\n전투시의 이동속도 상승",
-      "basis": "Correct the nonsensical literal translation of a formidable speed-enhancing boot.",
+      "id": 1,
+      "text": "젤리　모양　약\nＨＰ　최대　３０％　회복",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1350",
       "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 2,
+      "text": "젤리　모양　약\nＴＰ최대　３０％　회복",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1352",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 3,
+      "text": "젤리　모양　약\nＨＰ,ＴＰ　최대　３０％　회복",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1354",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 4,
+      "text": "젤리　모양　약\nＨＰ　최대　６０％　회복",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1356",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 5,
+      "text": "젤리　모양　약\nＴＰ　최대　６０％　회복",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1358",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 6,
+      "text": "젤리　모양　약\nＨＰ,ＴＰ　６０％　회복",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1360",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 9,
+      "text": "전투　중、전투불능　상태의　동료를\n부활시킬　수　있다",
+      "basis": "Original Japanese record +4; proofreading xlsx-1366",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 10,
+      "text": "전투　중,적의　움직임을\n잠깐　정지시킬　수　있다",
+      "basis": "Original Japanese record +4; proofreading xlsx-1368",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 12,
+      "text": "문의　자물쇠를\n열　수　있는　아이템",
+      "basis": "Original Japanese record +4; proofreading xlsx-1372",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 15,
+      "text": "착용자의　기절　시간을\n절반으로　줄이는　부적",
+      "basis": "Original Japanese record +4; proofreading xlsx-1378",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 18,
+      "text": "동결　방지　부적\n맵에서　추위　피해를　입지　않는다",
+      "basis": "Original Japanese record +4; proofreading xlsx-1384",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 19,
+      "text": "연두색　경쾌한　장화\n전투　시의　이동　속도　상승",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1386",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 20,
+      "text": "발이　빨라지는　놀라운　장화\n전투　시의　이동　속도　상승",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1388",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 22,
+      "text": "연기를　봉한　수정구\n전투　중　도주　속도　상승",
+      "basis": "Original Japanese record +4; proofreading xlsx-1392",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 25,
+      "text": "신비한　문장\n영창　시간　단축",
+      "basis": "Original Japanese record +4; proofreading xlsx-1398",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 26,
+      "text": "전투　시　수속성　피해　경감\n맵에서　추위　피해　면역",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
+    },
+    {
+      "id": 27,
+      "text": "번개가　새겨진　망토\n뇌속성　피해를　줄여준다",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
     },
     {
       "id": 28,
-      "text": "전투 시 불속성 피해 경감\n맵에서 열로 인한 피해 면역",
-      "basis": "Distinguish field heat damage from the separate battle fire element.",
-      "review": "source_meaning_reviewed_runtime_pending"
+      "text": "전투 시 화속성 피해 경감\n맵에서 열로 인한 피해 면역",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
     },
     {
       "id": 33,
-      "text": "전투의 신이 새겨진 반지\n원소 속성 피해를 경감",
-      "basis": "Restore the engraved motif and the original elemental attribute terminology.",
-      "review": "source_meaning_reviewed_runtime_pending"
+      "text": "전투의 신이 새겨진 반지\n무속성 피해를 경감",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
+    },
+    {
+      "id": 35,
+      "text": "여신이　새겨진　반지\n암속성　피해　경감",
+      "basis": "User-confirmed attribute names 2026-09-23; source Japanese attribute description compared; preserve prose and fullwidth typography.",
+      "review": "user_confirmed_runtime_pending"
     },
     {
       "id": 51,
@@ -39,6 +141,12 @@
       "review": "source_meaning_reviewed_runtime_pending"
     },
     {
+      "id": 54,
+      "text": "엘프어로　쓰인　책\n♀전용　루트『아체』",
+      "basis": "Original Japanese record +4; proofreading xlsx-1456",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
       "id": 55,
       "text": "날카로운 날을 지닌 닌자도\n♀전용 루트『스즈』",
       "basis": "Sharp cutting edge does not mean a taste of cutting.",
@@ -46,8 +154,8 @@
     },
     {
       "id": 56,
-      "text": "갑판청소 등에 사용하는 도구\n♂전용 루트『스탄』",
-      "basis": "Approved character spelling.",
+      "text": "갑판　청소　등에　사용하는　도구\n♂전용　루트『스탄』",
+      "basis": "Original Japanese record +4; proofreading xlsx-1460",
       "review": "source_meaning_reviewed_runtime_pending"
     },
     {
@@ -60,6 +168,12 @@
       "id": 59,
       "text": "지적인 기품이 감도는 안경\n♀전용 루트『필리아』",
       "basis": "Approved character spelling and incorrect Korean verb ending.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 63,
+      "text": "격투기　챔피언의　증거\n♂전용　루트『콩맨』",
+      "basis": "Original Japanese record +4; proofreading xlsx-1474",
       "review": "source_meaning_reviewed_runtime_pending"
     },
     {
@@ -78,6 +192,12 @@
       "id": 67,
       "text": "이터니아의 현상을 기록한 사전\n♂전용 루트『킬』",
       "basis": "Original phenomena was mistranslated as ideas; approved character spelling.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 69,
+      "text": "실루에시카　단원의　증거\n♂전용　루트『포그』",
+      "basis": "User corrected シルエシカ to 실루에시카; preserve the original item's U+3000 one-cell separators and newline.",
       "review": "source_meaning_reviewed_runtime_pending"
     },
     {
@@ -105,6 +225,18 @@
       "review": "source_meaning_reviewed_runtime_pending"
     },
     {
+      "id": 76,
+      "text": "타오르는　불꽃　부조로　장식한　활\n♀전용　루트『나나리』",
+      "basis": "Original Japanese record +4; proofreading xlsx-1500",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 77,
+      "text": "천재　해롤드의　지팡이라고　적힌…\n♀전용　루트『해롤드』",
+      "basis": "Original Japanese record +4; proofreading xlsx-1502",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
       "id": 80,
       "text": "실버란트의 신자복\n♀전용 루트『콜레트』",
       "basis": "Approved character spelling; retain inherited setting wording.",
@@ -123,9 +255,21 @@
       "review": "source_meaning_reviewed_runtime_pending"
     },
     {
+      "id": 86,
+      "text": "불꽃　모양　칼날을　지닌　마검\n♂전용　루트『크라토스』",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1520",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
       "id": 88,
       "text": "망자의 각성을 쓰는 전설 무구\n♀전용 루트『리리스』",
       "basis": "Original names the secret technique awakening the dead; not releasing the dead.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 89,
+      "text": "얼음　정령의　눈물이라는　결정\n♀전용　루트『셀시우스』",
+      "basis": "Original Japanese item +4 field; independent second proofreading xlsx-1526",
       "review": "source_meaning_reviewed_runtime_pending"
     },
     {
@@ -210,6 +354,12 @@
       "id": 120,
       "text": "에테르로 만들어진 장갑판\n♀전용 루트『코스모스』",
       "basis": "Match the selected item identity and restore material meaning.",
+      "review": "source_meaning_reviewed_runtime_pending"
+    },
+    {
+      "id": 122,
+      "text": "레미　유적　보물창고를\n열　수　있는　열쇠",
+      "basis": "Original Japanese record +4; proofreading xlsx-1592",
       "review": "source_meaning_reviewed_runtime_pending"
     }
   ]

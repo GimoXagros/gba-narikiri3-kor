@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "policy": "development_only_needs_review",
+  "source_comparison": "The 51 defeat conditions preserve なりきり師 as 나리키리사; 16 key/floor conditions and eight other mission conditions follow the explicit user review.",
+  "groups": [
+    {
+      "id": "team_defeat",
+      "japanese": "なりきり師を含むチームが敗北",
+      "text": "나리키리사를　포함한　팀이　패배"
+    },
+    {
+      "id": "turn_limit",
+      "japanese": "なりきり師チーム敗北　残ターン０",
+      "text": "나리키리사　팀　패배　남은　턴　０"
+    },
+    {
+      "id": "two_teams",
+      "japanese": "２チーム未満　なりきり師が敗北",
+      "text": "２팀　미만　나리키리사　패배"
+    },
+    {
+      "id": "four_teams",
+      "japanese": "４チーム未満　なりきり師が敗北",
+      "text": "４팀　미만　나리키리사　패배"
+    },
+    {
+      "id": "find_key_next_floor",
+      "japanese": "カギを探し、次の階へ進む",
+      "text": "열쇠를　찾아　다음　층으로　이동"
+    },
+    {
+      "id": "defeat_barbatos",
+      "japanese": "バルバトスを倒す",
+      "text": "바르바토스　처치"
+    },
+    {
+      "id": "rescue_farah_keel",
+      "japanese": "ファラとキールを救出",
+      "text": "파라와　킬　구출"
+    },
+    {
+      "id": "catch_pony_clight",
+      "japanese": "ポニーとクライトを捕まえる",
+      "text": "포니와　크라이트　잡기"
+    },
+    {
+      "id": "elder_house_defeat",
+      "japanese": "敵が長老宅侵攻　なりきり師が敗北",
+      "text": "장로댁　침입,나리키리사　패배"
+    },
+    {
+      "id": "zelos_sheena_defeat",
+      "japanese": "ゼロスとしいなのチームが敗北",
+      "text": "젤로스와　시이나의　팀　패배"
+    },
+    {
+      "id": "thirty_turn_seven",
+      "japanese": "３０ターン内にヒーロー７名に勝利",
+      "text": "３０턴　내　영웅　７명　격파"
+    },
+    {
+      "id": "journey_key",
+      "japanese": "“たびだちのカギ”を入手",
+      "text": "여정의　열쇠　입수"
+    },
+    {
+      "id": "key_stolen_defeat",
+      "japanese": "カギを奪われる　なりきり師が敗北",
+      "text": "열쇠　강탈,나리키리사　패배"
+    }
+  ]
+}

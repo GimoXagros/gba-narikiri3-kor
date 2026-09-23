@@ -1,0 +1,485 @@
+{
+  "schema": 1,
+  "scope": "Mission win/loss condition text table. The original getter at 08009B88 uses 28-byte mission records and returns two condition pointers; callers 080C611E and 080D51F6 consume them.",
+  "table_base": "0x74c99c",
+  "table_end": "0x74ce88",
+  "table_sha256": "02b81644b26da07d79ff9cddb0b7cbe8a73e3eef68f77ed553fecf1d3e4abbb1",
+  "japanese_rom_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "legacy_rom_sha256": "8440f3e3db46c474c81cf84098798f07ab91aa13d48431c523c309a0af363010",
+  "getter_offset": "0x9b88",
+  "getter_hex": "70b5041c0e1c08496018fef7ebfa00280ed00649e000001b8000183140180068306000201de00000bf0600009cc974080e4de100091b8900281c0c30081800683060281c1030091808687060092c09d10748fef7c7fa002804d18821490068180068706070bc01bc0047",
+  "display_caller_offset": "0xd51cc",
+  "display_caller_hex": "70b584b025480068d021c9004018066823482449401800240457201c34f796fc00900020019002a9201c34f7c7fc6c4603252068002802d0f2f7d4fa20600434013d002df5da009818212822f7f798ff3060019818213822f7f792ff70602bf75ff9029818216822f7f78affb060039818217822f7f784fff0602bf751f96c4603252068002801d02ef7e8f90434013d002df6da04b070bc01bc0047",
+  "extension_start": "0x140000",
+  "extension_end": "0x141000",
+  "groups": {
+    "team_defeat": {
+      "japanese_pointer": "0x8112688",
+      "legacy_pointer": "0x8112688",
+      "japanese_raw_sha256": "96eca7e09cd73f0f6d5489ed7c47ed8b57dfba2b0464c3f19bfb128bd8c341f4",
+      "legacy_raw_sha256": "525a369ae7908594d2cfbf83f6625e883f92613389872dbea9441475d1e03b14",
+      "legacy_text": "나리키리를　포함한　팀　패배"
+    },
+    "defeat_barbatos": {
+      "japanese_pointer": "0x8112660",
+      "legacy_pointer": "0x8112660",
+      "japanese_raw_sha256": "54800fc8f662fd32148b647f27c0736d3efdbefa05ff5c74b45cd60984874897",
+      "legacy_raw_sha256": "430f3469febad735b6fa59714f520cf23e87341fc50047149734a4e111680c59",
+      "legacy_text": "발바토스　처치"
+    },
+    "two_teams": {
+      "japanese_pointer": "0x8112640",
+      "legacy_pointer": "0x8112640",
+      "japanese_raw_sha256": "64393c5cc0a9a0e9994cd4e8a28b73b8e567590982b0e2da4be29b0a191e3f76",
+      "legacy_raw_sha256": "8b3315225c3c0dcad23851b96f76f59874b9d0c0d431e3b8ed89c8a98c779211",
+      "legacy_text": "２팀　미만,나리키리　패배"
+    },
+    "turn_limit": {
+      "japanese_pointer": "0x8112590",
+      "legacy_pointer": "0x8112590",
+      "japanese_raw_sha256": "27dbb85d433eebd48fd0f5c87bb7659e15dcb643082b36c2a0d3b3589ab6f8e4",
+      "legacy_raw_sha256": "824cc37db04be44a6e1863fd9947a264fabe99c457f94cbd00da8104fcd0ff55",
+      "legacy_text": "나리키리　패배　잔여　턴　０"
+    },
+    "rescue_farah_keel": {
+      "japanese_pointer": "0x8112578",
+      "legacy_pointer": "0x8112578",
+      "japanese_raw_sha256": "b2ff13fec998bb8975c7422c8ce4d293c719dd8bb4e62a5ec886d04280816834",
+      "legacy_raw_sha256": "101f2045e35de24cc297b3221dc68c96956f3218989adb53af4384abe50f2c56",
+      "legacy_text": "파라와　키르　구출"
+    },
+    "four_teams": {
+      "japanese_pointer": "0x811253c",
+      "legacy_pointer": "0x811253c",
+      "japanese_raw_sha256": "4582cca80397d6a65dc704bd67cd8143cdbb90de0d88247f729e27daf8849377",
+      "legacy_raw_sha256": "b83a026aee8cc06cb4e15357da641788dfa0b34beccf4964d48cbf30ba62e1c7",
+      "legacy_text": "４팀　미만,나리키리　패배"
+    },
+    "catch_pony_clight": {
+      "japanese_pointer": "0x81124ec",
+      "legacy_pointer": "0x81124ec",
+      "japanese_raw_sha256": "8932b643d6f11cc5fdfa27d508e0019eb849a455e618372d1afa10722ce97ccf",
+      "legacy_raw_sha256": "fd418004f7c39550fce8922099ed1fb4f573b23a19414a0f1f252f50853446ee",
+      "legacy_text": "조랑말과　클라이트　잡기"
+    },
+    "elder_house_defeat": {
+      "japanese_pointer": "0x81124c8",
+      "legacy_pointer": "0x81124c8",
+      "japanese_raw_sha256": "e7ec13f9b97d85fc990276bbb20986c7cd71894a86742f3e9359c1bfe9fa964a",
+      "legacy_raw_sha256": "7c74ef9f8812a88d76ceb9da4ab9382c7a4ae363105d5fe4c0ed8db92a8456fa",
+      "legacy_text": "적의　침입,나리키리　패배"
+    },
+    "zelos_sheena_defeat": {
+      "japanese_pointer": "0x811246c",
+      "legacy_pointer": "0x811246c",
+      "japanese_raw_sha256": "a31c7f99626c1bb1d07722742b959bc236a56ae1615d0842b9cb90f061d4d630",
+      "legacy_raw_sha256": "839ae83ec5a64361d8c5cdfab6d188357375c938344e0b7a5b35e46417ab0442",
+      "legacy_text": "제로스　시이나　팀　패배"
+    },
+    "thirty_turn_seven": {
+      "japanese_pointer": "0x8112448",
+      "legacy_pointer": "0x8112448",
+      "japanese_raw_sha256": "0dc95889830fea7935f2b9361f1d8dacbde8251a520b764f6b8663289887bbc9",
+      "legacy_raw_sha256": "455725a7e23c7b2237279f4ca29378d3c8c05c3fb797903e58fdc1445255cb00",
+      "legacy_text": "３０턴　내에　영웅　７명　승리"
+    },
+    "journey_key": {
+      "japanese_pointer": "0x81123a0",
+      "legacy_pointer": "0x81123a0",
+      "japanese_raw_sha256": "7442ae5454e1ac47324a3efc5d8fe32658103533f32f2c7771d8cd14ae5be26c",
+      "legacy_raw_sha256": "c7cf7a8477f220e684325498ac0d7e14c218212f34bcbab010c892ce74190b1e",
+      "legacy_text": "여행의　열쇠　입수"
+    },
+    "key_stolen_defeat": {
+      "japanese_pointer": "0x811237c",
+      "legacy_pointer": "0x811237c",
+      "japanese_raw_sha256": "85a47583e446f9a46584a86ba0f066b7e3b3ac69fbf65192efdd872cc1407595",
+      "legacy_raw_sha256": "c57bd65f3ce32a6aaf56fb5ea69854e43e9a93bf6862b55bddaa8a2eede2f010",
+      "legacy_text": "키를　빼앗기는　나리키리　패배"
+    },
+    "find_key_next_floor": {
+      "japanese_pointer": "0x8112250",
+      "legacy_pointer": "0x8112250",
+      "japanese_raw_sha256": "8dc41ac2cdfea727bd88ee1d4970fe8ce9f3c5116b7060e59d64b24e228d559b",
+      "legacy_raw_sha256": "edf24b162b109d23f9c9fcb8ff5802185d2e0d87dd515ad4cc432355d2866e2a",
+      "legacy_text": "키　찾고,다음　층　이동"
+    }
+  },
+  "fields": [
+    {
+      "stable_id": "xlsx-12268",
+      "pointer_offset": "0x74c9a8",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12269",
+      "pointer_offset": "0x74c9b4",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12272",
+      "pointer_offset": "0x74c9c4",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12273",
+      "pointer_offset": "0x74c9d0",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12274",
+      "pointer_offset": "0x74c9d4",
+      "group": "defeat_barbatos"
+    },
+    {
+      "stable_id": "xlsx-12276",
+      "pointer_offset": "0x74c9e0",
+      "group": "two_teams"
+    },
+    {
+      "stable_id": "xlsx-12277",
+      "pointer_offset": "0x74c9e8",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12278",
+      "pointer_offset": "0x74c9ec",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12281",
+      "pointer_offset": "0x74c9fc",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12282",
+      "pointer_offset": "0x74ca08",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12285",
+      "pointer_offset": "0x74ca18",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12286",
+      "pointer_offset": "0x74ca24",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12289",
+      "pointer_offset": "0x74ca34",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12290",
+      "pointer_offset": "0x74ca40",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12293",
+      "pointer_offset": "0x74ca50",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12294",
+      "pointer_offset": "0x74ca5c",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12297",
+      "pointer_offset": "0x74ca6c",
+      "group": "turn_limit"
+    },
+    {
+      "stable_id": "xlsx-12298",
+      "pointer_offset": "0x74ca78",
+      "group": "turn_limit"
+    },
+    {
+      "stable_id": "xlsx-12299",
+      "pointer_offset": "0x74ca7c",
+      "group": "rescue_farah_keel"
+    },
+    {
+      "stable_id": "xlsx-12301",
+      "pointer_offset": "0x74ca88",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12302",
+      "pointer_offset": "0x74ca94",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12305",
+      "pointer_offset": "0x74caa4",
+      "group": "four_teams"
+    },
+    {
+      "stable_id": "xlsx-12311",
+      "pointer_offset": "0x74cac0",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12312",
+      "pointer_offset": "0x74cacc",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12315",
+      "pointer_offset": "0x74cadc",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12316",
+      "pointer_offset": "0x74cae8",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12317",
+      "pointer_offset": "0x74caec",
+      "group": "catch_pony_clight"
+    },
+    {
+      "stable_id": "xlsx-12319",
+      "pointer_offset": "0x74caf8",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12320",
+      "pointer_offset": "0x74cb04",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12323",
+      "pointer_offset": "0x74cb14",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12324",
+      "pointer_offset": "0x74cb20",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12327",
+      "pointer_offset": "0x74cb30",
+      "group": "elder_house_defeat"
+    },
+    {
+      "stable_id": "xlsx-12331",
+      "pointer_offset": "0x74cb4c",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12333",
+      "pointer_offset": "0x74cb58",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12336",
+      "pointer_offset": "0x74cb68",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12337",
+      "pointer_offset": "0x74cb6c",
+      "group": "zelos_sheena_defeat"
+    },
+    {
+      "stable_id": "xlsx-12339",
+      "pointer_offset": "0x74cb78",
+      "group": "thirty_turn_seven"
+    },
+    {
+      "stable_id": "xlsx-12341",
+      "pointer_offset": "0x74cb84",
+      "group": "turn_limit"
+    },
+    {
+      "stable_id": "xlsx-12346",
+      "pointer_offset": "0x74cbac",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12350",
+      "pointer_offset": "0x74cbc8",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12354",
+      "pointer_offset": "0x74cbe4",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12358",
+      "pointer_offset": "0x74cc00",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12361",
+      "pointer_offset": "0x74cc10",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12362",
+      "pointer_offset": "0x74cc1c",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12365",
+      "pointer_offset": "0x74cc2c",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12369",
+      "pointer_offset": "0x74cc48",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12373",
+      "pointer_offset": "0x74cc64",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12375",
+      "pointer_offset": "0x74cc74",
+      "group": "journey_key"
+    },
+    {
+      "stable_id": "xlsx-12377",
+      "pointer_offset": "0x74cc80",
+      "group": "key_stolen_defeat"
+    },
+    {
+      "stable_id": "xlsx-12382",
+      "pointer_offset": "0x74cca0",
+      "group": "turn_limit"
+    },
+    {
+      "stable_id": "xlsx-12383",
+      "pointer_offset": "0x74cca8",
+      "group": "turn_limit"
+    },
+    {
+      "stable_id": "xlsx-12387",
+      "pointer_offset": "0x74ccc4",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12391",
+      "pointer_offset": "0x74cce0",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12395",
+      "pointer_offset": "0x74ccfc",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12399",
+      "pointer_offset": "0x74cd18",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12403",
+      "pointer_offset": "0x74cd34",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12407",
+      "pointer_offset": "0x74cd50",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12408",
+      "pointer_offset": "0x74cd54",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12409",
+      "pointer_offset": "0x74cd5c",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12413",
+      "pointer_offset": "0x74cd70",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12414",
+      "pointer_offset": "0x74cd78",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12418",
+      "pointer_offset": "0x74cd8c",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12419",
+      "pointer_offset": "0x74cd94",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12423",
+      "pointer_offset": "0x74cda8",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12424",
+      "pointer_offset": "0x74cdb0",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12428",
+      "pointer_offset": "0x74cdc4",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12429",
+      "pointer_offset": "0x74cdcc",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12433",
+      "pointer_offset": "0x74cde0",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12434",
+      "pointer_offset": "0x74cde8",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12438",
+      "pointer_offset": "0x74cdfc",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12439",
+      "pointer_offset": "0x74ce04",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12443",
+      "pointer_offset": "0x74ce18",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12444",
+      "pointer_offset": "0x74ce20",
+      "group": "find_key_next_floor"
+    },
+    {
+      "stable_id": "xlsx-12460",
+      "pointer_offset": "0x74ce78",
+      "group": "team_defeat"
+    },
+    {
+      "stable_id": "xlsx-12461",
+      "pointer_offset": "0x74ce84",
+      "group": "team_defeat"
+    }
+  ]
+}

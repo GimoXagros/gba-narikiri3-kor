@@ -599,9 +599,9 @@
       },
       {
         "id": "item-066",
-        "compact": "라슈안염색",
+        "compact": "라슈안 염색",
         "source_record_sha256": "8c70202c1c05d480e3893e3c099920e2341dc4b220712fce17a53b368d485800",
-        "basis": "Exact Japanese-name match to authorized ND2 v0.9b",
+        "basis": "사용자 최종 확정: ラシュアンぞめ = 라슈안 염색",
         "reference": "ITEM_145",
         "review": "pending",
         "layout": "all_callers_pending"
@@ -727,9 +727,9 @@
         "id": "item-080",
         "compact": "신자의 장속",
         "source_record_sha256": "89de87855e4927373e9879af8f37ff38ed58191a36f59ff5961c0113c5fbf79d",
-        "basis": "Explicit ND3 wording: user recipe reference / source phonetic name",
-        "reference": "User list + immutable B3TJ; review pending",
-        "review": "pending",
+        "basis": "Immutable B3TJ item 080 name ミコノショウゾク and user-confirmed 神子=신자",
+        "reference": "User terminology decision 2026-09-20 + Japanese item table at 0x105ED8",
+        "review": "source_confirmed_runtime_pending",
         "layout": "all_callers_pending"
       },
       {

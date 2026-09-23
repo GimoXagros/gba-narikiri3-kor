@@ -10,7 +10,7 @@
 {"frame": 1404, "request": {"op": "frames", "count": 200}, "result": {}}
 {"frame": 1405, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
 {"frame": 1465, "request": {"op": "frames", "count": 60}, "result": {}}
-{"frame": 1465, "request": {"op": "screenshot", "name": "main-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\costume-label-japanese-01\\main-menu.png", "size": [240, 160], "sha256": "a219acb57906a571f09a8f2d0c386a2aa19ab1c2d59de31c332ecf8a952c14d3"}}
+{"frame": 1465, "request": {"op": "screenshot", "name": "main-menu.png"}, "result": {"path": "output\\costume-label-japanese-01\\main-menu.png", "size": [240, 160], "sha256": "a219acb57906a571f09a8f2d0c386a2aa19ab1c2d59de31c332ecf8a952c14d3"}}
 {"frame": 1469, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 1589, "request": {"op": "frames", "count": 120}, "result": {}}
 {"frame": 1593, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
@@ -25,4 +25,4 @@
 {"frame": 2209, "request": {"op": "frames", "count": 120}, "result": {}}
 {"frame": 2213, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 2453, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2453, "request": {"op": "screenshot", "name": "costume-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\costume-label-japanese-01\\costume-menu.png", "size": [240, 160], "sha256": "c96141ea0d7dd22f4a45e9d76fbe49464f1f8702635c3ecec0d07304489b4388"}}
+{"frame": 2453, "request": {"op": "screenshot", "name": "costume-menu.png"}, "result": {"path": "output\\costume-label-japanese-01\\costume-menu.png", "size": [240, 160], "sha256": "c96141ea0d7dd22f4a45e9d76fbe49464f1f8702635c3ecec0d07304489b4388"}}

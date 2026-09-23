@@ -34,6 +34,11 @@ def main():
     if m.get('inspect_eye'):required.append('inspect-eye-verification.json')
     if m.get('element_symbols'):required.append('element-symbol-verification.json')
     if m.get('item_descriptions'):required.append('item-description-pixel-verification.json')
+    if m.get('mission_conditions'):required.append('mission-condition-verification.json')
+    if m.get('review_ui'):required.append('review-ui-verification.json')
+    if m.get('monster_descriptions'):required.append('monster-description-verification.json')
+    if m.get('town_labels'):required.append('town-label-verification.json')
+    if m.get('title_staff'):required.append('title-staff-verification.json')
     for filename in required:
         c=json.loads((a.build/filename).read_text(encoding='utf-8'))
         if c['status']!='PASS' or c['rom_sha256']!=m['target_sha256']:raise ValueError('Verification does not cover this exact artifact')

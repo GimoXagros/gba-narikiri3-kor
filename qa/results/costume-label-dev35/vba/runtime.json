@@ -115,7 +115,7 @@
     {
       "ok": true,
       "frame": 1465,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\main-menu.png",
+      "path": "output\\dev35-costume-vba-02\\main-menu.png",
       "size": [
         240,
         160
@@ -126,7 +126,7 @@
     {
       "ok": true,
       "frame": 2333,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\change-selected.png",
+      "path": "output\\dev35-costume-vba-02\\change-selected.png",
       "size": [
         240,
         160
@@ -137,7 +137,7 @@
     {
       "ok": true,
       "frame": 2577,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\confirm-selected.png",
+      "path": "output\\dev35-costume-vba-02\\confirm-selected.png",
       "size": [
         240,
         160
@@ -148,7 +148,7 @@
     {
       "ok": true,
       "frame": 2821,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\change-reselected.png",
+      "path": "output\\dev35-costume-vba-02\\change-reselected.png",
       "size": [
         240,
         160
@@ -159,7 +159,7 @@
     {
       "ok": true,
       "frame": 3065,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\character-selection.png",
+      "path": "output\\dev35-costume-vba-02\\character-selection.png",
       "size": [
         240,
         160
@@ -170,7 +170,7 @@
     {
       "ok": true,
       "frame": 3309,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\costume-list.png",
+      "path": "output\\dev35-costume-vba-02\\costume-list.png",
       "size": [
         240,
         160
@@ -181,7 +181,7 @@
     {
       "ok": true,
       "frame": 3553,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\swordsman-selection.png",
+      "path": "output\\dev35-costume-vba-02\\swordsman-selection.png",
       "size": [
         240,
         160
@@ -192,7 +192,7 @@
     {
       "ok": true,
       "frame": 3797,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\change-confirmation.png",
+      "path": "output\\dev35-costume-vba-02\\change-confirmation.png",
       "size": [
         240,
         160
@@ -203,7 +203,7 @@
     {
       "ok": true,
       "frame": 4041,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\change-applied.png",
+      "path": "output\\dev35-costume-vba-02\\change-applied.png",
       "size": [
         240,
         160
@@ -214,7 +214,7 @@
     {
       "ok": true,
       "frame": 4285,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\back-from-costumes.png",
+      "path": "output\\dev35-costume-vba-02\\back-from-costumes.png",
       "size": [
         240,
         160
@@ -225,7 +225,7 @@
     {
       "ok": true,
       "frame": 4529,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-costume-vba-02\\back-to-menu.png",
+      "path": "output\\dev35-costume-vba-02\\back-to-menu.png",
       "size": [
         240,
         160

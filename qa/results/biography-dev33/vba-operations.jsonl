@@ -1,6 +1,6 @@
 {"frame": 0, "op": "initialize", "core": "VBA Next", "core_version": "v1.0.2", "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372", "rom_sha256": "a525f1d6a0df9e0f36c110e5550077b4b7547fa9fb24625d602341794d3c7595", "input_save_sha256": "c076bfeb6eea8ea485de9220acf15d70ca86d2ca993bd5da93f3573136b637c1", "ram_interventions": 0, "pixel_format": 2, "save_size": 139264, "memory_maps": [{"flags": 0, "offset": 0, "start": 0, "select": 0, "disconnect": 0, "len": 16384}, {"flags": 0, "offset": 0, "start": 33554432, "select": 0, "disconnect": 0, "len": 262144}, {"flags": 0, "offset": 0, "start": 50331648, "select": 0, "disconnect": 0, "len": 32768}, {"flags": 0, "offset": 0, "start": 67108864, "select": 0, "disconnect": 0, "len": 1024}, {"flags": 0, "offset": 0, "start": 83886080, "select": 0, "disconnect": 0, "len": 1024}, {"flags": 0, "offset": 0, "start": 100663296, "select": 4294868992, "disconnect": 0, "len": 98304}, {"flags": 0, "offset": 0, "start": 117440512, "select": 0, "disconnect": 0, "len": 1024}, {"flags": 0, "offset": 0, "start": 134217728, "select": 0, "disconnect": 0, "len": 33554432}, {"flags": 0, "offset": 0, "start": 167772160, "select": 0, "disconnect": 0, "len": 33554432}, {"flags": 0, "offset": 0, "start": 201326592, "select": 0, "disconnect": 0, "len": 33554432}, {"flags": 0, "offset": 0, "start": 234881024, "select": 0, "disconnect": 0, "len": 65536}], "options": {"vbanext_bios": "enabled", "vbanext_rtc": "auto", "vbanext_turboenable": "disabled", "vbanext_turbodelay": "2"}, "option_overrides": {"mgba_use_bios": "OFF", "mgba_skip_bios": "ON", "mgba_frameskip": "disabled", "mgba_frameskip_interval": "0"}}
 {"frame": 300, "request": {"op": "frames", "count": 300}, "result": {}}
-{"frame": 300, "request": {"op": "screenshot", "name": "boot.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\boot.png", "size": [240, 160], "sha256": "922e473122c0eb0e06baad67a9b7dc73ce16ff9fa85fcceaf1b6ace3d3175dd1"}}
+{"frame": 300, "request": {"op": "screenshot", "name": "boot.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\boot.png", "size": [240, 160], "sha256": "922e473122c0eb0e06baad67a9b7dc73ce16ff9fa85fcceaf1b6ace3d3175dd1"}}
 {"frame": 301, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 901, "request": {"op": "frames", "count": 600}, "result": {}}
 {"frame": 902, "request": {"op": "frames", "count": 1, "buttons": ["start"]}, "result": {}}
@@ -21,670 +21,670 @@
 {"frame": 1961, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
 {"frame": 1965, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 2085, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 2085, "request": {"op": "screenshot", "name": "01-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\01-selection.png", "size": [240, 160], "sha256": "72fd22a773073def6408a66dbd864faa8c83c78fbcad8ba20e44049f1491055d"}}
+{"frame": 2085, "request": {"op": "screenshot", "name": "01-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\01-selection.png", "size": [240, 160], "sha256": "72fd22a773073def6408a66dbd864faa8c83c78fbcad8ba20e44049f1491055d"}}
 {"frame": 2089, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 2329, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 2329, "request": {"op": "screenshot", "name": "01-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\01-field-1.png", "size": [240, 160], "sha256": "72ffbf2d0ee53f4df84b9b8d58903eca2cd1782d4737c07f33cdfeb75f03aafd"}}
+{"frame": 2329, "request": {"op": "screenshot", "name": "01-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\01-field-1.png", "size": [240, 160], "sha256": "72ffbf2d0ee53f4df84b9b8d58903eca2cd1782d4737c07f33cdfeb75f03aafd"}}
 {"frame": 2333, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 2573, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 2573, "request": {"op": "screenshot", "name": "01-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\01-field-2.png", "size": [240, 160], "sha256": "c90fc5bb6e891f74c54400637e6b8001f5064fe2f7394c68ee5b76a70d10cf87"}}
+{"frame": 2573, "request": {"op": "screenshot", "name": "01-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\01-field-2.png", "size": [240, 160], "sha256": "c90fc5bb6e891f74c54400637e6b8001f5064fe2f7394c68ee5b76a70d10cf87"}}
 {"frame": 2577, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 2817, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 2817, "request": {"op": "screenshot", "name": "01-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\01-field-3.png", "size": [240, 160], "sha256": "efb484d8e0229183dc1116ac1c87bc17501dfed349e6edbeea0851100341c372"}}
+{"frame": 2817, "request": {"op": "screenshot", "name": "01-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\01-field-3.png", "size": [240, 160], "sha256": "efb484d8e0229183dc1116ac1c87bc17501dfed349e6edbeea0851100341c372"}}
 {"frame": 2821, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 3061, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 3061, "request": {"op": "screenshot", "name": "01-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\01-field-4.png", "size": [240, 160], "sha256": "7347d2d275a47e724a2313496a447c886ad0ba8f84b211ea181fb1bdda31a349"}}
+{"frame": 3061, "request": {"op": "screenshot", "name": "01-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\01-field-4.png", "size": [240, 160], "sha256": "7347d2d275a47e724a2313496a447c886ad0ba8f84b211ea181fb1bdda31a349"}}
 {"frame": 3065, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 3185, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 3185, "request": {"op": "screenshot", "name": "01-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\01-return.png", "size": [240, 160], "sha256": "72fd22a773073def6408a66dbd864faa8c83c78fbcad8ba20e44049f1491055d"}}
+{"frame": 3185, "request": {"op": "screenshot", "name": "01-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\01-return.png", "size": [240, 160], "sha256": "72fd22a773073def6408a66dbd864faa8c83c78fbcad8ba20e44049f1491055d"}}
 {"frame": 3189, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 3309, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 3309, "request": {"op": "screenshot", "name": "02-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\02-selection.png", "size": [240, 160], "sha256": "233f18c86cc95c8ba61884bc7e3be9dc7926e90c979c15f3723ab2d29a9ccff2"}}
+{"frame": 3309, "request": {"op": "screenshot", "name": "02-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\02-selection.png", "size": [240, 160], "sha256": "233f18c86cc95c8ba61884bc7e3be9dc7926e90c979c15f3723ab2d29a9ccff2"}}
 {"frame": 3313, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 3553, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 3553, "request": {"op": "screenshot", "name": "02-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\02-field-1.png", "size": [240, 160], "sha256": "aa7bd92e440e28b806874ce2e08b81badb90b38d93af07a6c3fdf3999311a154"}}
+{"frame": 3553, "request": {"op": "screenshot", "name": "02-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\02-field-1.png", "size": [240, 160], "sha256": "aa7bd92e440e28b806874ce2e08b81badb90b38d93af07a6c3fdf3999311a154"}}
 {"frame": 3557, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 3797, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 3797, "request": {"op": "screenshot", "name": "02-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\02-field-2.png", "size": [240, 160], "sha256": "725af7170d6af59a7be6c444615f3537e4b9e60e235a2e70c4ae02b82a3ab310"}}
+{"frame": 3797, "request": {"op": "screenshot", "name": "02-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\02-field-2.png", "size": [240, 160], "sha256": "725af7170d6af59a7be6c444615f3537e4b9e60e235a2e70c4ae02b82a3ab310"}}
 {"frame": 3801, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 4041, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 4041, "request": {"op": "screenshot", "name": "02-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\02-field-3.png", "size": [240, 160], "sha256": "31ea614910752e568fc2d340f09fe02473c987e1ef318d0495b47e043cf60754"}}
+{"frame": 4041, "request": {"op": "screenshot", "name": "02-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\02-field-3.png", "size": [240, 160], "sha256": "31ea614910752e568fc2d340f09fe02473c987e1ef318d0495b47e043cf60754"}}
 {"frame": 4045, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 4285, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 4285, "request": {"op": "screenshot", "name": "02-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\02-field-4.png", "size": [240, 160], "sha256": "583c1624ebe1f613cc1605fbc7e113663b92e2292673a1fe0004cf6313388965"}}
+{"frame": 4285, "request": {"op": "screenshot", "name": "02-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\02-field-4.png", "size": [240, 160], "sha256": "583c1624ebe1f613cc1605fbc7e113663b92e2292673a1fe0004cf6313388965"}}
 {"frame": 4289, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 4409, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 4409, "request": {"op": "screenshot", "name": "02-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\02-return.png", "size": [240, 160], "sha256": "73aa8977b813c4970b40e7d6a7d3c39be2207d2291d9cf325265c93a703745a5"}}
+{"frame": 4409, "request": {"op": "screenshot", "name": "02-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\02-return.png", "size": [240, 160], "sha256": "73aa8977b813c4970b40e7d6a7d3c39be2207d2291d9cf325265c93a703745a5"}}
 {"frame": 4413, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 4533, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 4533, "request": {"op": "screenshot", "name": "03-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\03-selection.png", "size": [240, 160], "sha256": "64cecbf82ed332ea9e81b580cc46d1cc384b0c3ae1e94143ae4f853ef05f50c1"}}
+{"frame": 4533, "request": {"op": "screenshot", "name": "03-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\03-selection.png", "size": [240, 160], "sha256": "64cecbf82ed332ea9e81b580cc46d1cc384b0c3ae1e94143ae4f853ef05f50c1"}}
 {"frame": 4537, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 4777, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 4777, "request": {"op": "screenshot", "name": "03-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\03-field-1.png", "size": [240, 160], "sha256": "2f3ac27ac11637dea8360b4be17d12d57cc1857daddd67deb0a440865b4a176e"}}
+{"frame": 4777, "request": {"op": "screenshot", "name": "03-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\03-field-1.png", "size": [240, 160], "sha256": "2f3ac27ac11637dea8360b4be17d12d57cc1857daddd67deb0a440865b4a176e"}}
 {"frame": 4781, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 5021, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 5021, "request": {"op": "screenshot", "name": "03-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\03-field-2.png", "size": [240, 160], "sha256": "f98b45c89c586e8370bf58133b4d095f71100fac316800cda81e3a03b98e50fd"}}
+{"frame": 5021, "request": {"op": "screenshot", "name": "03-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\03-field-2.png", "size": [240, 160], "sha256": "f98b45c89c586e8370bf58133b4d095f71100fac316800cda81e3a03b98e50fd"}}
 {"frame": 5025, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 5265, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 5265, "request": {"op": "screenshot", "name": "03-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\03-field-3.png", "size": [240, 160], "sha256": "e3eda2522f5faeecdbf947e235cfe9e593509fabfe19f8ce708c492ad99be73f"}}
+{"frame": 5265, "request": {"op": "screenshot", "name": "03-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\03-field-3.png", "size": [240, 160], "sha256": "e3eda2522f5faeecdbf947e235cfe9e593509fabfe19f8ce708c492ad99be73f"}}
 {"frame": 5269, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 5509, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 5509, "request": {"op": "screenshot", "name": "03-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\03-field-4.png", "size": [240, 160], "sha256": "5f059b57c79a17bcb31039a52e407f48d2960c231553e5f3585e758f81f0d2bf"}}
+{"frame": 5509, "request": {"op": "screenshot", "name": "03-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\03-field-4.png", "size": [240, 160], "sha256": "5f059b57c79a17bcb31039a52e407f48d2960c231553e5f3585e758f81f0d2bf"}}
 {"frame": 5513, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 5633, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 5633, "request": {"op": "screenshot", "name": "03-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\03-return.png", "size": [240, 160], "sha256": "64cecbf82ed332ea9e81b580cc46d1cc384b0c3ae1e94143ae4f853ef05f50c1"}}
+{"frame": 5633, "request": {"op": "screenshot", "name": "03-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\03-return.png", "size": [240, 160], "sha256": "64cecbf82ed332ea9e81b580cc46d1cc384b0c3ae1e94143ae4f853ef05f50c1"}}
 {"frame": 5637, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 5757, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 5757, "request": {"op": "screenshot", "name": "04-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\04-selection.png", "size": [240, 160], "sha256": "a579850954f711735559b31ba8a186aa02a95d6d6d778f8a71a2637d638cda7d"}}
+{"frame": 5757, "request": {"op": "screenshot", "name": "04-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\04-selection.png", "size": [240, 160], "sha256": "a579850954f711735559b31ba8a186aa02a95d6d6d778f8a71a2637d638cda7d"}}
 {"frame": 5761, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 6001, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 6001, "request": {"op": "screenshot", "name": "04-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\04-field-1.png", "size": [240, 160], "sha256": "949b4b7b39115a6f312328cda7ea8a4ec3f52e102d8ec6ed738821f8d36db1c8"}}
+{"frame": 6001, "request": {"op": "screenshot", "name": "04-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\04-field-1.png", "size": [240, 160], "sha256": "949b4b7b39115a6f312328cda7ea8a4ec3f52e102d8ec6ed738821f8d36db1c8"}}
 {"frame": 6005, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 6245, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 6245, "request": {"op": "screenshot", "name": "04-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\04-field-2.png", "size": [240, 160], "sha256": "862b3d9c07d266b2a3588b0ab5fbfda422a61e60d0b46b8cc187cb6471059514"}}
+{"frame": 6245, "request": {"op": "screenshot", "name": "04-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\04-field-2.png", "size": [240, 160], "sha256": "862b3d9c07d266b2a3588b0ab5fbfda422a61e60d0b46b8cc187cb6471059514"}}
 {"frame": 6249, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 6489, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 6489, "request": {"op": "screenshot", "name": "04-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\04-field-3.png", "size": [240, 160], "sha256": "2545c16875313d91206d28d62d078fa3220e4ae0d0a3755f1893c40af313892d"}}
+{"frame": 6489, "request": {"op": "screenshot", "name": "04-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\04-field-3.png", "size": [240, 160], "sha256": "2545c16875313d91206d28d62d078fa3220e4ae0d0a3755f1893c40af313892d"}}
 {"frame": 6493, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 6733, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 6733, "request": {"op": "screenshot", "name": "04-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\04-field-4.png", "size": [240, 160], "sha256": "7845c683086fbd48795f4c0cb593f579dc7048c590c14aed596334604df87217"}}
+{"frame": 6733, "request": {"op": "screenshot", "name": "04-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\04-field-4.png", "size": [240, 160], "sha256": "7845c683086fbd48795f4c0cb593f579dc7048c590c14aed596334604df87217"}}
 {"frame": 6737, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 6857, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 6857, "request": {"op": "screenshot", "name": "04-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\04-return.png", "size": [240, 160], "sha256": "116c94fb174c1a0b5ee004b618b15f65a6c832ab9066695e17f591806fa3e997"}}
+{"frame": 6857, "request": {"op": "screenshot", "name": "04-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\04-return.png", "size": [240, 160], "sha256": "116c94fb174c1a0b5ee004b618b15f65a6c832ab9066695e17f591806fa3e997"}}
 {"frame": 6861, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 6981, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 6981, "request": {"op": "screenshot", "name": "05-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\05-selection.png", "size": [240, 160], "sha256": "794a6cd016078096da39a08a5962453388e2c2143ee56231d7e38d1184cc6b49"}}
+{"frame": 6981, "request": {"op": "screenshot", "name": "05-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\05-selection.png", "size": [240, 160], "sha256": "794a6cd016078096da39a08a5962453388e2c2143ee56231d7e38d1184cc6b49"}}
 {"frame": 6985, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 7225, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 7225, "request": {"op": "screenshot", "name": "05-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\05-field-1.png", "size": [240, 160], "sha256": "740a1a7069de4fcf88f62a1e46d61ec2675b02394a4bdf32d8e4a47cf29fdc5a"}}
+{"frame": 7225, "request": {"op": "screenshot", "name": "05-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\05-field-1.png", "size": [240, 160], "sha256": "740a1a7069de4fcf88f62a1e46d61ec2675b02394a4bdf32d8e4a47cf29fdc5a"}}
 {"frame": 7229, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 7469, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 7469, "request": {"op": "screenshot", "name": "05-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\05-field-2.png", "size": [240, 160], "sha256": "e8e0bea3b6a137ff394fbcc8ad2f1251dd1107b14f6aa6a73e1a65a2303cfaa2"}}
+{"frame": 7469, "request": {"op": "screenshot", "name": "05-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\05-field-2.png", "size": [240, 160], "sha256": "e8e0bea3b6a137ff394fbcc8ad2f1251dd1107b14f6aa6a73e1a65a2303cfaa2"}}
 {"frame": 7473, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 7713, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 7713, "request": {"op": "screenshot", "name": "05-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\05-field-3.png", "size": [240, 160], "sha256": "c034c15633977a6f869c1d41389092218d603bcf6c050432012515aec8cb38f3"}}
+{"frame": 7713, "request": {"op": "screenshot", "name": "05-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\05-field-3.png", "size": [240, 160], "sha256": "c034c15633977a6f869c1d41389092218d603bcf6c050432012515aec8cb38f3"}}
 {"frame": 7717, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 7957, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 7957, "request": {"op": "screenshot", "name": "05-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\05-field-4.png", "size": [240, 160], "sha256": "2d73002723b5015ad09ed8cac9e9dadcb58d42e1b5c8bd994e79464b9fcb6384"}}
+{"frame": 7957, "request": {"op": "screenshot", "name": "05-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\05-field-4.png", "size": [240, 160], "sha256": "2d73002723b5015ad09ed8cac9e9dadcb58d42e1b5c8bd994e79464b9fcb6384"}}
 {"frame": 7961, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 8081, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 8081, "request": {"op": "screenshot", "name": "05-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\05-return.png", "size": [240, 160], "sha256": "794a6cd016078096da39a08a5962453388e2c2143ee56231d7e38d1184cc6b49"}}
+{"frame": 8081, "request": {"op": "screenshot", "name": "05-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\05-return.png", "size": [240, 160], "sha256": "794a6cd016078096da39a08a5962453388e2c2143ee56231d7e38d1184cc6b49"}}
 {"frame": 8085, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 8205, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 8205, "request": {"op": "screenshot", "name": "06-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\06-selection.png", "size": [240, 160], "sha256": "3798aa1ec8828229aa750883ae59c62c03cea40ee9594eecda98cd66356349be"}}
+{"frame": 8205, "request": {"op": "screenshot", "name": "06-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\06-selection.png", "size": [240, 160], "sha256": "3798aa1ec8828229aa750883ae59c62c03cea40ee9594eecda98cd66356349be"}}
 {"frame": 8209, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 8449, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 8449, "request": {"op": "screenshot", "name": "06-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\06-field-1.png", "size": [240, 160], "sha256": "569aedd111493d019257b1479a3eeaaac83ec297ac85a3a62ead8b9078b7efcc"}}
+{"frame": 8449, "request": {"op": "screenshot", "name": "06-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\06-field-1.png", "size": [240, 160], "sha256": "569aedd111493d019257b1479a3eeaaac83ec297ac85a3a62ead8b9078b7efcc"}}
 {"frame": 8453, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 8693, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 8693, "request": {"op": "screenshot", "name": "06-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\06-field-2.png", "size": [240, 160], "sha256": "098c915c0dbe61c82989eb792235e3aaaaa6bf3b97e638f418e786f9b646c93b"}}
+{"frame": 8693, "request": {"op": "screenshot", "name": "06-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\06-field-2.png", "size": [240, 160], "sha256": "098c915c0dbe61c82989eb792235e3aaaaa6bf3b97e638f418e786f9b646c93b"}}
 {"frame": 8697, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 8937, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 8937, "request": {"op": "screenshot", "name": "06-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\06-field-3.png", "size": [240, 160], "sha256": "ee6a74d84ebd1f61544526577e86d2ecb4045775533ce504c83aa57d9fafbb71"}}
+{"frame": 8937, "request": {"op": "screenshot", "name": "06-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\06-field-3.png", "size": [240, 160], "sha256": "ee6a74d84ebd1f61544526577e86d2ecb4045775533ce504c83aa57d9fafbb71"}}
 {"frame": 8941, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 9181, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 9181, "request": {"op": "screenshot", "name": "06-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\06-field-4.png", "size": [240, 160], "sha256": "1e16cefa631506f35ba55dbdb0ce858d554d6bc0546dfd4234b5dd3dbb35ba81"}}
+{"frame": 9181, "request": {"op": "screenshot", "name": "06-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\06-field-4.png", "size": [240, 160], "sha256": "1e16cefa631506f35ba55dbdb0ce858d554d6bc0546dfd4234b5dd3dbb35ba81"}}
 {"frame": 9185, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 9305, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 9305, "request": {"op": "screenshot", "name": "06-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\06-return.png", "size": [240, 160], "sha256": "dac9a7390b60b06eacb9eeca350f29bcea2c23c88f28d52235ecd1f627fd0f9e"}}
+{"frame": 9305, "request": {"op": "screenshot", "name": "06-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\06-return.png", "size": [240, 160], "sha256": "dac9a7390b60b06eacb9eeca350f29bcea2c23c88f28d52235ecd1f627fd0f9e"}}
 {"frame": 9309, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 9429, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 9429, "request": {"op": "screenshot", "name": "07-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\07-selection.png", "size": [240, 160], "sha256": "39203ced5d5d64958834cbb292c435b54b9ce6492350e2611e91da0d51b8f409"}}
+{"frame": 9429, "request": {"op": "screenshot", "name": "07-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\07-selection.png", "size": [240, 160], "sha256": "39203ced5d5d64958834cbb292c435b54b9ce6492350e2611e91da0d51b8f409"}}
 {"frame": 9433, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 9673, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 9673, "request": {"op": "screenshot", "name": "07-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\07-field-1.png", "size": [240, 160], "sha256": "43a45fbc19e1f9a134d95a822fd1edd21578bddbfe819f0014cb76e71a24a894"}}
+{"frame": 9673, "request": {"op": "screenshot", "name": "07-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\07-field-1.png", "size": [240, 160], "sha256": "43a45fbc19e1f9a134d95a822fd1edd21578bddbfe819f0014cb76e71a24a894"}}
 {"frame": 9677, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 9917, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 9917, "request": {"op": "screenshot", "name": "07-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\07-field-2.png", "size": [240, 160], "sha256": "4784b0a0408d0c6b7d9e74c9866dc6e910f53cb86b7b90663e0311be43e3ce2f"}}
+{"frame": 9917, "request": {"op": "screenshot", "name": "07-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\07-field-2.png", "size": [240, 160], "sha256": "4784b0a0408d0c6b7d9e74c9866dc6e910f53cb86b7b90663e0311be43e3ce2f"}}
 {"frame": 9921, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 10161, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 10161, "request": {"op": "screenshot", "name": "07-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\07-field-3.png", "size": [240, 160], "sha256": "8209bed32fb39c89016ed80960691d6190164a08187a3cfbbed2422523a5629c"}}
+{"frame": 10161, "request": {"op": "screenshot", "name": "07-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\07-field-3.png", "size": [240, 160], "sha256": "8209bed32fb39c89016ed80960691d6190164a08187a3cfbbed2422523a5629c"}}
 {"frame": 10165, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 10405, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 10405, "request": {"op": "screenshot", "name": "07-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\07-field-4.png", "size": [240, 160], "sha256": "d2183d41c8210af5f3311715ec18b11f9ae321483c245e9360ad2ccc119cf287"}}
+{"frame": 10405, "request": {"op": "screenshot", "name": "07-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\07-field-4.png", "size": [240, 160], "sha256": "d2183d41c8210af5f3311715ec18b11f9ae321483c245e9360ad2ccc119cf287"}}
 {"frame": 10409, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 10529, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 10529, "request": {"op": "screenshot", "name": "07-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\07-return.png", "size": [240, 160], "sha256": "39203ced5d5d64958834cbb292c435b54b9ce6492350e2611e91da0d51b8f409"}}
+{"frame": 10529, "request": {"op": "screenshot", "name": "07-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\07-return.png", "size": [240, 160], "sha256": "39203ced5d5d64958834cbb292c435b54b9ce6492350e2611e91da0d51b8f409"}}
 {"frame": 10533, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 10653, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 10653, "request": {"op": "screenshot", "name": "08-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\08-selection.png", "size": [240, 160], "sha256": "9cd4f6a884179741e27d7d27f3fb02a36dbf1561d0c940744e49781b3d4158f1"}}
+{"frame": 10653, "request": {"op": "screenshot", "name": "08-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\08-selection.png", "size": [240, 160], "sha256": "9cd4f6a884179741e27d7d27f3fb02a36dbf1561d0c940744e49781b3d4158f1"}}
 {"frame": 10657, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 10897, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 10897, "request": {"op": "screenshot", "name": "08-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\08-field-1.png", "size": [240, 160], "sha256": "3298bb45e0384f47b6d167d9c72773e29bf7abf2c7d841396a8734ab005aa0e8"}}
+{"frame": 10897, "request": {"op": "screenshot", "name": "08-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\08-field-1.png", "size": [240, 160], "sha256": "3298bb45e0384f47b6d167d9c72773e29bf7abf2c7d841396a8734ab005aa0e8"}}
 {"frame": 10901, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 11141, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 11141, "request": {"op": "screenshot", "name": "08-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\08-field-2.png", "size": [240, 160], "sha256": "a01e948ca4ee13bd8d4d51763509e8b978cf6d83a881a7761d93d6875dd9461e"}}
+{"frame": 11141, "request": {"op": "screenshot", "name": "08-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\08-field-2.png", "size": [240, 160], "sha256": "a01e948ca4ee13bd8d4d51763509e8b978cf6d83a881a7761d93d6875dd9461e"}}
 {"frame": 11145, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 11385, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 11385, "request": {"op": "screenshot", "name": "08-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\08-field-3.png", "size": [240, 160], "sha256": "a5bc654568866089aa9e1ccc67df74e7a32a558ceda70aa941ae1b516ba1f73b"}}
+{"frame": 11385, "request": {"op": "screenshot", "name": "08-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\08-field-3.png", "size": [240, 160], "sha256": "a5bc654568866089aa9e1ccc67df74e7a32a558ceda70aa941ae1b516ba1f73b"}}
 {"frame": 11389, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 11629, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 11629, "request": {"op": "screenshot", "name": "08-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\08-field-4.png", "size": [240, 160], "sha256": "120d7e026f779897383a8779df1e824cdb09838997af4328c77e6edb75aebf95"}}
+{"frame": 11629, "request": {"op": "screenshot", "name": "08-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\08-field-4.png", "size": [240, 160], "sha256": "120d7e026f779897383a8779df1e824cdb09838997af4328c77e6edb75aebf95"}}
 {"frame": 11633, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 11753, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 11753, "request": {"op": "screenshot", "name": "08-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\08-return.png", "size": [240, 160], "sha256": "799438a69e602979b59c12f44b7d960cc860cca88640d00b6ff5528c01b90795"}}
+{"frame": 11753, "request": {"op": "screenshot", "name": "08-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\08-return.png", "size": [240, 160], "sha256": "799438a69e602979b59c12f44b7d960cc860cca88640d00b6ff5528c01b90795"}}
 {"frame": 11757, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 11877, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 11877, "request": {"op": "screenshot", "name": "09-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\09-selection.png", "size": [240, 160], "sha256": "1c4f68302cec9e15e8aa8cc94fb535f5fec89c324987bc61cded0abe1b2b0d9e"}}
+{"frame": 11877, "request": {"op": "screenshot", "name": "09-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\09-selection.png", "size": [240, 160], "sha256": "1c4f68302cec9e15e8aa8cc94fb535f5fec89c324987bc61cded0abe1b2b0d9e"}}
 {"frame": 11881, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 12121, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 12121, "request": {"op": "screenshot", "name": "09-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\09-field-1.png", "size": [240, 160], "sha256": "570a60860b93817241e716fe3ee574975f33651370a5ec3fffbc9ccce7c9ef73"}}
+{"frame": 12121, "request": {"op": "screenshot", "name": "09-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\09-field-1.png", "size": [240, 160], "sha256": "570a60860b93817241e716fe3ee574975f33651370a5ec3fffbc9ccce7c9ef73"}}
 {"frame": 12125, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 12365, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 12365, "request": {"op": "screenshot", "name": "09-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\09-field-2.png", "size": [240, 160], "sha256": "5ca5fd1d022dbbb636eea22c445dc6e80f18430389597925bbe1ce29d25e2202"}}
+{"frame": 12365, "request": {"op": "screenshot", "name": "09-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\09-field-2.png", "size": [240, 160], "sha256": "5ca5fd1d022dbbb636eea22c445dc6e80f18430389597925bbe1ce29d25e2202"}}
 {"frame": 12369, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 12609, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 12609, "request": {"op": "screenshot", "name": "09-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\09-field-3.png", "size": [240, 160], "sha256": "bb6443c587223aca0bb8c0bfc196c3757160937c407040b44a7ea0fbebb87a01"}}
+{"frame": 12609, "request": {"op": "screenshot", "name": "09-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\09-field-3.png", "size": [240, 160], "sha256": "bb6443c587223aca0bb8c0bfc196c3757160937c407040b44a7ea0fbebb87a01"}}
 {"frame": 12613, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 12853, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 12853, "request": {"op": "screenshot", "name": "09-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\09-field-4.png", "size": [240, 160], "sha256": "fc8d734847a2baf514cdacbe6dc42030b7502e9a84c8a3c049da8739a9cd2661"}}
+{"frame": 12853, "request": {"op": "screenshot", "name": "09-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\09-field-4.png", "size": [240, 160], "sha256": "fc8d734847a2baf514cdacbe6dc42030b7502e9a84c8a3c049da8739a9cd2661"}}
 {"frame": 12857, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 12977, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 12977, "request": {"op": "screenshot", "name": "09-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\09-return.png", "size": [240, 160], "sha256": "1c4f68302cec9e15e8aa8cc94fb535f5fec89c324987bc61cded0abe1b2b0d9e"}}
+{"frame": 12977, "request": {"op": "screenshot", "name": "09-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\09-return.png", "size": [240, 160], "sha256": "1c4f68302cec9e15e8aa8cc94fb535f5fec89c324987bc61cded0abe1b2b0d9e"}}
 {"frame": 12981, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 13101, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 13101, "request": {"op": "screenshot", "name": "10-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\10-selection.png", "size": [240, 160], "sha256": "b96f05fd2c5541fe5805e28ed816e3a0cd62556b8aaafff51aef4773df46e760"}}
+{"frame": 13101, "request": {"op": "screenshot", "name": "10-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\10-selection.png", "size": [240, 160], "sha256": "b96f05fd2c5541fe5805e28ed816e3a0cd62556b8aaafff51aef4773df46e760"}}
 {"frame": 13105, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 13345, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 13345, "request": {"op": "screenshot", "name": "10-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\10-field-1.png", "size": [240, 160], "sha256": "9db6ad78357520da5949c8ebdfca53f2d06617f3f116838f30a1106861e7a75e"}}
+{"frame": 13345, "request": {"op": "screenshot", "name": "10-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\10-field-1.png", "size": [240, 160], "sha256": "9db6ad78357520da5949c8ebdfca53f2d06617f3f116838f30a1106861e7a75e"}}
 {"frame": 13349, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 13589, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 13589, "request": {"op": "screenshot", "name": "10-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\10-field-2.png", "size": [240, 160], "sha256": "d880ac6fda8de6ec366aefe57a5c427f796e07ec8e4578c702ee9e0d74c7e674"}}
+{"frame": 13589, "request": {"op": "screenshot", "name": "10-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\10-field-2.png", "size": [240, 160], "sha256": "d880ac6fda8de6ec366aefe57a5c427f796e07ec8e4578c702ee9e0d74c7e674"}}
 {"frame": 13593, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 13833, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 13833, "request": {"op": "screenshot", "name": "10-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\10-field-3.png", "size": [240, 160], "sha256": "b1e861ccbe506eed1ff41bd25a06525978e66e745a06522bd834a930f849cbd3"}}
+{"frame": 13833, "request": {"op": "screenshot", "name": "10-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\10-field-3.png", "size": [240, 160], "sha256": "b1e861ccbe506eed1ff41bd25a06525978e66e745a06522bd834a930f849cbd3"}}
 {"frame": 13837, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 14077, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 14077, "request": {"op": "screenshot", "name": "10-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\10-field-4.png", "size": [240, 160], "sha256": "df3b4e9c76ebdac9c4fbb307dc6f2eee4cf9aadbc09a7ad2ed979fde6ef3d4ee"}}
+{"frame": 14077, "request": {"op": "screenshot", "name": "10-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\10-field-4.png", "size": [240, 160], "sha256": "df3b4e9c76ebdac9c4fbb307dc6f2eee4cf9aadbc09a7ad2ed979fde6ef3d4ee"}}
 {"frame": 14081, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 14201, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 14201, "request": {"op": "screenshot", "name": "10-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\10-return.png", "size": [240, 160], "sha256": "ad571fa1408c03e32ff55136b77fb1f6a88bf030aebe7848cf01ad54703c34ec"}}
+{"frame": 14201, "request": {"op": "screenshot", "name": "10-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\10-return.png", "size": [240, 160], "sha256": "ad571fa1408c03e32ff55136b77fb1f6a88bf030aebe7848cf01ad54703c34ec"}}
 {"frame": 14205, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 14325, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 14325, "request": {"op": "screenshot", "name": "11-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\11-selection.png", "size": [240, 160], "sha256": "7e4be35275ef41c7f91fb0ab5eaf0495a770268421a065922eff8d93683bd4ac"}}
+{"frame": 14325, "request": {"op": "screenshot", "name": "11-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\11-selection.png", "size": [240, 160], "sha256": "7e4be35275ef41c7f91fb0ab5eaf0495a770268421a065922eff8d93683bd4ac"}}
 {"frame": 14329, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 14569, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 14569, "request": {"op": "screenshot", "name": "11-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\11-field-1.png", "size": [240, 160], "sha256": "56c534cebd47fcc6b50235ce52920e520c08de7216f1ab872576a5ad4489f67f"}}
+{"frame": 14569, "request": {"op": "screenshot", "name": "11-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\11-field-1.png", "size": [240, 160], "sha256": "56c534cebd47fcc6b50235ce52920e520c08de7216f1ab872576a5ad4489f67f"}}
 {"frame": 14573, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 14813, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 14813, "request": {"op": "screenshot", "name": "11-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\11-field-2.png", "size": [240, 160], "sha256": "1e9e437bf612461bc7f32763ed4cf380e32ee997cd0fb3e04be04ee68b66b6f2"}}
+{"frame": 14813, "request": {"op": "screenshot", "name": "11-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\11-field-2.png", "size": [240, 160], "sha256": "1e9e437bf612461bc7f32763ed4cf380e32ee997cd0fb3e04be04ee68b66b6f2"}}
 {"frame": 14817, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 15057, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 15057, "request": {"op": "screenshot", "name": "11-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\11-field-3.png", "size": [240, 160], "sha256": "32e8419d71cc9ad4a028696795abf67a0d48c83fcde2be6d0d23d8922d93ab57"}}
+{"frame": 15057, "request": {"op": "screenshot", "name": "11-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\11-field-3.png", "size": [240, 160], "sha256": "32e8419d71cc9ad4a028696795abf67a0d48c83fcde2be6d0d23d8922d93ab57"}}
 {"frame": 15061, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 15301, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 15301, "request": {"op": "screenshot", "name": "11-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\11-field-4.png", "size": [240, 160], "sha256": "89aed3e1f2b85df7d3d787414b07db1545b28110473f64e697d8504e90f16ddb"}}
+{"frame": 15301, "request": {"op": "screenshot", "name": "11-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\11-field-4.png", "size": [240, 160], "sha256": "89aed3e1f2b85df7d3d787414b07db1545b28110473f64e697d8504e90f16ddb"}}
 {"frame": 15305, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 15425, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 15425, "request": {"op": "screenshot", "name": "11-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\11-return.png", "size": [240, 160], "sha256": "7e4be35275ef41c7f91fb0ab5eaf0495a770268421a065922eff8d93683bd4ac"}}
+{"frame": 15425, "request": {"op": "screenshot", "name": "11-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\11-return.png", "size": [240, 160], "sha256": "7e4be35275ef41c7f91fb0ab5eaf0495a770268421a065922eff8d93683bd4ac"}}
 {"frame": 15429, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 15549, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 15549, "request": {"op": "screenshot", "name": "12-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\12-selection.png", "size": [240, 160], "sha256": "6fe76794912824e2cb008d7b5393293a1e7c7990b0b83b8a1ddb0a79f369dfe2"}}
+{"frame": 15549, "request": {"op": "screenshot", "name": "12-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\12-selection.png", "size": [240, 160], "sha256": "6fe76794912824e2cb008d7b5393293a1e7c7990b0b83b8a1ddb0a79f369dfe2"}}
 {"frame": 15553, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 15793, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 15793, "request": {"op": "screenshot", "name": "12-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\12-field-1.png", "size": [240, 160], "sha256": "1436881b68f8da21752d744beb1c153951b2071136829cccc00bfee101787571"}}
+{"frame": 15793, "request": {"op": "screenshot", "name": "12-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\12-field-1.png", "size": [240, 160], "sha256": "1436881b68f8da21752d744beb1c153951b2071136829cccc00bfee101787571"}}
 {"frame": 15797, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 16037, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 16037, "request": {"op": "screenshot", "name": "12-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\12-field-2.png", "size": [240, 160], "sha256": "6e992a771d44975134a19dea30ba74145ef4713cdcf494957f7f482b059a2da3"}}
+{"frame": 16037, "request": {"op": "screenshot", "name": "12-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\12-field-2.png", "size": [240, 160], "sha256": "6e992a771d44975134a19dea30ba74145ef4713cdcf494957f7f482b059a2da3"}}
 {"frame": 16041, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 16281, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 16281, "request": {"op": "screenshot", "name": "12-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\12-field-3.png", "size": [240, 160], "sha256": "fb041800833fcd84da1bb0938ab1ba9d926ebd71b4f526e8f685963c3b7e2ce8"}}
+{"frame": 16281, "request": {"op": "screenshot", "name": "12-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\12-field-3.png", "size": [240, 160], "sha256": "fb041800833fcd84da1bb0938ab1ba9d926ebd71b4f526e8f685963c3b7e2ce8"}}
 {"frame": 16285, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 16525, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 16525, "request": {"op": "screenshot", "name": "12-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\12-field-4.png", "size": [240, 160], "sha256": "276d23db51ecdc04963bbcd2c2748f991b19614cb83441066cd59390426862a8"}}
+{"frame": 16525, "request": {"op": "screenshot", "name": "12-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\12-field-4.png", "size": [240, 160], "sha256": "276d23db51ecdc04963bbcd2c2748f991b19614cb83441066cd59390426862a8"}}
 {"frame": 16529, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 16649, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 16649, "request": {"op": "screenshot", "name": "12-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\12-return.png", "size": [240, 160], "sha256": "6a9ad6041914043ce23acb4d20f0f54fa86dc17341264729396ab6bc9358ecc7"}}
+{"frame": 16649, "request": {"op": "screenshot", "name": "12-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\12-return.png", "size": [240, 160], "sha256": "6a9ad6041914043ce23acb4d20f0f54fa86dc17341264729396ab6bc9358ecc7"}}
 {"frame": 16653, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 16773, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 16773, "request": {"op": "screenshot", "name": "13-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\13-selection.png", "size": [240, 160], "sha256": "2aea6187553b1f8d0945d556ddf378ec05cad2193cd138bdc36a6ff2dfcd5ed9"}}
+{"frame": 16773, "request": {"op": "screenshot", "name": "13-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\13-selection.png", "size": [240, 160], "sha256": "2aea6187553b1f8d0945d556ddf378ec05cad2193cd138bdc36a6ff2dfcd5ed9"}}
 {"frame": 16777, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 17017, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 17017, "request": {"op": "screenshot", "name": "13-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\13-field-1.png", "size": [240, 160], "sha256": "76f145ed706b28b1a4fb83a7fa5c4d81a014d12978a6f1dcb97942dfb44d8c86"}}
+{"frame": 17017, "request": {"op": "screenshot", "name": "13-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\13-field-1.png", "size": [240, 160], "sha256": "76f145ed706b28b1a4fb83a7fa5c4d81a014d12978a6f1dcb97942dfb44d8c86"}}
 {"frame": 17021, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 17261, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 17261, "request": {"op": "screenshot", "name": "13-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\13-field-2.png", "size": [240, 160], "sha256": "280df9e1db485d5d7a9b1808677845bd1d486d77da95ca71b807daabbbc10088"}}
+{"frame": 17261, "request": {"op": "screenshot", "name": "13-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\13-field-2.png", "size": [240, 160], "sha256": "280df9e1db485d5d7a9b1808677845bd1d486d77da95ca71b807daabbbc10088"}}
 {"frame": 17265, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 17505, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 17505, "request": {"op": "screenshot", "name": "13-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\13-field-3.png", "size": [240, 160], "sha256": "c265202a28e13e03c779e6aa78bb983a15db069e58b63c2a95bc75b608937c44"}}
+{"frame": 17505, "request": {"op": "screenshot", "name": "13-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\13-field-3.png", "size": [240, 160], "sha256": "c265202a28e13e03c779e6aa78bb983a15db069e58b63c2a95bc75b608937c44"}}
 {"frame": 17509, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 17749, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 17749, "request": {"op": "screenshot", "name": "13-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\13-field-4.png", "size": [240, 160], "sha256": "74961cf17554233d1c15d92e3f0ee4f7e248e1e42b376795e4112e9be27a13fb"}}
+{"frame": 17749, "request": {"op": "screenshot", "name": "13-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\13-field-4.png", "size": [240, 160], "sha256": "74961cf17554233d1c15d92e3f0ee4f7e248e1e42b376795e4112e9be27a13fb"}}
 {"frame": 17753, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 17873, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 17873, "request": {"op": "screenshot", "name": "13-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\13-return.png", "size": [240, 160], "sha256": "80cd02939c457f1a182f3f9861383edf6af24046ab840f059f1abaf6141823c4"}}
+{"frame": 17873, "request": {"op": "screenshot", "name": "13-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\13-return.png", "size": [240, 160], "sha256": "80cd02939c457f1a182f3f9861383edf6af24046ab840f059f1abaf6141823c4"}}
 {"frame": 17877, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 17997, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 17997, "request": {"op": "screenshot", "name": "14-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\14-selection.png", "size": [240, 160], "sha256": "bb26044bf20bb2a26fb77f81ddb0f38e11f896979b768befcaf8b870649966a8"}}
+{"frame": 17997, "request": {"op": "screenshot", "name": "14-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\14-selection.png", "size": [240, 160], "sha256": "bb26044bf20bb2a26fb77f81ddb0f38e11f896979b768befcaf8b870649966a8"}}
 {"frame": 18001, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 18241, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 18241, "request": {"op": "screenshot", "name": "14-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\14-field-1.png", "size": [240, 160], "sha256": "b38830a90ede8058c5952a6f0d283d853c8a11a8ca6269de24c899941edbe32f"}}
+{"frame": 18241, "request": {"op": "screenshot", "name": "14-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\14-field-1.png", "size": [240, 160], "sha256": "b38830a90ede8058c5952a6f0d283d853c8a11a8ca6269de24c899941edbe32f"}}
 {"frame": 18245, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 18485, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 18485, "request": {"op": "screenshot", "name": "14-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\14-field-2.png", "size": [240, 160], "sha256": "65b71886bdaec5a025ab2596f1d78580e647a1ef1568c07cb4c758a7e41ed9dc"}}
+{"frame": 18485, "request": {"op": "screenshot", "name": "14-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\14-field-2.png", "size": [240, 160], "sha256": "65b71886bdaec5a025ab2596f1d78580e647a1ef1568c07cb4c758a7e41ed9dc"}}
 {"frame": 18489, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 18729, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 18729, "request": {"op": "screenshot", "name": "14-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\14-field-3.png", "size": [240, 160], "sha256": "0706d694ea37e9cf9a745c5b7b0d3f01b66270960aaffc49f416ed1207b4ee78"}}
+{"frame": 18729, "request": {"op": "screenshot", "name": "14-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\14-field-3.png", "size": [240, 160], "sha256": "0706d694ea37e9cf9a745c5b7b0d3f01b66270960aaffc49f416ed1207b4ee78"}}
 {"frame": 18733, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 18973, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 18973, "request": {"op": "screenshot", "name": "14-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\14-field-4.png", "size": [240, 160], "sha256": "4517197f6a86179ee9e943de9fa8e139761723cbff6d8a31e7e894a31b0a2ff9"}}
+{"frame": 18973, "request": {"op": "screenshot", "name": "14-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\14-field-4.png", "size": [240, 160], "sha256": "4517197f6a86179ee9e943de9fa8e139761723cbff6d8a31e7e894a31b0a2ff9"}}
 {"frame": 18977, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 19097, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 19097, "request": {"op": "screenshot", "name": "14-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\14-return.png", "size": [240, 160], "sha256": "532886d503db939fbcd9ada729b073135d0a73040bd6833dbb6ea72854bf5cef"}}
+{"frame": 19097, "request": {"op": "screenshot", "name": "14-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\14-return.png", "size": [240, 160], "sha256": "532886d503db939fbcd9ada729b073135d0a73040bd6833dbb6ea72854bf5cef"}}
 {"frame": 19101, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 19221, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 19221, "request": {"op": "screenshot", "name": "15-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\15-selection.png", "size": [240, 160], "sha256": "5c704c2711cdce36b727e8f8acca3de40988b0aac7a69e49c4e9c096cd24e3db"}}
+{"frame": 19221, "request": {"op": "screenshot", "name": "15-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\15-selection.png", "size": [240, 160], "sha256": "5c704c2711cdce36b727e8f8acca3de40988b0aac7a69e49c4e9c096cd24e3db"}}
 {"frame": 19225, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 19465, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 19465, "request": {"op": "screenshot", "name": "15-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\15-field-1.png", "size": [240, 160], "sha256": "d4a1ff2c8ad099ac633c1ce84ee12396a8471ae81e60d053d61d5f18008b9f1b"}}
+{"frame": 19465, "request": {"op": "screenshot", "name": "15-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\15-field-1.png", "size": [240, 160], "sha256": "d4a1ff2c8ad099ac633c1ce84ee12396a8471ae81e60d053d61d5f18008b9f1b"}}
 {"frame": 19469, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 19709, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 19709, "request": {"op": "screenshot", "name": "15-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\15-field-2.png", "size": [240, 160], "sha256": "3bc36e2d52e1c8a5393d91225577c8488016660e985da9856cdc0c5083a55d3b"}}
+{"frame": 19709, "request": {"op": "screenshot", "name": "15-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\15-field-2.png", "size": [240, 160], "sha256": "3bc36e2d52e1c8a5393d91225577c8488016660e985da9856cdc0c5083a55d3b"}}
 {"frame": 19713, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 19953, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 19953, "request": {"op": "screenshot", "name": "15-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\15-field-3.png", "size": [240, 160], "sha256": "c78f5a91b6e942a964926b710e696b3540dc9227efefb912de928abd28e2f190"}}
+{"frame": 19953, "request": {"op": "screenshot", "name": "15-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\15-field-3.png", "size": [240, 160], "sha256": "c78f5a91b6e942a964926b710e696b3540dc9227efefb912de928abd28e2f190"}}
 {"frame": 19957, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 20197, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 20197, "request": {"op": "screenshot", "name": "15-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\15-field-4.png", "size": [240, 160], "sha256": "605c3bba0e8e165b65d532fdf8b8a964c8c2256613c53e32d2c1e0e27bab74ae"}}
+{"frame": 20197, "request": {"op": "screenshot", "name": "15-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\15-field-4.png", "size": [240, 160], "sha256": "605c3bba0e8e165b65d532fdf8b8a964c8c2256613c53e32d2c1e0e27bab74ae"}}
 {"frame": 20201, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 20321, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 20321, "request": {"op": "screenshot", "name": "15-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\15-return.png", "size": [240, 160], "sha256": "0ecb4f6d4da9b2a272df6a264c90ed962b3738ab8cac29b7628e9e6d7736fbf3"}}
+{"frame": 20321, "request": {"op": "screenshot", "name": "15-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\15-return.png", "size": [240, 160], "sha256": "0ecb4f6d4da9b2a272df6a264c90ed962b3738ab8cac29b7628e9e6d7736fbf3"}}
 {"frame": 20325, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 20445, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 20445, "request": {"op": "screenshot", "name": "16-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\16-selection.png", "size": [240, 160], "sha256": "5e6be00ebd0ee3b6cad158e270511aaab952336e457b35cbea0bd07e6d652a28"}}
+{"frame": 20445, "request": {"op": "screenshot", "name": "16-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\16-selection.png", "size": [240, 160], "sha256": "5e6be00ebd0ee3b6cad158e270511aaab952336e457b35cbea0bd07e6d652a28"}}
 {"frame": 20449, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 20689, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 20689, "request": {"op": "screenshot", "name": "16-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\16-field-1.png", "size": [240, 160], "sha256": "7512c0440f78c78bed20be480711b196ff15009341753017f3f53a662a5b7c00"}}
+{"frame": 20689, "request": {"op": "screenshot", "name": "16-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\16-field-1.png", "size": [240, 160], "sha256": "7512c0440f78c78bed20be480711b196ff15009341753017f3f53a662a5b7c00"}}
 {"frame": 20693, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 20933, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 20933, "request": {"op": "screenshot", "name": "16-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\16-field-2.png", "size": [240, 160], "sha256": "a00161d400e9c3792439a2bd61e643712a5a30005f879e8d034557f997dfca4e"}}
+{"frame": 20933, "request": {"op": "screenshot", "name": "16-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\16-field-2.png", "size": [240, 160], "sha256": "a00161d400e9c3792439a2bd61e643712a5a30005f879e8d034557f997dfca4e"}}
 {"frame": 20937, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 21177, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 21177, "request": {"op": "screenshot", "name": "16-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\16-field-3.png", "size": [240, 160], "sha256": "bf26b980b61d82ebf046a8ca8f3dfd56b81917191b7ecf3366b14c0412dd568e"}}
+{"frame": 21177, "request": {"op": "screenshot", "name": "16-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\16-field-3.png", "size": [240, 160], "sha256": "bf26b980b61d82ebf046a8ca8f3dfd56b81917191b7ecf3366b14c0412dd568e"}}
 {"frame": 21181, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 21421, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 21421, "request": {"op": "screenshot", "name": "16-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\16-field-4.png", "size": [240, 160], "sha256": "c9e58b441c38f8578ce6fccbfac429e96c898a419ace671386daa2e93eefc725"}}
+{"frame": 21421, "request": {"op": "screenshot", "name": "16-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\16-field-4.png", "size": [240, 160], "sha256": "c9e58b441c38f8578ce6fccbfac429e96c898a419ace671386daa2e93eefc725"}}
 {"frame": 21425, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 21545, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 21545, "request": {"op": "screenshot", "name": "16-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\16-return.png", "size": [240, 160], "sha256": "196e3cc8a13213fa0bd40bb6efbfeb98f81496758c8c669487ca1062c268dcd1"}}
+{"frame": 21545, "request": {"op": "screenshot", "name": "16-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\16-return.png", "size": [240, 160], "sha256": "196e3cc8a13213fa0bd40bb6efbfeb98f81496758c8c669487ca1062c268dcd1"}}
 {"frame": 21549, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 21669, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 21669, "request": {"op": "screenshot", "name": "17-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\17-selection.png", "size": [240, 160], "sha256": "6d100e74f655f8f0d6caac6c4d1d8044190847ae1fde99fe31eebaf53b91ab34"}}
+{"frame": 21669, "request": {"op": "screenshot", "name": "17-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\17-selection.png", "size": [240, 160], "sha256": "6d100e74f655f8f0d6caac6c4d1d8044190847ae1fde99fe31eebaf53b91ab34"}}
 {"frame": 21673, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 21913, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 21913, "request": {"op": "screenshot", "name": "17-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\17-field-1.png", "size": [240, 160], "sha256": "8d438cc31aee6ecf5009cc7bcdf0b454a8ab8c5755a5aa30c4548ebf411bd029"}}
+{"frame": 21913, "request": {"op": "screenshot", "name": "17-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\17-field-1.png", "size": [240, 160], "sha256": "8d438cc31aee6ecf5009cc7bcdf0b454a8ab8c5755a5aa30c4548ebf411bd029"}}
 {"frame": 21917, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 22157, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 22157, "request": {"op": "screenshot", "name": "17-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\17-field-2.png", "size": [240, 160], "sha256": "d87c7c1aa163de2f95cd7b614e18982a795b4b1ed96ce99fd204c92d68e3c748"}}
+{"frame": 22157, "request": {"op": "screenshot", "name": "17-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\17-field-2.png", "size": [240, 160], "sha256": "d87c7c1aa163de2f95cd7b614e18982a795b4b1ed96ce99fd204c92d68e3c748"}}
 {"frame": 22161, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 22401, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 22401, "request": {"op": "screenshot", "name": "17-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\17-field-3.png", "size": [240, 160], "sha256": "7a343b9e09d8dd3c7a2f1f441026706b463ef5fd7a745ab0d8bff245fd218928"}}
+{"frame": 22401, "request": {"op": "screenshot", "name": "17-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\17-field-3.png", "size": [240, 160], "sha256": "7a343b9e09d8dd3c7a2f1f441026706b463ef5fd7a745ab0d8bff245fd218928"}}
 {"frame": 22405, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 22645, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 22645, "request": {"op": "screenshot", "name": "17-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\17-field-4.png", "size": [240, 160], "sha256": "2cd53933ba454b9d5f7cdd759dd6648c2a5ec6d2685292e3cef4828c04428139"}}
+{"frame": 22645, "request": {"op": "screenshot", "name": "17-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\17-field-4.png", "size": [240, 160], "sha256": "2cd53933ba454b9d5f7cdd759dd6648c2a5ec6d2685292e3cef4828c04428139"}}
 {"frame": 22649, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 22769, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 22769, "request": {"op": "screenshot", "name": "17-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\17-return.png", "size": [240, 160], "sha256": "478f14479057186e3cfb44148b553080905ec726fba18d0e9eecc243aaae9b3a"}}
+{"frame": 22769, "request": {"op": "screenshot", "name": "17-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\17-return.png", "size": [240, 160], "sha256": "478f14479057186e3cfb44148b553080905ec726fba18d0e9eecc243aaae9b3a"}}
 {"frame": 22773, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 22893, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 22893, "request": {"op": "screenshot", "name": "18-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\18-selection.png", "size": [240, 160], "sha256": "50b31f2a8dec1f719dfff6ee989b8c740c0685004b4d31fd7f54640aa1b6c0a0"}}
+{"frame": 22893, "request": {"op": "screenshot", "name": "18-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\18-selection.png", "size": [240, 160], "sha256": "50b31f2a8dec1f719dfff6ee989b8c740c0685004b4d31fd7f54640aa1b6c0a0"}}
 {"frame": 22897, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 23137, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 23137, "request": {"op": "screenshot", "name": "18-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\18-field-1.png", "size": [240, 160], "sha256": "83bcf4ea108eabafd9454f7ab1b175567355458ab5bed549a75d71e4dc676db2"}}
+{"frame": 23137, "request": {"op": "screenshot", "name": "18-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\18-field-1.png", "size": [240, 160], "sha256": "83bcf4ea108eabafd9454f7ab1b175567355458ab5bed549a75d71e4dc676db2"}}
 {"frame": 23141, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 23381, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 23381, "request": {"op": "screenshot", "name": "18-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\18-field-2.png", "size": [240, 160], "sha256": "6a3befcbb06486ed01f642e05017e2fbcb0130338d9c0111a9f31c098f804bb3"}}
+{"frame": 23381, "request": {"op": "screenshot", "name": "18-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\18-field-2.png", "size": [240, 160], "sha256": "6a3befcbb06486ed01f642e05017e2fbcb0130338d9c0111a9f31c098f804bb3"}}
 {"frame": 23385, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 23625, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 23625, "request": {"op": "screenshot", "name": "18-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\18-field-3.png", "size": [240, 160], "sha256": "64dcc399d534298322d3e1483935d8763525e01c1b82845fb1bf632574af8c63"}}
+{"frame": 23625, "request": {"op": "screenshot", "name": "18-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\18-field-3.png", "size": [240, 160], "sha256": "64dcc399d534298322d3e1483935d8763525e01c1b82845fb1bf632574af8c63"}}
 {"frame": 23629, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 23869, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 23869, "request": {"op": "screenshot", "name": "18-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\18-field-4.png", "size": [240, 160], "sha256": "e24259c453621391ec626471e4aa62bd10ad1f72f60ffc022a0c220e6e5b1407"}}
+{"frame": 23869, "request": {"op": "screenshot", "name": "18-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\18-field-4.png", "size": [240, 160], "sha256": "e24259c453621391ec626471e4aa62bd10ad1f72f60ffc022a0c220e6e5b1407"}}
 {"frame": 23873, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 23993, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 23993, "request": {"op": "screenshot", "name": "18-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\18-return.png", "size": [240, 160], "sha256": "41d2c5e40fa6387d5758ce6b5be94b5fbfb7b8c7b49c29a1e39db32753fae1fa"}}
+{"frame": 23993, "request": {"op": "screenshot", "name": "18-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\18-return.png", "size": [240, 160], "sha256": "41d2c5e40fa6387d5758ce6b5be94b5fbfb7b8c7b49c29a1e39db32753fae1fa"}}
 {"frame": 23997, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 24117, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 24117, "request": {"op": "screenshot", "name": "19-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\19-selection.png", "size": [240, 160], "sha256": "7780b313b93da4f9bd113c48509f85ff7105aa2777746298017af3661d5ad19d"}}
+{"frame": 24117, "request": {"op": "screenshot", "name": "19-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\19-selection.png", "size": [240, 160], "sha256": "7780b313b93da4f9bd113c48509f85ff7105aa2777746298017af3661d5ad19d"}}
 {"frame": 24121, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 24361, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 24361, "request": {"op": "screenshot", "name": "19-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\19-field-1.png", "size": [240, 160], "sha256": "f0809db33743b03cff85a7b483ce3b9b80b4d08ea53c094cf2f91e221e1c239d"}}
+{"frame": 24361, "request": {"op": "screenshot", "name": "19-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\19-field-1.png", "size": [240, 160], "sha256": "f0809db33743b03cff85a7b483ce3b9b80b4d08ea53c094cf2f91e221e1c239d"}}
 {"frame": 24365, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 24605, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 24605, "request": {"op": "screenshot", "name": "19-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\19-field-2.png", "size": [240, 160], "sha256": "611dd1c68860c91469b84dde67b528f2dfcd3764b79c17b9058b8e72ba8685d1"}}
+{"frame": 24605, "request": {"op": "screenshot", "name": "19-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\19-field-2.png", "size": [240, 160], "sha256": "611dd1c68860c91469b84dde67b528f2dfcd3764b79c17b9058b8e72ba8685d1"}}
 {"frame": 24609, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 24849, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 24849, "request": {"op": "screenshot", "name": "19-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\19-field-3.png", "size": [240, 160], "sha256": "225132f4e6f677a7086df0d1e7104567dbaa08672131ba5242120ccdee6bea08"}}
+{"frame": 24849, "request": {"op": "screenshot", "name": "19-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\19-field-3.png", "size": [240, 160], "sha256": "225132f4e6f677a7086df0d1e7104567dbaa08672131ba5242120ccdee6bea08"}}
 {"frame": 24853, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 25093, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 25093, "request": {"op": "screenshot", "name": "19-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\19-field-4.png", "size": [240, 160], "sha256": "8bc85fd136c37c81f934aa306bd1844e05f565407a3affff81edf81b70fd7e79"}}
+{"frame": 25093, "request": {"op": "screenshot", "name": "19-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\19-field-4.png", "size": [240, 160], "sha256": "8bc85fd136c37c81f934aa306bd1844e05f565407a3affff81edf81b70fd7e79"}}
 {"frame": 25097, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 25217, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 25217, "request": {"op": "screenshot", "name": "19-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\19-return.png", "size": [240, 160], "sha256": "d26cdd29d055b16dd86cd4b4945f21a13797022f52a5fcba8cc26a26abe90e1f"}}
+{"frame": 25217, "request": {"op": "screenshot", "name": "19-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\19-return.png", "size": [240, 160], "sha256": "d26cdd29d055b16dd86cd4b4945f21a13797022f52a5fcba8cc26a26abe90e1f"}}
 {"frame": 25221, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 25341, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 25341, "request": {"op": "screenshot", "name": "20-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\20-selection.png", "size": [240, 160], "sha256": "34a1f8837b65180dcad9acb3057fe6449fb5e2069d5746f5b4fc3240af10b7db"}}
+{"frame": 25341, "request": {"op": "screenshot", "name": "20-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\20-selection.png", "size": [240, 160], "sha256": "34a1f8837b65180dcad9acb3057fe6449fb5e2069d5746f5b4fc3240af10b7db"}}
 {"frame": 25345, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 25585, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 25585, "request": {"op": "screenshot", "name": "20-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\20-field-1.png", "size": [240, 160], "sha256": "a2784032cc2d2b55529cfebe9fb1f4219b6cfe15d4fb64393f9c50fb1d6e95fb"}}
+{"frame": 25585, "request": {"op": "screenshot", "name": "20-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\20-field-1.png", "size": [240, 160], "sha256": "a2784032cc2d2b55529cfebe9fb1f4219b6cfe15d4fb64393f9c50fb1d6e95fb"}}
 {"frame": 25589, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 25829, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 25829, "request": {"op": "screenshot", "name": "20-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\20-field-2.png", "size": [240, 160], "sha256": "835def2e02b79f17e6f440b1418b55d3c027668414317f8121b61a65da61b40e"}}
+{"frame": 25829, "request": {"op": "screenshot", "name": "20-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\20-field-2.png", "size": [240, 160], "sha256": "835def2e02b79f17e6f440b1418b55d3c027668414317f8121b61a65da61b40e"}}
 {"frame": 25833, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 26073, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 26073, "request": {"op": "screenshot", "name": "20-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\20-field-3.png", "size": [240, 160], "sha256": "5490bf6e67de184c54abfffff2a4eb4a1767835856e3e101f755174058b7397f"}}
+{"frame": 26073, "request": {"op": "screenshot", "name": "20-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\20-field-3.png", "size": [240, 160], "sha256": "5490bf6e67de184c54abfffff2a4eb4a1767835856e3e101f755174058b7397f"}}
 {"frame": 26077, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 26317, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 26317, "request": {"op": "screenshot", "name": "20-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\20-field-4.png", "size": [240, 160], "sha256": "3aec2b5c7377ef1b86f5e0714a7718f98579d6f1c33748b9f2216cbda9f46ae8"}}
+{"frame": 26317, "request": {"op": "screenshot", "name": "20-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\20-field-4.png", "size": [240, 160], "sha256": "3aec2b5c7377ef1b86f5e0714a7718f98579d6f1c33748b9f2216cbda9f46ae8"}}
 {"frame": 26321, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 26441, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 26441, "request": {"op": "screenshot", "name": "20-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\20-return.png", "size": [240, 160], "sha256": "34a1f8837b65180dcad9acb3057fe6449fb5e2069d5746f5b4fc3240af10b7db"}}
+{"frame": 26441, "request": {"op": "screenshot", "name": "20-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\20-return.png", "size": [240, 160], "sha256": "34a1f8837b65180dcad9acb3057fe6449fb5e2069d5746f5b4fc3240af10b7db"}}
 {"frame": 26445, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 26565, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 26565, "request": {"op": "screenshot", "name": "21-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\21-selection.png", "size": [240, 160], "sha256": "983fe92e33becaf25d054f86a2a743fee88f76e2a12ea8a9c91cdc44e4fb566b"}}
+{"frame": 26565, "request": {"op": "screenshot", "name": "21-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\21-selection.png", "size": [240, 160], "sha256": "983fe92e33becaf25d054f86a2a743fee88f76e2a12ea8a9c91cdc44e4fb566b"}}
 {"frame": 26569, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 26809, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 26809, "request": {"op": "screenshot", "name": "21-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\21-field-1.png", "size": [240, 160], "sha256": "0ed9b9c54122239cd8dbc423d3e61a663af3615e9749fc043b5dadefc1c784f1"}}
+{"frame": 26809, "request": {"op": "screenshot", "name": "21-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\21-field-1.png", "size": [240, 160], "sha256": "0ed9b9c54122239cd8dbc423d3e61a663af3615e9749fc043b5dadefc1c784f1"}}
 {"frame": 26813, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 27053, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 27053, "request": {"op": "screenshot", "name": "21-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\21-field-2.png", "size": [240, 160], "sha256": "4135f73b8218b4b7b31eee20850d4f8c7f92862b99b390785d814e7565473a77"}}
+{"frame": 27053, "request": {"op": "screenshot", "name": "21-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\21-field-2.png", "size": [240, 160], "sha256": "4135f73b8218b4b7b31eee20850d4f8c7f92862b99b390785d814e7565473a77"}}
 {"frame": 27057, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 27297, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 27297, "request": {"op": "screenshot", "name": "21-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\21-field-3.png", "size": [240, 160], "sha256": "58546ee21e5f1c15464638b619e7c6024a39dcc9d5bb7d5fb18d958dc59281e1"}}
+{"frame": 27297, "request": {"op": "screenshot", "name": "21-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\21-field-3.png", "size": [240, 160], "sha256": "58546ee21e5f1c15464638b619e7c6024a39dcc9d5bb7d5fb18d958dc59281e1"}}
 {"frame": 27301, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 27541, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 27541, "request": {"op": "screenshot", "name": "21-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\21-field-4.png", "size": [240, 160], "sha256": "448d45341920239edcce0b2b198ecddde28f7ead02323450e98f0716ce66ddb3"}}
+{"frame": 27541, "request": {"op": "screenshot", "name": "21-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\21-field-4.png", "size": [240, 160], "sha256": "448d45341920239edcce0b2b198ecddde28f7ead02323450e98f0716ce66ddb3"}}
 {"frame": 27545, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 27665, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 27665, "request": {"op": "screenshot", "name": "21-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\21-return.png", "size": [240, 160], "sha256": "8092a98d6996374296654824fdcb35b7f6aa3f4f387f2a34f5baec86ffe676eb"}}
+{"frame": 27665, "request": {"op": "screenshot", "name": "21-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\21-return.png", "size": [240, 160], "sha256": "8092a98d6996374296654824fdcb35b7f6aa3f4f387f2a34f5baec86ffe676eb"}}
 {"frame": 27669, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 27789, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 27789, "request": {"op": "screenshot", "name": "22-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\22-selection.png", "size": [240, 160], "sha256": "a112fbf161f0db40bac87d19fc8fdc7e5cf36fa04a0aa1c08995bad13b6ffebc"}}
+{"frame": 27789, "request": {"op": "screenshot", "name": "22-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\22-selection.png", "size": [240, 160], "sha256": "a112fbf161f0db40bac87d19fc8fdc7e5cf36fa04a0aa1c08995bad13b6ffebc"}}
 {"frame": 27793, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 28033, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 28033, "request": {"op": "screenshot", "name": "22-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\22-field-1.png", "size": [240, 160], "sha256": "81c2927cc9cd7ae714d0104380204e1e9cdc0f9f527350bd3db995cf45d31999"}}
+{"frame": 28033, "request": {"op": "screenshot", "name": "22-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\22-field-1.png", "size": [240, 160], "sha256": "81c2927cc9cd7ae714d0104380204e1e9cdc0f9f527350bd3db995cf45d31999"}}
 {"frame": 28037, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 28277, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 28277, "request": {"op": "screenshot", "name": "22-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\22-field-2.png", "size": [240, 160], "sha256": "aff3e02b40130e8b37dac5527641b3ee3ec441d6fa02a317777172f6d751fbaa"}}
+{"frame": 28277, "request": {"op": "screenshot", "name": "22-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\22-field-2.png", "size": [240, 160], "sha256": "aff3e02b40130e8b37dac5527641b3ee3ec441d6fa02a317777172f6d751fbaa"}}
 {"frame": 28281, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 28521, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 28521, "request": {"op": "screenshot", "name": "22-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\22-field-3.png", "size": [240, 160], "sha256": "6e8427684fdf44b1c68a683ff4fdadc67e6b18b1b71db05c3db2be612b6c7bee"}}
+{"frame": 28521, "request": {"op": "screenshot", "name": "22-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\22-field-3.png", "size": [240, 160], "sha256": "6e8427684fdf44b1c68a683ff4fdadc67e6b18b1b71db05c3db2be612b6c7bee"}}
 {"frame": 28525, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 28765, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 28765, "request": {"op": "screenshot", "name": "22-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\22-field-4.png", "size": [240, 160], "sha256": "0a98b2300a6ffcc51a4efc3a937a90566ee5ab65090e5591cd41bbf8efd2e947"}}
+{"frame": 28765, "request": {"op": "screenshot", "name": "22-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\22-field-4.png", "size": [240, 160], "sha256": "0a98b2300a6ffcc51a4efc3a937a90566ee5ab65090e5591cd41bbf8efd2e947"}}
 {"frame": 28769, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 28889, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 28889, "request": {"op": "screenshot", "name": "22-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\22-return.png", "size": [240, 160], "sha256": "a112fbf161f0db40bac87d19fc8fdc7e5cf36fa04a0aa1c08995bad13b6ffebc"}}
+{"frame": 28889, "request": {"op": "screenshot", "name": "22-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\22-return.png", "size": [240, 160], "sha256": "a112fbf161f0db40bac87d19fc8fdc7e5cf36fa04a0aa1c08995bad13b6ffebc"}}
 {"frame": 28893, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 29013, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 29013, "request": {"op": "screenshot", "name": "23-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\23-selection.png", "size": [240, 160], "sha256": "dbfe780c8df4fc9ead28642216ca99e85947fa4f3ffcd47d830645933cc27a3e"}}
+{"frame": 29013, "request": {"op": "screenshot", "name": "23-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\23-selection.png", "size": [240, 160], "sha256": "dbfe780c8df4fc9ead28642216ca99e85947fa4f3ffcd47d830645933cc27a3e"}}
 {"frame": 29017, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 29257, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 29257, "request": {"op": "screenshot", "name": "23-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\23-field-1.png", "size": [240, 160], "sha256": "222bb6c65be61cc94357433eaf30814d378453b14fd3a911d2304e7b6c3f269e"}}
+{"frame": 29257, "request": {"op": "screenshot", "name": "23-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\23-field-1.png", "size": [240, 160], "sha256": "222bb6c65be61cc94357433eaf30814d378453b14fd3a911d2304e7b6c3f269e"}}
 {"frame": 29261, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 29501, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 29501, "request": {"op": "screenshot", "name": "23-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\23-field-2.png", "size": [240, 160], "sha256": "220a2eea6dbc8e819664360a73febc9b7e90471af25a2a76a25a1fb1ab2a306a"}}
+{"frame": 29501, "request": {"op": "screenshot", "name": "23-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\23-field-2.png", "size": [240, 160], "sha256": "220a2eea6dbc8e819664360a73febc9b7e90471af25a2a76a25a1fb1ab2a306a"}}
 {"frame": 29505, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 29745, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 29745, "request": {"op": "screenshot", "name": "23-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\23-field-3.png", "size": [240, 160], "sha256": "3ddfbd107db8bc236b11866f45e9e6cd38d83827183cf39bbffb411dd76bbe50"}}
+{"frame": 29745, "request": {"op": "screenshot", "name": "23-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\23-field-3.png", "size": [240, 160], "sha256": "3ddfbd107db8bc236b11866f45e9e6cd38d83827183cf39bbffb411dd76bbe50"}}
 {"frame": 29749, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 29989, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 29989, "request": {"op": "screenshot", "name": "23-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\23-field-4.png", "size": [240, 160], "sha256": "23555783f1ea8aabbe2d5ef544cb47b9a332ccc4e522eac4c5fc44b71238a1f7"}}
+{"frame": 29989, "request": {"op": "screenshot", "name": "23-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\23-field-4.png", "size": [240, 160], "sha256": "23555783f1ea8aabbe2d5ef544cb47b9a332ccc4e522eac4c5fc44b71238a1f7"}}
 {"frame": 29993, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 30113, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 30113, "request": {"op": "screenshot", "name": "23-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\23-return.png", "size": [240, 160], "sha256": "2aeff25ea00a9c0193def9319290b6939e244e7f706eea9f6b6d6e9d8b6d78fc"}}
+{"frame": 30113, "request": {"op": "screenshot", "name": "23-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\23-return.png", "size": [240, 160], "sha256": "2aeff25ea00a9c0193def9319290b6939e244e7f706eea9f6b6d6e9d8b6d78fc"}}
 {"frame": 30117, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 30237, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 30237, "request": {"op": "screenshot", "name": "24-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\24-selection.png", "size": [240, 160], "sha256": "ff416d5abd0a72bcb2aa540eb5b94f10f623127938cb7d947bc9a555194fb0f0"}}
+{"frame": 30237, "request": {"op": "screenshot", "name": "24-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\24-selection.png", "size": [240, 160], "sha256": "ff416d5abd0a72bcb2aa540eb5b94f10f623127938cb7d947bc9a555194fb0f0"}}
 {"frame": 30241, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 30481, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 30481, "request": {"op": "screenshot", "name": "24-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\24-field-1.png", "size": [240, 160], "sha256": "96a68e536a7c7140c133feb3588830876a248f8e543d2a00cf5a324638baa508"}}
+{"frame": 30481, "request": {"op": "screenshot", "name": "24-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\24-field-1.png", "size": [240, 160], "sha256": "96a68e536a7c7140c133feb3588830876a248f8e543d2a00cf5a324638baa508"}}
 {"frame": 30485, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 30725, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 30725, "request": {"op": "screenshot", "name": "24-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\24-field-2.png", "size": [240, 160], "sha256": "733141b3771e71dd42d4b30c67ec44504f2e53392397af711413e3157b4f94ca"}}
+{"frame": 30725, "request": {"op": "screenshot", "name": "24-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\24-field-2.png", "size": [240, 160], "sha256": "733141b3771e71dd42d4b30c67ec44504f2e53392397af711413e3157b4f94ca"}}
 {"frame": 30729, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 30969, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 30969, "request": {"op": "screenshot", "name": "24-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\24-field-3.png", "size": [240, 160], "sha256": "311c982b491e0b2793600deb4df813dd2da3b938f1c343153fb373d6631a384d"}}
+{"frame": 30969, "request": {"op": "screenshot", "name": "24-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\24-field-3.png", "size": [240, 160], "sha256": "311c982b491e0b2793600deb4df813dd2da3b938f1c343153fb373d6631a384d"}}
 {"frame": 30973, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 31213, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 31213, "request": {"op": "screenshot", "name": "24-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\24-field-4.png", "size": [240, 160], "sha256": "88559f02b365e5bdf48198b80de0b3a3a1d6f36b300893e2b627ab5243aa94fc"}}
+{"frame": 31213, "request": {"op": "screenshot", "name": "24-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\24-field-4.png", "size": [240, 160], "sha256": "88559f02b365e5bdf48198b80de0b3a3a1d6f36b300893e2b627ab5243aa94fc"}}
 {"frame": 31217, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 31337, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 31337, "request": {"op": "screenshot", "name": "24-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\24-return.png", "size": [240, 160], "sha256": "62cdb2f8a7d13904b0444850fa2a30e470465b23f10c5c3bab53d752d2569466"}}
+{"frame": 31337, "request": {"op": "screenshot", "name": "24-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\24-return.png", "size": [240, 160], "sha256": "62cdb2f8a7d13904b0444850fa2a30e470465b23f10c5c3bab53d752d2569466"}}
 {"frame": 31341, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 31461, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 31461, "request": {"op": "screenshot", "name": "25-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\25-selection.png", "size": [240, 160], "sha256": "ecd0ce22a7eca0399b5b567fcfe340de90409b164018f2d6f98f63aedcdf4430"}}
+{"frame": 31461, "request": {"op": "screenshot", "name": "25-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\25-selection.png", "size": [240, 160], "sha256": "ecd0ce22a7eca0399b5b567fcfe340de90409b164018f2d6f98f63aedcdf4430"}}
 {"frame": 31465, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 31705, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 31705, "request": {"op": "screenshot", "name": "25-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\25-field-1.png", "size": [240, 160], "sha256": "95470176b767f02447130579d09ebcb072b40a63d3a19e54af62b1707959959e"}}
+{"frame": 31705, "request": {"op": "screenshot", "name": "25-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\25-field-1.png", "size": [240, 160], "sha256": "95470176b767f02447130579d09ebcb072b40a63d3a19e54af62b1707959959e"}}
 {"frame": 31709, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 31949, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 31949, "request": {"op": "screenshot", "name": "25-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\25-field-2.png", "size": [240, 160], "sha256": "9b141cbd5ec70542e2836e151a2128ee3570a829b83d273cb5620798ab095ba4"}}
+{"frame": 31949, "request": {"op": "screenshot", "name": "25-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\25-field-2.png", "size": [240, 160], "sha256": "9b141cbd5ec70542e2836e151a2128ee3570a829b83d273cb5620798ab095ba4"}}
 {"frame": 31953, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 32193, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 32193, "request": {"op": "screenshot", "name": "25-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\25-field-3.png", "size": [240, 160], "sha256": "40a90e7d868916e33032f9cf294f65cd8a66e9b854f4d69a426e03538ae7c8d2"}}
+{"frame": 32193, "request": {"op": "screenshot", "name": "25-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\25-field-3.png", "size": [240, 160], "sha256": "40a90e7d868916e33032f9cf294f65cd8a66e9b854f4d69a426e03538ae7c8d2"}}
 {"frame": 32197, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 32437, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 32437, "request": {"op": "screenshot", "name": "25-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\25-field-4.png", "size": [240, 160], "sha256": "7b489b0ff500601167d2e1b61bb852613a9cd65ce8284557e4e6c4bbbeaad1c8"}}
+{"frame": 32437, "request": {"op": "screenshot", "name": "25-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\25-field-4.png", "size": [240, 160], "sha256": "7b489b0ff500601167d2e1b61bb852613a9cd65ce8284557e4e6c4bbbeaad1c8"}}
 {"frame": 32441, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 32561, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 32561, "request": {"op": "screenshot", "name": "25-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\25-return.png", "size": [240, 160], "sha256": "b06eea7c516f616a195363a269a3300b2f21117a817e17f26621132b462ac8d9"}}
+{"frame": 32561, "request": {"op": "screenshot", "name": "25-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\25-return.png", "size": [240, 160], "sha256": "b06eea7c516f616a195363a269a3300b2f21117a817e17f26621132b462ac8d9"}}
 {"frame": 32565, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 32685, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 32685, "request": {"op": "screenshot", "name": "26-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\26-selection.png", "size": [240, 160], "sha256": "a77139ace4ce74b2f0f78026672ed46e07be0f0be73f931a2a3c30a79f40db37"}}
+{"frame": 32685, "request": {"op": "screenshot", "name": "26-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\26-selection.png", "size": [240, 160], "sha256": "a77139ace4ce74b2f0f78026672ed46e07be0f0be73f931a2a3c30a79f40db37"}}
 {"frame": 32689, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 32929, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 32929, "request": {"op": "screenshot", "name": "26-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\26-field-1.png", "size": [240, 160], "sha256": "d394705cb1df5f8e6b3449af34c6bd73769f291461f3a7f9a1d4207eb65227c8"}}
+{"frame": 32929, "request": {"op": "screenshot", "name": "26-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\26-field-1.png", "size": [240, 160], "sha256": "d394705cb1df5f8e6b3449af34c6bd73769f291461f3a7f9a1d4207eb65227c8"}}
 {"frame": 32933, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 33173, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 33173, "request": {"op": "screenshot", "name": "26-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\26-field-2.png", "size": [240, 160], "sha256": "c2135637074dd33706108bcca1e94bceb65ab24c314bdadf531bb951c82e285e"}}
+{"frame": 33173, "request": {"op": "screenshot", "name": "26-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\26-field-2.png", "size": [240, 160], "sha256": "c2135637074dd33706108bcca1e94bceb65ab24c314bdadf531bb951c82e285e"}}
 {"frame": 33177, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 33417, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 33417, "request": {"op": "screenshot", "name": "26-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\26-field-3.png", "size": [240, 160], "sha256": "961f7916d9781bf66bbd1e9a9b95be20160ff97ff2044a13f423102db76e2460"}}
+{"frame": 33417, "request": {"op": "screenshot", "name": "26-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\26-field-3.png", "size": [240, 160], "sha256": "961f7916d9781bf66bbd1e9a9b95be20160ff97ff2044a13f423102db76e2460"}}
 {"frame": 33421, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 33661, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 33661, "request": {"op": "screenshot", "name": "26-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\26-field-4.png", "size": [240, 160], "sha256": "41978ee8d30f6bc7bdceb079a4ab3f02e30145ee46efa8a7eb1888a17d33d405"}}
+{"frame": 33661, "request": {"op": "screenshot", "name": "26-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\26-field-4.png", "size": [240, 160], "sha256": "41978ee8d30f6bc7bdceb079a4ab3f02e30145ee46efa8a7eb1888a17d33d405"}}
 {"frame": 33665, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 33785, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 33785, "request": {"op": "screenshot", "name": "26-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\26-return.png", "size": [240, 160], "sha256": "b91c42de67aabc59d989354554d1bc73c6a6b1c43e5ccaf72d5143614521c14f"}}
+{"frame": 33785, "request": {"op": "screenshot", "name": "26-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\26-return.png", "size": [240, 160], "sha256": "b91c42de67aabc59d989354554d1bc73c6a6b1c43e5ccaf72d5143614521c14f"}}
 {"frame": 33789, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 33909, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 33909, "request": {"op": "screenshot", "name": "27-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\27-selection.png", "size": [240, 160], "sha256": "e6f049e7b062cc88e78a12cf18c00eb5702bb4a3b774f89912ee42446e5fe2a5"}}
+{"frame": 33909, "request": {"op": "screenshot", "name": "27-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\27-selection.png", "size": [240, 160], "sha256": "e6f049e7b062cc88e78a12cf18c00eb5702bb4a3b774f89912ee42446e5fe2a5"}}
 {"frame": 33913, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 34153, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 34153, "request": {"op": "screenshot", "name": "27-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\27-field-1.png", "size": [240, 160], "sha256": "1d64f5df1c4fd80675e3675d282f5626627110e4639ea504423277f8a80edf80"}}
+{"frame": 34153, "request": {"op": "screenshot", "name": "27-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\27-field-1.png", "size": [240, 160], "sha256": "1d64f5df1c4fd80675e3675d282f5626627110e4639ea504423277f8a80edf80"}}
 {"frame": 34157, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 34397, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 34397, "request": {"op": "screenshot", "name": "27-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\27-field-2.png", "size": [240, 160], "sha256": "d07984edb056cd971177af881a2ffe89f1ac8ba79b7addbcf8cf5cf2074e81ac"}}
+{"frame": 34397, "request": {"op": "screenshot", "name": "27-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\27-field-2.png", "size": [240, 160], "sha256": "d07984edb056cd971177af881a2ffe89f1ac8ba79b7addbcf8cf5cf2074e81ac"}}
 {"frame": 34401, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 34641, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 34641, "request": {"op": "screenshot", "name": "27-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\27-field-3.png", "size": [240, 160], "sha256": "41cc220a298ffeb233069a27df82a880480f086278ff3cb9bbe46d5e101ae68b"}}
+{"frame": 34641, "request": {"op": "screenshot", "name": "27-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\27-field-3.png", "size": [240, 160], "sha256": "41cc220a298ffeb233069a27df82a880480f086278ff3cb9bbe46d5e101ae68b"}}
 {"frame": 34645, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 34885, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 34885, "request": {"op": "screenshot", "name": "27-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\27-field-4.png", "size": [240, 160], "sha256": "e821e0365634ce5e5d164736457b45664eb54c56f0456e20a14a864e425961b3"}}
+{"frame": 34885, "request": {"op": "screenshot", "name": "27-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\27-field-4.png", "size": [240, 160], "sha256": "e821e0365634ce5e5d164736457b45664eb54c56f0456e20a14a864e425961b3"}}
 {"frame": 34889, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 35009, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 35009, "request": {"op": "screenshot", "name": "27-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\27-return.png", "size": [240, 160], "sha256": "ca3a5af9c863d9bbb159653438db49bdd82ddfe0e9938a049eb35615a63fca5e"}}
+{"frame": 35009, "request": {"op": "screenshot", "name": "27-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\27-return.png", "size": [240, 160], "sha256": "ca3a5af9c863d9bbb159653438db49bdd82ddfe0e9938a049eb35615a63fca5e"}}
 {"frame": 35013, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 35133, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 35133, "request": {"op": "screenshot", "name": "28-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\28-selection.png", "size": [240, 160], "sha256": "32669d47fdc739fbdd4f77ebf4d7271791fa9b02c2d8b8fe27b4a5738b42da9a"}}
+{"frame": 35133, "request": {"op": "screenshot", "name": "28-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\28-selection.png", "size": [240, 160], "sha256": "32669d47fdc739fbdd4f77ebf4d7271791fa9b02c2d8b8fe27b4a5738b42da9a"}}
 {"frame": 35137, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 35377, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 35377, "request": {"op": "screenshot", "name": "28-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\28-field-1.png", "size": [240, 160], "sha256": "c775393adde26d598785457767596ddc2eb401bbd2209377bc9a0b1fbeb26e0c"}}
+{"frame": 35377, "request": {"op": "screenshot", "name": "28-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\28-field-1.png", "size": [240, 160], "sha256": "c775393adde26d598785457767596ddc2eb401bbd2209377bc9a0b1fbeb26e0c"}}
 {"frame": 35381, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 35621, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 35621, "request": {"op": "screenshot", "name": "28-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\28-field-2.png", "size": [240, 160], "sha256": "0225ace5f6f6ec34adf5f683d68f22ee6140680e71814ebe11ec4673e2c177d8"}}
+{"frame": 35621, "request": {"op": "screenshot", "name": "28-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\28-field-2.png", "size": [240, 160], "sha256": "0225ace5f6f6ec34adf5f683d68f22ee6140680e71814ebe11ec4673e2c177d8"}}
 {"frame": 35625, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 35865, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 35865, "request": {"op": "screenshot", "name": "28-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\28-field-3.png", "size": [240, 160], "sha256": "7d17bc79315d4d1dc2d194d0c73906e9e863e398dab85734a1a82e2680e308f7"}}
+{"frame": 35865, "request": {"op": "screenshot", "name": "28-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\28-field-3.png", "size": [240, 160], "sha256": "7d17bc79315d4d1dc2d194d0c73906e9e863e398dab85734a1a82e2680e308f7"}}
 {"frame": 35869, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 36109, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 36109, "request": {"op": "screenshot", "name": "28-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\28-field-4.png", "size": [240, 160], "sha256": "329b1ac194220c1a6771deee4556b8c807f00d54a3e38e0c159f5812d6da2017"}}
+{"frame": 36109, "request": {"op": "screenshot", "name": "28-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\28-field-4.png", "size": [240, 160], "sha256": "329b1ac194220c1a6771deee4556b8c807f00d54a3e38e0c159f5812d6da2017"}}
 {"frame": 36113, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 36233, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 36233, "request": {"op": "screenshot", "name": "28-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\28-return.png", "size": [240, 160], "sha256": "6d78540d5c8aa04326c9b030ef25110fb300cfe54d5706efe08d010efd2e2e61"}}
+{"frame": 36233, "request": {"op": "screenshot", "name": "28-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\28-return.png", "size": [240, 160], "sha256": "6d78540d5c8aa04326c9b030ef25110fb300cfe54d5706efe08d010efd2e2e61"}}
 {"frame": 36237, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 36357, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 36357, "request": {"op": "screenshot", "name": "29-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\29-selection.png", "size": [240, 160], "sha256": "2c8fc88e996a45abc606ccfe92086dcc1df69d469b1870c48ce15674d7283684"}}
+{"frame": 36357, "request": {"op": "screenshot", "name": "29-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\29-selection.png", "size": [240, 160], "sha256": "2c8fc88e996a45abc606ccfe92086dcc1df69d469b1870c48ce15674d7283684"}}
 {"frame": 36361, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 36601, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 36601, "request": {"op": "screenshot", "name": "29-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\29-field-1.png", "size": [240, 160], "sha256": "bcfc822b532b9b4ae5f76d205b917399c525f5cf0645e86cc3808517a886cb6d"}}
+{"frame": 36601, "request": {"op": "screenshot", "name": "29-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\29-field-1.png", "size": [240, 160], "sha256": "bcfc822b532b9b4ae5f76d205b917399c525f5cf0645e86cc3808517a886cb6d"}}
 {"frame": 36605, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 36845, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 36845, "request": {"op": "screenshot", "name": "29-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\29-field-2.png", "size": [240, 160], "sha256": "b1b5066cdb521362a3c58815d31c8f8d553f402ff13acfed55938d7bfc2e28a0"}}
+{"frame": 36845, "request": {"op": "screenshot", "name": "29-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\29-field-2.png", "size": [240, 160], "sha256": "b1b5066cdb521362a3c58815d31c8f8d553f402ff13acfed55938d7bfc2e28a0"}}
 {"frame": 36849, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 37089, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 37089, "request": {"op": "screenshot", "name": "29-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\29-field-3.png", "size": [240, 160], "sha256": "40544508b5e2457368e75bbc1331c22501d2dc103a0e52972913953607f79107"}}
+{"frame": 37089, "request": {"op": "screenshot", "name": "29-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\29-field-3.png", "size": [240, 160], "sha256": "40544508b5e2457368e75bbc1331c22501d2dc103a0e52972913953607f79107"}}
 {"frame": 37093, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 37333, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 37333, "request": {"op": "screenshot", "name": "29-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\29-field-4.png", "size": [240, 160], "sha256": "024be423e4ac8fac7642ecdbe28b2e4c32b829fb47e552164af43b261b0e2870"}}
+{"frame": 37333, "request": {"op": "screenshot", "name": "29-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\29-field-4.png", "size": [240, 160], "sha256": "024be423e4ac8fac7642ecdbe28b2e4c32b829fb47e552164af43b261b0e2870"}}
 {"frame": 37337, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 37457, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 37457, "request": {"op": "screenshot", "name": "29-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\29-return.png", "size": [240, 160], "sha256": "2c8fc88e996a45abc606ccfe92086dcc1df69d469b1870c48ce15674d7283684"}}
+{"frame": 37457, "request": {"op": "screenshot", "name": "29-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\29-return.png", "size": [240, 160], "sha256": "2c8fc88e996a45abc606ccfe92086dcc1df69d469b1870c48ce15674d7283684"}}
 {"frame": 37461, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 37581, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 37581, "request": {"op": "screenshot", "name": "30-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\30-selection.png", "size": [240, 160], "sha256": "de33d9ed95f2c67f0a12f9a90437e0182090159b6bf552bee29f77b13410e5f2"}}
+{"frame": 37581, "request": {"op": "screenshot", "name": "30-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\30-selection.png", "size": [240, 160], "sha256": "de33d9ed95f2c67f0a12f9a90437e0182090159b6bf552bee29f77b13410e5f2"}}
 {"frame": 37585, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 37825, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 37825, "request": {"op": "screenshot", "name": "30-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\30-field-1.png", "size": [240, 160], "sha256": "140ec02a01fb621cb39add07a58055c641ddfdb03a63ead9aae0f805ebcfed3f"}}
+{"frame": 37825, "request": {"op": "screenshot", "name": "30-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\30-field-1.png", "size": [240, 160], "sha256": "140ec02a01fb621cb39add07a58055c641ddfdb03a63ead9aae0f805ebcfed3f"}}
 {"frame": 37829, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 38069, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 38069, "request": {"op": "screenshot", "name": "30-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\30-field-2.png", "size": [240, 160], "sha256": "c1b2fde2b13f66ba765967f223f874d45dd8542ce376b6ab7ab6659658c5906c"}}
+{"frame": 38069, "request": {"op": "screenshot", "name": "30-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\30-field-2.png", "size": [240, 160], "sha256": "c1b2fde2b13f66ba765967f223f874d45dd8542ce376b6ab7ab6659658c5906c"}}
 {"frame": 38073, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 38313, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 38313, "request": {"op": "screenshot", "name": "30-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\30-field-3.png", "size": [240, 160], "sha256": "b82b5a84e09f1f2f1f8907edf3655e861669b604e91c1b22ed828291c37bfa4e"}}
+{"frame": 38313, "request": {"op": "screenshot", "name": "30-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\30-field-3.png", "size": [240, 160], "sha256": "b82b5a84e09f1f2f1f8907edf3655e861669b604e91c1b22ed828291c37bfa4e"}}
 {"frame": 38317, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 38557, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 38557, "request": {"op": "screenshot", "name": "30-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\30-field-4.png", "size": [240, 160], "sha256": "683ca34a850ab683c9b4191e946de4a7066627081f99d0cc4fe2d3559dbb238f"}}
+{"frame": 38557, "request": {"op": "screenshot", "name": "30-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\30-field-4.png", "size": [240, 160], "sha256": "683ca34a850ab683c9b4191e946de4a7066627081f99d0cc4fe2d3559dbb238f"}}
 {"frame": 38561, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 38681, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 38681, "request": {"op": "screenshot", "name": "30-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\30-return.png", "size": [240, 160], "sha256": "34acf574c6b639e1cbab44a70bcd961af3716d3786c49733431d3c54fa6a1780"}}
+{"frame": 38681, "request": {"op": "screenshot", "name": "30-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\30-return.png", "size": [240, 160], "sha256": "34acf574c6b639e1cbab44a70bcd961af3716d3786c49733431d3c54fa6a1780"}}
 {"frame": 38685, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 38805, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 38805, "request": {"op": "screenshot", "name": "31-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\31-selection.png", "size": [240, 160], "sha256": "f77c547744873cf04b7b7722fa452feb8118a1be8a2589b50194ba4e0fb9b912"}}
+{"frame": 38805, "request": {"op": "screenshot", "name": "31-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\31-selection.png", "size": [240, 160], "sha256": "f77c547744873cf04b7b7722fa452feb8118a1be8a2589b50194ba4e0fb9b912"}}
 {"frame": 38809, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 39049, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 39049, "request": {"op": "screenshot", "name": "31-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\31-field-1.png", "size": [240, 160], "sha256": "99c42085443f1ad897464346265fe9d2ed6784923ddfe63789e95bfa6761cae6"}}
+{"frame": 39049, "request": {"op": "screenshot", "name": "31-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\31-field-1.png", "size": [240, 160], "sha256": "99c42085443f1ad897464346265fe9d2ed6784923ddfe63789e95bfa6761cae6"}}
 {"frame": 39053, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 39293, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 39293, "request": {"op": "screenshot", "name": "31-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\31-field-2.png", "size": [240, 160], "sha256": "65527cabefb6e981c7126f1c577fae7e5b473017ea83f87041ff742d7e4820a1"}}
+{"frame": 39293, "request": {"op": "screenshot", "name": "31-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\31-field-2.png", "size": [240, 160], "sha256": "65527cabefb6e981c7126f1c577fae7e5b473017ea83f87041ff742d7e4820a1"}}
 {"frame": 39297, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 39537, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 39537, "request": {"op": "screenshot", "name": "31-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\31-field-3.png", "size": [240, 160], "sha256": "a209290ea140277694116fbc149984e9634dbd1dd010b322aea8d46aec499364"}}
+{"frame": 39537, "request": {"op": "screenshot", "name": "31-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\31-field-3.png", "size": [240, 160], "sha256": "a209290ea140277694116fbc149984e9634dbd1dd010b322aea8d46aec499364"}}
 {"frame": 39541, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 39781, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 39781, "request": {"op": "screenshot", "name": "31-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\31-field-4.png", "size": [240, 160], "sha256": "f2c186d7d1eeb734b3091160857a2870872bb367a58306c8e023387a2cf3bfdb"}}
+{"frame": 39781, "request": {"op": "screenshot", "name": "31-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\31-field-4.png", "size": [240, 160], "sha256": "f2c186d7d1eeb734b3091160857a2870872bb367a58306c8e023387a2cf3bfdb"}}
 {"frame": 39785, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 39905, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 39905, "request": {"op": "screenshot", "name": "31-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\31-return.png", "size": [240, 160], "sha256": "f77c547744873cf04b7b7722fa452feb8118a1be8a2589b50194ba4e0fb9b912"}}
+{"frame": 39905, "request": {"op": "screenshot", "name": "31-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\31-return.png", "size": [240, 160], "sha256": "f77c547744873cf04b7b7722fa452feb8118a1be8a2589b50194ba4e0fb9b912"}}
 {"frame": 39909, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 40029, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 40029, "request": {"op": "screenshot", "name": "32-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\32-selection.png", "size": [240, 160], "sha256": "4f8366e7ed8d807bdfe44c116bd679d0b8d122e50fb2f32436b75400214a9440"}}
+{"frame": 40029, "request": {"op": "screenshot", "name": "32-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\32-selection.png", "size": [240, 160], "sha256": "4f8366e7ed8d807bdfe44c116bd679d0b8d122e50fb2f32436b75400214a9440"}}
 {"frame": 40033, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 40273, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 40273, "request": {"op": "screenshot", "name": "32-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\32-field-1.png", "size": [240, 160], "sha256": "78cb87e6cccee7572f0af8ebd459a1aa712ddebc2fd62cd4980c6275faab97ca"}}
+{"frame": 40273, "request": {"op": "screenshot", "name": "32-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\32-field-1.png", "size": [240, 160], "sha256": "78cb87e6cccee7572f0af8ebd459a1aa712ddebc2fd62cd4980c6275faab97ca"}}
 {"frame": 40277, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 40517, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 40517, "request": {"op": "screenshot", "name": "32-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\32-field-2.png", "size": [240, 160], "sha256": "cd46b198f3f49c0d956101983f49b21a8f75828f3d7042e0e935771289c7f801"}}
+{"frame": 40517, "request": {"op": "screenshot", "name": "32-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\32-field-2.png", "size": [240, 160], "sha256": "cd46b198f3f49c0d956101983f49b21a8f75828f3d7042e0e935771289c7f801"}}
 {"frame": 40521, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 40761, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 40761, "request": {"op": "screenshot", "name": "32-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\32-field-3.png", "size": [240, 160], "sha256": "e0d33cf8a717a480bd54e99fab3542218fe486df58fc876d36fae8bd460d8777"}}
+{"frame": 40761, "request": {"op": "screenshot", "name": "32-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\32-field-3.png", "size": [240, 160], "sha256": "e0d33cf8a717a480bd54e99fab3542218fe486df58fc876d36fae8bd460d8777"}}
 {"frame": 40765, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 41005, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 41005, "request": {"op": "screenshot", "name": "32-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\32-field-4.png", "size": [240, 160], "sha256": "c4349b46e264368b63292c2e3560f8624760cf5bc6b69562e2ed9263ee74ccf9"}}
+{"frame": 41005, "request": {"op": "screenshot", "name": "32-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\32-field-4.png", "size": [240, 160], "sha256": "c4349b46e264368b63292c2e3560f8624760cf5bc6b69562e2ed9263ee74ccf9"}}
 {"frame": 41009, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 41129, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 41129, "request": {"op": "screenshot", "name": "32-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\32-return.png", "size": [240, 160], "sha256": "457273afdacf4e40aaed7aa71c338202df220e88910e0e3dc746036c43a934f5"}}
+{"frame": 41129, "request": {"op": "screenshot", "name": "32-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\32-return.png", "size": [240, 160], "sha256": "457273afdacf4e40aaed7aa71c338202df220e88910e0e3dc746036c43a934f5"}}
 {"frame": 41133, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 41253, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 41253, "request": {"op": "screenshot", "name": "33-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\33-selection.png", "size": [240, 160], "sha256": "33f81d1b603b17ff5aefe5491cc7f50452fe440c20f95a900149643259b93a3c"}}
+{"frame": 41253, "request": {"op": "screenshot", "name": "33-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\33-selection.png", "size": [240, 160], "sha256": "33f81d1b603b17ff5aefe5491cc7f50452fe440c20f95a900149643259b93a3c"}}
 {"frame": 41257, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 41497, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 41497, "request": {"op": "screenshot", "name": "33-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\33-field-1.png", "size": [240, 160], "sha256": "b7f6013ec71e3c9bee952c24f3dd92740be8823ac132b3d7deb05adbb91303af"}}
+{"frame": 41497, "request": {"op": "screenshot", "name": "33-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\33-field-1.png", "size": [240, 160], "sha256": "b7f6013ec71e3c9bee952c24f3dd92740be8823ac132b3d7deb05adbb91303af"}}
 {"frame": 41501, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 41741, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 41741, "request": {"op": "screenshot", "name": "33-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\33-field-2.png", "size": [240, 160], "sha256": "f29c4864cf9f83ab104b6a569107eff7763209e21ec7911529d131d531cf173a"}}
+{"frame": 41741, "request": {"op": "screenshot", "name": "33-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\33-field-2.png", "size": [240, 160], "sha256": "f29c4864cf9f83ab104b6a569107eff7763209e21ec7911529d131d531cf173a"}}
 {"frame": 41745, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 41985, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 41985, "request": {"op": "screenshot", "name": "33-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\33-field-3.png", "size": [240, 160], "sha256": "1a60101974b5886600e527c19b343f3e9621c663e8cca97280c2c17aa7f89aee"}}
+{"frame": 41985, "request": {"op": "screenshot", "name": "33-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\33-field-3.png", "size": [240, 160], "sha256": "1a60101974b5886600e527c19b343f3e9621c663e8cca97280c2c17aa7f89aee"}}
 {"frame": 41989, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 42229, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 42229, "request": {"op": "screenshot", "name": "33-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\33-field-4.png", "size": [240, 160], "sha256": "a67da140d92904b1619bf829c4ce189ea05134c172351919ded57369582cc34e"}}
+{"frame": 42229, "request": {"op": "screenshot", "name": "33-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\33-field-4.png", "size": [240, 160], "sha256": "a67da140d92904b1619bf829c4ce189ea05134c172351919ded57369582cc34e"}}
 {"frame": 42233, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 42353, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 42353, "request": {"op": "screenshot", "name": "33-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\33-return.png", "size": [240, 160], "sha256": "33f81d1b603b17ff5aefe5491cc7f50452fe440c20f95a900149643259b93a3c"}}
+{"frame": 42353, "request": {"op": "screenshot", "name": "33-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\33-return.png", "size": [240, 160], "sha256": "33f81d1b603b17ff5aefe5491cc7f50452fe440c20f95a900149643259b93a3c"}}
 {"frame": 42357, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 42477, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 42477, "request": {"op": "screenshot", "name": "34-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\34-selection.png", "size": [240, 160], "sha256": "d76a58521c201d6066726e00e25e64a1365437c5317a3ba58b52b8d71f9ee4b9"}}
+{"frame": 42477, "request": {"op": "screenshot", "name": "34-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\34-selection.png", "size": [240, 160], "sha256": "d76a58521c201d6066726e00e25e64a1365437c5317a3ba58b52b8d71f9ee4b9"}}
 {"frame": 42481, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 42721, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 42721, "request": {"op": "screenshot", "name": "34-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\34-field-1.png", "size": [240, 160], "sha256": "d85127a33188f0f634dab7e73d3c721c397e29f74e0130a7fec1616c695e7773"}}
+{"frame": 42721, "request": {"op": "screenshot", "name": "34-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\34-field-1.png", "size": [240, 160], "sha256": "d85127a33188f0f634dab7e73d3c721c397e29f74e0130a7fec1616c695e7773"}}
 {"frame": 42725, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 42965, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 42965, "request": {"op": "screenshot", "name": "34-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\34-field-2.png", "size": [240, 160], "sha256": "9942928814a8b6586278cdeb81e3f4123438443b555c3c785a38a5c813c2d4fd"}}
+{"frame": 42965, "request": {"op": "screenshot", "name": "34-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\34-field-2.png", "size": [240, 160], "sha256": "9942928814a8b6586278cdeb81e3f4123438443b555c3c785a38a5c813c2d4fd"}}
 {"frame": 42969, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 43209, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 43209, "request": {"op": "screenshot", "name": "34-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\34-field-3.png", "size": [240, 160], "sha256": "498e610340ca1a31a5335b9798813e331d5bcc20076b8ec27c723e6835226eea"}}
+{"frame": 43209, "request": {"op": "screenshot", "name": "34-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\34-field-3.png", "size": [240, 160], "sha256": "498e610340ca1a31a5335b9798813e331d5bcc20076b8ec27c723e6835226eea"}}
 {"frame": 43213, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 43453, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 43453, "request": {"op": "screenshot", "name": "34-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\34-field-4.png", "size": [240, 160], "sha256": "bc705318d42b8ce0125465a319c5e9628991ef7590f1382778d842f5e05d00f1"}}
+{"frame": 43453, "request": {"op": "screenshot", "name": "34-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\34-field-4.png", "size": [240, 160], "sha256": "bc705318d42b8ce0125465a319c5e9628991ef7590f1382778d842f5e05d00f1"}}
 {"frame": 43457, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 43577, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 43577, "request": {"op": "screenshot", "name": "34-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\34-return.png", "size": [240, 160], "sha256": "224229a7845a6fc30240579dd26ad999ad6c2c56f51c47962b3126ffabba473c"}}
+{"frame": 43577, "request": {"op": "screenshot", "name": "34-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\34-return.png", "size": [240, 160], "sha256": "224229a7845a6fc30240579dd26ad999ad6c2c56f51c47962b3126ffabba473c"}}
 {"frame": 43581, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 43701, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 43701, "request": {"op": "screenshot", "name": "35-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\35-selection.png", "size": [240, 160], "sha256": "a1bf5dec694b53a428ccf95719b7ef006510362399035b579aa1cdd619e73d11"}}
+{"frame": 43701, "request": {"op": "screenshot", "name": "35-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\35-selection.png", "size": [240, 160], "sha256": "a1bf5dec694b53a428ccf95719b7ef006510362399035b579aa1cdd619e73d11"}}
 {"frame": 43705, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 43945, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 43945, "request": {"op": "screenshot", "name": "35-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\35-field-1.png", "size": [240, 160], "sha256": "d60c1253735761a53681833991c7f09fcd76e5e89decc8a112958e4beb8f7922"}}
+{"frame": 43945, "request": {"op": "screenshot", "name": "35-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\35-field-1.png", "size": [240, 160], "sha256": "d60c1253735761a53681833991c7f09fcd76e5e89decc8a112958e4beb8f7922"}}
 {"frame": 43949, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 44189, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 44189, "request": {"op": "screenshot", "name": "35-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\35-field-2.png", "size": [240, 160], "sha256": "1995c719c221f31d5e96e6efd3128aa23185b0462a78b455009ba1ecc37c6ba5"}}
+{"frame": 44189, "request": {"op": "screenshot", "name": "35-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\35-field-2.png", "size": [240, 160], "sha256": "1995c719c221f31d5e96e6efd3128aa23185b0462a78b455009ba1ecc37c6ba5"}}
 {"frame": 44193, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 44433, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 44433, "request": {"op": "screenshot", "name": "35-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\35-field-3.png", "size": [240, 160], "sha256": "20ae5dc6b4c91ce54c0784c09dc4a9d2ed938390eb079dee0252e82d27204dc6"}}
+{"frame": 44433, "request": {"op": "screenshot", "name": "35-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\35-field-3.png", "size": [240, 160], "sha256": "20ae5dc6b4c91ce54c0784c09dc4a9d2ed938390eb079dee0252e82d27204dc6"}}
 {"frame": 44437, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 44677, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 44677, "request": {"op": "screenshot", "name": "35-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\35-field-4.png", "size": [240, 160], "sha256": "3d0534cf346650eead32042144316764dc3c6d48dda48f4e1740fb5e1de0c163"}}
+{"frame": 44677, "request": {"op": "screenshot", "name": "35-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\35-field-4.png", "size": [240, 160], "sha256": "3d0534cf346650eead32042144316764dc3c6d48dda48f4e1740fb5e1de0c163"}}
 {"frame": 44681, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 44801, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 44801, "request": {"op": "screenshot", "name": "35-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\35-return.png", "size": [240, 160], "sha256": "a1bf5dec694b53a428ccf95719b7ef006510362399035b579aa1cdd619e73d11"}}
+{"frame": 44801, "request": {"op": "screenshot", "name": "35-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\35-return.png", "size": [240, 160], "sha256": "a1bf5dec694b53a428ccf95719b7ef006510362399035b579aa1cdd619e73d11"}}
 {"frame": 44805, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 44925, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 44925, "request": {"op": "screenshot", "name": "36-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\36-selection.png", "size": [240, 160], "sha256": "45aefb791bde9cf59aadc0cd4ca505b8babcd9c0a598c9ce696b857c46607095"}}
+{"frame": 44925, "request": {"op": "screenshot", "name": "36-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\36-selection.png", "size": [240, 160], "sha256": "45aefb791bde9cf59aadc0cd4ca505b8babcd9c0a598c9ce696b857c46607095"}}
 {"frame": 44929, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 45169, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 45169, "request": {"op": "screenshot", "name": "36-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\36-field-1.png", "size": [240, 160], "sha256": "290a0e9fca58de36fa9fabd459f48c3eca2373a30fec7509c91bf7692b43d7b2"}}
+{"frame": 45169, "request": {"op": "screenshot", "name": "36-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\36-field-1.png", "size": [240, 160], "sha256": "290a0e9fca58de36fa9fabd459f48c3eca2373a30fec7509c91bf7692b43d7b2"}}
 {"frame": 45173, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 45413, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 45413, "request": {"op": "screenshot", "name": "36-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\36-field-2.png", "size": [240, 160], "sha256": "121c477bd38fdd9aadfb846832130fed12ef642b39f21502be18a4c3ef4721da"}}
+{"frame": 45413, "request": {"op": "screenshot", "name": "36-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\36-field-2.png", "size": [240, 160], "sha256": "121c477bd38fdd9aadfb846832130fed12ef642b39f21502be18a4c3ef4721da"}}
 {"frame": 45417, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 45657, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 45657, "request": {"op": "screenshot", "name": "36-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\36-field-3.png", "size": [240, 160], "sha256": "18836384bcd5611c5daeee46804e62c98ede93e9f457f569403411ac52c337fb"}}
+{"frame": 45657, "request": {"op": "screenshot", "name": "36-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\36-field-3.png", "size": [240, 160], "sha256": "18836384bcd5611c5daeee46804e62c98ede93e9f457f569403411ac52c337fb"}}
 {"frame": 45661, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 45901, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 45901, "request": {"op": "screenshot", "name": "36-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\36-field-4.png", "size": [240, 160], "sha256": "652bab37d26740b91ff904ebc167547a5040a8c782a093ebf6e2df186fce1575"}}
+{"frame": 45901, "request": {"op": "screenshot", "name": "36-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\36-field-4.png", "size": [240, 160], "sha256": "652bab37d26740b91ff904ebc167547a5040a8c782a093ebf6e2df186fce1575"}}
 {"frame": 45905, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 46025, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 46025, "request": {"op": "screenshot", "name": "36-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\36-return.png", "size": [240, 160], "sha256": "3edec7f2ab0ba9471770bb6d966f4382d6c58da64af6e72d8b9dfd0fd406db40"}}
+{"frame": 46025, "request": {"op": "screenshot", "name": "36-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\36-return.png", "size": [240, 160], "sha256": "3edec7f2ab0ba9471770bb6d966f4382d6c58da64af6e72d8b9dfd0fd406db40"}}
 {"frame": 46029, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 46149, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 46149, "request": {"op": "screenshot", "name": "37-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\37-selection.png", "size": [240, 160], "sha256": "77f94d33b115a226b45d23219d1fdf1c2d99eff5846cb23306ca18493ab064f2"}}
+{"frame": 46149, "request": {"op": "screenshot", "name": "37-selection.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\37-selection.png", "size": [240, 160], "sha256": "77f94d33b115a226b45d23219d1fdf1c2d99eff5846cb23306ca18493ab064f2"}}
 {"frame": 46153, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 46393, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 46393, "request": {"op": "screenshot", "name": "37-field-1.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\37-field-1.png", "size": [240, 160], "sha256": "ed8ef1a18bcb2157c7017c0eb6d6f38ba4951f124197e908dffbb6c286b6c965"}}
+{"frame": 46393, "request": {"op": "screenshot", "name": "37-field-1.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\37-field-1.png", "size": [240, 160], "sha256": "ed8ef1a18bcb2157c7017c0eb6d6f38ba4951f124197e908dffbb6c286b6c965"}}
 {"frame": 46397, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 46637, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 46637, "request": {"op": "screenshot", "name": "37-field-2.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\37-field-2.png", "size": [240, 160], "sha256": "2e6da2016881a8ae24b198474a027071637a85eab7ead9cd2e534e917749f943"}}
+{"frame": 46637, "request": {"op": "screenshot", "name": "37-field-2.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\37-field-2.png", "size": [240, 160], "sha256": "2e6da2016881a8ae24b198474a027071637a85eab7ead9cd2e534e917749f943"}}
 {"frame": 46641, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 46881, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 46881, "request": {"op": "screenshot", "name": "37-field-3.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\37-field-3.png", "size": [240, 160], "sha256": "da8ff3910bce5931b2fe44bfa71c28e9da7792c4877f92c337d0174e4d602437"}}
+{"frame": 46881, "request": {"op": "screenshot", "name": "37-field-3.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\37-field-3.png", "size": [240, 160], "sha256": "da8ff3910bce5931b2fe44bfa71c28e9da7792c4877f92c337d0174e4d602437"}}
 {"frame": 46885, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 47125, "request": {"op": "frames", "count": 240, "buttons": []}, "result": {}}
-{"frame": 47125, "request": {"op": "screenshot", "name": "37-field-4.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\37-field-4.png", "size": [240, 160], "sha256": "5b95f62b7b50e80039bfa947584d43b018d3a30dc3e730c7bc6ccbd6ead7d8b8"}}
+{"frame": 47125, "request": {"op": "screenshot", "name": "37-field-4.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\37-field-4.png", "size": [240, 160], "sha256": "5b95f62b7b50e80039bfa947584d43b018d3a30dc3e730c7bc6ccbd6ead7d8b8"}}
 {"frame": 47129, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 47249, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 47249, "request": {"op": "screenshot", "name": "37-return.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\37-return.png", "size": [240, 160], "sha256": "b679544a6a7524a613c69b6d9f906456682506e29095272c3e9598f1eba668ab"}}
+{"frame": 47249, "request": {"op": "screenshot", "name": "37-return.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\37-return.png", "size": [240, 160], "sha256": "b679544a6a7524a613c69b6d9f906456682506e29095272c3e9598f1eba668ab"}}
 {"frame": 47253, "request": {"op": "frames", "count": 4, "buttons": ["b"]}, "result": {}}
 {"frame": 47373, "request": {"op": "frames", "count": 120, "buttons": []}, "result": {}}
-{"frame": 47373, "request": {"op": "screenshot", "name": "exit-info-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev33-gallery-vba-02\\exit-info-menu.png", "size": [240, 160], "sha256": "7ac7cea36878b466b1a1cbd3f4818f3a579b3b231d1d789c7bc8178448035485"}}
+{"frame": 47373, "request": {"op": "screenshot", "name": "exit-info-menu.png"}, "result": {"path": "output\\dev33-gallery-vba-02\\exit-info-menu.png", "size": [240, 160], "sha256": "7ac7cea36878b466b1a1cbd3f4818f3a579b3b231d1d789c7bc8178448035485"}}

@@ -1,0 +1,316 @@
+{
+  "schema": 1,
+  "japanese_rom_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "legacy_rom_sha256": "8440f3e3db46c474c81cf84098798f07ab91aa13d48431c523c309a0af363010",
+  "extension_start": "0x141000",
+  "extension_end": "0x150000",
+  "scope": "34 individually identified non-dialogue pointer fields, including the two original research-institute title callers. Exact immutable source bytes and consumer pointers guarded.",
+  "fields": [
+    {
+      "stable_id": "xlsx-32",
+      "pointer_offset": "0x9b10",
+      "source_pointer": "0x81121e0",
+      "japanese_raw_sha256": "634844994f45a02fe3009e66e079f618ecb7d954806b9ce78c8bb4429de8a104",
+      "legacy_raw_sha256": "04de1988a23559627dffc0ec7e38ecc4cb5224870f77a2b8238add43d7817205",
+      "japanese": "、状態回復",
+      "legacy": "상태　회복"
+    },
+    {
+      "stable_id": "xlsx-34",
+      "pointer_offset": "0xa384",
+      "source_pointer": "0x81126d0",
+      "japanese_raw_sha256": "e3d153f2311bc4a25c007d34b61f04c2a49795f6d5cc9c269c9c3b5c9dbabe3c",
+      "legacy_raw_sha256": "f2f8b1a543432cafd966169acaeb836da5ecc89f4bfcbdf067458db04db5bf8c",
+      "japanese": "セーブデータがこわれていて\nロードできません。%k",
+      "legacy": "데이터가　손상되어\n불러올수　없어요%k"
+    },
+    {
+      "stable_id": "xlsx-178",
+      "pointer_offset": "0x44a58",
+      "source_pointer": "0x8142470",
+      "japanese_raw_sha256": "0dc161af71f0d3ba45a4459bdebbb7a7b96c85777b4fea6620cb2bf42b993f1f",
+      "legacy_raw_sha256": "f124af751c1097440e1fb7d05b6a099955e82734253524766ae7b35231a05966",
+      "japanese": "軟弱者は消え失せろ！",
+      "legacy": "약한　자는　죽어라!"
+    },
+    {
+      "stable_id": "xlsx-179",
+      "pointer_offset": "0x44a98",
+      "source_pointer": "0x8142488",
+      "japanese_raw_sha256": "ac4afb6bcf0e0aed96e69438995df32c84ebd5493e50592dd6e0e8643ce5bee5",
+      "legacy_raw_sha256": "8af235543f789e856c9b0c801ec1ac82031977a19dca9c479d437106908554a0",
+      "japanese": "術に頼るかザコどもが！",
+      "legacy": "기술에　의존하는가!"
+    },
+    {
+      "stable_id": "xlsx-180",
+      "pointer_offset": "0x44ad8",
+      "source_pointer": "0x81424a0",
+      "japanese_raw_sha256": "d25a485a0bef64ce33d6d1b788d8a9ed8311dfacc5518ee6421d7c0b85dfeea8",
+      "legacy_raw_sha256": "542667a19cd9fe1c64920264716274f577cab863154920d3e5c0b7159ef5ef86",
+      "japanese": "縮こまってんじゃねえ！",
+      "legacy": "주눅들지　마!"
+    },
+    {
+      "stable_id": "xlsx-390",
+      "pointer_offset": "0x7bda4",
+      "source_pointer": "0x8145d74",
+      "japanese_raw_sha256": "069ac4ba5c05040c721c9ac860897b1e4e1939003bd46b2a4d91a1e8818220cc",
+      "legacy_raw_sha256": "d178bd0b16a393755928ab9a45973d9a5fe92b66cd07fb2db3c039e09f0440a7",
+      "japanese": "敵気絶",
+      "legacy": "기절"
+    },
+    {
+      "stable_id": "xlsx-493",
+      "pointer_offset": "0x9aa8c",
+      "source_pointer": "0x81465a4",
+      "japanese_raw_sha256": "9dfd3ab6b7c973d1012a5e854ab249abcf8440c9b95944a0e24be8c634fb22c9",
+      "legacy_raw_sha256": "408efe92ce95f7c47427e86b4bd96f5714f466e9262961152039fd20c70dcba3",
+      "japanese": "チガ　チヲコバム",
+      "legacy": "피를　거부하는"
+    },
+    {
+      "stable_id": "xlsx-500",
+      "pointer_offset": "0x9ac38",
+      "source_pointer": "0x8146620",
+      "japanese_raw_sha256": "1e058468ed7ba90c7dd1a161114edd6fe9f686e11c0ec167295e6d0c0c681665",
+      "legacy_raw_sha256": "901f1786b2224ec6fbfabfcf1f04ecf5cfd5c2dc98e847beb6feb74f449e39e1",
+      "japanese": "アラガウカ！",
+      "legacy": "저항하겠다!"
+    },
+    {
+      "stable_id": "xlsx-560",
+      "pointer_offset": "0xa7270",
+      "source_pointer": "0x8146f24",
+      "japanese_raw_sha256": "49f6f94911db48f0205d33b33f1efbac08eb00d22941c3826cbf538dcfe2e53a",
+      "legacy_raw_sha256": "991bd0da68f981d5c3a36094f74cc86d14d8cbbedd58b02c5985c1f888316b9a",
+      "japanese": "%sと%sがいます\nどちらと話しますか？",
+      "legacy": "%s,%s　중에\n누구와　얘기　할까?"
+    },
+    {
+      "stable_id": "xlsx-561",
+      "pointer_offset": "0xa77c0",
+      "source_pointer": "0x81470a8",
+      "japanese_raw_sha256": "a79928210eefe75d72cf1de7fc7c056281f3d5efff48357fd1def188d1ae95bd",
+      "legacy_raw_sha256": "31fbc026224a08b96b1f129bcaa725a12a717e53b2d61663b9afef37e679d976",
+      "japanese": "出動先を選んでください",
+      "legacy": "출동장소를　정해주세요"
+    },
+    {
+      "stable_id": "xlsx-566",
+      "pointer_offset": "0xa8f40",
+      "source_pointer": "0x81471f0",
+      "japanese_raw_sha256": "9443f10736f63f330f92406c921a427d7edbf6a5e4615e2def4dae7e1c9151da",
+      "legacy_raw_sha256": "176c9b17769076db2dd7f538a990082627434ea64b997e4aa17fcdb08262748f",
+      "japanese": "ここでは　きがえることができません",
+      "legacy": "갈아　입을　수　없는　곳　입니다"
+    },
+    {
+      "stable_id": "xlsx-571",
+      "pointer_offset": "0xa99d0",
+      "source_pointer": "0x8147298",
+      "japanese_raw_sha256": "6603f978bd589a312a4f4eb722062baf83580d5c58af24ded8270e77c3f6e89d",
+      "legacy_raw_sha256": "fcfe40ab7ed834ca5a5791aee19c87b900d6b561539dfde02475db201f02f765",
+      "japanese": "%0t　　　中断データを保存しました%k%l",
+      "legacy": "%0t중단　데이터　저장완료%k%l"
+    },
+    {
+      "stable_id": "xlsx-573",
+      "pointer_offset": "0xa99d8",
+      "source_pointer": "0x81472e4",
+      "japanese_raw_sha256": "2d3a5aeaef97003c4d10765cefaa2479596dca42d37dea31e95be2194628de10",
+      "legacy_raw_sha256": "c40da534528ac525b9eb5473da07905721e01d407a4661ab2ca086bd5ab5d4de",
+      "japanese": "%0t　　一度ロードすると消去されます%k%l",
+      "legacy": "%0t로드　시　삭제되요%k%l"
+    },
+    {
+      "stable_id": "xlsx-580",
+      "pointer_offset": "0xae220",
+      "source_pointer": "0x8147400",
+      "japanese_raw_sha256": "d9cbe0d0461c962750f7deadf30f8b66e9ab47b39c72aafe029e74b405ae356a",
+      "legacy_raw_sha256": "f030dc8cc3c550d6bedd138b42cc0228c2db9b7ee5287d4686ebb0d952f2570f",
+      "japanese": "%0t決めてください（残り %d個）",
+      "legacy": "%0t결정하세요　(여유　%d개)"
+    },
+    {
+      "stable_id": "xlsx-583",
+      "pointer_offset": "0xae94c",
+      "source_pointer": "0x8147438",
+      "japanese_raw_sha256": "9454e2d9e72e5235252f8a0ed2449268470eeff51ed593731c726385d5a33ba3",
+      "legacy_raw_sha256": "dfbfc3209f8ab0fe521996d44e398b8fd1b818b81d1fd33b3e6804af4f21d604",
+      "japanese": "宝箱は\n空っぽだった",
+      "legacy": "상자는\n비어있다!"
+    },
+    {
+      "stable_id": "xlsx-587",
+      "pointer_offset": "0xaeae0",
+      "source_pointer": "0x8147438",
+      "japanese_raw_sha256": "9454e2d9e72e5235252f8a0ed2449268470eeff51ed593731c726385d5a33ba3",
+      "legacy_raw_sha256": "dfbfc3209f8ab0fe521996d44e398b8fd1b818b81d1fd33b3e6804af4f21d604",
+      "japanese": "宝箱は\n空っぽだった",
+      "legacy": "상자는\n비어있다!"
+    },
+    {
+      "stable_id": "xlsx-588",
+      "pointer_offset": "0xaeaf0",
+      "source_pointer": "0x8147478",
+      "japanese_raw_sha256": "aa8ea4e6f53b6783182cfb25ef924a48fdedaaa949897cb5071b20eb2a3ab63e",
+      "legacy_raw_sha256": "b89ea2d89bb8ebe447d2e7a7afef8b7cf02239a744b51dc36a58602430d7fac8",
+      "japanese": "“たびだちのカギ”を\n手に入れた",
+      "legacy": "여행의　열쇠를　얻었다!"
+    },
+    {
+      "stable_id": "xlsx-613",
+      "pointer_offset": "0xb2028",
+      "source_pointer": "0x8147e90",
+      "japanese_raw_sha256": "7bfaf8abc322e1d076ed01dba5bf5e205cdd5d7ffeed7ee59925990e3b299fb4",
+      "legacy_raw_sha256": "b55356335037b7e1c26ead6dad1234296a6066797a05aa271245a89d8a826fc6",
+      "japanese": "扉には封印の魔法が　かかっている\n今は開けられないようだ",
+      "legacy": "문에　봉인　마법이　걸려있다\n지금은　열　수　없다"
+    },
+    {
+      "stable_id": "xlsx-617",
+      "pointer_offset": "0xbcca0",
+      "source_pointer": "0x8147f2c",
+      "japanese_raw_sha256": "14508ab80345cc3e80c913eb5ab93207e60f36bd03a224e852d2d03f8597593a",
+      "legacy_raw_sha256": "46f6f0f26fcf5036fd50ede0ac007c8c17a5b8acdde0c4e15cb35db5bee49823",
+      "japanese": "特技で岩を壊しますか？",
+      "legacy": "바위를　부술까요?"
+    },
+    {
+      "stable_id": "xlsx-624",
+      "pointer_offset": "0xc51d8",
+      "source_pointer": "0x8147fe8",
+      "japanese_raw_sha256": "c65561baa276e97c629bfc68f282de14517da82097fb2dfc1958a0358cc26f48",
+      "legacy_raw_sha256": "cd406a52e34e73d2f4f42f7534cf349729cd526c1b922e3956722bbb5b6f43f3",
+      "japanese": "クラースさん",
+      "legacy": "크라스씨"
+    },
+    {
+      "stable_id": "xlsx-625",
+      "pointer_offset": "0xc51e0",
+      "source_pointer": "0x8147ff8",
+      "japanese_raw_sha256": "b51907f0aceb75ec47c95714cc9e01f9dfabae029b6346df056d57b65fe1ef4c",
+      "legacy_raw_sha256": "9880ea962031bee907df7a572f002a1290628eb66ba1707f5da67be727757862",
+      "japanese": "クラトスさん",
+      "legacy": "크라토스씨"
+    },
+    {
+      "stable_id": "xlsx-626",
+      "pointer_offset": "0xc51e8",
+      "source_pointer": "0x8148008",
+      "japanese_raw_sha256": "9d67f64ded6be237c73cf668141987ded06ed2c5bc8768d5435f7d141539f62d",
+      "legacy_raw_sha256": "e36a7a134eb508e6226ad10165501c71af4caf8d269b6c09fc4439adc5c16fda",
+      "japanese": "リーガルさん",
+      "legacy": "리갈씨"
+    },
+    {
+      "stable_id": "xlsx-627",
+      "pointer_offset": "0xc51f0",
+      "source_pointer": "0x8148018",
+      "japanese_raw_sha256": "1d2920dd2634f1060c08187ce4b185c98c0ffbce24998530a4809b787e3748d8",
+      "legacy_raw_sha256": "f0dac47e7adb78bb87884fb6b0023795953efdae914b112ad418806e8cccc1c7",
+      "japanese": "マリーさん",
+      "legacy": "마리씨"
+    },
+    {
+      "stable_id": "xlsx-628",
+      "pointer_offset": "0xc51f8",
+      "source_pointer": "0x8148024",
+      "japanese_raw_sha256": "81b638b0ced8919ac51192318a2a5c27e9ea29166ccdd8b2d85928f9eb4b12a8",
+      "legacy_raw_sha256": "6fb3208cf7f76af1b29e155b3eb357c4d2680c6d0dde414bfa6b4108bf82cb90",
+      "japanese": "レイスさん",
+      "legacy": "레이스씨"
+    },
+    {
+      "stable_id": "xlsx-634",
+      "pointer_offset": "0xc5d44",
+      "source_pointer": "0x8148928",
+      "japanese_raw_sha256": "af8ad22a8fed6711c0dea65cccfcd22d3ec177328150ab1b3f4c187493bd8c17",
+      "legacy_raw_sha256": "e2d22233e129a889b6429955ff378eee2cdc12a7f2d855c0df8c93f7be06f7a9",
+      "japanese": "現在のチーム数では\nクリアできません",
+      "legacy": "현재　팀　수로\n클리어　할　수　없다"
+    },
+    {
+      "stable_id": "xlsx-635",
+      "pointer_offset": "0xc5d80",
+      "source_pointer": "0x814894c",
+      "japanese_raw_sha256": "75cc749dba9058b30aa87b4eb7a8aa0a7071bfb1c2d269433e5f83ebd3fb0d2e",
+      "legacy_raw_sha256": "f45550903ed4fa634879d20d1bce0e3554d4ca495c97892459d30890d5a5ecc1",
+      "japanese": "ミナクルの町に戻り\n再チャレンジしますか？",
+      "legacy": "미나클　마을로　돌아가\n재도전　할까요?"
+    },
+    {
+      "stable_id": "xlsx-777",
+      "pointer_offset": "0xcf4b8",
+      "source_pointer": "0x81c06c8",
+      "japanese_raw_sha256": "09e92f3d254d45e3d8843c4bef0802fe80a240bde51d61b8e41731a176162bd9",
+      "legacy_raw_sha256": "0e9a6a848dd799acd36c251679ad2fbeead9e3406fdb775a594d67805d9c8e6c",
+      "japanese": "まだ出会っていません%k",
+      "legacy": "아직　못만났습니다%k"
+    },
+    {
+      "stable_id": "xlsx-792",
+      "pointer_offset": "0xd0130",
+      "source_pointer": "0x81c1a80",
+      "japanese_raw_sha256": "bc6a6683d3644f57ea3cbb0bdae0463522779a2f422e24592a8e7d087a5f18ea",
+      "legacy_raw_sha256": "544fb4bc907d63083339bbc6ab562d4983fa90251ba4440d16151d60f1ae680c",
+      "japanese": "%0t%lセーブ中です\n電源は切らないでください",
+      "legacy": "%0t%l저장중…\n전원을　끄지　마세요"
+    },
+    {
+      "stable_id": "xlsx-843",
+      "pointer_offset": "0xd3674",
+      "source_pointer": "0x81c21c0",
+      "japanese_raw_sha256": "6da32f1c5b39827734c5a97cf226a4bd27dcfd7db85410ce15a9d861663748ee",
+      "legacy_raw_sha256": "fae76c09f73a82990364ce507db9a304e485dbe1c673f2bf27a9c3efe0d7ee56",
+      "japanese": "%0t%l現在、所持している服の\nステータス等の確認を行なえます",
+      "legacy": "%0t%l소지　중인　옷의\n능력치등을　확인할　수　있습니다"
+    },
+    {
+      "stable_id": "xlsx-919",
+      "pointer_offset": "0xdacfc",
+      "source_pointer": "0x81c33f8",
+      "japanese_raw_sha256": "4e5861f14b6c414d4be2f6d2dab00f9b09f651fd879a739506d0f54e141f462b",
+      "legacy_raw_sha256": "d8fc8d66d8a5e14fbd0d6e30a64f45774bb92ef497a8ae4fbf91e29e4a28bac2",
+      "japanese": "あすなろ園",
+      "legacy": "꿈나무　집"
+    },
+    {
+      "stable_id": "xlsx-921",
+      "pointer_offset": "0xdb11c",
+      "source_pointer": "0x81c3dd0",
+      "japanese_raw_sha256": "4e5861f14b6c414d4be2f6d2dab00f9b09f651fd879a739506d0f54e141f462b",
+      "legacy_raw_sha256": "d8fc8d66d8a5e14fbd0d6e30a64f45774bb92ef497a8ae4fbf91e29e4a28bac2",
+      "japanese": "あすなろ園",
+      "legacy": "꿈나무　집"
+    },
+    {
+      "stable_id": "xlsx-7403",
+      "pointer_offset": "0x1c26c8",
+      "source_pointer": "0x81c267c",
+      "japanese_raw_sha256": "12390fde716375a2b5cbb57902968e17d7b351344c389ea975d08ec07ade67c9",
+      "legacy_raw_sha256": "97a8542c8e672f3fac865cee33f0d7ce41761e7f399dfaa3a6587a2517cf12b8",
+      "japanese": "%0t%l着用中の　なりきり服を\n着替えることが　できます",
+      "legacy": "%0t%l착용중　옷을　\n갈아　입을　수　있습니다"
+    },
+    {
+      "stable_id": "xlsx-917",
+      "pointer_offset": "0xda984",
+      "source_pointer": "0x81c33e8",
+      "japanese_raw_sha256": "5515a5e6a8b8f852d749201a7ead447820269e6ec710992dbb9169357cdf37bd",
+      "legacy_raw_sha256": "aeabb4046c9809f82bbf636ed7ea85a9cede034416be10e6ffe9c478dfa02f41",
+      "japanese": "古代史研究所",
+      "legacy": "고고학연구소"
+    },
+    {
+      "stable_id": "xlsx-918",
+      "pointer_offset": "0xdaa74",
+      "source_pointer": "0x81c33e8",
+      "japanese_raw_sha256": "5515a5e6a8b8f852d749201a7ead447820269e6ec710992dbb9169357cdf37bd",
+      "legacy_raw_sha256": "aeabb4046c9809f82bbf636ed7ea85a9cede034416be10e6ffe9c478dfa02f41",
+      "japanese": "古代史研究所",
+      "legacy": "고고학연구소"
+    }
+  ]
+}

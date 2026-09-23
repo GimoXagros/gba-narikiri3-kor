@@ -9,6 +9,7 @@ from pathlib import Path
 from dialogue_structure import source_records
 from dialogue_tokens import controls, unsafe_expansion_sequences
 from text_codec import decode, encode
+from review_dialogue_layouts import approved as approved_layout
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -47,13 +48,14 @@ def verify(j, legacy, target, audit):
                 raise ValueError('Ledger no longer matches the immutable original text')
             ptr = struct.unpack_from('<I', target, off + 4)[0] - 0x08000000
             if not 0 <= ptr < len(target) or target[ptr:ptr+len(new)+1] != new + b'\0':
-                raise ValueError('Corrected text not present at its consumer pointer')
+                raise ValueError('Corrected text not present at its consumer pointer: '+change.get('stable_id','?')+' '+hex(off))
             if target[off:off+4] != j[off:off+4]:
                 raise ValueError('Non-pointer opcode/speaker metadata changed')
             ref = [[token for _, token in controls(raw)] for raw in (jr, kr)]
             if [token for _, token in controls(new)] not in ref:
                 raise ValueError('Control sequence does not match an immutable source')
-            if new.count(b'\n') not in (jr.count(b'\n'), kr.count(b'\n')):
+            extra_scroll=(change.get('allow_extra_scroll') is True and approved_layout(change['stable_id'],change['after']))
+            if not extra_scroll and new.count(b'\n') not in (jr.count(b'\n'), kr.count(b'\n')):
                 raise ValueError('Unapproved newline structure')
             restored_waits += max(0, new.count(b'%k') - kr.count(b'%k'))
             restored_names += max(0, sum(t.startswith(b'@') for _, t in controls(new)) - sum(t.startswith(b'@') for _, t in controls(kr)))
@@ -71,8 +73,9 @@ def main():
     p = argparse.ArgumentParser()
     for arg in ('j', 'legacy', 'rom', 'out'):
         p.add_argument('--' + arg, type=Path, required=True)
+    p.add_argument('--audit', type=Path, default=ROOT / 'qa/dialogue-review-v1.1a.json')
     a = p.parse_args()
-    path = ROOT / 'qa/dialogue-review-v1.1a.json'
+    path = a.audit
     audit = json.loads(path.read_text(encoding='utf-8'))
     result = verify(a.j.read_bytes(), a.legacy.read_bytes(), a.rom.read_bytes(), audit)
     result['ledger_sha256'] = sha(path.read_bytes())

@@ -10,7 +10,7 @@
 {"frame": 1404, "request": {"op": "frames", "count": 200}, "result": {}}
 {"frame": 1405, "request": {"op": "frames", "count": 1, "buttons": ["b"]}, "result": {}}
 {"frame": 1465, "request": {"op": "frames", "count": 60}, "result": {}}
-{"frame": 1465, "request": {"op": "screenshot", "name": "main-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\main-menu.png", "size": [240, 160], "sha256": "ccea570567d9b4c09b213d30fb3e4d02a27cf71951b65fba12d1b838bdd35b20"}}
+{"frame": 1465, "request": {"op": "screenshot", "name": "main-menu.png"}, "result": {"path": "output\\dev34-costume-vba-01\\main-menu.png", "size": [240, 160], "sha256": "ccea570567d9b4c09b213d30fb3e4d02a27cf71951b65fba12d1b838bdd35b20"}}
 {"frame": 1469, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 1589, "request": {"op": "frames", "count": 120}, "result": {}}
 {"frame": 1593, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
@@ -25,31 +25,31 @@
 {"frame": 2209, "request": {"op": "frames", "count": 120}, "result": {}}
 {"frame": 2213, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 2333, "request": {"op": "frames", "count": 120}, "result": {}}
-{"frame": 2333, "request": {"op": "screenshot", "name": "change-selected.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\change-selected.png", "size": [240, 160], "sha256": "310254e47301272a1822bd18c83ec34ff18e9c69b15fd659a037a5c4df8c4f5e"}}
+{"frame": 2333, "request": {"op": "screenshot", "name": "change-selected.png"}, "result": {"path": "output\\dev34-costume-vba-01\\change-selected.png", "size": [240, 160], "sha256": "310254e47301272a1822bd18c83ec34ff18e9c69b15fd659a037a5c4df8c4f5e"}}
 {"frame": 2337, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 2577, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2577, "request": {"op": "screenshot", "name": "confirm-selected.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\confirm-selected.png", "size": [240, 160], "sha256": "d95ac4fa89174afb7683b8fa05f09949493be76226a8bd33889417ed21721073"}}
+{"frame": 2577, "request": {"op": "screenshot", "name": "confirm-selected.png"}, "result": {"path": "output\\dev34-costume-vba-01\\confirm-selected.png", "size": [240, 160], "sha256": "d95ac4fa89174afb7683b8fa05f09949493be76226a8bd33889417ed21721073"}}
 {"frame": 2581, "request": {"op": "frames", "count": 4, "buttons": ["up"]}, "result": {}}
 {"frame": 2821, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2821, "request": {"op": "screenshot", "name": "change-reselected.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\change-reselected.png", "size": [240, 160], "sha256": "0c992c42ada21f6ad2f2d5b2d306cfc6c98408de751c1f1cd550f3eacb07f7e1"}}
+{"frame": 2821, "request": {"op": "screenshot", "name": "change-reselected.png"}, "result": {"path": "output\\dev34-costume-vba-01\\change-reselected.png", "size": [240, 160], "sha256": "0c992c42ada21f6ad2f2d5b2d306cfc6c98408de751c1f1cd550f3eacb07f7e1"}}
 {"frame": 2825, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 3065, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 3065, "request": {"op": "screenshot", "name": "character-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\character-selection.png", "size": [240, 160], "sha256": "41487a59ef965a9b9ed5386cbc7405439454c002fb4d240b3dc99a6418e6a245"}}
+{"frame": 3065, "request": {"op": "screenshot", "name": "character-selection.png"}, "result": {"path": "output\\dev34-costume-vba-01\\character-selection.png", "size": [240, 160], "sha256": "41487a59ef965a9b9ed5386cbc7405439454c002fb4d240b3dc99a6418e6a245"}}
 {"frame": 3069, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 3309, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 3309, "request": {"op": "screenshot", "name": "costume-list.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\costume-list.png", "size": [240, 160], "sha256": "b6c484dc07546e5669de2888002cc8b28719af8a56d4113016f0123d7bd59cee"}}
+{"frame": 3309, "request": {"op": "screenshot", "name": "costume-list.png"}, "result": {"path": "output\\dev34-costume-vba-01\\costume-list.png", "size": [240, 160], "sha256": "b6c484dc07546e5669de2888002cc8b28719af8a56d4113016f0123d7bd59cee"}}
 {"frame": 3313, "request": {"op": "frames", "count": 4, "buttons": ["down"]}, "result": {}}
 {"frame": 3553, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 3553, "request": {"op": "screenshot", "name": "swordsman-selection.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\swordsman-selection.png", "size": [240, 160], "sha256": "3e61f3c3173eff2c8598b44d48e27045da8c12336fc642d01d7a9529e85ace09"}}
+{"frame": 3553, "request": {"op": "screenshot", "name": "swordsman-selection.png"}, "result": {"path": "output\\dev34-costume-vba-01\\swordsman-selection.png", "size": [240, 160], "sha256": "3e61f3c3173eff2c8598b44d48e27045da8c12336fc642d01d7a9529e85ace09"}}
 {"frame": 3557, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 3797, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 3797, "request": {"op": "screenshot", "name": "change-confirmation.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\change-confirmation.png", "size": [240, 160], "sha256": "ae397cd893a082c397cbe3e80a7f16cdaca86f7ea1abc582e64ba930c4d91410"}}
+{"frame": 3797, "request": {"op": "screenshot", "name": "change-confirmation.png"}, "result": {"path": "output\\dev34-costume-vba-01\\change-confirmation.png", "size": [240, 160], "sha256": "ae397cd893a082c397cbe3e80a7f16cdaca86f7ea1abc582e64ba930c4d91410"}}
 {"frame": 3801, "request": {"op": "frames", "count": 4, "buttons": ["a"]}, "result": {}}
 {"frame": 4041, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 4041, "request": {"op": "screenshot", "name": "change-applied.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\change-applied.png", "size": [240, 160], "sha256": "6565b1fdb8e4a9ce338e00dd69eecbb5aca376028ce64ed8b50fa97c4ec25d17"}}
+{"frame": 4041, "request": {"op": "screenshot", "name": "change-applied.png"}, "result": {"path": "output\\dev34-costume-vba-01\\change-applied.png", "size": [240, 160], "sha256": "6565b1fdb8e4a9ce338e00dd69eecbb5aca376028ce64ed8b50fa97c4ec25d17"}}
 {"frame": 4045, "request": {"op": "frames", "count": 4, "buttons": ["b"]}, "result": {}}
 {"frame": 4285, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 4285, "request": {"op": "screenshot", "name": "back-from-costumes.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\back-from-costumes.png", "size": [240, 160], "sha256": "7758c3e406ce215b1d484831e1ebe5e76619cf3d52acb82be288a6e55246644f"}}
+{"frame": 4285, "request": {"op": "screenshot", "name": "back-from-costumes.png"}, "result": {"path": "output\\dev34-costume-vba-01\\back-from-costumes.png", "size": [240, 160], "sha256": "7758c3e406ce215b1d484831e1ebe5e76619cf3d52acb82be288a6e55246644f"}}
 {"frame": 4289, "request": {"op": "frames", "count": 4, "buttons": ["b"]}, "result": {}}
 {"frame": 4529, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 4529, "request": {"op": "screenshot", "name": "back-to-menu.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev34-costume-vba-01\\back-to-menu.png", "size": [240, 160], "sha256": "dc480b75943bba370fc79e14aba4acb816041fcf076a573d9abad91f858a3720"}}
+{"frame": 4529, "request": {"op": "screenshot", "name": "back-to-menu.png"}, "result": {"path": "output\\dev34-costume-vba-01\\back-to-menu.png", "size": [240, 160], "sha256": "dc480b75943bba370fc79e14aba4acb816041fcf076a573d9abad91f858a3720"}}

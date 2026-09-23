@@ -1,0 +1,596 @@
+{"purpose": "Candidate d05940 first mission tutorial continued with normal A presses, Stan movement order, turn end, actual first battle and four Select menu labels; synthetic state not used. Screens individually inspected on mGBA. Other cores require fresh visual review.", "reference_final_frame": 43968, "rom_sha256": "d05940f86dc56103bd0d28b706d12b3730e9859f1b84830fdc8de78a99ef95a1"}
+{"request": {"op": "frames", "count": 300}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 200}}
+{"request": {"op": "frames", "count": 1, "buttons": ["start"]}}
+{"request": {"op": "frames", "count": 100}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 200}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 660}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 90}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 20}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 20}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 20}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 25, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 25, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 10}}
+{"request": {"op": "frames", "count": 10, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 18, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 40, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 25, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 20, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 30}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 50, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 600}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 10, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 45, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 900}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 120}}
+{"request": {"op": "screenshot", "name": "06-after-tutorial.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "07-stan-action.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 35, "buttons": ["up"]}}
+{"request": {"op": "frames", "count": 20, "buttons": ["left"]}}
+{"request": {"op": "frames", "count": 1}}
+{"request": {"op": "screenshot", "name": "08-move-target.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "09-end-turn-choice.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 1200}}
+{"request": {"op": "screenshot", "name": "10-turn-resolution.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 180}}
+{"request": {"op": "screenshot", "name": "11-battle-arrival.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["select"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "12-battle-menu-0.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "12-battle-menu-1.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "12-battle-menu-2.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["down"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "12-battle-menu-3.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "13-battle-menu-right-1.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "13-battle-menu-right-2.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["right"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "13-battle-menu-right-3.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["a"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "14-entry-return-0.png"}}
+{"request": {"op": "frames", "count": 1, "buttons": ["b"]}}
+{"request": {"op": "frames", "count": 60}}
+{"request": {"op": "screenshot", "name": "14-entry-return-1.png"}}

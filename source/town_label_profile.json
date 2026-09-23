@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "bank": "0x75f474",
+  "scope": "Town selection table 146B68 uses two 32x16 title sprites per facility; eight changed resource entries.",
+  "guards": [
+    {
+      "offset": "0x75f474",
+      "hex": "59000000"
+    },
+    {
+      "offset": "0x146b68",
+      "hex": "3a000000490000003b0000004a0000003c0000004b0000003d0000004c0000003e0000004d0000003f0000004e000000400000004f00000041000000500000004200000051000000430000005200000044000000530000004500000054000000460000005500000047000000560000004800000057000000"
+    },
+    {
+      "offset": "0xa5ba0",
+      "hex": "70b5041c094de868094ee10089190968fff778ff286964000134a400a4192168fff770ff70bc01bc00470000f8090002686b1408"
+    },
+    {
+      "offset": "0xa5a58",
+      "hex": "70b5464640b4041c151c0f485df7eefc061c201c5ef708fe8046281c5df762fe041c00212a1c38f009f8301c211c5df7c9fc201c41462a1c5df762fb08bc984670bc01bc0047000074f4750800b580225200fff7d5ff01bc00470000"
+    },
+    {
+      "offset": "0xa5ae0",
+      "hex": "5ef7fafd0a4ca06108205ef77ffde06008205ef77bfd206108205ef777fd6061a0693921fff7d6ff10bc01bc00470000f809000210b581b00d4c6069802252005821fff799ff6369a06900900020002106225cf799ffa06000218175a268118b80200843108301b010bc01bc00470000f809000270b581b00d1c161c00f020f80e4ce368a0690090281c311c06225cf77bff206020352369a0690090281c311c06225cf771ff60602068002181756068817501b070bc01bc00470000"
+    }
+  ],
+  "authored_masks": {
+    "래": [
+      ".........",
+      ".###.#.#.",
+      "...#.#.#.",
+      "...#.#.#.",
+      ".###.#.#.",
+      ".#...###.",
+      ".#...#.#.",
+      ".###.#.#.",
+      ".....#.#.",
+      ".....#.#.",
+      ".....#.#.",
+      "........."
+    ],
+    "샵": [
+      "..........",
+      "...#...#..",
+      "...#...##.",
+      "..#.#..#..",
+      ".#...#.##.",
+      ".......#..",
+      "..........",
+      "..#....#..",
+      "..######..",
+      "..#....#..",
+      "..######..",
+      ".........."
+    ]
+  },
+  "labels": [
+    {
+      "number": 0,
+      "text": "고고학 연구소",
+      "resources": [
+        {
+          "index": 58,
+          "offset": "0x7ac6bc",
+          "encoded_bytes": 220,
+          "sha256": "48657c6c85346724fafded0582a1d044f834a240f699bcbc0ca592f3c1272836"
+        },
+        {
+          "index": 73,
+          "offset": "0x7ad418",
+          "encoded_bytes": 175,
+          "sha256": "cfd9df5c0b2d5856b5c26a50704b6f28c9c1d74adfccec8e96f1fa370ed2ebd0"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "text": "나리키리 샵",
+      "resources": [
+        {
+          "index": 61,
+          "offset": "0x7ac97c",
+          "encoded_bytes": 223,
+          "sha256": "4728e20c0c516a29bdbda806ff350239f7af6f501825dfd846eb58dfe4b3e4de"
+        },
+        {
+          "index": 76,
+          "offset": "0x7ad64c",
+          "encoded_bytes": 199,
+          "sha256": "6ced77ef0d5c1e21b210b609966316d1717f6b26b4bc77421281db8d8dc2f2d5"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "text": "벚꽃 식당",
+      "resources": [
+        {
+          "index": 63,
+          "offset": "0x7acb3c",
+          "encoded_bytes": 224,
+          "sha256": "d3c07e1cf95fd238865610ca3ac68d40cace540c79770c4d3815a327498039c1"
+        },
+        {
+          "index": 78,
+          "offset": "0x7ad7cc",
+          "encoded_bytes": 76,
+          "sha256": "689130abc63c658ea613ae5e59717c7c894d0476cd09605cb2056363fba0ae3c"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "text": "래몽래인 호텔",
+      "resources": [
+        {
+          "index": 64,
+          "offset": "0x7acc28",
+          "encoded_bytes": 225,
+          "sha256": "2f0306234145205f664bc5fd6c84ad840dd7ec76351027bc3472a28c9061365f"
+        },
+        {
+          "index": 79,
+          "offset": "0x7ad82c",
+          "encoded_bytes": 175,
+          "sha256": "2daefa0f02430585919942c43180b36e4facc6a80a9e3ffdb3a810f101bcb7eb"
+        }
+      ]
+    }
+  ]
+}

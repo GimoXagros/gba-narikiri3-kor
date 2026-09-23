@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "1.1a",
-  "stage": "experimental-prerelease",
-  "rom_file": "ND3_B3TJ_K_v1.1a.gba",
-  "patch_file": "ND3_B3TJ_K_v1.1a_FROM_J.bps",
-  "release_requested": "User authorized v1.1a GitHub prerelease after dialogue source comparison and correction report",
-  "completion_claim": "Known 5208 dialogue records compared; 403 correction groups/425 positions. Scoped verification; no full-game 100% or error-free claim."
+  "version": "1.2",
+  "stage": "public-release",
+  "rom_file": "ND3_B3TJ_K_v1.2.gba",
+  "patch_file": "ND3_B3TJ_K_v1.2_FROM_J.bps",
+  "release_requested": "User authorized v1.2 general public release after reproducible build, runtime, package, and independent review gates",
+  "completion_claim": "Known 5208 dialogue records reviewed; scoped build and runtime verification. No 100% translation, error-free, or full hardware compatibility claim."
 }

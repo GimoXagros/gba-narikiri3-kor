@@ -1,84 +1,49 @@
-# 누적 개발판 재현
+# v1.2 빌드 및 패키지 재현
 
-이 절차는 번역 초안과 조사 중인 표시 기능을 포함한 개발판을 만든다. 모든 검사를 통과해도 전체 게임 번역·검수·실기 호환 완료를 뜻하지 않는다.
+이 절차는 v1.2 공개 패키지를 재현·검사하기 위한 개발자 안내입니다. 최종 사용자는 일본판 ROM에 BPS를 바로 적용하며, 1.1 IPS를 선행 적용하지 않습니다.
 
-## 준비
+## 준비 입력
 
-Windows와 Python 3.14에서 확인했다. 다른 Python 버전·운영체제에서의 도구 실행은 별도 확인이 필요하다. ARM binutils의 `arm-none-eabi-as.exe`, `ld.exe`, `objcopy.exe`, `objdump.exe`, `nm.exe`가 같은 폴더에 있어야 한다.
+- Windows, 검증된 Python 환경과 `requirements-dev.txt` 의존성
+- 같은 도구 폴더의 `arm-none-eabi-as.exe`, `ld.exe`, `objcopy.exe`, `objdump.exe`, `nm.exe`
+- 별도로 준비한 일본판 B3TJ ROM. 크기 16,777,216 bytes, SHA-256 `d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394`
+- 기존 한국어 1.1 패치 입력 `ToWN3(K) 1.1.ips`. 크기 504,608 bytes, SHA-256 `207e69c0617997ff410ee769030e9ea4e1dcc7f6500dde93e7154cd9a859179a`
 
-프로젝트 폴더에서 다음 명령으로 가상 환경과 검사 패키지를 준비한다.
+개발 빌드는 일본판과 IPS로 확인한 기준 ROM을 복원한 뒤 v1.2 변경을 생성합니다. 기존 한국어 ROM을 빌드 입력으로 사용하지 마세요. 공개 패치는 일본판에 직접 적용하는 누적 BPS입니다.
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
 ```
 
-게임 파일은 사용자가 별도로 준비한다. 두 입력 모두 빌드 시작 시 정확한 SHA-256을 검사한다.
+## 빌드
 
-| 입력 | 크기 | SHA-256 |
-|---|---:|---|
-| B3TJ 일본판 | 16777216 | d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394 |
-| 기존 한국어 1.1 IPS | 504608 | 207e69c0617997ff410ee769030e9ea4e1dcc7f6500dde93e7154cd9a859179a |
-
-기존 한국어 ROM은 빌드 입력으로 사용하지 않는다. 일본판과 IPS로 재구성한 결과가 기존 한국어 1.1 해시와 일치해야 다음 단계로 진행한다.
-
-## 만들기와 CPU 검사
-
-경로는 실제 입력 위치로 바꾸고, 출력 폴더는 매번 새 이름을 지정한다.
+프로젝트 폴더에서 입력 경로와 toolchain 폴더를 실제 위치로 바꾸고 매 빌드마다 새 출력 폴더를 지정합니다.
 
 ```powershell
-.\.venv\Scripts\python.exe -X utf8 tools/build_development.py --j '일본판.gba' --ips 'ToWN3(K) 1.1.ips' --toolchain 'C:\도구\gcc-arm-none-eabi\bin' --out output/reproduce-01
+.\.venv\Scripts\python.exe -X utf8 tools/build_development.py --j '일본판.gba' --ips 'ToWN3(K) 1.1.ips' --toolchain 'C:\도구\gcc-arm-none-eabi\bin' --out output/v1.2-build --dialogue-review qa/dialogue-review-book-20260920.json --monster-descriptions --deduplicate-dialogue --dialogue-pool review
 ```
 
-이 명령은 현재 선택한 번역 JSON, 달무리 2350자, 소형 글꼴·이름 입력·의상 정렬·정보창의 Thumb 소스와 UI/그래픽 참조 규칙을 하나의 32 MiB 결과에 반영한다. 원본 영역의 선언되지 않은 변경, 원래 글꼴 변경, 참조 원본 불일치, 글자·배치·포맷 조건 위반은 실패한다. 추출 후보 검색이나 초안 생성 절차는 빌드 중에 실행하지 않는다.
+빌드는 현재 번역·프로필·코드 소스를 반영하며 일본판 및 1.1 IPS 해시를 검사합니다. 대사 검토 자료는 명시적으로 선택한 review pool로 빌드합니다. 기존 결과를 덮어쓰지 않도록 새로운 출력 경로를 사용하세요. `--help`로 현재 인자를 확인할 수 있습니다.
 
-실제 결과의 소형 출력·이름 입력·저장 소비자, 910개 이름, UI 77개와 팀 표 54개, 대사·요리·소개·설명·그래픽 등 채택한 영역별 검사를 수행한다. 검사별 JSON은 결과 ROM 해시에 연결된다. `reproduction.json`에는 도구·소스·번역·라이브러리 버전과 해시를 기록한다. 비교용 한국어 ROM도 출력 폴더 안에 생성되며 공개 산출물에는 넣지 않는다. 원래 글자 비트와 독립 비교하는 아이템 123개 설명과 대사 5208개 전체의 표시 검사도 꾸러미의 필수 조건이다. 함정 메뉴 5개도 원래 창/목록 처리기와 독립 픽셀 비교를 통과해야 한다. 대사는 원래 이름 처리기·포맷·스크롤·키 대기를 최대/혼합 이름까지 검사하며, 게임 장면의 정상 도달 및 번역 의미 검수와 구별한다.
+## 런타임 확인
 
-## 정상 입력과 저장 재실행 확인
-
-dev32부터 전체 27개 분리 CPU 검사에 소형 글자 공간 124칸에서의 교체 경계 16건을 포함한다. 교체할 셀만 해제하고 다른 셀의 글자를 보존하는지 두 출력기·두 배경에서 검사한다. 꾸러미에도 필수이며 전체 화면의 동시 글자 수가 124 이내라는 증거와 구별한다. `docs/CACHE_REPLACEMENT.md` 참조.
+mGBA와 VBA-Next의 libretro core 경로를 실제 환경에 맞게 지정합니다. 첫 실행과 새 프로세스 재실행 결과를 별도 폴더에 남깁니다.
 
 ```powershell
-.\.venv\Scripts\python.exe -X utf8 tools/verify_runtime_smoke.py --rom output/reproduce-01/ND3_B3TJ_K_v1.1a.gba --core 'C:\도구\mgba_libretro.dll' --out output/runtime-reproduce-01
+.\.venv\Scripts\python.exe -X utf8 tools/verify_runtime_smoke.py --rom output/v1.2-build/ND3_B3TJ_K_v1.2.gba --core 'C:\도구\mgba_libretro.dll' --out output/runtime-mgba
+.\.venv\Scripts\python.exe -X utf8 tools/verify_runtime_smoke.py --rom output/v1.2-build/ND3_B3TJ_K_v1.2.gba --core 'C:\도구\vba_next_libretro.dll' --out output/runtime-vba
 ```
 
-`qa/traces`의 입력 기록으로 새 게임부터 첫 저장까지 진행하고, 별도 프로세스에서 그 EEPROM 저장을 불러온다. 이어서 메뉴와 초기 아이템 목록·설명을 촬영한다. RAM 조작은 사용하지 않는다. 게임 합계 검사값, 시간 이외 전체 8192 bytes의 상태 및 관찰한 ±3프레임 시간 범위를 검사한다. 실제 시간차는 보고서에 남기며, 범위나 상태가 달라지면 임의 해시 갱신 없이 원인을 조사한다. 근거는 docs/PC_VERIFICATION.md에 기록했다.
+자동 입력 결과와 캡처 직접 확인은 구분합니다. 완료한 회귀 검증에서는 mGBA와 VBA-Next에서 신규 첫 저장, 별도 실행 재로드, 메뉴 및 아이템 설명을 확인하고 코어별 4개 캡처를 직접 검사했습니다. 두 코어의 첫 전투 조작 경로와 mGBA 타이틀/스탭롤 캡처도 확인했습니다. 사용자 OLD 2DS/DSPico/GBARunner3 저장 이어하기 보고는 개발자가 재현한 검사로 계산하지 않습니다.
 
-결과의 `VISUAL_INSPECTION_PENDING`은 캡처를 직접 확인해야 한다는 뜻이다. 입력 재생 성공만으로 화면 도달이나 번역 표시 성공을 확정하지 않는다. 재생 도구는 전투·분기·엔딩·전체 사용자 저장·실기 검증을 수행하지 않는다.
+## 공개 패키징 및 ZIP 검사
 
-## 개발 검토 꾸러미
-
-CPU 검사, 정확한 ROM에 연결된 실행 기록과 화면 관찰 기록을 준비한 뒤 생성한다.
+빌드와 양쪽 코어 런타임 결과를 준비하고, 승인된 소스 커밋의 전체 SHA-1을 `--commit`에 지정합니다. `package_release.py --help`를 확인했으며 현재 필수 인자는 아래 명령과 같습니다.
 
 ```powershell
-.\.venv\Scripts\python.exe -X utf8 tools/package_development.py --j '일본판.gba' --build output/reproduce-01 --runtime output/runtime-reproduce-01 --out output/개발검토판_새이름
+.\.venv\Scripts\python.exe -X utf8 tools/package_release.py --j '일본판.gba' --build output/v1.2-build --runtime output/runtime-mgba --second-runtime output/runtime-vba --out output/v1.2-release --commit '<40-character-commit-sha>'
+.\.venv\Scripts\python.exe -X utf8 tools/verify_package.py --archive output/ND3_Korean_v1.2.zip --j '일본판.gba' --wrong-base '기존한국어판.gba' --out output/v1.2-package-check
 ```
 
-꾸러미에는 BPS, 적용기, 안내와 검증 기록·라이선스만 들어간다. BPS를 일본판에 적용한 결과가 빌드와 같은지 검사한다. 최종적으로 ZIP을 별도 폴더에 풀어 동봉 적용기로 같은 결과를 만드는 것까지 확인한다. GitHub 공개·최종 릴리즈는 이 절차에 포함되지 않는다.
-
-```powershell
-.\.venv\Scripts\python.exe -X utf8 tools/verify_package.py --archive output/개발검토판_새이름.zip --j '일본판.gba' --wrong-base '기존한국어판.gba' --out output/package-check-새이름
-```
-
-이 검사는 실제 동봉 적용기, 잘못된 원본 거부, 기존 출력 보호, ROM·저장 미포함을 확인한다. 저장소의 `.gitattributes`는 줄바꿈 자동 변환을 끄므로 체크아웃 과정에서 입력·증거 파일의 해시가 달라지지 않는다.
-
-
-dev33은 일본판 명감의 독립 인물 대응 자료를 빌드·검사에서 확인한다. 23번을 나나리로 되돌리면 검사가 실패한다. 시작 그림 Xagros 크레딧의 원본/최종 픽셀 보존 검사를 추가해 총 28개 검사를 수행한다. `tools/probe_biography_gallery.py`와 `tools/verify_biography_gallery.py`는 명시적인 검토 EEPROM으로 37명 전체를 정상 버튼으로 조회하고 일본판 초상화와 두 PC 코어의 표시를 비교한다. 합성 해금 상태는 정상 해금 과정의 증거가 아니다. `docs/BIOGRAPHIES.md` 참조.
-
-
-dev34는 `--costume-label`을 누적 빌드에 포함한다. `source/costume_label_profile.json`의 기존 여덟 타일만 수정하며 atlas·34개 타일맵·팔레트·실제 은행 조회와 DMA 전달을 검사한다. 전체 분리 검사는 29개이며 꾸러미 생성에 `costume-label-verification.json`도 필수다. `docs/COSTUME_MENU_LABEL.md` 참조.
-
-
-## v1.1a 대사 대조 프리릴리즈
-
-현재 누적 빌드는 30개 검사를 수행한다. `qa/dialogue-review-v1.1a.json`에 5,208개 대사 위치의 검토 범위와 403개 수정 묶음/425개 수정 위치를 기록했다. `verify_dialogue_audit.py`는 원문, 명령·화자 정보, 수정 결과, 제어 코드와 최대 이름 길이를 검사한다. 대사 의미의 검토 기록과 자동 검사의 주장은 구별한다.
-
-새 ROM의 첫 저장 시각은 `record_opening_timing.py`로 먼저 관찰한다. 시간·체크섬을 뺀 저장 상태 전체가 기존 참조와 동일할 때만 정확한 ROM/코어/입력 기록 조합을 `source/opening_timing_profile.json`에 추가한다. 해당 조합은 허용 오차 없이 관측한 시각과 일치해야 한다.
-
-두 PC 코어에서 저장·재실행과 화면 관찰을 마친 후 다음 명령으로 실험용 프리릴리즈 꾸러미를 만든다. 이는 완성판 또는 릴리즈 후보 인증이 아니다.
-
-```powershell
-.\.venv\Scripts\python.exe -X utf8 tools/package_prerelease.py --j '일본판.gba' --build output/reproduce-01 --runtime output/runtime-mgba --second-runtime output/runtime-vba --out output/ND3_Korean_v1.1a_prerelease
-```
-
-`verify_package.py`로 최종 ZIP의 실제 적용과 잘못된 입력 거부를 검사한 뒤 GitHub 프리릴리즈에 업로드한다. 공개 ZIP은 BPS 패치·적용 도구·리포트·검증 기록·라이선스만 포함한다.
+패키저는 ROM 해시·빌드 manifest·대사 검토 데이터·런타임 근거를 서로 연결하고 공개 BPS를 만들며 실제 적용 결과를 확인합니다. ROM은 공개 ZIP에 넣지 않습니다. ZIP 검증기는 압축을 풀어 동봉 적용기로 패치를 실제 적용하고, 잘못된 기반 ROM 거부와 기존 출력 보호, 내부 파일 목록을 확인합니다. BPS와 ZIP 체크섬은 `v1.2-SHA256SUMS.txt`에 기록합니다. 릴리스 전 체크아웃에서도 같은 입력과 도구로 재현한 결과 해시를 대조하세요.

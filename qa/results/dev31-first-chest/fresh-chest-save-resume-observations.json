@@ -12,7 +12,7 @@
       "captures": [
         {
           "frame": 2325,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-resume-mgba\\resumed-chest-checkpoint-31.png",
+          "path": "output\\v1.1a-dev31-chest-resume-mgba\\resumed-chest-checkpoint-31.png",
           "size": [
             240,
             160
@@ -21,7 +21,7 @@
         },
         {
           "frame": 2609,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-resume-mgba\\resumed-chest-items-31.png",
+          "path": "output\\v1.1a-dev31-chest-resume-mgba\\resumed-chest-items-31.png",
           "size": [
             240,
             160
@@ -48,7 +48,7 @@
       "captures": [
         {
           "frame": 2325,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-resume-vba\\resumed-chest-checkpoint-31.png",
+          "path": "output\\v1.1a-dev31-chest-resume-vba\\resumed-chest-checkpoint-31.png",
           "size": [
             240,
             160
@@ -57,7 +57,7 @@
         },
         {
           "frame": 2609,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-resume-vba\\resumed-chest-items-31.png",
+          "path": "output\\v1.1a-dev31-chest-resume-vba\\resumed-chest-items-31.png",
           "size": [
             240,
             160

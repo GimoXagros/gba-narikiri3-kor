@@ -21,6 +21,8 @@ def main():
     p.add_argument('--ui',type=Path)
     p.add_argument('--small-tables',type=Path)
     p.add_argument('--dialogue-fixes',type=Path)
+    p.add_argument('--deduplicate-dialogue',action='store_true')
+    p.add_argument('--dialogue-pool',choices=['original','review'],default='original')
     p.add_argument('--recipes',type=Path)
     p.add_argument('--battle-captions',type=Path)
     p.add_argument('--name-keyboard',action='store_true')
@@ -28,10 +30,15 @@ def main():
     p.add_argument('--biographies',action='store_true')
     p.add_argument('--splash-credit',action='store_true')
     p.add_argument('--costume-label',action='store_true')
+    p.add_argument('--town-labels',action='store_true')
+    p.add_argument('--title-staff',action='store_true')
     p.add_argument('--clothing-results',action='store_true')
     p.add_argument('--save-places',action='store_true')
     p.add_argument('--notices',action='store_true')
     p.add_argument('--item-descriptions',action='store_true')
+    p.add_argument('--monster-descriptions',action='store_true')
+    p.add_argument('--mission-conditions',action='store_true')
+    p.add_argument('--review-ui',action='store_true')
     p.add_argument('--inspect-eye',action='store_true')
     p.add_argument('--element-symbols',action='store_true')
     a=p.parse_args();j=a.j.read_bytes();ips=a.ips.read_bytes()
@@ -244,16 +251,21 @@ def main():
             cursor+=len(encoded);small_table_count+=1
     dialogue_count=0
     if a.dialogue_fixes:
-        from dialogue_text import selections as dialogue_selections
+        from dialogue_text import selections as dialogue_selections,DIALOGUE_POOLS
         profile=json.loads((ROOT/'source/dialogue_fixes.json').read_text(encoding='utf-8'))
         catalog=json.loads(a.dialogue_fixes.read_text(encoding='utf-8'))
-        cursor=0x80000
+        cursor,limit=DIALOGUE_POOLS[a.dialogue_pool]
+        if extension[cursor:limit]!=b'\xff'*(limit-cursor):raise ValueError('Dialogue pool already occupied')
+        linked={}
         for identity,offset,encoded in dialogue_selections(profile,catalog,j,legacy):
-            cursor=(cursor+3)&~3
-            if cursor+len(encoded)>0x90000:raise ValueError('Dialogue correction allocation exceeded')
-            extension[cursor:cursor+len(encoded)]=encoded
-            writes.append((offset,struct.pack('<I',0x09000000+cursor),f'{identity} verified dialogue correction'))
-            cursor+=len(encoded);dialogue_count+=1
+            if not a.deduplicate_dialogue or encoded not in linked:
+                cursor=(cursor+3)&~3
+                if cursor+len(encoded)>limit:raise ValueError('Dialogue correction allocation exceeded')
+                extension[cursor:cursor+len(encoded)]=encoded
+                linked[encoded]=0x09000000+cursor
+                cursor+=len(encoded)
+            writes.append((offset,struct.pack('<I',linked[encoded]),f'{identity} verified dialogue correction'))
+            dialogue_count+=1
     recipe_count=0
     if a.recipes:
         from recipe_text import selections as recipe_selections
@@ -320,6 +332,21 @@ def main():
         item_description_writes,item_description_info=install_item_descriptions(legacy,extension)
         writes.extend(item_description_writes)
     notice_info=None
+    monster_description_info=None
+    if a.monster_descriptions:
+        from monster_descriptions import install as install_monster_descriptions
+        monster_writes,monster_description_info=install_monster_descriptions(j,legacy,extension)
+        writes.extend(monster_writes)
+    mission_condition_info=None
+    if a.mission_conditions:
+        from mission_condition_text import install as install_mission_conditions
+        mission_writes,mission_condition_info=install_mission_conditions(j,legacy,extension)
+        writes.extend(mission_writes)
+    review_ui_info=None
+    if a.review_ui:
+        from review_ui_text import install as install_review_ui
+        review_ui_writes,review_ui_info=install_review_ui(j,legacy,extension)
+        writes.extend(review_ui_writes)
     if a.notices:
         from notice_text import install as install_notices
         notice_writes,notice_info=install_notices(legacy,extension)
@@ -331,6 +358,16 @@ def main():
         writes.extend(place_writes)
     splash_info=None
     costume_label_info=None
+    town_label_info=None
+    title_staff_info=None
+    if a.title_staff:
+        from title_staff import install as install_title_staff
+        title_writes,title_staff_info=install_title_staff(legacy,extension)
+        writes.extend(title_writes)
+    if a.town_labels:
+        from town_labels import install as install_town_labels
+        town_writes,town_label_info=install_town_labels(legacy,extension)
+        writes.extend(town_writes)
     if a.costume_label:
         from costume_label import install as install_costume_label
         costume_writes,costume_label_info=install_costume_label(legacy,extension)
@@ -363,6 +400,8 @@ def main():
     report.update(version=identity['version'],rom_file=identity['rom_file'],stage=identity['stage'])
     report['small_table_entries']=small_table_count
     report['dialogue_corrections']=dialogue_count
+    report['dialogue_exact_byte_deduplication']=a.deduplicate_dialogue
+    report['dialogue_pool']=a.dialogue_pool
     report['recipe_string_fields']=recipe_count
     report['battle_caption_sprites']=caption_count
     report['name_keyboard']=keyboard_info
@@ -370,6 +409,14 @@ def main():
     report['biography_text']=biography_info
     report['splash_credit']=splash_info
     report['costume_label']=costume_label_info
+    report['town_labels']=town_label_info
+    report['title_staff']=title_staff_info
+    if a.title_staff:
+        for name in ['source/title_copyright_glyphs.json','tools/title_staff.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
+    if a.town_labels:
+        for name in ['source/town_label_profile.json','tools/town_labels.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
     if a.costume_label:
         for name in ['source/costume_label_profile.json','tools/costume_label.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())
@@ -383,6 +430,18 @@ def main():
     report['inspect_eye']=inspection_info
     report['element_symbols']=element_info
     report['item_descriptions']=item_description_info
+    report['monster_descriptions']=monster_description_info
+    report['mission_conditions']=mission_condition_info
+    report['review_ui']=review_ui_info
+    if a.mission_conditions:
+        for name in ['source/mission_condition_profile.json','translations/mission_conditions.json','tools/mission_condition_text.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
+    if a.review_ui:
+        for name in ['source/review_ui_profile.json','translations/review_ui.json','tools/review_ui_text.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
+    if a.monster_descriptions:
+        for name in ['source/monster_description_profile.json','translations/monster_descriptions.json','tools/monster_descriptions.py']:
+            report['inputs'][name]=sha((ROOT/name).read_bytes())
     if a.item_descriptions:
         for name in ['source/item_description_profile.json','translations/item_descriptions.json','tools/item_descriptions.py']:
             report['inputs'][name]=sha((ROOT/name).read_bytes())

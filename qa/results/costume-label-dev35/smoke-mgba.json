@@ -17,7 +17,7 @@
       "save": {
         "ok": true,
         "frame": 19851,
-        "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-smoke-mgba\\first-save\\first-save.sav",
+        "path": "output\\dev35-smoke-mgba\\first-save\\first-save.sav",
         "size": 8192,
         "core_buffer_size": 8192,
         "core_buffer_offset": 0,
@@ -39,7 +39,7 @@
         {
           "ok": true,
           "frame": 19851,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-smoke-mgba\\first-save\\first-save.png",
+          "path": "output\\dev35-smoke-mgba\\first-save\\first-save.png",
           "size": [
             240,
             160
@@ -63,7 +63,7 @@
         {
           "ok": true,
           "frame": 1465,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-smoke-mgba\\reload\\reload.png",
+          "path": "output\\dev35-smoke-mgba\\reload\\reload.png",
           "size": [
             240,
             160
@@ -73,7 +73,7 @@
         {
           "ok": true,
           "frame": 1581,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-smoke-mgba\\reload\\items.png",
+          "path": "output\\dev35-smoke-mgba\\reload\\items.png",
           "size": [
             240,
             160
@@ -83,7 +83,7 @@
         {
           "ok": true,
           "frame": 1642,
-          "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev35-smoke-mgba\\reload\\item-description.png",
+          "path": "output\\dev35-smoke-mgba\\reload\\item-description.png",
           "size": [
             240,
             160

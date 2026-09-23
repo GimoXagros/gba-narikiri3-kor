@@ -1,0 +1,1583 @@
+{
+  "schema": 1,
+  "authority": "Existing user-confirmed names and current typed item/place/speaker tables; contextual proper-name audit 2026-09-23",
+  "records": [
+    {
+      "category": "캐릭터",
+      "japanese": "フリオ",
+      "korean": "훌리오",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "キャロ",
+      "korean": "캐로",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ブラウン",
+      "korean": "브라운",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ホワイト",
+      "korean": "화이트",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ポニー",
+      "korean": "포니",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "クライト",
+      "korean": "크라이트",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "サナトス",
+      "korean": "사나토스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ジャババ",
+      "korean": "자바바",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "クレス",
+      "korean": "크레스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "チェスター",
+      "korean": "체스터",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ミント",
+      "korean": "민트",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "クラース",
+      "korean": "클라스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "アーチェ",
+      "korean": "아체",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "すず",
+      "korean": "스즈",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ダオス",
+      "korean": "다오스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "アミィ",
+      "korean": "아미",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "スタン",
+      "korean": "스탄",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ルーティ",
+      "korean": "루티",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "リオン",
+      "korean": "리온",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "フィリア",
+      "korean": "필리아",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ウッドロウ",
+      "korean": "우드로우",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "チェルシー",
+      "korean": "첼시",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "マリー",
+      "korean": "마리",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "コングマン",
+      "korean": "콩맨",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ジョニー",
+      "korean": "죠니",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "リリス",
+      "korean": "리리스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "リッド",
+      "korean": "리드",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ファラ",
+      "korean": "파라",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "キール",
+      "korean": "킬",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "メルディ",
+      "korean": "메르디",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "フォッグ",
+      "korean": "포그",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "チャット",
+      "korean": "채트",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "レイス",
+      "korean": "레이스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "セルシウス",
+      "korean": "셀시우스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ワルキューレ",
+      "korean": "왈큐레",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "カイル",
+      "korean": "카일",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "リアラ",
+      "korean": "리아라",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ロニ",
+      "korean": "로니",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ジューダス",
+      "korean": "쥬다스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ナナリー",
+      "korean": "나나리",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ハロルド",
+      "korean": "해롤드",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "エルレイン",
+      "korean": "엘레인",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "バルバトス",
+      "korean": "바르바토스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ロイド",
+      "korean": "로이드",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "コレット",
+      "korean": "콜레트",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "クラトス",
+      "korean": "크라토스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ジーニアス",
+      "korean": "지니어스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "リフィル",
+      "korean": "리필",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "しいな",
+      "korean": "시이나",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ゼロス",
+      "korean": "젤로스",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "プレセア",
+      "korean": "프레세아",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "リーガル",
+      "korean": "리갈",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ユグドラシル",
+      "korean": "유그드라실",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "ヴェイグ",
+      "korean": "베이그",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "クレア",
+      "korean": "클레어",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터",
+      "japanese": "シゼル",
+      "korean": "시젤",
+      "basis": "사용자 확정 등장인물 표기"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "クィッキー",
+      "korean": "퀵키",
+      "basis": "현재 화자 표 / speaker-22"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "コリン",
+      "korean": "코린",
+      "basis": "현재 화자 표 / speaker-41"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ノイシュ",
+      "korean": "노이슈",
+      "basis": "현재 화자 표 / speaker-42"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "かめんのおとこ",
+      "korean": "가면남",
+      "basis": "현재 화자 표 / speaker-47"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "かめんのおんな",
+      "korean": "가면녀",
+      "basis": "현재 화자 표 / speaker-48"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ディムロス",
+      "korean": "딤로스",
+      "basis": "현재 화자 표 / speaker-54"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "アトワイト",
+      "korean": "아트와이트",
+      "basis": "현재 화자 표 / speaker-55"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "メル",
+      "korean": "멜",
+      "basis": "현재 화자 표 / speaker-56"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ディオ",
+      "korean": "디오",
+      "basis": "현재 화자 표 / speaker-57"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ブラムバルド",
+      "korean": "브람발드",
+      "basis": "현재 화자 표 / speaker-58"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ポーラ",
+      "korean": "폴라",
+      "basis": "현재 화자 표 / speaker-65"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "コバーン",
+      "korean": "코반",
+      "basis": "현재 화자 표 / speaker-66"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "マホ",
+      "korean": "마호",
+      "basis": "현재 화자 표 / speaker-67"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ジュディ",
+      "korean": "주디",
+      "basis": "현재 화자 표 / speaker-68"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ナオミ",
+      "korean": "나오미",
+      "basis": "현재 화자 표 / speaker-69"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ニャンシー",
+      "korean": "냥시",
+      "basis": "현재 화자 표 / speaker-70"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ケン",
+      "korean": "켄",
+      "basis": "현재 화자 표 / speaker-71"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "リンダ",
+      "korean": "린다",
+      "basis": "현재 화자 표 / speaker-72"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ちょうろう",
+      "korean": "장로",
+      "basis": "현재 화자 표 / speaker-75"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ニャたろう",
+      "korean": "냐타로",
+      "basis": "현재 화자 표 / speaker-76"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ニャりこ",
+      "korean": "냐리코",
+      "basis": "현재 화자 표 / speaker-77"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "かがくしゃおとこ",
+      "korean": "남과학자",
+      "basis": "현재 화자 표 / speaker-80"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "かがくしゃおんな",
+      "korean": "여과학자",
+      "basis": "현재 화자 표 / speaker-81"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "おとこエルフ",
+      "korean": "남 엘프",
+      "basis": "현재 화자 표 / speaker-82"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "おんなエルフ",
+      "korean": "여 엘프",
+      "basis": "현재 화자 표 / speaker-83"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "しかいしゃ",
+      "korean": "사회자",
+      "basis": "현재 화자 표 / speaker-86"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "ドリーム1ゴウ",
+      "korean": "드림1호",
+      "basis": "현재 화자 표 / speaker-87"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "カイ",
+      "korean": "카이",
+      "basis": "현재 화자 표 / speaker-88"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "シャルティエ",
+      "korean": "샬티에",
+      "basis": "현재 화자 표 / speaker-89"
+    },
+    {
+      "category": "캐릭터·화자",
+      "japanese": "イクティノス",
+      "korean": "익티노스",
+      "basis": "현재 화자 표 / speaker-90"
+    },
+    {
+      "category": "아이템",
+      "japanese": "アップルグミ",
+      "korean": "애플 구미",
+      "basis": "item-001 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "オレンジグミ",
+      "korean": "오렌지 구미",
+      "basis": "item-002 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ミックスグミ",
+      "korean": "믹스 구미",
+      "basis": "item-003 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "レモングミ",
+      "korean": "레몬 구미",
+      "basis": "item-004 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "パイングミ",
+      "korean": "파인 구미",
+      "basis": "item-005 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ミラクルグミ",
+      "korean": "미라클 구미",
+      "basis": "item-006 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "エリクシール",
+      "korean": "엘릭서",
+      "basis": "item-007 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "パナシーアボトル",
+      "korean": "파나시아 보틀",
+      "basis": "item-008 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ライフボトル",
+      "korean": "라이프 보틀",
+      "basis": "item-009 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "アワーグラス",
+      "korean": "모래시계",
+      "basis": "item-010 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "スペクタクルズ",
+      "korean": "스펙터클즈",
+      "basis": "item-011 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "カギあけセット",
+      "korean": "자물쇠 도구",
+      "basis": "item-012 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "タリスマン",
+      "korean": "탈리스만",
+      "basis": "item-013 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "パラライチェック",
+      "korean": "패럴라이 체크",
+      "basis": "item-014 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ピヨハン",
+      "korean": "피요한",
+      "basis": "item-015 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ブルータリスマン",
+      "korean": "블루 탈리스만",
+      "basis": "item-016 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ポイズンチェック",
+      "korean": "포이즌 체크",
+      "basis": "item-017 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "フリーズチェック",
+      "korean": "프리즈 체크",
+      "basis": "item-018 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "エルヴンブーツ",
+      "korean": "엘븐 부츠",
+      "basis": "item-019 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ジェットブーツ",
+      "korean": "제트 부츠",
+      "basis": "item-020 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ペルシャブーツ",
+      "korean": "페르시아 부츠",
+      "basis": "item-021 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "マジックミスト",
+      "korean": "매직 미스트",
+      "basis": "item-022 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "クローナシンボル",
+      "korean": "크로나 심볼",
+      "basis": "item-023 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "フィートシンボル",
+      "korean": "피트 심볼",
+      "basis": "item-024 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ミスティシンボル",
+      "korean": "미스티 심볼",
+      "basis": "item-025 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "アクアマント",
+      "korean": "아쿠아 망토",
+      "basis": "item-026 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "サンダーマント",
+      "korean": "썬더 망토",
+      "basis": "item-027 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "フレアマント",
+      "korean": "플레어 망토",
+      "basis": "item-028 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "マント",
+      "korean": "망토",
+      "basis": "item-029 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "レザーマント",
+      "korean": "레더 망토",
+      "basis": "item-030 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "エメラルドリング",
+      "korean": "에메랄드 링",
+      "basis": "item-031 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "フェアリィリング",
+      "korean": "페어리 링",
+      "basis": "item-032 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "プロテクトリング",
+      "korean": "프로텍트 링",
+      "basis": "item-033 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "メンタルリング",
+      "korean": "멘탈 링",
+      "basis": "item-034 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "レジストリング",
+      "korean": "레지스트 링",
+      "basis": "item-035 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ブレッド",
+      "korean": "빵",
+      "basis": "item-036 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "パスタ",
+      "korean": "파스타",
+      "basis": "item-037 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ライス",
+      "korean": "라이스",
+      "basis": "item-038 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "にく",
+      "korean": "고기",
+      "basis": "item-039 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "レタス",
+      "korean": "양상추",
+      "basis": "item-040 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "キャベツ",
+      "korean": "양배추",
+      "basis": "item-041 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "たまご",
+      "korean": "계란",
+      "basis": "item-042 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "トマト",
+      "korean": "토마토",
+      "basis": "item-043 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "たまねぎ",
+      "korean": "양파",
+      "basis": "item-044 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "じゃがいも",
+      "korean": "감자",
+      "basis": "item-045 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ミルク",
+      "korean": "우유",
+      "basis": "item-046 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "チーズ",
+      "korean": "치즈",
+      "basis": "item-047 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "シーフード",
+      "korean": "해산물",
+      "basis": "item-048 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "フルーツ",
+      "korean": "과일",
+      "basis": "item-049 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "おうぎかいでんしょ",
+      "korean": "오의 개전서",
+      "basis": "item-050 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "エルヴンボウ",
+      "korean": "엘븐 보우",
+      "basis": "item-051 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "スターメイス",
+      "korean": "스타 메이스",
+      "basis": "item-052 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "けいやくのゆびわ",
+      "korean": "계약의 반지",
+      "basis": "item-053 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "エルヴンロアー",
+      "korean": "엘븐 로어",
+      "basis": "item-054 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "にんとうちざくら",
+      "korean": "닌도 혈앵",
+      "basis": "item-055 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "デッキブラシ",
+      "korean": "갑판 솔",
+      "basis": "item-056 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "レンズ",
+      "korean": "렌즈",
+      "basis": "item-057 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "しんくのマント",
+      "korean": "진홍 망토",
+      "basis": "item-058 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ぎんぶちのメガネ",
+      "korean": "은테 안경",
+      "basis": "item-059 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ベルセルクアロー",
+      "korean": "베르세르크 애로우",
+      "basis": "item-060 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "セルフボウ",
+      "korean": "셀프 보우",
+      "basis": "item-061 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "きんのフライパン",
+      "korean": "금 프라이팬",
+      "basis": "item-062 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "チャンピオンベルト",
+      "korean": "챔피언 벨트",
+      "basis": "item-063 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "リュート",
+      "korean": "류트",
+      "basis": "item-064 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "りょうしのおの",
+      "korean": "사냥꾼의 도끼",
+      "basis": "item-065 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ラシュアンぞめ",
+      "korean": "라슈안 염색",
+      "basis": "item-066 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "レオノアじしょ",
+      "korean": "레오노아 사전",
+      "basis": "item-067 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "オージェのピアス",
+      "korean": "오제 피어스",
+      "basis": "item-068 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ミアキスバッジ",
+      "korean": "미아키스 배지",
+      "basis": "item-069 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "アイフリードハット",
+      "korean": "아이프리드 햇",
+      "basis": "item-070 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "コルレーンのつぼ",
+      "korean": "코르레인의 항아리",
+      "basis": "item-071 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ストームブリンガー",
+      "korean": "스톰브링거",
+      "basis": "item-072 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ミョルニル",
+      "korean": "묠니르",
+      "basis": "item-073 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "きぼうのペンダント",
+      "korean": "희망의 펜던트",
+      "basis": "item-074 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "しっこくのペルソナ",
+      "korean": "칠흑의 페르소나",
+      "basis": "item-075 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "エデンズファイア",
+      "korean": "에덴즈 파이어",
+      "basis": "item-076 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ハロルドのつえ",
+      "korean": "해롤드의 지팡이",
+      "basis": "item-077 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "かなめのもん",
+      "korean": "요소의 문장",
+      "basis": "item-078 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ワールドオブワン",
+      "korean": "월드 오브 원",
+      "basis": "item-079 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "みこのしょうぞく",
+      "korean": "신자의 장속",
+      "basis": "item-080 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ユニコーンのつの",
+      "korean": "유니콘의 뿔",
+      "basis": "item-081 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "コリンのすず",
+      "korean": "코린의 방울",
+      "basis": "item-082 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "みこのれいふく",
+      "korean": "신자의 예복",
+      "basis": "item-083 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ガイアグリーヴァー",
+      "korean": "가이아 그리버",
+      "basis": "item-084 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "こうてつのてじょう",
+      "korean": "강철 수갑",
+      "basis": "item-085 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "フランヴェルジュ",
+      "korean": "프랑베르주",
+      "basis": "item-086 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "デリスエンブレム",
+      "korean": "데리스 엠블렘",
+      "basis": "item-087 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ぎんのおたま",
+      "korean": "은 국자",
+      "basis": "item-088 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "セルシウスのなみだ",
+      "korean": "셀시우스의 눈물",
+      "basis": "item-089 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "マスコット",
+      "korean": "마스코트",
+      "basis": "item-090 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "けんじゅつしょ",
+      "korean": "검술서",
+      "basis": "item-091 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "くろおび",
+      "korean": "검은허리띠",
+      "basis": "item-092 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ハンターボウ",
+      "korean": "헌터 보우",
+      "basis": "item-093 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "きょうてん",
+      "korean": "경전",
+      "basis": "item-094 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "くろしょうぞく",
+      "korean": "검은 옷",
+      "basis": "item-095 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "くろのローブ",
+      "korean": "검은 로브",
+      "basis": "item-096 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "きんのそろばん",
+      "korean": "금 주판",
+      "basis": "item-097 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ダンスシューズ",
+      "korean": "댄스 슈즈",
+      "basis": "item-098 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "フライパン",
+      "korean": "프라이팬",
+      "basis": "item-099 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "キツネのおめん",
+      "korean": "여우 가면",
+      "basis": "item-100 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ちょうしんき",
+      "korean": "청진기",
+      "basis": "item-101 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ギター",
+      "korean": "기타",
+      "basis": "item-102 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ひゃっかじてん",
+      "korean": "백과사전",
+      "basis": "item-103 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "のこきのこ",
+      "korean": "노코 버섯",
+      "basis": "item-104 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "シルクハット",
+      "korean": "실크 햇",
+      "basis": "item-105 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "かわのコート",
+      "korean": "가죽 코트",
+      "basis": "item-106 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "グングニル",
+      "korean": "궁니르",
+      "basis": "item-107 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ドリル",
+      "korean": "드릴",
+      "basis": "item-108 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "とうぞくのダガー",
+      "korean": "도적 대거",
+      "basis": "item-109 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "やみのたま",
+      "korean": "어둠의 구슬",
+      "basis": "item-110 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "ちぬられたおの",
+      "korean": "피로 물든 도끼",
+      "basis": "item-111 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "きせきのペンダント",
+      "korean": "기적의 펜던트",
+      "basis": "item-112 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "クルシスのきせき",
+      "korean": "크루시스의 휘석",
+      "basis": "item-113 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "りゅうのうろこ",
+      "korean": "용의 비늘",
+      "basis": "item-114 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "トラのけがわ",
+      "korean": "호랑이 가죽",
+      "basis": "item-115 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "フェイクファー",
+      "korean": "페이크 퍼",
+      "basis": "item-116 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "たいこのバチ",
+      "korean": "북채",
+      "basis": "item-117 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "エクスカリバー",
+      "korean": "엑스칼리버",
+      "basis": "item-118 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "BCロッド",
+      "korean": "BC로드",
+      "basis": "item-119 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "エーテル",
+      "korean": "에테르",
+      "basis": "item-120 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "RCロッド",
+      "korean": "RC로드",
+      "basis": "item-121 / 현재 아이템 표"
+    },
+    {
+      "category": "아이템",
+      "japanese": "いにしえのカギ",
+      "korean": "고대의 열쇠",
+      "basis": "item-122 / 현재 아이템 표"
+    },
+    {
+      "category": "지역",
+      "japanese": "であい の いせき",
+      "korean": "만남의 유적",
+      "basis": "save-place-0"
+    },
+    {
+      "category": "지역",
+      "japanese": "レミいせき 1F",
+      "korean": "레미 유적 1층",
+      "basis": "save-place-1"
+    },
+    {
+      "category": "지역",
+      "japanese": "かみのめ だいしんでん",
+      "korean": "신의 눈 대신전",
+      "basis": "save-place-2"
+    },
+    {
+      "category": "지역",
+      "japanese": "しんたく の せいどう",
+      "korean": "신탁의 성당",
+      "basis": "save-place-3"
+    },
+    {
+      "category": "지역",
+      "japanese": "おうじょう の ちかろう",
+      "korean": "왕성 지하감옥",
+      "basis": "save-place-4"
+    },
+    {
+      "category": "지역",
+      "japanese": "レミいせき ちか 2F",
+      "korean": "레미 유적 지하 2층",
+      "basis": "save-place-5"
+    },
+    {
+      "category": "지역",
+      "japanese": "とき の ふきだまり",
+      "korean": "시간의 더미",
+      "basis": "save-place-7"
+    },
+    {
+      "category": "지역",
+      "japanese": "ぜつぼう の きゅうでん",
+      "korean": "절망의 궁전",
+      "basis": "save-place-8"
+    },
+    {
+      "category": "지역",
+      "japanese": "てんせい の もん",
+      "korean": "전생의 문",
+      "basis": "save-place-9"
+    },
+    {
+      "category": "지역",
+      "japanese": "レミいせき ちか 3F",
+      "korean": "레미 유적 지하 3층",
+      "basis": "save-place-10"
+    },
+    {
+      "category": "지역",
+      "japanese": "エルフ の もり",
+      "korean": "엘프의 숲",
+      "basis": "save-place-13"
+    },
+    {
+      "category": "지역",
+      "japanese": "ねこにん の さと",
+      "korean": "냥인 마을",
+      "basis": "save-place-14"
+    },
+    {
+      "category": "지역",
+      "japanese": "そうりょうしゅ の やかた",
+      "korean": "총영주 저택",
+      "basis": "save-place-15"
+    },
+    {
+      "category": "지역",
+      "japanese": "にんげん ぼくじょう",
+      "korean": "인간 목장",
+      "basis": "save-place-16"
+    },
+    {
+      "category": "지역",
+      "japanese": "うらぎり の とりで",
+      "korean": "배신의 요새",
+      "basis": "save-place-17"
+    },
+    {
+      "category": "지역",
+      "japanese": "レミいせき さいかそう",
+      "korean": "레미 유적 최하층",
+      "basis": "save-place-18"
+    },
+    {
+      "category": "지역",
+      "japanese": "まかがく けんきゅうじょ",
+      "korean": "마과학 연구소",
+      "basis": "save-place-22"
+    },
+    {
+      "category": "지역",
+      "japanese": "ほのお の めいきゅう",
+      "korean": "불꽃 미궁",
+      "basis": "save-place-23"
+    },
+    {
+      "category": "지역",
+      "japanese": "こおり の どうくつ",
+      "korean": "얼음 동굴",
+      "basis": "save-place-24"
+    },
+    {
+      "category": "지역",
+      "japanese": "とうこん コロシアム",
+      "korean": "투혼 콜로세움",
+      "basis": "save-place-25"
+    },
+    {
+      "category": "지역",
+      "japanese": "とき の ふきだまり 2",
+      "korean": "시간의 더미 2",
+      "basis": "save-place-27"
+    },
+    {
+      "category": "지역",
+      "japanese": "ちょう こだい とし",
+      "korean": "초고대 도시",
+      "basis": "save-place-28"
+    },
+    {
+      "category": "지역",
+      "japanese": "ふゆう ようさい",
+      "korean": "부유 요새",
+      "basis": "save-place-29"
+    },
+    {
+      "category": "지역",
+      "japanese": "ドルアーガ の とう",
+      "korean": "드루아가의 탑",
+      "basis": "save-place-34"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "精霊",
+      "korean": "정령",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "晶霊",
+      "korean": "결정령",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "神子",
+      "korean": "신자",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "あすなろ園",
+      "korean": "내일로 가든",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "シルエシカ",
+      "korean": "실루에시카",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "古代史研究所",
+      "korean": "고고학 연구소",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "なりきりショップ",
+      "korean": "나리키리 샵",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "さくら食堂",
+      "korean": "벚꽃 식당",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "来夢来人ホテル",
+      "korean": "래몽래인 호텔",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역·세계관",
+      "japanese": "時の吹きだまり",
+      "korean": "시간의 더미",
+      "basis": "사용자 확정 용어"
+    },
+    {
+      "category": "지역",
+      "japanese": "レミ遺跡",
+      "korean": "레미 유적",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "ミナクルの町",
+      "korean": "미나클 마을",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "ねこにんの里",
+      "korean": "냥인 마을",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "神の眼大神殿",
+      "korean": "신의 눈 대신전",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "神託の聖堂",
+      "korean": "신탁의 성당",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "王城の地下牢",
+      "korean": "왕성 지하감옥",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "絶望の宮殿",
+      "korean": "절망의 궁전",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "転生の門",
+      "korean": "전생의 문",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "エルフの森",
+      "korean": "엘프의 숲",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "総領主の館",
+      "korean": "총영주 저택",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "人間牧場",
+      "korean": "인간 목장",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "裏切りの砦",
+      "korean": "배신의 요새",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "魔科学研究所",
+      "korean": "마과학 연구소",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "炎の迷宮",
+      "korean": "불꽃 미궁",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "氷の洞窟",
+      "korean": "얼음 동굴",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "闘魂コロシアム",
+      "korean": "투혼 콜로세움",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "超古代都市",
+      "korean": "초고대 도시",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "浮遊要塞",
+      "korean": "부유 요새",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    },
+    {
+      "category": "지역",
+      "japanese": "ドルアーガの塔",
+      "korean": "드루아가의 탑",
+      "basis": "현행 저장 지역명 및 대사 원문 대조"
+    }
+  ],
+  "usage_exceptions": [
+    {
+      "id": "lloyd-kaname-speech",
+      "japanese": "要の紋",
+      "canonical_korean": "요소의 문장",
+      "korean": "요의 문",
+      "scope": "로이드의 말버릇 / xlsx-4458",
+      "reason": "사용자 설명: 공식 번역에서 로이드가 요소의 문장을 지칭하는 말버릇. 의도된 표현으로 유지하며 일반 명칭으로 일괄 치환하지 않음.",
+      "authority": "User confirmed 2026-09-23"
+    }
+  ]
+}

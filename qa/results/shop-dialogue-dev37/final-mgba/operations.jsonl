@@ -22,19 +22,19 @@
 {"frame": 1953, "request": {"op": "frames", "count": 90}, "result": {}}
 {"frame": 1954, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 2194, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2194, "request": {"op": "screenshot", "name": "shop-entry.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-mgba\\shop-entry.png", "size": [240, 160], "sha256": "cc45945f369095bc8e9146bf4937c3f5ea3e1c2459660dd06796183e61aac2cd"}}
+{"frame": 2194, "request": {"op": "screenshot", "name": "shop-entry.png"}, "result": {"path": "output\\dev37-shop-final-mgba\\shop-entry.png", "size": [240, 160], "sha256": "cc45945f369095bc8e9146bf4937c3f5ea3e1c2459660dd06796183e61aac2cd"}}
 {"frame": 2195, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 2435, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2435, "request": {"op": "screenshot", "name": "shop-01.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-mgba\\shop-01.png", "size": [240, 160], "sha256": "817dc53d0e784f0bec7f0c9734923e4354c2cb946c9de3d9b5d076495dd53e7c"}}
+{"frame": 2435, "request": {"op": "screenshot", "name": "shop-01.png"}, "result": {"path": "output\\dev37-shop-final-mgba\\shop-01.png", "size": [240, 160], "sha256": "817dc53d0e784f0bec7f0c9734923e4354c2cb946c9de3d9b5d076495dd53e7c"}}
 {"frame": 2436, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 2676, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2676, "request": {"op": "screenshot", "name": "shop-02.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-mgba\\shop-02.png", "size": [240, 160], "sha256": "e7548b09adfefa85f3e899d40f3746848cbae23b6aa7e938c9cc9e07de58aed7"}}
+{"frame": 2676, "request": {"op": "screenshot", "name": "shop-02.png"}, "result": {"path": "output\\dev37-shop-final-mgba\\shop-02.png", "size": [240, 160], "sha256": "e7548b09adfefa85f3e899d40f3746848cbae23b6aa7e938c9cc9e07de58aed7"}}
 {"frame": 2677, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 2917, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 2917, "request": {"op": "screenshot", "name": "shop-03.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-mgba\\shop-03.png", "size": [240, 160], "sha256": "61c97e8ff2017aeb0ebe5f99da93f941c8e7444637c91944ae91c749b60e23dc"}}
+{"frame": 2917, "request": {"op": "screenshot", "name": "shop-03.png"}, "result": {"path": "output\\dev37-shop-final-mgba\\shop-03.png", "size": [240, 160], "sha256": "61c97e8ff2017aeb0ebe5f99da93f941c8e7444637c91944ae91c749b60e23dc"}}
 {"frame": 2918, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 3158, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 3158, "request": {"op": "screenshot", "name": "shop-04.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-mgba\\shop-04.png", "size": [240, 160], "sha256": "a124644b5961a3940fc20a3242e8d0dd8164bb738fc88d3f08e025b83c8b2b0c"}}
+{"frame": 3158, "request": {"op": "screenshot", "name": "shop-04.png"}, "result": {"path": "output\\dev37-shop-final-mgba\\shop-04.png", "size": [240, 160], "sha256": "a124644b5961a3940fc20a3242e8d0dd8164bb738fc88d3f08e025b83c8b2b0c"}}
 {"frame": 3159, "request": {"op": "frames", "count": 1, "buttons": ["a"]}, "result": {}}
 {"frame": 3399, "request": {"op": "frames", "count": 240}, "result": {}}
-{"frame": 3399, "request": {"op": "screenshot", "name": "shop-05.png"}, "result": {"path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\dev37-shop-final-mgba\\shop-05.png", "size": [240, 160], "sha256": "a34f90dca6ae4424e266637a6908ace0c83b482db8775a68b60b14351d31133a"}}
+{"frame": 3399, "request": {"op": "screenshot", "name": "shop-05.png"}, "result": {"path": "output\\dev37-shop-final-mgba\\shop-05.png", "size": [240, 160], "sha256": "a34f90dca6ae4424e266637a6908ace0c83b482db8775a68b60b14351d31133a"}}

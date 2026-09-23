@@ -34,8 +34,9 @@
       "id": "recipe-04",
       "small_name": "생선 전골",
       "large_name": "생선 전골",
-      "description": null,
-      "review": "source_food_identity_checked_natural_cooking_pending"
+      "description": "따끈한　전골은　어때?",
+      "review": "source_food_identity_checked_natural_cooking_pending",
+      "description_basis": "Original Japanese recipe +8; proofreading xlsx-12214"
     },
     {
       "id": "recipe-05",
@@ -55,8 +56,9 @@
       "id": "recipe-07",
       "small_name": "과일 샌드위치",
       "large_name": "과일 샌드위치",
-      "description": null,
-      "review": "source_food_identity_checked_natural_cooking_pending"
+      "description": "과일의　단맛을　살린　샌드위치",
+      "review": "source_food_identity_checked_natural_cooking_pending",
+      "description_basis": "Original Japanese recipe +8; proofreading xlsx-12223"
     },
     {
       "id": "recipe-08",
@@ -111,8 +113,9 @@
       "id": "recipe-15",
       "small_name": "프렌치 토스트",
       "large_name": null,
-      "description": null,
-      "review": "source_food_identity_checked_natural_cooking_pending"
+      "description": "달고　부드럽게　구운　빵",
+      "review": "source_food_identity_checked_natural_cooking_pending",
+      "description_basis": "Original Japanese recipe +8; proofreading xlsx-12247"
     },
     {
       "id": "recipe-16",

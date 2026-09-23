@@ -317,6 +317,51 @@
       "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
       "evidence_sha256": "0acd19ef40b32d3c4fa212a54a3f1c6727043aff27da15fecc61b38f0f15ec74",
       "evidence_path": "output/v1.1a-audit-timing-vba/timing.json"
+    },
+    {
+      "rom_sha256": "d05940f86dc56103bd0d28b706d12b3730e9859f1b84830fdc8de78a99ef95a1",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17721,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "827cc8468870e427d9869e2f131b34d0bf0889a4c8b9b5f97d556a3547661ceb",
+      "evidence_path": "output/dialogue-book-20260920/runtime/timing-mgba/timing.json"
+    },
+    {
+      "rom_sha256": "d05940f86dc56103bd0d28b706d12b3730e9859f1b84830fdc8de78a99ef95a1",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17714,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "73c9815e20683340368bc7d8e8a19ee962e1955717bfa82e93b76e7a3ff435c2",
+      "evidence_path": "output/dialogue-book-20260920/runtime/timing-vba/timing.json"
+    },
+    {
+      "rom_sha256": "57ebb82ef1d148a3fc183cd05cf5fe5c4d3fa1cf71c506dca58d87f01a7301e5",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17721,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "6e1bb7bb083cef854b38ce314b6720d777a47425052331a6404fa056c6e19af9",
+      "evidence_path": "output/dialogue-book-20260920/candidate-10/mgba-timing/timing.json"
+    },
+    {
+      "rom_sha256": "8953b6a98a9b39e340aecdc74739598ee47c4d59088f688e471a81c289a67793",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17721,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "3d14b9137e3b0d2fa6d43094ab014556118e6dbaa9283d2b5feba43e4dcbf8ea",
+      "evidence_path": "output/v1.2-timing-mgba/timing.json"
+    },
+    {
+      "rom_sha256": "8953b6a98a9b39e340aecdc74739598ee47c4d59088f688e471a81c289a67793",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17714,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "f799fc0cdcd7042e8332f621372fc8d6ae8fe34b04caf4ac4f9a134b2a79aca2",
+      "evidence_path": "output/v1.2-timing-vba/timing.json"
     }
   ]
 }

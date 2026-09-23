@@ -12,7 +12,7 @@
     {
       "ok": true,
       "frame": 16509,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\thief-transformation-finished-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\thief-transformation-finished-31.png",
       "size": [
         240,
         160
@@ -24,7 +24,7 @@
     {
       "ok": true,
       "frame": 20599,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\first-door-lockpick-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\first-door-lockpick-31.png",
       "size": [
         240,
         160
@@ -36,7 +36,7 @@
     {
       "ok": true,
       "frame": 21200,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\first-door-unlocked-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\first-door-unlocked-31.png",
       "size": [
         240,
         160
@@ -48,7 +48,7 @@
     {
       "ok": true,
       "frame": 21471,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\first-door-dialogue2-complete-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\first-door-dialogue2-complete-31.png",
       "size": [
         240,
         160
@@ -60,7 +60,7 @@
     {
       "ok": true,
       "frame": 32310,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\corridor-battle2-end-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\corridor-battle2-end-31.png",
       "size": [
         240,
         160
@@ -72,7 +72,7 @@
     {
       "ok": true,
       "frame": 36198,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\battle-item-list-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\battle-item-list-31.png",
       "size": [
         240,
         160
@@ -84,7 +84,7 @@
     {
       "ok": true,
       "frame": 36561,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\battle-after-heal-paused-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\battle-after-heal-paused-31.png",
       "size": [
         240,
         160
@@ -96,7 +96,7 @@
     {
       "ok": true,
       "frame": 40165,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\chest-first-reward-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\chest-first-reward-31.png",
       "size": [
         240,
         160
@@ -108,7 +108,7 @@
     {
       "ok": true,
       "frame": 41610,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\chest-checkpoint-save-complete-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\chest-checkpoint-save-complete-31.png",
       "size": [
         240,
         160
@@ -120,7 +120,7 @@
     {
       "ok": true,
       "frame": 41852,
-      "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\chest-checkpoint-shutdown-31.png",
+      "path": "output\\v1.1a-dev31-chest-replay-mgba\\chest-checkpoint-shutdown-31.png",
       "size": [
         240,
         160
@@ -133,7 +133,7 @@
   "save": {
     "ok": true,
     "frame": 41852,
-    "path": "C:\\Users\\rlgh0\\Documents\\GBC 복구\\나리키리 던전3\\output\\v1.1a-dev31-chest-replay-mgba\\route-final.sav",
+    "path": "output\\v1.1a-dev31-chest-replay-mgba\\route-final.sav",
     "size": 8192,
     "core_buffer_size": 8192,
     "core_buffer_offset": 0,

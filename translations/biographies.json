@@ -719,16 +719,16 @@
         },
         {
           "slot": 2,
-          "text": "명석한 두뇌로 정령술을 구사하는 학자",
+          "text": "명석한　두뇌로　결정령술을　구사하는　학자",
           "original_sha256": "5c756e514a16d5dae3d5150ca1994f209e63f689352920ac1f08ca2f1a170fd0",
           "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
           "review": "source_reviewed_runtime_pending"
         },
         {
           "slot": 3,
-          "text": "리드와 파라는 소꿉친구",
+          "text": "리드,파라와는　소꿉친구",
           "original_sha256": "89d537637c1580ff07ddf63cbcccce3d1b287f5b6c42183392581260c41a9e67",
-          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "basis": "Original Japanese biography field; proofreading xlsx-7301",
           "review": "source_reviewed_runtime_pending"
         },
         {
@@ -1457,9 +1457,9 @@
         },
         {
           "slot": 2,
-          "text": "발기술을 주로 쓰는 격투가",
+          "text": "발　기술을　주로　쓰는　격투가",
           "original_sha256": "79a45fb753d4476a602411a91b9c471679af2087b806a3a523b0f9a30cc0f27b",
-          "basis": "Individually translated against this exact Japanese library record; canonical user character spelling",
+          "basis": "Original Japanese biography field; independent second proofreading xlsx-7390",
           "review": "source_reviewed_runtime_pending"
         },
         {

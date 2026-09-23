@@ -12,6 +12,10 @@ def main():
     p.add_argument('--ips',type=Path,required=True)
     p.add_argument('--toolchain',type=Path,required=True)
     p.add_argument('--out',type=Path,required=True)
+    p.add_argument('--dialogue-review',type=Path,default=ROOT/'qa/dialogue-review-v1.1a.json')
+    p.add_argument('--monster-descriptions',action='store_true')
+    p.add_argument('--deduplicate-dialogue',action='store_true')
+    p.add_argument('--dialogue-pool',choices=['original','review'],default='original')
     a=p.parse_args()
     def run(script,args):
         subprocess.run([sys.executable,'-X','utf8',str(ROOT/'tools'/script),*map(str,args)],cwd=ROOT,check=True)
@@ -21,8 +25,8 @@ def main():
         '--skills',ROOT/'translations/skills.json','--actors',ROOT/'translations/actors.json',
         '--default-names',ROOT/'translations/default_names.json','--simple-hook',
         '--lexicon',ROOT/'translations/items-monsters.json','--ui',ROOT/'translations/ui.json',
-        '--small-tables',ROOT/'translations/small_tables.json','--dialogue-fixes',ROOT/'translations/dialogue_fixes.json',
-        '--recipes',ROOT/'translations/recipes.json','--battle-captions',ROOT/'translations/battle_captions.json','--name-keyboard','--skill-headers','--biographies','--clothing-results','--save-places','--notices','--inspect-eye','--element-symbols','--item-descriptions','--splash-credit','--costume-label'])
+        '--small-tables',ROOT/'translations/small_tables.json','--dialogue-fixes',ROOT/'translations/dialogue_fixes.json','--dialogue-pool',a.dialogue_pool,*(['--deduplicate-dialogue'] if a.deduplicate_dialogue else []),
+        '--recipes',ROOT/'translations/recipes.json','--battle-captions',ROOT/'translations/battle_captions.json','--name-keyboard','--skill-headers','--biographies','--clothing-results','--save-places','--notices','--inspect-eye','--element-symbols','--item-descriptions','--mission-conditions','--review-ui','--splash-credit','--costume-label','--town-labels','--title-staff',*(['--monster-descriptions'] if a.monster_descriptions else [])])
     # Reconstruct the immutable legacy input solely for the comparison fixture.
     from survey_rom import ips_records
     legacy=bytearray(j.read_bytes());records,trunc=ips_records(ips.read_bytes())
@@ -43,14 +47,16 @@ def main():
             ('verify_name_expansion.py','name-expansion-verification.json',[]),
             ('verify_dialogue_resource.py','dialogue-resource-verification.json',['--j',j,'--legacy',legacy_path]),
             ('verify_dialogue_pixels.py','dialogue-pixel-verification.json',['--legacy',legacy_path,'--all-records','--j',j]),
-            ('verify_dialogue_audit.py','dialogue-audit-verification.json',['--legacy',legacy_path,'--j',j]),
+            ('verify_dialogue_audit.py','dialogue-audit-verification.json',['--legacy',legacy_path,'--j',j,'--audit',a.dialogue_review]),
             ('verify_recipes.py','recipe-verification.json',['--legacy',legacy_path]),
             ('verify_battle_captions.py','battle-caption-verification.json',['--legacy',legacy_path]),
             ('verify_name_keyboard.py','name-keyboard-verification.json',['--legacy',legacy_path]),
             ('verify_skill_headers.py','skill-header-verification.json',['--legacy',legacy_path]),
             ('verify_biographies.py','biography-verification.json',['--legacy',legacy_path,'--j',j]),
             ('verify_splash_credit.py','splash-credit-verification.json',['--legacy',legacy_path]),
+            ('verify_title_staff.py','title-staff-verification.json',['--legacy',legacy_path]),
             ('verify_costume_label.py','costume-label-verification.json',['--legacy',legacy_path]),
+            ('verify_town_labels.py','town-label-verification.json',['--legacy',legacy_path]),
             ('verify_internal_battle_menu.py','internal-battle-menu-verification.json',[]),
             ('verify_skill_text.py','skill-text-verification.json',['--legacy',legacy_path]),
             ('verify_clothing_results.py','clothing-result-verification.json',['--legacy',legacy_path]),
@@ -60,13 +66,17 @@ def main():
             ('verify_element_symbols.py','element-symbol-verification.json',['--legacy',legacy_path]),
             ('verify_item_descriptions.py','item-description-pixel-verification.json',['--legacy',legacy_path]),
             ('verify_auxiliary_exclusions.py','auxiliary-exclusion-verification.json',[])]
+    if a.monster_descriptions:
+        checks.append(('verify_monster_descriptions.py','monster-description-verification.json',['--j',j,'--legacy',legacy_path]))
+    checks.append(('verify_mission_conditions.py','mission-condition-verification.json',['--j',j,'--legacy',legacy_path]))
+    checks.append(('verify_review_ui.py','review-ui-verification.json',['--j',j,'--legacy',legacy_path]))
     for script,filename,extra in checks:run(script,['--rom',rom,'--out',out/filename,*extra])
     files=[*sorted((ROOT/'tools').glob('*.py')),*sorted((ROOT/'source').glob('*')),
-           *sorted((ROOT/'translations').glob('*.json')),ROOT/'fonts/dalmoori-wansung.json',ROOT/'requirements-dev.txt',ROOT/'project.json',ROOT/'qa/dialogue-review-v1.1a.json']
+           *sorted((ROOT/'translations').glob('*.json')),ROOT/'fonts/dalmoori-wansung.json',ROOT/'requirements-dev.txt',ROOT/'project.json',a.dialogue_review.resolve()]
     provenance={'status':'ISOLATED_CPU_CHECKS_PASS_RUNTIME_AND_REVIEW_SEPARATE',
                 'python':platform.python_version(),'packages':{n:version(n) for n in ['pillow','numpy','capstone','fonttools','unicorn']},
                 'toolchain':{name:hashlib.sha256((tc/f'arm-none-eabi-{name}.exe').read_bytes()).hexdigest() for name in ['as','ld','objcopy','objdump','nm']},
-                'repository_inputs':{str(f.relative_to(ROOT)).replace('\\','/'):hashlib.sha256(f.read_bytes()).hexdigest() for f in files},
+                'repository_inputs':{str(f.relative_to(ROOT) if f.is_relative_to(ROOT) else f).replace('\\','/'):hashlib.sha256(f.read_bytes()).hexdigest() for f in files},
                 'target_sha256':hashlib.sha256(rom.read_bytes()).hexdigest()}
     (out/'reproduction.json').write_text(json.dumps(provenance,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'out':str(out),'target_sha256':provenance['target_sha256'],'status':provenance['status']}))
