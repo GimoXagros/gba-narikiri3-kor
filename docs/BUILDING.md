@@ -14,6 +14,17 @@ v1.3 후보는 정확히 16,777,216 bytes입니다. 개발 빌더는 별도로 �
 
 빌드와 누적 BPS 재적용 성공은 실기·자연 진행·저장 및 최종 독립 감사의 통과를 뜻하지 않습니다. [현재 상태](V13_RC_STATUS.md)를 확인하세요. 최종 사용자는 일본판에 공개 BPS를 한 번 적용하며 구판 IPS를 먼저 적용하지 않습니다.
 
+## v1.3 패키지 검사
+
+현재 커밋과 깨끗한 빌드 결과를 고정한 뒤 검수용 공개 자산을 별도 새 폴더에 만듭니다. `--commit`에는 실제 빌드 소스의40자리 커밋을 지정합니다. 아직 필수 게이트가 남았다면 `--review-only`를 사용하며 결과 manifest는 미발행 상태를 명시합니다.
+
+```powershell
+python -X utf8 tools/package_v13.py --j '일본판.gba' --build output/v1.3-build --commit '<40-character-source-commit>' --out output/v1.3-package-review --review-only
+python -X utf8 tools/verify_v13_package.py --package output/v1.3-package-review --j '일본판.gba' --wrong-base '기존한국어판.gba' --out output/v1.3-package-verification
+```
+
+ZIP의 명시된 파일 목록과 중첩 압축 여부, 단독/동봉 BPS 동일성, 실제 동봉 적용기의16MiB 생성, 잘못된 원본·손상 패치 거부와 기존 결과 보호를 검사합니다. 이 검증 출력에는 로컬 적용 ROM이 생기므로 검수 폴더를 공개하지 않습니다. 정식 패키징 모드에는 후보·소스 커밋에 묶인 모든 필수 게이트와 최종 감사 GO가 필요합니다. 실제 원격 발행·다운로드 재검증은 별도 단계입니다.
+
 ## v1.2 기록
 
 이 절차는 v1.2 공개 패키지를 재현·검사하기 위한 개발자 안내입니다. 최종 사용자는 일본판 ROM에 BPS를 바로 적용하며, 1.1 IPS를 선행 적용하지 않습니다.
