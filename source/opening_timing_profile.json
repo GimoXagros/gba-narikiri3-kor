@@ -384,6 +384,36 @@
         "Zero tolerance only for this exact ROM/core/trace; no global tolerance change.",
         "Original17767plusminus3FAIL and hardware-not-run status remain."
       ]
+    },
+    {
+      "rom_sha256": "54a138aea155d38d6730a36eeb7c480034b0ad8e9ab2d339865f2961af6480a0",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "trace_sha256": "7c4e8605f1b7fd6f118bbbc70c738f982c122b22493be574b5aad270987d8b22",
+      "saved_timer": 17759,
+      "normalized_state_sha256": "439a1bf22c6323169984dc9eb24d393a3dcbf5ba16b32aa9524209c699898e56",
+      "evidence_sha256": "30023861b1bd82cef76f23ac7dd21001839e55ffbb183796a377efc59090093e",
+      "causal_review_sha256": "ebed1a63a97437199f26a94dee753468da00c0c217a5264a3f29c8907429bcb6",
+      "independent_repeat_count": 1,
+      "observed_save_sha256": "15e4b1a5139d509f6e0e99e2a47a0aab034347e981e05d56af925d68d43da266",
+      "original_strict_failure": {
+        "expected": 17767,
+        "tolerance": 3,
+        "actual": 17759,
+        "result": "FAIL_PRESERVED"
+      },
+      "status": "EXACT_ROM_CORE_TRACE_OBSERVED_CONTRACT_ONLY",
+      "limits": [
+        "Zero tolerance only for this exact ROM/core/trace; no global tolerance change.",
+        "Original17767plusminus3FAIL and hardware-not-run status remain."
+      ],
+      "evidence_path": "output/v1.3-finalization-20261009-01/intake/FINAL_PREFIX_SUCCESSOR_REVIEW.json",
+      "runtime_report_sha256": "70677c7a41f02e81d27e45a63384c3cf6896e86cd0cf5aa7e889ecfec93c8a84",
+      "whole_save_equal_previous_two_samples": true,
+      "previous_candidate_sha256": "decedfd15fafe621be14edd2375a0c9f8f23ce99fceaf3f1abf44a00347526e4",
+      "prefix_only_delta": [
+        "0x1BE19C",
+        "0x1BE1A0"
+      ]
     }
   ]
 }
