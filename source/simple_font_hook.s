@@ -55,29 +55,22 @@ hangul:
     ldrb r1,[r1]
     movs r2,#15
     ands r1,r2
+    ldr r6,=0x11111111
+    muls r1,r6
+    ldr r7,=hangul_nibble_lut
     movs r5,#0
     mov r2,sp
 row:
     ldrb r3,[r0,r5]
-    movs r6,#0
-    movs r7,#8
-pixel:
-    lsls r6,#4
+    lsls r6,r3,#28
+    lsrs r6,#27
+    ldrh r6,[r7,r6]
+    lsrs r3,#4
     lsls r3,#1
-    mov r12,r0
-    movs r0,#0x80
-    lsls r0,#1
-    tst r3,r0
-    beq background
-    movs r0,#15
-    orrs r6,r0
-    b next_pixel
-background:
+    ldrh r3,[r7,r3]
+    lsls r3,#16
+    orrs r6,r3
     orrs r6,r1
-next_pixel:
-    mov r0,r12
-    subs r7,#1
-    bne pixel
     stmia r2!,{r6}
     adds r5,#1
     cmp r5,#8

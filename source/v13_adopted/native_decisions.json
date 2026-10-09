@@ -1,0 +1,194 @@
+[
+  {
+    "bank": "0x750a00",
+    "index": 0,
+    "decision": "KEEP",
+    "recommended_after_readable": "만남의 유적"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 1,
+    "decision": "REVISE",
+    "recommended_after_readable": "레미 유적 지하 1층"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 2,
+    "decision": "KEEP",
+    "recommended_after_readable": "신의 눈 대신전"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 3,
+    "decision": "KEEP",
+    "recommended_after_readable": "신탁의 성당"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 4,
+    "decision": "KEEP",
+    "recommended_after_readable": "왕성 지하감옥"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 5,
+    "decision": "REVISE",
+    "recommended_after_readable": "레미 유적 지하 2층"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 6,
+    "decision": "REVISE",
+    "recommended_after_readable": "시간의 더미"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 7,
+    "decision": "KEEP",
+    "recommended_after_readable": "절망의 궁전"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 8,
+    "decision": "KEEP",
+    "recommended_after_readable": "전생의 문"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 9,
+    "decision": "REVISE",
+    "recommended_after_readable": "레미 유적 지하 3층"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 10,
+    "decision": "KEEP",
+    "recommended_after_readable": "엘프의 숲"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 11,
+    "decision": "REVISE",
+    "recommended_after_readable": "냥인 마을"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 12,
+    "decision": "REVISE",
+    "recommended_after_readable": "총영주 저택"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 13,
+    "decision": "REVISE",
+    "recommended_after_readable": "인간 목장"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 14,
+    "decision": "REVISE",
+    "recommended_after_readable": "배신의 요새"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 15,
+    "decision": "REVISE",
+    "recommended_after_readable": "레미 유적 최하층"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 16,
+    "decision": "KEEP",
+    "recommended_after_readable": "마과학 연구소"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 17,
+    "decision": "REVISE",
+    "recommended_after_readable": "불꽃 미궁"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 18,
+    "decision": "REVISE",
+    "recommended_after_readable": "얼음 동굴"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 19,
+    "decision": "KEEP",
+    "recommended_after_readable": "투혼 콜로세움"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 20,
+    "decision": "REVISE",
+    "recommended_after_readable": "시간의 더미 2"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 21,
+    "decision": "KEEP",
+    "recommended_after_readable": "초고대 도시"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 22,
+    "decision": "REVISE",
+    "recommended_after_readable": "부유 요새"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 23,
+    "decision": "KEEP",
+    "recommended_after_readable": "전생의 동문"
+  },
+  {
+    "bank": "0x750a00",
+    "index": 24,
+    "decision": "KEEP",
+    "recommended_after_readable": "전생의 서문"
+  },
+  {
+    "bank": "0xe717cc",
+    "index": 0,
+    "decision": "KEEP",
+    "recommended_after_readable": "미션 성공!"
+  },
+  {
+    "bank": "0xe717cc",
+    "index": 1,
+    "decision": "KEEP",
+    "recommended_after_readable": "미션 실패!"
+  },
+  {
+    "bank": "0xe717cc",
+    "index": 2,
+    "decision": "REVISE",
+    "recommended_after_readable": "진격 개시!"
+  },
+  {
+    "bank": "0xe717cc",
+    "index": 3,
+    "decision": "REVISE",
+    "recommended_after_readable": "승리 조건"
+  },
+  {
+    "bank": "0xe717cc",
+    "index": 4,
+    "decision": "REVISE",
+    "recommended_after_readable": "패배 조건"
+  },
+  {
+    "bank": "0xe72ee0",
+    "index": 1,
+    "decision": "REVISE",
+    "recommended_after_readable": "갈아입기"
+  },
+  {
+    "bank": "0xe72ee0",
+    "index": 4,
+    "decision": "REVISE",
+    "recommended_after_readable": "적 목록"
+  }
+]

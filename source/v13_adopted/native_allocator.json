@@ -1,0 +1,7 @@
+{
+  "function_start": "0xa7d18",
+  "function_end": "0xa7d8c",
+  "before_sha256": "101ccd0e9f882ed1ac1ad03450989c1c173ceffa8bbbc11df7a337b7e41e4bb8",
+  "after_sha256": "758841f7923f7b4f6848ad7c2a2b2ffcf6b308c4327fb370545cdd8119c339cd",
+  "allocation_rule": "Selected strict type30 decoded length>>5. All native resources are tile-aligned. Old512bytes allocate16; widened640bytes allocate20."
+}

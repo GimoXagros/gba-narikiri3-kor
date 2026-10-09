@@ -1,0 +1,378 @@
+[
+  {
+    "review_id": "typed62-town-00",
+    "decision": "KEEP",
+    "bank": "0x75f474",
+    "resource_indices": [
+      58,
+      73
+    ],
+    "current_transcription": "고고학 연구소",
+    "recommended_korean": "고고학 연구소"
+  },
+  {
+    "review_id": "typed62-town-01",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      59,
+      74
+    ],
+    "current_transcription": "내일로가든",
+    "recommended_korean": "내일로 가든"
+  },
+  {
+    "review_id": "typed62-town-02",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      60,
+      75
+    ],
+    "current_transcription": "보안관사무소",
+    "recommended_korean": "보안관 사무소"
+  },
+  {
+    "review_id": "typed62-town-03",
+    "decision": "KEEP",
+    "bank": "0x75f474",
+    "resource_indices": [
+      61,
+      76
+    ],
+    "current_transcription": "나리키리 샵",
+    "recommended_korean": "나리키리 샵"
+  },
+  {
+    "review_id": "typed62-town-04",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      62,
+      77
+    ],
+    "current_transcription": "마호의잡화점",
+    "recommended_korean": "마호의 잡화점"
+  },
+  {
+    "review_id": "typed62-town-05",
+    "decision": "KEEP",
+    "bank": "0x75f474",
+    "resource_indices": [
+      63,
+      78
+    ],
+    "current_transcription": "벚꽃 식당",
+    "recommended_korean": "벚꽃 식당"
+  },
+  {
+    "review_id": "typed62-town-06",
+    "decision": "KEEP",
+    "bank": "0x75f474",
+    "resource_indices": [
+      64,
+      79
+    ],
+    "current_transcription": "래몽래인 호텔",
+    "recommended_korean": "래몽래인 호텔"
+  },
+  {
+    "review_id": "typed62-town-07",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      65,
+      80
+    ],
+    "current_transcription": "미나크루광장",
+    "recommended_korean": "미나클 광장"
+  },
+  {
+    "review_id": "typed62-town-08",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      66,
+      81
+    ],
+    "current_transcription": "숲의집회소",
+    "recommended_korean": "숲의 집회소"
+  },
+  {
+    "review_id": "typed62-town-09",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      67,
+      82
+    ],
+    "current_transcription": "동립도서관",
+    "recommended_korean": "마을 도서관"
+  },
+  {
+    "review_id": "typed62-town-10",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      68,
+      83
+    ],
+    "current_transcription": "레미유적 입구",
+    "recommended_korean": "레미 유적 입구"
+  },
+  {
+    "review_id": "typed62-town-11",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      69,
+      84
+    ],
+    "current_transcription": "남쪽큰다리",
+    "recommended_korean": "남쪽 큰 다리"
+  },
+  {
+    "review_id": "typed62-town-12",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      70,
+      85
+    ],
+    "current_transcription": "일출다리",
+    "recommended_korean": "일출 다리"
+  },
+  {
+    "review_id": "typed62-town-13",
+    "decision": "REVISE",
+    "bank": "0x75f474",
+    "resource_indices": [
+      71,
+      86
+    ],
+    "current_transcription": "석양다리",
+    "recommended_korean": "석양 다리"
+  },
+  {
+    "review_id": "typed62-town-14",
+    "decision": "KEEP",
+    "bank": "0x75f474",
+    "resource_indices": [
+      72,
+      87
+    ],
+    "current_transcription": "토끼 골목",
+    "recommended_korean": "토끼 골목"
+  },
+  {
+    "review_id": "typed62-title-copyright",
+    "decision": "KEEP",
+    "bank": "0x7b5888",
+    "resource_indices": [
+      7
+    ],
+    "current_transcription": "© 이노마타 무츠미 © 후지시마 코스케 / ©2000 2002 2004 NAMCO LTD., ALL RIGHTS RESERVED.",
+    "recommended_korean": "© 이노마타 무츠미 © 후지시마 코스케 / ©2000 2002 2004 NAMCO LTD., ALL RIGHTS RESERVED."
+  },
+  {
+    "review_id": "typed62-title-001",
+    "decision": "KEEP",
+    "bank": "0x7b5888",
+    "resource_indices": [
+      1
+    ],
+    "current_transcription": "테일즈 오브 더 월드 / 나리키리던전3",
+    "recommended_korean": "테일즈 오브 더 월드 / 나리키리던전3"
+  },
+  {
+    "review_id": "typed62-title-004",
+    "decision": "KEEP",
+    "bank": "0x7b5888",
+    "resource_indices": [
+      4
+    ],
+    "current_transcription": "처음부터",
+    "recommended_korean": "처음부터"
+  },
+  {
+    "review_id": "typed62-title-005",
+    "decision": "KEEP",
+    "bank": "0x7b5888",
+    "resource_indices": [
+      5
+    ],
+    "current_transcription": "계속하기",
+    "recommended_korean": "계속하기"
+  },
+  {
+    "review_id": "typed62-title-006",
+    "decision": "REVISE",
+    "bank": "0x7b5888",
+    "resource_indices": [
+      6
+    ],
+    "current_transcription": "중단시점부터",
+    "recommended_korean": "중단 시점부터"
+  },
+  {
+    "review_id": "typed62-menu-group-03",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      45,
+      46,
+      47
+    ],
+    "current_transcription": "특기 설정",
+    "recommended_korean": "특기 설정"
+  },
+  {
+    "review_id": "typed62-menu-group-04",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      45,
+      48
+    ],
+    "current_transcription": "특기 사용",
+    "recommended_korean": "특기 사용"
+  },
+  {
+    "review_id": "typed62-menu-group-05",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      49,
+      50,
+      51
+    ],
+    "current_transcription": "LR로 캐릭터 변경",
+    "recommended_korean": "LR로 캐릭터 변경"
+  },
+  {
+    "review_id": "typed62-menu-group-08",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      59,
+      60
+    ],
+    "current_transcription": "리더",
+    "recommended_korean": "리더"
+  },
+  {
+    "review_id": "typed62-menu-group-12",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      49,
+      83
+    ],
+    "current_transcription": "LR로 반전",
+    "recommended_korean": "LR로 반전"
+  },
+  {
+    "review_id": "typed62-menu-group-14",
+    "decision": "HOLD",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      84,
+      85
+    ],
+    "current_transcription": "ExAMIn…[후반 영문 글자 미확정]",
+    "recommended_korean": "통신 중"
+  },
+  {
+    "review_id": "typed62-menu-group-17",
+    "decision": "REVISE",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      97,
+      98
+    ],
+    "current_transcription": "PT보너스",
+    "recommended_korean": "PT 보너스"
+  },
+  {
+    "review_id": "typed62-menu-group-18",
+    "decision": "HOLD",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      49,
+      102,
+      103
+    ],
+    "current_transcription": "LR로 대형변경",
+    "recommended_korean": "LR로 순서 변경"
+  },
+  {
+    "review_id": "typed62-menu-072",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      72
+    ],
+    "current_transcription": "가격",
+    "recommended_korean": "가격"
+  },
+  {
+    "review_id": "typed62-menu-073",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      73
+    ],
+    "current_transcription": "소유",
+    "recommended_korean": "소유"
+  },
+  {
+    "review_id": "typed62-menu-099",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      99
+    ],
+    "current_transcription": "LEADER",
+    "recommended_korean": "LEADER"
+  },
+  {
+    "review_id": "typed62-menu-100",
+    "decision": "REVISE",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      100
+    ],
+    "current_transcription": "승리조건",
+    "recommended_korean": "승리 조건"
+  },
+  {
+    "review_id": "typed62-menu-101",
+    "decision": "REVISE",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      101
+    ],
+    "current_transcription": "패배조건",
+    "recommended_korean": "패배 조건"
+  },
+  {
+    "review_id": "typed62-menu-105",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      105
+    ],
+    "current_transcription": "예",
+    "recommended_korean": "예"
+  },
+  {
+    "review_id": "typed62-menu-107",
+    "decision": "KEEP",
+    "bank": "0xf1d734",
+    "resource_indices": [
+      107
+    ],
+    "current_transcription": "아니오",
+    "recommended_korean": "아니오"
+  }
+]

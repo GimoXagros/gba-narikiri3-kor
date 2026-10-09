@@ -1,0 +1,50 @@
+{
+  "status": "PROPOSAL_NOT_APPLIED_PENDING_ASTRA_TECHNICAL_DESIGN_REVIEW",
+  "immutable_base_sha256": "8207ba4bfa6721a59cfede08e3cab17fa13b2fe2013fa7d55cf07c330749b39f",
+  "source_bank": "0xf1d734",
+  "index": 52,
+  "source_old_start": "0xf27a40",
+  "source_old_actual_read_end": "0xf27abe",
+  "source_old_read_sha256": "16bf7d75595faabb9cc65be35da6eb56510d45d57789ca39412d4f5413a9bcb9",
+  "old_last_token": {
+    "offset": 15891132,
+    "output_at": 127,
+    "flag": 48,
+    "encoded_count": 49,
+    "copied_count": 1
+  },
+  "new_start": "0x1193dd4",
+  "new_end": "0x1193e54",
+  "strict_stored_bytes": 126,
+  "allocated_aligned_bytes": 128,
+  "decoded_bytes": 128,
+  "decoded_sha256": "fc9256a9fc431a0b090700bde06761675f33bd1d971ba8447af6ba2e1eae2d97",
+  "owner_certificate_sha256": "1793f49565f7eddedd2be109f614cd25c9a4974430a424f42a973396df7ad439",
+  "current_ownership_map_sha256": "b4f6bde53a87acb2e703de1c1291026e6cd89bd0d49c1479ad4dadad07e68742",
+  "writes": [
+    {
+      "writer": "strict-RLE52-object-in-certified-managed-tail",
+      "offset": 18431444,
+      "allowed_end": 18431572,
+      "expected_sha256": "e9175db65a9789096ca9cb5524d3abc2107df03e3c9ba3af1aca628f9c5d3bd2"
+    },
+    {
+      "writer": "bank-F1D734-index52-relative-pointer-only",
+      "offset": 15849480,
+      "allowed_end": 15849484,
+      "expected_sha256": "c9afd915f7507ffe4e446cd42dcaa4b67f135d33386610483145fac11ef66d41"
+    }
+  ],
+  "original_source_and_neighbor53_retained": true,
+  "new_buffer_or_code_or_RAM_allocator": false,
+  "new_text_pointer_or_semantic_change": false,
+  "rom_growth": 0,
+  "production_rom_written": false,
+  "can_compose_with_nonoverlapping_native_label_and_other_token_repairs": true,
+  "source_sha256": "adf6b0d55f6ed49b4092b2e05af01049b19db30a427b5d8763c502964dba6529",
+  "limits": [
+    "Only technical relocation proposal; final combined write-plan and native/group/runtime audit are separate.",
+    "Models BIOS strict decompression and allocator, executes original pointer-selection/loader Thumb code.",
+    "Preserves current exact mGBA displayed bytes, including inherited final0x40 pixel; does not silently redraw it."
+  ]
+}

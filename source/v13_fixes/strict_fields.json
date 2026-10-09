@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "status": "THREE_FINAL_LITERAL_COUNT_REPAIRS_EXACT_DECLARED_PIXELS_AND_OWNED_SPANS",
+  "baseline_sha256": "167323a79da8dddf64780b7ea706e44721c5cc647034300ee25239749547420c",
+  "resources": [
+    {
+      "index": 0,
+      "resource_start": "0xe72f54",
+      "original_declared_consumer_end": "0xe730fd",
+      "decoded_bytes": 512,
+      "stored_bytes": 425,
+      "expected_stream_sha256": "92e9d61ba0f1249fd5ba7976b799c2e02bfbb6654a6346a8407c39ee309a6c08",
+      "declared_pixels_sha256": "b7d3a6e302a4d5d11249b57b7ec28ff8a641558f913775134426ffaa5923c860",
+      "strict_stream_sha256": "43a2e323fd3d8c586b0408c20c70c50a046d3e78bc31481820c375efe27fc376",
+      "last_token": {
+        "offset": 15151335,
+        "output_at": 491,
+        "flag": 21,
+        "encoded_count": 22,
+        "copied_count": 21
+      },
+      "changes": [
+        {
+          "offset": "0xe730e7",
+          "expected": 21,
+          "payload": 20
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "resource_start": "0xe73294",
+      "original_declared_consumer_end": "0xe733b3",
+      "decoded_bytes": 512,
+      "stored_bytes": 287,
+      "expected_stream_sha256": "51779687bc17513817b83c8eb851515e8e0791378535e60eac73008c0e5c838d",
+      "declared_pixels_sha256": "d97917fa4e1a815faf5ce410ea1a10161b0b51e1106be1f9a4f4b8d3d455c91b",
+      "strict_stream_sha256": "7b75b99834fcead375c3cda022b6e91b2e388476e06923e5b724ec4f0e470e85",
+      "last_token": {
+        "offset": 15152034,
+        "output_at": 496,
+        "flag": 16,
+        "encoded_count": 17,
+        "copied_count": 16
+      },
+      "changes": [
+        {
+          "offset": "0xe733a2",
+          "expected": 16,
+          "payload": 15
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "resource_start": "0xe73428",
+      "original_declared_consumer_end": "0xe735d9",
+      "decoded_bytes": 512,
+      "stored_bytes": 433,
+      "expected_stream_sha256": "b06844cd89901cedea891ee664fd65ff60d3fc7431978447c0e558a1dc578cf5",
+      "declared_pixels_sha256": "afaa3a20c3c66d2c069086c4e8ff479342ff6447c31e5527cdc0b77f3b056f5d",
+      "strict_stream_sha256": "ce67476449cf4c32f503f20a33f437890d8c57935f36710bcb5efa4e59346f30",
+      "last_token": {
+        "offset": 15152579,
+        "output_at": 491,
+        "flag": 21,
+        "encoded_count": 22,
+        "copied_count": 21
+      },
+      "changes": [
+        {
+          "offset": "0xe735c3",
+          "expected": 21,
+          "payload": 20
+        }
+      ]
+    }
+  ],
+  "scope": "Only three final flags; each removes the extra literal byte beyond the declared512. No sprite/action/palette/descriptor/allocation change."
+}

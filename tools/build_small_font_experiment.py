@@ -17,12 +17,15 @@ def main():
     p.add_argument('--actors',type=Path)
     p.add_argument('--default-names',type=Path)
     p.add_argument('--simple-hook',action='store_true')
+    p.add_argument('--hook-source-dir',type=Path,default=ROOT/'source')
     p.add_argument('--lexicon',type=Path)
     p.add_argument('--ui',type=Path)
     p.add_argument('--small-tables',type=Path)
     p.add_argument('--dialogue-fixes',type=Path)
     p.add_argument('--deduplicate-dialogue',action='store_true')
     p.add_argument('--dialogue-pool',choices=['original','review'],default='original')
+    p.add_argument('--tone-profile',type=Path)
+    p.add_argument('--tone-baseline',type=Path)
     p.add_argument('--recipes',type=Path)
     p.add_argument('--battle-captions',type=Path)
     p.add_argument('--name-keyboard',action='store_true')
@@ -42,6 +45,9 @@ def main():
     p.add_argument('--inspect-eye',action='store_true')
     p.add_argument('--element-symbols',action='store_true')
     a=p.parse_args();j=a.j.read_bytes();ips=a.ips.read_bytes()
+    if bool(a.tone_profile) != bool(a.tone_baseline):p.error('--tone-profile and --tone-baseline are required together')
+    if a.tone_profile and (not a.dialogue_fixes or a.dialogue_pool!='review' or not a.deduplicate_dialogue):
+        p.error('Tone profile requires the established review pool and exact-byte deduplication')
     if sha(j)!=J or sha(ips)!=IPS:raise ValueError('Unsupported input')
     legacy=bytearray(j);records,trunc=ips_records(ips)
     if trunc:raise ValueError('Unexpected truncate')
@@ -55,10 +61,10 @@ def main():
         # Only diagnostics are decoded; machine artifacts remain binary.
         result=subprocess.run([str(a.toolchain/(f'arm-none-eabi-{program}.exe')),*map(str,args)],check=True,capture_output=True)
         return result.stdout.decode('utf-8',errors='backslashreplace')
-    run('as',['-mcpu=arm7tdmi','-mthumb',ROOT/'source/small_font_hook.s','-o',a.out/'hook.o'])
+    run('as',['-mcpu=arm7tdmi','-mthumb',a.hook_source_dir/'small_font_hook.s','-o',a.out/'hook.o'])
     objects=[a.out/'hook.o']
     if a.simple_hook:
-        run('as',['-mcpu=arm7tdmi','-mthumb',ROOT/'source/simple_font_hook.s','-o',a.out/'simple-hook.o'])
+        run('as',['-mcpu=arm7tdmi','-mthumb',a.hook_source_dir/'simple_font_hook.s','-o',a.out/'simple-hook.o'])
         objects.append(a.out/'simple-hook.o')
     run('ld',['-Ttext=0x09000000','-e','small_font_hook',*objects,'-o',a.out/'hook.elf'])
     run('objcopy',['-O','binary','--only-section=.text',a.out/'hook.elf',a.out/'hook.bin'])
@@ -257,7 +263,14 @@ def main():
         cursor,limit=DIALOGUE_POOLS[a.dialogue_pool]
         if extension[cursor:limit]!=b'\xff'*(limit-cursor):raise ValueError('Dialogue pool already occupied')
         linked={}
-        for identity,offset,encoded in dialogue_selections(profile,catalog,j,legacy):
+        chosen=dialogue_selections(profile,catalog,j,legacy)
+        if a.tone_profile:
+            from tone_text import selections as tone_selections
+            tone=json.loads(a.tone_profile.read_text(encoding='utf-8'))
+            chosen.extend(tone_selections(tone,j,legacy,a.tone_baseline.read_bytes()))
+        offsets=[offset for _,offset,_ in chosen]
+        if len(offsets)!=len(set(offsets)):raise ValueError('Tone/review dialogue binding collision')
+        for identity,offset,encoded in chosen:
             if not a.deduplicate_dialogue or encoded not in linked:
                 cursor=(cursor+3)&~3
                 if cursor+len(encoded)>limit:raise ValueError('Dialogue correction allocation exceeded')
@@ -392,7 +405,7 @@ def main():
     (a.out/identity['rom_file']).write_bytes(out)
     report=dict(status='EXPERIMENT_NOT_RELEASE',target_sha256=sha(out),base_sha256=J,legacy_sha256=K,
         font_glyphs=len(glyphs),speaker_entries=speaker_count,skill_entries=skill_count,large_skill_repairs=large_repairs,actor_entries=actor_count,large_actor_changes=actor_large,lexicon_entries=lexicon_counts,ui_entries=ui_count,code_size=len(code),extension_size=len(extension),extension_sha256=sha(extension),writes=expected,
-        inputs={str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p):sha(p.read_bytes()) for p in [a.glyphs,ROOT/'source/small_font_hook.s',*([a.speakers] if a.speakers else []),*([a.skills] if a.skills else []),*([a.actors] if a.actors else []),*([a.default_names,ROOT/'source/name_import.s'] if a.default_names else []),*([ROOT/'source/simple_font_hook.s'] if a.simple_hook else []),*([a.lexicon] if a.lexicon else [])]},
+        inputs={str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p):sha(p.read_bytes()) for p in [a.glyphs,a.hook_source_dir/'small_font_hook.s',*([a.speakers] if a.speakers else []),*([a.skills] if a.skills else []),*([a.actors] if a.actors else []),*([a.default_names,ROOT/'source/name_import.s'] if a.default_names else []),*([a.hook_source_dir/'simple_font_hook.s'] if a.simple_hook else []),*([a.lexicon] if a.lexicon else [])]},
         limits=['124 active cached glyphs; remaining consumer paths and lifetime unverified','exhaustion deliberately emits ? as visible development failure','player-created names follow a separate path','32MB expansion requires target-device verification'])
     if a.ui:
         for path in [a.ui,ROOT/'source/ui_profile.json',ROOT/'tools/ui_text.py']:
@@ -402,6 +415,8 @@ def main():
     report['dialogue_corrections']=dialogue_count
     report['dialogue_exact_byte_deduplication']=a.deduplicate_dialogue
     report['dialogue_pool']=a.dialogue_pool
+    report['tone_profile']=str(a.tone_profile.resolve()) if a.tone_profile else None
+    report['tone_corrections']=len(tone['changes']) if a.tone_profile else 0
     report['recipe_string_fields']=recipe_count
     report['battle_caption_sprites']=caption_count
     report['name_keyboard']=keyboard_info
@@ -479,6 +494,9 @@ def main():
             report['inputs'][str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path)]=sha(path.read_bytes())
     if a.dialogue_fixes:
         for path in [a.dialogue_fixes,ROOT/'source/dialogue_fixes.json',ROOT/'tools/dialogue_text.py']:
+            report['inputs'][str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path)]=sha(path.read_bytes())
+    if a.tone_profile:
+        for path in [a.tone_profile.resolve(),a.tone_baseline.resolve(),ROOT/'tools/tone_text.py']:
             report['inputs'][str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path)]=sha(path.read_bytes())
     if a.small_tables:
         for path in [a.small_tables,ROOT/'source/small_tables.json',ROOT/'tools/small_table_text.py']:

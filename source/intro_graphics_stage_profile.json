@@ -1,0 +1,968 @@
+{
+  "schema": 1,
+  "revision": "UNIFORM_FAITHFUL12X12_CROP_V3",
+  "purpose": "GRAPHICS_STAGE_CONTROL development artifact; frozen V3 intro and human-approved shared original symbols; pending full language integration",
+  "baseline_sha256": "4c77deb68942d863642d2404202b4e1555b25f25f075a75fc3f43452a468151f",
+  "japanese_sha256": "d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394",
+  "baseline_bytes": 33554432,
+  "proposal_sha256": "87d8a5e2643254517c037464aa68a7697867d3ab1903994fde75f9a50eb45751",
+  "large_font_offset": "0xddcc4",
+  "large_font_end": "0x1000c4",
+  "large_font_sha256": "4c9a71974f36e844a851e8c5274bcb3f5c5f824bf9ca71818fabcfbcab4b227f",
+  "cards": [
+    {
+      "card": 1,
+      "source_id": "intro-card-1",
+      "rom_offset": "0x74d160",
+      "pointer_field": "0x74d14c",
+      "ko_readable": "테일즈 오브 시리즈라고 불리는\n수많은 영웅 전설이\n전해 내려오는 세계",
+      "ko_rom_lines": [
+        "테일즈 오브 시리즈라고 불리는",
+        "수많은 영웅 전설이",
+        "전해 내려오는 세계"
+      ],
+      "line_y": [
+        5,
+        26,
+        47
+      ],
+      "allocation_end": "0x74dcb8",
+      "allocation_sha256": "7370df2d1f831f87907d9fd01aeebd4f84830c8a02362f525fa44f677b17e6a5",
+      "payload_bytes": 2625,
+      "payload_sha256": "a2cfc9729ef1895e3df662e59ab78773a0b0c1c6aa2e4ec751719c075ffd2a3d",
+      "decoded_sha256": "f645834a9dd2b1943096845cd637961dc21b797c2734eba53f7997f740f6cf66"
+    },
+    {
+      "card": 2,
+      "source_id": "intro-card-2",
+      "rom_offset": "0x74dcb8",
+      "pointer_field": "0x74d150",
+      "ko_readable": "그 세계 한편에 있는 미나클 마을.\n수년 전 지진 이후, 마을 외곽에서\n초고대 문명의 유적이 우연히 발견되었다.",
+      "ko_rom_lines": [
+        "그 세계 한편에 있는 미나클 마을.",
+        "수년 전 지진 이후,",
+        "마을 외곽에서 초고대 문명의",
+        "유적이 우연히 발견되었다."
+      ],
+      "line_y": [
+        2,
+        18,
+        34,
+        50
+      ],
+      "allocation_end": "0x74ec15",
+      "allocation_sha256": "349e7741bd2bfa324fe5dbb65b38a79d11ebc5fcb9df9013b56391ada07ea5ff",
+      "payload_bytes": 3882,
+      "payload_sha256": "48a2b65f8837a843bf86e01167040b1a84d1f738c2bf0da97250e0e3deb21c26",
+      "decoded_sha256": "2b8df7120020f283749446bbbedf9aa5250aa263da767d7d5dd5fa6f7e8a9585"
+    },
+    {
+      "card": 3,
+      "source_id": "intro-card-3",
+      "rom_offset": "0x74ec18",
+      "pointer_field": "0x74d154",
+      "ko_readable": "발굴 조사의 중심인물은 브라운 박사.\n박사의 조수는 전설의 영웅들을\n동경하는 밝고 건강한 소년과 소녀.",
+      "ko_rom_lines": [
+        "발굴 조사의 중심인물은",
+        "브라운 박사.",
+        "박사의 조수는 전설의 영웅들을",
+        "동경하는 밝고 건강한 소년과 소녀."
+      ],
+      "line_y": [
+        2,
+        18,
+        34,
+        50
+      ],
+      "allocation_end": "0x74fb40",
+      "allocation_sha256": "0df8d79344b0e45ee7c30e941c3b8732090a716c421d01f616de764b7f201ddf",
+      "payload_bytes": 3726,
+      "payload_sha256": "8883fb1dfc5145b64b3708df0b5fdfeccf1b18f83b392b977982dfb8a39d5074",
+      "decoded_sha256": "35c3dd5da01530aefbec075633090d6abb776fc153b2570058427e68573b5edf"
+    },
+    {
+      "card": 4,
+      "source_id": "intro-card-4",
+      "rom_offset": "0x74fb40",
+      "pointer_field": "0x74d158",
+      "ko_readable": "박사의 연구소에서는 유적에서 발굴된\n신비한 장치의 수리가 진행 중이다.\n이제 곧 수리가 끝날 것 같다.",
+      "ko_rom_lines": [
+        "박사의 연구소에서는",
+        "유적에서 발굴된 신비한 장치의",
+        "수리가 진행 중이다.",
+        "이제 곧 수리가 끝날 것 같다."
+      ],
+      "line_y": [
+        2,
+        18,
+        34,
+        50
+      ],
+      "allocation_end": "0x7509de",
+      "allocation_sha256": "6ba1507a3bff82d34a37ec59b789f7ba2d3d7f5bba867b058aae4053f46b0e0c",
+      "payload_bytes": 3708,
+      "payload_sha256": "f36b2ab99f0e0eb9ee0b6391abf7da51a6fc4c561de3de4e906225b9a766fada",
+      "decoded_sha256": "fd0f47b525fc6d190235d37f875d96b3f1f061ddc15bf507eb8d052de1867c31"
+    }
+  ],
+  "glyphs": {
+    "테": {
+      "large_font_slot": 2742,
+      "rom_offset": "0xf3384",
+      "source_12x16_sha256": "2e36e595bdac7bc6a6cc50d228404ebea5a046c94684b78d874ce6205299fe06",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 43,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "일": {
+      "large_font_slot": 2253,
+      "rom_offset": "0xef664",
+      "source_12x16_sha256": "c51a82f5a733c61b9cd7a9cb53c7653d1c3d9d1df060fb6b0368a12491d746f2",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 45,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "즈": {
+      "large_font_slot": 2382,
+      "rom_offset": "0xf0684",
+      "source_12x16_sha256": "e853879f95c5e527a91ce0f288b3c364f2589663665687432dec86bf7533916e",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 27,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "오": {
+      "large_font_slot": 2143,
+      "rom_offset": "0xee8a4",
+      "source_12x16_sha256": "de08e2e6404eea9ed7ca8980f8cadda4df90716000849e896111a9ba0231ebc6",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 29,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "브": {
+      "large_font_slot": 1704,
+      "rom_offset": "0xeb1c4",
+      "source_12x16_sha256": "2b0e4618a6a520137b1b2f780ba4b9fa06799b0bb153375afaefb58ded6ac388",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 34,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "시": {
+      "large_font_slot": 1954,
+      "rom_offset": "0xed104",
+      "source_12x16_sha256": "9c78ca980dccf0fdbd9a3c88ebd74800aebf41c90f4e9b0f5a21a66a378b47c2",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 26,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "리": {
+      "large_font_slot": 1452,
+      "rom_offset": "0xe9244",
+      "source_12x16_sha256": "bcb7cfdd9617b8acf8f9261d75d934ab6605f843a379c947fe6b8645ae0da39b",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 37,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "라": {
+      "large_font_slot": 1329,
+      "rom_offset": "0xe82e4",
+      "source_12x16_sha256": "8970d765992b9211d53132106b171de849768752b57007599007b2b64e84cbed",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 39,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "고": {
+      "large_font_slot": 747,
+      "rom_offset": "0xe3a24",
+      "source_12x16_sha256": "6be02e4ff538c3ef693c748a87af24c06ae271ea6f846314dcd3ac9bd2420545",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 30,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "불": {
+      "large_font_slot": 1680,
+      "rom_offset": "0xeaec4",
+      "source_12x16_sha256": "22635015e9ec999594885118f7fe55a6ef842d88a7fe65621b6f3babf0804eaf",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 57,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "는": {
+      "large_font_slot": 1088,
+      "rom_offset": "0xe64c4",
+      "source_12x16_sha256": "26c6f05b68d93ba789af3e608bfafcdb38826a680d2d77828304a5cc22391740",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 30,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "수": {
+      "large_font_slot": 1908,
+      "rom_offset": "0xecb44",
+      "source_12x16_sha256": "dd093a78dfdd3432d329c85591e7e77d01c70df86fa414f2a8ddf926e0783128",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 23,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "많": {
+      "large_font_slot": 1463,
+      "rom_offset": "0xe93a4",
+      "source_12x16_sha256": "65e355755c0e0f39cf956657d050a7816fb559823b4883fbe9b13d3549adc8b1",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 46,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "은": {
+      "large_font_slot": 2232,
+      "rom_offset": "0xef3c4",
+      "source_12x16_sha256": "1e313bc4463064ba7ae3033104770327243f5799b6d97bc7877c20fa487a2804",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 36,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "영": {
+      "large_font_slot": 2132,
+      "rom_offset": "0xee744",
+      "source_12x16_sha256": "f797a0576d4019d3ada6329598e0058b2f84cbfa02f6e305227bb0cd5e40de11",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 40,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "웅": {
+      "large_font_slot": 2197,
+      "rom_offset": "0xeef64",
+      "source_12x16_sha256": "2dc5cb6894cac5c64a762616c8e991e13aa87a8ac2a218a66403e97180147277",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 43,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "전": {
+      "large_font_slot": 2298,
+      "rom_offset": "0xefc04",
+      "source_12x16_sha256": "285749be32de86a9a2fbd548c574d663e37215cefa807e6d75517ac2831b23e1",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 36,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "설": {
+      "large_font_slot": 1841,
+      "rom_offset": "0xec2e4",
+      "source_12x16_sha256": "c967ce8f37d73337f5e8e3fecd8e21fc6e056a554e9c1f9e15a39e7784a40a42",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 43,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "이": {
+      "large_font_slot": 2250,
+      "rom_offset": "0xef604",
+      "source_12x16_sha256": "f6eecf35411901c1f3ab24b117c6ee0bc26dbe58faa48fe4d300914f64650bce",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 35,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "해": {
+      "large_font_slot": 2935,
+      "rom_offset": "0xf4ba4",
+      "source_12x16_sha256": "816158a7b0ea37fca27d1c04c7df6eec3ce8f51699f2d0add2b43b24cef1edfe",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 43,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "내": {
+      "large_font_slot": 986,
+      "rom_offset": "0xe5804",
+      "source_12x16_sha256": "9698fa13c5009888dfc5562eb2f0898f4452afdb63991d7661bc1746caf9f4fe",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 37,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "려": {
+      "large_font_slot": 1376,
+      "rom_offset": "0xe88c4",
+      "source_12x16_sha256": "c22bc24a5a4a3880a022ac47a16ae99406a2326e81dd9f4484b9113d5f649e5f",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 41,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "세": {
+      "large_font_slot": 1850,
+      "rom_offset": "0xec404",
+      "source_12x16_sha256": "cf3fe9c2c8d41d07c398ece2b735c4daa38fa3433869c12258ebd145e41a533a",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 39,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "계": {
+      "large_font_slot": 742,
+      "rom_offset": "0xe3984",
+      "source_12x16_sha256": "b96abdb41db589d829f52dce61184d40e9306359216bd235cd310d674d099fe9",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 39,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "그": {
+      "large_font_slot": 822,
+      "rom_offset": "0xe4384",
+      "source_12x16_sha256": "b4072a08f4077807c7a864d2194009193ba05e370a6ac5e9242bd8fd37495a5b",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 26,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "한": {
+      "large_font_slot": 2928,
+      "rom_offset": "0xf4ac4",
+      "source_12x16_sha256": "08cbc90d708b652a6dd24b603a4364eeeac0c1c6ff6aa4a74755123c7e38fbcb",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 39,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "편": {
+      "large_font_slot": 2859,
+      "rom_offset": "0xf4224",
+      "source_12x16_sha256": "343d9e460abca74f0e001a359a78dbf191e5da42a0af347c36d4ee4195d016fc",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 45,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "에": {
+      "large_font_slot": 2112,
+      "rom_offset": "0xee4c4",
+      "source_12x16_sha256": "01dcef7290743f0b5a2724473fd8aa9ba119d77979fc074375b8de82c4a06e75",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 44,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "있": {
+      "large_font_slot": 2260,
+      "rom_offset": "0xef744",
+      "source_12x16_sha256": "f331a6d936d269a1cab04750eeaf2e4737ef4164aeb9b89475ea2d2137a48d60",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 32,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "미": {
+      "large_font_slot": 1579,
+      "rom_offset": "0xea224",
+      "source_12x16_sha256": "fbe5472a4411360776ce000dc68e872c3b5c74352a3fee4e90306367e6db51d5",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 39,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "나": {
+      "large_font_slot": 969,
+      "rom_offset": "0xe55e4",
+      "source_12x16_sha256": "fb4a3f87c265a192e8cf05d18490e9120e2798bdf51546afc61eb5d4c5a32177",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 29,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "클": {
+      "large_font_slot": 2699,
+      "rom_offset": "0xf2e24",
+      "source_12x16_sha256": "85dfa49e918ea195f44c55a7b68dfe3912daf758924722eb95672589ae846857",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 54,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "마": {
+      "large_font_slot": 1460,
+      "rom_offset": "0xe9344",
+      "source_12x16_sha256": "0f3a4c1a6b7d6c0771dcba896c2b6f5a4758a61546e0371d0fc713a4ae2cd4d8",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 41,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "을": {
+      "large_font_slot": 2233,
+      "rom_offset": "0xef3e4",
+      "source_12x16_sha256": "08a1864ed3c75927cf73f2c0966dc3b187766563d93bdb48c43c6754d23b6aeb",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 50,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    ".": {
+      "large_font_slot": 2,
+      "rom_offset": "0xddd04",
+      "source_12x16_sha256": "71a95fbb25cf9a78579f03b689ae3c1b87f839d3d34bea203e74744246cc57f1",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 4,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "년": {
+      "large_font_slot": 1026,
+      "rom_offset": "0xe5d04",
+      "source_12x16_sha256": "49a5f9a255d35e34b4ea81571174658de731cc831f0c0e7d22123c41398c677b",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 36,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "지": {
+      "large_font_slot": 2390,
+      "rom_offset": "0xf0784",
+      "source_12x16_sha256": "29b1e4d869c23fd2d3d6cf563e98fe109f08ccffcc571e4d741e13a4ae32fbfd",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 32,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "진": {
+      "large_font_slot": 2392,
+      "rom_offset": "0xf07c4",
+      "source_12x16_sha256": "7dac64e85cf322a31428fa24f2f28fc338a93664742c0f40a319b60597bf3236",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 34,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "후": {
+      "large_font_slot": 3010,
+      "rom_offset": "0xf5504",
+      "source_12x16_sha256": "36ea87efb88b683734c70a29617f76063b1a0f6f8128794a8ef1530579f6b408",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 40,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    ",": {
+      "large_font_slot": 1,
+      "rom_offset": "0xddce4",
+      "source_12x16_sha256": "0e144928c9c649aceace5901aec31d6c6403993e55f281103b3c686f3e124027",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 4,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "외": {
+      "large_font_slot": 2171,
+      "rom_offset": "0xeec24",
+      "source_12x16_sha256": "7f6b0bd180908883c76cac3d0d386244a6b820e5cee470b3c4422f054a50dd82",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 36,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "곽": {
+      "large_font_slot": 761,
+      "rom_offset": "0xe3be4",
+      "source_12x16_sha256": "49d2dcaa46a17cdccc6c8d947499b8ceb48d09aa14aa2456904d96d99e998844",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 38,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "서": {
+      "large_font_slot": 1835,
+      "rom_offset": "0xec224",
+      "source_12x16_sha256": "610f18cadc597aa4c12a6f8184d17a902d4530156fe9ed1e6676028d82daee12",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 28,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "초": {
+      "large_font_slot": 2537,
+      "rom_offset": "0xf19e4",
+      "source_12x16_sha256": "49712f4f880f1c4d295b3e078b0bff82414f55350a66d409d564a91b11e4a54e",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 30,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "대": {
+      "large_font_slot": 1129,
+      "rom_offset": "0xe69e4",
+      "source_12x16_sha256": "d5f60d87f6a74f59c456acf8b8dddb7715ebb3fa8e880d1d2cf5f98410d72c4b",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 40,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "문": {
+      "large_font_slot": 1549,
+      "rom_offset": "0xe9e64",
+      "source_12x16_sha256": "3dfa2fd9d85fad0ec6363d6f129269bcd76a43a96fb99c1333d0913a8b7b8504",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 42,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "명": {
+      "large_font_slot": 1515,
+      "rom_offset": "0xe9a24",
+      "source_12x16_sha256": "6966cd9c802c6af7be22293ffcada87b8db0912a6997bffb00007c59dacec6c4",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 44,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "의": {
+      "large_font_slot": 2245,
+      "rom_offset": "0xef564",
+      "source_12x16_sha256": "452259057b5ac439fe4d32bb76792070cd1cf9dacc6aa4089fcab7b62001bd21",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 33,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "유": {
+      "large_font_slot": 2221,
+      "rom_offset": "0xef264",
+      "source_12x16_sha256": "ff780060b14971f40164c62933d4e9dffa85b1b2de2675d103d8ffb74c0b62dd",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 34,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "적": {
+      "large_font_slot": 2297,
+      "rom_offset": "0xefbe4",
+      "source_12x16_sha256": "c2e3477cf1521e6b9bdbaacb0f7054f25d726b89347dad0e92d8c2f24be9d576",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 34,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "우": {
+      "large_font_slot": 2188,
+      "rom_offset": "0xeee44",
+      "source_12x16_sha256": "9f1f51cb3aea6e72885e58360039a1813520ec18ad550e04ee44dc94326d94a7",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 31,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "연": {
+      "large_font_slot": 2123,
+      "rom_offset": "0xee624",
+      "source_12x16_sha256": "48ef3fc48154db10cb5c6515d53b3c91753c771030fc9dd4bddfc1623bcab4f4",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 38,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "히": {
+      "large_font_slot": 3061,
+      "rom_offset": "0xf5b64",
+      "source_12x16_sha256": "e56be90cd2dacd6d4997f113e99d2c017f27cfa4346c6d1c5da5645c0b6a2dba",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 35,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "발": {
+      "large_font_slot": 1598,
+      "rom_offset": "0xea484",
+      "source_12x16_sha256": "05ad046c28a9d57dcd22bc4c5e07ae69f2da3fbc4f51786e2f66ebe365c8c507",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 51,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "견": {
+      "large_font_slot": 733,
+      "rom_offset": "0xe3864",
+      "source_12x16_sha256": "9fa60e14206cd850418666c39320906bfa1199a3d319c1850490eba66aed8d25",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 37,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "되": {
+      "large_font_slot": 1190,
+      "rom_offset": "0xe7184",
+      "source_12x16_sha256": "676b3659cd72880fa372e695fef7e375a7ad0194d476771ececbc17375708ea8",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 37,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "었": {
+      "large_font_slot": 2104,
+      "rom_offset": "0xee3c4",
+      "source_12x16_sha256": "553167e7f1f6fb84b827c18b4f68caa35831dc6342f4f481faf1882ab29027ed",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 34,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "다": {
+      "large_font_slot": 1111,
+      "rom_offset": "0xe67a4",
+      "source_12x16_sha256": "0349ff513283006dc1aa3e34e1a7f0dd36a5610ab071a075f6933920faad1707",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 34,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "굴": {
+      "large_font_slot": 795,
+      "rom_offset": "0xe4024",
+      "source_12x16_sha256": "406ed8d41ade7fdb49cbb3b74d50ab33f6ba478b778853d9eab08353d16b5c8c",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 48,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "조": {
+      "large_font_slot": 2325,
+      "rom_offset": "0xeff64",
+      "source_12x16_sha256": "ae1a35863c785ccadb8e1482e256e9f81e4c6416b83608764880ca2910766cc4",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 30,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "사": {
+      "large_font_slot": 1799,
+      "rom_offset": "0xebda4",
+      "source_12x16_sha256": "c2b290581e8b4894afa9530dc88bca6904ba9f2c82c638c5729b95f1d8c10645",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 28,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "중": {
+      "large_font_slot": 2366,
+      "rom_offset": "0xf0484",
+      "source_12x16_sha256": "40bd3a54fe11542069396e70bc00d8ea7ddac3130e06f5c62bbf1f97d1d1cd08",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 43,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "심": {
+      "large_font_slot": 1960,
+      "rom_offset": "0xed1c4",
+      "source_12x16_sha256": "375cff8f9841fae3d4c8087494445d017613b2f616c74d71c30830d063c7f6b0",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 35,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "인": {
+      "large_font_slot": 2252,
+      "rom_offset": "0xef644",
+      "source_12x16_sha256": "55df057ef82efe4709019b3c683cc0ddb9a942c5469a501ec2483361b2f225cf",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 34,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "물": {
+      "large_font_slot": 1551,
+      "rom_offset": "0xe9ea4",
+      "source_12x16_sha256": "bb774bb1514f9f5ea98476c646be394674dbe891a07a1348982e1531631579a6",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 55,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "운": {
+      "large_font_slot": 2190,
+      "rom_offset": "0xeee84",
+      "source_12x16_sha256": "a0a1f381ca3790395a29e5c312e9b98523584d1adfd1da419f46a4d5a1447409",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 38,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "박": {
+      "large_font_slot": 1593,
+      "rom_offset": "0xea3e4",
+      "source_12x16_sha256": "ab34923feafd9f8f742b08afce3da748cce1a52efcaa33bcf55a2417b7bd9421",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 39,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "들": {
+      "large_font_slot": 1225,
+      "rom_offset": "0xe75e4",
+      "source_12x16_sha256": "71c3e92e1a733d280945c0b398121f503405d04db9abbbb91c669bd183040beb",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 53,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "동": {
+      "large_font_slot": 1182,
+      "rom_offset": "0xe7084",
+      "source_12x16_sha256": "3da39c293b4478a3c7867287f57b79108cd355bbdd4dda774eab577ec3e061e9",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 45,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "경": {
+      "large_font_slot": 740,
+      "rom_offset": "0xe3944",
+      "source_12x16_sha256": "d82ef201861d23c91102bc333e25674a93811126b15364e0b50a8f8ed61d3906",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 40,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "하": {
+      "large_font_slot": 2926,
+      "rom_offset": "0xf4a84",
+      "source_12x16_sha256": "520b9e55d5675857eca8f47d8ff63a8c5011495785440a4dba1e478b3379a127",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 37,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "밝": {
+      "large_font_slot": 1600,
+      "rom_offset": "0xea4c4",
+      "source_12x16_sha256": "d3509c7c713f5c1e720e08671e5e8a1636b15a7fbc9fbb9c8af8bd3033aa200d",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 48,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "건": {
+      "large_font_slot": 709,
+      "rom_offset": "0xe3564",
+      "source_12x16_sha256": "8091b2742203e79c8923a8c6c88beaa1982bc18bc2712d73dbf2214a1f1719d8",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 34,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "강": {
+      "large_font_slot": 683,
+      "rom_offset": "0xe3224",
+      "source_12x16_sha256": "645de3e46ed105747b93b5d5f690281d5592d00e6f821c00b0b807f86ac2ea90",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 37,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "소": {
+      "large_font_slot": 1872,
+      "rom_offset": "0xec6c4",
+      "source_12x16_sha256": "2d902689119799a72ea8147fe9569ef9b01161e41265387a6f3e1f24ea5fb712",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 24,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "과": {
+      "large_font_slot": 760,
+      "rom_offset": "0xe3bc4",
+      "source_12x16_sha256": "56366f1ffadb4e3476c3fcc2998301b47a4005760d287a1a32d79c42528522aa",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 38,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "녀": {
+      "large_font_slot": 1024,
+      "rom_offset": "0xe5cc4",
+      "source_12x16_sha256": "0cb6ed43ce51254d38e966aaa7603efa0a6ae528b4bb201f73757149d74dc7de",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 33,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "구": {
+      "large_font_slot": 791,
+      "rom_offset": "0xe3fa4",
+      "source_12x16_sha256": "39d6b5f55b6814847efef0a9ca78c452989abed2e7a5aabb5608394981e75ea3",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 27,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "된": {
+      "large_font_slot": 1191,
+      "rom_offset": "0xe71a4",
+      "source_12x16_sha256": "026e90cf7cc369f77d03fed9a0677880bec2d7f97a17e9541bd39680b3878018",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 41,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "신": {
+      "large_font_slot": 1956,
+      "rom_offset": "0xed144",
+      "source_12x16_sha256": "34405a4f347e049e5ade46d19fcaebcee76aa762c9e3e0e867894be834238571",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 28,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "비": {
+      "large_font_slot": 1711,
+      "rom_offset": "0xeb2a4",
+      "source_12x16_sha256": "41a59402cd0c75b3ed4e13b834b76cd15dbaaf0c6e95a7ae56f007ccda5caedf",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 39,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "장": {
+      "large_font_slot": 2275,
+      "rom_offset": "0xef924",
+      "source_12x16_sha256": "d311edb494bcaf647dfe1bb04e122f3befecd068d32e95e9e222acde6b89bec0",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 39,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "치": {
+      "large_font_slot": 2591,
+      "rom_offset": "0xf20a4",
+      "source_12x16_sha256": "ee099331af1bbbfe35cba4c331045a20fcb6a658259b8a7a118d356256239ca9",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 32,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "가": {
+      "large_font_slot": 671,
+      "rom_offset": "0xe30a4",
+      "source_12x16_sha256": "3d7231856783d065eb9b57161a0c9b78fa8bb930600c343da8d63369233e0f28",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 29,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "행": {
+      "large_font_slot": 2944,
+      "rom_offset": "0xf4cc4",
+      "source_12x16_sha256": "d9ce1c1f5c1e6fb122ba0d60f3cda2c920488e2b40241f6f17599a53083ef8fc",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 45,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "제": {
+      "large_font_slot": 2309,
+      "rom_offset": "0xefd64",
+      "source_12x16_sha256": "98616dff50e1707f53db1eef371ab3359100d91bbdc3d6edd5eba9c2834009a9",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 42,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "곧": {
+      "large_font_slot": 750,
+      "rom_offset": "0xe3a84",
+      "source_12x16_sha256": "8edcc7e0cb580ce1a9e6f4d6a13c91f950b08195b6b3a4054fbd64efaac779e7",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 42,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "끝": {
+      "large_font_slot": 960,
+      "rom_offset": "0xe54c4",
+      "source_12x16_sha256": "faad5694f74e90805e5ec438caa8b0b187330426d2e878960efe988e1a4e8a50",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 49,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "날": {
+      "large_font_slot": 974,
+      "rom_offset": "0xe5684",
+      "source_12x16_sha256": "f72d18122ddbb0e167821933ec6b4cd853d630bf98f6598e7839d83033a06b2c",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 44,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "것": {
+      "large_font_slot": 715,
+      "rom_offset": "0xe3624",
+      "source_12x16_sha256": "7a8291564ed04170bdbd4b1ed476350f9ac64ba558d6c9975c08815d218bc8d8",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 32,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    },
+    "같": {
+      "large_font_slot": 686,
+      "rom_offset": "0xe3284",
+      "source_12x16_sha256": "dd2b0d4e04263bcf2cf8b21d5289781561956899ca5808a2f1a9f0ea6f572d1f",
+      "transform": "Exact top12x12 crop of inherited12x16 font. Bottom4 rows blank; no source ink removed or resampled. All Hangul advance12; punctuation advance4. One-pixel cardinal outline.",
+      "source_ink_exactly_preserved": true,
+      "source_ink_pixels": 47,
+      "status": "FAITHFUL_SOURCE_CROP_STATIC_LAYOUT_PASS_RUNTIME_PENDING"
+    }
+  },
+  "protected_ranges": [
+    {
+      "start": "0x74d148",
+      "end": "0x74d160",
+      "purpose": "intro bank",
+      "sha256": "1c7358adf8d52e6f1e8ccd8c69db833daaa60cec9efb26e24f005374ddccdb10"
+    },
+    {
+      "start": "0x7509e0",
+      "end": "0x750a00",
+      "purpose": "intro palette",
+      "sha256": "34c466131390469d8329613856b6c8a1e4f55c266f19bf519ec18d570d994397"
+    },
+    {
+      "start": "0xa82e0",
+      "end": "0xa83e8",
+      "purpose": "intro initializer",
+      "sha256": "9b0777ac8f315dc4ffa25de0f445c9b2fe1457bb1b1a1f0ce788bc322421bd37"
+    },
+    {
+      "start": "0x1021ac",
+      "end": "0x10500c",
+      "purpose": "212 monster gameplay records",
+      "sha256": "39398ddd22ff132d4f91b03091cf118c2f469cf2015a18aef3398486a14e8968"
+    }
+  ],
+  "element": {
+    "profile": "source/element_symbol_profile.json",
+    "expected_before_hex": "b4bd3c00",
+    "payload_hex": "38110400",
+    "fields": [
+      "attack",
+      "resistance",
+      "weakness"
+    ],
+    "id0_meaning": "원소",
+    "id8": "original blank",
+    "user_authorized": true
+  }
+}

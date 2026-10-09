@@ -8,9 +8,8 @@ from bisect import bisect_right
 from pathlib import Path
 from nontext_contract import protected_regions,ROOT
 
-def main():
-    p=argparse.ArgumentParser();p.add_argument('--j',type=Path,required=True);p.add_argument('--candidates',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
-    rom=a.j.read_bytes();profile=json.loads((ROOT/'source/nontext_profile.json').read_text(encoding='utf-8'))
+def verified_pcm_samples(rom):
+    profile=json.loads((ROOT/'source/nontext_profile.json').read_text(encoding='utf-8'))
     if hashlib.sha256(rom).hexdigest()!=profile['source_sha256']:raise ValueError('Wrong Japanese source')
     protected_regions(rom)
     for g in profile['consumer_guards']:
@@ -24,10 +23,14 @@ def main():
         owners=[i for i in range(0x1c40b8,0x1c81cc,4) if u(i)==0x08000000+pos and rom[i-4]&0xc7==0]
         if not owners:raise ValueError('Sample has no direct PCM ToneData reference')
         samples.append({'header':hex(pos),'data_start':pos+16,'data_end':pos+16+length,'tone_pointer_offsets':[hex(i) for i in owners]})
-        # Authoring storage includes a terminal sample/padding byte and 4-byte
-        # alignment; this is storage layout, not extra samples to translate.
         pos=(pos+16+length+4)&~3
     if pos!=end or len(samples)!=region['sample_count']:raise ValueError('Sample population/terminal boundary differs')
+    return samples,region
+
+def main():
+    p=argparse.ArgumentParser();p.add_argument('--j',type=Path,required=True);p.add_argument('--candidates',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
+    rom=a.j.read_bytes();profile=json.loads((ROOT/'source/nontext_profile.json').read_text(encoding='utf-8'))
+    samples,region=verified_pcm_samples(rom)
     starts=[s['data_start'] for s in samples]
     rows=json.loads(a.candidates.read_text(encoding='utf-8'));classified=[];excluded=0;excluded_failures=0
     for row in rows:

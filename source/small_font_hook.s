@@ -4,6 +4,8 @@
 .section .text
 .global small_font_hook
 .global cached_tile
+.global hangul_nibble_lut
+.global expand_rows_start, expand_rows_end, cache_match_start, cache_match_end, cache_pin_start, cache_pin_end, cached_tile_end
 .type small_font_hook,%function
 .thumb_func
 small_font_hook:
@@ -60,33 +62,28 @@ hangul:
     ldrb r1, [r1] @ background from current space tile
     movs r2, #15
     ands r1, r2
+    ldr r6, =0x11111111
+    muls r1, r6 @ replicate background; foreground LUT F overrides every nibble
+    ldr r7, =hangul_nibble_lut
     movs r5, #0
     mov r2, sp
+expand_rows_start:
 row_loop:
     ldrb r3, [r0, r5]
-    movs r6, #0
-    movs r7, #8
-pixel_loop:
-    lsls r6, #4
+    lsls r6, r3, #28
+    lsrs r6, #27 @ low nibble * 2
+    ldrh r6, [r7, r6]
+    lsrs r3, #4
     lsls r3, #1
-    mov r12, r0
-    movs r0, #0x80
-    lsls r0, #1
-    tst r3, r0
-    beq background
-    movs r0, #15
-    orrs r6, r0
-    b pixel_done
-background:
+    ldrh r3, [r7, r3]
+    lsls r3, #16
+    orrs r6, r3
     orrs r6, r1
-pixel_done:
-    mov r0, r12
-    subs r7, #1
-    bne pixel_loop
     stmia r2!, {r6}
     adds r5, #1
     cmp r5, #8
     blo row_loop
+expand_rows_end:
     mov r0, sp
     bl window_cell
     bl cached_tile
@@ -177,6 +174,7 @@ cached_tile:
     ldr r0, =0x03000054
     ldr r5, [r0]
     movs r6, #0x70
+cache_match_start:
 match_slot:
     lsls r0, r6, #5
     adds r0, r5
@@ -198,6 +196,7 @@ next_match:
 after_gap:
     cmp r6, #0xee
     blo match_slot
+cache_match_end:
     @ Mark all 256 atlas-relative IDs currently in the BG0 shadow map.
     mov r0, sp
     movs r1, #0
@@ -212,6 +211,7 @@ clear_used:
     movs r6, #0x80
     lsls r6, #4
     adds r6, r0
+cache_pin_start:
 pin_loop:
     ldr r1, [sp, #32]
     cmp r0, r1
@@ -220,7 +220,9 @@ pin_loop:
     lsls r1, #22
     lsrs r1, #22
     subs r1, r7
-    cmp r1, #255
+    cmp r1, #0x70
+    blo next_pin
+    cmp r1, #0xed
     bhi next_pin
     lsrs r2, r1, #3
     movs r3, #7
@@ -236,6 +238,7 @@ next_pin:
     adds r0, #2
     cmp r0, r6
     blo pin_loop
+cache_pin_end:
     movs r6, #0x70
 free_slot:
     lsrs r0, r6, #3
@@ -276,4 +279,9 @@ found:
     pop {r4-r7}
     pop {r1}
     bx r1
+cached_tile_end:
 .ltorg
+.balign 4
+hangul_nibble_lut:
+    .hword 0x0000,0x000f,0x00f0,0x00ff,0x0f00,0x0f0f,0x0ff0,0x0fff
+    .hword 0xf000,0xf00f,0xf0f0,0xf0ff,0xff00,0xff0f,0xfff0,0xffff
