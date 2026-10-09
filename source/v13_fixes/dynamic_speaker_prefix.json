@@ -1,0 +1,20 @@
+{
+  "kind": "guarded_original_dynamic_speaker_prefix_constant",
+  "offset": "0x1BE19C",
+  "expected_old_hex": "12dcd912",
+  "text": "다른",
+  "encoded_hex": "8ad78ca3",
+  "encoded_bytes": 4,
+  "speaker_ids": [49, 50],
+  "approved_full_names": ["다른 세계의 훌리오", "다른 세계의 캐로"],
+  "ui_scope": "Compact prefix followed by each unchanged saved dynamic name; no blanket dialogue replacement.",
+  "consumer_entry": "0x080C7BCC",
+  "prefix_constructor": "0x080C7C44",
+  "literal": "0x080C7C68",
+  "dynamic_name_copy_bytes": 19,
+  "buffer_spacing_bytes": 24,
+  "preserve_duplicate_offset": "0x1BDE34",
+  "encoder": "tools/text_codec.py",
+  "encoder_sha256": "1b7f83d32f8e7717dd5ab838ede5721b93e7a3373e316af632d35834992cc097",
+  "limits": "Original accessor CPU copy/buffer proof and exact new-candidate natural nameplate rendering are separate checks. No original code, pointers, dynamic-name storage, or save format change."
+}

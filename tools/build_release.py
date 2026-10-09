@@ -160,7 +160,7 @@ def main():
     elif not a.baseline_only:
         from v13_fixes import final_fixes
         fix_writes,fixes=final_fixes(base);base,fix_ledger=apply_writes(base,fix_writes);fixes['writes']=fix_ledger
-        check('RC16',base,'decedfd15fafe621be14edd2375a0c9f8f23ce99fceaf3f1abf44a00347526e4')
+        check('RC16',base,'54a138aea155d38d6730a36eeb7c480034b0ad8e9ab2d339865f2961af6480a0')
         status='PRIVATE_V13_RC16_ALL_SOURCE_BINDINGS_FINAL_INDEPENDENT_AND_HARDWARE_GATES_PENDING';stem='ND3_B3TJ_K_v1.3_RC16'
         normal_menu=[]
         for names,at,entry,extent in [(['description_pixel_kernel.s'],0x11a8,'pixel_even',620),(['menu_hook_32.s'],0x1000000,'small_font_hook',788)]:

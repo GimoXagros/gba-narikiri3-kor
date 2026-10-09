@@ -159,4 +159,15 @@ def graphic_fixes(base,normal32=False):
 
 def final_fixes(base,normal32=False):
     writes,field=field_and_list(base,normal32);strict,strict_report=strict_fields(base);graphics,graphics_report=graphic_fixes(base,normal32)
-    return writes+strict+graphics,dict(field_list=field,strict_fields=strict_report,graphics=graphics_report)
+    speaker,speaker_report=dynamic_speaker_prefix(base)
+    return writes+strict+graphics+speaker,dict(field_list=field,strict_fields=strict_report,graphics=graphics_report,dynamic_speaker_prefix=speaker_report)
+
+def dynamic_speaker_prefix(base):
+    from text_codec import encode
+    row=json.loads((ROOT/'source/v13_fixes/dynamic_speaker_prefix.json').read_text('utf-8'))
+    if sha((ROOT/row['encoder']).read_bytes())!=row['encoder_sha256']:raise ValueError('Dynamic speaker encoder source differs')
+    at=int(row['offset'],0);old=bytes.fromhex(row['expected_old_hex']);new=encode(row['text'])
+    if len(old)!=4 or len(new)!=4 or new.hex()!=row['encoded_hex'] or base[at:at+4]!=old:raise ValueError('Dynamic speaker exact prefix/source/length guard')
+    if row['speaker_ids']!=[49,50] or row['dynamic_name_copy_bytes']!=19 or row['buffer_spacing_bytes']!=24:raise ValueError('Dynamic speaker original copy contract')
+    write=dict(writer='dynamic other-world speaker49/50 prefix '+row['text'],offset=at,payload=new,allowed_end=at+4,expected_sha256=sha(old))
+    return [write],dict(offset=at,text=row['text'],encoded_hex=new.hex(),encoded_bytes=len(new),speaker_ids=row['speaker_ids'],dynamic_name_copy_bytes=19,buffer_spacing_bytes=24,code_pointers_dynamic_name_save_format_preserved=True,preserve_duplicate_offset=row['preserve_duplicate_offset'])
