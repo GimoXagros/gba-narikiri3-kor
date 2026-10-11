@@ -5,8 +5,8 @@ from bps import apply_bps
 
 ROOT=Path(__file__).resolve().parents[1]
 JP='d083d66b818b1353a449af7f1dd4232b490c254a4107951a3749973d03a0a394'
-RC='54a138aea155d38d6730a36eeb7c480034b0ad8e9ab2d339865f2961af6480a0'
-BPS='e0f888d7cfd1ab82b6c9c390838a5fcd2acf25a4064a13e2644445edd62edcd1'
+RC='9ce7e5f41ac9d40128276dae31bde33e423eb60bff3cc2a4559395786f9d26cb'
+BPS='2365d6d053aaa2686e840d75c064651c99299dc607ecf335aff51f55ed9c7051'
 GATES=['reported_issues','reference_layout','preservation_performance','first_save_contract','video_difference_classification','shared_graphics_wide_routes','hardware','clean_reproduction_package','public_tree_archive','final_auditor']
 SOURCES={'apply_development.py':'tools/apply_development.py','bps.py':'tools/bps.py','CREDITS.md':'CREDITS.md','LICENSE.dalmoori':'fonts/LICENSE.dalmoori','LICENSE.nd2-tools':'docs/LICENSE.nd2-tools','logo.png':'logo.png','먼저_읽어주세요.md':'docs/RELEASE_README_V1_3.md','검증_요약.md':'docs/FINAL_VALIDATION_V1_3.md'}
 sha=lambda b:hashlib.sha256(b).hexdigest()
