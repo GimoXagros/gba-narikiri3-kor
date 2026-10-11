@@ -23,7 +23,7 @@ python -X utf8 tools/package_v13.py --j '일본판.gba' --build output/v1.3-buil
 python -X utf8 tools/verify_v13_package.py --package output/v1.3-package-review --j '일본판.gba' --wrong-base '기존한국어판.gba' --out output/v1.3-package-verification
 ```
 
-ZIP의 명시된 파일 목록과 중첩 압축 여부, 단독/동봉 BPS 동일성, 실제 동봉 적용기의16MiB 생성, 잘못된 원본·손상 패치 거부와 기존 결과 보호를 검사합니다. 이 검증 출력에는 로컬 적용 ROM이 생기므로 검수 폴더를 공개하지 않습니다. 정식 패키징 모드에는 후보·소스 커밋에 묶인 모든 필수 게이트와 최종 감사 GO가 필요합니다. `--gates`로 로컬 근거 파일을 지정하며 공개 manifest에는 허용된 공개 요약만 들어갑니다. 사용자 종합 회신과 기기·로더·개별 결과 UNKNOWN, 개발자 실기 NOT_RUN은 gate_details에 구분합니다. 실제 원격 발행·다운로드 재검증은 별도 단계입니다.
+ZIP의 명시된 파일 목록과 중첩 압축 여부, 단독/동봉 BPS 동일성, 실제 동봉 적용기의16MiB 생성, 잘못된 원본·손상 패치 거부와 기존 결과 보호를 검사합니다. 이 검증 출력에는 로컬 적용 ROM이 생기므로 검수 폴더를 공개하지 않습니다. 정식 패키징 모드에는 후보·소스 커밋에 묶인 모든 필수 게이트와 최종 감사 GO가 필요합니다. `--gates`로 로컬 근거 파일을 지정하며 공개 manifest에는 허용된 공개 요약만 들어갑니다. 사용자 종합 회신과 기기·로더·개별 결과 UNKNOWN, 에이전트 실기 NOT_RUN은 gate_details에 구분합니다. 실제 원격 발행·다운로드 재검증은 별도 단계입니다.
 
 ## v1.2 기록
 
