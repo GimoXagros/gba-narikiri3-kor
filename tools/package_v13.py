@@ -23,14 +23,19 @@ def main():
     if build['ROM_sha256']!=RC or build['BPS_sha256']!=BPS or apply_bps(source,patch)!=rom:raise ValueError('Cumulative package roundtrip')
     for path,digest in build['source_sha256'].items():
         if sha(git('show',a.commit+':'+path))!=digest:raise ValueError('Build source differs from commit '+path)
-    gate={name:'PENDING' for name in GATES};gate_sha=None
+    gate={name:'PENDING' for name in GATES};gate_sha=None;gate_details={}
     if a.gates:
         raw=a.gates.read_bytes();proof=json.loads(raw);gate_sha=sha(raw)
         if proof['candidate_sha256']!=RC or proof['source_commit']!=a.commit:raise ValueError('Gate candidate/commit binding')
         gate={name:proof['gates'][name]['status'] for name in GATES}
+        # Only explicit public summaries enter assets; private evidence stays local.
+        summary_keys=('public_summary','result_type','device','loader','individual_checklist_results','agent_hardware_execution')
+        gate_details={name:{key:proof['gates'][name][key] for key in summary_keys if key in proof['gates'][name]} for name in GATES}
+        if any(not isinstance(value,str) for row in gate_details.values() for value in row.values()):raise ValueError('Public gate summary strings required')
     if not a.review_only and any(gate[name]!=('GO' if name=='final_auditor' else 'PASS') for name in GATES):raise ValueError('Required publication gates incomplete; review-only remains available')
     status='UNPUBLISHED_REVIEW_REQUIRED_GATES_PENDING' if a.review_only else 'RELEASE_READY_GATES_BOUND_REMOTE_PUBLICATION_SEPARATE'
     public=dict(status=status,version='1.3',source_commit=a.commit,source_tree=git('rev-parse',a.commit+'^{tree}').decode().strip(),source_size=len(source),source_sha256=JP,target_size=len(rom),target_sha256=RC,patch_file='ND3_B3TJ_K_v1.3_FROM_J.bps',patch_sha256=BPS,legacy_ips_sha256='207e69c0617997ff410ee769030e9ea4e1dcc7f6500dde93e7154cd9a859179a',build_manifest_sha256=sha((a.build/'BUILD_MANIFEST.json').read_bytes()),toolchain_sha256=build['toolchain_sha256'],gates=gate,gate_evidence_sha256=gate_sha,bps_reapplication_exact=True,rom_bios_saves_included=False,limits=['Only the documented bounded PC checks are established.','Hardware/final audit status is recorded explicitly; no full-game or all-device guarantee.','The development legacy IPS is not a user prerequisite.'])
+    public['gate_details']=gate_details
     members={name:git('show',a.commit+':'+path) for name,path in SOURCES.items()};members[public['patch_file']]=patch;members['manifest.json']=dump(public)
     for name,data in members.items():
         if '/' in name or '\\' in name or ':' in name:raise ValueError('Flat package member path')
