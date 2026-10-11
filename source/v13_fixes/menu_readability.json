@@ -1,0 +1,319 @@
+{
+  "status": "SOURCE_LOCAL_CONTRAST_RECIPES_NATIVE_REVIEW_AND_HARDWARE_PENDING",
+  "baseline_sha256": {
+    "rc16": "54a138aea155d38d6730a36eeb7c480034b0ad8e9ab2d339865f2961af6480a0",
+    "normal32": "a01febb7f6f6a72bc88601b7ded82630770518ba524b8d6f01eb56434a3b9b11"
+  },
+  "field_text_roi": [
+    8,
+    2,
+    56,
+    14
+  ],
+  "field_existing_foreground": 8,
+  "field_outline": 1,
+  "field_editable_background": [
+    3,
+    6
+  ],
+  "info_original_foreground": 4,
+  "info_new_foreground": 15,
+  "info_outline": 4,
+  "resources": [
+    {
+      "kind": "field",
+      "index": 8,
+      "label": "이동",
+      "bank": "0xe72ee0",
+      "decoded_bytes": 512,
+      "old_raw_sha256": "f41d53d358edb560080d85d5072b5a514dd6abe99f8a5b06be4f6fe9fe3f41e4",
+      "new_raw_sha256": "1ab47383262f0bdbab6bc560ac0846a0a23b7808755c049f6a3508dd666f9fcc",
+      "new_stream_sha256": "d76d8f1a364a6509aa480c87cf8c9aa598161928a07fca266754bd0a6e2bca8d",
+      "new_stream_bytes": 282,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe73ce4",
+          "old_consumed_end": "0xe73e3a",
+          "owned_end": "0xe73e3a",
+          "owned_source_sha256": "4a33e27f371ca7c4b8064ac7dcacc81584108218906beafe3ca3237dbf61fc6f"
+        },
+        "normal32": {
+          "source_start": "0xe73ce4",
+          "old_consumed_end": "0xe73e3a",
+          "owned_end": "0xe73e3a",
+          "owned_source_sha256": "4a33e27f371ca7c4b8064ac7dcacc81584108218906beafe3ca3237dbf61fc6f"
+        }
+      },
+      "descriptor_sha256": "db00187fdfd7054397fe20c7a28287c3d9963d3e1fdb7a0e4c967dc220c2b14e"
+    },
+    {
+      "kind": "field",
+      "index": 9,
+      "label": "기술",
+      "bank": "0xe72ee0",
+      "decoded_bytes": 512,
+      "old_raw_sha256": "0f6895c31516f520f230d244497c0b7e36fd75f99d0115108f952e99025bb933",
+      "new_raw_sha256": "9bfce559ca48ff57c18c6917793e46b1c76354d9226d2472c549d387c26e019e",
+      "new_stream_sha256": "78250ac557edeef7458977efe009805109f981f24406d638865119d629e76de9",
+      "new_stream_bytes": 269,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe73e50",
+          "old_consumed_end": "0xe73faa",
+          "owned_end": "0xe73faa",
+          "owned_source_sha256": "f83ea750154f502d43de788ec6d58516bdeaec4049b5538ec380a5abbf7e1c8a"
+        },
+        "normal32": {
+          "source_start": "0xe73e50",
+          "old_consumed_end": "0xe73faa",
+          "owned_end": "0xe73faa",
+          "owned_source_sha256": "f83ea750154f502d43de788ec6d58516bdeaec4049b5538ec380a5abbf7e1c8a"
+        }
+      },
+      "descriptor_sha256": "db00187fdfd7054397fe20c7a28287c3d9963d3e1fdb7a0e4c967dc220c2b14e"
+    },
+    {
+      "kind": "field",
+      "index": 10,
+      "label": "아이템",
+      "bank": "0xe72ee0",
+      "decoded_bytes": 512,
+      "old_raw_sha256": "d45ba6c6575dd782772ca36b7985ef9d6160a573915dd29425af74274b629236",
+      "new_raw_sha256": "c72d1fd36ba9597a4bf0469008e6e08b2aacdc6367c347627e6aa866330dc3ac",
+      "new_stream_sha256": "82aa478b069dd8d4eb53638c3b3e0d59d8bb74fe24424ce41b2654fd2e7fa1e2",
+      "new_stream_bytes": 321,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe73ff8",
+          "old_consumed_end": "0xe7418e",
+          "owned_end": "0xe7418e",
+          "owned_source_sha256": "df884e990f21a6bd3ff24e7513c33e76e73aa6ab3e991088fa0d993fe37ba194"
+        },
+        "normal32": {
+          "source_start": "0xe73ff8",
+          "old_consumed_end": "0xe7418e",
+          "owned_end": "0xe7418e",
+          "owned_source_sha256": "df884e990f21a6bd3ff24e7513c33e76e73aa6ab3e991088fa0d993fe37ba194"
+        }
+      },
+      "descriptor_sha256": "5a04c31fe0d07403afce9e91c1b1d85ad6a5638e4df25ac6563b797676b2a2de"
+    },
+    {
+      "kind": "field",
+      "index": 11,
+      "label": "요리",
+      "bank": "0xe72ee0",
+      "decoded_bytes": 512,
+      "old_raw_sha256": "89191d9d736acd2e3095ce2ee43c4b14d1ac79d8e37f327ca11512a80a052781",
+      "new_raw_sha256": "e5102bdb5586ddc53de3391e8d28286e1fc15ed4381a365e233947f0c9d2254d",
+      "new_stream_sha256": "237a8f548d7d8b9292585072e03d651a67279365ef5dbf42f481dac6079b58cc",
+      "new_stream_bytes": 265,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe741a0",
+          "old_consumed_end": "0xe742f7",
+          "owned_end": "0xe742f7",
+          "owned_source_sha256": "23298c33d38e7410c7bf4b2e3d3e31b1297feec3444c02dba4cc9dd02a783442"
+        },
+        "normal32": {
+          "source_start": "0xe741a0",
+          "old_consumed_end": "0xe742f7",
+          "owned_end": "0xe742f7",
+          "owned_source_sha256": "23298c33d38e7410c7bf4b2e3d3e31b1297feec3444c02dba4cc9dd02a783442"
+        }
+      },
+      "descriptor_sha256": "db00187fdfd7054397fe20c7a28287c3d9963d3e1fdb7a0e4c967dc220c2b14e"
+    },
+    {
+      "kind": "field",
+      "index": 12,
+      "label": "스탯",
+      "bank": "0xe72ee0",
+      "decoded_bytes": 512,
+      "old_raw_sha256": "1810a7136824e550b2b2baa8e7db909abd5d2b63236a1ebcb27954775d6d1050",
+      "new_raw_sha256": "7bc6f012b82fe19461eea35b9d1e8630c7d5240025c37da9f08e36da472b8ffd",
+      "new_stream_sha256": "49e0f84d86aca9a7859f82cba608f5d21bf0e95690395fc112cf90270402a185",
+      "new_stream_bytes": 303,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe7434c",
+          "old_consumed_end": "0xe744a6",
+          "owned_end": "0xe744a6",
+          "owned_source_sha256": "3d2836b3d8eefa60bb7ce85fcb8de7d9a32a1681703d914cf689a76c1c2b602d"
+        },
+        "normal32": {
+          "source_start": "0xe7434c",
+          "old_consumed_end": "0xe744a6",
+          "owned_end": "0xe744a6",
+          "owned_source_sha256": "3d2836b3d8eefa60bb7ce85fcb8de7d9a32a1681703d914cf689a76c1c2b602d"
+        }
+      },
+      "descriptor_sha256": "db00187fdfd7054397fe20c7a28287c3d9963d3e1fdb7a0e4c967dc220c2b14e"
+    },
+    {
+      "kind": "field",
+      "index": 13,
+      "label": "대열",
+      "bank": "0xe72ee0",
+      "decoded_bytes": 512,
+      "old_raw_sha256": "12c6fbf51254052a0e998c3ebf78be611f43c6720ec1ec6f1049c9d267a465b2",
+      "new_raw_sha256": "bdf59e1f118433747dcb030bd8d00e8955e0e6c3fbcf881a443e97f2238c0f05",
+      "new_stream_sha256": "36f2fc40e15ba9d6c479879c55d6e7605751cfc56bf8662b107187203486210f",
+      "new_stream_bytes": 274,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe744e4",
+          "old_consumed_end": "0xe7464a",
+          "owned_end": "0xe7464a",
+          "owned_source_sha256": "7339e8aa4fadb88b1bf4f8ef06437ffe134e085cbc8b85dcd19b0a67ae5fedf2"
+        },
+        "normal32": {
+          "source_start": "0xe744e4",
+          "old_consumed_end": "0xe7464a",
+          "owned_end": "0xe7464a",
+          "owned_source_sha256": "7339e8aa4fadb88b1bf4f8ef06437ffe134e085cbc8b85dcd19b0a67ae5fedf2"
+        }
+      },
+      "descriptor_sha256": "db00187fdfd7054397fe20c7a28287c3d9963d3e1fdb7a0e4c967dc220c2b14e"
+    },
+    {
+      "kind": "field",
+      "index": 14,
+      "label": "작전",
+      "bank": "0xe72ee0",
+      "decoded_bytes": 512,
+      "old_raw_sha256": "c1ed1e3b3613aefc75335c6e70228f3464f00bebdc02fc826610459963401587",
+      "new_raw_sha256": "185097295f5e63b25321dea9f1513d42203715c369754e5f135ae7156b621cb9",
+      "new_stream_sha256": "8b754124e0ca73008d40a2c3174b1478f3848e5df8055912c3566a9253bf6cd4",
+      "new_stream_bytes": 280,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe74694",
+          "old_consumed_end": "0xe747f4",
+          "owned_end": "0xe747f4",
+          "owned_source_sha256": "51b39b4a830434a40cafdf62b184e5e6384084d1e151146ca68bad641a0adb0c"
+        },
+        "normal32": {
+          "source_start": "0xe74694",
+          "old_consumed_end": "0xe747f4",
+          "owned_end": "0xe747f4",
+          "owned_source_sha256": "51b39b4a830434a40cafdf62b184e5e6384084d1e151146ca68bad641a0adb0c"
+        }
+      },
+      "descriptor_sha256": "5a04c31fe0d07403afce9e91c1b1d85ad6a5638e4df25ac6563b797676b2a2de"
+    },
+    {
+      "kind": "field",
+      "index": 1,
+      "label": "갈아입기",
+      "bank": "0xe72ee0",
+      "decoded_bytes": 512,
+      "old_raw_sha256": "9d193362104799c110ed5b0839778fc8d320e3f57c7eb9f283e83c782efc4a18",
+      "new_raw_sha256": "bdccefa71d0696237610566015bfb2b1d453ccca9a7512ffdd896a6368ea4331",
+      "new_stream_sha256": "1fbb9cbae7e0c4994efaaba6e4e3589c0997d8cb5f66caa76aa229ed256288b0",
+      "new_stream_bytes": 331,
+      "ownership": "Original actual consumed stream; existing C4 field1 retains originally retired OPT16 stream through E73268.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe73100",
+          "old_consumed_end": "0xe7324a",
+          "owned_end": "0xe73268",
+          "owned_source_sha256": "59ed4874105200ea98147c7e8cf4d06fc0f9b7090a45f20be4736f67bce94451"
+        },
+        "normal32": {
+          "source_start": "0xe73100",
+          "old_consumed_end": "0xe7324a",
+          "owned_end": "0xe73268",
+          "owned_source_sha256": "59ed4874105200ea98147c7e8cf4d06fc0f9b7090a45f20be4736f67bce94451"
+        }
+      },
+      "descriptor_sha256": "59139598043974bcc6218cec7df149f99a1438ca5f12686ddb56cbe7f68dfa16"
+    },
+    {
+      "kind": "info",
+      "index": 45,
+      "label": "특기 shared prefix",
+      "bank": "0xf1d734",
+      "decoded_bytes": 128,
+      "old_raw_sha256": "c4af7fcaa629da0907f839a5697bb9ee8a5f3adf2bbec5e545f795055c19bb9a",
+      "new_raw_sha256": "b8874f873a2d170bbc1d0c008470f0bf460bedcaf5966cf4ed7755353910759c",
+      "new_stream_sha256": "bdd20e1e8a98206efa46bc7914ac60cb9732deb0da5bd0d40fb053e73ad52e17",
+      "new_stream_bytes": 68,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xf27730",
+          "old_consumed_end": "0xf27776",
+          "owned_end": "0xf27776",
+          "owned_source_sha256": "c1f5b40906a84eb0c504b44f3845eb311d99ca9a9976433b035388fa93ffaf0e"
+        },
+        "normal32": {
+          "source_start": "0x10c0000",
+          "old_consumed_end": "0x10c0085",
+          "owned_end": "0x10c0085",
+          "owned_source_sha256": "1ae5ea6d8ec0bc6139337e7f7f79746dba2487a5e1e2b12007dab5e22cf83363"
+        }
+      }
+    },
+    {
+      "kind": "info",
+      "index": 46,
+      "label": "설정",
+      "bank": "0xf1d734",
+      "decoded_bytes": 128,
+      "old_raw_sha256": "67d226c9aba78fa08a857970aeaaeef8a338f9e7933bb0fbc7575b656617bc69",
+      "new_raw_sha256": "a261776e5bd9525cb970b04fd1efa99dde6224b9c233adf9c3a41183dc0771bd",
+      "new_stream_sha256": "139af537fd062e83c3e647b3b0e2bc0cd0926c2dbe69c1fab3f22af98dff14db",
+      "new_stream_bytes": 63,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xf27794",
+          "old_consumed_end": "0xf277d8",
+          "owned_end": "0xf277d8",
+          "owned_source_sha256": "af72b42d3e58e1e0bf1ecb805e83229f741b454554a05431ec8ee7e9999e8f67"
+        },
+        "normal32": {
+          "source_start": "0x10c0088",
+          "old_consumed_end": "0x10c010d",
+          "owned_end": "0x10c010d",
+          "owned_source_sha256": "06e795e37031754b19f3b4fab230ba2a55794c7e64851668fb8ab33b1af81726"
+        }
+      }
+    },
+    {
+      "kind": "info",
+      "index": 48,
+      "label": "사용",
+      "bank": "0xf1d734",
+      "decoded_bytes": 128,
+      "old_raw_sha256": "8e971c6eb076e9dd0e119914ce5e183a575c5e95fb0793e039e6b92a09d7f110",
+      "new_raw_sha256": "1ef0302a6e90f99db090b13e676c0e332c6b7b2531259744720b8a089127c1ad",
+      "new_stream_sha256": "b7a0b0cb31f3ff7701423f30a0f0b7255c458e119ba24c4993881ba1b69bde99",
+      "new_stream_bytes": 62,
+      "ownership": "Exact original actual consumed stream only; no inter-object gap.",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xf2786c",
+          "old_consumed_end": "0xf278b2",
+          "owned_end": "0xf278b2",
+          "owned_source_sha256": "4b4c5678322f3944a8512d4b2962eb809bb156994fec9bae1bf17669e13ac859"
+        },
+        "normal32": {
+          "source_start": "0x10c0198",
+          "old_consumed_end": "0x10c021d",
+          "owned_end": "0x10c021d",
+          "owned_source_sha256": "084186b82ec011558bf07393f16e2815c4d68ccbdf939597452eda38bdf73dac"
+        }
+      }
+    }
+  ],
+  "scope": "Eight original Korean field button labels retain fill masks and original Japanese gold frames. Skill setting/use original Korean fill masks become white with native dark-blue outline. Original descriptors, palettes, code, names and sizes are preserved."
+}

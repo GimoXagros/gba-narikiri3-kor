@@ -35,6 +35,22 @@ def apply_writes(base,writes):
     if np.any((np.frombuffer(base,np.uint8)!=np.frombuffer(result,np.uint8))&~mask):raise ValueError('Unexplained change')
     return result,ledger
 
+def final_menu_readability(optimized,c4,c4_writes,normal32=False):
+    """Resolve the one superseded field1 writer before the final write plan."""
+    from menu_readability import readability_writes
+    new_writes,report=readability_writes(c4,normal32)
+    staged,stage_ledger=apply_writes(c4,new_writes)
+    superseded=[row for row in c4_writes if any(row['offset']<new['offset']+len(new['payload']) and new['offset']<row['offset']+len(row['payload']) for new in new_writes)]
+    if len(superseded)!=1 or superseded[0]['offset']!=0xe73100 or superseded[0]['writer']!='field approved town glyphs mapped to field palette':raise ValueError('Unexpected readability writer overlap')
+    final=[row for row in c4_writes if row is not superseded[0]]
+    final.extend(dict(row,expected_sha256=sha(optimized[row['offset']:row['offset']+len(row['payload'])])) for row in new_writes)
+    result,ledger=apply_writes(optimized,final)
+    if result!=staged:raise ValueError('Readability resolved final plan differs')
+    report['C4_to_readability_stage_writes']=stage_ledger
+    report['superseded_writer']=superseded[0]['writer']
+    report['final_plan_nonoverlapping_from_immutable_OPT']=True
+    return result,ledger,report
+
 def assemble(tc,out,names,base,entry):
     out.mkdir(parents=True)
     def run(tool,args):return subprocess.check_output([str(tc/('arm-none-eabi-'+tool+'.exe')),*map(str,args)])
@@ -159,8 +175,12 @@ def main():
         status='PRIVATE_FIELD_LIST_INTERMEDIATE_NOT_RC_MAP_NAMES_AND_OTHER_GATES_PENDING';stem='ND3_FIELD_LIST_V4_FROM_SOURCE'
     elif not a.baseline_only:
         from v13_fixes import final_fixes
-        fix_writes,fixes=final_fixes(base);base,fix_ledger=apply_writes(base,fix_writes);fixes['writes']=fix_ledger
-        check('RC16',base,'54a138aea155d38d6730a36eeb7c480034b0ad8e9ab2d339865f2961af6480a0')
+        optimized=base
+        fix_writes,fixes=final_fixes(base);base,c4_ledger=apply_writes(base,fix_writes)
+        check('C4_RC16',base,'54a138aea155d38d6730a36eeb7c480034b0ad8e9ab2d339865f2961af6480a0')
+        base,fix_ledger,contrast=final_menu_readability(optimized,base,fix_writes)
+        fixes['C4_historical_writes']=c4_ledger;fixes['readability']=contrast;fixes['writes']=fix_ledger
+        check('RC16',base,'9ce7e5f41ac9d40128276dae31bde33e423eb60bff3cc2a4559395786f9d26cb')
         status='PRIVATE_V13_RC16_ALL_SOURCE_BINDINGS_FINAL_INDEPENDENT_AND_HARDWARE_GATES_PENDING';stem='ND3_B3TJ_K_v1.3_RC16'
         normal_menu=[]
         for names,at,entry,extent in [(['description_pixel_kernel.s'],0x11a8,'pixel_even',620),(['menu_hook_32.s'],0x1000000,'small_font_hook',788)]:
@@ -169,7 +189,11 @@ def main():
             normal_menu.append(dict(writer='normal32 '+entry,offset=at,payload=code,allowed_end=at+extent,expected_sha256=sha(normal32[at:at+extent])))
         normal32,normal_menu_ledger=apply_writes(normal32,normal_menu)
         check('OPT32',normal32,'beca7cb1b008224841e610e73de08cfb538238be017fac1ba8dc0689e63155be')
-        normal_writes,normal_fixes=final_fixes(normal32,True);normal32,normal_ledger=apply_writes(normal32,normal_writes)
+        optimized32=normal32
+        normal_writes,normal_fixes=final_fixes(normal32,True);normal32,normal_c4_ledger=apply_writes(normal32,normal_writes)
+        check('C4_FIX32',normal32,'a01febb7f6f6a72bc88601b7ded82630770518ba524b8d6f01eb56434a3b9b11')
+        normal32,normal_ledger,normal_contrast=final_menu_readability(optimized32,normal32,normal_writes,True)
+        normal_fixes['C4_historical_writes']=normal_c4_ledger;normal_fixes['readability']=normal_contrast
         checkpoints['FIX32']=dict(bytes=len(normal32),sha256=sha(normal32))
         normal_fixes['writes']=normal_ledger
         normal_patch=create_bps(data['j'],normal32,b'ND3 v1.3 normal32 private source counterpart; hardware gates pending')
