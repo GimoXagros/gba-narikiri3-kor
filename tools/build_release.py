@@ -36,8 +36,8 @@ def apply_writes(base,writes):
     return result,ledger
 
 def final_menu_readability(optimized,c4,c4_writes,normal32=False):
-    """Resolve the one superseded field1 writer before the final write plan."""
-    from menu_readability import readability_writes
+    """Resolve historical bitmap writers against one immutable OPT write plan."""
+    from menu_readability import readability_writes,system_readability_writes
     new_writes,report=readability_writes(c4,normal32)
     staged,stage_ledger=apply_writes(c4,new_writes)
     superseded=[row for row in c4_writes if any(row['offset']<new['offset']+len(new['payload']) and new['offset']<row['offset']+len(row['payload']) for new in new_writes)]
@@ -49,7 +49,24 @@ def final_menu_readability(optimized,c4,c4_writes,normal32=False):
     report['C4_to_readability_stage_writes']=stage_ledger
     report['superseded_writer']=superseded[0]['writer']
     report['final_plan_nonoverlapping_from_immutable_OPT']=True
-    return result,ledger,report
+    system_writes,system_report=system_readability_writes(result,normal32)
+    system_staged,system_ledger=apply_writes(result,system_writes)
+    replaced=[row for row in final if any(row['offset']<new['offset']+len(new['payload']) and new['offset']<row['offset']+len(row['payload']) for new in system_writes)]
+    if len(replaced)!=1 or replaced[0]['offset']!=0xe735f8 or replaced[0]['writer']!='enemy button lossless VRAM-safe compression':raise ValueError('Unexpected system readability writer overlap')
+    resolved=[row for row in final if row not in replaced]
+    retired=replaced[0];cover=next(row for row in system_writes if row['offset']==retired['offset'])
+    tail_at=cover['offset']+len(cover['payload']);tail_end=retired['offset']+len(retired['payload'])
+    if tail_at!=0xe73708 or tail_end!=0xe73712:raise ValueError('System readability historical suffix extent')
+    resolved.append(dict(writer='preserved C5 retired enemy stream suffix',offset=tail_at,payload=result[tail_at:tail_end],allowed_end=tail_end,expected_sha256=sha(optimized[tail_at:tail_end])))
+    resolved.extend(dict(row,expected_sha256=sha(optimized[row['offset']:row['offset']+len(row['payload'])])) for row in system_writes)
+    candidate,final_ledger=apply_writes(optimized,resolved)
+    if candidate!=system_staged:raise ValueError('System readability resolved final plan differs')
+    system_report['C5_to_system_stage_writes']=system_ledger
+    system_report['superseded_C4_writers']=[dict(writer=row['writer'],offset=row['offset'],bytes=len(row['payload']))for row in replaced]
+    system_report['preserved_C5_retired_stream_suffix']=[hex(tail_at),hex(tail_end)]
+    system_report['final_plan_nonoverlapping_from_immutable_OPT']=True
+    report['C5_checkpoint_sha256']=sha(result);report['system_menu_readability']=system_report
+    return candidate,final_ledger,report
 
 def assemble(tc,out,names,base,entry):
     out.mkdir(parents=True)
@@ -180,7 +197,7 @@ def main():
         check('C4_RC16',base,'54a138aea155d38d6730a36eeb7c480034b0ad8e9ab2d339865f2961af6480a0')
         base,fix_ledger,contrast=final_menu_readability(optimized,base,fix_writes)
         fixes['C4_historical_writes']=c4_ledger;fixes['readability']=contrast;fixes['writes']=fix_ledger
-        check('RC16',base,'9ce7e5f41ac9d40128276dae31bde33e423eb60bff3cc2a4559395786f9d26cb')
+        check('RC16',base,'d1d27b49dfeb6bbacb77b2112664efbb679f7f30a89f2cd17a1037d64fef1c4b')
         status='PRIVATE_V13_RC16_ALL_SOURCE_BINDINGS_FINAL_INDEPENDENT_AND_HARDWARE_GATES_PENDING';stem='ND3_B3TJ_K_v1.3_RC16'
         normal_menu=[]
         for names,at,entry,extent in [(['description_pixel_kernel.s'],0x11a8,'pixel_even',620),(['menu_hook_32.s'],0x1000000,'small_font_hook',788)]:

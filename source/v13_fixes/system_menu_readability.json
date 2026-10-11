@@ -1,0 +1,286 @@
+{
+  "status": "SOURCE_SYSTEM_LABEL_CONTRAST_HARDWARE_PENDING",
+  "baseline_sha256": {
+    "rc16": "9ce7e5f41ac9d40128276dae31bde33e423eb60bff3cc2a4559395786f9d26cb",
+    "normal32": "89e6822a51537b8a7b75bfa8c3215db548c6774b35380596620495ccb9638074"
+  },
+  "bank_table_sha256": "361032e67366112fcccb3e46c37d86e57842ac2831558abce3b8000ca64bae3d",
+  "field_text_roi": [
+    8,
+    2,
+    56,
+    14
+  ],
+  "foreground": 8,
+  "outline": 1,
+  "editable_background": [
+    3,
+    6
+  ],
+  "resources": [
+    {
+      "index": 0,
+      "label": "턴종료",
+      "target_owner_index": 0,
+      "decoded_bytes": 512,
+      "old_raw_sha256": "b7d3a6e302a4d5d11249b57b7ec28ff8a641558f913775134426ffaa5923c860",
+      "new_raw_sha256": "496f1a7cf58907308ae816dacb5b8121d84ddb3a112a2270f88efaed04370c37",
+      "new_stream_sha256": "466fca7f88c230482c899a07481bd87a712749ecdb4066bbcda997c7be1495e0",
+      "new_stream_bytes": 325,
+      "descriptor_sha256": "db00187fdfd7054397fe20c7a28287c3d9963d3e1fdb7a0e4c967dc220c2b14e",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe72f54",
+          "source_end": "0xe730fd",
+          "target_start": "0xe72f54",
+          "target_owned_end": "0xe730fd",
+          "target_owned_sha256": "43a2e323fd3d8c586b0408c20c70c50a046d3e78bc31481820c375efe27fc376"
+        },
+        "normal32": {
+          "source_start": "0xe72f54",
+          "source_end": "0xe730fd",
+          "target_start": "0xe72f54",
+          "target_owned_end": "0xe730fd",
+          "target_owned_sha256": "43a2e323fd3d8c586b0408c20c70c50a046d3e78bc31481820c375efe27fc376"
+        }
+      },
+      "ownership": "Existing actual consumed C5 stream only; field4/5 exchange uniquely owned original slots. Field4 retired suffix/list frame is excluded."
+    },
+    {
+      "index": 2,
+      "label": "맵",
+      "target_owner_index": 2,
+      "decoded_bytes": 512,
+      "old_raw_sha256": "d97917fa4e1a815faf5ce410ea1a10161b0b51e1106be1f9a4f4b8d3d455c91b",
+      "new_raw_sha256": "27a6ce009b15fdbe182eb87ee2453b519dd860adc0588116f2188f37ed337c5c",
+      "new_stream_sha256": "2b533ef0fe03a93cf4029a01933b584ef7d86267082c74a440da9b8297ca15cc",
+      "new_stream_bytes": 242,
+      "descriptor_sha256": "11634e03714d987bdc84a71dc7a874bdb44d28872b16a3e194a0b872b2905d06",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe73294",
+          "source_end": "0xe733b3",
+          "target_start": "0xe73294",
+          "target_owned_end": "0xe733b3",
+          "target_owned_sha256": "7b75b99834fcead375c3cda022b6e91b2e388476e06923e5b724ec4f0e470e85"
+        },
+        "normal32": {
+          "source_start": "0xe73294",
+          "source_end": "0xe733b3",
+          "target_start": "0xe73294",
+          "target_owned_end": "0xe733b3",
+          "target_owned_sha256": "7b75b99834fcead375c3cda022b6e91b2e388476e06923e5b724ec4f0e470e85"
+        }
+      },
+      "ownership": "Existing actual consumed C5 stream only; field4/5 exchange uniquely owned original slots. Field4 retired suffix/list frame is excluded."
+    },
+    {
+      "index": 3,
+      "label": "승리조건",
+      "target_owner_index": 3,
+      "decoded_bytes": 512,
+      "old_raw_sha256": "afaa3a20c3c66d2c069086c4e8ff479342ff6447c31e5527cdc0b77f3b056f5d",
+      "new_raw_sha256": "eeb7df06d2960fec5f7c436871446fba9f0d79620d5708f94e310e308a0049a3",
+      "new_stream_sha256": "0f702e9e93032148966a2c96823ec7915fd1810d76019ad9b0352016e7f6ec98",
+      "new_stream_bytes": 346,
+      "descriptor_sha256": "5a04c31fe0d07403afce9e91c1b1d85ad6a5638e4df25ac6563b797676b2a2de",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe73428",
+          "source_end": "0xe735d9",
+          "target_start": "0xe73428",
+          "target_owned_end": "0xe735d9",
+          "target_owned_sha256": "ce67476449cf4c32f503f20a33f437890d8c57935f36710bcb5efa4e59346f30"
+        },
+        "normal32": {
+          "source_start": "0xe73428",
+          "source_end": "0xe735d9",
+          "target_start": "0xe73428",
+          "target_owned_end": "0xe735d9",
+          "target_owned_sha256": "ce67476449cf4c32f503f20a33f437890d8c57935f36710bcb5efa4e59346f30"
+        }
+      },
+      "ownership": "Existing actual consumed C5 stream only; field4/5 exchange uniquely owned original slots. Field4 retired suffix/list frame is excluded."
+    },
+    {
+      "index": 4,
+      "label": "적목록",
+      "target_owner_index": 5,
+      "decoded_bytes": 512,
+      "old_raw_sha256": "f9c4dd20c6adcf995b26eeb332a8fe1cb7e0d3c047e2af411070ee0cdce8921f",
+      "new_raw_sha256": "10e30ab5ad89106f18b8d6544fea9e4c2bd27a30dab5664f601d9ed40d52c2e5",
+      "new_stream_sha256": "b2aff889131d2337ba9deb973cf2416935c0012118431aaac4db5ab372625f18",
+      "new_stream_bytes": 313,
+      "descriptor_sha256": "59139598043974bcc6218cec7df149f99a1438ca5f12686ddb56cbe7f68dfa16",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe735f8",
+          "source_end": "0xe73712",
+          "target_start": "0xe737b8",
+          "target_owned_end": "0xe73911",
+          "target_owned_sha256": "5087e49878187a09561c9f7c9b292532f7d7c3613953c1ce5e2b0d09f98d27a9"
+        },
+        "normal32": {
+          "source_start": "0xe735f8",
+          "source_end": "0xe73712",
+          "target_start": "0xe737b8",
+          "target_owned_end": "0xe73911",
+          "target_owned_sha256": "5087e49878187a09561c9f7c9b292532f7d7c3613953c1ce5e2b0d09f98d27a9"
+        }
+      },
+      "ownership": "Existing actual consumed C5 stream only; field4/5 exchange uniquely owned original slots. Field4 retired suffix/list frame is excluded."
+    },
+    {
+      "index": 5,
+      "label": "후퇴",
+      "target_owner_index": 4,
+      "decoded_bytes": 512,
+      "old_raw_sha256": "c213e7d1e2f408a425f2f2fa8fb02f045c477646a397b44124cb8fdda10d5d3a",
+      "new_raw_sha256": "8d2f5134906b1a1440f906bea4a2ddcc7670681c9e922c93ff48b55c9026769d",
+      "new_stream_sha256": "52492c03d483703272b625921b07fb4603a7eb9d595b20c8044a3c6b16b04090",
+      "new_stream_bytes": 272,
+      "descriptor_sha256": "89e2971e9266638bc5e660ffc3ee7d4b0779a83449e494fb1b333d5ceda288e9",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe737b8",
+          "source_end": "0xe73911",
+          "target_start": "0xe735f8",
+          "target_owned_end": "0xe73712",
+          "target_owned_sha256": "2a9e7fc7539d92971f61547a6af79b81d3f9dec0b6ad8550ed4b2e7b4ae880f2"
+        },
+        "normal32": {
+          "source_start": "0xe737b8",
+          "source_end": "0xe73911",
+          "target_start": "0xe735f8",
+          "target_owned_end": "0xe73712",
+          "target_owned_sha256": "2a9e7fc7539d92971f61547a6af79b81d3f9dec0b6ad8550ed4b2e7b4ae880f2"
+        }
+      },
+      "ownership": "Existing actual consumed C5 stream only; field4/5 exchange uniquely owned original slots. Field4 retired suffix/list frame is excluded."
+    },
+    {
+      "index": 6,
+      "label": "게임설정",
+      "target_owner_index": 6,
+      "decoded_bytes": 512,
+      "old_raw_sha256": "f4851f819182532d0d666057fdd2501ea8e24fc6b84a2c4559ee7ebd1ea2839e",
+      "new_raw_sha256": "454478c33701606a86936d46f85c72c39733d5b47c4b56a79ced2e6c57928627",
+      "new_stream_sha256": "83584546cfc8fefb79bf3c1fe7c9e8f44a0752e277f1cedfc6d12272996d62ca",
+      "new_stream_bytes": 338,
+      "descriptor_sha256": "89e2971e9266638bc5e660ffc3ee7d4b0779a83449e494fb1b333d5ceda288e9",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe73958",
+          "source_end": "0xe73b1a",
+          "target_start": "0xe73958",
+          "target_owned_end": "0xe73b1a",
+          "target_owned_sha256": "6e352f3607ef8ecfac30ee4e55ab429591fd1ba4d6d051b3c1adda8c94210f1c"
+        },
+        "normal32": {
+          "source_start": "0xe73958",
+          "source_end": "0xe73b1a",
+          "target_start": "0xe73958",
+          "target_owned_end": "0xe73b1a",
+          "target_owned_sha256": "6e352f3607ef8ecfac30ee4e55ab429591fd1ba4d6d051b3c1adda8c94210f1c"
+        }
+      },
+      "ownership": "Existing actual consumed C5 stream only; field4/5 exchange uniquely owned original slots. Field4 retired suffix/list frame is excluded."
+    },
+    {
+      "index": 7,
+      "label": "중단",
+      "target_owner_index": 7,
+      "decoded_bytes": 512,
+      "old_raw_sha256": "7f4ed65254796bc9857b63c0a729a4e211713c047768dd7e0a67b5ff3f029768",
+      "new_raw_sha256": "6f2e8b4f199ade3206af50490a0abfc38baca8ea2c9172747b195ed3ac1996f6",
+      "new_stream_sha256": "64ac7fbdf0110695fbc53ec85f1eb5e6a6815195fed26e880b715a1abebcd1a0",
+      "new_stream_bytes": 304,
+      "descriptor_sha256": "89e2971e9266638bc5e660ffc3ee7d4b0779a83449e494fb1b333d5ceda288e9",
+      "bindings": {
+        "rc16": {
+          "source_start": "0xe73b20",
+          "source_end": "0xe73c87",
+          "target_start": "0xe73b20",
+          "target_owned_end": "0xe73c87",
+          "target_owned_sha256": "67df92a696b9e3ec4776092751eef0858b31e4960d874d8dfd2ee3773676c768"
+        },
+        "normal32": {
+          "source_start": "0xe73b20",
+          "source_end": "0xe73c87",
+          "target_start": "0xe73b20",
+          "target_owned_end": "0xe73c87",
+          "target_owned_sha256": "67df92a696b9e3ec4776092751eef0858b31e4960d874d8dfd2ee3773676c768"
+        }
+      },
+      "ownership": "Existing actual consumed C5 stream only; field4/5 exchange uniquely owned original slots. Field4 retired suffix/list frame is excluded."
+    }
+  ],
+  "protected_spans": [
+    {
+      "start": "0xe73714",
+      "end": "0xe73738",
+      "label": "existing 36-byte list frame",
+      "sha256": "46fcac9c1d747806f4c6026dcdae422e8453cf6894653e45250b90544fd079e9"
+    },
+    {
+      "start": "0xe74e48",
+      "end": "0xe74e68",
+      "label": "field palette",
+      "sha256": "78442b8dfa514861ddc3c566a535e5838c555f8dee9843b873ee5db04a31e93a"
+    },
+    {
+      "start": "0xaf960",
+      "end": "0xafa10",
+      "label": "field bank loader/consumer",
+      "sha256": "40c4a2e4987a470d9334fc5ae86b6c64ac1a41b1fa71c748cc7e5d039b584889"
+    },
+    {
+      "start": "0xdd24d0",
+      "end": "0xdd2740",
+      "label": "native descriptors and frame table",
+      "sha256": "000224f1615ad321a2db9669117a0035321294949df724ae804cf6204d4fb3ff"
+    }
+  ],
+  "pointer_reference_scan": {
+    "4": {
+      "relative": [
+        "0xe72ef4",
+        "0xe7b374",
+        "0xe7b62c"
+      ],
+      "absolute": []
+    },
+    "5": {
+      "relative": [
+        "0xa9574",
+        "0xc1cc64",
+        "0xe6fc88",
+        "0xe72ef8"
+      ],
+      "absolute": []
+    }
+  },
+  "scope": "Seven system labels supplement C5; its eight team labels and three skill header streams remain byte-identical. Two existing bank pointer values exchange field4/5 uniquely owned stream slots.",
+  "other_numeric_matches": [
+    {
+      "offset": "0xc1cc64",
+      "meaning": "Bank C1CC38,18 entries,index10 resolves C1D510, not field bank."
+    },
+    {
+      "offset": "0xe6fc88",
+      "meaning": "Bank E6FC70,13 entries,index5 resolves E70548, not field bank."
+    },
+    {
+      "offset": "0xa9574",
+      "meaning": "Thumb A954C/A954E add RAM base02001D80+literal8D8, not ROM reference."
+    },
+    {
+      "offset": "0xe7b374",
+      "meaning": "718 appears in zero/pixel record area; not field bank pointer. No aligned absolute field source references."
+    },
+    {
+      "offset": "0xe7b62c",
+      "meaning": "718 repeated in zero/pixel record area; not field bank pointer. No aligned absolute field source references."
+    }
+  ]
+}

@@ -103,3 +103,32 @@ def readability_writes(base,normal32=False):
         writes.append(dict(writer='local readability '+row['label'],offset=at,payload=blob,allowed_end=end,expected_sha256=sha(base[at:at+len(blob)])))
         records.append(dict(row,verification=report))
     return writes,dict(resources=records,palette_descriptor_consumer_code_unchanged=True,new_static_RAM_bytes=0,scope='Native field menu eight labels and shared skill setting/use bitmap headers; local contrast adaptation preserving Japanese gold button design.')
+
+
+def system_readability_writes(base,normal32=False):
+    """Seven system labels; exchange only the verified field4/5 stream slots."""
+    source=json.loads((ROOT/'source/v13_fixes/system_menu_readability.json').read_text('utf8'))
+    kind='normal32' if normal32 else 'rc16';bank=0xe72ee0
+    if sha(base)!=source['baseline_sha256'][kind]:raise ValueError('System readability exact C5 applicability')
+    if sha(base[bank:bank+116])!=source['bank_table_sha256']:raise ValueError('System readability complete bank table')
+    for span in source['protected_spans']:
+        if sha(base[int(span['start'],0):int(span['end'],0)])!=span['sha256']:raise ValueError('System readability protected binding')
+    pointers=[bank+struct.unpack_from('<I',base,bank+4+4*i)[0] for i in range(28)]
+    writes=[];records=[]
+    for row in source['resources']:
+        i=row['index'];binding=row['bindings'][kind];at=pointers[i]
+        if at!=int(binding['source_start'],0):raise ValueError('System readability source pointer')
+        raw,used=decode_resource(base,at,512)
+        if used!=int(binding['source_end'],0) or sha(raw)!=row['old_raw_sha256']:raise ValueError('System readability source pixels')
+        owner=row['target_owner_index'];target=pointers[owner];end=int(binding['target_owned_end'],0)
+        if target!=int(binding['target_start'],0) or [k for k,p in enumerate(pointers)if p==target]!=[owner] or sha(base[target:end])!=binding['target_owned_sha256']:raise ValueError('System readability owned slot/alias')
+        new,proof=field_pixels(base,raw,i);blob=optimal_lz77(new)
+        if proof['descriptor_sha256']!=row['descriptor_sha256'] or sha(new)!=row['new_raw_sha256'] or sha(blob)!=row['new_stream_sha256'] or len(blob)!=row['new_stream_bytes'] or target+len(blob)>end:raise ValueError('System readability regeneration/slot overflow')
+        if decode_resource(blob,0,512)!=(new,len(blob)):raise ValueError('System readability codec roundtrip')
+        writes.append(dict(writer='system readability '+row['label'],offset=target,payload=blob,allowed_end=end,expected_sha256=sha(base[target:target+len(blob)])))
+        if owner!=i:
+            field=bank+4+4*i;payload=struct.pack('<I',target-bank)
+            writes.append(dict(writer='system readability owned slot pointer '+str(i),offset=field,payload=payload,allowed_end=field+4,expected_sha256=sha(base[field:field+4])))
+        records.append(dict(row,verification=proof))
+    if len(writes)!=9:raise ValueError('System readability seven streams/two pointers')
+    return writes,dict(resources=records,bank_entries=28,changed_pointer_indices=[4,5],list_frame_36_bytes_preserved=True,palette_descriptors_consumer_code_unchanged=True,new_static_RAM_bytes=0,scope='Seven system button labels; exact white masks and gold decorations preserved. Only two bank pointer values exchange existing uniquely owned streams; no dialogue relocation or new gap allocation.')
