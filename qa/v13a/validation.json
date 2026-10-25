@@ -1,0 +1,52 @@
+{
+  "candidate_sha256": "0008712948a3dd570d817bdcb15ec2c3ae3a12bf06d56047882569f091e66968",
+  "rom_bytes": 16777216,
+  "SOURCE_QA": "PASS_SCOPED",
+  "STATIC_BINARY_QA": "PASS_SCOPED",
+  "RC_BUILD": "PASS_EXACT_SOURCE_REBUILD",
+  "RC_READBACK_QA": "PASS_SCOPED",
+  "RUNTIME_SMOKE": "PASS_SCOPED_NORMAL_SAVE_FRESH_PROCESS_RELOAD_AND_MENU_REENTRY",
+  "hardware": "NOT_RUN_USER_SCHEDULED_AFTER_RELEASE",
+  "runtime_records": {
+    "mgba-save": {
+      "rom_sha256": "0008712948a3dd570d817bdcb15ec2c3ae3a12bf06d56047882569f091e66968",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "frame": 21344,
+      "ram_interventions": 0,
+      "input_save_sha256": null
+    },
+    "mgba-reload": {
+      "rom_sha256": "0008712948a3dd570d817bdcb15ec2c3ae3a12bf06d56047882569f091e66968",
+      "core_sha256": "0d3177c927d791fef897f735d88db3646f7932d02054af108619c6df4e1597f1",
+      "frame": 1886,
+      "ram_interventions": 0,
+      "input_save_sha256": "bc31c3b78eeed579c86cb6902995e6980b372d2c068e2c081b0f6d51e3f38649"
+    },
+    "vba-save": {
+      "rom_sha256": "0008712948a3dd570d817bdcb15ec2c3ae3a12bf06d56047882569f091e66968",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "frame": 21344,
+      "ram_interventions": 0,
+      "input_save_sha256": null
+    },
+    "vba-reload": {
+      "rom_sha256": "0008712948a3dd570d817bdcb15ec2c3ae3a12bf06d56047882569f091e66968",
+      "core_sha256": "d44bac8b74eef4e61e1e5cba7678f7ce78e949d44becd3b2a5d813b79c8c6372",
+      "frame": 1886,
+      "ram_interventions": 0,
+      "input_save_sha256": "c4aa49f1941baef42061d36a7e6ecf18c5656186d6b86f213d50c53a6057b75b"
+    },
+    "save_trace_sha256": {},
+    "reload_trace_sha256": {}
+  },
+  "limits": [
+    "561 mixed-consumer bindings excluded",
+    "Inventory timing differences documented; no universal speed parity",
+    "No full-game or hardware proof"
+  ],
+  "evidence_sha256": {
+    "RUNTIME_QA.json": "69a50017846c7ae33199464cf1f651eb7d0c20fe359f45c3d92d731356a681da",
+    "FINAL_BOOT_QA.json": "714e31bdb150cca0b20daa4dc1a7010bc9a019a41f6154acc59a03db6a5617f1",
+    "FINAL_AUDIT.json": "242725b29f5f92f6be471706f71bd373e79cb112693169d653dcd246777e8932"
+  }
+}
