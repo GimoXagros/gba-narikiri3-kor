@@ -1,0 +1,1655 @@
+{
+  "base_sha256": "d1d27b49dfeb6bbacb77b2112664efbb679f7f30a89f2cd17a1037d64fef1c4b",
+  "caller": "080CAE18..080CAE32",
+  "eligible_bindings": 83,
+  "A_spaces": 85,
+  "bitset_hex": "7e53ffdf0f00fcfdfefcbfb317e71f04",
+  "selection": "isolatedASCII20 betweenHangul syllables in staticitem literal names; IDbitmap andrawpointer identity checked",
+  "unchanged": "all sourcebytes,numericpadding,unknownIDs,savednames,allothercallers",
+  "rows": [
+    {
+      "item_id": 0,
+      "pointer_offset": "0x105758",
+      "pointer": "0x8fce086",
+      "raw_hex": "8ff690bb",
+      "text": "없음",
+      "sha256": "88e9eb692e49e2156833155418c86ca31b7f254fde5786d0ba78ada6abcff391",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 1,
+      "pointer_offset": "0x105770",
+      "pointer": "0x81079ac",
+      "raw_hex": "8fd494622089578d6b",
+      "text": "애플 구미",
+      "sha256": "4595f2d265ccab44b93a3a1d62425c0e2db2bccbc7e7c976705e109c3b2f6b08",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 2,
+      "pointer_offset": "0x105788",
+      "pointer": "0x8198eac",
+      "raw_hex": "905f8c5a91962089578d6b",
+      "text": "오렌지 구미",
+      "sha256": "4b9fadf7978de94a2890fed42d9a5fc55b47e7384da1b3b396be7825e43bb060",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 3,
+      "pointer_offset": "0x1057a0",
+      "pointer": "0x81079ec",
+      "raw_hex": "8d6c8f592089578d6b",
+      "text": "믹스 구미",
+      "sha256": "c503633d7ddd294f013eb91f78897caa6b19238d4aca60bf41a08dd142571236",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 4,
+      "pointer_offset": "0x1057b8",
+      "pointer": "0x8107a28",
+      "raw_hex": "8c588cf12089578d6b",
+      "text": "레몬 구미",
+      "sha256": "fb97624a27d2e61bf252ab66e3e3cf9d245959e8d2fe4f6191334485487ab0ce",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 5,
+      "pointer_offset": "0x1057d0",
+      "pointer": "0x8107a6c",
+      "raw_hex": "93c290cc2089578d6b",
+      "text": "파인 구미",
+      "sha256": "d1a50f7f3e3a5cecd02873cb97c5c9cd5c36eb8877737238380b75f8726d80bc",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 6,
+      "pointer_offset": "0x1057e8",
+      "pointer": "0x819d020",
+      "raw_hex": "8d6b8bf1934b2089578d6b",
+      "text": "미라클 구미",
+      "sha256": "517b28707ccb7a14c76a86002a362a7720b38ac91573efc8f9cb25ba72281593",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 7,
+      "pointer_offset": "0x105800",
+      "pointer": "0x810c370",
+      "raw_hex": "90438cad8eab",
+      "text": "엘릭서",
+      "sha256": "d9df5f3f528b107f716a8f36b1d4aa10e9db617fff0dee9da6c6ce437a13e8ad",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 8,
+      "pointer_offset": "0x105818",
+      "pointer": "0x8183de8",
+      "raw_hex": "93c28a498f628fc4208db693b0",
+      "text": "파나시아 보틀",
+      "sha256": "67141bf90eeb42d8341e6ce82ded15e0a21d29db0ea0fe19ad8cdd9abd9f00b3",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 9,
+      "pointer_offset": "0x105830",
+      "pointer": "0x81a0b20",
+      "raw_hex": "8bf190ca9460208db693b0",
+      "text": "라이프 보틀",
+      "sha256": "b35f084fa6c05a421ee4d9de49ce9d8bf12070213c71fe00779d300b39299daa",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 10,
+      "pointer_offset": "0x105848",
+      "pointer": "0x8109eac",
+      "raw_hex": "8cee8c408f6288e6",
+      "text": "모래시계",
+      "sha256": "31151263e6b10fc9b40d5202796df6b711cabff88f6c8a0d9ed96af1b9173ae8",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 11,
+      "pointer_offset": "0x105860",
+      "pointer": "0x8109708",
+      "raw_hex": "8f5993e3936c934b918e",
+      "text": "스펙터클즈",
+      "sha256": "2190f2ecdb94fdbc2fd5f35c3f88a591846e745417f7919a59857ac074ddf22b",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 12,
+      "pointer_offset": "0x105878",
+      "pointer": "0x81a9d8b",
+      "raw_hex": "90d88d4f8ee6208b548957",
+      "text": "자물쇠 도구",
+      "sha256": "40c03a3deec3029188d65539fd17930be70e1a3c2a278c446ea1eb5d19a9bdfa",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 13,
+      "pointer_offset": "0x105890",
+      "pointer": "0x818f961",
+      "raw_hex": "935a8cac8f598cb6",
+      "text": "탈리스만",
+      "sha256": "0fd261471f2733e925847c527d0631ece5b5021d336c29727e5d0df9ce3c3c8e",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 14,
+      "pointer_offset": "0x1058a8",
+      "pointer": "0x8184518",
+      "raw_hex": "93ce8c518bf190ca20925b9348",
+      "text": "패럴라이 체크",
+      "sha256": "be1cc9471a2bd548dcd9649e66bd3a4cfa045c9ee427d5242ecb3078f4bf9dff",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 15,
+      "pointer_offset": "0x1058c0",
+      "pointer": "0x810c5bc",
+      "raw_hex": "946690849470",
+      "text": "피요한",
+      "sha256": "eb14e55a536aa00b55818751279e68772b1097f51ea061ef6569f35a6981caa0",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 16,
+      "pointer_offset": "0x1058d8",
+      "pointer": "0x818f95c",
+      "raw_hex": "8deb8c8720935a8cac8f598cb6",
+      "text": "블루 탈리스만",
+      "sha256": "f24c9dc09d1832bd85815fd0dc051fe660718afb9c1da169ca41ded18b9853a7",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 17,
+      "pointer_offset": "0x1058f0",
+      "pointer": "0x81bdbc0",
+      "raw_hex": "93f590ca919020925b9348",
+      "text": "포이즌 체크",
+      "sha256": "d60042fb9d84120f75e6114f6e9b43149fa466cf66c81fbad7564c33adfea6c5",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 18,
+      "pointer_offset": "0x105908",
+      "pointer": "0x81bdbec",
+      "raw_hex": "94608cac918e20925b9348",
+      "text": "프리즈 체크",
+      "sha256": "97fdc478847f5dcf45dd1b9739d3ec8ba8975adbe525ad66c29c75fb4a905682",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 19,
+      "pointer_offset": "0x105920",
+      "pointer": "0x8107ae0",
+      "raw_hex": "90438dea208dcc9297",
+      "text": "엘븐 부츠",
+      "sha256": "c98213b8f3cc89a3ede7f371ce42bf57cf89bf8437436420db1b7c1ee902ad2e",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 20,
+      "pointer_offset": "0x105938",
+      "pointer": "0x81072d0",
+      "raw_hex": "914593ac208dcc9297",
+      "text": "제트 부츠",
+      "sha256": "4294da7aaeb71019d89a31fc3bbc55bab09c221631f2de4008072f47be920fc6",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 21,
+      "pointer_offset": "0x105950",
+      "pointer": "0x8190110",
+      "raw_hex": "93e28ca18f628fc4208dcc9297",
+      "text": "페르시아 부츠",
+      "sha256": "b3f3353c6ada27292779ac7f9c25298c7083ff67283c449cf6e5a29e7e78338e",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 22,
+      "pointer_offset": "0x105968",
+      "pointer": "0x81be790",
+      "raw_hex": "8cc39197208d6b8f5993ac",
+      "text": "매직 미스트",
+      "sha256": "a38c18994d56a1d89c1a24eb03bd62b1c30cf72a0741968c3cc79c57cd068028",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 23,
+      "pointer_offset": "0x105980",
+      "pointer": "0x81c0dcb",
+      "raw_hex": "93488c6d8a49208f688dba",
+      "text": "크로나 심볼",
+      "sha256": "56cd9c5a5a57629b3ab0deb7ecd30a100e908e74304253dd277fd11a33e10c08",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 24,
+      "pointer_offset": "0x105998",
+      "pointer": "0x8107b30",
+      "raw_hex": "946693ac208f688dba",
+      "text": "피트 심볼",
+      "sha256": "f768826cf52080c8ea3aa231bc3a1ee0934b072d70296b19bdfa58d6ffb93bd6",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 25,
+      "pointer_offset": "0x1059b0",
+      "pointer": "0x81c0fd7",
+      "raw_hex": "8d6b8f5993ba208f688dba",
+      "text": "미스티 심볼",
+      "sha256": "3bbe6e5d435f6c2d92d9e54c54874ae82fef508be2905b0f2871d0bc1a24fa66",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 26,
+      "pointer_offset": "0x1059c8",
+      "pointer": "0x81c11af",
+      "raw_hex": "8fc492eb8fc4208cbf9384",
+      "text": "아쿠아 망토",
+      "sha256": "7632a275086a0f79ba3637e2789238d3a635ed94c9fec46b35917fbb8cc24657",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 27,
+      "pointer_offset": "0x1059e0",
+      "pointer": "0x8107bc4",
+      "raw_hex": "8f838af3208cbf9384",
+      "text": "썬더 망토",
+      "sha256": "4220f3b7b353a63731abc9296e209492421dc9be61cc2a01202bdb2fbd590976",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 28,
+      "pointer_offset": "0x1059f8",
+      "pointer": "0x81c12d3",
+      "raw_hex": "94628c588fec208cbf9384",
+      "text": "플레어 망토",
+      "sha256": "58580916e252d2f669d551ac8b7d390e4eb83d977d53613411131cc51eb03e1c",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 29,
+      "pointer_offset": "0x105a10",
+      "pointer": "0x81c11b6",
+      "raw_hex": "8cbf9384",
+      "text": "망토",
+      "sha256": "64e0660344944110b10b4280e9dc44b572e4ddd7419452352531b3e578dc046d",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 30,
+      "pointer_offset": "0x105a28",
+      "pointer": "0x81080dc",
+      "raw_hex": "8c588af3208cbf9384",
+      "text": "레더 망토",
+      "sha256": "2e15f03ede81e949ad3a0084f1a06879d8867f5bc507760f39a85c06851bc572",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 31,
+      "pointer_offset": "0x105a40",
+      "pointer": "0x81c145f",
+      "raw_hex": "90408cdc8bf48b85208cb3",
+      "text": "에메랄드 링",
+      "sha256": "bb4e28a107f694c71dd04d2085027210df2059aae9f26ab4702eabb55f309225",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 32,
+      "pointer_offset": "0x105a58",
+      "pointer": "0x8108240",
+      "raw_hex": "93e28fec8cac208cb3",
+      "text": "페어리 링",
+      "sha256": "7c8d0c99c556ffa6e3c85c2168759083c624bd0b3e46090483b9a988dc7c54c8",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 33,
+      "pointer_offset": "0x105a70",
+      "pointer": "0x81c14bf",
+      "raw_hex": "94608c6d937793ac208cb3",
+      "text": "프로텍트 링",
+      "sha256": "0c97ee5be287a14d6ef4ab30ac4ea4b1a86b04651c5a8426a2ffe4b67d8ae38f",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 34,
+      "pointer_offset": "0x105a88",
+      "pointer": "0x81066d0",
+      "raw_hex": "8cde935a208cb3",
+      "text": "멘탈 링",
+      "sha256": "9ef6e844ab02403efb238b42e2007321f8de2458495ed812135b35085ba9c501",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 35,
+      "pointer_offset": "0x105aa0",
+      "pointer": "0x81c15ef",
+      "raw_hex": "8c5891968f5993ac208cb3",
+      "text": "레지스트 링",
+      "sha256": "5aec692b2a230a07f179fec77ad4a0ad1ea187aab69c9d4fde44f677624be3b5",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 36,
+      "pointer_offset": "0x105ab8",
+      "pointer": "0x8108b9e",
+      "raw_hex": "8e46",
+      "text": "빵",
+      "sha256": "eb2d9ac20d5ad4ef4e9c87da7f1e3033130e2d341c218f9815858f3e4b6b2697",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 37,
+      "pointer_offset": "0x105ad0",
+      "pointer": "0x810c970",
+      "raw_hex": "93c28f599357",
+      "text": "파스타",
+      "sha256": "2100b7a7ab932076482f83d16940eeeea400001f72592f941162869e8708ae5c",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 38,
+      "pointer_offset": "0x105ae8",
+      "pointer": "0x810ae70",
+      "raw_hex": "8bf190ca8f59",
+      "text": "라이스",
+      "sha256": "a4ee6d0d00277aaee4f11d163d8850faf0d31aaa4562832ed3114d0b0cadda3c",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 39,
+      "pointer_offset": "0x105b00",
+      "pointer": "0x810c220",
+      "raw_hex": "88eb8982",
+      "text": "고기",
+      "sha256": "3a785104768a9b4943a4cf79b3539bd4d1e6d00ea0d41dfa467923d1d3abc4b8",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 40,
+      "pointer_offset": "0x105b18",
+      "pointer": "0x810c9e8",
+      "raw_hex": "8fe58e93927e",
+      "text": "양상추",
+      "sha256": "1e30b9674c64b3e607f94f76c771b816833c7e7e108d4a25847de22200c17d65",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 41,
+      "pointer_offset": "0x105b30",
+      "pointer": "0x810cbe4",
+      "raw_hex": "8fe58d88927e",
+      "text": "양배추",
+      "sha256": "a79fed82af619f3cf6cee7e9e40229861f0ab49e73577a886203574ce977f708",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 42,
+      "pointer_offset": "0x105b48",
+      "pointer": "0x810c360",
+      "raw_hex": "88e68bf3",
+      "text": "계란",
+      "sha256": "594a9622c882c9179e6141e94e6d5f662d8246ed5b911ec2e04071ecd37329b4",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 43,
+      "pointer_offset": "0x105b60",
+      "pointer": "0x810cd14",
+      "raw_hex": "93848cb49384",
+      "text": "토마토",
+      "sha256": "371117f04196b5de3acde386bd3a48fe81d51aef4cf340b90e9bb6cce27b6257",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 44,
+      "pointer_offset": "0x105b78",
+      "pointer": "0x810c68c",
+      "raw_hex": "8fe593c2",
+      "text": "양파",
+      "sha256": "500e96b310586fe68189436b30625da2e2e868048d303b4562a907d4f9e03a58",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 45,
+      "pointer_offset": "0x105b90",
+      "pointer": "0x810c850",
+      "raw_hex": "88a690d8",
+      "text": "감자",
+      "sha256": "4a5ba8ca5e74012bfb711ec718260f4f37caec2b6ff12c4ae064edf1ddad0030",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 46,
+      "pointer_offset": "0x105ba8",
+      "pointer": "0x810cb20",
+      "raw_hex": "908c90ad",
+      "text": "우유",
+      "sha256": "1847c8a1cc345c4483dab276123725e66cd46977e5073dbfbdef2ee4bedf47a0",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 47,
+      "pointer_offset": "0x105bc0",
+      "pointer": "0x810cb2c",
+      "raw_hex": "929f918e",
+      "text": "치즈",
+      "sha256": "4886176c73b265b21a3340177c67fcba35bc0bccfad5e081c42d4a4f4f779cc4",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 48,
+      "pointer_offset": "0x105bd8",
+      "pointer": "0x810cde4",
+      "raw_hex": "94778e8a8d4f",
+      "text": "해산물",
+      "sha256": "6574f4799a08ab9b0bfaa6ec744aeb5e475a813b33a4e680120003d00bf06a7e",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 49,
+      "pointer_offset": "0x105bf0",
+      "pointer": "0x8111d0c",
+      "raw_hex": "88f890cd",
+      "text": "과일",
+      "sha256": "c6668aa7638f28166a679180739dfd5e4000c160faa354a04e363c2af199f6f8",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 50,
+      "pointer_offset": "0x105c08",
+      "pointer": "0x81c1973",
+      "raw_hex": "905f90c52088b190fa8eab",
+      "text": "오의 개전서",
+      "sha256": "f48603a2216912492efc4fbb12ed71b9fc17c60b4678fd067bbbe9a42231a46d",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 51,
+      "pointer_offset": "0x105c20",
+      "pointer": "0x81084ac",
+      "raw_hex": "90438dea208db6908c",
+      "text": "엘븐 보우",
+      "sha256": "a55704b5f9af380439d23f51200b3fb6478307b952c06da63f0273b3615d46b8",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 52,
+      "pointer_offset": "0x105c38",
+      "pointer": "0x87ac970",
+      "raw_hex": "8f599357208cdc90ca8f59",
+      "text": "스타 메이스",
+      "sha256": "af6b2a8c1cd289e21a3428061f7ed50cb58bb14a517b61dd840fd17747ed8ca9",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 53,
+      "pointer_offset": "0x105c50",
+      "pointer": "0x810a92c",
+      "raw_hex": "88e68fde90c5208d7c9196",
+      "text": "계약의 반지",
+      "sha256": "fb16a31ed1afd04a6e5c9bc481c114247e8d79d5578da01733a27050d1d89b1c",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 54,
+      "pointer_offset": "0x105c68",
+      "pointer": "0x810882c",
+      "raw_hex": "90438dea208c6d8fec",
+      "text": "엘븐 로어",
+      "sha256": "b9c5438fe81059ddb07c6be7b6d2666c89db5cf7be3a2d2f700540b8453503aa",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 55,
+      "pointer_offset": "0x105c80",
+      "pointer": "0x8108a40",
+      "raw_hex": "8acf8b542094978fdc",
+      "text": "닌도 혈앵",
+      "sha256": "a607685f6a57cc82b369fd74f4dcfc804e79b7a11839aa7ceb73b2e1e0a638b6",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 56,
+      "pointer_offset": "0x105c98",
+      "pointer": "0x8106a00",
+      "raw_hex": "88a793c5208ed4",
+      "text": "갑판 솔",
+      "sha256": "991caccef28be12a7a005be5bee97ea9745ebea792383c6734e7d2fff2b89f63",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 57,
+      "pointer_offset": "0x105cb0",
+      "pointer": "0x81120e0",
+      "raw_hex": "8c5a918e",
+      "text": "렌즈",
+      "sha256": "6a294340c0cada7325c68dbbbdea158c9b89c10b1253644c3710beeda81e70df",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 58,
+      "pointer_offset": "0x105cc8",
+      "pointer": "0x8108acc",
+      "raw_hex": "919894a9208cbf9384",
+      "text": "진홍 망토",
+      "sha256": "49bbc28fc499fc44065d5b5d344e38d6c7721d69c125d36d5670edaf5bc5f6c8",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 59,
+      "pointer_offset": "0x105ce0",
+      "pointer": "0x8108b18",
+      "raw_hex": "90b89376208fc688e4",
+      "text": "은테 안경",
+      "sha256": "127e839ae66f3d0967b877e7091ec4e3224280546d158edcabd67aadcdae27ac",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 60,
+      "pointer_offset": "0x105cf8",
+      "pointer": "0x8105344",
+      "raw_hex": "8da18ca18eba8ca19348208fd48c6d908c",
+      "text": "베르세르크 애로우",
+      "sha256": "19b445070f3e46dc8aad7e873780764c9ff421364e675c721e9c9bd8cfcc9360",
+      "A_space_byte_offsets": [
+        10
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 61,
+      "pointer_offset": "0x105d10",
+      "pointer": "0x8108bbc",
+      "raw_hex": "8ebd9460208db6908c",
+      "text": "셀프 보우",
+      "sha256": "231cc06389ad92a43d8381b1308aa4c740a1d492fdc7cd78bddff3aaa572f40d",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 62,
+      "pointer_offset": "0x105d28",
+      "pointer": "0x810aa2c",
+      "raw_hex": "897c2094608bf190ca93d0",
+      "text": "금 프라이팬",
+      "sha256": "e4ef4db97b8353e2b3c7b45efc587cc0f2541f09bbd99626d7663681a5ea192e",
+      "A_space_byte_offsets": [
+        2
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 63,
+      "pointer_offset": "0x105d40",
+      "pointer": "0x810b0e8",
+      "raw_hex": "924794668fee208da593ac",
+      "text": "챔피언 벨트",
+      "sha256": "e29efb78871e256e1bff2eef60f8213493ac1a96298a5d2066793517dd1d6f96",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 64,
+      "pointer_offset": "0x105d58",
+      "pointer": "0x8112174",
+      "raw_hex": "8c9993ac",
+      "text": "류트",
+      "sha256": "692a0132a19405b2568c649cff5f1d29554504e75aaa08af90c9e61c8cdaadff",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 65,
+      "pointer_offset": "0x105d70",
+      "pointer": "0x8190aa4",
+      "raw_hex": "8e878a6889d990c5208b548a41",
+      "text": "사냥꾼의 도끼",
+      "sha256": "f629c6147a8c69db84035d59cbe60023b1d344d13203ea4588eae6c182429724",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 66,
+      "pointer_offset": "0x105d88",
+      "pointer": "0x810b278",
+      "raw_hex": "8bf18f538fc620904f8e96",
+      "text": "라슈안 염색",
+      "sha256": "7b4c95134bc284a21eac7b03a3c8d678356110d684d63d6c19191400d86918b9",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 67,
+      "pointer_offset": "0x105da0",
+      "pointer": "0x8190af8",
+      "raw_hex": "8c58905f8a8b8fc4208e8790fa",
+      "text": "레오노아 사전",
+      "sha256": "a7c21096df821baa471ecaa398b808567ca4cc9ac36a0dbe41be721321fa40ae",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 68,
+      "pointer_offset": "0x105db8",
+      "pointer": "0x810b5b4",
+      "raw_hex": "905f91452094668fec8f59",
+      "text": "오제 피어스",
+      "sha256": "95c9911f61c783bf172fa70cf62846a20559040c7659bc602fdddf2deb879dc6",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 69,
+      "pointer_offset": "0x105dd0",
+      "pointer": "0x8195574",
+      "raw_hex": "8d6b8fc4934f8f59208d889196",
+      "text": "미아키스 배지",
+      "sha256": "b51eb2f86cfbdf3aa97148f87d1a4bf5b90696ba34bad37995c1be3ea5180276",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 70,
+      "pointer_offset": "0x105de8",
+      "pointer": "0x819567c",
+      "raw_hex": "8fc490ca94608cac8b8520947d",
+      "text": "아이프리드 햇",
+      "sha256": "583a21b37a3db97528c3b93a3ae7d4dd273372b9f6dee781cc8f863f4f21fb9b",
+      "A_space_byte_offsets": [
+        10
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 71,
+      "pointer_offset": "0x105e00",
+      "pointer": "0x810cfb0",
+      "raw_hex": "92d88ca18c5890cc90c52094768fc48cac",
+      "text": "코르레인의 항아리",
+      "sha256": "691f3ad16015b2ff2338d536f223660c6eb8498e4f555fc26ca9332d156a6651",
+      "A_space_byte_offsets": [
+        10
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 72,
+      "pointer_offset": "0x105e18",
+      "pointer": "0x8109898",
+      "raw_hex": "8f5993888de88cb388c3",
+      "text": "스톰브링거",
+      "sha256": "bf60ed657c148068de6b51007594054613f390f34065c88647def3195fa945d6",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 73,
+      "pointer_offset": "0x105e30",
+      "pointer": "0x8111ea4",
+      "raw_hex": "8d478acd8ca1",
+      "text": "묠니르",
+      "sha256": "1b745169f09392b048a795fd4f1b2c50f848a08ea04b37625e6e9ea70663adbe",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 74,
+      "pointer_offset": "0x105e48",
+      "pointer": "0x8197324",
+      "raw_hex": "94ef8cbf90c52093e48af693ac",
+      "text": "희망의 펜던트",
+      "sha256": "4968293e50dcf9387b17e91bb03f765ca7a732eac07255a3a546963d124c8459",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 75,
+      "pointer_offset": "0x105e60",
+      "pointer": "0x8198f80",
+      "raw_hex": "92a394e490c52093e28ca18ed08a49",
+      "text": "칠흑의 페르소나",
+      "sha256": "6bb964ae3997de5041903c9e39ac121a5190859b79cbe5acb90f2ce524d806f8",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 76,
+      "pointer_offset": "0x105e78",
+      "pointer": "0x8198f0c",
+      "raw_hex": "90408b46918e2093c290ca8fec",
+      "text": "에덴즈 파이어",
+      "sha256": "1ad32828110ae25291fac38d5eae17ab29104802b290ec600ae13e073fc64e3a",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 77,
+      "pointer_offset": "0x105e90",
+      "pointer": "0x8198fc8",
+      "raw_hex": "94778c708b8590c520919693cc90ca",
+      "text": "해롤드의 지팡이",
+      "sha256": "f53ab88e017aac41b17b1ecf4c2a89cbc1b0e9cb4805c81869eb1ae57a5a424f",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 78,
+      "pointer_offset": "0x105ea8",
+      "pointer": "0x810b5c8",
+      "raw_hex": "90848ed090c5208d4d90e3",
+      "text": "요소의 문장",
+      "sha256": "189e81d8e5770f6270afaddb4e33b63f2635f200477e874eff0c1136020492c5",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 79,
+      "pointer_offset": "0x105ec0",
+      "pointer": "0x8106ee0",
+      "raw_hex": "90998b8520905f8de8209098",
+      "text": "월드 오브 원",
+      "sha256": "caa6ace299249352aeeee6702f5ccd13d25be245a17c5cc42f8dbba82762b924",
+      "A_space_byte_offsets": [
+        4,
+        9
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 80,
+      "pointer_offset": "0x105ed8",
+      "pointer": "0x810b90c",
+      "raw_hex": "8f6490d890c52090e38ed1",
+      "text": "신자의 장속",
+      "sha256": "57713bbfb77b7842e288bdd5d1183e32d43dc57adfd7d671fb5b792083d35ddb",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 81,
+      "pointer_offset": "0x105ef0",
+      "pointer": "0x810bbac",
+      "raw_hex": "90ad8acd92da90c5208e73",
+      "text": "유니콘의 뿔",
+      "sha256": "225f265b137d95196c6a630954d3109e165fe7c8db55406f0785dd25f054a918",
+      "A_space_byte_offsets": [
+        8
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 82,
+      "pointer_offset": "0x105f08",
+      "pointer": "0x810bd34",
+      "raw_hex": "92d88cae90c5208d86908f",
+      "text": "코린의 방울",
+      "sha256": "c078b1d7341147994e928ab40823a64491ba82a1790f655aba3afffca62d4cb9",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 83,
+      "pointer_offset": "0x105f20",
+      "pointer": "0x810bd48",
+      "raw_hex": "8f6490d890c52090588db7",
+      "text": "신자의 예복",
+      "sha256": "110405a5b756a85f25988d13ac9e77e508ff428174d01427bae180875451a72a",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 84,
+      "pointer_offset": "0x105f38",
+      "pointer": "0x819ec90",
+      "raw_hex": "889f90ca8fc42089768cac8d96",
+      "text": "가이아 그리버",
+      "sha256": "1c513e8a6ba7863a5d35d9f0316a9e42a17f1664768e4501772c48838795fb63",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 85,
+      "pointer_offset": "0x105f50",
+      "pointer": "0x8108da4",
+      "raw_hex": "88ab9255208ef488a7",
+      "text": "강철 수갑",
+      "sha256": "e356ac1b5a308a620de869969353da1756ccd2ae3cbe89c5aab865e395f4dbf2",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 86,
+      "pointer_offset": "0x105f68",
+      "pointer": "0x8109ccc",
+      "raw_hex": "94608bf98da18ca19175",
+      "text": "프랑베르주",
+      "sha256": "9cab1cb456c4ee5973f2e339f0af31fef29c366d9f437a1e7ebbead37914ad2f",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 87,
+      "pointer_offset": "0x105f80",
+      "pointer": "0x81b5df0",
+      "raw_hex": "8b448cac8f592090448deb8c5c",
+      "text": "데리스 엠블렘",
+      "sha256": "e3d433d2f80982e10f1e3af52405b1b7500345e3934b4af6fc488860860f5f69",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 88,
+      "pointer_offset": "0x105f98",
+      "pointer": "0x8106a34",
+      "raw_hex": "90b820895890d8",
+      "text": "은 국자",
+      "sha256": "f968ddd437558524f2706ee9c48f6af7c570d65afcd9da21cbfc05196c9a953a",
+      "A_space_byte_offsets": [
+        2
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 89,
+      "pointer_offset": "0x105fb0",
+      "pointer": "0x819d038",
+      "raw_hex": "8ebd8f62908c8f5990c5208aa98d4f",
+      "text": "셀시우스의 눈물",
+      "sha256": "37b783852cc915afc8d776253d12b906c2d4cc5efc20c308da70e849ef1f19f4",
+      "A_space_byte_offsets": [
+        10
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 90,
+      "pointer_offset": "0x105fc8",
+      "pointer": "0x8109f48",
+      "raw_hex": "8cb48f5992d893ac",
+      "text": "마스코트",
+      "sha256": "2a1579b745ad98ced7dd9d07cb29d5cb4f31de494f1b785048ea05717ba9c407",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 91,
+      "pointer_offset": "0x105fe0",
+      "pointer": "0x8111f08",
+      "raw_hex": "88c98ef88eab",
+      "text": "검술서",
+      "sha256": "9099db0b960eddb5182e004ea06655be8a4867584d3d50511a382d9fd9dbbd5e",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 92,
+      "pointer_offset": "0x105ff8",
+      "pointer": "0x8fce16f",
+      "raw_hex": "88c990b82094838cac8bea",
+      "text": "검은 허리띠",
+      "sha256": "1b74d9747d40f9bc8aa4ef33bdc7672d01c329ce7c240f168cb553d09ca7c523",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 93,
+      "pointer_offset": "0x106010",
+      "pointer": "0x8108ee4",
+      "raw_hex": "9485936c208db6908c",
+      "text": "헌터 보우",
+      "sha256": "a72148152281f65be27f4dc69a2fefd27f8eebbc4cc123fc139c364604222d3a",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 94,
+      "pointer_offset": "0x106028",
+      "pointer": "0x8159884",
+      "raw_hex": "88e490fa",
+      "text": "경전",
+      "sha256": "9cc36873037ca83191c313e1ac9034e8ca031c2c28a8ce93a5e6e3a91ae97989",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 95,
+      "pointer_offset": "0x106040",
+      "pointer": "0x81077c0",
+      "raw_hex": "88c990b8209069",
+      "text": "검은 옷",
+      "sha256": "eff02a37c5d1289f97f8343fcca2248e643b121289cd19fdd808d8ea602cfdae",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 96,
+      "pointer_offset": "0x106058",
+      "pointer": "0x8108f9c",
+      "raw_hex": "88c990b8208c6d8de8",
+      "text": "검은 로브",
+      "sha256": "56ff6f262cda21c007dd8389083ce9e111547b451b47c9e6eae06c74a966e478",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 97,
+      "pointer_offset": "0x106070",
+      "pointer": "0x8108348",
+      "raw_hex": "897c20917593c5",
+      "text": "금 주판",
+      "sha256": "a998a1bd0d22ea9dd2219cd0f8c46ca76adb9866c13266d02fdc6ed9bb8af82d",
+      "A_space_byte_offsets": [
+        2
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 98,
+      "pointer_offset": "0x106088",
+      "pointer": "0x8109104",
+      "raw_hex": "8aeb8f59208f53918e",
+      "text": "댄스 슈즈",
+      "sha256": "a72ba2a73e0c1834e697025e224a5b405bbbc487a7ad5b790bc1c45626a4a2b3",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 99,
+      "pointer_offset": "0x1060a0",
+      "pointer": "0x810aa2f",
+      "raw_hex": "94608bf190ca93d0",
+      "text": "프라이팬",
+      "sha256": "abe8b2015b6b7c15dac8340f04c6edaefbbfb986caac48bf3062518f7dec8695",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 100,
+      "pointer_offset": "0x1060b8",
+      "pointer": "0x810915c",
+      "raw_hex": "9048908c20889f8ce7",
+      "text": "여우 가면",
+      "sha256": "bef3089e476aa77d046fe4f5d8cd55adc1298c978ea8fd15982e56b9f3eb3338",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 101,
+      "pointer_offset": "0x1060d0",
+      "pointer": "0x81120a4",
+      "raw_hex": "925a91988982",
+      "text": "청진기",
+      "sha256": "b4146895def2134bce74b315efd7c02a39c237c0724b09d85f93a3fddadca2a5",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 102,
+      "pointer_offset": "0x1060e8",
+      "pointer": "0x815a06c",
+      "raw_hex": "89829357",
+      "text": "기타",
+      "sha256": "cabbb383f27bda7bbb51cd8d3bd00e9e882118a7f9b4558bdb85a9d364cbaff5",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 103,
+      "pointer_offset": "0x106100",
+      "pointer": "0x8109fe0",
+      "raw_hex": "8d8988f88e8790fa",
+      "text": "백과사전",
+      "sha256": "c96d5c00a47e0e53796d885aab081aff853cb2f71a5c75ae654c4f391ba29cdc",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 104,
+      "pointer_offset": "0x106118",
+      "pointer": "0x81092f0",
+      "raw_hex": "8a8b92d8208d968eb6",
+      "text": "노코 버섯",
+      "sha256": "131f49447109c660775c8d9bd53051697839770cb4658e1b1f8187d9f8085ef3",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 105,
+      "pointer_offset": "0x106130",
+      "pointer": "0x8108378",
+      "raw_hex": "8f66934820947d",
+      "text": "실크 햇",
+      "sha256": "8935814f932c2c7049fbe905b4b06454b6e4045d69f09d93dd75af2e2f55c4d7",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 106,
+      "pointer_offset": "0x106148",
+      "pointer": "0x8109364",
+      "raw_hex": "889f91762092d893ac",
+      "text": "가죽 코트",
+      "sha256": "1cb5195658e9cf751fb2f4bad916017d925827eaf3622fcc092f0726e43c129e",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 107,
+      "pointer_offset": "0x106160",
+      "pointer": "0x8112198",
+      "raw_hex": "89628acd8ca1",
+      "text": "궁니르",
+      "sha256": "fceece16adabb309052e0b00d1c5ec93e5a03e02ae0a0eb717fd980d6ea1e6a9",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 108,
+      "pointer_offset": "0x106178",
+      "pointer": "0x81a5a90",
+      "raw_hex": "8b858caf",
+      "text": "드릴",
+      "sha256": "8bab65fb2f8473303c89f52bbf8de0375e19da0ef956a629fb92b7a49ea1e2c0",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 109,
+      "pointer_offset": "0x106190",
+      "pointer": "0x8109780",
+      "raw_hex": "8b5490f9208ae988c3",
+      "text": "도적 대거",
+      "sha256": "3fc8607bad35b06bac490862c8b9bcd2c32a2f3ea031b0ca9792ba1ab9dc57be",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 110,
+      "pointer_offset": "0x1061a8",
+      "pointer": "0x810bf2c",
+      "raw_hex": "8fec8b7190c52089578f5c",
+      "text": "어둠의 구슬",
+      "sha256": "13427ade8f5c94da33b0f6c88e029341b134c999f1caa3c4ba7e6eb6eee510af",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 111,
+      "pointer_offset": "0x1061c0",
+      "pointer": "0x810824c",
+      "raw_hex": "94668c6d208d4f8b87208b548a41",
+      "text": "피로 물든 도끼",
+      "sha256": "1401906d3cfd654c4142be9a00d2e3875e856e6153c127dfb415e6306072685e",
+      "A_space_byte_offsets": [
+        4,
+        9
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 112,
+      "pointer_offset": "0x1061d8",
+      "pointer": "0x810b5f0",
+      "raw_hex": "898290f990c52093e48af693ac",
+      "text": "기적의 펜던트",
+      "sha256": "6acc2bc844fa585506335599bc997761661c9c2ab240d1ae439cfa7bfff64845",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 113,
+      "pointer_offset": "0x1061f0",
+      "pointer": "0x87adbc4",
+      "raw_hex": "93488c878f628f5990c52094d48eac",
+      "text": "크루시스의 휘석",
+      "sha256": "95bb1c8cd3d934b696388e5032ce0f741ea3e63ce4d88d573d5bd3f75b92de5d",
+      "A_space_byte_offsets": [
+        10
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 114,
+      "pointer_offset": "0x106208",
+      "pointer": "0x8109d50",
+      "raw_hex": "908b90c5208def8ac1",
+      "text": "용의 비늘",
+      "sha256": "c41c1740016cb8379d1060167517479abe7ca2fe8f0a5a8605c9dc41e8c6c48b",
+      "A_space_byte_offsets": [
+        4
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 115,
+      "pointer_offset": "0x106220",
+      "pointer": "0x810d07c",
+      "raw_hex": "94a18bf990ca20889f9176",
+      "text": "호랑이 가죽",
+      "sha256": "41dfcae5b74910789d0be2ed670f53a5e8e7396fab7ba25d6c2643951ef7daea",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 116,
+      "pointer_offset": "0x106238",
+      "pointer": "0x810a1c4",
+      "raw_hex": "93e290ca93482093d9",
+      "text": "페이크 퍼",
+      "sha256": "299d089a6be9336a988f0f533c9310806bd68a3326061e2b1c720f0feb1874a5",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 117,
+      "pointer_offset": "0x106250",
+      "pointer": "0x81b15f0",
+      "raw_hex": "8dcd9243",
+      "text": "북채",
+      "sha256": "6da9669578881290bcc3b688bf040ed7e2ef9d2e914b1c5d433feac6b6538684",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 118,
+      "pointer_offset": "0x106268",
+      "pointer": "0x8109cfc",
+      "raw_hex": "90418f5992ac8cac8d96",
+      "text": "엑스칼리버",
+      "sha256": "34ebd3f32f0bacd4a7f2ec55d9287369110343a41f03e138622bbdecc2ef4daf",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 119,
+      "pointer_offset": "0x106280",
+      "pointer": "0x815744c",
+      "raw_hex": "42438c6d8b85",
+      "text": "BC로드",
+      "sha256": "50d6d77bce63f10efebad1f016dc4674e4f999d22df9446064f574995d1b4fe3",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 120,
+      "pointer_offset": "0x106298",
+      "pointer": "0x815b198",
+      "raw_hex": "904093768ca1",
+      "text": "에테르",
+      "sha256": "f8dfed1ad1e1a63e531aec852c7d5ed9b9bad1189860c8916f6c6164e1607e13",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 121,
+      "pointer_offset": "0x1062b0",
+      "pointer": "0x81601cc",
+      "raw_hex": "52438c6d8b85",
+      "text": "RC로드",
+      "sha256": "671ee6c29a2d1a8d5fd0792280ec8d4db9b043e759d9dde9221274b518b3a6a6",
+      "A_space_byte_offsets": [],
+      "status": "UNCHANGED_ORIGINAL_FASTPATH",
+      "suffix_g5": true,
+      "source_bytes_unchanged": true
+    },
+    {
+      "item_id": 122,
+      "pointer_offset": "0x1062c8",
+      "pointer": "0x810d0a4",
+      "raw_hex": "88eb8ae990c520904c8ee6",
+      "text": "고대의 열쇠",
+      "sha256": "6b361d5d39ef2125b9757bb3904cedcdb42c2b27d30515ad55c83cdd2ea85a76",
+      "A_space_byte_offsets": [
+        6
+      ],
+      "status": "ELIGIBLE_INVENTORY_LITERAL",
+      "suffix_g5": false,
+      "source_bytes_unchanged": true
+    }
+  ]
+}

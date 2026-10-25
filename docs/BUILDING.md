@@ -8,6 +8,26 @@ Python 3.12와 3.14에서 `python -m unittest discover -s tests -v`로 합성 �
 fontTools는 현재 빌드 코드에서 직접 사용하지 않습니다. 이 검사는 ROM 재빌드,
 패치 재적용, 자연 진행·저장 또는 실기 검증을 대신하지 않습니다.
 
+## v1.3a 소스 빌드
+
+같은 준비 입력과 도구로 다음을 실행합니다. 기존 한국어 ROM이나 과거 출력 폴더를 입력으로 사용하지 않습니다.
+
+```powershell
+python -X utf8 tools/build_v13a.py --j '일본판.gba' --ips 'ToWN3(K) 1.1.ips' --toolchain 'C:\도구\gcc-arm-none-eabi\bin' --out output/v1.3a-build
+```
+
+빌더는 v1.3 기준선을 소스에서 재생성하고 `source/v13a/`의 명시적인 변경을 적용합니다. 결과는 `ND3_B3TJ_K_v1.3a.gba`와 `_FROM_J.bps`, 소스·도구·입력 해시를 포함한 `BUILD_MANIFEST.json`입니다. 최종 ROM은 16MiB를 강제합니다. 하위 기준선 빌더의 32MiB 역사 비교본은 중간 검사 자료이며 배포하지 않습니다.
+
+대화의 고정 줄바꿈 중 승인된 위치만 표시용 제어로 바꿉니다. 기존 공백 코드의 길이를 유지하고 문자열을 이동하지 않습니다. 소형 목록은 확인된 아이템 이름 호출부만 처리하며, 화면이 참조하는 타일과 현재 이름의 타일을 보호합니다. 새 소비 경로를 추가할 때는 현재 범위의 검증을 그대로 일반화하지 마세요.
+
+검증된 두 코어에서는 새 입력 기록을 명시해서 실행합니다. 알려진 ROM·코어·입력 해시가 아니면 실패하며 기존 검증의 기본 입력은 바꾸지 않습니다.
+
+```powershell
+python -X utf8 tools/verify_runtime_smoke.py --rom 'output/v1.3a-build/ND3_B3TJ_K_v1.3a.gba' --core 'mgba_libretro.dll' --out output/v1.3a-runtime --trace-set v13a
+```
+
+패키지는 `tools/package_v13a.py`, 실제 동봉 적용기는 `tools/verify_v13a_package.py`로 검증합니다. 인자는 아래 v1.3 절차와 동일하되 도구·폴더 버전을 바꿉니다. 정확한 커밋·후보에 묶인 SOURCE_QA, STATIC_BINARY_QA, RC_BUILD, RC_READBACK_QA, RUNTIME_SMOKE 및 독립 감사가 필요합니다. 실기 항목은 이번 사용자 지시에 따라 `DEFERRED_BY_USER`이며 에이전트 실행은 `NOT_RUN`으로 명시해야 합니다. 배포 승인과 실기 통과를 같은 판정으로 기록하지 않습니다.
+
 ## v1.3 소스 빌드
 
 v1.3 결과는 정확히 16,777,216 bytes입니다. 개발 빌더는 별도로 준비한 일본판 B3TJ와 1.1 IPS에서 누적 번역, 승인 그림, 기존 16MiB 배치, 메뉴 최적화와 후보 교정을 순서대로 생성합니다. 과거 `output/` 폴더나 완성 한국어 ROM은 입력이 아닙니다. 아래 준비 입력과 Python 의존성, ARM 도구를 사용합니다.

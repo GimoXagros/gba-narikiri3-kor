@@ -1,0 +1,50 @@
+{
+  "status": "GO_SCOPED",
+  "candidate_sha256": "0008712948a3dd570d817bdcb15ec2c3ae3a12bf06d56047882569f091e66968",
+  "rom_bytes": 16777216,
+  "blocking_findings": [],
+  "resolved_findings": [
+    {
+      "id": "A1",
+      "issue": "18 LZ77 streams mislabeled as immediate payloads",
+      "resolution": "Source kind corrected; editable decoded raster/hash and strict optimal LZ77 roundtrip added; resulting bytes unchanged"
+    }
+  ],
+  "independent_readback": {
+    "status": "PASS_INDEPENDENT_COMPLETE_DECLARED_READBACK",
+    "candidate_sha256": "0008712948a3dd570d817bdcb15ec2c3ae3a12bf06d56047882569f091e66968",
+    "rom_bytes": 16777216,
+    "surveyed_pointer_fields": 7298,
+    "stored_item_names": 123,
+    "graphic_streams": 22,
+    "anchor_immediates": 2,
+    "word_spaces": 14211,
+    "joined_word_spaces": 74,
+    "soft_linebreaks": 3079,
+    "unexplained_changed_bytes": 0,
+    "changed_bytes": 44339,
+    "source_private_path_matches": [],
+    "method": "Independent complete text extent model, decoded graphic rasters, bitplane expansion and whole-ROM diff ownership; no call to product builder"
+  },
+  "evidence_sha256": {
+    "independent_readback": "436303daeed6cf3271f087a4f789ad47b660741aa1653a4e8b1238fc7d88b4a1",
+    "reflow_cpu": "f123ea3a078341bee6c0487ae24c0454839876c546cc1c6ff8ca66469cd279e6",
+    "reflow_actual_waits": "9a8ba7e31d77068bad704dda3df088091665de5cbb58b89d8bc2a898d3e5073b",
+    "reflow_integrated_binding": "5e3fe9f5ccab86e66a778a452d221f6c6e1b2cf8a65d10de053b116ca109bf1a",
+    "boot_diagnostic": "21d113b6fa64c4d7a98f84c0f633363db93e77f96cbd9192cd22b35ab5ed52de",
+    "runtime_exact_candidate": "69a50017846c7ae33199464cf1f651eb7d0c20fe359f45c3d92d731356a681da"
+  },
+  "tests_passed": 6,
+  "hardware": "NOT_RUN_USER_DEFERRED_UNTIL_AFTER_RELEASE",
+  "publication_conditions": [
+    "Final source snapshot must reproduce the exact audited target and cumulative BPS.",
+    "Actual final ZIP applier and full public asset/tree checks must pass before publication.",
+    "Remote asset download/application verification belongs to the publication stage."
+  ],
+  "limits": [
+    "Inventory latency is not strict baseline parity: documented short +1/-1 and held-direction differences remain.",
+    "561 mixed-reader bindings excluded; no full-game, all-device or all-save guarantee.",
+    "Actual hardware not run.",
+    "This independent reviewer did not perform final archive packaging or remote publication."
+  ]
+}
