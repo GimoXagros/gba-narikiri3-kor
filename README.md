@@ -6,7 +6,7 @@
 
 짜알님의 기존 한국어화 1.1을 계승해 Xagros가 진행하는 프로젝트입니다. 기존 제작자 표기와 크레딧, 로고 attribution, 폰트·도구 라이선스 고지를 유지합니다.
 
-**v1.3b는 아이템·도감 설명과 안내문의 반각 공백·줄바꿈을 보완하고 목록 전환을 최적화한 16MiB 누적 BPS입니다.** 일본판 B3TJ에 한 번 적용합니다. 최종 후보의 CPU·두 PC 코어 검증은 완료했으며, 공개 패키지와 배포 검증은 진행 중입니다.
+**v1.3b는 아이템·도감 설명과 안내문의 반각 공백·줄바꿈을 보완하고 목록 전환을 최적화한 16MiB 누적 BPS입니다.** 일본판 B3TJ에 한 번 적용합니다. CPU·두 PC 코어·소스 재현·패키지 검증을 통과했습니다. 실기 검수는 사용자 요청에 따라 배포 후 진행합니다.
 
 - [v1.3b 릴리스 페이지](https://github.com/GimoXagros/gba-narikiri3-kor/releases/tag/v1.3b) — 최종 검증 통과
 - [변경 내역](docs/RELEASE_NOTES_V1_3B.md) · [적용 안내](docs/RELEASE_README_V1_3B.md) · [검증 범위](docs/FINAL_VALIDATION_V1_3B.md)
