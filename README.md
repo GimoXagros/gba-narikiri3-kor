@@ -6,12 +6,17 @@
 
 짜알님의 기존 한국어화 1.1을 계승해 Xagros가 진행하는 프로젝트입니다. 기존 제작자 표기와 크레딧, 로고 attribution, 폰트·도구 라이선스 고지를 유지합니다.
 
+**v1.3b는 아이템·도감 설명과 안내문의 반각 공백·줄바꿈을 보완하고 목록 전환을 최적화한 16MiB 누적 BPS입니다.** 일본판 B3TJ에 한 번 적용합니다. 최종 후보의 CPU·두 PC 코어 검증은 완료했으며, 공개 패키지와 배포 검증은 진행 중입니다.
+
+- [v1.3b 릴리스 페이지](https://github.com/GimoXagros/gba-narikiri3-kor/releases/tag/v1.3b) — 공개 준비 중
+- [변경 내역](docs/RELEASE_NOTES_V1_3B.md) · [적용 안내](docs/RELEASE_README_V1_3B.md) · [검증 범위](docs/FINAL_VALIDATION_V1_3B.md)
+
+아래는 이전 공개 버전 기록입니다.
+
 **v1.3a는 16MiB를 유지하며 반각 공백, 대화 줄바꿈과 메뉴 가독성을 개선한 누적 BPS입니다.** 일본판 B3TJ에 한 번 적용하세요. 이번 후보의 실기 검수는 사용자 요청에 따라 배포 후 진행합니다.
 
 - [v1.3a 패치와 안내 다운로드](https://github.com/GimoXagros/gba-narikiri3-kor/releases/tag/v1.3a)
 - [변경 내역](docs/RELEASE_NOTES_V1_3A.md) · [적용 안내](docs/RELEASE_README_V1_3A.md) · [검증 범위](docs/FINAL_VALIDATION_V1_3A.md)
-
-아래는 이전 공개 버전 기록입니다.
 
 **v1.3은16MiB 결과를 만드는 누적 BPS입니다.** 맵 목록·지역명·갈아입기 표시와 메뉴 가독성을 수정하고 기존 번역·표기·성능 최적화를 유지합니다. 일본판 B3TJ 원본에 한 번 적용하세요. 전체 게임·모든 분기 또는 모든 기종 호환을 보증하지 않습니다.
 

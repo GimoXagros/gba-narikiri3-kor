@@ -1,0 +1,103 @@
+.syntax unified
+.cpu arm7tdmi
+.thumb
+.text
+.global rows
+.thumb_func
+rows:
+ ldr r7,=lut
+ mov r2,sp
+ ldrb r3,[r0,#0]
+ lsls r6,r3,#28
+ lsrs r6,#27
+ ldrh r6,[r7,r6]
+ lsrs r3,#4
+ lsls r3,#1
+ ldrh r3,[r7,r3]
+ lsls r3,#16
+ orrs r6,r3
+ orrs r6,r1
+ stmia r2!,{r6}
+ ldrb r3,[r0,#1]
+ lsls r6,r3,#28
+ lsrs r6,#27
+ ldrh r6,[r7,r6]
+ lsrs r3,#4
+ lsls r3,#1
+ ldrh r3,[r7,r3]
+ lsls r3,#16
+ orrs r6,r3
+ orrs r6,r1
+ stmia r2!,{r6}
+ ldrb r3,[r0,#2]
+ lsls r6,r3,#28
+ lsrs r6,#27
+ ldrh r6,[r7,r6]
+ lsrs r3,#4
+ lsls r3,#1
+ ldrh r3,[r7,r3]
+ lsls r3,#16
+ orrs r6,r3
+ orrs r6,r1
+ stmia r2!,{r6}
+ ldrb r3,[r0,#3]
+ lsls r6,r3,#28
+ lsrs r6,#27
+ ldrh r6,[r7,r6]
+ lsrs r3,#4
+ lsls r3,#1
+ ldrh r3,[r7,r3]
+ lsls r3,#16
+ orrs r6,r3
+ orrs r6,r1
+ stmia r2!,{r6}
+ ldrb r3,[r0,#4]
+ lsls r6,r3,#28
+ lsrs r6,#27
+ ldrh r6,[r7,r6]
+ lsrs r3,#4
+ lsls r3,#1
+ ldrh r3,[r7,r3]
+ lsls r3,#16
+ orrs r6,r3
+ orrs r6,r1
+ stmia r2!,{r6}
+ ldrb r3,[r0,#5]
+ lsls r6,r3,#28
+ lsrs r6,#27
+ ldrh r6,[r7,r6]
+ lsrs r3,#4
+ lsls r3,#1
+ ldrh r3,[r7,r3]
+ lsls r3,#16
+ orrs r6,r3
+ orrs r6,r1
+ stmia r2!,{r6}
+ ldrb r3,[r0,#6]
+ lsls r6,r3,#28
+ lsrs r6,#27
+ ldrh r6,[r7,r6]
+ lsrs r3,#4
+ lsls r3,#1
+ ldrh r3,[r7,r3]
+ lsls r3,#16
+ orrs r6,r3
+ orrs r6,r1
+ stmia r2!,{r6}
+ ldrb r3,[r0,#7]
+ lsls r6,r3,#28
+ lsrs r6,#27
+ ldrh r6,[r7,r6]
+ lsrs r3,#4
+ lsls r3,#1
+ ldrh r3,[r7,r3]
+ lsls r3,#16
+ orrs r6,r3
+ orrs r6,r1
+ stmia r2!,{r6}
+ movs r5,#8
+ bx lr
+.ltorg
+.balign 4
+lut:
+.hword 0x0,0xf,0xf0,0xff,0xf00,0xf0f,0xff0,0xfff,0xf000,0xf00f,0xf0f0,0xf0ff,0xff00,0xff0f,0xfff0,0xffff

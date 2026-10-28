@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": "1.3a",
+  "version": "1.3b",
   "stage": "release-candidate",
-  "rom_file": "ND3_B3TJ_K_v1.3a.gba",
-  "patch_file": "ND3_B3TJ_K_v1.3a_FROM_J.bps",
-  "release_requested": "User authorized v1.3a after scoped virtual QA; physical validation deferred until after release",
+  "rom_file": "ND3_B3TJ_K_v1.3b.gba",
+  "patch_file": "ND3_B3TJ_K_v1.3b_FROM_J.bps",
+  "release_requested": "User authorized v1.3b after scoped virtual QA including frame-delay fixes; physical validation deferred until after release",
   "completion_claim": "Known 5208 dialogue records reviewed; scoped build and runtime verification. No 100% translation, error-free, or full hardware compatibility claim."
 }
