@@ -8,7 +8,7 @@
 
 **v1.3b는 아이템·도감 설명과 안내문의 반각 공백·줄바꿈을 보완하고 목록 전환을 최적화한 16MiB 누적 BPS입니다.** 일본판 B3TJ에 한 번 적용합니다. 최종 후보의 CPU·두 PC 코어 검증은 완료했으며, 공개 패키지와 배포 검증은 진행 중입니다.
 
-- [v1.3b 릴리스 페이지](https://github.com/GimoXagros/gba-narikiri3-kor/releases/tag/v1.3b) — 공개 준비 중
+- [v1.3b 릴리스 페이지](https://github.com/GimoXagros/gba-narikiri3-kor/releases/tag/v1.3b) — 최종 검증 통과
 - [변경 내역](docs/RELEASE_NOTES_V1_3B.md) · [적용 안내](docs/RELEASE_README_V1_3B.md) · [검증 범위](docs/FINAL_VALIDATION_V1_3B.md)
 
 아래는 이전 공개 버전 기록입니다.
