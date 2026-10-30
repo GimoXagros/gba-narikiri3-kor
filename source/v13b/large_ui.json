@@ -1,0 +1,152 @@
+{
+  "source_sha256": "0008712948a3dd570d817bdcb15ec2c3ae3a12bf06d56047882569f091e66968",
+  "writes": [
+    {
+      "offset": 16572675,
+      "expected_hex": "2c8e939361814094b68db7",
+      "payload_hex": "2c8e939361160194b68db7",
+      "binding_id": "review_ui_profile.json:/fields/0:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1435328,
+      "expected_hex": "8b4490ca936c889f81408ed38e938b668fec0a8dd08c4e906281408ef481408ff68fec9084256b",
+      "payload_hex": "8b4490ca936c889f16018ed38e938b668fec178dd08c4e906216018ef416018ff68fec9084256b",
+      "binding_id": "review_ui_profile.json:/fields/1:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1588848,
+      "expected_hex": "25732c814025738140917e90400a8aa78957906c81408fe889829471898e3f",
+      "payload_hex": "25732c160125731601917e9040178aa78957906c16018fe889829471898e3f",
+      "binding_id": "review_ui_profile.json:/fields/8:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1490576,
+      "expected_hex": "92828b5e814090e38ed08ca481409143947791758eba9084",
+      "payload_hex": "92828b5e160190e38ed08ca416019143947791758eba9084",
+      "binding_id": "review_ui_profile.json:/fields/9:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1465260,
+      "expected_hex": "904889828eab8ac0814088a38fc490d290b981408ef481408ff68fec9084",
+      "payload_hex": "904889828eab8ac0160188a38fc490d290b916018ef416018ff68fec9084",
+      "binding_id": "review_ui_profile.json:/fields/10:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1446500,
+      "expected_hex": "253074917e8ada81408b4490ca936c814090f890e38140906e8c81256b256c",
+      "payload_hex": "253074917e8ada16018b4490ca936c160190f890e31601906e8c81256b256c",
+      "binding_id": "review_ui_profile.json:/fields/11:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1742400,
+      "expected_hex": "253074947081408d9881408dd08c4e905f8ce781408e8891458b649084256b256c",
+      "payload_hex": "253074947016018d9816018dd08c4e905f8ce716018e8891458b649084256b256c",
+      "binding_id": "review_ui_profile.json:/fields/12:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1510812,
+      "expected_hex": "25307488df9143946e8eba90848140288a5190b88140256488b129",
+      "payload_hex": "25307488df9143946e8eba90841601288a5190b81601256488b129",
+      "binding_id": "review_ui_profile.json:/fields/13:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1549516,
+      "expected_hex": "8e9390d88ac00a8def8fec814090d48ad721",
+      "payload_hex": "8e9390d88ac0178def8fec160190d48ad721",
+      "binding_id": "review_ui_profile.json:/fields/14:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1549516,
+      "expected_hex": "8e9390d88ac00a8def8fec814090d48ad721",
+      "payload_hex": "8e9390d88ac0178def8fec160190d48ad721",
+      "binding_id": "review_ui_profile.json:/fields/15:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1446092,
+      "expected_hex": "9048914390c58140904c8ee68ca481408ff08ff88ad721",
+      "payload_hex": "9048914390c51601904c8ee68ca416018ff08ff88ad721",
+      "binding_id": "review_ui_profile.json:/fields/16:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1394896,
+      "expected_hex": "8d4d904081408dbe90cc81408cb48d9d90ca814088c78c60814090d48ad70a9196897c90b88140904c81408ef481408ff68ad7",
+      "payload_hex": "8d4d904016018dbe90cc16018cb48d9d90ca160188c78c60160190d48ad7179196897c90b81601904c16018ef416018ff68ad7",
+      "binding_id": "review_ui_profile.json:/fields/17:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1466364,
+      "expected_hex": "93ad89828c6d81408d7890a58ca481408dcc8ef8898e90843f",
+      "payload_hex": "93ad89828c6d16018d7890a58ca416018dcc8ef8898e90843f",
+      "binding_id": "review_ui_profile.json:/fields/18:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1745740,
+      "expected_hex": "949690e5814093be81408ef48c6d0a934b8cac8fec947181408ef481408ff68ad7",
+      "payload_hex": "949690e5160193be16018ef48c6d17934b8cac8fec947116018ef416018ff68ad7",
+      "binding_id": "review_ui_profile.json:/fields/24:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1391444,
+      "expected_hex": "8d6b8a49934b81408cb490b98c6d81408b588fc4889f0a90e58b5490fa9471898e90843f",
+      "payload_hex": "8d6b8a49934b16018cb490b98c6d16018b588fc4889f1790e58b5490fa9471898e90843f",
+      "binding_id": "review_ui_profile.json:/fields/25:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1474764,
+      "expected_hex": "8fc4919781408cf681408cb68a548f5f8acd8ad7256b",
+      "payload_hex": "8fc4919716018cf616018cb68a548f5f8acd8ad7256b",
+      "binding_id": "review_ui_profile.json:/fields/26:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1396116,
+      "expected_hex": "253074256c90f890e38140917e81630a90fa909890b9814089f2919681408cb48eba9084",
+      "payload_hex": "253074256c90f890e31601917e81631790fa909890b9160189f2919616018cb48eba9084",
+      "binding_id": "review_ui_profile.json:/fields/27:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1079352,
+      "expected_hex": "253074256c8ed091968140917e90cc8140906990c50a8ac78c61929f81408b8e90b9814094ac90cc947181408ef4814090d48f5f8acd8ad7",
+      "payload_hex": "253074256c8ed091961601917e90cc1601906990c5178ac78c61929f16018b8e90b9160194ac90cc947116018ef4160190d48f5f8acd8ad7",
+      "binding_id": "review_ui_profile.json:/fields/28:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1358588,
+      "expected_hex": "253074256c91f6908b8140917e90cc8140906990b90a88a38fc490d290b981408ef4814090d48f5f8acd8ad7",
+      "payload_hex": "253074256c91f6908b1601917e90cc1601906990b91788a38fc490d290b916018ef4160190d48f5f8acd8ad7",
+      "binding_id": "review_ui_profile.json:/fields/31:",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1843572,
+      "expected_hex": "253074256c25732c257390c50a906990b981408dad88e4947181408ef4814090d48fec9084",
+      "payload_hex": "253074256c25732c257390c517906990b916018dad88e4947116018ef4160190d48fec9084",
+      "binding_id": "direct-costume-help-d3664",
+      "reason": "reviewed UI prose"
+    },
+    {
+      "offset": 1843612,
+      "expected_hex": "253074256c257390c50a906990b981408dad88e4947181408ef4814090d48fec9084",
+      "payload_hex": "253074256c257390c517906990b916018dad88e4947116018ef4160190d48fec9084",
+      "binding_id": "direct-costume-help-d3644",
+      "reason": "reviewed UI prose"
+    }
+  ]
+}

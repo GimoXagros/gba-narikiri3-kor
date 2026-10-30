@@ -1,0 +1,219 @@
+{
+  "writes": [
+    {
+      "binding_id": "forwarded-large:0x1471d4",
+      "offset": 1339860,
+      "before_hex": "8dad88e481408dd0889f814090e38ed090d28acd8ad7",
+      "payload_hex": "8dad88e416018dd0889f160190e38ed090d28acd8ad7",
+      "consumer": "0x1660",
+      "call": "0xa8f16",
+      "text_before": "변경　불가　장소입니다",
+      "text_after": "변경{BYTE:16}{BYTE:01}불가{BYTE:16}{BYTE:01}장소입니다",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147214",
+      "offset": 1339924,
+      "before_hex": "90f890e3814094c28140915d8c819471898e90843f",
+      "payload_hex": "90f890e3160194c21601915d8c819471898e90843f",
+      "consumer": "0x1660",
+      "call": "0xa8fae",
+      "text_before": "저장　후　종료할까요?",
+      "text_after": "저장{BYTE:16}{BYTE:01}후{BYTE:16}{BYTE:01}종료할까요?",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147374",
+      "offset": 1340276,
+      "before_hex": "2573814094a38bf38e939361",
+      "payload_hex": "2573160194a38bf38e939361",
+      "consumer": "0x1660",
+      "call": "0xab970",
+      "text_before": "%s　혼란상태",
+      "text_after": "%s{BYTE:16}{BYTE:01}혼란상태",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x14744c",
+      "offset": 1340492,
+      "before_hex": "8e9390d88ac00a8177257381788ad721",
+      "payload_hex": "8e9390d88ac0178177257381788ad721",
+      "consumer": "0x1660",
+      "call": "0xae9f8",
+      "text_before": "상자는\n『%s』다!",
+      "text_after": "상자는{BYTE:17}『%s』다!",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147464",
+      "offset": 1340516,
+      "before_hex": "8177257381780a8ff08ff88ad721",
+      "payload_hex": "817725738178178ff08ff88ad721",
+      "consumer": "0x1660",
+      "call": "0xaeac0",
+      "text_before": "『%s』\n얻었다!",
+      "text_after": "『%s』{BYTE:17}얻었다!",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x1474dc",
+      "offset": 1340636,
+      "before_hex": "2564814088a38b858ca481408ff08ff88ad721",
+      "payload_hex": "2564160188a38b858ca416018ff08ff88ad721",
+      "consumer": "0x1660",
+      "call": "0xaeff0",
+      "text_before": "%d　갈드를　얻었다!",
+      "text_after": "%d{BYTE:16}{BYTE:01}갈드를{BYTE:16}{BYTE:01}얻었다!",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147dc0",
+      "offset": 1342912,
+      "before_hex": "93ad89828c6d81408d4d90b98140904c898e90843f",
+      "payload_hex": "93ad89828c6d16018d4d90b91601904c898e90843f",
+      "consumer": "0x1660",
+      "call": "0xb0eda",
+      "text_before": "특기로　문을　열까요?",
+      "text_after": "특기로{BYTE:16}{BYTE:01}문을{BYTE:16}{BYTE:01}열까요?",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147dd8",
+      "offset": 1342936,
+      "before_hex": "90d88d4f8ee681408b9b88b181408eba93ac8ca481408e87908b94770a8d4d90b98140904c898e90843f",
+      "payload_hex": "90d88d4f8ee616018b9b88b116018eba93ac8ca416018e87908b9477178d4d90b91601904c898e90843f",
+      "consumer": "0x1660",
+      "call": "0xb0f08",
+      "text_before": "자물쇠　따개　세트를　사용해\n문을　열까요?",
+      "text_after": "자물쇠{BYTE:16}{BYTE:01}따개{BYTE:16}{BYTE:01}세트를{BYTE:16}{BYTE:01}사용해{BYTE:17}문을{BYTE:16}{BYTE:01}열까요?",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147e04",
+      "offset": 1342980,
+      "before_hex": "8d4d90b8814090df88da814090d48ad7",
+      "payload_hex": "8d4d90b8160190df88da160190d48ad7",
+      "consumer": "0x1660",
+      "call": "0xb0f74",
+      "text_before": "문은　잠겨　있다",
+      "text_after": "문은{BYTE:16}{BYTE:01}잠겨{BYTE:16}{BYTE:01}있다",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147e2c",
+      "offset": 1343020,
+      "before_hex": "8d4d90b8814090df88da814090d48ad70a8db6938b8140904c8ee68c6d8140904c8cac919681408fc88ac0814088cb814088ae8ad7",
+      "payload_hex": "8d4d90b8160190df88da160190d48ad7178db6938b1601904c8ee68c6d1601904c8cac919616018fc88ac0160188cb160188ae8ad7",
+      "consumer": "0x1660",
+      "call": "0xb1fa2",
+      "text_before": "문은　잠겨　있다\n보통　열쇠로　열리지　않는　것　같다",
+      "text_after": "문은{BYTE:16}{BYTE:01}잠겨{BYTE:16}{BYTE:01}있다{BYTE:17}보통{BYTE:16}{BYTE:01}열쇠로{BYTE:16}{BYTE:01}열리지{BYTE:16}{BYTE:01}않는{BYTE:16}{BYTE:01}것{BYTE:16}{BYTE:01}같다",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147e64",
+      "offset": 1343076,
+      "before_hex": "88eb8ae990c58140904c8ee68ca481408e87908b94770a8d4d90b98140904c898e90843f",
+      "payload_hex": "88eb8ae990c51601904c8ee68ca416018e87908b9477178d4d90b91601904c898e90843f",
+      "consumer": "0x1660",
+      "call": "0xb1fb8",
+      "text_before": "고대의　열쇠를　사용해\n문을　열까요?",
+      "text_after": "고대의{BYTE:16}{BYTE:01}열쇠를{BYTE:16}{BYTE:01}사용해{BYTE:17}문을{BYTE:16}{BYTE:01}열까요?",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147efc",
+      "offset": 1343228,
+      "before_hex": "8b589040814090628bf1935a898e90843f",
+      "payload_hex": "8b589040160190628bf1935a898e90843f",
+      "consumer": "0x1660",
+      "call": "0xb2b86",
+      "text_before": "돌에　올라탈까요?",
+      "text_after": "돌에{BYTE:16}{BYTE:01}올라탈까요?",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147f44",
+      "offset": 1343300,
+      "before_hex": "8d7890a5889f81408cb588eb814090d48ad7",
+      "payload_hex": "8d7890a5889f16018cb588eb160190d48ad7",
+      "consumer": "0x1660",
+      "call": "0xbccea",
+      "text_before": "바위가　막고　있다",
+      "text_after": "바위가{BYTE:16}{BYTE:01}막고{BYTE:16}{BYTE:01}있다",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147f98",
+      "offset": 1343384,
+      "before_hex": "8d4d90ca814090df88da814090d48ad70a8db6938b8140904c8ee68c6d8ac08140904c8cac919681408fc88ac08ad7",
+      "payload_hex": "8d4d90ca160190df88da160190d48ad7178db6938b1601904c8ee68c6d8ac01601904c8cac919616018fc88ac08ad7",
+      "consumer": "0x1660",
+      "call": "0xc1958",
+      "text_before": "문이　잠겨　있다\n보통　열쇠로는　열리지　않는다",
+      "text_after": "문이{BYTE:16}{BYTE:01}잠겨{BYTE:16}{BYTE:01}있다{BYTE:17}보통{BYTE:16}{BYTE:01}열쇠로는{BYTE:16}{BYTE:01}열리지{BYTE:16}{BYTE:01}않는다",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x148978",
+      "offset": 1345912,
+      "before_hex": "257390408eab814092558ef494770a904b89578ed08c6d814088a78acd8ad7",
+      "payload_hex": "257390408eab160192558ef4947717904b89578ed08c6d160188a78acd8ad7",
+      "consumer": "0x1660",
+      "call": "0xc5da6",
+      "text_before": "%s에서　철수해\n연구소로　갑니다",
+      "text_after": "%s에서{BYTE:16}{BYTE:01}철수해{BYTE:17}연구소로{BYTE:16}{BYTE:01}갑니다",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x1489ac",
+      "offset": 1345964,
+      "before_hex": "8d6b8ec581408f6693ce0a904b89578ed08c6d81408b588fc488a78acd8ad7256b",
+      "payload_hex": "8d6b8ec516018f6693ce0a904b89578ed08c6d16018b588fc488a78acd8ad7256b",
+      "consumer": "0x1660",
+      "call": "0xc6002",
+      "text_before": "미션　실패\n연구소로　돌아갑니다%k",
+      "text_after": "미션{BYTE:16}{BYTE:01}실패\n연구소로{BYTE:16}{BYTE:01}돌아갑니다%k",
+      "lf_exception": "mission-failure heading and explanation"
+    },
+    {
+      "binding_id": "forwarded-large:0x147238",
+      "offset": 1339960,
+      "before_hex": "257393be90ca81409473914390b981409466947e8ad7",
+      "payload_hex": "257393be90ca16019473914390b916019466947e8ad7",
+      "consumer": "0x1660",
+      "call": "0xa9322",
+      "text_before": "%s팀이　함정을　피했다",
+      "text_after": "%s팀이{BYTE:16}{BYTE:01}함정을{BYTE:16}{BYTE:01}피했다",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x147f78",
+      "offset": 1343352,
+      "before_hex": "94ef8cbf90c58140904c8ee68ca481408ff08ff88ad7",
+      "payload_hex": "94ef8cbf90c51601904c8ee68ca416018ff08ff88ad7",
+      "consumer": "0x1660",
+      "call": "0xc131a",
+      "text_before": "희망의　열쇠를　얻었다",
+      "text_after": "희망의{BYTE:16}{BYTE:01}열쇠를{BYTE:16}{BYTE:01}얻었다",
+      "lf_exception": null
+    },
+    {
+      "binding_id": "forwarded-large:0x1474c4",
+      "offset": 1340612,
+      "before_hex": "8177257381780a90d28ef4947e8ad721",
+      "payload_hex": "8177257381781790d28ef4947e8ad721",
+      "consumer": "0x1660",
+      "call": "0xaefd0",
+      "text_before": "『%s』\n입수했다!",
+      "text_after": "『%s』{BYTE:17}입수했다!",
+      "lf_exception": null
+    }
+  ],
+  "preserved_rows": [
+    {
+      "offset": 1345960,
+      "reason": "Wait/control followed by empty line; not a prose separator."
+    }
+  ]
+}

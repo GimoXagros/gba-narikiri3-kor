@@ -1,0 +1,1 @@
+SECTIONS { .guard 0x08fbcf64 : { *(.guard) } .draw 0x08fbbee0 : { *(.draw) } ASSERT(SIZEOF(.guard)<=156,"guard") ASSERT(SIZEOF(.draw)<=144,"draw") }

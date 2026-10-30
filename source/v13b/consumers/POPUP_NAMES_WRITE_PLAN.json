@@ -1,0 +1,14 @@
+{
+  "writes": [
+    {
+      "offset": 16497196,
+      "before_hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "payload_hex": "f0b504000d00394a13680432002b4fd0a342f9d16f68364a974249d3354a974246d80022bb5c002b03d001323f2af9d33ee094b06e460fcd0fc66846466000253a780137002a2cd0802a10d2202a07d1002d05d03b78002b02d0202b00d01722327001360025202aead00125e8e73b780137812a10d1402b0ed1002d0ad03878002807d0812802d17878402802d01622012301e0002500e00125327073700236cee732702000694600f009f814b003e02000290000f003f8f0bc01bc004710b503000a1d0c4c0d480047c046747314084c74140864741408b08814087889140838721408c474140800000000f8bafb0800000008c0ffff086814000349160008"
+    },
+    {
+      "offset": 5696,
+      "before_hex": "10b5031c0a1d054c",
+      "payload_hex": "004b18472dbafb08"
+    }
+  ]
+}
