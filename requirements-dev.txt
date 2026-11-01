@@ -1,5 +1,5 @@
 pillow==13.0.0
 numpy==2.5.4
 capstone==5.0.9
-fonttools==4.67.0
+fonttools==4.68.0
 unicorn==2.1.4
