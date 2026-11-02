@@ -6,10 +6,12 @@
 
 짜알님의 기존 한국어화 1.1을 계승해 Xagros가 진행하는 프로젝트입니다. 기존 제작자 표기와 크레딧, 로고 attribution, 폰트·도구 라이선스 고지를 유지합니다.
 
-**v1.3b는 아이템·도감 설명과 안내문의 반각 공백·줄바꿈을 보완하고 목록 전환을 최적화한 16MiB 누적 BPS입니다.** 일본판 B3TJ에 한 번 적용합니다. CPU·두 PC 코어·소스 재현·패키지 검증을 통과했습니다. 실기 검수는 사용자 요청에 따라 배포 후 진행합니다.
+**v1.3b 프리릴리즈는 아이템·도감 설명과 안내문의 반각 공백·줄바꿈을 보완하고 목록 전환을 최적화한 16MiB 누적 BPS입니다.** 일본판 B3TJ에 한 번 적용합니다. CPU·두 PC 코어·소스 재현·패키지 검증을 통과했습니다. 실기 검수는 사용자 요청에 따라 배포 후 진행합니다.
 
-- [v1.3b 릴리스 페이지](https://github.com/GimoXagros/gba-narikiri3-kor/releases/tag/v1.3b) — 최종 검증 통과
+- [v1.3b 릴리스 페이지](https://github.com/GimoXagros/gba-narikiri3-kor/releases/tag/v1.3b) — 2026-10-30 공개 프리릴리즈
 - [변경 내역](docs/RELEASE_NOTES_V1_3B.md) · [적용 안내](docs/RELEASE_README_V1_3B.md) · [검증 범위](docs/FINAL_VALIDATION_V1_3B.md)
+
+`ND3_Korean_v1.3b.zip`을 새 폴더에 모두 푼 뒤, 그 폴더에서 [적용 안내](docs/RELEASE_README_V1_3B.md)의 명령을 실행하세요. 패치·적용기·명세를 함께 두어야 합니다. 최신 정식 릴리스는 [v1.3](https://github.com/GimoXagros/gba-narikiri3-kor/releases/tag/v1.3)이며 v1.3a와 v1.3b는 프리릴리즈입니다.
 
 아래는 이전 공개 버전 기록입니다.
 
